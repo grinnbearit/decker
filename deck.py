@@ -6,22 +6,17 @@ import itertools as it
 def read_cards(deck_file):
     """reada a csv deck file and returns a list of (filname, count) tuples"""
     with open(deck_file, "r") as deck_fp:
-        deck_reader = csv.reader(deck_fp)
-        cards = []
-        for (card, count) in deck_reader:
-            cards.append((card, int(count)))
-        return cards
+        return [(card, int(count)) for (card, count)
+                in csv.reader(deck_fp)]
 
 
 def resize(size):
     """given a (width, height) tuple, returns a new tuple with a size proportional to 63:88"""
     (width, height) = size
+    semip = width + height
 
-    if width % 63 == 0 and height % 88 == 0:
-        return (width, height)
-
-    new_width = ((width / 63) + 1) * 63
-    new_height = ((height / 88) + 1) * 88
+    new_width = int(semip * 63.0/151.0)
+    new_height = int(semip * 88.0/151.0)
 
     return (new_width, new_height)
 
@@ -46,8 +41,9 @@ def load_images(cards, size=None):
 
     return images
 
-
-def layout(images, dimensions=(5, 5)):
+# A3 landscape view, 3x6
+# A4 portrait  view, 3x3
+def layout(images, dimensions=(3, 6)):
     """lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
 
     returns an array of new image sheets, assumes all passed cards are the same size"""
@@ -63,15 +59,18 @@ def layout(images, dimensions=(5, 5)):
     sheets = []
     for chunk in chunks:
         sheet = Image.new("RGB", (width * cols, height * rows), "white")
+
         for (idx, image) in zip(range(cards_per_sheet), chunk):
             row = idx / cols
             col = idx % cols
             sheet.paste(image, (width * col, height * row))
+
         sheets.append(sheet)
+
     return sheets
 
-
 if __name__ == "__main__":
+
     if len(sys.argv) < 3:
         print "The deck and output files are required arguments"
         sys.exit(0)
@@ -85,6 +84,7 @@ if __name__ == "__main__":
 
     if len(sheets) == 1:
         sheets[0].save(output)
+
     else:
         for idx in range(len(sheets)):
-            sheets[idx].save("%d_%s" % (idx, output))
+            sheets[idx].save("%03d_%s" % (idx, output))
