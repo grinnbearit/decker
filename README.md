@@ -4,17 +4,17 @@ Generates image sheets for printing card games like [Magic the Gathering](http:/
 
 ## Usage
 
-`python deck.py <deck.csv> <output.png>`
+`python gendeck.py -d <deck.csv> -o <output.png>`
 
 
 If there are multiple sheets generated, they'll be saved as `0_output.png`, `1_output.png` etc
 
 ### Decks
 
-Decks should be csv files with rows `(path_to_card_image, number_of_copies)`
+Decks should be csv files with rows `(number_of_copies, card_name)`
 
 ## License
 
-Copyright © 2015 Sidhant Godiwala (grinnbearit)
+Copyright © 2017 Sidhant Godiwala (grinnbearit)
 
 Distributed under the Eclipse Public License, the same as Clojure.
