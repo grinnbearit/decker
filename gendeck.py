@@ -8,6 +8,7 @@ import itertools as it
 from scrapy import Selector
 
 
+# Card Back https://i.imgur.com/P7qYTcI.png
 def fetch(card, edition=None):
     """
     returns the most likely image url for the passed card
@@ -65,8 +66,19 @@ def load_images(cards, size=None):
 
     return images
 
-# A3 landscape view, 3x6
-# A4 portrait  view, 3x3
+
+def dimensions(sheet):
+    """
+    translates a sheet type into (rows, columns)
+    """
+    formats = {"A3": (3, 6),
+               "A4": (3, 3),
+               "TTS": (7, 10)}
+    if sheet in formats:
+        return formats[sheet]
+    raise Exception("Unsupported format")
+
+
 def layout(images, dimensions=(3, 6)):
     """lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
 
@@ -101,11 +113,15 @@ if __name__ == "__main__":
     parser.add_argument('-o', "--output",
                         help="image output",
                         required=True)
+    parser.add_argument('-s', "--sheet",
+                        help="A3/A4/TTS",
+                        default="A3")
     args = parser.parse_args()
 
+    dims = dimensions(args.sheet)
     cards = read_deck(args.deck)
     images = load_images(cards)
-    sheets = layout(images)
+    sheets = layout(images, dims)
 
     if len(sheets) == 1:
         sheets[0].save(args.output)

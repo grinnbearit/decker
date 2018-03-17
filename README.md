@@ -4,14 +4,14 @@ Generates image sheets for printing card games like [Magic the Gathering](http:/
 
 ## Usage
 
-`python gendeck.py -d <deck.csv> -o <output.png>`
+`python gendeck.py [-s <sheet type>] -d <deck.csv> -o <output.png>`
 
 
 If there are multiple sheets generated, they'll be saved as `0_output.png`, `1_output.png` etc
 
 ### Decks
 
-Decks should be csv files with rows `(number_of_copies, card_name)`
+Decks should be csv files with rows `(number_of_copies, card_name [, edition])`
 
 ## License
 
