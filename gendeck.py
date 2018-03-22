@@ -1,29 +1,16 @@
 import re
 import sys
 import csv
+import time
 import argparse
-from PIL import Image
 import requests as r
+from PIL import Image
 import itertools as it
-from scrapy import Selector
-
-
-# Card Back https://i.imgur.com/P7qYTcI.png
-def fetch(card, edition=None):
-    """
-    returns the most likely image url for the passed card
-    """
-    base = "https://magiccards.info"
-    query = card + " e:" + edition if edition else card
-    response = r.get(base + "/query", params={"q": query, "s": "edition"})
-    src = Selector(text=response.text).xpath("//td/img[@style='border: 1px solid black;']/@src").extract()[0]
-    url = base + src
-    return url
 
 
 def read_deck(deck_file):
     """
-    reads a csv deck file and returns a list of (count, url) tuples
+    reads a csv deck file and returns a list of (count, card, edition) tuples
     """
     acc = []
     with open(deck_file, "r") as fp:
@@ -31,39 +18,72 @@ def read_deck(deck_file):
         for row in reader:
             count_str, card = row[:2]
             edition = None if len(row) == 2 else row[2]
-            acc.append((int(count_str), fetch(card, edition)))
+            acc.append((int(count_str), card, edition))
     return acc
 
 
+def check_card(card, edition):
+    """
+    returns True if the card is found on scryfall, else False
+    """
+    response = r.head("https://api.scryfall.com/cards/named",
+                      params={"exact": card, "set": edition})
+    return response.ok
+
+
+def check_deck(cards):
+    """
+    returns a list of missing cards, if none are missing
+    returns an empty list
+    """
+    acc = []
+    for (_, card, edition) in cards:
+        if not check_card(card, edition):
+            acc.append((card, edition))
+        time.sleep(0.050)       # Time between requests
+    return acc
+
+
+def fetch_card(card, edition):
+    """
+    returns the Image object for the card/edition
+    """
+    response = r.get("https://api.scryfall.com/cards/named",
+                     params={"exact": card, "set": edition,
+                             "format": "image", "version": "png"},
+                     stream=True)
+    return Image.open(response.raw)
+
+
 def resize(size):
-    """given a (width, height) tuple, returns a new tuple with a size proportional to 63:88"""
+    """
+    given a (width, height) tuple, returns a new tuple with a size proportional to 63:88
+    """
     (width, height) = size
     semip = width + height
 
     new_width = int(semip * 63.0/151.0)
     new_height = int(semip * 88.0/151.0)
-
     return (new_width, new_height)
 
 
-def load_images(cards, size=None):
+def fetch_deck(cards, size=None):
     """
-    coverts the card list into a list of images with the passed size
+    coverts the deck into a list of images of the passed size,
     if the size is not passed, takes it from the first card
     """
-    base_card = Image.open(r.get(cards[0][1], stream=True).raw)
+    base_card = fetch_card(cards[0][1], cards[0][2])
     size = size or base_card.size
-
     size = resize(size)
 
     images = []
-    for (count, url) in cards:
-        image = Image.open(r.get(url, stream=True).raw)
+    for (count, card,  edition) in cards:
+        image = fetch_card(card, edition)
         image = image.resize(size)
         images.append(image)
-        for x in range(1, count):
+        for _ in range(1, count):
             images.append(image.copy())
-
+        time.sleep(0.050)       # Time between requests
     return images
 
 
@@ -80,9 +100,10 @@ def dimensions(sheet):
 
 
 def layout(images, dimensions=(3, 6)):
-    """lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
-
-    returns an array of new image sheets, assumes all passed cards are the same size"""
+    """
+    lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
+    returns an array of new image sheets, assumes all passed cards are the same size
+    """
 
     card = images[0]
     (width, height) = card.size
@@ -97,13 +118,14 @@ def layout(images, dimensions=(3, 6)):
         sheet = Image.new("RGB", (width * cols, height * rows), "white")
 
         for (idx, image) in zip(range(cards_per_sheet), chunk):
-            row = idx / cols
+            row = idx // cols
             col = idx % cols
             sheet.paste(image, (width * col, height * row))
 
         sheets.append(sheet)
 
     return sheets
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -116,16 +138,28 @@ if __name__ == "__main__":
     parser.add_argument('-s', "--sheet",
                         help="A3/A4/TTS",
                         default="A3")
+    parser.add_argument('-t', '--test',
+                        help="test deck",
+                        action="store_true")
     args = parser.parse_args()
 
-    dims = dimensions(args.sheet)
     cards = read_deck(args.deck)
-    images = load_images(cards)
-    sheets = layout(images, dims)
 
-    if len(sheets) == 1:
-        sheets[0].save(args.output)
-
+    if args.test:
+        missing_cards = check_deck(cards)
+        if missing_cards:
+            print("{0} missing".format(len(missing_cards)))
+            for (card, edition) in missing_cards:
+                print("{0}, {1}".format(card, edition))
+        else:
+            print("OK")
     else:
-        for idx in range(len(sheets)):
-            sheets[idx].save("%03d_%s" % (idx, args.output))
+        dims = dimensions(args.sheet)
+        images = fetch_deck(cards)
+        sheets = layout(images, dims)
+
+        if len(sheets) == 1:
+            sheets[0].save(args.output)
+        else:
+            for idx in range(len(sheets)):
+                sheets[idx].save("%03d_%s" % (idx, args.output))
