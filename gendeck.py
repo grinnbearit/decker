@@ -127,6 +127,21 @@ def layout(images, dimensions=(3, 6)):
     return sheets
 
 
+def fetch_back(filename):
+    back = Image.open(filename)
+    return back
+
+
+def layout_backs(back, dimensions=(3, 6)):
+    (width, height) = back.size
+    (rows, cols) = dimensions
+    sheet = Image.new("RGB", (width * cols, height * rows), "white")
+    for row in range(rows):
+        for col in range(cols):
+            sheet.paste(back, (width * col, height * row))
+    return sheet
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--deck',
@@ -141,6 +156,10 @@ if __name__ == "__main__":
     parser.add_argument('-t', '--test',
                         help="test deck",
                         action="store_true")
+    parser.add_argument('-b', '--back',
+                        help="add sheet of backs",
+                        action="store_true")
+
     args = parser.parse_args()
 
     cards = read_deck(args.deck)
@@ -163,3 +182,8 @@ if __name__ == "__main__":
         else:
             for idx in range(len(sheets)):
                 sheets[idx].save("%03d_%s" % (idx, args.output))
+
+        if args.back:
+            back = fetch_back("back.png")
+            sheet = layout_backs(back, dims)
+            sheet.save("back_%s" % args.output)
