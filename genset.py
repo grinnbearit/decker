@@ -6,16 +6,16 @@ import requests as r
 from PIL import Image
 
 
-def check_set(code):
+def check_set(edition):
     """
     given the 3 letter code for a set, returns True if the set is found on
     scryfall, else False
     """
-    response = r.head("https://api.scryfall.com/sets/{}".format(code))
+    response = r.head("https://api.scryfall.com/sets/{}".format(edition))
     return response.ok
 
 
-def fetch_set(code):
+def fetch_set(edition):
     """
     given the 3 letter code for a set, returns a list of cards
     """
@@ -25,7 +25,7 @@ def fetch_set(code):
     while True:
         response = r.get("https://api.scryfall.com/cards/search",
                          params={"order": "set",
-                                 "q": "e:{}".format(code),
+                                 "q": "e:{}".format(edition),
                                  "unique": "prints",
                                  "page": page})
         data = response.json()
@@ -82,19 +82,19 @@ def write_index(filename, cards):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--code',
-                        help="3 letter set code",
+    parser.add_argument('-e', '--edition',
+                        help="3 letter edition code",
                         required=True)
 
     args = parser.parse_args()
 
-    if not check_set(args.code):
-        print("set {} not found".format(args.code))
+    if not check_set(args.edition):
+        print("set {} not found".format(args.edition))
         exit(1)
 
-    cards = fetch_set(args.code)
+    cards = fetch_set(args.edition)
     images = fetch_deck(cards)
     sheet = layout(images)
 
-    write_index("{}.csv".format(args.code), cards)
-    sheet.save("{}.png".format(args.code))
+    write_index("{}.csv".format(args.edition), cards)
+    sheet.save("{}.png".format(args.edition))
