@@ -28,10 +28,22 @@ def fetch_set(edition):
                                  "unique": "prints",
                                  "page": page})
         data = response.json()
-        cards = [{"name": card["name"],
-                  "rarity": card["rarity"],
-                  "png_uri": card["image_uris"]["png"]}
-                 for card in data["data"]]
+
+        cards = []
+        for card in data["data"]:
+            if card["layout"] == "transform":
+                card_a = card["card_faces"][0]
+                card_b = card["card_faces"][1]
+                cards.append({"name": card_a["name"],
+                              "rarity": card["rarity"],
+                              "png_uri": card_a["image_uris"]["png"]})
+                cards.append({"name": card_b["name"],
+                              "rarity": card["rarity"],
+                              "png_uri": card_b["image_uris"]["png"]})
+            else:
+                cards.append({"name": card["name"],
+                              "rarity": card["rarity"],
+                              "png_uri": card["image_uris"]["png"]})
         acc.extend(cards)
 
         if not data["has_more"]:
