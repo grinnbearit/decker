@@ -1,4 +1,3 @@
-import sys
 import csv
 import time
 import argparse
@@ -29,7 +28,9 @@ def fetch_set(edition):
                                  "unique": "prints",
                                  "page": page})
         data = response.json()
-        cards = [(card["collector_number"], card["name"], card["rarity"], card["image_uris"]["png"])
+        cards = [{"name": card["name"],
+                  "rarity": card["rarity"],
+                  "png_uri": card["image_uris"]["png"]}
                  for card in data["data"]]
         acc.extend(cards)
 
@@ -42,42 +43,68 @@ def fetch_set(edition):
     return acc
 
 
-def fetch_deck(cards):
+def fetch_images(cards):
     """
-    coverts the list of cards into a list of images
+    returns a list of images for the cards in the st
     """
     images = []
     for card in cards:
-        response = r.get(card[3], stream=True)
+        response = r.get(card["png_uri"], stream=True)
         image = Image.open(response.raw)
         images.append(image)
         time.sleep(0.050)       # Time between requests
     return images
 
 
-def layout(images):
+def build_index(cards, images):
     """
-    lays out the cards in a sheet as a single row
+    Given a list of cards and images, returns (index, sheets)
+    with an index pointing to multiple sheets with cards
+    laid out in a 10x10 grid
     """
-    im = images[0]
-    (width, height) = im.size
+    (width, height) = images[0].size
 
-    sheet = Image.new("RGB", (width * len(images), height), "white")
-    for (pos, image) in enumerate(images):
-        sheet.paste(image, (width * pos, 0))
+    index = []
+    sheets = []
+    for (idx, (card, image)) in enumerate(zip(cards, images)):
+        page = idx // 100
+        column = idx % 10
+        row = (idx % 100) // 10
 
-    return sheet
+        if row == 0 and column == 0:
+            if page != 0:
+                sheets.append(sheet)
+            sheet = Image.new("RGB", (width * 10, height * 10), "white")
+
+        index.append({"name": card["name"],
+                      "rarity": card["rarity"],
+                      "page": page,
+                      "column": column,
+                      "row": row})
+
+        sheet.paste(image, (width * column, height * row))
+
+    sheets.append(sheet)
+
+    return (index, sheets)
 
 
-def write_index(filename, cards):
+def write_index(edition, index):
     """
-    creates a csv index of cards
+    writes a csv index of cards named {edition}.csv
     """
-    with open(filename, "w", newline="") as f:
-        idxwriter = csv.writer(f)
-        idxwriter.writerow(["idx", "collector_number", "name", "rarity", "png"])
-        for (idx, card) in enumerate(cards):
-            idxwriter.writerow([idx, card[0], card[1], card[2], card[3]])
+    with open("{}.csv".format(edition), "w", newline="") as f:
+        idxwriter = csv.DictWriter(f, fieldnames=["name", "rarity", "page", "column", "row"])
+        idxwriter.writeheader()
+        idxwriter.writerows(index)
+
+
+def write_sheets(edition, sheets):
+    """
+    writes multiple image sheets named {edition}_{page}.png
+    """
+    for (page, sheet) in enumerate(sheets):
+        sheet.save("{}_{:03d}.png".format(edition, page))
 
 
 if __name__ == "__main__":
@@ -93,8 +120,8 @@ if __name__ == "__main__":
         exit(1)
 
     cards = fetch_set(args.edition)
-    images = fetch_deck(cards)
-    sheet = layout(images)
+    images = fetch_images(cards)
+    (index, sheets) = build_index(cards, images)
 
-    write_index("{}.csv".format(args.edition), cards)
-    sheet.save("{}.png".format(args.edition))
+    write_index(args.edition, index)
+    write_sheets(args.edition, sheets)
