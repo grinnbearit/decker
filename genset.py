@@ -66,25 +66,27 @@ def build_index(cards, images):
 
     index = []
     sheets = []
-    for (idx, (card, image)) in enumerate(zip(cards, images)):
-        page = idx // 100
-        column = idx % 10
-        row = (idx % 100) // 10
 
-        if row == 0 and column == 0:
-            if page != 0:
-                sheets.append(sheet)
-            sheet = Image.new("RGB", (width * 10, height * 10), "white")
+    unchunked = list(zip(range(len(cards)), cards, images))
+    chunks = [unchunked[x:x+100] for x in range(0, len(images), 100)]
 
-        index.append({"name": card["name"],
-                      "rarity": card["rarity"],
-                      "page": page,
-                      "column": column,
-                      "row": row})
+    for chunk in chunks:
+        sheet = Image.new("RGB", (width * 10, height * 10), "white")
 
-        sheet.paste(image, (width * column, height * row))
+        for (idx, card, image) in chunk:
+            page = idx // 100
+            column = idx % 10
+            row = (idx % 100) // 10
 
-    sheets.append(sheet)
+            index.append({"name": card["name"],
+                          "rarity": card["rarity"],
+                          "page": page,
+                          "column": column,
+                          "row": row})
+
+            sheet.paste(image, (width * column, height * row))
+
+        sheets.append(sheet)
 
     return (index, sheets)
 
