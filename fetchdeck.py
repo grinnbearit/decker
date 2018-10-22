@@ -1,5 +1,7 @@
 import csv
+import time
 import argparse
+import requests as r
 from PIL import Image
 
 
@@ -17,86 +19,51 @@ def read_deck(deck_file):
     return acc
 
 
-def deck_editions(deck):
+def check_card(card):
     """
-    given a deck, returns a set of editions that it uses
+    returns True if the card is found on scryfall, else False
     """
-    return set([card["edition"] for card in deck])
+    response = r.head("https://api.scryfall.com/cards/named",
+                      params={"set": card["edition"],
+                              "exact": card["name"]})
+    return response.ok
 
 
-def read_index(path, editions):
-    """
-    loads a list of editions into an index
-    """
-    acc = {}
-    for edition in editions:
-        acc[edition] = {}
-        with open("{}/{}.csv".format(path, edition), "r") as fp:
-            reader = csv.DictReader(fp)
-            for row in reader:
-                acc[edition][row["name"]] = {"page": int(row["page"]),
-                                             "column": int(row["column"]),
-                                             "row": int(row["row"])}
-    return acc
-
-
-def check_deck(index, deck):
+def check_deck(deck):
     """
     returns a list of missing cards, if none are missing
     returns an empty list
     """
     acc = []
     for card in deck:
-        if card["edition"] not in index or\
-           card["name"] not in index[card["edition"]]:
+        if not check_card(card):
             acc.append(card)
+        time.sleep(0.050)       # Time between requests
     return acc
 
 
-def deck_pages(index, deck):
-    """
-    given a deck, returns a list of pages it uses
-    """
-    return set([(card["edition"], index[card["edition"]][card["name"]]["page"])
-                for card in deck])
-
-
-def read_pngdex(path, pages):
-    """
-    loads a list of image sheets into a png index
-    """
-    acc = {}
-    for (edition, page) in pages:
-        if edition not in acc:
-            acc[edition] = {}
-        acc[edition][page] = Image.open("{}/{}_{:03d}.png".format(path, edition, page))
-    return acc
-
-
-def slice_card(index, pngdex, card):
+def fetch_card(card):
     """
     returns the Image object for the card
     """
-    coords = index[card["edition"]][card["name"]]
-    png = pngdex[card["edition"]][coords["page"]]
-    width = png.size[0]/10
-    height = png.size[1]/10
-    column = width * coords["column"]
-    row = height * coords["row"]
-    box = (column, row, column+width, row+height)
-    return png.crop(box)
+    response = r.get("https://api.scryfall.com/cards/named",
+                     params={"set": card["edition"], "exact": card["name"],
+                             "format": "image", "version": "png"},
+                     stream=True)
+    return Image.open(response.raw)
 
 
-def slice_deck(index, pngdex, deck):
+def fetch_deck(deck, size=None):
     """
     returns a list of Image objects for the passed deck
     """
     acc = []
     for card in deck:
-        image = slice_card(index, pngdex, card)
+        image = fetch_card(card)
         acc.append(image)
         for _ in range(1, card["count"]):
             acc.append(image.copy())
+        time.sleep(0.050)       # Time between requests
     return acc
 
 
@@ -157,15 +124,12 @@ def layout_backs(back, dimensions=(3, 6)):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", '--deck',
+    parser.add_argument('-d', '--deck',
                         help="deck filename",
                         required=True)
-    parser.add_argument("-o", "--output",
+    parser.add_argument('-o', "--output",
                         help="image output",
                         required=True)
-    parser.add_argument("-s", "--sets",
-                        help="sets directory",
-                        default="sets")
     parser.add_argument('-t', '--test',
                         help="test deck",
                         action="store_true")
@@ -179,12 +143,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     deck = read_deck(args.deck)
-    editions = deck_editions(deck)
-    index = read_index(args.sets, editions)
 
-    missing_cards = check_deck(index, deck)
+    missing_cards = check_deck(deck)
 
     if missing_cards:
+        missing_cards = check_deck(cards)
         print("{0} missing".format(len(missing_cards)))
         for card in missing_cards:
             print("{0}, {1}".format(card["edition"], card["name"]))
@@ -192,11 +155,8 @@ if __name__ == "__main__":
     elif args.test:
         exit(0)
 
-    pages = deck_pages(index, deck)
-    pngdex = read_pngdex(args.sets, pages)
-
     dims = dimensions(args.format)
-    images = slice_deck(index, pngdex, deck)
+    images = fetch_deck(deck)
     sheets = layout(images, dims)
 
     if len(sheets) == 1:
