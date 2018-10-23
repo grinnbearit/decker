@@ -1,20 +1,29 @@
 # Decker
 
-Generates image sheets for printing card games like [Magic the Gathering](http://magic.wizards.com/) and [Netrunner](https://www.fantasyflightgames.com/en/products/android-netrunner-the-card-game/).
+Generates image sheets for [Magic the Gathering](http://magic.wizards.com/), handles decks and drafts.
 
 ## Usage
 
-`python gendeck.py [-s <sheet type>] -d <deck.csv> -o <output.png> [-t]`
+`python fetchdeck.py -d <deck.csv> -o <output.png> [-t] [-f <sheet format>]`
 
+Constructs a deck using the scryfall api
 
-If there are multiple sheets generated, they'll be saved as `0_output.png`, `1_output.png` etc
+`python fetchset.py -e edition`
 
--t indicates `test mode` which checks which cards can be fetched or not returning "ok" if all
-can be fetched or a list of missing cards if they can't
+Pulls an entire set from scryfall and creates an index for cards to images
+
+`python gendeck.py -d <deck.csv> -o <output.png> [-t] [-s <sets>] [-f <sheet format>]`
+
+Constructs a deck using the downloaded set index
+
+`python gendraft.py -d <deck.csv> -o <output.png> [-t] [-s <sets>] [-d <draft.json>] [-f <sheet format>]`
+
+Simulates a draft using the downloaded set index, the draft structure is taken from a json file,
+"winchestor.json" is an example
 
 ### Decks
 
-Decks should be csv files with rows `(number_of_copies, card_name [, edition])`
+Decks should be csv files with rows `(edition, name, count)`
 
 #### MtG Card Back
 * [option 1](https://www.slightlymagic.net/forum/download/file.php?id=11045&mode=view)
@@ -22,6 +31,6 @@ Decks should be csv files with rows `(number_of_copies, card_name [, edition])`
 
 ## License
 
-Copyright © 2017 Sidhant Godiwala (grinnbearit)
+Copyright © 2018 Sidhant Godiwala (grinnbearit)
 
 Distributed under the Eclipse Public License, the same as Clojure.
