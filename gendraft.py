@@ -5,21 +5,22 @@ import decker.core as dc
 import decker.layout as dl
 from collections import Counter
 
-def pick_cards(rarities, deterministic=[], probabilistic=[]):
+
+def pick_cards(rarities, fixed=[], variable=[]):
     """
     selects cards using the passed distribution,
-    deterministic expects (rarity, count) tuples
-    probabilistic expects ({rarity : probability}, count) tuples
+    fixed expects (rarity, count) tuples
+    variable expects ({rarity : probability}, count) tuples
     where the probabilities in a map must sum to 1.0
     """
     acc = []
-    for (rarity, count) in deterministic:
+    for (rarity, count) in fixed:
         for _ in range(count):
             # replace with random.choices in python 3.6
             cardtup = random.choice(rarities[rarity])
             acc.append(cardtup)
 
-    for (choices, count) in probabilistic:
+    for (choices, count) in variable:
         for _ in range(count):
             flip = random.random()
             cumprob = 0
@@ -64,6 +65,9 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--draft",
                         help="draft json config",
                         default="winchester.json")
+    parser.add_argument("-l", "--lands",
+                        help="number of land copies",
+                        default=70)
     parser.add_argument("-s", "--sets",
                         help="sets directory",
                         default="sets")
@@ -80,8 +84,8 @@ if __name__ == "__main__":
         draft = json.load(f)
 
     rarities = dc.read_rarities(args.sets, args.editions)
-    deck = deck_lands(rarities, 70) +\
-           pick_cards(rarities, draft["deterministic"], draft["probabilistic"])
+    deck = deck_lands(rarities, args.lands) +\
+           pick_cards(rarities, draft["fixed"], draft["variable"])
 
     index = dc.read_index(args.sets, args.editions)
     pages = dc.deck_pages(index, deck)
