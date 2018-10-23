@@ -40,19 +40,6 @@ def pick_cards(rarities, fixed=[], variable=[]):
     return deck
 
 
-def deck_lands(rarities, count):
-    """
-    creates a deck of lands with `n` lands
-    of every type
-    """
-    deck = []
-    for (edition, land) in rarities["land"]:
-        deck.append({"edition": edition,
-                     "name": land,
-                     "count": count})
-    return deck
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-e", "--editions",
@@ -65,9 +52,6 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--draft",
                         help="draft json config",
                         default="winchester.json")
-    parser.add_argument("-l", "--lands",
-                        help="number of land copies",
-                        default=70)
     parser.add_argument("-s", "--sets",
                         help="sets directory",
                         default="sets")
@@ -84,8 +68,7 @@ if __name__ == "__main__":
         draft = json.load(f)
 
     rarities = dc.read_rarities(args.sets, args.editions)
-    deck = deck_lands(rarities, args.lands) +\
-           pick_cards(rarities, draft["fixed"], draft["variable"])
+    deck = pick_cards(rarities, draft["fixed"], draft["variable"])
 
     index = dc.read_index(args.sets, args.editions)
     pages = dc.deck_pages(index, deck)
