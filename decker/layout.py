@@ -61,6 +61,25 @@ def layout_backs(back, dimensions=(6, 3)):
     return sheet
 
 
+def _split_filename(filename):
+    """
+    returns (base, name) for sheets when passed a filename enabling
+    prefixing.
+    """
+    path = filename.split("/")
+    name = path[-1]
+    base = "" if len(path) == 1 else "/".join(path[:-1]) + "/"
+    return (base, name)
+
+
+def write_sheet(filename, sheet, number):
+    """
+    write image sheet to disk with passed sheet number
+    """
+    (base, name) =  _split_filename(filename)
+    sheet.save(base + "%03d_%s" % (number, name))
+
+
 def write_sheets(filename, sheets):
     """
     write image sheets to disk
@@ -68,9 +87,6 @@ def write_sheets(filename, sheets):
     if len(sheets) == 1:
         sheets[0].save(filename)
     else:
-        path = filename.split("/")
-        name = path[-1]
-        base = "" if len(path) == 1 else "/".join(path[:-1]) + "/"
-
+        (base, name) = _split_filename(filename)
         for (idx, sheet) in enumerate(sheets):
             sheet.save(base + "%03d_%s" % (idx, name))
