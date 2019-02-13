@@ -8,8 +8,7 @@ import decker.layout as dl
 def calculate_rarecount(fixed=[], variable=[]):
     """
     Using the passed distribution, returns the
-    expected number for each rarity normalised
-    by the least likely rarity.
+    expected number for each rarity
 
     fixed expects (rarity, count) tuples
     variable expects ({rarity : probability}, count) tuples
@@ -23,9 +22,7 @@ def calculate_rarecount(fixed=[], variable=[]):
         for (rarity, prob) in choices.items():
             expected[rarity] = prob*count
 
-    norm = min(expected.values())
-    norm_expected = {rarity:count/norm for (rarity, count) in expected.items()}
-    return norm_expected
+    return expected
 
 
 def adjust_rarecount(rarity_count, expected_rarecount):
@@ -37,22 +34,27 @@ def adjust_rarecount(rarity_count, expected_rarecount):
     1. Each card shows up at least once
     2. No card within a rarity is preferred
     3. The adjusted rarecount ratio is close to expected
+    4. The total number of cards is at least the sum of expected
     """
-    card_count = {rarity: len(cards) for (rarity, cards) in rarities.items()}
-    multiplier = max([card_count[rarity] for (rarity, exp_count) in expected_rarecount.items()
-                      if exp_count == 1])
-    scaled_count = {}
-    for rarity, exp_count in expected_rarecount.items():
-        new_count = round(exp_count*multiplier/card_count[rarity])
-        scaled_count[rarity] = new_count if new_count > 0 else 1
-    return scaled_count
+    rarity_ratio = {rarity: exp_count/rarity_count[rarity] for (rarity, exp_count)
+                    in expected_rarecount.items()}
+    multiplier = min(rarity_ratio.values())
+    multiplier = 1.0 if multiplier >= 1.0 else 1.0/multiplier
+    scaled_rarecount = {rarity: round(ratio*multiplier) for (rarity, ratio)
+                        in rarity_ratio.items()}
+    return scaled_rarecount
 
 
 def calculate_error(rarity_count, expected_rarecount, adjusted_rarecount):
     """
-    Returns (raritity, ideal, actual) for all rarities where ideal
-    is the probability of drawing that rarity according to the specification
-    and actual is the probability according to the adjusted rarecount
+    Returns (raritity, set, draft, cube, multiplier, p_draft, p_cube) for all rarities where
+    `set` is the number of cards of that rarity in the set(s), `draft` is the number of cards of
+    that rarity according to the spec and `cube` is the number of cards of that rarity in the cube.
+
+    `multiplier` is the number of instances of each card of the rarity
+
+    `p_draft` and `p_cube` are the probabilities of drawing this rarity from the draft
+    and the cube respectively.
     """
     adjusted_count = {}
     for rarity, rarecount in adjusted_rarecount.items():
@@ -61,13 +63,17 @@ def calculate_error(rarity_count, expected_rarecount, adjusted_rarecount):
     expected_sum = sum(expected_rarecount.values())
     adjusted_sum = sum(adjusted_count.values())
 
-    probabilities = []
+    error = []
     for rarity, count in adjusted_count.items():
-        ideal = expected_rarecount[rarity]/expected_sum
-        actual = count/adjusted_sum
-        probabilities.append((rarity, ideal, actual))
+        num_draft = expected_rarecount[rarity]
+        num_set = rarity_count[rarity]
+        num_cube = count
+        multiplier = num_cube/num_set
+        p_draft = num_draft/expected_sum
+        p_cube = num_cube/adjusted_sum
+        error.append((rarity, num_draft, num_set, multiplier, num_cube, p_draft, p_cube))
 
-    return probabilities
+    return error
 
 
 def build_cube(rarities, adjusted_rarecount):
@@ -139,7 +145,7 @@ if __name__ == "__main__":
     with open(args.draft) as f:
         draft = json.load(f)
 
-    expected_rarecount = calculate_rarecount(draft["fixed"], draft["variable"])
+    expected_rarecount = calculate_rarecount(draft.get("fixed", []), draft.get("variable", []))
     rarities = dc.read_rarities(args.sets, args.editions)
     rarity_count = {rarity: len(cards) for (rarity, cards) in rarities.items()}
     adjusted_rarecount = adjust_rarecount(rarity_count, expected_rarecount)
@@ -148,7 +154,7 @@ if __name__ == "__main__":
         table = tt.Texttable()
         table.add_rows(calculate_error(rarity_count, expected_rarecount, adjusted_rarecount),
                        header=False)
-        table.header(["Rarity", "Prob Ideal", "Prob Actual"])
+        table.header(["Rarity", "Draft", "Set", "Multiplier", "Cube", "P(Draft)", "P(Cube)"])
         print(table.draw())
         exit(0)
 
@@ -171,3 +177,4 @@ if __name__ == "__main__":
         back = dl.read_back("back.png")
         sheet = dl.layout_backs(back, dims)
         dl.write_sheets("back_%s" % args.output, [sheet])
+    print(adjusted_rarecount)
