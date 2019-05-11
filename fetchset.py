@@ -31,7 +31,7 @@ def fetch_set(edition):
 
         cards = []
         for card in data["data"]:
-            if card["layout"] == "transform":
+            if card["layout"] in ["transform", "double_faced_token"]:
                 card_a = card["card_faces"][0]
                 card_b = card["card_faces"][1]
                 cards.append({"name": card_a["name"],
