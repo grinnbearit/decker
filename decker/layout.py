@@ -7,7 +7,8 @@ def dimensions(frmt):
     """
     formats = {"A3": (6, 3),
                "A4": (3, 3),
-               "TTS": (10, 7)}
+               "TTS": (10, 7),
+               "gdrive": (10, 6)}
     if frmt in formats:
         return formats[frmt]
     raise Exception("Unsupported format")

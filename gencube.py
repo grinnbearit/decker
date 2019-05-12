@@ -134,8 +134,8 @@ if __name__ == "__main__":
                         help="test cube",
                         action="store_true")
     parser.add_argument('-f', "--format",
-                        help="A3/A4/TTS",
-                        default="TTS")
+                        help="A3/A4/TTS/gdrive",
+                        default="gdrive")
     parser.add_argument('-b', '--back',
                         help="add sheet of backs",
                         action="store_true")
