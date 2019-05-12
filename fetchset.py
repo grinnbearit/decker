@@ -25,7 +25,6 @@ def fetch_set(edition):
         response = r.get("https://api.scryfall.com/cards/search",
                          params={"order": "set",
                                  "q": "e:{}".format(edition),
-                                 "unique": "prints",
                                  "page": page})
         data = response.json()
 
