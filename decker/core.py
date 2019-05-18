@@ -132,3 +132,53 @@ def slice_deck(index, pngdex, deck):
         for _ in range(1, card["count"]):
             acc.append(image.copy())
     return acc
+
+
+def _read_editions(path, newest, oldest, ignore):
+    """
+    helper function for `read_codex`
+    returns a list of relevant editions given constraints
+    """
+    newest_flag = newest is None
+    oldest_flag = False
+
+    acc = []
+    with open(f"{path}/codex.csv", "r") as fp:
+        reader = csv.DictReader(fp)
+        for row in reader:
+            edition = row["edition"]
+
+            if newest == edition:
+                newest_flag = True
+
+            if newest_flag and\
+               not oldest_flag and\
+               row["edition"] not in ignore:
+                acc.append(edition)
+
+            if oldest == edition:
+                oldest_flag = True
+
+    return acc
+
+
+def read_codex(path, newest=None, oldest=None, ignore=set()):
+    """
+    reads a csv codex file and returns a map of {name: editions} where
+    editions is sorted from newest to oldest
+
+    path: the sets path containing codex.csv
+    newest: the newest set to consider
+    oldest: the oldest set to consider
+    ignore: a set of editions to ignore
+    """
+    acc = {}
+    for edition in _read_editions(path, newest, oldest, ignore):
+        edfile = EDDEX[edition] if edition in EDDEX else edition
+        with open(f"{path}/{edfile}.csv", "r") as fp:
+            reader = csv.DictReader(fp)
+            for row in reader:
+                editions = acc.get(row["name"], [])
+                editions.append(edition)
+                acc[row["name"]] = editions
+    return acc
