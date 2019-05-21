@@ -1,5 +1,4 @@
 import sys
-import csv
 import argparse
 import decker.core as dc
 
@@ -27,14 +26,14 @@ def print_csv(codex, deck):
     """
     prints a deck in csv format to stdout
     """
+    print("edition,name,count")
+
     rows = []
     for card in deck:
-        card["edition"] = codex[card["name"]][0]
-        rows.append(card)
-
-    print("edition,name,count")
-    writer = csv.DictWriter(sys.stdout, fieldnames=["edition", "name", "count"], quoting=csv.QUOTE_NONNUMERIC)
-    writer.writerows(rows)
+        name = card["name"]
+        edition = codex[name][0]
+        count = card["count"]
+        print(f'"{edition}","{name}",{count}')
 
 
 def print_deck(codex, deck, all=False):
