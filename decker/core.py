@@ -101,9 +101,10 @@ def read_pngdex(path, pages):
     """
     acc = {}
     for (edition, page) in pages:
+        edfile = EDDEX[edition] if edition in EDDEX else edition
         if edition not in acc:
             acc[edition] = {}
-        acc[edition][page] = Image.open("{}/{}_{:03d}.png".format(path, edition, page))
+        acc[edition][page] = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
     return acc
 
 
