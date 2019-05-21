@@ -11,6 +11,18 @@ def find_missing(codex, deck):
     return [card["name"] for card in deck if card["name"] not in codex]
 
 
+def print_editions(codex, deck):
+    """
+    prints the set of needed editions
+    """
+    acc = set()
+    for card in deck:
+        acc.add(codex[card["name"]][0])
+
+    for edition in acc:
+        print(edition)
+
+
 def print_csv(codex, deck):
     """
     prints a deck in csv format to stdout
@@ -25,7 +37,7 @@ def print_csv(codex, deck):
     writer.writerows(rows)
 
 
-def print_edition(codex, deck, all=False):
+def print_deck(codex, deck, all=False):
     """
     prints a edition, card pairs to stdout
     """
@@ -59,6 +71,9 @@ if __name__ == "__main__":
     parser.add_argument("-c", "--csv",
                         help="print out in csv deck format (overrides --all)",
                         action="store_true")
+    parser.add_argument("-e", "--editions",
+                        help="prints a set of all editions used (overrides --all, --csv)",
+                        action="store_true")
 
     args = parser.parse_args()
 
@@ -73,7 +88,9 @@ if __name__ == "__main__":
             print(f"{card}")
         exit(1)
 
-    if args.csv:
+    if args.editions:
+        print_editions(codex, deck)
+    elif args.csv:
         print_csv(codex, deck)
     else:
-        print_edition(codex, deck, args.all)
+        print_deck(codex, deck, args.all)
