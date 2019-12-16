@@ -135,7 +135,7 @@ def slice_deck(index, pngdex, deck):
     return acc
 
 
-def _read_editions(path, newest, oldest, ignore):
+def _read_editions(newest, oldest, ignore):
     """
     helper function for `read_codex`
     returns a list of relevant editions given constraints
@@ -144,7 +144,7 @@ def _read_editions(path, newest, oldest, ignore):
     oldest_flag = False
 
     acc = []
-    with open(f"{path}/codex.csv", "r") as fp:
+    with open("codex.csv", "r") as fp:
         reader = csv.DictReader(fp)
         for row in reader:
             edition = row["edition"]
@@ -174,7 +174,7 @@ def read_codex(path, newest=None, oldest=None, ignore=set()):
     ignore: a set of editions to ignore
     """
     acc = {}
-    for edition in _read_editions(path, newest, oldest, ignore):
+    for edition in _read_editions(newest, oldest, ignore):
         edfile = EDDEX[edition] if edition in EDDEX else edition
         with open(f"{path}/{edfile}.csv", "r") as fp:
             reader = csv.DictReader(fp)
