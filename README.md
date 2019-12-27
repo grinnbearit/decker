@@ -21,6 +21,24 @@ Constructs a deck using the downloaded set index
 Simulates a draft using the downloaded set index, the draft structure is taken from a json file,
 "winchestor.json" is an example
 
+`python codeck.py -d <deck.csv> [-s <sets>] [-a <all possible sets>] [-i <ignore sets>] [-n <newest set>] [-o <oldest set>] [-c <print in csv format>] [-e <print editions needed>]`
+
+Checks a deck, using codex.csv, for missing cards as well as the sets required.
+
+### Making it Easier
+
+`./checkset.sh <directory> [-n <newest set>] [-o <oldest set>] [-i <ignore sets>]`
+
+Checks for missing cards and required sets for all decks in a directory
+
+`./updateset.sh <directory> [-n <newest set>] [-o <oldest set>] [-i <ignore sets>]`
+
+Updates the deck files in a directory with the latest required set
+
+`./genset.sh`
+
+Generates all decks in a directory
+
 ### Decks
 
 Decks should be csv files with rows `(edition, name, count)`
