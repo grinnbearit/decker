@@ -1,5 +1,6 @@
 import csv
 from PIL import Image
+from collections import defaultdict
 
 
 # Some editions are reserved keywords in windows
@@ -56,14 +57,14 @@ def read_index(path, editions):
     """
     acc = {}
     for edition in editions:
-        acc[edition] = {}
+        acc[edition] = defaultdict(list)
         edfile = EDDEX[edition] if edition in EDDEX else edition
         with open("{}/{}.csv".format(path, edfile), "r") as fp:
             reader = csv.DictReader(fp)
             for row in reader:
-                acc[edition][row["name"]] = {"page": int(row["page"]),
-                                             "column": int(row["column"]),
-                                             "row": int(row["row"])}
+                acc[edition][row["name"]].append({"page": int(row["page"]),
+                                                  "column": int(row["column"]),
+                                                  "row": int(row["row"])})
     return acc
 
 
@@ -91,8 +92,9 @@ def deck_pages(index, deck):
     """
     given a deck, returns a list of pages it uses
     """
-    return set([(card["edition"], index[card["edition"]][card["name"]]["page"])
-                for card in deck])
+    return set([(card["edition"], coords["page"])
+                for card in deck
+                for coords in index[card["edition"]][card["name"]]])
 
 
 def read_pngdex(path, pages):
@@ -110,16 +112,18 @@ def read_pngdex(path, pages):
 
 def slice_card(index, pngdex, card):
     """
-    returns the Image object for the card
+    returns the list of Image objects for the card
     """
-    coords = index[card["edition"]][card["name"]]
-    png = pngdex[card["edition"]][coords["page"]]
-    width = png.size[0]/10
-    height = png.size[1]/10
-    column = width * coords["column"]
-    row = height * coords["row"]
-    box = (column, row, column+width, row+height)
-    return png.crop(box)
+    acc = []
+    for coords in index[card["edition"]][card["name"]]:
+        png = pngdex[card["edition"]][coords["page"]]
+        width = png.size[0]/10
+        height = png.size[1]/10
+        column = width * coords["column"]
+        row = height * coords["row"]
+        box = (column, row, column+width, row+height)
+        acc.append(png.crop(box))
+    return acc
 
 
 def slice_deck(index, pngdex, deck):
@@ -128,10 +132,9 @@ def slice_deck(index, pngdex, deck):
     """
     acc = []
     for card in deck:
-        image = slice_card(index, pngdex, card)
-        acc.append(image)
-        for _ in range(1, card["count"]):
-            acc.append(image.copy())
+        images = slice_card(index, pngdex, card)
+        for i in range(card["count"]):
+            acc.append(images[i % len(images)])
     return acc
 
 

@@ -24,7 +24,7 @@ def fetch_set(edition):
     while True:
         response = r.get("https://api.scryfall.com/cards/search",
                          params={"order": "set",
-                                 "q": "e:{}".format(edition),
+                                 "q": "e:{} unique:prints".format(edition),
                                  "page": page})
         data = response.json()
 
@@ -33,14 +33,17 @@ def fetch_set(edition):
             if card["layout"] in ["transform", "double_faced_token"]:
                 card_a = card["card_faces"][0]
                 card_b = card["card_faces"][1]
-                cards.append({"name": card_a["name"],
+                cards.append({"collector_number": card["collector_number"],
+                              "name": card_a["name"],
                               "rarity": card["rarity"],
                               "png_uri": card_a["image_uris"]["png"]})
-                cards.append({"name": card_b["name"],
+                cards.append({"collector_number": card["collector_number"],
+                              "name": card_b["name"],
                               "rarity": card["rarity"],
                               "png_uri": card_b["image_uris"]["png"]})
             else:
-                cards.append({"name": card["name"],
+                cards.append({"collector_number": card["collector_number"],
+                              "name": card["name"],
                               "rarity": card["rarity"],
                               "png_uri": card["image_uris"]["png"]})
         acc.extend(cards)
@@ -89,7 +92,8 @@ def build_index(cards, images):
             column = idx % 10
             row = (idx % 100) // 10
 
-            index.append({"name": card["name"],
+            index.append({"collector_number": card["collector_number"],
+                          "name": card["name"],
                           "rarity": card["rarity"],
                           "page": page,
                           "column": column,
@@ -107,7 +111,7 @@ def write_index(edition, index):
     writes a csv index of cards named {edition}.csv
     """
     with open("{}.csv".format(edition), "w", newline="") as f:
-        idxwriter = csv.DictWriter(f, fieldnames=["name", "rarity", "page", "column", "row"])
+        idxwriter = csv.DictWriter(f, fieldnames=["collector_number", "name", "rarity", "page", "column", "row"])
         idxwriter.writeheader()
         idxwriter.writerows(index)
 
