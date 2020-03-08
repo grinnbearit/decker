@@ -138,46 +138,58 @@ def slice_deck(index, pngdex, deck):
     return acc
 
 
-def _read_editions(newest, oldest, ignore):
+def read_codex(codex_file):
     """
-    helper function for `read_codex`
+    reads a csv codex file and returns a list of codex
+    tuples sorted newest to oldest
+    """
+    acc = []
+    with open(codex_file, "r") as fp:
+        reader = csv.DictReader(fp)
+        for row in reader:
+            acc.append(row)
+    return acc
+
+
+def _read_editions(codex, newest, oldest, ignore):
+    """
+    helper function for `read_cardex`
     returns a list of relevant editions given constraints
     """
     newest_flag = newest is None
     oldest_flag = False
 
     acc = []
-    with open("codex.csv", "r") as fp:
-        reader = csv.DictReader(fp)
-        for row in reader:
-            edition = row["edition"]
+    for row in codex:
+        edition = row["edition"]
 
-            if newest == edition:
-                newest_flag = True
+        if newest == edition:
+            newest_flag = True
 
-            if newest_flag and\
-               not oldest_flag and\
-               row["edition"] not in ignore:
-                acc.append(edition)
+        if newest_flag and\
+           not oldest_flag and\
+           row["edition"] not in ignore:
+            acc.append(edition)
 
-            if oldest == edition:
-                oldest_flag = True
+        if oldest == edition:
+            oldest_flag = True
 
     return acc
 
 
-def read_codex(path, newest=None, oldest=None, ignore=set()):
+def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
     """
-    reads a csv codex file and returns a map of {name: editions} where
+    Using a codex, returns a map of {name: editions} where
     editions is sorted from newest to oldest
 
-    path: the sets path containing codex.csv
+    path: the sets path
+    codex: a sorted list of downloaded sets
     newest: the newest set to consider
     oldest: the oldest set to consider
     ignore: a set of editions to ignore
     """
     acc = {}
-    for edition in _read_editions(newest, oldest, ignore):
+    for edition in _read_editions(codex, newest, oldest, ignore):
         edfile = EDDEX[edition] if edition in EDDEX else edition
         with open(f"{path}/{edfile}.csv", "r") as fp:
             reader = csv.DictReader(fp)

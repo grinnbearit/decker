@@ -3,26 +3,26 @@ import argparse
 import decker.core as dc
 
 
-def find_missing(codex, deck):
+def find_missing(cardex, deck):
     """
-    returns a list of card names that aren't found in the passed codex
+    returns a list of card names that aren't found in the passed cardex
     """
-    return [card["name"] for card in deck if card["name"] not in codex]
+    return [card["name"] for card in deck if card["name"] not in cardex]
 
 
-def print_editions(codex, deck):
+def print_editions(cardex, deck):
     """
     prints the set of needed editions
     """
     acc = set()
     for card in deck:
-        acc.add(codex[card["name"]][0])
+        acc.add(cardex[card["name"]][0])
 
     for edition in acc:
         print(edition)
 
 
-def print_csv(codex, deck):
+def print_csv(cardex, deck):
     """
     prints a deck in csv format to stdout
     """
@@ -31,21 +31,21 @@ def print_csv(codex, deck):
     rows = []
     for card in deck:
         name = card["name"]
-        edition = codex[name][0]
+        edition = cardex[name][0]
         count = card["count"]
         print(f'"{edition}","{name}",{count}')
 
 
-def print_deck(codex, deck, all=False):
+def print_deck(cardex, deck, all=False):
     """
     prints a edition, card pairs to stdout
     """
     for card in deck:
         name = card["name"]
         if all:
-            edition_str = "[{}]".format(','.join(str(e) for e in codex[name]))
+            edition_str = "[{}]".format(','.join(str(e) for e in cardex[name]))
         else:
-            edition_str = codex[name][0]
+            edition_str = cardex[name][0]
         print(f"{edition_str}, {name}")
 
 
@@ -78,9 +78,10 @@ if __name__ == "__main__":
 
     deck = dc.read_deck(args.deck)
     edset = set(args.ignore) if args.ignore else set()
-    codex = dc.read_codex(args.sets, args.newest, args.oldest, edset)
+    codex = dc.read_codex("codex.csv")
+    cardex = dc.read_cardex(args.sets, codex, args.newest, args.oldest, edset)
 
-    missing_cards = find_missing(codex, deck)
+    missing_cards = find_missing(cardex, deck)
     if missing_cards:
         print("{0} missing".format(len(missing_cards)))
         for card in missing_cards:
@@ -88,8 +89,8 @@ if __name__ == "__main__":
         exit(1)
 
     if args.editions:
-        print_editions(codex, deck)
+        print_editions(cardex, deck)
     elif args.csv:
-        print_csv(codex, deck)
+        print_csv(cardex, deck)
     else:
-        print_deck(codex, deck, args.all)
+        print_deck(cardex, deck, args.all)
