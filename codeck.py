@@ -10,7 +10,7 @@ def find_missing(cardex, deck):
     return [card["name"] for card in deck if card["name"] not in cardex]
 
 
-def print_editions(cardex, deck):
+def print_editions(codex, cardex, deck):
     """
     prints the set of needed editions
     """
@@ -18,8 +18,12 @@ def print_editions(cardex, deck):
     for card in deck:
         acc.add(cardex[card["name"]][0])
 
-    for edition in acc:
-        print(edition)
+    for row in codex:
+        if row["edition"] in acc:
+            edition = row["edition"]
+            name = row["name"]
+            date = row["date"]
+            print(f"{date}, {edition}, {name}")
 
 
 def print_csv(cardex, deck):
@@ -89,7 +93,7 @@ if __name__ == "__main__":
         exit(1)
 
     if args.editions:
-        print_editions(cardex, deck)
+        print_editions(codex, cardex, deck)
     elif args.csv:
         print_csv(cardex, deck)
     else:
