@@ -28,29 +28,6 @@ def deck_editions(deck):
     return set([card["edition"] for card in deck])
 
 
-def read_rarities(path, editions):
-    """
-    returns a dict of rarity: {(edition, name)},
-    lands get their own rarity, even though they're common for easy drafting,
-    """
-    acc = {"land": set(),
-           "common": set(),
-           "uncommon": set(),
-           "timeshifted": set(),
-           "rare": set(),
-           "mythic": set()}
-
-    for edition in editions:
-        edfile = EDDEX[edition] if edition in EDDEX else edition
-        with open("{}/{}.csv".format(path, edfile), "r") as fp:
-            reader = csv.DictReader(fp)
-            for row in reader:
-                rarity = "land" if row["name"] in {"Mountain", "Swamp", "Island", "Plains", "Forest"} else row["rarity"]
-                acc[rarity].add((edition, row["name"]))
-
-    return {r: list(s) for (r, s) in acc.items()}
-
-
 def read_index(path, editions):
     """
     loads a list of editions into an index
