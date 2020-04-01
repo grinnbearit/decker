@@ -1,3 +1,4 @@
+import json
 import csv
 from PIL import Image
 from collections import defaultdict
@@ -36,12 +37,10 @@ def read_index(path, editions):
     for edition in editions:
         acc[edition] = defaultdict(list)
         edfile = EDDEX[edition] if edition in EDDEX else edition
-        with open("{}/{}.csv".format(path, edfile), "r") as fp:
-            reader = csv.DictReader(fp)
-            for row in reader:
-                acc[edition][row["name"]].append({"page": int(row["page"]),
-                                                  "column": int(row["column"]),
-                                                  "row": int(row["row"])})
+        with open("{}/{}.json".format(path, edfile), "r") as fp:
+            for line in fp.readlines():
+                row = json.loads(line)
+                acc[edition][row["name"]].append(row["pngdex"])
     return acc
 
 
@@ -168,9 +167,10 @@ def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
     acc = {}
     for edition in _read_editions(codex, newest, oldest, ignore):
         edfile = EDDEX[edition] if edition in EDDEX else edition
-        with open(f"{path}/{edfile}.csv", "r") as fp:
+        with open(f"{path}/{edfile}.json", "r") as fp:
             reader = csv.DictReader(fp)
-            for row in reader:
+            for line in fp.readlines():
+                row = json.loads(line)
                 editions = acc.get(row["name"], [])
                 editions.append(edition)
                 acc[row["name"]] = editions

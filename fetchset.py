@@ -1,8 +1,9 @@
-import csv
+import json
 import time
 import argparse
 import requests as r
 from PIL import Image
+from datetime import datetime
 
 
 def check_set(edition):
@@ -22,30 +23,15 @@ def fetch_set(edition):
     page = 1
 
     while True:
+        utcnow = int(datetime.utcnow().timestamp())
         response = r.get("https://api.scryfall.com/cards/search",
                          params={"order": "set",
                                  "q": "e:{} unique:prints".format(edition),
                                  "page": page})
         data = response.json()
-
-        cards = []
-        for card in data["data"]:
-            if card["layout"] in ["transform", "double_faced_token"]:
-                card_a = card["card_faces"][0]
-                card_b = card["card_faces"][1]
-                cards.append({"collector_number": card["collector_number"],
-                              "name": card_a["name"],
-                              "rarity": card["rarity"],
-                              "png_uri": card_a["image_uris"]["png"]})
-                cards.append({"collector_number": card["collector_number"],
-                              "name": card_b["name"],
-                              "rarity": card["rarity"],
-                              "png_uri": card_b["image_uris"]["png"]})
-            else:
-                cards.append({"collector_number": card["collector_number"],
-                              "name": card["name"],
-                              "rarity": card["rarity"],
-                              "png_uri": card["image_uris"]["png"]})
+        cards = data["data"]
+        for card in cards:
+            card["utc"] = utcnow
         acc.extend(cards)
 
         if not data["has_more"]:
@@ -63,7 +49,7 @@ def fetch_images(cards):
     """
     images = []
     for card in cards:
-        response = r.get(card["png_uri"], stream=True)
+        response = r.get(card["image_uris"]["png"], stream=True)
         image = Image.open(response.raw)
         images.append(image)
         time.sleep(0.050)       # Time between requests
@@ -92,13 +78,11 @@ def build_index(cards, images):
             column = idx % 10
             row = (idx % 100) // 10
 
-            index.append({"collector_number": card["collector_number"],
-                          "name": card["name"],
-                          "rarity": card["rarity"],
-                          "page": page,
-                          "column": column,
-                          "row": row})
+            card["pngdex"] = {"page": page,
+                              "column": column,
+                              "row": row}
 
+            index.append(card)
             sheet.paste(image, (width * column, height * row))
 
         sheets.append(sheet)
@@ -108,13 +92,12 @@ def build_index(cards, images):
 
 def write_index(edition, index):
     """
-    writes a csv index of cards named {edition}.csv
+    writes a csv index of cards named {edition}.json
     """
-    with open("{}.csv".format(edition), "w", newline="") as f:
-        idxwriter = csv.DictWriter(f, fieldnames=["collector_number", "name", "rarity", "page", "column", "row"])
-        idxwriter.writeheader()
-        idxwriter.writerows(index)
-
+    with open("{}.json".format(edition), "w", newline="") as f:
+        for card in index:
+            json.dump(card, f)
+            f.write("\n")
 
 def write_sheets(edition, sheets):
     """
