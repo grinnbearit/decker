@@ -1,6 +1,8 @@
 import json
 import csv
+import operator as o
 from PIL import Image
+import itertools as it
 from collections import defaultdict
 
 
@@ -16,9 +18,8 @@ def read_deck(deck_file):
     with open(deck_file, "r") as fp:
         reader = csv.DictReader(fp)
         for row in reader:
-            acc.append({"edition": row["edition"],
-                        "name": row["name"],
-                        "count": int(row["count"])})
+            row["count"] = int(row["count"])
+            acc.append(row)
     return acc
 
 
@@ -26,12 +27,12 @@ def deck_editions(deck):
     """
     given a deck, returns a set of editions that it uses
     """
-    return set([card["edition"] for card in deck])
+    return set([deckline["edition"] for deckline in deck])
 
 
-def read_index(path, editions):
+def read_pngdex(path, editions):
     """
-    loads a list of editions into an index
+    loads a list of editions into an index of {(edition, name): [pngid]}
     """
     acc = {}
     for edition in editions:
@@ -39,79 +40,60 @@ def read_index(path, editions):
         edfile = EDDEX[edition] if edition in EDDEX else edition
         with open("{}/{}.json".format(path, edfile), "r") as fp:
             for line in fp.readlines():
-                row = json.loads(line)
-                acc[edition][row["name"]].append(row["pngdex"])
+                data = json.loads(line)
+                offset = data["collector_number"] - 1
+                page = offset // 100
+                row = (offset % 100) // 10
+                column = offset % 10
+                acc[edition][data["name"]].append((edition, page, row, column))
     return acc
 
 
-def check_card(index, card):
+def check_deck(pngdex, deck):
     """
-    returns True if the card is found in the index, else False
-    """
-    return card["edition"] in index and\
-        card["name"] in index[card["edition"]]
-
-
-def check_deck(index, deck):
-    """
-    returns a list of missing cards, if none are missing
+    returns a list of missing card names, if none are missing
     returns an empty list
     """
     acc = []
-    for card in deck:
-        if not check_card(index, card):
-            acc.append(card)
+    for deckline in deck:
+        if deckline["edition"] not in pngdex or\
+           deckline["name"] not in pngdex[deckline["edition"]]:
+            acc.append(deckline)
     return acc
 
 
-def deck_pages(index, deck):
+def deck_to_pngids(pngdex, deck):
     """
-    given a deck, returns a list of pages it uses
+    Returns a list of sheet coordinates for the passed deck.
+
+    If multiple copies of a card are needed, and multiple versions of that card
+    exist, cycle through the different versions
     """
-    return set([(card["edition"], coords["page"])
-                for card in deck
-                for coords in index[card["edition"]][card["name"]]])
+    acc = []
+    for deckline in deck:
+        name_pngids = pngdex[deckline["edition"]][deckline["name"]]
+        deckline_pngids = it.islice(it.cycle(name_pngids), deckline["count"])
+        acc.extend(deckline_pngids)
+    return acc
 
 
-def read_pngdex(path, pages):
+def render_pngids(path, pngids):
     """
-    loads a list of image sheets into a png index
+    returns a list of Images corresponding to the passed pngids
     """
     acc = {}
-    for (edition, page) in pages:
+    for ((edition, page), grouped) in it.groupby(set(pngids), o.itemgetter(0, 1)):
         edfile = EDDEX[edition] if edition in EDDEX else edition
-        if edition not in acc:
-            acc[edition] = {}
-        acc[edition][page] = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
-    return acc
+        sheet = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
+        for pngid in grouped:
+            width = sheet.size[0]/10
+            height = sheet.size[1]/10
+            row = height * pngid[2]
+            column = width * pngid[3]
+            box = (column, row, column+width, row+height)
+            acc[pngid] = sheet.crop(box)
 
-
-def slice_card(index, pngdex, card):
-    """
-    returns the list of Image objects for the card
-    """
-    acc = []
-    for coords in index[card["edition"]][card["name"]]:
-        png = pngdex[card["edition"]][coords["page"]]
-        width = png.size[0]/10
-        height = png.size[1]/10
-        column = width * coords["column"]
-        row = height * coords["row"]
-        box = (column, row, column+width, row+height)
-        acc.append(png.crop(box))
-    return acc
-
-
-def slice_deck(index, pngdex, deck):
-    """
-    returns a list of Image objects for the passed deck
-    """
-    acc = []
-    for card in deck:
-        images = slice_card(index, pngdex, card)
-        for i in range(card["count"]):
-            acc.append(images[i % len(images)])
-    return acc
+    return [acc[pngid] for pngid in pngids]
 
 
 def read_codex(codex_file):

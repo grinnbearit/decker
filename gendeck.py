@@ -11,9 +11,9 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output",
                         help="image output",
                         required=True)
-    parser.add_argument("-s", "--sets",
-                        help="sets directory",
-                        default="sets")
+    parser.add_argument("-p", "--path",
+                        help="editions directory",
+                        default="editions")
     parser.add_argument('-t', '--test',
                         help="test deck",
                         action="store_true")
@@ -28,23 +28,22 @@ if __name__ == "__main__":
 
     deck = dc.read_deck(args.deck)
     editions = dc.deck_editions(deck)
-    index = dc.read_index(args.sets, editions)
+    pngdex = dc.read_pngdex(args.path, editions)
 
-    missing_cards = dc.check_deck(index, deck)
+    missing_decklines = dc.check_deck(pngdex, deck)
 
-    if missing_cards:
-        print("{0} missing".format(len(missing_cards)))
-        for card in missing_cards:
-            print("{0}, {1}".format(card["edition"], card["name"]))
+    if missing_decklines:
+        print("{0} missing".format(len(missing_decklines)))
+        for deckline in missing_decklines:
+            print("{0}, {1}".format(deckline["edition"], deckline["name"]))
         exit(1)
     elif args.test:
         exit(0)
 
-    pages = dc.deck_pages(index, deck)
-    pngdex = dc.read_pngdex(args.sets, pages)
+    pngids = dc.deck_to_pngids(pngdex, deck)
+    images = dc.render_pngids(args.path, pngids)
 
     dims = dl.dimensions(args.format)
-    images = dc.slice_deck(index, pngdex, deck)
     sheets = dl.layout(images, dims)
 
     dl.write_sheets(args.output, sheets)

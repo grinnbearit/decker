@@ -7,7 +7,7 @@ def find_missing(cardex, deck):
     """
     returns a list of card names that aren't found in the passed cardex
     """
-    return [card["name"] for card in deck if card["name"] not in cardex]
+    return [deckline["name"] for deckline in deck if deckline["name"] not in cardex]
 
 
 def print_editions(codex, cardex, deck):
@@ -15,8 +15,8 @@ def print_editions(codex, cardex, deck):
     prints the set of needed editions
     """
     acc = set()
-    for card in deck:
-        acc.add(cardex[card["name"]][0])
+    for deckline in deck:
+        acc.add(cardex[deckline["name"]][0])
 
     for row in codex:
         if row["edition"] in acc:
@@ -33,19 +33,19 @@ def print_csv(cardex, deck):
     print("edition,name,count")
 
     rows = []
-    for card in deck:
-        name = card["name"]
+    for deckline in deck:
+        name = deckline["name"]
         edition = cardex[name][0]
-        count = card["count"]
+        count = deckline["count"]
         print(f'"{edition}","{name}",{count}')
 
 
 def print_deck(cardex, deck, all=False):
     """
-    prints a edition, card pairs to stdout
+    prints edition, card name pairs to stdout
     """
-    for card in deck:
-        name = card["name"]
+    for deckline in deck:
+        name = deckline["name"]
         if all:
             edition_str = "[{}]".format(','.join(str(e) for e in cardex[name]))
         else:
@@ -58,9 +58,9 @@ if __name__ == "__main__":
     parser.add_argument("-d", '--deck',
                         help="deck filename",
                         required=True)
-    parser.add_argument("-s", "--sets",
-                        help="sets directory",
-                        default="sets")
+    parser.add_argument("-p", "--path",
+                        help="editions directory",
+                        default="editions")
     parser.add_argument("-a", "--all",
                         help="list all editions",
                         action="store_true")
@@ -83,13 +83,13 @@ if __name__ == "__main__":
     deck = dc.read_deck(args.deck)
     edset = set(args.ignore) if args.ignore else set()
     codex = dc.read_codex("codex.csv")
-    cardex = dc.read_cardex(args.sets, codex, args.newest, args.oldest, edset)
+    cardex = dc.read_cardex(args.path, codex, args.newest, args.oldest, edset)
 
-    missing_cards = find_missing(cardex, deck)
-    if missing_cards:
-        print("{0} missing".format(len(missing_cards)))
-        for card in missing_cards:
-            print(f"{card}")
+    missing_names = find_missing(cardex, deck)
+    if missing_names:
+        print("{0} missing".format(len(missing_names)))
+        for name in missing_names:
+            print(f"{name}")
         exit(1)
 
     if args.editions:

@@ -16,8 +16,8 @@ if __name__ == "__main__":
                         help="test deck",
                         action="store_true")
     parser.add_argument('-f', "--format",
-                        help="A3/A4/TTS",
-                        default="TTS")
+                        help="A3/A4/TTS/gdrive",
+                        default="gdrive")
     parser.add_argument('-b', '--back',
                         help="add sheet of backs",
                         action="store_true")
@@ -26,12 +26,12 @@ if __name__ == "__main__":
 
     deck = dc.read_deck(args.deck)
 
-    missing_cards = ds.check_deck(deck)
+    missing_decklines = ds.check_deck(deck)
 
-    if missing_cards:
-        print("{0} missing".format(len(missing_cards)))
-        for card in missing_cards:
-            print("{0}, {1}".format(card["edition"], card["name"]))
+    if missing_decklines:
+        print("{0} missing".format(len(missing_decklines)))
+        for deckline in missing_decklines:
+            print("{0}, {1}".format(deckline["edition"], deckline["name"]))
         exit(1)
     elif args.test:
         exit(0)

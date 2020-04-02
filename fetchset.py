@@ -3,27 +3,26 @@ import time
 import argparse
 import requests as r
 from PIL import Image
-from datetime import datetime
+import decker.layout as dl
 
 
-def check_set(edition):
+def check_edition(edition):
     """
-    given the 3 letter code for a set, returns True if the set is found on
+    given the 3 letter code for an edition, returns True if the edition is found on
     scryfall, else False
     """
     response = r.head("https://api.scryfall.com/sets/{}".format(edition))
     return response.ok
 
 
-def fetch_set(edition):
+def fetch_edition(edition):
     """
-    given the 3 letter code for a set, returns a list of cards
+    given the 3 letter code for a edition, returns a list of cards
     """
     acc = []
     page = 1
 
     while True:
-        utcnow = int(datetime.utcnow().timestamp())
         response = r.get("https://api.scryfall.com/cards/search",
                          params={"order": "set",
                                  "q": "e:{} unique:prints".format(edition),
@@ -31,7 +30,7 @@ def fetch_set(edition):
         data = response.json()
         cards = data["data"]
         for card in cards:
-            card["utc"] = utcnow
+            card["collector_number"] = int(card["collector_number"])
         acc.extend(cards)
 
         if not data["has_more"]:
@@ -56,48 +55,15 @@ def fetch_images(cards):
     return images
 
 
-def build_index(cards, images):
+def write_cards(edition, index):
     """
-    Given a list of cards and images, returns (index, sheets)
-    with an index pointing to multiple sheets with cards
-    laid out in a 10x10 grid
-    """
-    (width, height) = images[0].size
-
-    index = []
-    sheets = []
-
-    unchunked = list(zip(range(len(cards)), cards, images))
-    chunks = [unchunked[x:x+100] for x in range(0, len(images), 100)]
-
-    for chunk in chunks:
-        sheet = Image.new("RGB", (width * 10, height * 10), "white")
-
-        for (idx, card, image) in chunk:
-            page = idx // 100
-            column = idx % 10
-            row = (idx % 100) // 10
-
-            card["pngdex"] = {"page": page,
-                              "column": column,
-                              "row": row}
-
-            index.append(card)
-            sheet.paste(image, (width * column, height * row))
-
-        sheets.append(sheet)
-
-    return (index, sheets)
-
-
-def write_index(edition, index):
-    """
-    writes a csv index of cards named {edition}.json
+    writes cards as rows of json to a file named {edition}.json
     """
     with open("{}.json".format(edition), "w", newline="") as f:
         for card in index:
             json.dump(card, f)
             f.write("\n")
+
 
 def write_sheets(edition, sheets):
     """
@@ -115,13 +81,13 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if not check_set(args.edition):
-        print("set {} not found".format(args.edition))
+    if not check_edition(args.edition):
+        print("edition {} not found".format(args.edition))
         exit(1)
 
-    cards = fetch_set(args.edition)
+    cards = fetch_edition(args.edition)
     images = fetch_images(cards)
-    (index, sheets) = build_index(cards, images)
+    sheets = dl.layout(images, (10, 10))
 
-    write_index(args.edition, index)
+    write_cards(args.edition, cards)
     write_sheets(args.edition, sheets)
