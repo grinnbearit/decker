@@ -41,11 +41,7 @@ def read_pngdex(path, editions):
         with open("{}/{}.json".format(path, edfile), "r") as fp:
             for line in fp.readlines():
                 data = json.loads(line)
-                offset = data["collector_number"] - 1
-                page = offset // 100
-                row = (offset % 100) // 10
-                column = offset % 10
-                acc[edition][data["name"]].append((edition, page, row, column))
+                acc[edition][data["name"]].append(tuple(data["pngid"]))
     return acc
 
 

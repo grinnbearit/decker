@@ -29,8 +29,6 @@ def fetch_edition(edition):
                                  "page": page})
         data = response.json()
         cards = data["data"]
-        for card in cards:
-            card["collector_number"] = int(card["collector_number"])
         acc.extend(cards)
 
         if not data["has_more"]:
@@ -40,6 +38,24 @@ def fetch_edition(edition):
         time.sleep(0.050) # Time between requests
 
     return acc
+
+
+def add_pngids(cards):
+    """
+    given a list of cards from the same set, sorted by collector number,
+    adds a pngid to each one
+    """
+    edition = cards[0]["set"]
+
+    max_pages = (len(cards) // 100) + 1
+    pngids = [(edition, page, row, col)
+              for page in range(max_pages)
+              for row in range(10)
+              for col in range(10)]
+
+    for (pngid, card) in zip(pngids, cards):
+        card["pngid"] = pngid
+    return cards
 
 
 def fetch_images(cards):
@@ -86,6 +102,7 @@ if __name__ == "__main__":
         exit(1)
 
     cards = fetch_edition(args.edition)
+    cards = add_pngids(cards)
     images = fetch_images(cards)
     sheets = dl.layout(images, (10, 10))
 
