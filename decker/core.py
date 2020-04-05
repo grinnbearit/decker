@@ -3,7 +3,8 @@ import csv
 import operator as o
 from PIL import Image
 import itertools as it
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
+from swissknife.collections import OrderedSet
 
 
 # Some editions are reserved keywords in windows
@@ -142,12 +143,12 @@ def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
     oldest: the oldest edition to consider
     ignore: a set of editions to ignore
     """
-    acc = defaultdict(OrderedDict)
+    acc = defaultdict(OrderedSet)
     for edition in _read_editions(codex, newest, oldest, ignore):
         edfile = EDDEX[edition] if edition in EDDEX else edition
         with open(f"{path}/{edfile}.json", "r") as fp:
             reader = csv.DictReader(fp)
             for line in fp.readlines():
                 row = json.loads(line)
-                acc[row["name"]][edition] = None # Ordered Set
-    return {k: v.keys() for (k, v) in acc.items()}
+                acc[row["name"]].add(edition)
+    return acc
