@@ -43,8 +43,9 @@ def render_pnglists(path, pnglists):
     returns imglists corresponding to the passed pnglists
     """
     images = dc.render_pngids(path, list(it.chain(*pnglists)))
+    cropped = [dl.border_crop(image) for image in images]
     indices = list(it.accumulate([len(pnglist) for pnglist in pnglists]))
-    return [images[start:stop] for (start, stop) in zip([0]+indices, indices)]
+    return [cropped[start:stop] for (start, stop) in zip([0]+indices, indices)]
 
 
 def encode_pngid(pngid):

@@ -14,6 +14,16 @@ def dimensions(frmt):
     raise Exception("Unsupported format")
 
 
+def border_crop(image):
+    """
+    removes the border from the passed image cards
+    """
+    width = image.size[0]
+    height = image.size[1]
+    border = round((width/63)*3)
+    return image.crop((border, border, width-border, height-border))
+
+
 def layout(images, dimensions=(6, 3)):
     """
     lays out sheets of images, side by side, according to the passed dimensions (cols, rows)
