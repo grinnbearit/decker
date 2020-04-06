@@ -189,5 +189,5 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None
             for line in fp.readlines():
                 row = json.loads(line)
                 for artist_id in row["artist_ids"]:
-                    acc[artist_id][row["illustration_id"]][old_new].append(row["pngid"])
+                    acc[artist_id][row["illustration_id"]][old_new].append(tuple(row["pngid"]))
     return acc

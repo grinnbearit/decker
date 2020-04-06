@@ -1,4 +1,5 @@
 import argparse
+import itertools as it
 import decker.core as dc
 import decker.layout as dl
 from collections import defaultdict
@@ -37,6 +38,15 @@ def generate_pnglists(artprints, length):
     return acc
 
 
+def render_pnglists(path, pnglists):
+    """
+    returns imglists corresponding to the passed pnglists
+    """
+    images = dc.render_pngids(path, list(it.chain(*pnglists)))
+    indices = list(it.accumulate([len(pnglist) for pnglist in pnglists]))
+    return [images[start:stop] for (start, stop) in zip([0]+indices, indices)]
+
+
 def encode_pngid(pngid):
     """
     converts a pngid into a string
@@ -73,6 +83,9 @@ if __name__ == "__main__":
     parser.add_argument("-l", "--layout",
                         help="wallpaper layout",
                         nargs=2, type=int, default=(1, 3))
+    parser.add_argument("-g", "--generate",
+                        help="generates new and updated wallpapers",
+                        action="store_true")
 
     args = parser.parse_args()
 
@@ -83,6 +96,16 @@ if __name__ == "__main__":
 
     (rows, columns) = args.layout
     categorised = generate_pnglists(artprints, rows*columns)
+
+    if args.generate:
+        new_pnglists = categorised["new"] + [new_pngid for (_, new_pngid)
+                                             in categorised["updated"]]
+        imglists = render_pnglists(args.path, new_pnglists)
+        for (pnglist, imglist) in zip(new_pnglists, imglists):
+            sheets = dl.layout(imglist, (columns, rows))
+            filename = encode_pnglist(pnglist) + ".png"
+            dl.write_sheets(filename, sheets)
+        exit(0)
 
     if args.remove:
         files = [encode_pnglist(old_pnglist) + ".png"
