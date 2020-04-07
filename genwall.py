@@ -83,9 +83,6 @@ if __name__ == "__main__":
     parser.add_argument("-r", "--remove",
                         help="prints a command to delete updated pngs",
                         action="store_true")
-    parser.add_argument("-l", "--layout",
-                        help="wallpaper layout",
-                        nargs=2, type=int, default=(1, 3))
     parser.add_argument("-g", "--generate",
                         help="generates new and updated wallpapers",
                         action="store_true")
@@ -97,15 +94,14 @@ if __name__ == "__main__":
     artex = dc.read_artex(args.path, codex, args.newest, args.oldest, edset, args.current)
     artprints = artist_reprints(artex)
 
-    (rows, columns) = args.layout
-    categorised = generate_pnglists(artprints, rows*columns)
+    categorised = generate_pnglists(artprints, 3)
 
     if args.generate:
         new_pnglists = categorised["new"] + [new_pngid for (_, new_pngid)
                                              in categorised["updated"]]
         imglists = render_pnglists(args.path, new_pnglists)
         for (pnglist, imglist) in zip(new_pnglists, imglists):
-            sheets = dl.layout(imglist, (columns, rows))
+            sheets = dl.layout(imglist, (len(imglist), 1))
             filename = encode_pnglist(pnglist) + ".png"
             dl.write_sheets(filename, sheets)
         exit(0)
