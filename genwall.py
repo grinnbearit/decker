@@ -114,10 +114,10 @@ if __name__ == "__main__":
         print("rm " + " ".join(files))
         exit(0)
 
-    if categorised["new"]:
-        print("new:")
-        for new_pnglist in categorised["new"]:
-            print(encode_pnglist(new_pnglist))
+    if categorised["unchanged"]:
+        print("unchanged:")
+        for old_pnglist in categorised["unchanged"]:
+            print(encode_pnglist(old_pnglist))
         print()
 
     if categorised["updated"]:
@@ -127,7 +127,7 @@ if __name__ == "__main__":
                                     encode_pnglist(new_pnglist)))
         print()
 
-    if categorised["unchanged"]:
-        print("unchanged:")
-        for old_pnglist in categorised["unchanged"]:
-            print(encode_pnglist(old_pnglist))
+    if categorised["new"]:
+        print("new:")
+        for new_pnglist in categorised["new"]:
+            print(encode_pnglist(new_pnglist))
