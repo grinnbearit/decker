@@ -45,16 +45,25 @@ def add_pngids(cards):
     given a list of cards from the same set, sorted by collector number,
     adds a pngid to each one
     """
-    edition = cards[0]["set"]
+    def increment_pngid(prepngid):
+        (edition, page, row, col) = prepngid
+        if row == 9 and col == 9:
+            return (edition, page+1, 0, 0)
+        elif col == 9:
+            return (edition, page, row+1, 0)
+        else:
+            return (edition, page, row, col+1)
 
-    max_pages = (len(cards) // 100) + 1
-    pngids = [(edition, page, row, col)
-              for page in range(max_pages)
-              for row in range(10)
-              for col in range(10)]
+    pngid = (cards[0]["set"], 0, 0, 0)
 
-    for (pngid, card) in zip(pngids, cards):
-        card["pngid"] = pngid
+    for card in cards:
+        if "card_faces" in card:
+            card["card_faces"][0]["pngid"] = pngid
+            pngid = increment_pngid(pngid)
+            card["card_faces"][1]["pngid"] = pngid
+        else:
+            card["pngid"] = pngid
+        pngid = increment_pngid(pngid)
     return cards
 
 
@@ -64,9 +73,16 @@ def fetch_images(cards):
     """
     images = []
     for card in cards:
-        response = r.get(card["image_uris"]["png"], stream=True)
-        image = Image.open(response.raw)
-        images.append(image)
+        if "card_faces" in card:
+            response_0 = r.get(card["card_faces"][0]["image_uris"]["png"], stream=True)
+            response_1 = r.get(card["card_faces"][1]["image_uris"]["png"], stream=True)
+            image_0 = Image.open(response_0.raw)
+            image_1 = Image.open(response_1.raw)
+            images.extend([image_0, image_1])
+        else:
+            response = r.get(card["image_uris"]["png"], stream=True)
+            image = Image.open(response.raw)
+            images.append(image)
         time.sleep(0.050)       # Time between requests
     return images
 

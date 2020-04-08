@@ -42,7 +42,12 @@ def read_pngdex(path, editions):
         with open("{}/{}.json".format(path, edfile), "r") as fp:
             for line in fp.readlines():
                 data = json.loads(line)
-                acc[edition][data["name"]].append(tuple(data["pngid"]))
+                if "card_faces" in data:
+                    pngid_0 = tuple(data["card_faces"][0]["pngid"])
+                    pngid_1 = tuple(data["card_faces"][1]["pngid"])
+                    acc[edition][data["name"]].append([pngid_0, pngid_1])
+                else:
+                    acc[edition][data["name"]].append(tuple(data["pngid"]))
     return acc
 
 
@@ -65,12 +70,18 @@ def deck_to_pngids(pngdex, deck):
 
     If multiple copies of a card are needed, and multiple versions of that card
     exist, cycle through the different versions
+
+    If a card is double faced, adds two pngids for it in sequence.
     """
     acc = []
     for deckline in deck:
         name_pngids = pngdex[deckline["edition"]][deckline["name"]]
         deckline_pngids = it.islice(it.cycle(name_pngids), deckline["count"])
-        acc.extend(deckline_pngids)
+        if type(name_pngids[0]) is list:
+            for pnglist in deckline_pngids:
+                acc.extend(pnglist)
+        else:
+            acc.extend(deckline_pngids)
     return acc
 
 
@@ -188,6 +199,10 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None
             reader = csv.DictReader(fp)
             for line in fp.readlines():
                 row = json.loads(line)
-                for artist_id in row["artist_ids"]:
-                    acc[artist_id][row["illustration_id"]][old_new].append(tuple(row["pngid"]))
+                if "card_faces" in row:
+                    for face in row["card_faces"]:
+                        acc[artist_id][face["illustration_id"]][old_new].append(tuple(face["pngid"]))
+                else:
+                    for artist_id in row["artist_ids"]:
+                        acc[artist_id][row["illustration_id"]][old_new].append(tuple(row["pngid"]))
     return acc
