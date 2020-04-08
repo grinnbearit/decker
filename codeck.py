@@ -16,7 +16,7 @@ def print_editions(codex, cardex, deck):
     """
     acc = set()
     for deckline in deck:
-        acc.add(cardex[deckline["name"]][0])
+        acc.add(list(cardex[deckline["name"]])[0])
 
     for row in codex:
         if row["edition"] in acc:
@@ -35,7 +35,7 @@ def print_csv(cardex, deck):
     rows = []
     for deckline in deck:
         name = deckline["name"]
-        edition = cardex[name][0]
+        edition = list(cardex[name])[0]
         count = deckline["count"]
         print(f'"{edition}","{name}",{count}')
 
