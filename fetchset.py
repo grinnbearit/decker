@@ -67,13 +67,17 @@ def add_pngids(cards):
     return cards
 
 
-def fetch_images(cards):
+def fetch_images(cards, print_progress=True):
     """
     returns a list of images for the cards in the st
     """
     images = []
+    counter = 1
+    max_count = len(cards)
     for card in cards:
-        print(card["name"])
+        if print_progrss:
+            print("{0:4d}/{1} {2}".format(counter, max_count, card["name"]))
+            counter += 1
         if card["layout"] == "transform":
             response_0 = r.get(card["card_faces"][0]["image_uris"]["png"], stream=True)
             response_1 = r.get(card["card_faces"][1]["image_uris"]["png"], stream=True)
@@ -111,6 +115,9 @@ if __name__ == "__main__":
     parser.add_argument('-e', '--edition',
                         help="3 letter edition code",
                         required=True)
+    parser.add_argument("-p", "--progress",
+                        help="shows fetch set progress",
+                        action="store_true")
 
     args = parser.parse_args()
 
@@ -120,7 +127,7 @@ if __name__ == "__main__":
 
     cards = fetch_edition(args.edition)
     cards = add_pngids(cards)
-    images = fetch_images(cards)
+    images = fetch_images(cards, args.progress)
     sheets = dl.layout(images, (10, 10))
 
     write_cards(args.edition, cards)
