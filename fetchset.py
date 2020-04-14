@@ -57,7 +57,7 @@ def add_pngids(cards):
     pngid = (cards[0]["set"], 0, 0, 0)
 
     for card in cards:
-        if "card_faces" in card:
+        if card["layout"] == "transform":
             card["card_faces"][0]["pngid"] = pngid
             pngid = increment_pngid(pngid)
             card["card_faces"][1]["pngid"] = pngid
@@ -73,7 +73,8 @@ def fetch_images(cards):
     """
     images = []
     for card in cards:
-        if "card_faces" in card:
+        print(card["name"])
+        if card["layout"] == "transform":
             response_0 = r.get(card["card_faces"][0]["image_uris"]["png"], stream=True)
             response_1 = r.get(card["card_faces"][1]["image_uris"]["png"], stream=True)
             image_0 = Image.open(response_0.raw)
