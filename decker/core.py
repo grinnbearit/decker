@@ -199,7 +199,7 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None
             reader = csv.DictReader(fp)
             for line in fp.readlines():
                 row = json.loads(line)
-                if card["layout"] == "transform":
+                if row["layout"] == "transform":
                     for face in row["card_faces"]:
                         acc[face["artist_id"]][face["illustration_id"]][old_new].append(tuple(face["pngid"]))
                 else:
