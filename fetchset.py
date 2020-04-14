@@ -75,7 +75,7 @@ def fetch_images(cards, print_progress=True):
     counter = 1
     max_count = len(cards)
     for card in cards:
-        if print_progrss:
+        if print_progress:
             print("{0:4d}/{1} {2}".format(counter, max_count, card["name"]))
             counter += 1
         if card["layout"] == "transform":
