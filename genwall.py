@@ -81,8 +81,7 @@ if __name__ == "__main__":
     parser.add_argument("-c", "--current",
                         help="current edition (last updated)")
     parser.add_argument("-r", "--remove",
-                        help="prints a command to delete updated pngs",
-                        action="store_true")
+                        help="prints a list of pngs to be deleted, expects a format string")
     parser.add_argument("-g", "--generate",
                         help="generates new and updated wallpapers",
                         action="store_true")
@@ -93,7 +92,6 @@ if __name__ == "__main__":
     codex = dc.read_codex("codex.csv")
     artex = dc.read_artex(args.path, codex, args.newest, args.oldest, edset, args.current)
     artprints = artist_reprints(artex)
-
     categorised = generate_pnglists(artprints, 3)
 
     if args.generate:
@@ -107,9 +105,9 @@ if __name__ == "__main__":
         exit(0)
 
     if args.remove:
-        files = [encode_pnglist(old_pnglist) + ".png"
+        files = [args.remove.format(encode_pnglist(old_pnglist))
                  for (old_pnglist, _) in categorised["updated"]]
-        print("rm " + " ".join(files))
+        print(" ".join(files))
         exit(0)
 
     if categorised["updated"]:
