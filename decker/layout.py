@@ -27,11 +27,10 @@ def border_crop(image):
 def layout(images, dimensions=(6, 3)):
     """
     lays out sheets of images, side by side, according to the passed dimensions (cols, rows)
-    returns an array of new image sheets, assumes all passed cards are the same size
-    """
-    im = images[0]
-    (width, height) = im.size
+    returns an array of new image sheets.
 
+    resizes all images to the smallest width height per sheet
+    """
     (cols, rows) = dimensions
 
     cards_per_sheet = cols * rows
@@ -39,12 +38,18 @@ def layout(images, dimensions=(6, 3)):
 
     sheets = []
     for chunk in chunks:
-        sheet = Image.new("RGB", (width * cols, height * rows), "white")
+        (width, height) = chunk[0].size
 
+        for image in chunk:
+            (new_width, new_height) = image.size
+            width = new_width if new_width < width else width
+            height = new_height if new_height < height else height
+
+        sheet = Image.new("RGB", (width * cols, height * rows), "white")
         for (idx, image) in zip(range(cards_per_sheet), chunk):
             col = idx % cols
             row = idx // cols
-            sheet.paste(image, (width * col, height * row))
+            sheet.paste(image.resize((width, height)), (width * col, height * row))
 
         sheets.append(sheet)
 
