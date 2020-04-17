@@ -42,7 +42,7 @@ def read_pngdex(path, editions):
         with open("{}/{}.json".format(path, edfile), "r") as fp:
             for line in fp.readlines():
                 data = json.loads(line)
-                if card["layout"] == "transform":
+                if data["layout"] == "transform":
                     pngid_0 = tuple(data["card_faces"][0]["pngid"])
                     pngid_1 = tuple(data["card_faces"][1]["pngid"])
                     acc[edition][data["name"]].append([pngid_0, pngid_1])
