@@ -5,10 +5,10 @@ def dimensions(frmt):
     """
     translates a format type into (columns, rows)
     """
-    formats = {"A3": (6, 3),
+    formats = {"A3": (3, 6),
                "A4": (3, 3),
-               "TTS": (10, 7),
-               "gdrive": (10, 6)}
+               "TTS": (7, 10),
+               "gdrive": (6, 10)}
     if frmt in formats:
         return formats[frmt]
     raise Exception("Unsupported format")
@@ -24,16 +24,16 @@ def border_crop(image):
     return image.crop((border, border, width-border, height-border))
 
 
-def layout(images, dimensions=(6, 3)):
+def layout(images, dimensions=(3, 6)):
     """
-    lays out sheets of images, side by side, according to the passed dimensions (cols, rows)
+    lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
     returns an array of new image sheets.
 
     resizes all images to the smallest width height per sheet
     """
-    (cols, rows) = dimensions
+    (rows, cols) = dimensions
 
-    cards_per_sheet = cols * rows
+    cards_per_sheet = rows * cols
     chunks = [images[x:x+cards_per_sheet] for x in range(0, len(images), cards_per_sheet)]
 
     sheets = []

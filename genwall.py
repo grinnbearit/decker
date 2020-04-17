@@ -99,7 +99,7 @@ if __name__ == "__main__":
                                              in categorised["updated"]]
         imglists = render_pnglists(args.path, new_pnglists)
         for (pnglist, imglist) in zip(new_pnglists, imglists):
-            sheets = dl.layout(imglist, (len(imglist), 1))
+            sheets = dl.layout(imglist, (1, len(imglist)))
             filename = encode_pnglist(pnglist) + ".png"
             dl.write_sheets(filename, sheets)
         exit(0)
