@@ -202,6 +202,8 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None
                 if row["layout"] == "transform":
                     for face in row["card_faces"]:
                         acc[face["artist_id"]][face["illustration_id"]][old_new].append(tuple(face["pngid"]))
+                elif row["artist"] == "":
+                    continue
                 else:
                     for artist_id in row["artist_ids"]:
                         acc[artist_id][row["illustration_id"]][old_new].append(tuple(row["pngid"]))
