@@ -57,7 +57,7 @@ def add_pngids(cards):
     pngid = (cards[0]["set"], 0, 0, 0)
 
     for card in cards:
-        if card["layout"] in ["transform", "double_faced_token"]:
+        if card["layout"] in ["transform", "double_faced_token", "art_series"]:
             card["card_faces"][0]["pngid"] = pngid
             pngid = increment_pngid(pngid)
             card["card_faces"][1]["pngid"] = pngid
@@ -78,7 +78,7 @@ def fetch_images(cards, print_progress=True):
         if print_progress:
             print("{0:4d}/{1} {2}".format(counter, max_count, card["name"]))
             counter += 1
-        if card["layout"] in ["transform", "double_faced_token"]:
+        if card["layout"] in ["transform", "double_faced_token", "art_series"]:
             response_0 = r.get(card["card_faces"][0]["image_uris"]["png"], stream=True)
             response_1 = r.get(card["card_faces"][1]["image_uris"]["png"], stream=True)
             image_0 = Image.open(response_0.raw)

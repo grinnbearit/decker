@@ -42,7 +42,7 @@ def read_pngdex(path, editions):
         with open("{}/{}.json".format(path, edfile), "r") as fp:
             for line in fp.readlines():
                 data = json.loads(line)
-                if data["layout"] in ["transform", "double_faced_token"]:
+                if data["layout"] in ["transform", "double_faced_token", "art_series"]:
                     pngid_0 = tuple(data["card_faces"][0]["pngid"])
                     pngid_1 = tuple(data["card_faces"][1]["pngid"])
                     acc[edition][data["name"]].append([pngid_0, pngid_1])
@@ -199,7 +199,7 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None
             reader = csv.DictReader(fp)
             for line in fp.readlines():
                 row = json.loads(line)
-                if row["layout"] in ["transform", "double_faced_token"]:
+                if row["layout"] in ["transform", "double_faced_token", "art_series"]:
                     for face in row["card_faces"]:
                         acc[face["artist_id"]][face["illustration_id"]][old_new].append(tuple(face["pngid"]))
                 elif row["artist"] == "":
