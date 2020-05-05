@@ -1,6 +1,7 @@
 import argparse
 import decker.core as dc
 import decker.layout as dl
+import decker.edition as de
 
 
 if __name__ == "__main__":
@@ -41,7 +42,7 @@ if __name__ == "__main__":
         exit(0)
 
     pngids = dc.deck_to_pngids(pngdex, deck)
-    images = dc.render_pngids(args.path, pngids)
+    images = de.render_pngids(args.path, pngids)
 
     dims = dl.dimensions(args.format)
     sheets = dl.layout(images, dims)

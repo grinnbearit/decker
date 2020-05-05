@@ -2,6 +2,7 @@ import os
 import json
 import time
 import requests as r
+import operator as o
 from PIL import Image
 import itertools as it
 
@@ -156,3 +157,22 @@ def upsert_sheets(path, edition, imdix):
 
     for (_, (sheetname, image)) in sheets.items():
         image.save(sheetname)
+
+
+def render_pngids(path, pngids):
+    """
+    returns a list of Images corresponding to the passed pngids
+    """
+    acc = {}
+    for ((edition, page), grouped) in it.groupby(set(pngids), o.itemgetter(0, 1)):
+        edfile = EDDEX[edition] if edition in EDDEX else edition
+        sheet = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
+        for pngid in grouped:
+            width = sheet.size[0]/10
+            height = sheet.size[1]/10
+            row = height * pngid[2]
+            column = width * pngid[3]
+            box = (column, row, column+width, row+height)
+            acc[pngid] = sheet.crop(box)
+
+    return [acc[pngid] for pngid in pngids]

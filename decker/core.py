@@ -1,8 +1,8 @@
 import json
 import csv
-import operator as o
 from PIL import Image
 import itertools as it
+import decker.edition as de
 from collections import defaultdict
 from swissknife.collections import OrderedSet, OrderedDefaultDict
 
@@ -38,16 +38,13 @@ def read_pngdex(path, editions):
     acc = {}
     for edition in editions:
         acc[edition] = defaultdict(list)
-        edfile = EDDEX[edition] if edition in EDDEX else edition
-        with open("{}/{}.json".format(path, edfile), "r") as fp:
-            for line in fp.readlines():
-                data = json.loads(line)
-                if data["layout"] in ["transform", "double_faced_token", "art_series"]:
-                    pngid_0 = tuple(data["card_faces"][0]["pngid"])
-                    pngid_1 = tuple(data["card_faces"][1]["pngid"])
-                    acc[edition][data["name"]].append([pngid_0, pngid_1])
-                else:
-                    acc[edition][data["name"]].append(tuple(data["pngid"]))
+        cards = de.read_edition(path, edition)
+        for card in cards:
+            if de.is_double_faced(card):
+                pngids = [face["pngid"] for face in card["card_faces"]]
+                acc[edition][card["name"]].append(pngids)
+            else:
+                acc[edition][card["name"]].append(card["pngid"])
     return acc
 
 
@@ -83,25 +80,6 @@ def deck_to_pngids(pngdex, deck):
         else:
             acc.extend(deckline_pngids)
     return acc
-
-
-def render_pngids(path, pngids):
-    """
-    returns a list of Images corresponding to the passed pngids
-    """
-    acc = {}
-    for ((edition, page), grouped) in it.groupby(set(pngids), o.itemgetter(0, 1)):
-        edfile = EDDEX[edition] if edition in EDDEX else edition
-        sheet = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
-        for pngid in grouped:
-            width = sheet.size[0]/10
-            height = sheet.size[1]/10
-            row = height * pngid[2]
-            column = width * pngid[3]
-            box = (column, row, column+width, row+height)
-            acc[pngid] = sheet.crop(box)
-
-    return [acc[pngid] for pngid in pngids]
 
 
 def read_codex(codex_file):
