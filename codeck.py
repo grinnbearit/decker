@@ -1,6 +1,7 @@
 import sys
 import argparse
 import decker.core as dc
+import decker.codex as dx
 
 
 def find_missing(cardex, deck):
@@ -82,8 +83,8 @@ if __name__ == "__main__":
 
     deck = dc.read_deck(args.deck)
     edset = set(args.ignore) if args.ignore else set()
-    codex = dc.read_codex("codex.csv")
-    cardex = dc.read_cardex(args.path, codex, args.newest, args.oldest, edset)
+    codex = dx.read_codex("codex.csv")
+    cardex = dx.read_cardex(args.path, codex, args.newest, args.oldest, edset)
 
     missing_names = find_missing(cardex, deck)
     if missing_names:
