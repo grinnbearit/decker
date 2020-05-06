@@ -1,7 +1,9 @@
 import argparse
 import itertools as it
-import decker.core as dc
+import decker.art as da
+import decker.codex as dx
 import decker.layout as dl
+import decker.edition as de
 from collections import defaultdict
 
 
@@ -44,7 +46,7 @@ def render_pnglists(path, pnglists):
     """
     returns imglists corresponding to the passed pnglists
     """
-    images = dc.render_pngids(path, list(it.chain(*pnglists)))
+    images = de.render_pngids(path, list(it.chain(*pnglists)))
     cropped = [dl.border_crop(image) for image in images]
     indices = list(it.accumulate([len(pnglist) for pnglist in pnglists]))
     return [cropped[start:stop] for (start, stop) in zip([0]+indices, indices)]
@@ -89,8 +91,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     edset = set(args.ignore) if args.ignore else set()
-    codex = dc.read_codex("codex.csv")
-    artex = dc.read_artex(args.path, codex, args.newest, args.oldest, edset, args.current)
+    codex = dx.read_codex("codex.csv")
+    artex = da.read_artex(args.path, codex, args.newest, args.oldest, edset, args.current)
     artprints = artist_reprints(artex)
     categorised = generate_pnglists(artprints, 3)
 

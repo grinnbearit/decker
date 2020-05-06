@@ -4,11 +4,6 @@ from PIL import Image
 import itertools as it
 import decker.edition as de
 from collections import defaultdict
-# from swissknife.collections import OrderedDefaultDict
-
-
-# Some editions are reserved keywords in windows
-EDDEX = {"con": "con_"}
 
 
 def read_deck(deck_file):
@@ -80,39 +75,3 @@ def deck_to_pngids(pngdex, deck):
         else:
             acc.extend(deckline_pngids)
     return acc
-
-
-# def read_artex(path, codex, newest=None, oldest=None, ignore=set(), current=None):
-#     """
-#     Using a codex, returns a map of {artist_id: {illustration_id: {new: [pngid], old: [pngid]} where
-#     pngids are sorted from oldest to newest. `new` are pngids released after `current` and `old`
-#     includes `current`.
-
-#     `illustration_ids` are stored in an OrderedDict, sorted from oldest to newest
-
-#     path: the editions path
-#     codex: a sorted list of downloaded editions
-#     newest: the newest edition to consider
-#     oldest: the oldest edition to consider
-#     ignore: a set of editions to ignore
-#     current: the current edition
-#     """
-#     acc = defaultdict(lambda: OrderedDefaultDict(lambda: defaultdict(list)))
-#     (neweds, oldeds) = filter_editions(codex, newest, oldest, ignore, current)
-#     edlist = [("new", e) for e in neweds] + [("old", e) for e in oldeds]
-#     edlist.reverse()
-#     for (old_new, edition) in edlist:
-#         edfile = EDDEX[edition] if edition in EDDEX else edition
-#         with open(f"{path}/{edfile}.json", "r") as fp:
-#             reader = csv.DictReader(fp)
-#             for line in fp.readlines():
-#                 row = json.loads(line)
-#                 if row["layout"] in ["transform", "double_faced_token", "art_series"]:
-#                     for face in row["card_faces"]:
-#                         acc[face["artist_id"]][face["illustration_id"]][old_new].append(tuple(face["pngid"]))
-#                 elif row["artist"] == "":
-#                     continue
-#                 else:
-#                     for artist_id in row["artist_ids"]:
-#                         acc[artist_id][row["illustration_id"]][old_new].append(tuple(row["pngid"]))
-#     return acc
