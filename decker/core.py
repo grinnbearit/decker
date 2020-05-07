@@ -33,8 +33,7 @@ def read_pngdex(path, editions):
     acc = {}
     for edition in editions:
         acc[edition] = defaultdict(list)
-        cards = de.read_edition(path, edition)
-        for card in cards:
+        for card in de.read_edition(path, edition):
             if de.is_double_faced(card):
                 pngids = [face["pngid"] for face in card["card_faces"]]
                 acc[edition][card["name"]].append(pngids)

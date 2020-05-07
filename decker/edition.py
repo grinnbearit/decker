@@ -5,6 +5,7 @@ import requests as r
 import operator as o
 from PIL import Image
 import itertools as it
+from datetime import datetime
 
 
 # Some editions are reserved keywords in windows
@@ -97,6 +98,7 @@ def read_edition(path, edition):
     with open(f"{path}/{edfile}.json", "r") as fp:
         for line in fp.readlines():
             card = json.loads(line)
+            card["released_at"] = datetime.fromisoformat(card["released_at"]).date()
             if is_double_faced(card):
                 for face in card["card_faces"]:
                     face["pngid"] = tuple(face["pngid"])

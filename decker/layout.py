@@ -20,7 +20,7 @@ def border_crop(image):
     """
     width = image.size[0]
     height = image.size[1]
-    border = round((width/63)*3)
+    border = round((width/63)*2.56)
     return image.crop((border, border, width-border, height-border))
 
 

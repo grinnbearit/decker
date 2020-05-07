@@ -3,6 +3,7 @@ import decker.edition as de
 from collections import defaultdict
 from swissknife.collections import OrderedSet
 
+
 def read_codex(codex_file):
     """
     reads a csv codex file and returns a list of codex
@@ -16,7 +17,7 @@ def read_codex(codex_file):
     return acc
 
 
-def filter_editions(codex, newest, oldest, ignore, current):
+def filter_editions(codex, newest, oldest, ignore):
     """
     returns two lists of editions, (new, old) split at current, sorted
     from newest to oldest
@@ -24,30 +25,20 @@ def filter_editions(codex, newest, oldest, ignore, current):
     only considers editions between `newest` and `oldest`, ignores `ignore`
     """
     newest_flag = newest is None
-    current_flag = False
 
-    newacc = []
-    oldacc = []
-    for row in codex:
-        edition = row["edition"]
+    acc = []
+    for edition in [row["edition"] for row in codex]:
 
         if newest == edition:
             newest_flag = True
 
-        if current == edition:
-            current_flag = True
-
-        if newest_flag and\
-           row["edition"] not in ignore:
-            if current_flag:
-                oldacc.append(edition)
-            else:
-                newacc.append(edition)
+        if newest_flag and edition not in ignore:
+            acc.append(edition)
 
         if oldest == edition:
             break
 
-    return (newacc, oldacc)
+    return acc
 
 
 def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
@@ -62,9 +53,7 @@ def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
     ignore: a set of editions to ignore
     """
     acc = defaultdict(OrderedSet)
-    (editions, _) = filter_editions(codex, newest, oldest, ignore, None)
-    for edition in editions:
-        cards = de.read_edition(path, edition)
-        for card in cards:
+    for edition in filter_editions(codex, newest, oldest, ignore):
+        for card in de.read_edition(path, edition):
             acc[card["name"]].add(edition)
     return acc

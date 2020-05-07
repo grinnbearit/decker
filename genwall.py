@@ -1,3 +1,4 @@
+import os
 import argparse
 import itertools as it
 import decker.art as da
@@ -7,38 +8,15 @@ import decker.edition as de
 from collections import defaultdict
 
 
-def artist_reprints(artex):
+def generate_pnglists(artex, length):
     """
-    returns {artist: [(old_pngid, new_pngid)]} for all their illustrations
-    from oldest to newest
+    returns a list of pnglists where each pnglist contains pngids from the same artist
+    `length` determines the number of pngs in the pnglist
     """
-    acc = defaultdict(list)
-    for (artist, illustrations) in artex.items():
-        for (illustration, old_new) in illustrations.items():
-            acc[artist].append((old_new["old"][-1] if "old" in old_new else None,
-                                old_new["new"][-1] if "new" in old_new else None))
-    return acc
-
-
-def generate_pnglists(artprints, length):
-    """
-    returns {"new": [pnglist], "unchanged": [pnglist], "updated": [(old_pnglist, new_pnglist)]}
-    where `length` determines the number of pngs in the pnglist
-    """
-    acc = {"new": [], "unchanged": [], "updated": []}
-    for (artist, reprints) in artprints.items():
-        for chunk in [reprints[x:x+length] for x in range(0, len(reprints), length)]:
-            (chunked_old_pngids, chunked_new_pngids) = zip(*chunk)
-            if any(chunked_old_pngids) and any(chunked_new_pngids):
-                old_pngids = [pngid for pngid in chunked_old_pngids if pngid]
-                new_pngids = [new_pngid or old_pngid for (old_pngid, new_pngid) in chunk]
-                acc["updated"].append((old_pngids, new_pngids))
-            elif any(chunked_old_pngids):
-                old_pngids = [pngid for pngid in chunked_old_pngids if pngid]
-                acc["unchanged"].append(old_pngids)
-            else:
-                new_pngids = [pngid for pngid in chunked_new_pngids if pngid]
-                acc["new"].append(new_pngids)
+    acc = []
+    for (_, pngids) in artex.items():
+        for chunk in [pngids[x:x+length] for x in range(0, len(pngids), length)]:
+            acc.append(chunk)
     return acc
 
 
@@ -73,6 +51,9 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
+    parser.add_argument("-w", "--wallpapers",
+                        help="wallpapers directory",
+                        required=True)
     parser.add_argument("-i", "--ignore",
                         help="ignored editions",
                         nargs='+')
@@ -81,42 +62,55 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--oldest",
                         help="oldest edition to consider")
     parser.add_argument("-c", "--current",
-                        help="current edition (last updated)")
-    parser.add_argument("-r", "--remove",
-                        help="prints a list of pngs to be deleted, expects a format string")
-    parser.add_argument("-g", "--generate",
-                        help="generates new and updated wallpapers",
+                        help="the current edition (for removal)")
+    parser.add_argument("-s", "--show",
+                        help="lists wallpapers instead of generating them," +\
+                        " combined with -r to list obsolete wallpapers",
                         action="store_true")
+    parser.add_argument("-r", "--remove",
+                        help="deletes obsolete wallpapers, doesn't generate new ones," +\
+                        " requires --current",
+                        action="store_true")
+    parser.add_argument("--start", type=int,
+                        help="wallpaper to start from")
+    parser.add_argument("--end", type=int,
+                        help="wallpaper to end at")
 
     args = parser.parse_args()
 
-    edset = set(args.ignore) if args.ignore else set()
+    igset = set(args.ignore) if args.ignore else set()
     codex = dx.read_codex("codex.csv")
-    artex = da.read_artex(args.path, codex, args.newest, args.oldest, edset, args.current)
-    artprints = artist_reprints(artex)
-    categorised = generate_pnglists(artprints, 3)
+    artex = da.read_artex(args.path, codex, args.newest, args.oldest, igset)
+    pnglists = generate_pnglists(artex, 3)
 
-    if args.generate:
-        new_pnglists = categorised["new"] + [new_pngid for (_, new_pngid)
-                                             in categorised["updated"]]
-        imglists = render_pnglists(args.path, new_pnglists)
-        for (pnglist, imglist) in zip(new_pnglists, imglists):
-            sheets = dl.layout(imglist, (1, len(imglist)))
-            filename = encode_pnglist(pnglist) + ".png"
-            dl.write_sheets(filename, sheets)
-        exit(0)
+    if args.remove and (args.current is None):
+        parser.error("--remove requires --current")
 
     if args.remove:
-        files = [args.remove.format(encode_pnglist(old_pnglist))
-                 for (old_pnglist, _) in categorised["updated"]]
-        print(" ".join(files))
+        old_artex = da.read_artex(args.path, codex, args.current, args.oldest, igset)
+        old_pnglists = generate_pnglists(old_artex, 3)
+        old_encoded = [encode_pnglist(pnglist) + ".png" for pnglist in old_pnglists]
+        new_encoded = [encode_pnglist(pnglist) + ".png" for pnglist in pnglists]
+        obsolete = set(old_encoded).difference(set(new_encoded))
+        if args.show:
+            for encoded in obsolete:
+                print(encoded)
+            print(len(obsolete))
+        else:
+            for encoded in obsolete:
+                os.remove("{}/{}".format(args.wallpapers, encoded))
         exit(0)
 
-    if categorised["updated"]:
-        for (old_pnglist, new_pnglist) in categorised["updated"]:
-            print("{} -> {}".format(encode_pnglist(old_pnglist),
-                                    encode_pnglist(new_pnglist)))
+    if args.show:
+        for pnglist in pnglists:
+            print(encode_pnglist(pnglist) + ".png")
+        print(len(pnglists))
+        exit(0)
 
-    if categorised["new"]:
-        for new_pnglist in categorised["new"]:
-            print(encode_pnglist(new_pnglist))
+    sublists = pnglists[(args.start or 0):(args.end or -1)]
+    imglists = render_pnglists(args.path, sublists)
+    for (pnglist, imglist) in zip(sublists, imglists):
+        sheets = dl.layout(imglist, (1, len(imglist)))
+        filename = "{}/{}.png".format(args.wallpapers, encode_pnglist(pnglist))
+        dl.write_sheets(filename, sheets)
+    exit(0)

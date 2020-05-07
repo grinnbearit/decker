@@ -82,9 +82,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     deck = dc.read_deck(args.deck)
-    edset = set(args.ignore) if args.ignore else set()
+    igset = set(args.ignore) if args.ignore else set()
     codex = dx.read_codex("codex.csv")
-    cardex = dx.read_cardex(args.path, codex, args.newest, args.oldest, edset)
+    cardex = dx.read_cardex(args.path, codex, args.newest, args.oldest, igset)
 
     missing_names = find_missing(cardex, deck)
     if missing_names:
