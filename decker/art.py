@@ -7,7 +7,7 @@ from collections import OrderedDict
 from swissknife.collections import OrderedDefaultDict
 
 
-def generate_pnglists(wallex, length=3, minimum=1, rollover=True):
+def generate_pnglists(wallex, length=3, minimum=3, rollover=True):
     """
     Wallex should be an Ordered Dictionary of {category: [pngids]}
 
@@ -92,5 +92,43 @@ def read_artex(path, codex, newest=None, oldest=None, ignore=set()):
     for (artist_id, illustrations) in artist_illustrations.items():
         for (_, (_, pngid)) in illustrations.items():
             acc[artist_id].append(pngid)
+
+    return acc
+
+
+def read_namex(path, codex, newest=None, oldest=None, ignore=set()):
+    """
+    Using a codex, returns a map of {name: [pngid]} where
+    pngids are sorted from oldest to newest. Newer versions of the
+    same illustration replace the original.
+
+    path: the editions path
+    codex: a sorted list of downloaded editions
+    newest: the newest edition to consider
+    oldest: the oldest edition to consider
+    ignore: a set of editions to ignore
+    """
+    name_illustrations = OrderedDefaultDict(OrderedDict)
+    for edition in reversed(dx.filter_editions(codex, newest, oldest, ignore)):
+        for card in de.read_edition(path, edition):
+            if card["artist"] == "":
+                continue
+
+            elif de.is_double_faced(card):
+                for face in card["card_faces"]:
+                    illustrations = name_illustrations[face["name"]]
+                    if (face["illustration_id"] not in illustrations) or \
+                       (illustrations[face["illustration_id"]][0] <= card["released_at"]):
+                        illustrations[face["illustration_id"]] = (card["released_at"], face["pngid"])
+            else:
+                illustrations = name_illustrations[card["name"]]
+                if (card["illustration_id"] not in illustrations) or \
+                   (illustrations[card["illustration_id"]][0] <= card["released_at"]):
+                    illustrations[card["illustration_id"]] = (card["released_at"], card["pngid"])
+
+    acc = OrderedDefaultDict(list)
+    for (name, illustrations) in name_illustrations.items():
+        for (_, (_, pngid)) in illustrations.items():
+            acc[name].append(pngid)
 
     return acc

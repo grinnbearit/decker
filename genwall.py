@@ -5,11 +5,21 @@ import decker.codex as dx
 import decker.layout as dl
 
 
+def read_wallex(path, codex, art, newest=None, oldest=None, ignore=set()):
+    if art == "artists":
+        return da.read_artex(path, codex, newest, oldest, ignore)
+    else:
+        return da.read_namex(path, codex, newest, oldest, ignore)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
+    parser.add_argument("-a", "--art", choices=["artists", "spells"],
+                        help="Sets the type of wallpapers generated",
+                        required=True)
     parser.add_argument("-w", "--wallpapers",
                         help="wallpapers directory",
                         default=".")
@@ -39,12 +49,12 @@ if __name__ == "__main__":
 
     igset = set(args.ignore) if args.ignore else set()
     codex = dx.read_codex("codex.csv")
-    artex = da.read_artex(args.path, codex, args.newest, args.oldest, igset)
-    pnglists = da.generate_pnglists(artex, 3)
+    wallex = read_wallex(args.path, codex, args.art, args.newest, args.oldest, igset)
+    pnglists = da.generate_pnglists(wallex)
 
     if args.current:
-        old_artex = da.read_artex(args.path, codex, args.current, args.oldest, igset)
-        old_pnglists = da.generate_pnglists(old_artex, 3)
+        old_wallex =  read_wallex(args.path, codex, args.art, args.current, args.oldest, igset)
+        old_pnglists = da.generate_pnglists(old_wallex)
     else:
         old_pnglists = []
 
