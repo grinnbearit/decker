@@ -16,7 +16,7 @@ def generate_pnglists(artex, length):
     acc = []
     for (_, pngids) in artex.items():
         for chunk in [pngids[x:x+length] for x in range(0, len(pngids), length)]:
-            acc.append(chunk)
+            acc.append(tuple(chunk))
     return acc
 
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
                         default="editions")
     parser.add_argument("-w", "--wallpapers",
                         help="wallpapers directory",
-                        required=True)
+                        default=".")
     parser.add_argument("-i", "--ignore",
                         help="ignored editions",
                         nargs='+')
@@ -83,34 +83,34 @@ if __name__ == "__main__":
     artex = da.read_artex(args.path, codex, args.newest, args.oldest, igset)
     pnglists = generate_pnglists(artex, 3)
 
-    if args.remove and (args.current is None):
-        parser.error("--remove requires --current")
-
-    if args.remove:
+    if args.current:
         old_artex = da.read_artex(args.path, codex, args.current, args.oldest, igset)
         old_pnglists = generate_pnglists(old_artex, 3)
-        old_encoded = [encode_pnglist(pnglist) + ".png" for pnglist in old_pnglists]
-        new_encoded = [encode_pnglist(pnglist) + ".png" for pnglist in pnglists]
-        obsolete = set(old_encoded).difference(set(new_encoded))
+    else:
+        old_pnglists = []
+
+    if args.remove:
+        obs_pnglists = [pnglist for pnglist in old_pnglists if pnglist not in set(pnglists)]
         if args.show:
-            for encoded in obsolete:
-                print(encoded)
-            print(len(obsolete))
+            for pnglist in obs_pnglists:
+                print(encode_pnglist(pnglist))
+            print(len(obs_pnglists))
         else:
-            for encoded in obsolete:
-                os.remove("{}/{}".format(args.wallpapers, encoded))
+            for pnglist in obs_pnglists:
+                os.remove("{}/{}.png".format(args.wallpapers, encode_pnglist(pnglist)))
         exit(0)
+
+    new_pnglists = [pnglist for pnglist in pnglists if pnglist not in set(old_pnglists)]
 
     if args.show:
-        for pnglist in pnglists:
-            print(encode_pnglist(pnglist) + ".png")
-        print(len(pnglists))
+        for pnglist in new_pnglists:
+            print(encode_pnglist(pnglist))
+        print(len(new_pnglists))
         exit(0)
 
-    sublists = pnglists[(args.start or 0):(args.end or -1)]
+    sublists = new_pnglists[(args.start or 0):(args.end or -1)]
     imglists = render_pnglists(args.path, sublists)
     for (pnglist, imglist) in zip(sublists, imglists):
         sheets = dl.layout(imglist, (1, len(imglist)))
         filename = "{}/{}.png".format(args.wallpapers, encode_pnglist(pnglist))
         dl.write_sheets(filename, sheets)
-    exit(0)
