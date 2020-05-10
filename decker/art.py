@@ -19,14 +19,16 @@ def generate_pnglists(wallex, length=3, minimum=3, rollover=True):
     """
     acc = []
     for (_, pngids) in wallex.items():
-        if len(pngids) > minimum:
-            for chunk in [pngids[x:x+length] for x in range(0, len(pngids) - (len(pngids) % length), length)]:
+        modlen = len(pngids) % length
+        if len(pngids) >= minimum:
+            for chunk in [pngids[x:x+length] for x in range(0, len(pngids) - modlen, length)]:
                 acc.append(tuple(chunk))
 
-            if rollover:
-                acc.append(tuple(pngids[-length:]))
-            else:
-                acc.append(tuple(pngids[-(len(pngids) % length):]))
+            if modlen > 0:
+                if rollover:
+                    acc.append(tuple(pngids[-length:]))
+                else:
+                    acc.append(tuple(pngids[-modlen:]))
     return acc
 
 
