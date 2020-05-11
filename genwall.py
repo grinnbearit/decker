@@ -17,7 +17,7 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
-    parser.add_argument("-a", "--art", choices=["artists", "spells"],
+    parser.add_argument("-a", "--art", choices=["artists", "names"],
                         help="Sets the type of wallpapers generated",
                         required=True)
     parser.add_argument("-w", "--wallpapers",
