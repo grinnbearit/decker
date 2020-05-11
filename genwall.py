@@ -59,7 +59,7 @@ if __name__ == "__main__":
         old_pnglists = []
 
     if args.remove:
-        obs_pnglists = [pnglist for pnglist in old_pnglists if pnglist not in set(pnglists)]
+        obs_pnglists = [pnglist for pnglist in old_pnglists if pnglist not in pnglists]
         if args.show:
             for pnglist in obs_pnglists:
                 print(da.encode_pnglist(pnglist))
@@ -69,7 +69,7 @@ if __name__ == "__main__":
                 os.remove("{}/{}.png".format(args.wallpapers, da.encode_pnglist(pnglist)))
         exit(0)
 
-    new_pnglists = [pnglist for pnglist in pnglists if pnglist not in set(old_pnglists)]
+    new_pnglists = [pnglist for pnglist in pnglists if pnglist not in old_pnglists]
 
     if args.show:
         for pnglist in new_pnglists:

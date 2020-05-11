@@ -4,31 +4,31 @@ import decker.codex as dx
 import decker.layout as dl
 import decker.edition as de
 from collections import OrderedDict
-from swissknife.collections import OrderedDefaultDict
+from swissknife.collections import OrderedSet, OrderedDefaultDict
 
 
 def generate_pnglists(wallex, length=3, minimum=3, rollover=True):
     """
     Wallex should be an Ordered Dictionary of {category: [pngids]}
 
-    Returns a list of pnglists where each pnglist contains pngids from the same category
+    Returns an Ordered Set of pnglists where each pnglist contains pngids from the same category
 
     length: the number of pngs in each pnglist
     minimum: the number of items necessary for a category to be consisdered
     rollover: If True, ensures that the last pnglist generated adds items from the one before to reach `length`
     """
-    acc = []
+    acc = OrderedSet()
     for (_, pngids) in wallex.items():
         modlen = len(pngids) % length
         if len(pngids) >= minimum:
             for chunk in [pngids[x:x+length] for x in range(0, len(pngids) - modlen, length)]:
-                acc.append(tuple(chunk))
+                acc.add(tuple(chunk))
 
             if modlen > 0:
                 if rollover:
-                    acc.append(tuple(pngids[-length:]))
+                    acc.add(tuple(pngids[-length:]))
                 else:
-                    acc.append(tuple(pngids[-modlen:]))
+                    acc.add(tuple(pngids[-modlen:]))
     return acc
 
 
