@@ -34,7 +34,7 @@ if __name__ == "__main__":
         cards = de.fetch_edition(args.edition)
         de.write_edition(args.path, cards)
 
-    subcards = cards[(args.start or 0):(args.end or -1)]
+    subcards = cards[slice(args.start or 0, args.end or None)]
     imdix = de.fetch_imdix(subcards, args.progress)
 
     de.upsert_sheets(args.path, args.edition, imdix)
