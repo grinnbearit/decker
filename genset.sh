@@ -1,5 +1,5 @@
 #!/usr/bin/zsh
-for file in `ls $1`
+for file in `find $1 -name "*.txt"`
 do
-python gendeck.py -d ${1}/$file -o ${file%.csv}.png ${@:2}
+tts-deckconverter -mode mtg -option quality=png -option rulings=true -output $2 $file
 done

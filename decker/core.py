@@ -6,12 +6,12 @@ import decker.edition as de
 from collections import defaultdict
 
 
-def read_deck(deck_file):
+def read_cardlist(cardlist_file):
     """
-    reads a csv deck file and returns a list of (edition, name, count) tuples
+    reads a csv file and returns a list of (name, count) tuples
     """
     acc = []
-    with open(deck_file, "r") as fp:
+    with open(cardlist_file, "r") as fp:
         reader = csv.DictReader(fp)
         for row in reader:
             row["count"] = int(row["count"])
@@ -19,45 +19,21 @@ def read_deck(deck_file):
     return acc
 
 
-def deck_editions(deck):
+def read_index(path, editions):
     """
-    given a deck, returns a set of editions that it uses
-    """
-    return set([deckline["edition"] for deckline in deck])
-
-
-def read_pngdex(path, editions):
-    """
-    loads a list of editions into an index of {(edition, name): [pngid]}
+    loads a list of editions into an index of {(edition, name): [collector_numbers]}
     """
     acc = {}
     for edition in editions:
         acc[edition] = defaultdict(list)
         for card in de.read_edition(path, edition):
-            if de.is_double_faced(card):
-                pngids = [face["pngid"] for face in card["card_faces"]]
-                acc[edition][card["name"]].append(pngids)
-            else:
-                acc[edition][card["name"]].append(card["pngid"])
+            acc[edition][card["name"]].append(card["collector_number"])
     return acc
 
 
-def check_deck(pngdex, deck):
+def cardlist_to_deck(index, cardlist):
     """
-    returns a list of missing card names, if none are missing
-    returns an empty list
-    """
-    acc = []
-    for deckline in deck:
-        if deckline["edition"] not in pngdex or\
-           deckline["name"] not in pngdex[deckline["edition"]]:
-            acc.append(deckline)
-    return acc
-
-
-def deck_to_pngids(pngdex, deck):
-    """
-    Returns a list of sheet coordinates for the passed deck.
+    Returns an mtga formatted deck from a cardlist
 
     If multiple copies of a card are needed, and multiple versions of that card
     exist, cycle through the different versions

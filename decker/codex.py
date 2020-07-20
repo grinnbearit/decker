@@ -4,6 +4,19 @@ from collections import defaultdict
 from swissknife.collections import OrderedSet
 
 
+def read_cardlist(cardlist_file):
+    """
+    reads a csv file and returns a list of (name, count) tuples
+    """
+    acc = []
+    with open(cardlist_file, "r") as fp:
+        reader = csv.DictReader(fp)
+        for row in reader:
+            row["count"] = int(row["count"])
+            acc.append(row)
+    return acc
+
+
 def read_codex(codex_file):
     """
     reads a csv codex file and returns a list of codex
@@ -56,4 +69,40 @@ def read_cardex(path, codex, newest=None, oldest=None, ignore=set()):
     for edition in filter_editions(codex, newest, oldest, ignore):
         for card in de.read_edition(path, edition):
             acc[card["name"]].add(edition)
+    return acc
+
+
+def list_editions(cardex, cardlist):
+    """
+    returns a set of needed editions
+    """
+    acc = set()
+    for cardline in cardlist:
+        acc.add(list(cardex[cardline["name"]])[0])
+    return acc
+
+
+def cardlist_to_deck(cardex, index, cardlist):
+    """
+    Returns an mtga formatted deck from a cardlist
+
+    If multiple copies of a card are needed, and multiple versions of that card
+    exist, cycles through the different versions
+    """
+    acc = []
+    for cardline in cardlist:
+        edition = list(cardex[cardline["name"]])[0]
+        collector_numbers = index[edition][cardline["name"]]
+        cn_count = cardline["count"]//len(collector_numbers)
+        for idx, cn in enumerate(collector_numbers):
+            deckline = {"count": cn_count,
+                        "name": cardline["name"],
+                        "edition": edition,
+                        "collector_number": cn}
+
+            if idx < (cardline["count"] % len(collector_numbers)):
+                deckline["count"] += 1
+
+            acc.append(deckline)
+
     return acc

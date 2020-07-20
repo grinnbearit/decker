@@ -2,9 +2,6 @@ import os
 import json
 import time
 import requests as r
-import operator as o
-from PIL import Image
-import itertools as it
 from datetime import datetime
 
 
@@ -31,21 +28,10 @@ def is_double_faced(card):
 def fetch_edition(edition):
     """
     given the 3 letter code for a edition, returns a list of cards from
-    scryfall, adds a pngid to all illustrations
+    scryfall
     """
-    def increment_pngid(prepngid):
-        (edition, page, row, col) = prepngid
-        if row == 9 and col == 9:
-            return (edition, page+1, 0, 0)
-        elif col == 9:
-            return (edition, page, row+1, 0)
-        else:
-            return (edition, page, row, col+1)
-
-
     acc = []
     scryfall_page = 1
-    pngid = (edition, 0, 0, 0)
 
     while True:
         response = r.get("https://api.scryfall.com/cards/search",
@@ -54,17 +40,7 @@ def fetch_edition(edition):
                                  "page": scryfall_page})
 
         data = response.json()
-        for card in data["data"]:
-            if is_double_faced(card):
-                card["card_faces"][0]["pngid"] = pngid
-                pngid = increment_pngid(pngid)
-                card["card_faces"][1]["pngid"] = pngid
-            else:
-                card["pngid"] = pngid
-
-            acc.append(card)
-            pngid = increment_pngid(pngid)
-
+        acc.extend(data["data"])
         if not data["has_more"]:
             break
 
@@ -99,82 +75,5 @@ def read_edition(path, edition):
         for line in fp.readlines():
             card = json.loads(line)
             card["released_at"] = datetime.fromisoformat(card["released_at"]).date()
-            if is_double_faced(card):
-                for face in card["card_faces"]:
-                    face["pngid"] = tuple(face["pngid"])
-            else:
-                card["pngid"] = tuple(card["pngid"])
             cards.append(card)
     return cards
-
-
-def fetch_imdix(cards, print_progress=True):
-    """
-    Given a list of cards returns a list of (pngid, image)
-    """
-    imdix = []
-    counter = 1
-    max_count = len(cards)
-
-    for card in cards:
-
-        if print_progress:
-            print("{0:4d}/{1} {2}".format(counter, max_count, card["name"]))
-            counter += 1
-
-        if is_double_faced(card):
-            for face in card["card_faces"]:
-                pngid = face["pngid"]
-                response = r.get(face["image_uris"]["png"], stream=True)
-                image = Image.open(response.raw)
-                imdix.append((pngid, image))
-        else:
-            response = r.get(card["image_uris"]["png"], stream=True)
-            image = Image.open(response.raw)
-            imdix.append((card["pngid"], image))
-
-        time.sleep(0.050)       # Time between requests
-
-    return imdix
-
-
-def upsert_sheets(path, edition, imdix):
-    """
-    writes new sheets updated with images in the imdix,
-    assumes that all images in an edition are the same size
-    """
-    width, height = imdix[0][1].size
-
-    sheets = {}
-    for ((_, page, row, col), image) in imdix:
-
-        if page not in sheets:
-            sheetname = "{}/{}_{:03d}.png".format(path, edition, page)
-            if os.path.exists(sheetname):
-                sheets[page] = (sheetname, Image.open(sheetname))
-            else:
-                sheets[page] = (sheetname, Image.new("RGB", (width * 10, height * 10), "white"))
-
-        sheets[page][1].paste(image, (width*col, height*row))
-
-    for (_, (sheetname, image)) in sheets.items():
-        image.save(sheetname)
-
-
-def render_pngids(path, pngids):
-    """
-    returns a list of Images corresponding to the passed pngids
-    """
-    acc = {}
-    for ((edition, page), grouped) in it.groupby(set(pngids), o.itemgetter(0, 1)):
-        edfile = EDDEX[edition] if edition in EDDEX else edition
-        sheet = Image.open("{}/{}_{:03d}.png".format(path, edfile, page))
-        for pngid in grouped:
-            width = sheet.size[0]/10
-            height = sheet.size[1]/10
-            row = height * pngid[2]
-            column = width * pngid[3]
-            box = (column, row, column+width, row+height)
-            acc[pngid] = sheet.crop(box)
-
-    return [acc[pngid] for pngid in pngids]

@@ -4,67 +4,45 @@ import decker.core as dc
 import decker.codex as dx
 
 
-def find_missing(cardex, deck):
+def find_missing(cardex, cardlist):
     """
     returns a list of card names that aren't found in the passed cardex
     """
-    return [deckline["name"] for deckline in deck if deckline["name"] not in cardex]
+    return [cardline["name"] for cardline in cardlist if cardline["name"] not in cardex]
 
 
-def print_editions(codex, cardex, deck):
+def print_editions(codex, editions):
     """
-    prints the set of needed editions
+    prints the set of needed editions from newest to oldest
     """
-    acc = set()
-    for deckline in deck:
-        acc.add(list(cardex[deckline["name"]])[0])
-
     for row in codex:
-        if row["edition"] in acc:
+        if row["edition"] in editions:
             edition = row["edition"]
             name = row["name"]
             date = row["date"]
             print(f"{date}, {edition}, {name}")
 
 
-def print_csv(cardex, deck):
+def print_deck(deck):
     """
-    prints a deck in csv format to stdout
+    prints the deck in mtgo format
     """
-    print("edition,name,count")
-
-    rows = []
     for deckline in deck:
-        name = deckline["name"]
-        edition = list(cardex[name])[0]
         count = deckline["count"]
-        print(f'"{edition}","{name}",{count}')
-
-
-def print_deck(cardex, deck, all=False):
-    """
-    prints edition, card name pairs to stdout
-    """
-    for deckline in deck:
         name = deckline["name"]
-        if all:
-            edition_str = "[{}]".format(','.join(str(e) for e in cardex[name]))
-        else:
-            edition_str = cardex[name][0]
-        print(f"{edition_str}, {name}")
+        edition = deckline["edition"].upper()
+        collector_number = deckline["collector_number"]
+        print(f"{count} {name} ({edition}) {collector_number}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", '--deck',
-                        help="deck filename",
+    parser.add_argument("-c", '--cards',
+                        help="file containing list of cards with counts",
                         required=True)
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
-    parser.add_argument("-a", "--all",
-                        help="list all editions",
-                        action="store_true")
     parser.add_argument("-i", "--ignore",
                         help="ignored editions",
                         nargs='+')
@@ -72,30 +50,29 @@ if __name__ == "__main__":
                         help="newest edition to consider")
     parser.add_argument("-o", "--oldest",
                         help="oldest edition to consider")
-    parser.add_argument("-c", "--csv",
-                        help="print out in csv deck format (overrides --all)",
-                        action="store_true")
     parser.add_argument("-e", "--editions",
-                        help="prints a set of all editions used (overrides --all, --csv)",
+                        help="prints a set of all editions used",
                         action="store_true")
+
 
     args = parser.parse_args()
 
-    deck = dc.read_deck(args.deck)
+    cardlist = dx.read_cardlist(args.cards)
     igset = set(args.ignore) if args.ignore else set()
     codex = dx.read_codex("codex.csv")
     cardex = dx.read_cardex(args.path, codex, args.newest, args.oldest, igset)
 
-    missing_names = find_missing(cardex, deck)
+    missing_names = find_missing(cardex, cardlist)
     if missing_names:
         print("{0} missing".format(len(missing_names)))
         for name in missing_names:
             print(f"{name}")
         exit(1)
 
+    editions = dx.list_editions(cardex, cardlist)
     if args.editions:
-        print_editions(codex, cardex, deck)
-    elif args.csv:
-        print_csv(cardex, deck)
+        print_editions(codex, editions)
     else:
-        print_deck(cardex, deck, args.all)
+        index = dc.read_index(args.path, editions)
+        deck = dx.cardlist_to_deck(cardex, index, cardlist)
+        print_deck(deck)

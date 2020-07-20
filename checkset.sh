@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
-for file in `ls $1`
+for file in `find $1 -name "*.txt"`
 do
-    output+=$(python codeck.py -d ${1}/$file -e ${@:2})
+    output+=$(python codeck.py -c $file -e ${@:2})
     output+="\n"
 done
 
