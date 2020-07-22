@@ -18,13 +18,6 @@ def check_edition(edition):
     return response.ok
 
 
-def is_double_faced(card):
-    """
-    checks if the card has artwork on both sides
-    """
-    return card["layout"] in ["transform", "double_faced_token", "art_series"]
-
-
 def fetch_edition(edition):
     """
     given the 3 letter code for a edition, returns a list of cards from

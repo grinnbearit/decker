@@ -6,7 +6,7 @@ from swissknife.collections import OrderedSet
 
 def read_cardlist(cardlist_file):
     """
-    reads a csv file and returns a list of (name, count) tuples
+    reads a csv file and returns a list of {name, count} dicts
     """
     acc = []
     with open(cardlist_file, "r") as fp:
@@ -82,7 +82,7 @@ def list_editions(cardex, cardlist):
     return acc
 
 
-def cardlist_to_deck(cardex, index, cardlist):
+def cardlist_to_deck(cardex, namex, cardlist):
     """
     Returns an mtga formatted deck from a cardlist
 
@@ -92,7 +92,7 @@ def cardlist_to_deck(cardex, index, cardlist):
     acc = []
     for cardline in cardlist:
         edition = list(cardex[cardline["name"]])[0]
-        collector_numbers = index[edition][cardline["name"]]
+        collector_numbers = namex[edition][cardline["name"]]
         cn_count = cardline["count"]//len(collector_numbers)
         for idx, cn in enumerate(collector_numbers):
             deckline = {"count": cn_count,

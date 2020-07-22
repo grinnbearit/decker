@@ -1,25 +1,38 @@
-import csv
+import re
 import json
-from PIL import Image
-import itertools as it
 import decker.edition as de
 from collections import defaultdict
 
 
-def read_cardlist(cardlist_file):
+
+MTGA_RE = re.compile("^(\d+) (.+) \(([0-9A-Z]+)\) (\d+)$")
+def read_deck(deck_file):
     """
-    reads a csv file and returns a list of (name, count) tuples
+    reads an mtga formatted deck file,
+    returns a list of {count, name, edition, collector_number} dicts
     """
     acc = []
-    with open(cardlist_file, "r") as fp:
-        reader = csv.DictReader(fp)
-        for row in reader:
-            row["count"] = int(row["count"])
-            acc.append(row)
+    with open(deck_file, "r") as fp:
+        for line in fp.readlines():
+            (count, name, edition, collector_number) = re.match(MTGA_RE, line).groups()
+            acc.append({"count": int(count),
+                        "name": name,
+                        "edition": edition.lower(),
+                        "collector_number": collector_number})
     return acc
 
 
-def read_index(path, editions):
+def deck_editions(deck):
+    """
+    returns a set of editions used in this deck
+    """
+    acc = set()
+    for deckline in deck:
+        acc.add(deckline["edition"])
+    return acc
+
+
+def read_namex(path, editions):
     """
     loads a list of editions into an index of {(edition, name): [collector_numbers]}
     """
@@ -31,22 +44,13 @@ def read_index(path, editions):
     return acc
 
 
-def cardlist_to_deck(index, cardlist):
+def read_index(path, editions):
     """
-    Returns an mtga formatted deck from a cardlist
-
-    If multiple copies of a card are needed, and multiple versions of that card
-    exist, cycle through the different versions
-
-    If a card is double faced, adds two pngids for it in sequence.
+    loads a list of editions into an index of {(edition, collector_number): card}
     """
-    acc = []
-    for deckline in deck:
-        name_pngids = pngdex[deckline["edition"]][deckline["name"]]
-        deckline_pngids = it.islice(it.cycle(name_pngids), deckline["count"])
-        if type(name_pngids[0]) is list:
-            for pnglist in deckline_pngids:
-                acc.extend(pnglist)
-        else:
-            acc.extend(deckline_pngids)
+    acc = {}
+    for edition in editions:
+        acc[edition] = defaultdict(dict)
+        for card in de.read_edition(path, edition):
+            acc[edition][card["collector_number"]] = card
     return acc

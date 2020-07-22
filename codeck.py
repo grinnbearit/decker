@@ -73,6 +73,6 @@ if __name__ == "__main__":
     if args.editions:
         print_editions(codex, editions)
     else:
-        index = dc.read_index(args.path, editions)
-        deck = dx.cardlist_to_deck(cardex, index, cardlist)
+        namex = dc.read_namex(args.path, editions)
+        deck = dx.cardlist_to_deck(cardex, namex, cardlist)
         print_deck(deck)
