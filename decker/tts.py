@@ -22,13 +22,28 @@ def card_to_objectstate(index, edition, collector_number):
     return object_state
 
 
+def card_to_description(card):
+    """
+    returns a description given a card layout
+    """
+    if card["layout"] == "normal":
+        description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
+    elif card["layout"] == "split":
+        acc = []
+        for face in card["card_faces"]:
+            acc.append("[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"]))
+        description = "\n\n--------------------------\n\n".join(acc)
+
+    return description
+
+
 def card_to_containedobject(index, edition, collector_number, card_id, object_state=None):
     """
     returns a contained object dict for a TTS deck
     """
     card = index[edition][collector_number]
     nickname = card["name"]
-    description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
+    description = card_to_description(card)
     idx = str(card_id//100)
     custom_deck = {idx: object_state or card_to_objectstate(index, edition, collector_number)}
 
