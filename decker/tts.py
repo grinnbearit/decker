@@ -28,7 +28,7 @@ def card_to_description(card):
     """
     if card["layout"] == "normal":
         description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
-    elif card["layout"] == "split":
+    elif card["layout"] in ["split", "flip"]:
         acc = []
         for face in card["card_faces"]:
             acc.append("[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"]))
