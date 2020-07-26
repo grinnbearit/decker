@@ -78,15 +78,42 @@ def card_to_containedobject(index, edition, collector_number, card_id, object_st
     return contained_object
 
 
+def deck_to_ttscard(index, edition, collector_number):
+    """
+    returns a dict representing a tts card
+    """
+    object_state = card_to_objectstate(index, edition, collector_number)
+    contained_object = card_to_containedobject(index, edition, collector_number, 100, object_state)
+    ttscard = {"SaveName": "",
+               "GameMode": "",
+               "Gravity": 0.5,
+               "PlayArea": 0.5,
+               "Date": "",
+               "Table": "",
+               "Sky": "",
+               "Note": "",
+               "Rules": "",
+               "LuaScript": "",
+               "LuaScriptState": "",
+               "XmlUI": "",
+               "ObjectStates": [contained_object],
+               "TabStates": {},
+               "VersionNumber": ""}
+    return ttscard
+
+
 def deck_to_ttsdeck(index, deck):
     """
     returns a dict representing a tts deck
     """
-
     exploded_deck = []
     for deckline in deck:
        exploded_card = [(deckline["edition"], deckline["collector_number"])]*deckline["count"]
        exploded_deck.extend(exploded_card)
+
+    if len(exploded_deck) == 1:
+        (edition, collector_number) = exploded_deck[0]
+        return deck_to_ttscard(index, edition, collector_number)
 
     custom_deck = {}
     contained_objects = []
