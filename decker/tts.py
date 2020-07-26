@@ -26,7 +26,7 @@ def card_to_description(card):
     """
     returns a description given a card layout
     """
-    if card["layout"] == "normal":
+    if card["layout"] in ["normal", "token"]:
         description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
     elif card["layout"] in ["split", "flip"]:
         acc = []
