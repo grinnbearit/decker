@@ -37,7 +37,7 @@ def card_to_description(card):
     return description
 
 
-def card_to_containedobject(index, edition, collector_number, card_id, object_state=None):
+def card_to_containedobject(index, edition, collector_number, card_id, object_state):
     """
     returns a contained object dict for a TTS deck
     """
@@ -45,7 +45,7 @@ def card_to_containedobject(index, edition, collector_number, card_id, object_st
     nickname = card["name"]
     description = card_to_description(card)
     idx = str(card_id//100)
-    custom_deck = {idx: object_state or card_to_objectstate(index, edition, collector_number)}
+    custom_deck = {idx: object_state}
 
     contained_object = {"Name": "Card",
                         "Transform": {"posX": 0.0, "posY": 0.0, "posZ": 0.0,
