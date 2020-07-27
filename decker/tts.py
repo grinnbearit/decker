@@ -108,8 +108,8 @@ def deck_to_ttsdeck(index, deck):
     """
     exploded_deck = []
     for deckline in deck:
-       exploded_card = [(deckline["edition"], deckline["collector_number"])]*deckline["count"]
-       exploded_deck.extend(exploded_card)
+        exploded_card = [(deckline["edition"], deckline["collector_number"])]*deckline["count"]
+        exploded_deck.extend(exploded_card)
 
     if len(exploded_deck) == 1:
         (edition, collector_number) = exploded_deck[0]
@@ -119,11 +119,11 @@ def deck_to_ttsdeck(index, deck):
     contained_objects = []
     deck_ids = list(range(100, (len(exploded_deck)+1)*100, 100))
     for (card_id, (edition, collector_number)) in zip(deck_ids, exploded_deck):
-         idx = str(card_id//100)
-         object_state = card_to_objectstate(index, edition, collector_number)
-         custom_deck[idx] = object_state
-         contained_object = card_to_containedobject(index, edition, collector_number, card_id, object_state)
-         contained_objects.append(contained_object)
+        idx = str(card_id//100)
+        object_state = card_to_objectstate(index, edition, collector_number)
+        custom_deck[idx] = object_state
+        contained_object = card_to_containedobject(index, edition, collector_number, card_id, object_state)
+        contained_objects.append(contained_object)
 
     ttsdeck = {"SaveName": "",
                "GameMode": "",
