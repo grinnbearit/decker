@@ -95,14 +95,15 @@ def cardlist_to_deck(cardex, namex, cardlist):
         collector_numbers = namex[edition][cardline["name"]]
         cn_count = cardline["count"]//len(collector_numbers)
         for idx, cn in enumerate(collector_numbers):
-            deckline = {"count": cn_count,
-                        "name": cardline["name"],
-                        "edition": edition,
-                        "collector_number": cn}
+            overflow = cardline["count"] % len(collector_numbers)
+            count = cn_count + 1 if idx < overflow else cn_count
 
-            if idx < (cardline["count"] % len(collector_numbers)):
-                deckline["count"] += 1
+            if count != 0:
+                deckline = {"count": count,
+                            "name": cardline["name"],
+                            "edition": edition,
+                            "collector_number": cn}
 
-            acc.append(deckline)
+                acc.append(deckline)
 
     return acc
