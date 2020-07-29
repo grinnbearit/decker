@@ -13,6 +13,8 @@ def card_to_objectstate(index, edition, collector_number):
         back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072060763/7AFEF2CE9E7A7DB735C93CF33CC4C378CBF4B20D/"
     elif card["layout"] == "planar":
         back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072060000/1713AE8643632456D06F1BBA962C5514DD8CCC76/"
+    elif card["layout"] == "scheme":
+        back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072055936/0598975AB8EC26E8956D84F9EC73BBE5754E6C80/"
 
     object_state = {
         "FaceURL": face_url,
@@ -30,7 +32,7 @@ def card_to_description(card):
     """
     returns a description given a card layout
     """
-    if card["layout"] in ["normal", "token", "planar", "leveler"]:
+    if card["layout"] in ["normal", "token", "planar", "leveler", "scheme"]:
         description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
     elif card["layout"] in ["split", "flip"]:
         acc = []
