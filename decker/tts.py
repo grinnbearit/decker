@@ -1,20 +1,25 @@
 import json
 
 
-def card_to_objectstate(index, edition, collector_number):
+def card_to_objectstate(index, edition, collector_number, is_flipped=False):
     """
     returns an object state dict for a TTS deck
     """
     card = index[edition][collector_number]
-    face_url = card["image_uris"]["png"]
+
+    if card["layout"] in ["transform", "double_faced_token"]:
+        face = card["card_faces"][1 if is_flipped else 0]
+        face_url = face["image_uris"]["png"]
+    else:
+        face_url = card["image_uris"]["png"]
 
     # taken from https://github.com/jeandeaual/tts-deckconverter
-    if card["layout"] in ["normal", "token", "split", "flip", "leveler", "emblem"]:
-        back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072060763/7AFEF2CE9E7A7DB735C93CF33CC4C378CBF4B20D/"
-    elif card["layout"] == "planar":
+    if card["layout"] == "planar":
         back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072060000/1713AE8643632456D06F1BBA962C5514DD8CCC76/"
     elif card["layout"] == "scheme":
         back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072055936/0598975AB8EC26E8956D84F9EC73BBE5754E6C80/"
+    else:
+        back_url = "http://cloud-3.steamusercontent.com/ugc/998016607072060763/7AFEF2CE9E7A7DB735C93CF33CC4C378CBF4B20D/"
 
     object_state = {
         "FaceURL": face_url,
@@ -28,28 +33,31 @@ def card_to_objectstate(index, edition, collector_number):
     return object_state
 
 
-def card_to_description(card):
+def card_to_description(card, is_flipped=False):
     """
     returns a description given a card layout
     """
-    if card["layout"] in ["normal", "token", "planar", "leveler", "scheme", "emblem"]:
-        description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
-    elif card["layout"] in ["split", "flip"]:
+    if card["layout"] in ["split", "flip"]:
         acc = []
         for face in card["card_faces"]:
             acc.append("[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"]))
         description = "\n\n--------------------------\n\n".join(acc)
+    elif card["layout"] in ["transform", "double_faced_token"]:
+        face = card["card_faces"][1 if is_flipped else 0]
+        description = "[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"])
+    else:
+        description = "[b]{}[/b]\n\n{}".format(card["type_line"], card["oracle_text"])
 
     return description
 
 
-def card_to_containedobject(index, edition, collector_number, card_id, object_state):
+def card_to_containedobject(index, edition, collector_number, card_id, object_state, is_flipped=False):
     """
     returns a contained object dict for a TTS deck
     """
     card = index[edition][collector_number]
     nickname = card["name"]
-    description = card_to_description(card)
+    description = card_to_description(card, is_flipped)
     idx = str(card_id//100)
     custom_deck = {idx: object_state}
 
@@ -80,6 +88,11 @@ def card_to_containedobject(index, edition, collector_number, card_id, object_st
                         "LuaScript": "",
                         "LuaScriptState": "",
                         "GUID": ""}
+
+    if (card["layout"] in ["transform", "double_faced_token"]) and (not is_flipped):
+        flipped_state = card_to_objectstate(index, edition, collector_number, True)
+        flipped_object = card_to_containedobject(index, edition, collector_number, 100, flipped_state, True)
+        contained_object["States"] = {"2": flipped_object}
 
     return contained_object
 
