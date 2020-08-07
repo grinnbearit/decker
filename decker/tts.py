@@ -37,7 +37,7 @@ def card_to_description(card, is_flipped=False):
     """
     returns a description given a card layout
     """
-    if card["layout"] in ["split", "flip"]:
+    if card["layout"] in ["split", "flip", "adventure"]:
         acc = []
         for face in card["card_faces"]:
             acc.append("[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"]))
