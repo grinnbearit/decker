@@ -5,6 +5,14 @@ import decker.core as dc
 import decker.edition as de
 
 
+def is_deck_highres(index, deck):
+    for deckline in deck:
+        card = index[deckline["edition"]][deckline["collector_number"]]
+        if not card["highres_image"]:
+            return False
+    return True
+
+
 def edition_to_deck(path, edition):
     """
     returns an entire edition as a deck
@@ -33,6 +41,10 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
+    parser.add_argument("-l", "--lowres",
+                        help="generates a deck with low res images," +\
+                        " if no high res available",
+                        action="store_true")
 
     args = parser.parse_args()
 
@@ -45,6 +57,12 @@ if __name__ == "__main__":
         editions = [edition]
 
     index = dc.read_index(args.path, editions)
+
+    if not args.lowres:
+        if not is_deck_highres(index, deck):
+            print(f"not all cards in {args.deck} have highres prints")
+            exit(-1)
+
     ttsdeck = dt.deck_to_ttsdeck(index, deck)
 
     with open(args.output, "w") as fp:
