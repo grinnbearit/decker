@@ -44,6 +44,19 @@ def read_namex(path, editions):
     return acc
 
 
+def read_tokex(path, editions):
+    """
+    loads a list of editions into an index of {name: [(edition, collector_number)]}
+    for all token cards
+    """
+    acc = defaultdict(list)
+    for edition in editions:
+        for card in de.read_edition(path, edition):
+            if card["layout"] in ["token", "emblem", "double_faced_token"]:
+                acc[card["name"]].append((card["set"], card["collector_number"]))
+    return acc
+
+
 def read_index(path, editions):
     """
     loads a list of editions into an index of {(edition, collector_number): card}

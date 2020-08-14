@@ -32,10 +32,7 @@ def read_codex(codex_file):
 
 def filter_editions(codex, newest, oldest, ignore):
     """
-    returns two lists of editions, (new, old) split at current, sorted
-    from newest to oldest
-
-    only considers editions between `newest` and `oldest`, ignores `ignore`
+    returns a list of editions from `newest` to `oldest` ignores `ignore`
     """
     newest_flag = newest is None
 
