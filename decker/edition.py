@@ -3,6 +3,7 @@ import csv
 import json
 import time
 import requests as r
+from pathlib import Path
 from datetime import datetime
 
 
@@ -56,6 +57,15 @@ def write_edition(path, cards):
         for card in cards:
             json.dump(card, f)
             f.write("\n")
+
+
+def stored_edition(path, edition):
+    """
+    returns True if the edition exists on path
+    """
+    edfile = EDDEX[edition] if edition in EDDEX else edition
+    file = Path(f"{path}/{edfile}.json")
+    return file.is_file()
 
 
 def read_edition(path, edition):

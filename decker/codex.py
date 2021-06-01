@@ -25,6 +25,11 @@ def fetch_codex():
     """
     returns a list of all editions in reverse chronological order
     from https://scryfall.com/sets
+
+    `all_cards` are the total number of cards in the set currently available on
+    scryfall
+
+    `stored_cards` and `highres_cards` are set by `update_codex`
     """
     response = r.get("https://scryfall.com/sets")
     soup = BeautifulSoup(response.text, "html.parser")
@@ -40,9 +45,32 @@ def fetch_codex():
         acc.append({"date": date,
                     "edition": edition,
                     "name": name,
-                    "num_cards": cards,
-                    "num_highres": -1})
+                    "all_cards": cards,
+                    "stored_cards": -1,
+                    "highres_cards": -1})
     return sorted(acc, key=itemgetter("date", "edition"), reverse=True)
+
+
+def update_codex(path, codex):
+    """
+    updates `stored_cards` and `highres_cards` in the passed codex
+    """
+    for row in codex:
+        if de.stored_edition(path, row["edition"]):
+            cards = de.read_edition(path, row["edition"])
+            stored_cards = len(cards)
+            highres_cards = 0
+
+            for card in cards:
+                if card["highres_image"]:
+                    highres_cards += 1
+
+            row["stored_cards"] = stored_cards
+            row["highres_cards"] = highres_cards
+        else:
+            row["stored_cards"] = 0
+            row["highres_cards"] = 0
+    return codex
 
 
 def write_codex(codex_file, codex):
@@ -50,7 +78,7 @@ def write_codex(codex_file, codex):
     writes the codex as a csv to `codex_file`
     """
     with open(codex_file, 'w') as csvfile:
-        fieldnames = ["date", "edition", "name", "num_cards", "num_highres"]
+        fieldnames = ["date", "edition", "name", "all_cards", "stored_cards", "highres_cards"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_NONNUMERIC)
         writer.writeheader()
         for row in codex:
