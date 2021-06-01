@@ -3,8 +3,6 @@ import json
 import decker.edition as de
 from collections import defaultdict
 
-
-
 MTGA_RE = re.compile("^(\d+) (.+) \(([0-9A-Z]+)\) ([0-9a-zA-Z★]+)$")
 def read_deck(deck_file):
     """
