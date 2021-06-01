@@ -1,5 +1,9 @@
 import csv
+import requests as r
 import decker.edition as de
+from datetime import datetime
+from bs4 import BeautifulSoup
+from operator import itemgetter
 from collections import defaultdict
 from swissknife.collections import OrderedSet
 
@@ -15,6 +19,42 @@ def read_cardlist(cardlist_file):
             row["count"] = int(row["count"])
             acc.append(row)
     return acc
+
+
+def fetch_codex():
+    """
+    returns a list of all editions in reverse chronological order
+    from https://scryfall.com/sets
+    """
+    response = r.get("https://scryfall.com/sets")
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    acc = []
+    for row in soup.find("table", class_="checklist").find_all("tr")[1:]:
+        divisions = row.find_all("td")
+        edition = divisions[0].small.text.lower()
+        offset = len(edition) + 1
+        name = divisions[0].text.strip()[:-offset]
+        cards = int(divisions[1].text.strip())
+        date = datetime.strptime(divisions[2].text.strip(), "%Y-%m-%d").date()
+        acc.append({"date": date,
+                    "edition": edition,
+                    "name": name,
+                    "num_cards": cards,
+                    "num_highres": -1})
+    return sorted(acc, key=itemgetter("date", "edition"), reverse=True)
+
+
+def write_codex(codex_file, codex):
+    """
+    writes the codex as a csv to `codex_file`
+    """
+    with open(codex_file, 'w') as csvfile:
+        fieldnames = ["date", "edition", "name", "num_cards", "num_highres"]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_NONNUMERIC)
+        writer.writeheader()
+        for row in codex:
+            writer.writerow(row)
 
 
 def read_codex(codex_file):

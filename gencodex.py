@@ -1,5 +1,5 @@
 import argparse
-import decker.edition as de
+import decker.codex as dx
 
 
 # editions without metadata
@@ -13,6 +13,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    codex = de.fetch_codex()
+    codex = dx.fetch_codex()
     filtered = [row for row in codex if row["edition"] not in SKIP]
-    de.write_codex(args.codex, filtered)
+    dx.write_codex(args.codex, filtered)

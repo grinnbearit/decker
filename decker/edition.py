@@ -3,7 +3,6 @@ import csv
 import json
 import time
 import requests as r
-from bs4 import BeautifulSoup
 from datetime import datetime
 
 
@@ -72,38 +71,3 @@ def read_edition(path, edition):
             card["released_at"] = datetime.fromisoformat(card["released_at"]).date()
             cards.append(card)
     return cards
-
-
-def fetch_codex():
-    """
-    returns a list of all editions in reverse chronological order
-    from https://scryfall.com/sets
-    """
-    response = r.get("https://scryfall.com/sets")
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    acc = []
-    for row in soup.find("table", class_="checklist").find_all("tr")[1:]:
-        divisions = row.find_all("td")
-        edition = divisions[0].small.text.lower()
-        offset = len(edition) + 1
-        name = divisions[0].text.strip()[:-offset]
-        cards = int(divisions[1].text.strip())
-        date = datetime.strptime(divisions[2].text.strip(), "%Y-%m-%d").date()
-        acc.append({"edition": edition,
-                    "name": name,
-                    "cards": cards,
-                    "date": date})
-    return acc
-
-
-def write_codex(codex_file, codex):
-    """
-    writes the codex as a csv to `codex_file`
-    """
-    with open(codex_file, 'w') as csvfile:
-        fieldnames = ["edition", "name", "cards", "date"]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_NONNUMERIC)
-        writer.writeheader()
-        for row in codex:
-            writer.writerow(row)
