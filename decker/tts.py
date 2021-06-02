@@ -1,4 +1,5 @@
 import json
+import decker.core as dc
 
 
 def card_to_objectstate(index, edition, collector_number, is_flipped=False):
@@ -7,7 +8,7 @@ def card_to_objectstate(index, edition, collector_number, is_flipped=False):
     """
     card = index[edition][collector_number]
 
-    if card["layout"] in ["transform", "double_faced_token", "modal_dfc"]:
+    if dc.is_double_faced(card):
         face = card["card_faces"][1 if is_flipped else 0]
         face_url = face["image_uris"]["png"]
     else:
@@ -42,7 +43,7 @@ def card_to_description(card, is_flipped=False):
         for face in card["card_faces"]:
             acc.append("[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"]))
         description = "\n\n--------------------------\n\n".join(acc)
-    elif card["layout"] in ["transform", "double_faced_token", "modal_dfc"]:
+    elif dc.is_double_faced(card):
         face = card["card_faces"][1 if is_flipped else 0]
         description = "[b]{}[/b]\n\n{}".format(face["type_line"], face["oracle_text"])
     else:

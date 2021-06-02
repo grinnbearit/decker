@@ -2,6 +2,7 @@ import time
 import requests as r
 from PIL import Image
 from io import BytesIO
+import decker.core as dc
 
 
 def face_to_image(face):
@@ -24,7 +25,7 @@ def deck_to_images(index, deck):
     for deckline in deck:
         card = index[deckline["edition"]][deckline["collector_number"]]
 
-        if card["layout"] in ["transform", "double_faced_token"]:
+        if dc.is_double_faced(card):
             for face in card["card_faces"]:
                 image = face_to_image(face)
                 images.append(image)

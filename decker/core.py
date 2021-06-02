@@ -30,6 +30,13 @@ def deck_editions(deck):
     return acc
 
 
+def is_double_faced(card):
+    """
+    returns True if the card has 2 faces
+    """
+    return card["layout"] in ["transform", "double_faced_token", "modal_dfc", "art_series"]
+
+
 def read_namex(path, editions):
     """
     loads a list of editions into an index of {(edition, name): [collector_numbers]}
