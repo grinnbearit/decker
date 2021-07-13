@@ -3,7 +3,7 @@ import decker.codex as dx
 
 
 # editions without metadata
-SKIP = set(["twisted","modern","uncommon", "legacy", "vintage","protour","grixis","arena","tinkerer","livethedream"])
+SKIP = set(["twisted","modern","uncommon", "legacy", "vintage","protour","grixis","arena","tinkerer","livethedream", "chromatic"])
 
 
 if __name__ == "__main__":
@@ -12,7 +12,8 @@ if __name__ == "__main__":
                         help="editions directory",
                         default="editions")
     parser.add_argument("-c", "--codex",
-                        help="codex filename")
+                        help="codex filename",
+                        default="codex.csv")
 
     args = parser.parse_args()
 
