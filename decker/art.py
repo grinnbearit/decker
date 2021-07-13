@@ -123,5 +123,5 @@ def render_fidlist(index, fidlist):
     returns a sheet corresponding to the passed fidlist
     """
     images = [fid_to_image(index, fid) for fid in fidlist]
-    sheet = dl.layout(images, (1, 3))[0]
+    sheet = dl.layout(images, (1, 3), "black")[0]
     return sheet

@@ -12,7 +12,7 @@ def dimensions(frmt):
     raise Exception("Unsupported format")
 
 
-def layout(images, dimensions=(3, 6)):
+def layout(images, dimensions=(3, 6), background="white"):
     """
     lays out sheets of images, side by side, according to the passed dimensions (rows, cols)
     returns an array of new image sheets.
@@ -32,11 +32,12 @@ def layout(images, dimensions=(3, 6)):
             width = new_width if new_width < width else width
             height = new_height if new_height < height else height
 
-        sheet = Image.new("RGB", (width * cols, height * rows), "white")
+        sheet = Image.new("RGB", (width * cols, height * rows), background)
         for (idx, image) in zip(range(cards_per_sheet), chunk):
             col = idx % cols
             row = idx // cols
-            sheet.paste(image.resize((width, height)), (width * col, height * row))
+            resized = image.resize((width, height))
+            sheet.paste(resized, (width * col, height * row), resized)
 
         sheets.append(sheet)
 
