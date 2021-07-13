@@ -4,8 +4,8 @@ import decker.edition as de
 from datetime import datetime
 from bs4 import BeautifulSoup
 from operator import itemgetter
+from ordered_set import OrderedSet
 from collections import defaultdict
-from swissknife.collections import OrderedSet
 
 
 def read_cardlist(cardlist_file):
