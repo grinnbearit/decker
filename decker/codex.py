@@ -36,18 +36,21 @@ def fetch_codex():
 
     acc = []
     for row in soup.find("table", class_="checklist").find_all("tr")[1:]:
-        divisions = row.find_all("td")
-        edition = divisions[0].small.text.lower()
-        offset = len(edition) + 1
-        name = divisions[0].text.strip()[:-offset]
-        cards = int(divisions[1].text.strip())
-        date = datetime.strptime(divisions[2].text.strip(), "%Y-%m-%d").date()
-        acc.append({"date": date,
-                    "edition": edition,
-                    "name": name,
-                    "all_cards": cards,
-                    "stored_cards": -1,
-                    "highres_cards": -1})
+        if (row.find(class_="pillbox") and\
+            not row.find(class_="pillbox-item disabled", text="en")):
+
+            divisions = row.find_all("td")
+            edition = divisions[0].small.text.lower()
+            offset = len(edition) + 1
+            name = divisions[0].text.strip()[:-offset]
+            cards = int(divisions[1].text.strip())
+            date = datetime.strptime(divisions[2].text.strip(), "%Y-%m-%d").date()
+            acc.append({"date": date,
+                        "edition": edition,
+                        "name": name,
+                        "all_cards": cards,
+                        "stored_cards": -1,
+                        "highres_cards": -1})
     return sorted(acc, key=itemgetter("date", "edition"), reverse=True)
 
 
