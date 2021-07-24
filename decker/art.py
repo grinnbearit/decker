@@ -59,6 +59,59 @@ def read_printex(path, editions):
     return acc
 
 
+def read_artex(path, editions):
+    """
+    Generates a mapping of artist to unique illustrations
+    `editions` is a list of all relevant editions from newest to oldest
+
+    returns a map of {name: [fid]} where fid is a tuple of (edition, collector_number, is_back)
+    that uniquely identifies a card face.
+
+    More recent cards with the same illustration replace older ones.
+
+    path: the editions path
+    """
+    artist_illustrations = OrderedDefaultDict(OrderedDict)
+    for edition in reversed(editions):
+        for card in de.read_edition(path, edition):
+
+            if card["artist"] == "":
+                continue
+
+            if (card["layout"] == "normal") &\
+               ("illustration_id" not in card):
+                continue
+
+            if not card["highres_image"]:
+                continue
+
+            if dc.is_double_faced(card):
+                fids = [(edition, card["collector_number"], is_back) for is_back in [False, True]]
+
+                for (fid, face) in zip(fids, card["card_faces"]):
+                    illustrations = artist_illustrations[face["artist_id"]]
+
+                    if (face["illustration_id"] not in illustrations) or \
+                       (illustrations[face["illustration_id"]][0] <= card["released_at"]):
+                        illustrations[face["illustration_id"]] = (card["released_at"], fid)
+            else:
+                fid = (edition, card["collector_number"], False)
+
+                for artist_id in card["artist_ids"]:
+                    illustrations = artist_illustrations[artist_id]
+
+                    if (card["illustration_id"] not in illustrations) or \
+                       (illustrations[card["illustration_id"]][0] <= card["released_at"]):
+                        illustrations[card["illustration_id"]] = (card["released_at"], fid)
+
+    acc = OrderedDefaultDict(list)
+    for (artist_id, illustrations) in artist_illustrations.items():
+        for (_, (_, fid)) in illustrations.items():
+            acc[artist_id].append(fid)
+
+    return acc
+
+
 def generate_fidlists(wallex, length=3, minimum=3, rollover=True):
     """
     Wallex should be an Ordered Dictionary of {category: [fid]}

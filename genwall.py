@@ -5,11 +5,21 @@ import decker.core as dc
 import decker.codex as dx
 
 
+def read_wallex(path, art, editions):
+    if art == "prints":
+        return da.read_printex(path, editions)
+    else:
+        return da.read_artex(path, editions)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-p", "--path",
                         help="editions directory",
                         default="editions")
+    parser.add_argument("-a", "--art", choices=["artists", "prints"],
+                        help="Sets the type of wallpapers generated",
+                        required=True)
     parser.add_argument("-i", "--ignore",
                         help="ignored editions",
                         nargs='+')
@@ -31,8 +41,8 @@ if __name__ == "__main__":
     editions = dx.filter_editions(codex, args.newest, args.oldest, igset)
     index = dc.read_index(args.path, editions)
 
-    printex = da.read_printex(args.path, editions)
-    fidlists = da.generate_fidlists(printex)
+    wallex = read_wallex(args.path, args.art, editions)
+    fidlists = da.generate_fidlists(wallex)
 
     directory = os.path.expanduser(args.directory)
 
