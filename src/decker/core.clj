@@ -1,5 +1,6 @@
 (ns decker.core
   (:require [clj-http.client :as client]
+            [clojure.pprint :as pprint]
             [net.cgrand.enlive-html :as html]
             [clojure.string :as str]
             [clojure.instant :as inst]
@@ -26,7 +27,7 @@
   [edition-list]
   (with-open [f (io/writer "metadata/edition_list.edn")]
     (binding [*out* f]
-      (pr edition-list))))
+      (pprint/pprint edition-list))))
 
 
 (defn read-edition-list
@@ -46,7 +47,7 @@
       (apply concat acc)
       (let [response (client/get "https://api.scryfall.com/cards/search"
                                  {:query-params {"order" "set"
-                                                 "q" (format "e:%s unique:prints" "lea")
+                                                 "q" (format "e:%s unique:prints" edition)
                                                  "page" page}
                                   :as :json})]
         (Thread/sleep 50)
@@ -63,7 +64,7 @@
         filename (format "metadata/%s_metadata.edn" edition)]
     (with-open [f (io/writer filename)]
       (binding [*out* f]
-        (pr edition-metadata)))))
+        (pprint/pprint edition-metadata)))))
 
 
 (defn read-edition
