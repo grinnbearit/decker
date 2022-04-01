@@ -13,12 +13,12 @@
   (let [content (html/html-resource (java.net.URL. "https://scryfall.com/sets"))]
     (for [row (html/select content [:table.checklist :> :tbody :tr])
           :when (= (first (html/select row [:a.pillbox-item html/text])) "en")
-          :let [[set-name _ set-code _ cardinality date] (->> (drop 1 (html/select row [:td :a html/text]))
-                                                              (drop-while map?))]]
-      #:all-sets{:set-name (str/trim set-name)
-                 :set-code set-code
-                 :cardinality (Integer/parseInt cardinality)
-                 :date (inst/read-instant-date date)})))
+          :let [[edition-name _ edition-code _ cardinality date] (->> (drop 1 (html/select row [:td :a html/text]))
+                                                                      (drop-while map?))]]
+      #:edition-list{:edition-name (str/trim edition-name)
+                     :edition-code edition-code
+                     :cardinality (Integer/parseInt cardinality)
+                     :date (inst/read-instant-date date)})))
 
 
 (defn write-edition-list!
