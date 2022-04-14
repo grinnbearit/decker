@@ -16,10 +16,9 @@
           :when (= (first (html/select row [:a.pillbox-item html/text])) "en")
           :let [[edition-name _ edition-code _ cardinality date] (->> (drop 1 (html/select row [:td :a html/text]))
                                                                       (drop-while map?))]]
-      #:edition{:name (str/trim edition-name)
+      #:edition{:date (inst/read-instant-date date)
                 :code edition-code
-                :cardinality (Integer/parseInt cardinality)
-                :date (inst/read-instant-date date)})))
+                :name (str/trim edition-name)})))
 
 
 (defn write-edition-list!
@@ -76,3 +75,11 @@
   (let [filename (format "metadata/%s_metadata.edn" edition)]
     (with-open [f (io/reader filename)]
       (edn/read (java.io.PushbackReader. f)))))
+
+
+(defn !read-eddex
+  "returns a list of  cards] for all editions, in order from newest to oldest"
+  []
+  (for [{code :edition/code} (!read-edition-list)]
+    #:eddex{:code code
+            :cards (!read-edition code)}))

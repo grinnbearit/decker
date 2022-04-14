@@ -12,24 +12,24 @@
        (list (first s))))))
 
 
-(defn filter-editions
+(defn filter-eddex
   "Given an edition-list returns a sublist of editions from `newest` to `oldest` ignores `ignore`"
-  [edition-list & {:keys [newest oldest ignore]}]
+  [eddex & {:keys [newest oldest ignore]}]
   (let [ignore-set (set ignore)]
-    (->> edition-list
-         (drop-while #(and newest (not= (:edition/code %) newest)))
-         (remove #(-> % :edition/code ignore-set))
-         (take-while-and-one #(not (and oldest (= (:edition/code %) oldest)))))))
+    (->> eddex
+         (drop-while #(and newest (not= (:eddex/code %) newest)))
+         (remove #(-> % :eddex/code ignore-set))
+         (take-while-and-one #(not (and oldest (= (:eddex/code %) oldest)))))))
 
 
-(defn !read-cardex
-  [& {:keys [newest oldest ignore] :as opts}]
+(defn gen-cardex
+  [eddex & {:keys [newest oldest ignore] :as opts}]
   (letfn [(reducer [acc [code {card-name :card/name collector-number :card/collector-number}]]
             (update-in acc [card-name] (fnil conj [])
                        {:edition/code code
                         :card/collector-number collector-number}))]
 
-    (->> (for [{code :edition/code} (filter-editions (de/!read-edition-list) opts)
-               card (de/!read-edition code)]
+    (->> (for [{code :eddex/code cards :eddex/cards} (filter-eddex eddex opts)
+               card cards]
            [code card])
          (reduce reducer {}))))
