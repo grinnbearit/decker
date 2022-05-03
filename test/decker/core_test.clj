@@ -5,10 +5,39 @@
 
 
 (facts
+ "missing cards"
+
+ (missing-cards
+  {"card-1" #:cardex{:code "SET-1"
+                     :collector-numbers ["1", "2", "3"]}
+   "card-2" #:cardex{:code "SET-2"
+                     :collector-numbers ["4"]}}
+
+  #:card-list{:name "deck-1"
+              :description "description-1"
+              :cards [{:count 4, :name "card-1"}
+                      {:count 4, :name "card-2"}]})
+ => ()
+
+ (missing-cards
+  {}
+  #:card-list{:name "deck-1"
+              :description "description-1"
+              :cards [{:count 4, :name "card-1"}
+                      {:count 4, :name "card-2"}]})
+ => ["card-1" "card-2"])
+
+
+(facts
  "card-list->deck"
 
  (card-list->deck
-  :edition-list
+
+  {"card-1" #:cardex{:code "SET-1"
+                     :collector-numbers ["1", "2", "3"]}
+   "card-2" #:cardex{:code "SET-2"
+                     :collector-numbers ["4"]}}
+
   #:card-list{:name "deck-1"
               :description "description-1"
               :cards [{:count 4, :name "card-1"}
@@ -32,10 +61,10 @@
                         :deckline/count 4
                         :deckline/name "card-2"}]}
 
-
- (provided
-  (dx/gen-cardex :edition-list nil)
-  => {"card-1" #:cardex{:code "SET-1"
-                        :collector-numbers ["1", "2", "3"]}
-      "card-2" #:cardex{:code "SET-2"
-                        :collector-numbers ["4"]}}))
+ (card-list->deck
+  {}
+  #:card-list{:name "deck-1"
+              :description "description-1"
+              :cards [{:count 4, :name "card-1"}
+                      {:count 4, :name "card-2"}]})
+ => (throws AssertionError))
