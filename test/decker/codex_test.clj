@@ -11,44 +11,44 @@
 
 
 (facts
- "filter eddex"
- (let [eddex [#:eddex{:code "SET-4", :cards []}
-              #:eddex{:code "SET-3", :cards []}
-              #:eddex{:code "SET-2", :cards []}
-              #:eddex{:code "SET-1", :cards []}]]
+ "filter edition-cards"
+ (let [edition-cards [#:edition-cards{:code "SET-4", :cards []}
+                      #:edition-cards{:code "SET-3", :cards []}
+                      #:edition-cards{:code "SET-2", :cards []}
+                      #:edition-cards{:code "SET-1", :cards []}]]
 
-   (filter-eddex eddex) => eddex
-   (filter-eddex eddex :newest "SET-3") => (drop 1 eddex)
-   (filter-eddex eddex :oldest "SET-2") => (take 3 eddex)
-   (filter-eddex eddex :ignore ["SET-3", "SET-2"]) => (concat (take 1 eddex) (drop 3 eddex))))
+   (filter-edition-cards edition-cards) => edition-cards
+   (filter-edition-cards edition-cards :newest "SET-3") => (drop 1 edition-cards)
+   (filter-edition-cards edition-cards :oldest "SET-2") => (take 3 edition-cards)
+   (filter-edition-cards edition-cards :ignore ["SET-3", "SET-2"]) => (concat (take 1 edition-cards) (drop 3 edition-cards))))
 
 
 (facts
  "gen-cardex"
 
- (let [eddex [#:eddex{:code "SET-2"
-                      :cards [#:card{:collector-number "3"
-                                     :name "card-1"}]}
+ (let [edition-cards [#:edition-cards{:code "SET-2"
+                                      :cards [#:card{:collector-number "3"
+                                                     :name "card-1"}
+                                              #:card{:collector-number "4"
+                                                     :name "card-1"}]}
 
-              #:eddex{:code "SET-1"
-                      :cards [#:card{:collector-number "1"
-                                     :name "card-1"}
-                              #:card{:collector-number "2"
-                                     :name "card-2"}]}]]
+                      #:edition-cards{:code "SET-1"
+                                      :cards [#:card{:collector-number "1"
+                                                     :name "card-1"}
+                                              #:card{:collector-number "2"
+                                                     :name "card-2"}]}]]
 
-   (gen-cardex eddex :oldest "SET-2")
-   => {"card-1" [{:edition/code "SET-2"
-                  :card/collector-number "3"}]}
+   (gen-cardex edition-cards :oldest "SET-2")
+   => {"card-1" #:cardex{:code "SET-2"
+                         :collector-numbers ["3" "4"]}}
 
    (provided
-    (filter-eddex eddex {:oldest "SET-2"})
-    => (take 1 eddex))
+    (filter-edition-cards edition-cards {:oldest "SET-2"})
+    => (take 1 edition-cards))
 
 
-   (gen-cardex eddex)
-   => {"card-1" [{:edition/code "SET-2"
-                  :card/collector-number "3"}
-                 {:edition/code "SET-1"
-                  :card/collector-number "1"}]
-       "card-2" [{:edition/code "SET-1"
-                  :card/collector-number "2"}]}))
+   (gen-cardex edition-cards)
+   => {"card-1" #:cardex{:code "SET-2"
+                         :collector-numbers ["3" "4"]}
+       "card-2" #:cardex{:code "SET-1"
+                         :collector-numbers ["2"]}}))

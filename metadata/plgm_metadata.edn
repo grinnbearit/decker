@@ -1,2 +1,13 @@
-(#:card{:collector-number "1", :name "Counterspell"}
- #:card{:collector-number "2", :name "Incinerate"})
+(#:card{:collector-number "1",
+        :name "Counterspell",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/7065deea-6117-47d4-9d72-fc67af5bb483.png?1561757383",
+        :type-line "Instant",
+        :oracle-text "Counter target spell."}
+ #:card{:collector-number "2",
+        :name "Incinerate",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/8/28b0495d-0c3f-4491-8331-4cbabbd6eac5.png?1561756819",
+        :type-line "Instant",
+        :oracle-text
+        "Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn."})

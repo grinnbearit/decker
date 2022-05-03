@@ -1,199 +1,1379 @@
-(#:card{:collector-number "1a", :name "Carrier Pigeons"}
- #:card{:collector-number "1b", :name "Carrier Pigeons"}
- #:card{:collector-number "2a", :name "Errand of Duty"}
- #:card{:collector-number "2b", :name "Errand of Duty"}
- #:card{:collector-number "3", :name "Exile"}
- #:card{:collector-number "4", :name "Inheritance"}
- #:card{:collector-number "5", :name "Ivory Gargoyle"}
- #:card{:collector-number "6", :name "Juniper Order Advocate"}
- #:card{:collector-number "7a", :name "Kjeldoran Escort"}
- #:card{:collector-number "7b", :name "Kjeldoran Escort"}
- #:card{:collector-number "8", :name "Kjeldoran Home Guard"}
- #:card{:collector-number "9a", :name "Kjeldoran Pride"}
- #:card{:collector-number "9b", :name "Kjeldoran Pride"}
- #:card{:collector-number "10a", :name "Martyrdom"}
- #:card{:collector-number "10b", :name "Martyrdom"}
- #:card{:collector-number "11a", :name "Noble Steeds"}
- #:card{:collector-number "11b", :name "Noble Steeds"}
- #:card{:collector-number "12a", :name "Reinforcements"}
- #:card{:collector-number "12b", :name "Reinforcements"}
- #:card{:collector-number "13a", :name "Reprisal"}
- #:card{:collector-number "13b", :name "Reprisal"}
- #:card{:collector-number "14", :name "Royal Decree"}
- #:card{:collector-number "15a", :name "Royal Herbalist"}
- #:card{:collector-number "15b", :name "Royal Herbalist"}
- #:card{:collector-number "16", :name "Scars of the Veteran"}
- #:card{:collector-number "17", :name "Seasoned Tactician"}
- #:card{:collector-number "18", :name "Sustaining Spirit"}
- #:card{:collector-number "19", :name "Sworn Defender"}
- #:card{:collector-number "20", :name "Unlikely Alliance"}
- #:card{:collector-number "21a", :name "Wild Aesthir"}
- #:card{:collector-number "21b", :name "Wild Aesthir"}
- #:card{:collector-number "22a", :name "Arcane Denial"}
- #:card{:collector-number "22b", :name "Arcane Denial"}
- #:card{:collector-number "23a", :name "Awesome Presence"}
- #:card{:collector-number "23b", :name "Awesome Presence"}
- #:card{:collector-number "24a", :name "Benthic Explorers"}
- #:card{:collector-number "24b", :name "Benthic Explorers"}
- #:card{:collector-number "25", :name "Browse"}
- #:card{:collector-number "26", :name "Diminishing Returns"}
- #:card{:collector-number "27a", :name "False Demise"}
- #:card{:collector-number "27b", :name "False Demise"}
- #:card{:collector-number "28", :name "Force of Will"}
- #:card{:collector-number "29a", :name "Foresight"}
- #:card{:collector-number "29b", :name "Foresight"}
- #:card{:collector-number "30a", :name "Lat-Nam's Legacy"}
- #:card{:collector-number "30b", :name "Lat-Nam's Legacy"}
- #:card{:collector-number "31", :name "Library of Lat-Nam"}
- #:card{:collector-number "32", :name "Phantasmal Sphere"}
- #:card{:collector-number "33a", :name "Soldevi Heretic"}
- #:card{:collector-number "33b", :name "Soldevi Heretic"}
- #:card{:collector-number "34a", :name "Soldevi Sage"}
- #:card{:collector-number "34b", :name "Soldevi Sage"}
- #:card{:collector-number "35", :name "Spiny Starfish"}
- #:card{:collector-number "36a", :name "Storm Crow"}
- #:card{:collector-number "36b", :name "Storm Crow"}
- #:card{:collector-number "37", :name "Storm Elemental"}
- #:card{:collector-number "38", :name "Suffocation"}
- #:card{:collector-number "39", :name "Thought Lash"}
- #:card{:collector-number "40", :name "Tidal Control"}
- #:card{:collector-number "41a", :name "Viscerid Armor"}
- #:card{:collector-number "41b", :name "Viscerid Armor"}
- #:card{:collector-number "42", :name "Viscerid Drone"}
- #:card{:collector-number "43", :name "Balduvian Dead"}
- #:card{:collector-number "44a", :name "Casting of Bones"}
- #:card{:collector-number "44b", :name "Casting of Bones"}
- #:card{:collector-number "45", :name "Contagion"}
- #:card{:collector-number "46", :name "Diseased Vermin"}
- #:card{:collector-number "47", :name "Dystopia"}
- #:card{:collector-number "48", :name "Fatal Lore"}
- #:card{:collector-number "49a", :name "Feast or Famine"}
- #:card{:collector-number "49b", :name "Feast or Famine"}
- #:card{:collector-number "50a", :name "Fevered Strength"}
- #:card{:collector-number "50b", :name "Fevered Strength"}
- #:card{:collector-number "51a", :name "Insidious Bookworms"}
- #:card{:collector-number "51b", :name "Insidious Bookworms"}
- #:card{:collector-number "52", :name "Keeper of Tresserhorn"}
- #:card{:collector-number "53", :name "Krovikan Horror"}
- #:card{:collector-number "54", :name "Krovikan Plague"}
- #:card{:collector-number "55a", :name "Lim-Dûl's High Guard"}
- #:card{:collector-number "55b", :name "Lim-Dûl's High Guard"}
- #:card{:collector-number "56", :name "Misinformation"}
- #:card{:collector-number "57a", :name "Phantasmal Fiend"}
- #:card{:collector-number "57b", :name "Phantasmal Fiend"}
- #:card{:collector-number "58a", :name "Phyrexian Boon"}
- #:card{:collector-number "58b", :name "Phyrexian Boon"}
- #:card{:collector-number "59", :name "Ritual of the Machine"}
- #:card{:collector-number "60a", :name "Soldevi Adnate"}
- #:card{:collector-number "60b", :name "Soldevi Adnate"}
- #:card{:collector-number "61a", :name "Stench of Decay"}
- #:card{:collector-number "61b", :name "Stench of Decay"}
- #:card{:collector-number "62", :name "Stromgald Spy"}
- #:card{:collector-number "63a", :name "Swamp Mosquito"}
- #:card{:collector-number "63b", :name "Swamp Mosquito"}
- #:card{:collector-number "64a", :name "Agent of Stromgald"}
- #:card{:collector-number "64b", :name "Agent of Stromgald"}
- #:card{:collector-number "65", :name "Balduvian Horde"}
- #:card{:collector-number "66a", :name "Balduvian War-Makers"}
- #:card{:collector-number "66b", :name "Balduvian War-Makers"}
- #:card{:collector-number "67a", :name "Bestial Fury"}
- #:card{:collector-number "67b", :name "Bestial Fury"}
- #:card{:collector-number "68", :name "Burnout"}
- #:card{:collector-number "69", :name "Chaos Harlequin"}
- #:card{:collector-number "70", :name "Death Spark"}
- #:card{:collector-number "71a", :name "Enslaved Scout"}
- #:card{:collector-number "71b", :name "Enslaved Scout"}
- #:card{:collector-number "72a", :name "Gorilla Shaman"}
- #:card{:collector-number "72b", :name "Gorilla Shaman"}
- #:card{:collector-number "73a", :name "Gorilla War Cry"}
- #:card{:collector-number "73b", :name "Gorilla War Cry"}
- #:card{:collector-number "74a", :name "Guerrilla Tactics"}
- #:card{:collector-number "74b", :name "Guerrilla Tactics"}
- #:card{:collector-number "75", :name "Omen of Fire"}
- #:card{:collector-number "76", :name "Pillage"}
- #:card{:collector-number "77", :name "Primitive Justice"}
- #:card{:collector-number "78", :name "Pyrokinesis"}
- #:card{:collector-number "79", :name "Rogue Skycaptain"}
- #:card{:collector-number "80", :name "Soldier of Fortune"}
- #:card{:collector-number "81a", :name "Storm Shaman"}
- #:card{:collector-number "81b", :name "Storm Shaman"}
- #:card{:collector-number "82a", :name "Varchild's Crusader"}
- #:card{:collector-number "82b", :name "Varchild's Crusader"}
- #:card{:collector-number "83", :name "Varchild's War-Riders"}
- #:card{:collector-number "84a", :name "Veteran's Voice"}
- #:card{:collector-number "84b", :name "Veteran's Voice"}
- #:card{:collector-number "85", :name "Bounty of the Hunt"}
- #:card{:collector-number "86a", :name "Deadly Insect"}
- #:card{:collector-number "86b", :name "Deadly Insect"}
- #:card{:collector-number "87", :name "Elvish Bard"}
- #:card{:collector-number "88a", :name "Elvish Ranger"}
- #:card{:collector-number "88b", :name "Elvish Ranger"}
- #:card{:collector-number "89", :name "Elvish Spirit Guide"}
- #:card{:collector-number "90a", :name "Fyndhorn Druid"}
- #:card{:collector-number "90b", :name "Fyndhorn Druid"}
- #:card{:collector-number "91", :name "Gargantuan Gorilla"}
- #:card{:collector-number "92a", :name "Gift of the Woods"}
- #:card{:collector-number "92b", :name "Gift of the Woods"}
- #:card{:collector-number "93a", :name "Gorilla Berserkers"}
- #:card{:collector-number "93b", :name "Gorilla Berserkers"}
- #:card{:collector-number "94a", :name "Gorilla Chieftain"}
- #:card{:collector-number "94b", :name "Gorilla Chieftain"}
- #:card{:collector-number "95", :name "Hail Storm"}
- #:card{:collector-number "96", :name "Kaysa"}
- #:card{:collector-number "97", :name "Nature's Chosen"}
- #:card{:collector-number "98", :name "Nature's Wrath"}
- #:card{:collector-number "99", :name "Splintering Wind"}
- #:card{:collector-number "100a", :name "Taste of Paradise"}
- #:card{:collector-number "100b", :name "Taste of Paradise"}
- #:card{:collector-number "101", :name "Tornado"}
- #:card{:collector-number "102a", :name "Undergrowth"}
- #:card{:collector-number "102b", :name "Undergrowth"}
- #:card{:collector-number "103a", :name "Whip Vine"}
- #:card{:collector-number "103b", :name "Whip Vine"}
- #:card{:collector-number "104a", :name "Yavimaya Ancients"}
- #:card{:collector-number "104b", :name "Yavimaya Ancients"}
- #:card{:collector-number "105", :name "Yavimaya Ants"}
- #:card{:collector-number "106", :name "Energy Arc"}
- #:card{:collector-number "107", :name "Lim-Dûl's Vault"}
- #:card{:collector-number "108", :name "Lim-Dûl's Paladin"}
- #:card{:collector-number "109", :name "Surge of Strength"}
- #:card{:collector-number "110", :name "Nature's Blessing"}
- #:card{:collector-number "111", :name "Wandering Mage"}
- #:card{:collector-number "112", :name "Lord of Tresserhorn"}
- #:card{:collector-number "113", :name "Misfortune"}
- #:card{:collector-number "114", :name "Winter's Night"}
- #:card{:collector-number "115", :name "Phelddagrif"}
- #:card{:collector-number "116a", :name "Aesthir Glider"}
- #:card{:collector-number "116b", :name "Aesthir Glider"}
- #:card{:collector-number "117", :name "Ashnod's Cylix"}
- #:card{:collector-number "118a", :name "Astrolabe"}
- #:card{:collector-number "118b", :name "Astrolabe"}
- #:card{:collector-number "119", :name "Floodwater Dam"}
- #:card{:collector-number "120", :name "Gustha's Scepter"}
- #:card{:collector-number "121", :name "Helm of Obedience"}
- #:card{:collector-number "122", :name "Lodestone Bauble"}
- #:card{:collector-number "123", :name "Mishra's Groundbreaker"}
- #:card{:collector-number "124", :name "Mystic Compass"}
- #:card{:collector-number "125", :name "Phyrexian Devourer"}
- #:card{:collector-number "126", :name "Phyrexian Portal"}
- #:card{:collector-number "127a", :name "Phyrexian War Beast"}
- #:card{:collector-number "127b", :name "Phyrexian War Beast"}
- #:card{:collector-number "128", :name "Scarab of the Unseen"}
- #:card{:collector-number "129", :name "Shield Sphere"}
- #:card{:collector-number "130", :name "Sol Grail"}
- #:card{:collector-number "131", :name "Soldevi Digger"}
- #:card{:collector-number "132a", :name "Soldevi Sentry"}
- #:card{:collector-number "132b", :name "Soldevi Sentry"}
- #:card{:collector-number "133a", :name "Soldevi Steam Beast"}
- #:card{:collector-number "133b", :name "Soldevi Steam Beast"}
- #:card{:collector-number "134", :name "Storm Cauldron"}
- #:card{:collector-number "135", :name "Urza's Engine"}
- #:card{:collector-number "136", :name "Whirling Catapult"}
- #:card{:collector-number "137", :name "Balduvian Trading Post"}
- #:card{:collector-number "138", :name "Heart of Yavimaya"}
- #:card{:collector-number "139", :name "Kjeldoran Outpost"}
- #:card{:collector-number "140", :name "Lake of the Dead"}
- #:card{:collector-number "141", :name "School of the Unseen"}
- #:card{:collector-number "142", :name "Sheltered Valley"}
- #:card{:collector-number "143", :name "Soldevi Excavations"}
- #:card{:collector-number "144", :name "Thawing Glaciers"})
+(#:card{:collector-number "1a",
+        :name "Carrier Pigeons",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/5543b08d-d470-435e-83d9-a3a84c1cc2e6.png?1562768711",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying\nWhen Carrier Pigeons enters the battlefield, draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "1b",
+        :name "Carrier Pigeons",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d68befe-78bc-4d9c-968b-f7e6b3042f27.png?1562769676",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying\nWhen Carrier Pigeons enters the battlefield, draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "2a",
+        :name "Errand of Duty",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d3c539b-4039-45c2-8d43-80648d946e91.png?1575874700",
+        :type-line "Instant",
+        :oracle-text
+        "Create a 1/1 white Knight creature token with banding. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)"}
+ #:card{:collector-number "2b",
+        :name "Errand of Duty",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a7362e2-8dc0-4d76-a4eb-55ed56b1cd66.png?1562769220",
+        :type-line "Instant",
+        :oracle-text
+        "Create a 1/1 white Knight creature token with banding. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)"}
+ #:card{:collector-number "3",
+        :name "Exile",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/108b85ff-ed03-4b3e-872f-1cad1a27b930.png?1562767776",
+        :type-line "Instant",
+        :oracle-text
+        "Exile target nonwhite attacking creature. You gain life equal to its toughness."}
+ #:card{:collector-number "4",
+        :name "Inheritance",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9fe88de7-b226-4a43-9662-8b408e4281d3.png?1562769681",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever a creature dies, you may pay {3}. If you do, draw a card."}
+ #:card{:collector-number "5",
+        :name "Ivory Gargoyle",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/365820e4-7b43-423b-98ce-f383eb4d2a96.png?1562768245",
+        :type-line "Creature — Gargoyle",
+        :oracle-text
+        "Flying\nWhen Ivory Gargoyle dies, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.\n{4}{W}: Exile Ivory Gargoyle."}
+ #:card{:collector-number "6",
+        :name "Juniper Order Advocate",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/9185d10f-7368-4b40-b4a6-baf46c616c34.png?1562769659",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "As long as Juniper Order Advocate is untapped, green creatures you control get +1/+1."}
+ #:card{:collector-number "7a",
+        :name "Kjeldoran Escort",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0fd7536a-5417-4de0-9a48-82a5f82d9af4.png?1562767775",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)"}
+ #:card{:collector-number "7b",
+        :name "Kjeldoran Escort",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/70f54ca5-1f1b-40c7-ad0b-569c54d1b5aa.png?1592654040",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)"}
+ #:card{:collector-number "8",
+        :name "Kjeldoran Home Guard",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/794d16f9-848f-44ca-8e85-d01a58558077.png?1562769200",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "At end of combat, if Kjeldoran Home Guard attacked or blocked this combat, put a -0/-1 counter on Kjeldoran Home Guard and create a 0/1 white Deserter creature token."}
+ #:card{:collector-number "9a",
+        :name "Kjeldoran Pride",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d0acdf4d-6fdd-4430-9204-9c80dc8fb387.png?1562770179",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +1/+2.\n{2}{U}: Attach Kjeldoran Pride to target creature other than enchanted creature."}
+ #:card{:collector-number "9b",
+        :name "Kjeldoran Pride",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a88d1c1a-b53e-459b-8a83-4d559177188a.png?1562769696",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +1/+2.\n{2}{U}: Attach Kjeldoran Pride to target creature other than enchanted creature."}
+ #:card{:collector-number "10a",
+        :name "Martyrdom",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6ab5775a-7138-4526-83fe-350127695224.png?1562769178",
+        :type-line "Instant",
+        :oracle-text
+        "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature, planeswalker, or player this turn is dealt to this creature instead.\" Only you may activate this ability."}
+ #:card{:collector-number "10b",
+        :name "Martyrdom",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07f91817-8e79-4885-a57b-d26241c4791f.png?1562767769",
+        :type-line "Instant",
+        :oracle-text
+        "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature, planeswalker, or player this turn is dealt to this creature instead.\" Only you may activate this ability."}
+ #:card{:collector-number "11a",
+        :name "Noble Steeds",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45a35751-a232-40ba-a73b-d3ca7a44867d.png?1562768695",
+        :type-line "Enchantment",
+        :oracle-text
+        "{1}{W}: Target creature gains first strike until end of turn."}
+ #:card{:collector-number "11b",
+        :name "Noble Steeds",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/684bc5b2-c5fb-4340-9c11-73891adb4b93.png?1562769173",
+        :type-line "Enchantment",
+        :oracle-text
+        "{1}{W}: Target creature gains first strike until end of turn."}
+ #:card{:collector-number "12a",
+        :name "Reinforcements",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d734086b-a0fb-4504-96e5-89842aa587b3.png?1562770622",
+        :type-line "Instant",
+        :oracle-text
+        "Put up to three target creature cards from your graveyard on top of your library."}
+ #:card{:collector-number "12b",
+        :name "Reinforcements",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0b26881-3ad7-4d70-8051-a7e222d910bf.png?1575874803",
+        :type-line "Instant",
+        :oracle-text
+        "Put up to three target creature cards from your graveyard on top of your library."}
+ #:card{:collector-number "13a",
+        :name "Reprisal",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/179f50be-6658-42f4-b9b9-c97c7d3f239a.png?1562768219",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target creature with power 4 or greater. It can't be regenerated."}
+ #:card{:collector-number "13b",
+        :name "Reprisal",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/839df85a-1aca-4d4b-b327-2778caa6d289.png?1562769214",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target creature with power 4 or greater. It can't be regenerated."}
+ #:card{:collector-number "14",
+        :name "Royal Decree",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d22231f5-30af-4f46-b2c9-0b71124c6939.png?1562770182",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cumulative upkeep {W} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever a Swamp, Mountain, black permanent, or red permanent becomes tapped, Royal Decree deals 1 damage to that permanent's controller."}
+ #:card{:collector-number "15a",
+        :name "Royal Herbalist",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/027e03e1-1a39-47ba-b206-44d022b4c346.png?1562767762",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{2}, Exile the top card of your library: You gain 1 life."}
+ #:card{:collector-number "15b",
+        :name "Royal Herbalist",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6456ee12-7c09-434e-9028-613506ef7ff6.png?1562768738",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{2}, Exile the top card of your library: You gain 1 life."}
+ #:card{:collector-number "16",
+        :name "Scars of the Veteran",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/632870c3-7c0b-48ad-865d-95f8c4e887d0.png?1562768734",
+        :type-line "Instant",
+        :oracle-text
+        "You may exile a white card from your hand rather than pay this spell's mana cost.\nPrevent the next 7 damage that would be dealt to any target this turn. If it's a creature, put a +0/+1 counter on it for each 1 damage prevented this way at the beginning of the next end step."}
+ #:card{:collector-number "17",
+        :name "Seasoned Tactician",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f8be4b6b-23a2-42d2-911d-fa14f7f5a95b.png?1562770857",
+        :type-line "Creature — Human Advisor",
+        :oracle-text
+        "{3}, Exile the top four cards of your library: The next time a source of your choice would deal damage to you this turn, prevent that damage."}
+ #:card{:collector-number "18",
+        :name "Sustaining Spirit",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c9ecf91a-9ce1-44a1-8859-7163d32cfba6.png?1562770171",
+        :type-line "Creature — Angel Spirit",
+        :oracle-text
+        "Cumulative upkeep {1}{W} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nDamage that would reduce your life total to less than 1 reduces it to 1 instead."}
+ #:card{:collector-number "19",
+        :name "Sworn Defender",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/328e6ceb-30f7-415e-93b4-7075af0fed89.png?1562768240",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "{1}: Sworn Defender's power becomes the toughness of target creature blocking or being blocked by Sworn Defender minus 1 until end of turn, and Sworn Defender's toughness becomes 1 plus the power of that creature until end of turn."}
+ #:card{:collector-number "20",
+        :name "Unlikely Alliance",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/1/c14d2c73-1934-4504-bbfb-62ba82e0a0e3.png?1562770168",
+        :type-line "Enchantment",
+        :oracle-text
+        "{1}{W}: Target nonattacking, nonblocking creature gets +0/+2 until end of turn."}
+ #:card{:collector-number "21a",
+        :name "Wild Aesthir",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd0decda-d77a-4b7b-8ca4-08528d476f51.png?1562770634",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying, first strike\n{W}{W}: Wild Aesthir gets +2/+0 until end of turn. Activate only once each turn."}
+ #:card{:collector-number "21b",
+        :name "Wild Aesthir",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ffecf097-a5b1-4bd9-ac3f-784bd44e447c.png?1562770863",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying, first strike\n{W}{W}: Wild Aesthir gets +2/+0 until end of turn. Activate only once each turn."}
+ #:card{:collector-number "22a",
+        :name "Arcane Denial",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b0c5728e-43e7-417a-ba18-5038345cec67.png?1562770144",
+        :type-line "Instant",
+        :oracle-text
+        "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "22b",
+        :name "Arcane Denial",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/415a3104-90e6-4235-b67f-69337c7fe714.png?1562768258",
+        :type-line "Instant",
+        :oracle-text
+        "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "23a",
+        :name "Awesome Presence",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80017e84-87bc-4eb8-a663-5c263d8df812.png?1616536884",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature can't be blocked unless defending player pays {3} for each creature they control that's blocking it."}
+ #:card{:collector-number "23b",
+        :name "Awesome Presence",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0aa8a120-5c13-4852-bdc8-80ae50a6e3d3.png?1562767770",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature can't be blocked unless defending player pays {3} for each creature they control that's blocking it."}
+ #:card{:collector-number "24a",
+        :name "Benthic Explorers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/146eb650-92c8-48a9-a40d-e7bba6545f36.png?1562768216",
+        :type-line "Creature — Merfolk Scout",
+        :oracle-text
+        "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce."}
+ #:card{:collector-number "24b",
+        :name "Benthic Explorers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/397d7602-d374-484c-aab2-3e57f12ceaa4.png?1562768251",
+        :type-line "Creature — Merfolk Scout",
+        :oracle-text
+        "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce."}
+ #:card{:collector-number "25",
+        :name "Browse",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/578549f0-5643-4891-b467-2d1cb49fe4ea.png?1562768712",
+        :type-line "Enchantment",
+        :oracle-text
+        "{2}{U}{U}: Look at the top five cards of your library, put one of them into your hand, and exile the rest."}
+ #:card{:collector-number "26",
+        :name "Diminishing Returns",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a375ec24-4841-4792-ad58-f29cdf0d1bbb.png?1562769689",
+        :type-line "Sorcery",
+        :oracle-text
+        "Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards."}
+ #:card{:collector-number "27a",
+        :name "False Demise",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69773e2b-bfee-449d-b8e8-5646442f5487.png?1575874718",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen enchanted creature dies, return that card to the battlefield under your control."}
+ #:card{:collector-number "27b",
+        :name "False Demise",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e844464-cf1b-4a34-ac37-3a4da858c6bf.png?1575874745",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen enchanted creature dies, return that card to the battlefield under your control."}
+ #:card{:collector-number "28",
+        :name "Force of Will",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a879b60-4381-447d-8a5a-8e0b6a1d49ca.png?1562769672",
+        :type-line "Instant",
+        :oracle-text
+        "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell."}
+ #:card{:collector-number "29a",
+        :name "Foresight",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a12e624c-8879-4e60-a1be-286abc5e0106.png?1562769683",
+        :type-line "Sorcery",
+        :oracle-text
+        "Search your library for three cards, exile them, then shuffle.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "29b",
+        :name "Foresight",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4fe74e0-bcde-4176-8da5-38e78daad5e5.png?1562769691",
+        :type-line "Sorcery",
+        :oracle-text
+        "Search your library for three cards, exile them, then shuffle.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "30a",
+        :name "Lat-Nam's Legacy",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3b3420b-424e-4c30-b329-bc4447f121d3.png?1562770644",
+        :type-line "Instant",
+        :oracle-text
+        "Shuffle a card from your hand into your library. If you do, draw two cards at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "30b",
+        :name "Lat-Nam's Legacy",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd3b0741-dd5e-4d98-a50b-19a0f20dd72c.png?1562770176",
+        :type-line "Instant",
+        :oracle-text
+        "Shuffle a card from your hand into your library. If you do, draw two cards at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "31",
+        :name "Library of Lat-Nam",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f5fa739-e8d4-4e1d-8b6b-c334d1e91bef.png?1562768723",
+        :type-line "Sorcery",
+        :oracle-text
+        "An opponent chooses one —\n• You draw three cards at the beginning of the next turn's upkeep.\n• You search your library for a card, put that card into your hand, then shuffle."}
+ #:card{:collector-number "32",
+        :name "Phantasmal Sphere",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a84617c7-c70a-497c-b834-3d98346180cf.png?1562769695",
+        :type-line "Creature — Illusion",
+        :oracle-text
+        "Flying\nAt the beginning of your upkeep, put a +1/+1 counter on Phantasmal Sphere, then sacrifice Phantasmal Sphere unless you pay {1} for each +1/+1 counter on it.\nWhen Phantasmal Sphere leaves the battlefield, target opponent creates an X/X blue Orb creature token with flying, where X is the number of +1/+1 counters on Phantasmal Sphere."}
+ #:card{:collector-number "33a",
+        :name "Soldevi Heretic",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d46accc8-b926-4443-bc12-dfd5870b2d2e.png?1562770615",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{W}, {T}: Prevent the next 2 damage that would be dealt to target creature this turn. Target opponent may draw a card."}
+ #:card{:collector-number "33b",
+        :name "Soldevi Heretic",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/9613ca47-c9d1-4485-b0bd-71b0b587567e.png?1575874823",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{W}, {T}: Prevent the next 2 damage that would be dealt to target creature this turn. Target opponent may draw a card."}
+ #:card{:collector-number "34a",
+        :name "Soldevi Sage",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07392841-2df5-47f1-9868-edae3376e35a.png?1562767767",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{T}, Sacrifice two lands: Draw three cards, then discard one of them."}
+ #:card{:collector-number "34b",
+        :name "Soldevi Sage",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53dc5902-817c-4a85-a0b9-20555574fad1.png?1562768708",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{T}, Sacrifice two lands: Draw three cards, then discard one of them."}
+ #:card{:collector-number "35",
+        :name "Spiny Starfish",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c4242dda-6078-481d-a068-e7b10c873b89.png?1562770170",
+        :type-line "Creature — Starfish",
+        :oracle-text
+        "{U}: Regenerate Spiny Starfish.\nAt the beginning of each end step, if Spiny Starfish regenerated this turn, create a 0/1 blue Starfish creature token for each time it regenerated this turn."}
+ #:card{:collector-number "36a",
+        :name "Storm Crow",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2d4ea78-16f1-46ac-8a60-db20c37aad5e.png?1562769684",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)"}
+ #:card{:collector-number "36b",
+        :name "Storm Crow",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2dbf72f7-2360-4105-beae-946556884e40.png?1562768234",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)"}
+ #:card{:collector-number "37",
+        :name "Storm Elemental",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24de2b5e-78b1-490d-ac47-67f7076bc6b6.png?1562768226",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Flying\n{U}, Exile the top card of your library: Tap target creature with flying.\n{U}, Exile the top card of your library: If the exiled card is a snow land, Storm Elemental gets +1/+1 until end of turn."}
+ #:card{:collector-number "38",
+        :name "Suffocation",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d22104df-8147-45fd-897a-f99a815be062.png?1562770180",
+        :type-line "Instant",
+        :oracle-text
+        "Cast this spell only if you were dealt damage this turn by a red instant or sorcery spell.\nSuffocation deals 4 damage to the controller of the last red instant or sorcery spell that dealt damage to you this turn.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "39",
+        :name "Thought Lash",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d59bbac1-ca51-4c72-9f1f-5fc6c82a4a27.png?1562770616",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cumulative upkeep—Exile the top card of your library. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhen a player doesn't pay Thought Lash's cumulative upkeep, that player exiles all cards from their library.\nExile the top card of your library: Prevent the next 1 damage that would be dealt to you this turn."}
+ #:card{:collector-number "40",
+        :name "Tidal Control",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb9a7b7d-3d37-4bb6-ab48-1fec2bfb4fdc.png?1562770174",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nPay 2 life or {2}: Counter target red or green spell. Any player may activate this ability."}
+ #:card{:collector-number "41a",
+        :name "Viscerid Armor",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9c3f55a-5aa7-42e1-9aab-168a7e61c112.png?1562770628",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +1/+1.\n{1}{U}: Return Viscerid Armor to its owner's hand."}
+ #:card{:collector-number "41b",
+        :name "Viscerid Armor",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b719f89d-2a2c-460c-95e4-ada21353b340.png?1562770156",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +1/+1.\n{1}{U}: Return Viscerid Armor to its owner's hand."}
+ #:card{:collector-number "42",
+        :name "Viscerid Drone",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2ccd245f-e374-4bb8-8ac9-743b27ecf817.png?1562768231",
+        :type-line "Creature — Homarid Drone",
+        :oracle-text
+        "{T}, Sacrifice a creature and a Swamp: Destroy target nonartifact creature. It can't be regenerated.\n{T}, Sacrifice a creature and a snow Swamp: Destroy target creature. It can't be regenerated."}
+ #:card{:collector-number "43",
+        :name "Balduvian Dead",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fac1875a-feab-4213-aa15-69892b7df58b.png?1562770862",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "{2}{R}, Exile a creature card from your graveyard: Create a 3/1 black and red Graveborn creature token with haste. Sacrifice it at the beginning of the next end step."}
+ #:card{:collector-number "44a",
+        :name "Casting of Bones",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e823c295-b66e-41c3-bd77-1a13f95e69c3.png?1562770650",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen enchanted creature dies, draw three cards, then discard one of them."}
+ #:card{:collector-number "44b",
+        :name "Casting of Bones",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88442ddf-c12b-4a25-804d-29fef5a90a0c.png?1562769219",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen enchanted creature dies, draw three cards, then discard one of them."}
+ #:card{:collector-number "45",
+        :name "Contagion",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/0/00c8f94a-7690-47f5-b664-61411a32ab74.png?1562767761",
+        :type-line "Instant",
+        :oracle-text
+        "You may pay 1 life and exile a black card from your hand rather than pay this spell's mana cost.\nDistribute two -2/-1 counters among one or two target creatures."}
+ #:card{:collector-number "46",
+        :name "Diseased Vermin",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/39703080-524d-4aa1-8c58-d512c41ae5d4.png?1562768249",
+        :type-line "Creature — Rat",
+        :oracle-text
+        "Whenever Diseased Vermin deals combat damage to a player, put an infection counter on it.\nAt the beginning of your upkeep, Diseased Vermin deals X damage to target opponent previously dealt damage by it, where X is the number of infection counters on it."}
+ #:card{:collector-number "47",
+        :name "Dystopia",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f8bb451-706d-44ff-bbad-9ddc6f9f786a.png?1562768724",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cumulative upkeep—Pay 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nAt the beginning of each player's upkeep, that player sacrifices a green or white permanent."}
+ #:card{:collector-number "48",
+        :name "Fatal Lore",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24ba0b83-9671-4ee7-996d-57a3616b9c66.png?1562768225",
+        :type-line "Sorcery",
+        :oracle-text
+        "An opponent chooses one —\n• You draw three cards.\n• You destroy up to two target creatures that player controls. They can't be regenerated. That player draws up to three cards."}
+ #:card{:collector-number "49a",
+        :name "Feast or Famine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c185b4d-8da5-4b8a-85f0-5f0622c7bade.png?1562769209",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Create a 2/2 black Zombie creature token.\n• Destroy target nonartifact, nonblack creature. It can't be regenerated."}
+ #:card{:collector-number "49b",
+        :name "Feast or Famine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4ac1586-c3d5-4add-bade-b527dcf4a391.png?1562770658",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Create a 2/2 black Zombie creature token.\n• Destroy target nonartifact, nonblack creature. It can't be regenerated."}
+ #:card{:collector-number "50a",
+        :name "Fevered Strength",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/13e53d6c-67f5-4d74-8205-6325c75d1d07.png?1562767779",
+        :type-line "Instant",
+        :oracle-text
+        "Target creature gets +2/+0 until end of turn.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "50b",
+        :name "Fevered Strength",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca621684-1e0d-44d3-8bc4-f77e354b9ab4.png?1562770173",
+        :type-line "Instant",
+        :oracle-text
+        "Target creature gets +2/+0 until end of turn.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "51a",
+        :name "Insidious Bookworms",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4bfb7c7e-5a0a-4d4d-be98-ffed0386592b.png?1562768704",
+        :type-line "Creature — Worm",
+        :oracle-text
+        "When Insidious Bookworms dies, you may pay {1}{B}. If you do, target player discards a card at random."}
+ #:card{:collector-number "51b",
+        :name "Insidious Bookworms",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/a/7a043cc2-1bd4-4b44-ba23-d2585ffc3841.png?1562769203",
+        :type-line "Creature — Worm",
+        :oracle-text
+        "When Insidious Bookworms dies, you may pay {1}{B}. If you do, target player discards a card at random."}
+ #:card{:collector-number "52",
+        :name "Keeper of Tresserhorn",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aaf8b0ec-f81a-488c-850c-098a8a3119e5.png?1562770136",
+        :type-line "Creature — Avatar",
+        :oracle-text
+        "Whenever Keeper of Tresserhorn attacks and isn't blocked, it assigns no combat damage this turn and defending player loses 2 life."}
+ #:card{:collector-number "53",
+        :name "Krovikan Horror",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1f3cb1c-6bde-4b55-b5bc-5b64b56930f2.png?1562770642",
+        :type-line "Creature — Horror Spirit",
+        :oracle-text
+        "At the beginning of the end step, if Krovikan Horror is in your graveyard with a creature card directly above it, you may return Krovikan Horror to your hand.\n{1}, Sacrifice a creature: Krovikan Horror deals 1 damage to any target."}
+ #:card{:collector-number "54",
+        :name "Krovikan Plague",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b258e192-20af-4a45-981f-05181f4cd997.png?1562770148",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant non-Wall creature you control\nWhen Krovikan Plague enters the battlefield, draw a card at the beginning of the next turn's upkeep.\nTap enchanted creature: Krovikan Plague deals 1 damage to any target. Put a -0/-1 counter on enchanted creature. Activate only if enchanted creature is untapped."}
+ #:card{:collector-number "55a",
+        :name "Lim-Dûl's High Guard",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5afe9b5-3be8-472a-95c3-2c34231bc042.png?1562770153",
+        :type-line "Creature — Skeleton",
+        :oracle-text
+        "First strike\n{1}{B}: Regenerate Lim-Dûl's High Guard."}
+ #:card{:collector-number "55b",
+        :name "Lim-Dûl's High Guard",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/5470fce6-30cf-43bd-a258-a9fde4be0be8.png?1562768709",
+        :type-line "Creature — Skeleton",
+        :oracle-text
+        "First strike\n{1}{B}: Regenerate Lim-Dûl's High Guard."}
+ #:card{:collector-number "56",
+        :name "Misinformation",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2f8638df-7915-4867-882a-95439486bd7b.png?1562768235",
+        :type-line "Instant",
+        :oracle-text
+        "Put up to three target cards from an opponent's graveyard on top of their library in any order."}
+ #:card{:collector-number "57a",
+        :name "Phantasmal Fiend",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a05d428-7c70-4813-8e6c-20278cc0b0bd.png?1562769670",
+        :type-line "Creature — Illusion",
+        :oracle-text
+        "{B}: Phantasmal Fiend gets +1/-1 until end of turn.\n{1}{U}: Switch Phantasmal Fiend's power and toughness until end of turn."}
+ #:card{:collector-number "57b",
+        :name "Phantasmal Fiend",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c2842a1-25b8-4c4b-b5f8-496929288ff3.png?1562768229",
+        :type-line "Creature — Illusion",
+        :oracle-text
+        "{B}: Phantasmal Fiend gets +1/-1 until end of turn.\n{1}{U}: Switch Phantasmal Fiend's power and toughness until end of turn."}
+ #:card{:collector-number "58a",
+        :name "Phyrexian Boon",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9734708-d8e3-4d72-86b9-dd91fcfab5b4.png?1562770160",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+1 as long as it's black. Otherwise, it gets -1/-2."}
+ #:card{:collector-number "58b",
+        :name "Phyrexian Boon",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f82668b-50b3-4746-b7fd-82f8560ebd95.png?1562769185",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+1 as long as it's black. Otherwise, it gets -1/-2."}
+ #:card{:collector-number "59",
+        :name "Ritual of the Machine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/537b4109-ae7c-451a-8576-97f817a70d75.png?1587856913",
+        :type-line "Sorcery",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature.\nGain control of target nonartifact, nonblack creature."}
+ #:card{:collector-number "60a",
+        :name "Soldevi Adnate",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8b2651b0-1ab2-4d7e-834f-7505797da474.png?1562769222",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{T}, Sacrifice a black or artifact creature: Add an amount of {B} equal to the sacrificed creature's mana value."}
+ #:card{:collector-number "60b",
+        :name "Soldevi Adnate",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80812871-d9a7-40de-94a5-b854e55409db.png?1562769213",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{T}, Sacrifice a black or artifact creature: Add an amount of {B} equal to the sacrificed creature's mana value."}
+ #:card{:collector-number "61a",
+        :name "Stench of Decay",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9a45644-549a-4eaa-8367-b170027bd5a2.png?1562770859",
+        :type-line "Instant",
+        :oracle-text
+        "Nonartifact creatures get -1/-1 until end of turn."}
+ #:card{:collector-number "61b",
+        :name "Stench of Decay",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4b93845-f17a-4892-a1ce-a4630dced218.png?1562770150",
+        :type-line "Instant",
+        :oracle-text
+        "Nonartifact creatures get -1/-1 until end of turn."}
+ #:card{:collector-number "62",
+        :name "Stromgald Spy",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/c/0cf8cecc-449f-4cc6-ac4d-440722df0ab9.png?1562767773",
+        :type-line "Creature — Human Rogue",
+        :oracle-text
+        "Whenever Stromgald Spy attacks and isn't blocked, you may have defending player play with their hand revealed for as long as Stromgald Spy remains on the battlefield. If you do, Stromgald Spy assigns no combat damage this turn."}
+ #:card{:collector-number "63a",
+        :name "Swamp Mosquito",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21961b79-637a-4aa5-89b5-4e6e9f60d4d1.png?1562768222",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Flying\nWhenever Swamp Mosquito attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)"}
+ #:card{:collector-number "63b",
+        :name "Swamp Mosquito",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac2fbe77-8757-4333-a083-975d5c3c6433.png?1562770138",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Flying\nWhenever Swamp Mosquito attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)"}
+ #:card{:collector-number "64a",
+        :name "Agent of Stromgald",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a7506f8-cf09-46ca-ad80-3c398c487ae2.png?1562768700",
+        :type-line "Creature — Human Knight",
+        :oracle-text "{R}: Add {B}."}
+ #:card{:collector-number "64b",
+        :name "Agent of Stromgald",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9236d75-1724-4121-9fa9-57fa96b19361.png?1562770625",
+        :type-line "Creature — Human Knight",
+        :oracle-text "{R}: Add {B}."}
+ #:card{:collector-number "65",
+        :name "Balduvian Horde",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e167a6c-05f8-4d90-9f6b-eb0f1046d54a.png?1562769655",
+        :type-line "Creature — Human Barbarian",
+        :oracle-text
+        "When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random."}
+ #:card{:collector-number "66a",
+        :name "Balduvian War-Makers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/12fd561e-6a26-4140-a033-1204f5dda5f3.png?1562767778",
+        :type-line "Creature — Human Barbarian",
+        :oracle-text
+        "Haste\nRampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)"}
+ #:card{:collector-number "66b",
+        :name "Balduvian War-Makers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/dada7aeb-0062-4fb2-8bcb-abdd75029fb2.png?1562770631",
+        :type-line "Creature — Human Barbarian",
+        :oracle-text
+        "Haste\nRampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)"}
+ #:card{:collector-number "67a",
+        :name "Bestial Fury",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/626225b9-2cfd-4cf5-b11c-89e5a231b09e.png?1562768732",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen Bestial Fury enters the battlefield, draw a card at the beginning of the next turn's upkeep.\nWhenever enchanted creature becomes blocked, it gets +4/+0 and gains trample until end of turn."}
+ #:card{:collector-number "67b",
+        :name "Bestial Fury",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/7271e0d7-0c55-4020-97de-b8a27ba51d4b.png?1562769188",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhen Bestial Fury enters the battlefield, draw a card at the beginning of the next turn's upkeep.\nWhenever enchanted creature becomes blocked, it gets +4/+0 and gains trample until end of turn."}
+ #:card{:collector-number "68",
+        :name "Burnout",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a8f5a18-e490-4010-ac1c-c74a5f2dcbda.png?1562768717",
+        :type-line "Instant",
+        :oracle-text
+        "Counter target instant spell if it's blue.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "69",
+        :name "Chaos Harlequin",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec7d7c80-4e3c-454e-b2ed-6f0436df19c9.png?1562770655",
+        :type-line "Creature — Human",
+        :oracle-text
+        "{R}: Exile the top card of your library. If that card is a land card, Chaos Harlequin gets -4/-0 until end of turn. Otherwise, Chaos Harlequin gets +2/+0 until end of turn."}
+ #:card{:collector-number "70",
+        :name "Death Spark",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba841b44-475c-402c-ac11-763de0cf27d9.png?1562770162",
+        :type-line "Instant",
+        :oracle-text
+        "Death Spark deals 1 damage to any target.\nAt the beginning of your upkeep, if Death Spark is in your graveyard with a creature card directly above it, you may pay {1}. If you do, return Death Spark to your hand."}
+ #:card{:collector-number "71a",
+        :name "Enslaved Scout",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea21414e-65f7-4d65-b0dc-7fec7b9b416d.png?1562770652",
+        :type-line "Creature — Goblin Scout",
+        :oracle-text
+        "{2}: Enslaved Scout gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)"}
+ #:card{:collector-number "71b",
+        :name "Enslaved Scout",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aac0e04a-d223-426b-b856-2829dbdffda0.png?1562769698",
+        :type-line "Creature — Goblin Scout",
+        :oracle-text
+        "{2}: Enslaved Scout gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)"}
+ #:card{:collector-number "72a",
+        :name "Gorilla Shaman",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bf8b213e-31ca-4eb5-bf0b-515a0ad4fd31.png?1562770166",
+        :type-line "Creature — Ape Shaman",
+        :oracle-text
+        "{X}{X}{1}: Destroy target noncreature artifact with mana value X."}
+ #:card{:collector-number "72b",
+        :name "Gorilla Shaman",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a16231c-1f73-4dec-9d88-e3d62e93a70f.png?1562768714",
+        :type-line "Creature — Ape Shaman",
+        :oracle-text
+        "{X}{X}{1}: Destroy target noncreature artifact with mana value X."}
+ #:card{:collector-number "73a",
+        :name "Gorilla War Cry",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/613762ea-6111-4f74-bea2-c13b76e0751c.png?1562768727",
+        :type-line "Instant",
+        :oracle-text
+        "Cast this spell only during combat before blockers are declared.\nAll creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "73b",
+        :name "Gorilla War Cry",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e14752ef-bebf-4c31-b130-32167473482f.png?1562770640",
+        :type-line "Instant",
+        :oracle-text
+        "Cast this spell only during combat before blockers are declared.\nAll creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "74a",
+        :name "Guerrilla Tactics",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/51811f2a-7002-4ba7-98d8-5b09d887975c.png?1562768705",
+        :type-line "Instant",
+        :oracle-text
+        "Guerrilla Tactics deals 2 damage to any target.\nWhen a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to any target."}
+ #:card{:collector-number "74b",
+        :name "Guerrilla Tactics",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c005ca3-0508-4ac2-afec-3d4a27334c31.png?1562768254",
+        :type-line "Instant",
+        :oracle-text
+        "Guerrilla Tactics deals 2 damage to any target.\nWhen a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to any target."}
+ #:card{:collector-number "75",
+        :name "Omen of Fire",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c724b46-6e17-4bee-9bc6-e9fc5a379dd7.png?1562769675",
+        :type-line "Instant",
+        :oracle-text
+        "Return all Islands to their owners' hands. Each player sacrifices a Plains or a white permanent for each white permanent they control."}
+ #:card{:collector-number "76",
+        :name "Pillage",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/8/389ecb50-b007-4086-89fb-ec2daa5afdcf.png?1562768248",
+        :type-line "Sorcery",
+        :oracle-text
+        "Destroy target artifact or land. It can't be regenerated."}
+ #:card{:collector-number "77",
+        :name "Primitive Justice",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d6b7829b-2a10-47e7-9cf9-8ae49d2b398a.png?1562770619",
+        :type-line "Sorcery",
+        :oracle-text
+        "As an additional cost to cast this spell, you may pay {1}{R} and/or {1}{G} any number of times.\nDestroy target artifact. For each additional {1}{R} you paid, destroy another target artifact. For each additional {1}{G} you paid, destroy another target artifact, and you gain 1 life."}
+ #:card{:collector-number "78",
+        :name "Pyrokinesis",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db2a5e85-6cbc-43c1-9362-4056ad017ef0.png?1562770632",
+        :type-line "Instant",
+        :oracle-text
+        "You may exile a red card from your hand rather than pay this spell's mana cost.\nPyrokinesis deals 4 damage divided as you choose among any number of target creatures."}
+ #:card{:collector-number "79",
+        :name "Rogue Skycaptain",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/97aebf3b-e77d-4d18-b58b-117ae91792e2.png?1562769668",
+        :type-line "Creature — Human Rogue Mercenary",
+        :oracle-text
+        "Flying\nAt the beginning of your upkeep, put a wage counter on Rogue Skycaptain. You may pay {2} for each wage counter on it. If you don't, remove all wage counters from Rogue Skycaptain and an opponent gains control of it."}
+ #:card{:collector-number "80",
+        :name "Soldier of Fortune",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/37c05f46-2081-4ebb-a758-894ac040ea2a.png?1562768246",
+        :type-line "Creature — Human Mercenary",
+        :oracle-text "{R}, {T}: Target player shuffles their library."}
+ #:card{:collector-number "81a",
+        :name "Storm Shaman",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/92c30a0a-3083-4d9f-9fe0-de5d6294f80e.png?1562769661",
+        :type-line "Creature — Human Cleric Shaman",
+        :oracle-text "{R}: Storm Shaman gets +1/+0 until end of turn."}
+ #:card{:collector-number "81b",
+        :name "Storm Shaman",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a8f1150-6306-42a6-84e1-7dd5bfef6d14.png?1616839105",
+        :type-line "Creature — Human Cleric Shaman",
+        :oracle-text "{R}: Storm Shaman gets +1/+0 until end of turn."}
+ #:card{:collector-number "82a",
+        :name "Varchild's Crusader",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5ade7ad-ce32-4296-8cec-20bd79c7b16a.png?1562770151",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "{0}: Varchild's Crusader can't be blocked this turn except by Walls. Sacrifice Varchild's Crusader at the beginning of the next end step."}
+ #:card{:collector-number "82b",
+        :name "Varchild's Crusader",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d730611f-ad45-40b7-80c8-5decf2627e79.png?1562770620",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "{0}: Varchild's Crusader can't be blocked this turn except by Walls. Sacrifice Varchild's Crusader at the beginning of the next end step."}
+ #:card{:collector-number "83",
+        :name "Varchild's War-Riders",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee1d41da-aa72-434b-811f-95d4bae4ba5c.png?1562770657",
+        :type-line "Creature — Human Warrior",
+        :oracle-text
+        "Cumulative upkeep—Have an opponent create a 1/1 red Survivor creature token. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nTrample; rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)"}
+ #:card{:collector-number "84a",
+        :name "Veteran's Voice",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/93babf85-eb13-4e06-b45b-8927791bcde5.png?1562769662",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature you control\nTap enchanted creature: Target creature other than the creature tapped this way gets +2/+1 until end of turn. Activate only if enchanted creature is untapped."}
+ #:card{:collector-number "84b",
+        :name "Veteran's Voice",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6e1ecb9a-7443-49cb-8197-ef180124aabb.png?1562769183",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature you control\nTap enchanted creature: Target creature other than the creature tapped this way gets +2/+1 until end of turn. Activate only if enchanted creature is untapped."}
+ #:card{:collector-number "85",
+        :name "Bounty of the Hunt",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21ed522a-cf5a-41e1-9677-1226f689ec9c.png?1562768223",
+        :type-line "Instant",
+        :oracle-text
+        "You may exile a green card from your hand rather than pay this spell's mana cost.\nDistribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step."}
+ #:card{:collector-number "86a",
+        :name "Deadly Insect",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/add1b999-5c3f-4187-adac-ed1037406b3f.png?1562770141",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)"}
+ #:card{:collector-number "86b",
+        :name "Deadly Insect",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/030963d9-b59f-4ccb-abed-d817a4bc4e05.png?1562767764",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)"}
+ #:card{:collector-number "87",
+        :name "Elvish Bard",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/62261004-ed32-4865-824a-4320548f4234.png?1562768730",
+        :type-line "Creature — Elf Shaman Bard",
+        :oracle-text "All creatures able to block Elvish Bard do so."}
+ #:card{:collector-number "88a",
+        :name "Elvish Ranger",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/ad9f1b09-73c2-43c5-a28b-4a40fff7b727.png?1562770139",
+        :type-line "Creature — Elf Ranger",
+        :oracle-text ""}
+ #:card{:collector-number "88b",
+        :name "Elvish Ranger",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b08a164-d6f4-423e-8666-e4a4c2d21045.png?1562769206",
+        :type-line "Creature — Elf Ranger",
+        :oracle-text ""}
+ #:card{:collector-number "89",
+        :name "Elvish Spirit Guide",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5b94f37f-ebdf-4b79-a615-58331d27cf4e.png?1562768718",
+        :type-line "Creature — Elf Spirit",
+        :oracle-text
+        "Exile Elvish Spirit Guide from your hand: Add {G}."}
+ #:card{:collector-number "90a",
+        :name "Fyndhorn Druid",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/778b028f-fa4e-4638-82b4-fb287223ea20.png?1562769199",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "When Fyndhorn Druid dies, if it was blocked this turn, you gain 4 life."}
+ #:card{:collector-number "90b",
+        :name "Fyndhorn Druid",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f79d880c-0052-4e2c-92aa-bf3cbd107cbd.png?1562770660",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "When Fyndhorn Druid dies, if it was blocked this turn, you gain 4 life."}
+ #:card{:collector-number "91",
+        :name "Gargantuan Gorilla",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/49f367c2-f47e-43e1-9936-4324be664475.png?1562768698",
+        :type-line "Creature — Ape",
+        :oracle-text
+        "At the beginning of your upkeep, you may sacrifice a Forest. If you sacrifice a snow Forest this way, Gargantuan Gorilla gains trample until end of turn. If you don't sacrifice a Forest, sacrifice Gargantuan Gorilla and it deals 7 damage to you.\n{T}: Gargantuan Gorilla deals damage equal to its power to another target creature. That creature deals damage equal to its power to Gargantuan Gorilla."}
+ #:card{:collector-number "92a",
+        :name "Gift of the Woods",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da48976b-667d-4a1e-92de-9c3cb25dfd21.png?1562770630",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhenever enchanted creature blocks or becomes blocked, it gets +0/+3 until end of turn and you gain 1 life."}
+ #:card{:collector-number "92b",
+        :name "Gift of the Woods",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6a0df4e9-b201-4fc7-8e37-59d99b583f76.png?1562769177",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nWhenever enchanted creature blocks or becomes blocked, it gets +0/+3 until end of turn and you gain 1 life."}
+ #:card{:collector-number "93a",
+        :name "Gorilla Berserkers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/344b4613-17f8-4c8b-b5bc-f773a8f8007a.png?1562768241",
+        :type-line "Creature — Ape Berserker",
+        :oracle-text
+        "Trample; rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)\nGorilla Berserkers can't be blocked except by three or more creatures."}
+ #:card{:collector-number "93b",
+        :name "Gorilla Berserkers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3c32b65-58e7-455b-9a30-7a2edcc27b9d.png?1562770645",
+        :type-line "Creature — Ape Berserker",
+        :oracle-text
+        "Trample; rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)\nGorilla Berserkers can't be blocked except by three or more creatures."}
+ #:card{:collector-number "94a",
+        :name "Gorilla Chieftain",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/47f1eedd-7021-4cce-a808-2e9384a5ef15.png?1624326710",
+        :type-line "Creature — Ape",
+        :oracle-text "{1}{G}: Regenerate Gorilla Chieftain."}
+ #:card{:collector-number "94b",
+        :name "Gorilla Chieftain",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6bdde5d2-3dd2-4eaa-9c52-4ad400b56ed1.png?1587856928",
+        :type-line "Creature — Ape",
+        :oracle-text "{1}{G}: Regenerate Gorilla Chieftain."}
+ #:card{:collector-number "95",
+        :name "Hail Storm",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7e9d786-4e9b-447b-a5dc-ca117c4961c5.png?1562769694",
+        :type-line "Instant",
+        :oracle-text
+        "Hail Storm deals 2 damage to each attacking creature and 1 damage to you and each creature you control."}
+ #:card{:collector-number "96",
+        :name "Kaysa",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd4b6daf-cf37-43c6-9446-3aa0de222ac4.png?1562770177",
+        :type-line "Legendary Creature — Elf Druid",
+        :oracle-text "Green creatures you control get +1/+1."}
+ #:card{:collector-number "97",
+        :name "Nature's Chosen",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7bd0b831-9d7e-40ce-8514-e852daee1a9e.png?1562769207",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature you control\n{0}: Untap enchanted creature. Activate only during your turn and only once each turn.\nTap enchanted creature: Untap target artifact, creature, or land. Activate only if enchanted creature is white and untapped and only once each turn."}
+ #:card{:collector-number "98",
+        :name "Nature's Wrath",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/450759f0-5d60-4f05-9011-b0b66dbb06a7.png?1562768694",
+        :type-line "Enchantment",
+        :oracle-text
+        "At the beginning of your upkeep, sacrifice Nature's Wrath unless you pay {G}.\nWhenever a player puts an Island or blue permanent onto the battlefield, that player sacrifices an Island or blue permanent.\nWhenever a player puts a Swamp or black permanent onto the battlefield, that player sacrifices a Swamp or black permanent."}
+ #:card{:collector-number "99",
+        :name "Splintering Wind",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0afa94e5-fef6-4f3a-9196-d7aa6dd841c2.png?1562767772",
+        :type-line "Enchantment",
+        :oracle-text
+        "{2}{G}: Splintering Wind deals 1 damage to target creature. Create a 1/1 green Splinter creature token. It has flying and \"Cumulative upkeep {G}.\" When it leaves the battlefield, it deals 1 damage to you and each creature you control. (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.)"}
+ #:card{:collector-number "100a",
+        :name "Taste of Paradise",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9248694-88fa-4fe1-9902-f03a41100cd6.png?1562770158",
+        :type-line "Sorcery",
+        :oracle-text
+        "As an additional cost to cast this spell, you may pay {1}{G} any number of times.\nYou gain 3 life plus an additional 3 life for each additional {1}{G} you paid."}
+ #:card{:collector-number "100b",
+        :name "Taste of Paradise",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a774c426-ec0e-48de-b00f-5a05cc6dc34b.png?1562769692",
+        :type-line "Sorcery",
+        :oracle-text
+        "As an additional cost to cast this spell, you may pay {1}{G} any number of times.\nYou gain 3 life plus an additional 3 life for each additional {1}{G} you paid."}
+ #:card{:collector-number "101",
+        :name "Tornado",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2fd58e4-eb9a-4a12-8914-0a9a8300626c.png?1562769686",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cumulative upkeep {G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\n{2}{G}, Pay 3 life for each velocity counter on Tornado: Destroy target permanent and put a velocity counter on Tornado. Activate only once each turn."}
+ #:card{:collector-number "102a",
+        :name "Undergrowth",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9ade0829-8b90-4ed2-99f3-dd748e7706b8.png?1562769673",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, you may pay {2}{R}.\nPrevent all combat damage that would be dealt this turn. If this spell's additional cost was paid, this effect doesn't affect combat damage that would be dealt by red creatures."}
+ #:card{:collector-number "102b",
+        :name "Undergrowth",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b07df91-49be-4a50-9d3b-ddde0e6c1be9.png?1562769204",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, you may pay {2}{R}.\nPrevent all combat damage that would be dealt this turn. If this spell's additional cost was paid, this effect doesn't affect combat damage that would be dealt by red creatures."}
+ #:card{:collector-number "103a",
+        :name "Whip Vine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b66b9fe-47f1-4786-96d5-981d62012663.png?1562768702",
+        :type-line "Creature — Plant Wall",
+        :oracle-text
+        "Defender; reach (This creature can block creatures with flying.)\nYou may choose not to untap Whip Vine during your untap step.\n{T}: Tap target creature with flying blocked by Whip Vine. That creature doesn't untap during its controller's untap step for as long as Whip Vine remains tapped."}
+ #:card{:collector-number "103b",
+        :name "Whip Vine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/31ee1c89-d7df-4ee7-b403-24dfabae38a0.png?1562768238",
+        :type-line "Creature — Plant Wall",
+        :oracle-text
+        "Defender; reach (This creature can block creatures with flying.)\nYou may choose not to untap Whip Vine during your untap step.\n{T}: Tap target creature with flying blocked by Whip Vine. That creature doesn't untap during its controller's untap step for as long as Whip Vine remains tapped."}
+ #:card{:collector-number "104a",
+        :name "Yavimaya Ancients",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94fc4db5-08e5-4cf8-bf47-f7c6a58162b2.png?1586563380",
+        :type-line "Creature — Treefolk",
+        :oracle-text
+        "{G}: Yavimaya Ancients gets +1/-2 until end of turn."}
+ #:card{:collector-number "104b",
+        :name "Yavimaya Ancients",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91708e45-f9a1-4c2e-973d-bfc294926c93.png?1562769658",
+        :type-line "Creature — Treefolk",
+        :oracle-text
+        "{G}: Yavimaya Ancients gets +1/-2 until end of turn."}
+ #:card{:collector-number "105",
+        :name "Yavimaya Ants",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5ded1c83-a289-4951-b72a-477a041610d3.png?1562768721",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Trample, haste\nCumulative upkeep {G}{G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)"}
+ #:card{:collector-number "106",
+        :name "Energy Arc",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f81cd99e-902a-44dd-8928-803a96fe25c4.png?1562770856",
+        :type-line "Instant",
+        :oracle-text
+        "Untap any number of target creatures. Prevent all combat damage that would be dealt to and dealt by those creatures this turn."}
+ #:card{:collector-number "107",
+        :name "Lim-Dûl's Vault",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9b0164c-2d4e-48ab-addd-322d9b504739.png?1562770860",
+        :type-line "Instant",
+        :oracle-text
+        "Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle and put the last cards you looked at this way on top in any order."}
+ #:card{:collector-number "108",
+        :name "Lim-Dûl's Paladin",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44be2d66-359e-4cc1-9670-119cb9c7d5f5.png?1562768261",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "Trample\nAt the beginning of your upkeep, you may discard a card. If you don't, sacrifice Lim-Dûl's Paladin and draw a card.\nWhenever Lim-Dûl's Paladin becomes blocked, it gets +6/+3 until end of turn.\nWhenever Lim-Dûl's Paladin attacks and isn't blocked, it assigns no combat damage this turn and defending player loses 4 life."}
+ #:card{:collector-number "109",
+        :name "Surge of Strength",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/96fff700-af02-4861-b7ed-be9950e69bf1.png?1562769667",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, discard a red or green card.\nTarget creature gains trample and gets +X/+0 until end of turn, where X is that creature's mana value."}
+ #:card{:collector-number "110",
+        :name "Nature's Blessing",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5ba0e677-361d-4e03-9c2c-018d1c383456.png?1562768720",
+        :type-line "Enchantment",
+        :oracle-text
+        "{G}{W}, Discard a card: Put a +1/+1 counter on target creature or that creature gains banding, first strike, or trample. (This effect lasts indefinitely. Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)"}
+ #:card{:collector-number "111",
+        :name "Wandering Mage",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8d9b1b6c-1f02-4918-bb5c-2dbcdb0997ec.png?1562769223",
+        :type-line "Creature — Human Cleric Wizard",
+        :oracle-text
+        "{W}, Pay 1 life: Prevent the next 2 damage that would be dealt to target creature this turn.\n{U}: Prevent the next 1 damage that would be dealt to target Cleric or Wizard creature this turn.\n{B}, Put a -1/-1 counter on a creature you control: Prevent the next 2 damage that would be dealt to target player or planeswalker this turn."}
+ #:card{:collector-number "112",
+        :name "Lord of Tresserhorn",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5fc9497a-42bf-4d78-afaf-67645514ade4.png?1562768726",
+        :type-line "Legendary Creature — Zombie",
+        :oracle-text
+        "When Lord of Tresserhorn enters the battlefield, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards.\n{B}: Regenerate Lord of Tresserhorn."}
+ #:card{:collector-number "113",
+        :name "Misfortune",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/1/b14cc32a-eb4f-4690-aceb-160780743ebe.png?1562770145",
+        :type-line "Sorcery",
+        :oracle-text
+        "An opponent chooses one —\n• You put a +1/+1 counter on each creature you control and gain 4 life.\n• You put a -1/-1 counter on each creature that player controls and Misfortune deals 4 damage to that player."}
+ #:card{:collector-number "114",
+        :name "Winter's Night",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7f020ebc-4950-4407-8cb8-7630cad226f6.png?1562769210",
+        :type-line "World Enchantment",
+        :oracle-text
+        "Whenever a player taps a snow land for mana, that player adds one mana of any type that land produced. That land doesn't untap during its controller's next untap step."}
+ #:card{:collector-number "115",
+        :name "Phelddagrif",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9631cb2-d53b-4401-b53b-29d27bdefc44.png?1562770627",
+        :type-line "Legendary Creature — Phelddagrif",
+        :oracle-text
+        "{G}: Phelddagrif gains trample until end of turn. Target opponent creates a 1/1 green Hippo creature token.\n{W}: Phelddagrif gains flying until end of turn. Target opponent gains 2 life.\n{U}: Return Phelddagrif to its owner's hand. Target opponent may draw a card."}
+ #:card{:collector-number "116a",
+        :name "Aesthir Glider",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/35a8080f-ca3c-46fe-81cf-003ac7ba7f24.png?1591105503",
+        :type-line "Artifact Creature — Bird Construct",
+        :oracle-text "Flying\nAesthir Glider can't block."}
+ #:card{:collector-number "116b",
+        :name "Aesthir Glider",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/435b78cb-5acc-4d14-966f-979322d99114.png?1562768259",
+        :type-line "Artifact Creature — Bird Construct",
+        :oracle-text "Flying\nAesthir Glider can't block."}
+ #:card{:collector-number "117",
+        :name "Ashnod's Cylix",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d84e6fcf-4745-4dfb-9103-17beec4e45b6.png?1562770624",
+        :type-line "Artifact",
+        :oracle-text
+        "{3}, {T}: Target player looks at the top three cards of their library, puts one of them back on top of their library, then exiles the rest."}
+ #:card{:collector-number "118a",
+        :name "Astrolabe",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b97ad2d4-0660-4503-9f16-246dae87601c.png?1562770161",
+        :type-line "Artifact",
+        :oracle-text
+        "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color. Draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "118b",
+        :name "Astrolabe",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e3a4e30-f919-4c96-89f2-467355135f8f.png?1562769656",
+        :type-line "Artifact",
+        :oracle-text
+        "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color. Draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "119",
+        :name "Floodwater Dam",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d272c3cb-0b68-4693-abef-8a5375b2463e.png?1562770613",
+        :type-line "Artifact",
+        :oracle-text "{X}{X}{1}, {T}: Tap X target lands."}
+ #:card{:collector-number "120",
+        :name "Gustha's Scepter",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/797c84fa-3704-4fec-bd72-468d6415ae70.png?1562769202",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Exile a card from your hand face down. You may look at it for as long as it remains exiled.\n{T}: Return a card you own exiled with Gustha's Scepter to your hand.\nWhen you lose control of Gustha's Scepter, put all cards exiled with Gustha's Scepter into their owner's graveyard."}
+ #:card{:collector-number "121",
+        :name "Helm of Obedience",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/1/b17e9216-b1ed-4101-a04e-2bb139ccfa55.png?1562770147",
+        :type-line "Artifact",
+        :oracle-text
+        "{X}, {T}: Target opponent mills a card, then repeats this process until a creature card or X cards have been put into their graveyard this way, whichever comes first. If one or more creature cards were put into that graveyard this way, sacrifice Helm of Obedience and put one of them onto the battlefield under your control. X can't be 0."}
+ #:card{:collector-number "122",
+        :name "Lodestone Bauble",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/84d88a33-3990-4044-a5fe-4123d5781f18.png?1562769216",
+        :type-line "Artifact",
+        :oracle-text
+        "{1}, {T}, Sacrifice Lodestone Bauble: Put up to four target basic land cards from a player's graveyard on top of their library in any order. That player draws a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "123",
+        :name "Mishra's Groundbreaker",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74e2dc26-30aa-4e20-84b0-ea4be8894475.png?1562769196",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}, Sacrifice Mishra's Groundbreaker: Target land becomes a 3/3 artifact creature that's still a land. (This effect lasts indefinitely.)"}
+ #:card{:collector-number "124",
+        :name "Mystic Compass",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de53ba3a-f2f7-4ea6-a2f6-dd5b87029e58.png?1587912264",
+        :type-line "Artifact",
+        :oracle-text
+        "{1}, {T}: Target land becomes the basic land type of your choice until end of turn."}
+ #:card{:collector-number "125",
+        :name "Phyrexian Devourer",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/319430fa-11e4-426e-8297-67df8474c3cc.png?1562768237",
+        :type-line "Artifact Creature — Phyrexian Construct",
+        :oracle-text
+        "When Phyrexian Devourer's power is 7 or greater, sacrifice it.\nExile the top card of your library: Put X +1/+1 counters on Phyrexian Devourer, where X is the exiled card's mana value."}
+ #:card{:collector-number "126",
+        :name "Phyrexian Portal",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74f77387-1239-4ad2-b59f-d13e317477ba.png?1562769197",
+        :type-line "Artifact",
+        :oracle-text
+        "{3}: If your library has ten or more cards in it, target opponent looks at the top ten cards of your library and separates them into two face-down piles. Exile one of those piles. Search the other pile for a card, put it into your hand, then shuffle the rest of that pile into your library."}
+ #:card{:collector-number "127a",
+        :name "Phyrexian War Beast",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7a83384-8762-4028-8cab-b690593790a6.png?1562770647",
+        :type-line "Artifact Creature — Phyrexian Beast",
+        :oracle-text
+        "When Phyrexian War Beast leaves the battlefield, sacrifice a land and Phyrexian War Beast deals 1 damage to you."}
+ #:card{:collector-number "127b",
+        :name "Phyrexian War Beast",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7d651f6-50be-4df9-80f8-4c62bb860e71.png?1562770649",
+        :type-line "Artifact Creature — Phyrexian Beast",
+        :oracle-text
+        "When Phyrexian War Beast leaves the battlefield, sacrifice a land and Phyrexian War Beast deals 1 damage to you."}
+ #:card{:collector-number "128",
+        :name "Scarab of the Unseen",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d5da1c71-6059-4e4e-933d-dbca1cc4bd15.png?1562770618",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}, Sacrifice Scarab of the Unseen: Return all Auras attached to target permanent you own to their owners' hands. Draw a card at the beginning of the next turn's upkeep."}
+ #:card{:collector-number "129",
+        :name "Shield Sphere",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/1730d219-a28f-4930-8088-4cfcb627f157.png?1562768217",
+        :type-line "Artifact Creature — Wall",
+        :oracle-text
+        "Defender\nWhenever Shield Sphere blocks, put a -0/-1 counter on it."}
+ #:card{:collector-number "130",
+        :name "Sol Grail",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/62652722-e345-4670-9547-d9579efa227d.png?1562768733",
+        :type-line "Artifact",
+        :oracle-text
+        "As Sol Grail enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color."}
+ #:card{:collector-number "131",
+        :name "Soldevi Digger",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a3a0ab4-e8ef-45fd-9a73-86d1ee30cb48.png?1562768715",
+        :type-line "Artifact",
+        :oracle-text
+        "{2}: Put the top card of your graveyard on the bottom of your library."}
+ #:card{:collector-number "132a",
+        :name "Soldevi Sentry",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85976b5c-4eed-4cf9-b2b0-a8421a97ab2a.png?1562769218",
+        :type-line "Artifact Creature — Soldier",
+        :oracle-text
+        "{1}: Choose target opponent. Regenerate Soldevi Sentry. When it regenerates this way, that player may draw a card."}
+ #:card{:collector-number "132b",
+        :name "Soldevi Sentry",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/be2a84d7-3f49-4652-bb31-4be7e3474e26.png?1562770164",
+        :type-line "Artifact Creature — Soldier",
+        :oracle-text
+        "{1}: Choose target opponent. Regenerate Soldevi Sentry. When it regenerates this way, that player may draw a card."}
+ #:card{:collector-number "133a",
+        :name "Soldevi Steam Beast",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ead79d2c-170e-4106-962d-d69c4b5fead0.png?1562770654",
+        :type-line "Artifact Creature — Beast",
+        :oracle-text
+        "Whenever Soldevi Steam Beast becomes tapped, target opponent gains 2 life.\n{2}: Regenerate Soldevi Steam Beast."}
+ #:card{:collector-number "133b",
+        :name "Soldevi Steam Beast",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9de5e730-1d5c-4326-b3fc-2f0f97edc07e.png?1575874846",
+        :type-line "Artifact Creature — Beast",
+        :oracle-text
+        "Whenever Soldevi Steam Beast becomes tapped, target opponent gains 2 life.\n{2}: Regenerate Soldevi Steam Beast."}
+ #:card{:collector-number "134",
+        :name "Storm Cauldron",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f68b531-a3f2-4830-b170-fb8a1195c149.png?1562768220",
+        :type-line "Artifact",
+        :oracle-text
+        "Each player may play an additional land during each of their turns.\nWhenever a land is tapped for mana, return it to its owner's hand."}
+ #:card{:collector-number "135",
+        :name "Urza's Engine",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/273b54c3-325b-4f2e-857b-fc1d59b6b3c5.png?1562768228",
+        :type-line "Artifact Creature — Juggernaut",
+        :oracle-text
+        "Trample\n{3}: Urza's Engine gains banding until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)\n{3}: Attacking creatures banded with Urza's Engine gain trample until end of turn."}
+ #:card{:collector-number "136",
+        :name "Whirling Catapult",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/6206d65a-6907-4d11-acb0-8820277f2cf2.png?1562768729",
+        :type-line "Artifact",
+        :oracle-text
+        "{2}, Exile the top two cards of your library: Whirling Catapult deals 1 damage to each creature with flying and each player."}
+ #:card{:collector-number "137",
+        :name "Balduvian Trading Post",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a329ff98-36fd-44c3-b037-dcc6e78ee61e.png?1562769687",
+        :type-line "Land",
+        :oracle-text
+        "If Balduvian Trading Post would enter the battlefield, sacrifice an untapped Mountain instead. If you do, put Balduvian Trading Post onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add {C}{R}.\n{1}, {T}: Balduvian Trading Post deals 1 damage to target attacking creature."}
+ #:card{:collector-number "138",
+        :name "Heart of Yavimaya",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40c59cb9-559b-4716-9bd7-c818b3f46f1d.png?1562768256",
+        :type-line "Land",
+        :oracle-text
+        "If Heart of Yavimaya would enter the battlefield, sacrifice a Forest instead. If you do, put Heart of Yavimaya onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add {G}.\n{T}: Target creature gets +1/+1 until end of turn."}
+ #:card{:collector-number "139",
+        :name "Kjeldoran Outpost",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e0769fc7-50b5-4b49-8aff-af04536288fb.png?1562770637",
+        :type-line "Land",
+        :oracle-text
+        "If Kjeldoran Outpost would enter the battlefield, sacrifice a Plains instead. If you do, put Kjeldoran Outpost onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add {W}.\n{1}{W}, {T}: Create a 1/1 white Soldier creature token."}
+ #:card{:collector-number "140",
+        :name "Lake of the Dead",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/aee806ce-effa-4244-9659-43246e944d80.png?1562770142",
+        :type-line "Land",
+        :oracle-text
+        "If Lake of the Dead would enter the battlefield, sacrifice a Swamp instead. If you do, put Lake of the Dead onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add {B}.\n{T}, Sacrifice a Swamp: Add {B}{B}{B}{B}."}
+ #:card{:collector-number "141",
+        :name "School of the Unseen",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/1438606d-556d-4b96-9662-fcac051af045.png?1562768214",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{2}, {T}: Add one mana of any color."}
+ #:card{:collector-number "142",
+        :name "Sheltered Valley",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/049d7a08-1605-4ce2-b8c5-634ce2a261e0.png?1562767766",
+        :type-line "Land",
+        :oracle-text
+        "If Sheltered Valley would enter the battlefield, instead sacrifice each other permanent named Sheltered Valley you control, then put Sheltered Valley onto the battlefield.\nAt the beginning of your upkeep, if you control three or fewer lands, you gain 1 life.\n{T}: Add {C}."}
+ #:card{:collector-number "143",
+        :name "Soldevi Excavations",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8dbda146-ed0a-4bf6-b99d-dc6d59bd9447.png?1624811917",
+        :type-line "Land",
+        :oracle-text
+        "If Soldevi Excavations would enter the battlefield, sacrifice an untapped Island instead. If you do, put Soldevi Excavations onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add {C}{U}.\n{1}, {T}: Scry 1."}
+ #:card{:collector-number "144",
+        :name "Thawing Glaciers",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6411a8c6-010f-4863-a0fa-bbebe09d5c34.png?1562768736",
+        :type-line "Land",
+        :oracle-text
+        "Thawing Glaciers enters the battlefield tapped.\n{1}, {T}: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Return Thawing Glaciers to its owner's hand at the beginning of the next cleanup step."})

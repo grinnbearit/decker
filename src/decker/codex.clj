@@ -12,24 +12,32 @@
        (list (first s))))))
 
 
-(defn filter-eddex
-  "Given an edition-list returns a sublist of editions from `newest` to `oldest` ignores `ignore`"
-  [eddex & {:keys [newest oldest ignore]}]
+(defn filter-edition-cards
+  "Given an edition-cards list returns a sublist of editions from `newest` to `oldest` ignores `ignore`"
+  [edition-cards & {:keys [newest oldest ignore]}]
   (let [ignore-set (set ignore)]
-    (->> eddex
-         (drop-while #(and newest (not= (:eddex/code %) newest)))
-         (remove #(-> % :eddex/code ignore-set))
-         (take-while-and-one #(not (and oldest (= (:eddex/code %) oldest)))))))
+    (->> edition-cards
+         (drop-while #(and newest (not= (:edition-cards/code %) newest)))
+         (remove #(-> % :edition-cards/code ignore-set))
+         (take-while-and-one #(not (and oldest (= (:edition-cards/code %) oldest)))))))
 
 
 (defn gen-cardex
-  [eddex & {:keys [newest oldest ignore] :as opts}]
+  "Returns a mapping of card/name -> {cardex/code code :cardex/collector-numbers []}
+  for the most recent edition"
+  [edition-cards & {:keys [newest oldest ignore] :as opts}]
   (letfn [(reducer [acc [code {card-name :card/name collector-number :card/collector-number}]]
-            (update-in acc [card-name] (fnil conj [])
-                       {:edition/code code
-                        :card/collector-number collector-number}))]
+            (cond (and (contains? acc card-name)
+                       (= (get-in acc [card-name :cardex/code]) code))
+                  (update-in acc [card-name :cardex/collector-numbers] conj collector-number)
 
-    (->> (for [{code :eddex/code cards :eddex/cards} (filter-eddex eddex opts)
+                  (contains? acc card-name)
+                  acc
+
+                  :else
+                  (assoc acc card-name #:cardex{:code code :collector-numbers [collector-number]})))]
+
+    (->> (for [{code :edition-cards/code cards :edition-cards/cards} (filter-edition-cards edition-cards opts)
                card cards]
            [code card])
          (reduce reducer {}))))
