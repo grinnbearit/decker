@@ -10,9 +10,11 @@
  (card-list->deck
   :edition-list
   #:card-list{:name "deck-1"
+              :description "description-1"
               :cards [{:count 4, :name "card-1"}
                       {:count 4, :name "card-2"}]})
  => #:deck{:name "deck-1"
+           :description "description-1"
            :decklines [{:deckline/code "SET-1"
                         :deckline/collector-number "1"
                         :deckline/count 2

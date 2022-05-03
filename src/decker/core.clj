@@ -15,6 +15,7 @@
   [edition-cards card-list & {:keys [newest oldest ignore] :as opts}]
   (let [cardex (dx/gen-cardex edition-cards opts)]
     #:deck{:name (:card-list/name card-list)
+           :description (:card-list/description card-list)
            :decklines
            (for [row (:card-list/cards card-list)
                  :let [cardex-row (cardex (:name row))

@@ -8,7 +8,12 @@
 (def EDITION-CARDS (de/!read-edition-cards))
 
 
-(doseq [card-list (dc/!read-card-list "RQS")]
-  (->> (dc/card-list->deck EDITION-CARDS card-list :newest "RQS" :oldest "RQS")
-       (dt/deck->ttsdeck EDDEX)
-       (dt/write-ttsdeck!)))
+;; (doseq [card-list (dc/!read-card-list "RQS")]
+;;   (->> (dc/card-list->deck EDITION-CARDS card-list :newest "RQS" :oldest "RQS")
+;;        (dt/deck->ttsdeck EDDEX)
+;;        (dt/write-ttsdeck!)))
+
+;; (doseq [card-list (dc/!read-card-list "MIR")]
+;;   (->> (dc/card-list->deck EDITION-CARDS card-list :newest "MIR" :oldest "MIR")
+;;        (dt/deck->ttsdeck EDDEX)
+;;        (dt/write-ttsdeck!)))

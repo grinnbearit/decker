@@ -1,6 +1,2079 @@
-(#:edition{:date #inst "1996-07-01T00:00:00.000-00:00",
-            :code "RQS",
-            :name "Rivals Quick Start Set"}
+(;; #:edition{:date #inst "2022-12-31T00:00:00.000-00:00",
+ ;;           :code "UNF",
+ ;;           :name "Unfinity"}
+ ;; #:edition{:date #inst "2022-06-10T00:00:00.000-00:00",
+ ;;           :code "CLB",
+ ;;           :name "Commander Legends: Battle for Baldur's Gate"}
+ ;; #:edition{:date #inst "2022-04-29T00:00:00.000-00:00",
+ ;;           :code "SNC",
+ ;;           :name "Streets of New Capenna"}
+ ;; #:edition{:date #inst "2022-04-29T00:00:00.000-00:00",
+ ;;           :code "TSNC",
+ ;;           :name "Streets of New Capenna Tokens"}
+ ;; #:edition{:date #inst "2022-04-29T00:00:00.000-00:00",
+ ;;           :code "NCC",
+ ;;           :name "New Capenna Commander"}
+ ;; #:edition{:date #inst "2022-04-20T00:00:00.000-00:00",
+ ;;           :code "TNCC",
+ ;;           :name "New Capenna Commander Tokens"}
+ ;; #:edition{:date #inst "2022-04-29T00:00:00.000-00:00",
+ ;;           :code "ASNC",
+ ;;           :name "New Capenna Art Series"}
+ ;; #:edition{:date #inst "2022-04-08T00:00:00.000-00:00",
+ ;;           :code "GDY",
+ ;;           :name "Game Day Promos"}
+ ;; #:edition{:date #inst "2022-03-05T00:00:00.000-00:00",
+ ;;           :code "PW22",
+ ;;           :name "Wizards Play Network 2022"}
+ ;; #:edition{:date #inst "2022-02-25T00:00:00.000-00:00",
+ ;;           :code "PL22",
+ ;;           :name "Year of the Tiger 2022"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "NEO",
+ ;;           :name "Kamigawa: Neon Dynasty"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "PNEO",
+ ;;           :name "Kamigawa: Neon Dynasty Promos"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "TNEO",
+ ;;           :name "Kamigawa: Neon Dynasty Tokens"}
+ ;; #:edition{:date #inst "2022-03-17T00:00:00.000-00:00",
+ ;;           :code "YNEO",
+ ;;           :name "Alchemy: Kamigawa"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "NEC",
+ ;;           :name "Neon Dynasty Commander"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "TNEC",
+ ;;           :name "Neon Dynasty Commander Tokens"}
+ ;; #:edition{:date #inst "2022-02-18T00:00:00.000-00:00",
+ ;;           :code "ANEO",
+ ;;           :name "Neon Dynasty Art Series"}
+ ;; #:edition{:date #inst "2022-01-28T00:00:00.000-00:00",
+ ;;           :code "CC2",
+ ;;           :name "Commander Collection: Black"}
+ ;; #:edition{:date #inst "2022-01-28T00:00:00.000-00:00",
+ ;;           :code "DBL",
+ ;;           :name "Innistrad: Double Feature"}
+ ;; #:edition{:date #inst "2022-01-01T00:00:00.000-00:00",
+ ;;           :code "P22",
+ ;;           :name "Judge Gift Cards 2022"}
+ ;; #:edition{:date #inst "2021-12-09T00:00:00.000-00:00",
+ ;;           :code "YMID",
+ ;;           :name "Alchemy: Innistrad"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "VOW",
+ ;;           :name "Innistrad: Crimson Vow"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "PVOW",
+ ;;           :name "Innistrad: Crimson Vow Promos"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "TVOW",
+ ;;           :name "Innistrad: Crimson Vow Tokens"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "MVOW",
+ ;;           :name "Innistrad: Crimson Vow Minigames"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "SVOW",
+ ;;           :name "Innistrad: Crimson Vow Substitute Cards"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "VOC",
+ ;;           :name "Crimson Vow Commander"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "TVOC",
+ ;;           :name "Crimson Vow Commander Tokens"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "OVOC",
+ ;;           :name "Crimson Vow Commander Display Commanders"}
+ ;; #:edition{:date #inst "2021-11-19T00:00:00.000-00:00",
+ ;;           :code "AVOW",
+ ;;           :name "Crimson Vow Art Series"}
+ ;; #:edition{:date #inst "2021-10-15T00:00:00.000-00:00",
+ ;;           :code "Q06",
+ ;;           :name "Pioneer Challenger Decks 2021"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "MID",
+ ;;           :name "Innistrad: Midnight Hunt"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "PMID",
+ ;;           :name "Innistrad: Midnight Hunt Promos"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "TMID",
+ ;;           :name "Innistrad: Midnight Hunt Tokens"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "SMID",
+ ;;           :name "Innistrad: Midnight Hunt Substitute Cards"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "MIC",
+ ;;           :name "Midnight Hunt Commander"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "TMIC",
+ ;;           :name "Midnight Hunt Commander Tokens"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "OMIC",
+ ;;           :name "Midnight Hunt Commander Display Commanders"}
+ ;; #:edition{:date #inst "2021-09-24T00:00:00.000-00:00",
+ ;;           :code "AMID",
+ ;;           :name "Midnight Hunt Art Series"}
+ ;; #:edition{:date #inst "2021-08-26T00:00:00.000-00:00",
+ ;;           :code "J21",
+ ;;           :name "Jumpstart: Historic Horizons"}
+ ;; #:edition{:date #inst "2021-08-01T00:00:00.000-00:00",
+ ;;           :code "HTR20",
+ ;;           :name "2020 Heroes of the Realm"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "AFR",
+ ;;           :name "Adventures in the Forgotten Realms"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "PAFR",
+ ;;           :name "Adventures in the Forgotten Realms Promos"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "TAFR",
+ ;;           :name "Adventures in the Forgotten Realms Tokens"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "AFC",
+ ;;           :name "Forgotten Realms Commander"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "TAFC",
+ ;;           :name "Forgotten Realms Commander Tokens"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "OAFC",
+ ;;           :name "Forgotten Realms Commander Display Commanders"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "AAFR",
+ ;;           :name "Adventures in the Forgotten Realms Art Series"}
+ ;; #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+ ;;           :code "MAFR",
+ ;;           :name "Adventures in the Forgotten Realms Minigames"}
+ ;; #:edition{:date #inst "2021-06-22T00:00:00.000-00:00",
+ ;;           :code "PLG21",
+ ;;           :name "Love Your LGS 2021"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "MH2",
+ ;;           :name "Modern Horizons 2"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "PMH2",
+ ;;           :name "Modern Horizons 2 Promos"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "TMH2",
+ ;;           :name "Modern Horizons 2 Tokens"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "MMH2",
+ ;;           :name "Modern Horizons 2 Minigames"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "H1R",
+ ;;           :name "Modern Horizons 1 Timeshifts"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "AMH2",
+ ;;           :name "Modern Horizons 2 Art Series"}
+ ;; #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+ ;;           :code "PW21",
+ ;;           :name "Wizards Play Network 2021"}
+ ;; #:edition{:date #inst "2021-05-27T00:00:00.000-00:00",
+ ;;           :code "HA5",
+ ;;           :name "Historic Anthology 5"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "C21",
+ ;;           :name "Commander 2021"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "TC21",
+ ;;           :name "Commander 2021 Tokens"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "OC21",
+ ;;           :name "Commander 2021 Display Commanders"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "STX",
+ ;;           :name "Strixhaven: School of Mages"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "STA",
+ ;;           :name "Strixhaven Mystical Archive"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "PSTX",
+ ;;           :name "Strixhaven: School of Mages Promos"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "TSTX",
+ ;;           :name "Strixhaven: School of Mages Tokens"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "SSTX",
+ ;;           :name "Strixhaven: School of Mages Substitute Cards"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "MSTX",
+ ;;           :name "Strixhaven: School of Mages Minigames"}
+ ;; #:edition{:date #inst "2021-04-23T00:00:00.000-00:00",
+ ;;           :code "ASTX",
+ ;;           :name "Strixhaven Art Series"}
+ ;; #:edition{:date #inst "2021-03-19T00:00:00.000-00:00",
+ ;;           :code "TSR",
+ ;;           :name "Time Spiral Remastered"}
+ ;; #:edition{:date #inst "2021-03-19T00:00:00.000-00:00",
+ ;;           :code "TTSR",
+ ;;           :name "Time Spiral Remastered Tokens"}
+ ;; #:edition{:date #inst "2021-03-11T00:00:00.000-00:00",
+ ;;           :code "HA4",
+ ;;           :name "Historic Anthology 4"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "KHM",
+ ;;           :name "Kaldheim"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "PKHM",
+ ;;           :name "Kaldheim Promos"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "TKHM",
+ ;;           :name "Kaldheim Tokens"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "MKHM",
+ ;;           :name "Kaldheim Minigames"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "SKHM",
+ ;;           :name "Kaldheim Substitute Cards"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "AKHM",
+ ;;           :name "Kaldheim Art Series"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "KHC",
+ ;;           :name "Kaldheim Commander"}
+ ;; #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+ ;;           :code "TKHC",
+ ;;           :name "Kaldheim Commander Tokens"}
+ ;; #:edition{:date #inst "2021-01-25T00:00:00.000-00:00",
+ ;;           :code "PL21",
+ ;;           :name "Year of the Ox 2021"}
+ ;; #:edition{:date #inst "2021-01-01T00:00:00.000-00:00",
+ ;;           :code "PF21",
+ ;;           :name "MagicFest 2021"}
+ ;; #:edition{:date #inst "2021-01-01T00:00:00.000-00:00",
+ ;;           :code "PJ21",
+ ;;           :name "Judge Gift Cards 2021"}
+ ;; #:edition{:date #inst "2020-12-04T00:00:00.000-00:00",
+ ;;           :code "CC1",
+ ;;           :name "Commander Collection: Green"}
+ ;; #:edition{:date #inst "2020-11-20T00:00:00.000-00:00",
+ ;;           :code "CMR",
+ ;;           :name "Commander Legends"}
+ ;; #:edition{:date #inst "2020-11-20T00:00:00.000-00:00",
+ ;;           :code "TCMR",
+ ;;           :name "Commander Legends Tokens"}
+ ;; #:edition{:date #inst "2020-11-12T00:00:00.000-00:00",
+ ;;           :code "KLR",
+ ;;           :name "Kaladesh Remastered"}
+ ;; #:edition{:date #inst "2020-09-26T00:00:00.000-00:00",
+ ;;           :code "PLIST",
+ ;;           :name "The List"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "ZNR",
+ ;;           :name "Zendikar Rising"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "ZNE",
+ ;;           :name "Zendikar Rising Expeditions"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "PZNR",
+ ;;           :name "Zendikar Rising Promos"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "TZNR",
+ ;;           :name "Zendikar Rising Tokens"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "MZNR",
+ ;;           :name "Zendikar Rising Minigames"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "ZNC",
+ ;;           :name "Zendikar Rising Commander"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "TZNC",
+ ;;           :name "Zendikar Rising Commander Tokens"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "SZNR",
+ ;;           :name "Zendikar Rising Substitute Cards"}
+ ;; #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+ ;;           :code "AZNR",
+ ;;           :name "Zendikar Rising Art Series"}
+ ;; #:edition{:date #inst "2020-08-13T00:00:00.000-00:00",
+ ;;           :code "ANB",
+ ;;           :name "Arena Beginner Set"}
+ ;; #:edition{:date #inst "2020-08-13T00:00:00.000-00:00",
+ ;;           :code "AKR",
+ ;;           :name "Amonkhet Remastered"}
+ ;; #:edition{:date #inst "2020-08-07T00:00:00.000-00:00",
+ ;;           :code "2XM",
+ ;;           :name "Double Masters"}
+ ;; #:edition{:date #inst "2020-08-07T00:00:00.000-00:00",
+ ;;           :code "T2XM",
+ ;;           :name "Double Masters Tokens"}
+ ;; #:edition{:date #inst "2020-08-01T00:00:00.000-00:00",
+ ;;           :code "HTR19",
+ ;;           :name "2019 Heroes of the Realm"}
+ ;; #:edition{:date #inst "2020-07-17T00:00:00.000-00:00",
+ ;;           :code "JMP",
+ ;;           :name "Jumpstart"}
+ ;; #:edition{:date #inst "2020-07-17T00:00:00.000-00:00",
+ ;;           :code "AJMP",
+ ;;           :name "Jumpstart Arena Exclusives"}
+ ;; #:edition{:date #inst "2020-06-18T00:00:00.000-00:00",
+ ;;           :code "FJMP",
+ ;;           :name "Jumpstart Front Cards"}
+ ;; #:edition{:date #inst "2020-07-03T00:00:00.000-00:00",
+ ;;           :code "M21",
+ ;;           :name "Core Set 2021"}
+ ;; #:edition{:date #inst "2020-07-03T00:00:00.000-00:00",
+ ;;           :code "PM21",
+ ;;           :name "Core Set 2021 Promos"}
+ ;; #:edition{:date #inst "2020-07-03T00:00:00.000-00:00",
+ ;;           :code "TM21",
+ ;;           :name "Core Set 2021 Tokens"}
+ ;; #:edition{:date #inst "2020-06-26T00:00:00.000-00:00",
+ ;;           :code "SS3",
+ ;;           :name "Signature Spellbook: Chandra"}
+ ;; #:edition{:date #inst "2020-05-21T00:00:00.000-00:00",
+ ;;           :code "HA3",
+ ;;           :name "Historic Anthology 3"}
+ ;; #:edition{:date #inst "2020-05-18T00:00:00.000-00:00",
+ ;;           :code "PLG20",
+ ;;           :name "Love Your LGS 2020"}
+ ;; #:edition{:date #inst "2020-04-24T00:00:00.000-00:00",
+ ;;           :code "IKO",
+ ;;           :name "Ikoria: Lair of Behemoths"}
+ ;; #:edition{:date #inst "2020-04-24T00:00:00.000-00:00",
+ ;;           :code "PIKO",
+ ;;           :name "Ikoria: Lair of Behemoths Promos"}
+ ;; #:edition{:date #inst "2020-04-24T00:00:00.000-00:00",
+ ;;           :code "TIKO",
+ ;;           :name "Ikoria: Lair of Behemoths Tokens"}
+ ;; #:edition{:date #inst "2020-04-17T00:00:00.000-00:00",
+ ;;           :code "C20",
+ ;;           :name "Commander 2020"}
+ ;; #:edition{:date #inst "2020-04-17T00:00:00.000-00:00",
+ ;;           :code "TC20",
+ ;;           :name "Commander 2020 Tokens"}
+ ;; #:edition{:date #inst "2020-04-17T00:00:00.000-00:00",
+ ;;           :code "OC20",
+ ;;           :name "Commander 2020 Oversized"}
+ ;; #:edition{:date #inst "2020-03-12T00:00:00.000-00:00",
+ ;;           :code "HA2",
+ ;;           :name "Historic Anthology 2"}
+ ;; #:edition{:date #inst "2020-02-29T00:00:00.000-00:00",
+ ;;           :code "UND",
+ ;;           :name "Unsanctioned"}
+ ;; #:edition{:date #inst "2020-02-29T00:00:00.000-00:00",
+ ;;           :code "TUND",
+ ;;           :name "Unsanctioned Tokens"}
+ ;; #:edition{:date #inst "2020-01-24T00:00:00.000-00:00",
+ ;;           :code "THB",
+ ;;           :name "Theros Beyond Death"}
+ ;; #:edition{:date #inst "2020-01-24T00:00:00.000-00:00",
+ ;;           :code "PTHB",
+ ;;           :name "Theros Beyond Death Promos"}
+ ;; #:edition{:date #inst "2020-01-24T00:00:00.000-00:00",
+ ;;           :code "TTHB",
+ ;;           :name "Theros Beyond Death Tokens"}
+ ;; #:edition{:date #inst "2020-01-01T00:00:00.000-00:00",
+ ;;           :code "PF20",
+ ;;           :name "MagicFest 2020"}
+ ;; #:edition{:date #inst "2020-01-01T00:00:00.000-00:00",
+ ;;           :code "J20",
+ ;;           :name "Judge Gift Cards 2020"}
+ ;; #:edition{:date #inst "2019-12-02T00:00:00.000-00:00",
+ ;;           :code "SLD",
+ ;;           :name "Secret Lair Drop"}
+ ;; #:edition{:date #inst "2022-04-22T00:00:00.000-00:00",
+ ;;           :code "PHED",
+ ;;           :name "Heads I Win, Tails You Lose"}
+ ;; #:edition{:date #inst "2022-03-03T00:00:00.000-00:00",
+ ;;           :code "SLX",
+ ;;           :name "Universes Within"}
+ ;; #:edition{:date #inst "2020-05-29T00:00:00.000-00:00",
+ ;;           :code "SLU",
+ ;;           :name "Secret Lair: Ultimate Edition"}
+ ;; #:edition{:date #inst "2019-11-21T00:00:00.000-00:00",
+ ;;           :code "HA1",
+ ;;           :name "Historic Anthology 1"}
+ ;; #:edition{:date #inst "2019-11-15T00:00:00.000-00:00",
+ ;;           :code "GN2",
+ ;;           :name "Game Night 2019"}
+ ;; #:edition{:date #inst "2019-11-15T00:00:00.000-00:00",
+ ;;           :code "TGN2",
+ ;;           :name "Game Night 2019 Tokens"}
+ ;; #:edition{:date #inst "2019-11-07T00:00:00.000-00:00",
+ ;;           :code "MB1",
+ ;;           :name "Mystery Booster"}
+ ;; #:edition{:date #inst "2021-08-20T00:00:00.000-00:00",
+ ;;           :code "CMB2",
+ ;;           :name "Mystery Booster Playtest Cards 2021"}
+ ;; #:edition{:date #inst "2020-03-08T00:00:00.000-00:00",
+ ;;           :code "FMB1",
+ ;;           :name "Mystery Booster Retail Edition Foils"}
+ ;; #:edition{:date #inst "2019-11-07T00:00:00.000-00:00",
+ ;;           :code "CMB1",
+ ;;           :name "Mystery Booster Playtest Cards 2019"}
+ ;; #:edition{:date #inst "2019-10-22T00:00:00.000-00:00",
+ ;;           :code "PTG",
+ ;;           :name "Ponies: The Galloping"}
+ ;; #:edition{:date #inst "2019-10-04T00:00:00.000-00:00",
+ ;;           :code "ELD",
+ ;;           :name "Throne of Eldraine"}
+ ;; #:edition{:date #inst "2019-10-04T00:00:00.000-00:00",
+ ;;           :code "PELD",
+ ;;           :name "Throne of Eldraine Promos"}
+ ;; #:edition{:date #inst "2019-09-04T00:00:00.000-00:00",
+ ;;           :code "TELD",
+ ;;           :name "Throne of Eldraine Tokens"}
+ ;; #:edition{:date #inst "2019-08-23T00:00:00.000-00:00",
+ ;;           :code "C19",
+ ;;           :name "Commander 2019"}
+ ;; #:edition{:date #inst "2019-08-01T00:00:00.000-00:00",
+ ;;           :code "TC19",
+ ;;           :name "Commander 2019 Tokens"}
+ ;; #:edition{:date #inst "2019-08-31T00:00:00.000-00:00",
+ ;;           :code "OC19",
+ ;;           :name "Commander 2019 Oversized"}
+ ;; #:edition{:date #inst "2019-08-01T00:00:00.000-00:00",
+ ;;           :code "HTR18",
+ ;;           :name "2018 Heroes of the Realm"}
+ ;; #:edition{:date #inst "2019-07-18T00:00:00.000-00:00",
+ ;;           :code "PS19",
+ ;;           :name "San Diego Comic-Con 2019"}
+ ;; #:edition{:date #inst "2019-07-12T00:00:00.000-00:00",
+ ;;           :code "M20",
+ ;;           :name "Core Set 2020"}
+ ;; #:edition{:date #inst "2019-07-12T00:00:00.000-00:00",
+ ;;           :code "PM20",
+ ;;           :name "Core Set 2020 Promos"}
+ ;; #:edition{:date #inst "2019-07-12T00:00:00.000-00:00",
+ ;;           :code "TM20",
+ ;;           :name "Core Set 2020 Tokens"}
+ ;; #:edition{:date #inst "2019-07-12T00:00:00.000-00:00",
+ ;;           :code "PPP1",
+ ;;           :name "M20 Promo Packs"}
+ ;; #:edition{:date #inst "2019-06-28T00:00:00.000-00:00",
+ ;;           :code "SS2",
+ ;;           :name "Signature Spellbook: Gideon"}
+ ;; #:edition{:date #inst "2019-06-14T00:00:00.000-00:00",
+ ;;           :code "MH1",
+ ;;           :name "Modern Horizons"}
+ ;; #:edition{:date #inst "2019-06-14T00:00:00.000-00:00",
+ ;;           :code "PMH1",
+ ;;           :name "Modern Horizons Promos"}
+ ;; #:edition{:date #inst "2019-05-30T00:00:00.000-00:00",
+ ;;           :code "TMH1",
+ ;;           :name "Modern Horizons Tokens"}
+ ;; #:edition{:date #inst "2019-06-05T00:00:00.000-00:00",
+ ;;           :code "AMH1",
+ ;;           :name "Modern Horizons Art Series"}
+ ;; #:edition{:date #inst "2019-05-03T00:00:00.000-00:00",
+ ;;           :code "WAR",
+ ;;           :name "War of the Spark"}
+ ;; #:edition{:date #inst "2019-05-03T00:00:00.000-00:00",
+ ;;           :code "PWAR",
+ ;;           :name "War of the Spark Promos"}
+ ;; #:edition{:date #inst "2019-05-03T00:00:00.000-00:00",
+ ;;           :code "TWAR",
+ ;;           :name "War of the Spark Tokens"}
+ ;; #:edition{:date #inst "2019-04-10T00:00:00.000-00:00",
+ ;;           :code "J19",
+ ;;           :name "Judge Gift Cards 2019"}
+ ;; #:edition{:date #inst "2019-02-15T00:00:00.000-00:00",
+ ;;           :code "GK2",
+ ;;           :name "RNA Guild Kit"}
+ ;; #:edition{:date #inst "2019-02-15T00:00:00.000-00:00",
+ ;;           :code "TGK2",
+ ;;           :name "RNA Guild Kit Tokens"}
+ ;; #:edition{:date #inst "2019-01-25T00:00:00.000-00:00",
+ ;;           :code "RNA",
+ ;;           :name "Ravnica Allegiance"}
+ ;; #:edition{:date #inst "2019-01-25T00:00:00.000-00:00",
+ ;;           :code "PRNA",
+ ;;           :name "Ravnica Allegiance Promos"}
+ ;; #:edition{:date #inst "2019-01-25T00:00:00.000-00:00",
+ ;;           :code "TRNA",
+ ;;           :name "Ravnica Allegiance Tokens"}
+ ;; #:edition{:date #inst "2019-02-16T00:00:00.000-00:00",
+ ;;           :code "PRW2",
+ ;;           :name "RNA Ravnica Weekend"}
+ ;; #:edition{:date #inst "2019-01-01T00:00:00.000-00:00",
+ ;;           :code "PF19",
+ ;;           :name "MagicFest 2019"}
+ ;; #:edition{:date #inst "2018-12-07T00:00:00.000-00:00",
+ ;;           :code "UMA",
+ ;;           :name "Ultimate Masters"}
+ ;; #:edition{:date #inst "2018-12-07T00:00:00.000-00:00",
+ ;;           :code "PUMA",
+ ;;           :name "Ultimate Box Topper"}
+ ;; #:edition{:date #inst "2018-12-07T00:00:00.000-00:00",
+ ;;           :code "TUMA",
+ ;;           :name "Ultimate Masters Tokens"}
+ ;; #:edition{:date #inst "2018-11-16T00:00:00.000-00:00",
+ ;;           :code "GNT",
+ ;;           :name "Game Night"}
+ ;; #:edition{:date #inst "2018-11-02T00:00:00.000-00:00",
+ ;;           :code "GK1",
+ ;;           :name "GRN Guild Kit"}
+ ;; #:edition{:date #inst "2018-11-02T00:00:00.000-00:00",
+ ;;           :code "TGK1",
+ ;;           :name "GRN Guild Kit Tokens"}
+ ;; #:edition{:date #inst "2018-10-05T00:00:00.000-00:00",
+ ;;           :code "GRN",
+ ;;           :name "Guilds of Ravnica"}
+ ;; #:edition{:date #inst "2018-10-05T00:00:00.000-00:00",
+ ;;           :code "PGRN",
+ ;;           :name "Guilds of Ravnica Promos"}
+ ;; #:edition{:date #inst "2018-10-05T00:00:00.000-00:00",
+ ;;           :code "TGRN",
+ ;;           :name "Guilds of Ravnica Tokens"}
+ ;; #:edition{:date #inst "2018-11-09T00:00:00.000-00:00",
+ ;;           :code "PRWK",
+ ;;           :name "GRN Ravnica Weekend"}
+ ;; #:edition{:date #inst "2018-10-05T00:00:00.000-00:00",
+ ;;           :code "MED",
+ ;;           :name "Mythic Edition"}
+ ;; #:edition{:date #inst "2018-10-05T00:00:00.000-00:00",
+ ;;           :code "TMED",
+ ;;           :name "Mythic Edition Tokens"}
+ ;; #:edition{:date #inst "2018-08-09T00:00:00.000-00:00",
+ ;;           :code "C18",
+ ;;           :name "Commander 2018"}
+ ;; #:edition{:date #inst "2018-08-09T00:00:00.000-00:00",
+ ;;           :code "TC18",
+ ;;           :name "Commander 2018 Tokens"}
+ ;; #:edition{:date #inst "2018-08-09T00:00:00.000-00:00",
+ ;;           :code "OC18",
+ ;;           :name "Commander 2018 Oversized"}
+ ;; #:edition{:date #inst "2018-08-01T00:00:00.000-00:00",
+ ;;           :code "HTR17",
+ ;;           :name "2017 Heroes of the Realm"}
+ ;; #:edition{:date #inst "2018-07-19T00:00:00.000-00:00",
+ ;;           :code "PS18",
+ ;;           :name "San Diego Comic-Con 2018"}
+ ;; #:edition{:date #inst "2018-07-14T00:00:00.000-00:00",
+ ;;           :code "ANA",
+ ;;           :name "Arena New Player Experience"}
+ ;; #:edition{:date #inst "2018-07-14T00:00:00.000-00:00",
+ ;;           :code "XANA",
+ ;;           :name "Arena New Player Experience Extras"}
+ ;; #:edition{:date #inst "2018-07-14T00:00:00.000-00:00",
+ ;;           :code "OANA",
+ ;;           :name "Arena New Player Experience Cards"}
+ ;; #:edition{:date #inst "2018-07-14T00:00:00.000-00:00",
+ ;;           :code "PANA",
+ ;;           :name "MTG Arena Promos"}
+ ;; #:edition{:date #inst "2018-07-13T00:00:00.000-00:00",
+ ;;           :code "M19",
+ ;;           :name "Core Set 2019"}
+ ;; #:edition{:date #inst "2018-07-13T00:00:00.000-00:00",
+ ;;           :code "PM19",
+ ;;           :name "Core Set 2019 Promos"}
+ ;; #:edition{:date #inst "2018-07-13T00:00:00.000-00:00",
+ ;;           :code "TM19",
+ ;;           :name "Core Set 2019 Tokens"}
+ ;; #:edition{:date #inst "2018-11-16T00:00:00.000-00:00",
+ ;;           :code "G18",
+ ;;           :name "M19 Gift Pack"}
+ ;; #:edition{:date #inst "2018-07-13T00:00:00.000-00:00",
+ ;;           :code "PSS3",
+ ;;           :name "M19 Standard Showdown"}
+ ;; #:edition{:date #inst "2018-06-22T00:00:00.000-00:00",
+ ;;           :code "GS1",
+ ;;           :name "Global Series Jiang Yanggu & Mu Yanling"}
+ ;; #:edition{:date #inst "2018-06-15T00:00:00.000-00:00",
+ ;;           :code "SS1",
+ ;;           :name "Signature Spellbook: Jace"}
+ ;; #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+ ;;           :code "BBD",
+ ;;           :name "Battlebond"}
+ ;; #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+ ;;           :code "PBBD",
+ ;;           :name "Battlebond Promos"}
+ ;; #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+ ;;           :code "TBBD",
+ ;;           :name "Battlebond Tokens"}
+ ;; #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+ ;;           :code "CM2",
+ ;;           :name "Commander Anthology Volume II"}
+ ;; #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+ ;;           :code "TCM2",
+ ;;           :name "Commander Anthology Volume II Tokens"}
+ ;; #:edition{:date #inst "2018-04-27T00:00:00.000-00:00",
+ ;;           :code "DOM",
+ ;;           :name "Dominaria"}
+ ;; #:edition{:date #inst "2018-04-27T00:00:00.000-00:00",
+ ;;           :code "PDOM",
+ ;;           :name "Dominaria Promos"}
+ ;; #:edition{:date #inst "2018-04-27T00:00:00.000-00:00",
+ ;;           :code "TDOM",
+ ;;           :name "Dominaria Tokens"}
+ ;; #:edition{:date #inst "2018-04-06T00:00:00.000-00:00",
+ ;;           :code "DDU",
+ ;;           :name "Duel Decks: Elves vs. Inventors"}
+ ;; #:edition{:date #inst "2018-04-06T00:00:00.000-00:00",
+ ;;           :code "TDDU",
+ ;;           :name "Duel Decks: Elves vs. Inventors Tokens"}
+ ;; #:edition{:date #inst "2018-03-16T00:00:00.000-00:00",
+ ;;           :code "A25",
+ ;;           :name "Masters 25"}
+ ;; #:edition{:date #inst "2018-03-16T00:00:00.000-00:00",
+ ;;           :code "TA25",
+ ;;           :name "Masters 25 Tokens"}
+ ;; #:edition{:date #inst "2018-02-16T00:00:00.000-00:00",
+ ;;           :code "PLNY",
+ ;;           :name "Lunar New Year 2018"}
+ ;; #:edition{:date #inst "2018-01-25T00:00:00.000-00:00",
+ ;;           :code "PNAT",
+ ;;           :name "Nationals Promos"}
+ ;; #:edition{:date #inst "2018-01-19T00:00:00.000-00:00",
+ ;;           :code "RIX",
+ ;;           :name "Rivals of Ixalan"}
+ ;; #:edition{:date #inst "2018-01-19T00:00:00.000-00:00",
+ ;;           :code "PRIX",
+ ;;           :name "Rivals of Ixalan Promos"}
+ ;; #:edition{:date #inst "2018-01-19T00:00:00.000-00:00",
+ ;;           :code "TRIX",
+ ;;           :name "Rivals of Ixalan Tokens"}
+ ;; #:edition{:date #inst "2018-01-01T00:00:00.000-00:00",
+ ;;           :code "J18",
+ ;;           :name "Judge Gift Cards 2018"}
+ ;; #:edition{:date #inst "2017-12-27T00:00:00.000-00:00",
+ ;;           :code "F18",
+ ;;           :name "Friday Night Magic 2018"}
+ ;; #:edition{:date #inst "2017-12-08T00:00:00.000-00:00",
+ ;;           :code "UST",
+ ;;           :name "Unstable"}
+ ;; #:edition{:date #inst "2017-12-08T00:00:00.000-00:00",
+ ;;           :code "PUST",
+ ;;           :name "Unstable Promos"}
+ ;; #:edition{:date #inst "2017-12-08T00:00:00.000-00:00",
+ ;;           :code "TUST",
+ ;;           :name "Unstable Tokens"}
+ ;; #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
+ ;;           :code "V17",
+ ;;           :name "From the Vault: Transform"}
+ ;; #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
+ ;;           :code "E02",
+ ;;           :name "Explorers of Ixalan"}
+ ;; #:edition{:date #inst "2017-11-17T00:00:00.000-00:00",
+ ;;           :code "IMA",
+ ;;           :name "Iconic Masters"}
+ ;; #:edition{:date #inst "2017-11-29T00:00:00.000-00:00",
+ ;;           :code "TIMA",
+ ;;           :name "Iconic Masters Tokens"}
+ ;; #:edition{:date #inst "2017-10-24T00:00:00.000-00:00",
+ ;;           :code "DDT",
+ ;;           :name "Duel Decks: Merfolk vs. Goblins"}
+ ;; #:edition{:date #inst "2017-10-24T00:00:00.000-00:00",
+ ;;           :code "TDDT",
+ ;;           :name "Duel Decks: Merfolk vs. Goblins Tokens"}
+ ;; #:edition{:date #inst "2017-10-20T00:00:00.000-00:00",
+ ;;           :code "G17",
+ ;;           :name "2017 Gift Pack"}
+ ;; #:edition{:date #inst "2017-09-29T00:00:00.000-00:00",
+ ;;           :code "XLN",
+ ;;           :name "Ixalan"}
+ ;; #:edition{:date #inst "2017-09-29T00:00:00.000-00:00",
+ ;;           :code "PXLN",
+ ;;           :name "Ixalan Promos"}
+ ;; #:edition{:date #inst "2017-09-29T00:00:00.000-00:00",
+ ;;           :code "TXLN",
+ ;;           :name "Ixalan Tokens"}
+ ;; #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
+ ;;           :code "PXTC",
+ ;;           :name "XLN Treasure Chest"}
+ ;; #:edition{:date #inst "2017-09-29T00:00:00.000-00:00",
+ ;;           :code "PSS2",
+ ;;           :name "XLN Standard Showdown"}
+ ;; #:edition{:date #inst "2017-09-20T00:00:00.000-00:00",
+ ;;           :code "H17",
+ ;;           :name "HasCon 2017"}
+ ;; #:edition{:date #inst "2017-09-20T00:00:00.000-00:00",
+ ;;           :code "HTR16",
+ ;;           :name "2016 Heroes of the Realm"}
+ ;; #:edition{:date #inst "2017-08-25T00:00:00.000-00:00",
+ ;;           :code "C17",
+ ;;           :name "Commander 2017"}
+ ;; #:edition{:date #inst "2017-08-25T00:00:00.000-00:00",
+ ;;           :code "TC17",
+ ;;           :name "Commander 2017 Tokens"}
+ ;; #:edition{:date #inst "2017-08-25T00:00:00.000-00:00",
+ ;;           :code "OC17",
+ ;;           :name "Commander 2017 Oversized"}
+ ;; #:edition{:date #inst "2017-07-20T00:00:00.000-00:00",
+ ;;           :code "PS17",
+ ;;           :name "San Diego Comic-Con 2017"}
+ ;; #:edition{:date #inst "2017-07-14T00:00:00.000-00:00",
+ ;;           :code "HOU",
+ ;;           :name "Hour of Devastation"}
+ ;; #:edition{:date #inst "2017-07-14T00:00:00.000-00:00",
+ ;;           :code "PHOU",
+ ;;           :name "Hour of Devastation Promos"}
+ ;; #:edition{:date #inst "2017-07-14T00:00:00.000-00:00",
+ ;;           :code "THOU",
+ ;;           :name "Hour of Devastation Tokens"}
+ ;; #:edition{:date #inst "2017-06-16T00:00:00.000-00:00",
+ ;;           :code "E01",
+ ;;           :name "Archenemy: Nicol Bolas"}
+ ;; #:edition{:date #inst "2017-09-08T00:00:00.000-00:00",
+ ;;           :code "TE01",
+ ;;           :name "Archenemy: Nicol Bolas Tokens"}
+ ;; #:edition{:date #inst "2017-06-16T00:00:00.000-00:00",
+ ;;           :code "OE01",
+ ;;           :name "Archenemy: Nicol Bolas Schemes"}
+ ;; #:edition{:date #inst "2017-06-09T00:00:00.000-00:00",
+ ;;           :code "CMA",
+ ;;           :name "Commander Anthology"}
+ ;; #:edition{:date #inst "2017-06-09T00:00:00.000-00:00",
+ ;;           :code "TCMA",
+ ;;           :name "Commander Anthology Tokens"}
+ ;; #:edition{:date #inst "2017-04-28T00:00:00.000-00:00",
+ ;;           :code "AKH",
+ ;;           :name "Amonkhet"}
+ ;; #:edition{:date #inst "2017-04-28T00:00:00.000-00:00",
+ ;;           :code "MP2",
+ ;;           :name "Amonkhet Invocations"}
+ ;; #:edition{:date #inst "2017-04-28T00:00:00.000-00:00",
+ ;;           :code "PAKH",
+ ;;           :name "Amonkhet Promos"}
+ ;; #:edition{:date #inst "2017-04-28T00:00:00.000-00:00",
+ ;;           :code "TAKH",
+ ;;           :name "Amonkhet Tokens"}
+ ;; #:edition{:date #inst "2017-04-15T00:00:00.000-00:00",
+ ;;           :code "W17",
+ ;;           :name "Welcome Deck 2017"}
+ ;; #:edition{:date #inst "2017-03-31T00:00:00.000-00:00",
+ ;;           :code "DDS",
+ ;;           :name "Duel Decks: Mind vs. Might"}
+ ;; #:edition{:date #inst "2017-03-31T00:00:00.000-00:00",
+ ;;           :code "TDDS",
+ ;;           :name "Duel Decks: Mind vs. Might Tokens"}
+ ;; #:edition{:date #inst "2017-03-17T00:00:00.000-00:00",
+ ;;           :code "MM3",
+ ;;           :name "Modern Masters 2017"}
+ ;; #:edition{:date #inst "2017-03-17T00:00:00.000-00:00",
+ ;;           :code "TMM3",
+ ;;           :name "Modern Masters 2017 Tokens"}
+ ;; #:edition{:date #inst "2017-01-20T00:00:00.000-00:00",
+ ;;           :code "AER",
+ ;;           :name "Aether Revolt"}
+ ;; #:edition{:date #inst "2017-01-20T00:00:00.000-00:00",
+ ;;           :code "PAER",
+ ;;           :name "Aether Revolt Promos"}
+ ;; #:edition{:date #inst "2017-01-20T00:00:00.000-00:00",
+ ;;           :code "TAER",
+ ;;           :name "Aether Revolt Tokens"}
+ ;; #:edition{:date #inst "2017-01-01T00:00:00.000-00:00",
+ ;;           :code "L17",
+ ;;           :name "League Tokens 2017"}
+ ;; #:edition{:date #inst "2017-01-01T00:00:00.000-00:00",
+ ;;           :code "J17",
+ ;;           :name "Judge Gift Cards 2017"}
+ ;; #:edition{:date #inst "2017-01-01T00:00:00.000-00:00",
+ ;;           :code "F17",
+ ;;           :name "Friday Night Magic 2017"}
+ ;; #:edition{:date #inst "2016-11-25T00:00:00.000-00:00",
+ ;;           :code "PCA",
+ ;;           :name "Planechase Anthology"}
+ ;; #:edition{:date #inst "2016-11-25T00:00:00.000-00:00",
+ ;;           :code "TPCA",
+ ;;           :name "Planechase Anthology Tokens"}
+ ;; #:edition{:date #inst "2018-12-25T00:00:00.000-00:00",
+ ;;           :code "OPCA",
+ ;;           :name "Planechase Anthology Planes"}
+ ;; #:edition{:date #inst "2016-11-16T00:00:00.000-00:00",
+ ;;           :code "PZ2",
+ ;;           :name "Treasure Chest"}
+ ;; #:edition{:date #inst "2016-11-11T00:00:00.000-00:00",
+ ;;           :code "C16",
+ ;;           :name "Commander 2016"}
+ ;; #:edition{:date #inst "2016-11-11T00:00:00.000-00:00",
+ ;;           :code "TC16",
+ ;;           :name "Commander 2016 Tokens"}
+ ;; #:edition{:date #inst "2016-11-11T00:00:00.000-00:00",
+ ;;           :code "OC16",
+ ;;           :name "Commander 2016 Oversized"}
+ ;; #:edition{:date #inst "2016-10-01T00:00:00.000-00:00",
+ ;;           :code "PS16",
+ ;;           :name "San Diego Comic-Con 2016"}
+ ;; #:edition{:date #inst "2016-09-30T00:00:00.000-00:00",
+ ;;           :code "KLD",
+ ;;           :name "Kaladesh"}
+ ;; #:edition{:date #inst "2016-09-30T00:00:00.000-00:00",
+ ;;           :code "MPS",
+ ;;           :name "Kaladesh Inventions"}
+ ;; #:edition{:date #inst "2016-09-30T00:00:00.000-00:00",
+ ;;           :code "PKLD",
+ ;;           :name "Kaladesh Promos"}
+ ;; #:edition{:date #inst "2016-09-30T00:00:00.000-00:00",
+ ;;           :code "TKLD",
+ ;;           :name "Kaladesh Tokens"}
+ ;; #:edition{:date #inst "2016-09-02T00:00:00.000-00:00",
+ ;;           :code "DDR",
+ ;;           :name "Duel Decks: Nissa vs. Ob Nixilis"}
+ ;; #:edition{:date #inst "2016-08-26T00:00:00.000-00:00",
+ ;;           :code "CN2",
+ ;;           :name "Conspiracy: Take the Crown"}
+ ;; #:edition{:date #inst "2016-08-26T00:00:00.000-00:00",
+ ;;           :code "TCN2",
+ ;;           :name "Conspiracy: Take the Crown Tokens"}
+ ;; #:edition{:date #inst "2016-08-19T00:00:00.000-00:00",
+ ;;           :code "V16",
+ ;;           :name "From the Vault: Lore"}
+ ;; #:edition{:date #inst "2016-07-22T00:00:00.000-00:00",
+ ;;           :code "EMN",
+ ;;           :name "Eldritch Moon"}
+ ;; #:edition{:date #inst "2016-07-22T00:00:00.000-00:00",
+ ;;           :code "PEMN",
+ ;;           :name "Eldritch Moon Promos"}
+ ;; #:edition{:date #inst "2016-07-22T00:00:00.000-00:00",
+ ;;           :code "TEMN",
+ ;;           :name "Eldritch Moon Tokens"}
+ ;; #:edition{:date #inst "2016-06-10T00:00:00.000-00:00",
+ ;;           :code "EMA",
+ ;;           :name "Eternal Masters"}
+ ;; #:edition{:date #inst "2016-06-10T00:00:00.000-00:00",
+ ;;           :code "TEMA",
+ ;;           :name "Eternal Masters Tokens"}
+ ;; #:edition{:date #inst "2016-04-08T00:00:00.000-00:00",
+ ;;           :code "SOI",
+ ;;           :name "Shadows over Innistrad"}
+ ;; #:edition{:date #inst "2016-04-08T00:00:00.000-00:00",
+ ;;           :code "PSOI",
+ ;;           :name "Shadows over Innistrad Promos"}
+ ;; #:edition{:date #inst "2016-04-08T00:00:00.000-00:00",
+ ;;           :code "TSOI",
+ ;;           :name "Shadows over Innistrad Tokens"}
+ ;; #:edition{:date #inst "2016-04-08T00:00:00.000-00:00",
+ ;;           :code "W16",
+ ;;           :name "Welcome Deck 2016"}
+ ;; #:edition{:date #inst "2016-02-26T00:00:00.000-00:00",
+ ;;           :code "DDQ",
+ ;;           :name "Duel Decks: Blessed vs. Cursed"}
+ ;; #:edition{:date #inst "2016-01-22T00:00:00.000-00:00",
+ ;;           :code "OGW",
+ ;;           :name "Oath of the Gatewatch"}
+ ;; #:edition{:date #inst "2016-01-22T00:00:00.000-00:00",
+ ;;           :code "POGW",
+ ;;           :name "Oath of the Gatewatch Promos"}
+ ;; #:edition{:date #inst "2016-01-22T00:00:00.000-00:00",
+ ;;           :code "TOGW",
+ ;;           :name "Oath of the Gatewatch Tokens"}
+ ;; #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
+ ;;           :code "L16",
+ ;;           :name "League Tokens 2016"}
+ ;; #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
+ ;;           :code "J16",
+ ;;           :name "Judge Gift Cards 2016"}
+ ;; #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
+ ;;           :code "F16",
+ ;;           :name "Friday Night Magic 2016"}
+ ;; #:edition{:date #inst "2015-11-18T00:00:00.000-00:00",
+ ;;           :code "PZ1",
+ ;;           :name "Legendary Cube Prize Pack"}
+ ;; #:edition{:date #inst "2015-11-13T00:00:00.000-00:00",
+ ;;           :code "C15",
+ ;;           :name "Commander 2015"}
+ ;; #:edition{:date #inst "2015-11-13T00:00:00.000-00:00",
+ ;;           :code "TC15",
+ ;;           :name "Commander 2015 Tokens"}
+ ;; #:edition{:date #inst "2015-11-13T00:00:00.000-00:00",
+ ;;           :code "OC15",
+ ;;           :name "Commander 2015 Oversized"}
+ ;; #:edition{:date #inst "2015-10-02T00:00:00.000-00:00",
+ ;;           :code "BFZ",
+ ;;           :name "Battle for Zendikar"}
+ ;; #:edition{:date #inst "2015-10-02T00:00:00.000-00:00",
+ ;;           :code "EXP",
+ ;;           :name "Zendikar Expeditions"}
+ ;; #:edition{:date #inst "2015-10-02T00:00:00.000-00:00",
+ ;;           :code "PBFZ",
+ ;;           :name "Battle for Zendikar Promos"}
+ ;; #:edition{:date #inst "2015-10-02T00:00:00.000-00:00",
+ ;;           :code "TBFZ",
+ ;;           :name "Battle for Zendikar Tokens"}
+ ;; #:edition{:date #inst "2015-10-02T00:00:00.000-00:00",
+ ;;           :code "PSS1",
+ ;;           :name "BFZ Standard Series"}
+ ;; #:edition{:date #inst "2015-08-28T00:00:00.000-00:00",
+ ;;           :code "DDP",
+ ;;           :name "Duel Decks: Zendikar vs. Eldrazi"}
+ ;; #:edition{:date #inst "2015-08-21T00:00:00.000-00:00",
+ ;;           :code "V15",
+ ;;           :name "From the Vault: Angels"}
+ ;; #:edition{:date #inst "2015-07-17T00:00:00.000-00:00",
+ ;;           :code "ORI",
+ ;;           :name "Magic Origins"}
+ ;; #:edition{:date #inst "2015-07-17T00:00:00.000-00:00",
+ ;;           :code "PORI",
+ ;;           :name "Magic Origins Promos"}
+ ;; #:edition{:date #inst "2015-07-17T00:00:00.000-00:00",
+ ;;           :code "TORI",
+ ;;           :name "Magic Origins Tokens"}
+ ;; #:edition{:date #inst "2015-07-17T00:00:00.000-00:00",
+ ;;           :code "CP3",
+ ;;           :name "Magic Origins Clash Pack"}
+ ;; #:edition{:date #inst "2015-07-09T00:00:00.000-00:00",
+ ;;           :code "PS15",
+ ;;           :name "San Diego Comic-Con 2015"}
+ ;; #:edition{:date #inst "2015-05-22T00:00:00.000-00:00",
+ ;;           :code "MM2",
+ ;;           :name "Modern Masters 2015"}
+ ;; #:edition{:date #inst "2015-05-22T00:00:00.000-00:00",
+ ;;           :code "TMM2",
+ ;;           :name "Modern Masters 2015 Tokens"}
+ ;; #:edition{:date #inst "2015-05-06T00:00:00.000-00:00",
+ ;;           :code "TPR",
+ ;;           :name "Tempest Remastered"}
+ ;; #:edition{:date #inst "2015-03-27T00:00:00.000-00:00",
+ ;;           :code "DTK",
+ ;;           :name "Dragons of Tarkir"}
+ ;; #:edition{:date #inst "2015-03-27T00:00:00.000-00:00",
+ ;;           :code "PDTK",
+ ;;           :name "Dragons of Tarkir Promos"}
+ ;; #:edition{:date #inst "2015-03-27T00:00:00.000-00:00",
+ ;;           :code "TDTK",
+ ;;           :name "Dragons of Tarkir Tokens"}
+ ;; #:edition{:date #inst "2015-04-03T00:00:00.000-00:00",
+ ;;           :code "PTKDF",
+ ;;           :name "Tarkir Dragonfury"}
+ ;; #:edition{:date #inst "2015-02-27T00:00:00.000-00:00",
+ ;;           :code "DDO",
+ ;;           :name "Duel Decks: Elspeth vs. Kiora"}
+ ;; #:edition{:date #inst "2015-01-23T00:00:00.000-00:00",
+ ;;           :code "FRF",
+ ;;           :name "Fate Reforged"}
+ ;; #:edition{:date #inst "2015-01-23T00:00:00.000-00:00",
+ ;;           :code "PFRF",
+ ;;           :name "Fate Reforged Promos"}
+ ;; #:edition{:date #inst "2015-01-23T00:00:00.000-00:00",
+ ;;           :code "TFRF",
+ ;;           :name "Fate Reforged Tokens"}
+ ;; #:edition{:date #inst "2015-01-23T00:00:00.000-00:00",
+ ;;           :code "CP2",
+ ;;           :name "Fate Reforged Clash Pack"}
+ ;; #:edition{:date #inst "2015-01-17T00:00:00.000-00:00",
+ ;;           :code "UGIN",
+ ;;           :name "Ugin's Fate"}
+ ;; #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
+ ;;           :code "L15",
+ ;;           :name "League Tokens 2015"}
+ ;; #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
+ ;;           :code "F15",
+ ;;           :name "Friday Night Magic 2015"}
+ ;; #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
+ ;;           :code "J15",
+ ;;           :name "Judge Gift Cards 2015"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "EVG",
+ ;;           :name "Duel Decks Anthology: Elves vs. Goblins"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "TEVG",
+ ;;           :name "Duel Decks Anthology: Elves vs. Goblins Tokens"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "GVL",
+ ;;           :name "Duel Decks Anthology: Garruk vs. Liliana"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "TGVL",
+ ;;           :name "Duel Decks Anthology: Garruk vs. Liliana Tokens"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "JVC",
+ ;;           :name "Duel Decks Anthology: Jace vs. Chandra"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "TJVC",
+ ;;           :name "Duel Decks Anthology: Jace vs. Chandra Tokens"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "DVD",
+ ;;           :name "Duel Decks Anthology: Divine vs. Demonic"}
+ ;; #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
+ ;;           :code "TDVD",
+ ;;           :name "Duel Decks Anthology: Divine vs. Demonic Tokens"}
+ ;; #:edition{:date #inst "2014-11-07T00:00:00.000-00:00",
+ ;;           :code "C14",
+ ;;           :name "Commander 2014"}
+ ;; #:edition{:date #inst "2014-11-07T00:00:00.000-00:00",
+ ;;           :code "TC14",
+ ;;           :name "Commander 2014 Tokens"}
+ ;; #:edition{:date #inst "2014-11-07T00:00:00.000-00:00",
+ ;;           :code "OC14",
+ ;;           :name "Commander 2014 Oversized"}
+ ;; #:edition{:date #inst "2014-09-26T00:00:00.000-00:00",
+ ;;           :code "KTK",
+ ;;           :name "Khans of Tarkir"}
+ ;; #:edition{:date #inst "2014-09-26T00:00:00.000-00:00",
+ ;;           :code "PKTK",
+ ;;           :name "Khans of Tarkir Promos"}
+ ;; #:edition{:date #inst "2014-09-26T00:00:00.000-00:00",
+ ;;           :code "TKTK",
+ ;;           :name "Khans of Tarkir Tokens"}
+ ;; #:edition{:date #inst "2014-09-05T00:00:00.000-00:00",
+ ;;           :code "DDN",
+ ;;           :name "Duel Decks: Speed vs. Cunning"}
+ ;; #:edition{:date #inst "2014-08-22T00:00:00.000-00:00",
+ ;;           :code "V14",
+ ;;           :name "From the Vault: Annihilation"}
+ ;; #:edition{:date #inst "2014-07-18T00:00:00.000-00:00",
+ ;;           :code "M15",
+ ;;           :name "Magic 2015"}
+ ;; #:edition{:date #inst "2014-07-17T00:00:00.000-00:00",
+ ;;           :code "PM15",
+ ;;           :name "Magic 2015 Promos"}
+ ;; #:edition{:date #inst "2014-07-18T00:00:00.000-00:00",
+ ;;           :code "TM15",
+ ;;           :name "Magic 2015 Tokens"}
+ ;; #:edition{:date #inst "2014-07-18T00:00:00.000-00:00",
+ ;;           :code "CP1",
+ ;;           :name "Magic 2015 Clash Pack"}
+ ;; #:edition{:date #inst "2014-07-12T00:00:00.000-00:00",
+ ;;           :code "PPC1",
+ ;;           :name "M15 Prerelease Challenge"}
+ ;; #:edition{:date #inst "2014-07-08T00:00:00.000-00:00",
+ ;;           :code "PS14",
+ ;;           :name "San Diego Comic-Con 2014"}
+ ;; #:edition{:date #inst "2014-06-16T00:00:00.000-00:00",
+ ;;           :code "VMA",
+ ;;           :name "Vintage Masters"}
+ ;; #:edition{:date #inst "2014-06-06T00:00:00.000-00:00",
+ ;;           :code "CNS",
+ ;;           :name "Conspiracy"}
+ ;; #:edition{:date #inst "2014-06-06T00:00:00.000-00:00",
+ ;;           :code "PCNS",
+ ;;           :name "Conspiracy Promos"}
+ ;; #:edition{:date #inst "2014-06-06T00:00:00.000-00:00",
+ ;;           :code "TCNS",
+ ;;           :name "Conspiracy Tokens"}
+ ;; #:edition{:date #inst "2014-05-30T00:00:00.000-00:00",
+ ;;           :code "MD1",
+ ;;           :name "Modern Event Deck 2014"}
+ ;; #:edition{:date #inst "2014-05-30T00:00:00.000-00:00",
+ ;;           :code "TMD1",
+ ;;           :name "Modern Event Deck 2014 Tokens"}
+ ;; #:edition{:date #inst "2014-05-02T00:00:00.000-00:00",
+ ;;           :code "JOU",
+ ;;           :name "Journey into Nyx"}
+ ;; #:edition{:date #inst "2014-04-26T00:00:00.000-00:00",
+ ;;           :code "PJOU",
+ ;;           :name "Journey into Nyx Promos"}
+ ;; #:edition{:date #inst "2014-05-02T00:00:00.000-00:00",
+ ;;           :code "TJOU",
+ ;;           :name "Journey into Nyx Tokens"}
+ ;; #:edition{:date #inst "2014-05-25T00:00:00.000-00:00",
+ ;;           :code "TDAG",
+ ;;           :name "Defeat a God"}
+ ;; #:edition{:date #inst "2014-05-02T00:00:00.000-00:00",
+ ;;           :code "THP3",
+ ;;           :name "Journey into Nyx Hero's Path"}
+ ;; #:edition{:date #inst "2014-03-14T00:00:00.000-00:00",
+ ;;           :code "DDM",
+ ;;           :name "Duel Decks: Jace vs. Vraska"}
+ ;; #:edition{:date #inst "2014-03-14T00:00:00.000-00:00",
+ ;;           :code "TDDM",
+ ;;           :name "Duel Decks: Jace vs. Vraska Tokens"}
+ ;; #:edition{:date #inst "2014-02-07T00:00:00.000-00:00",
+ ;;           :code "BNG",
+ ;;           :name "Born of the Gods"}
+ ;; #:edition{:date #inst "2014-02-01T00:00:00.000-00:00",
+ ;;           :code "PBNG",
+ ;;           :name "Born of the Gods Promos"}
+ ;; #:edition{:date #inst "2014-02-07T00:00:00.000-00:00",
+ ;;           :code "TBNG",
+ ;;           :name "Born of the Gods Tokens"}
+ ;; #:edition{:date #inst "2014-03-01T00:00:00.000-00:00",
+ ;;           :code "TBTH",
+ ;;           :name "Battle the Horde"}
+ ;; #:edition{:date #inst "2014-02-07T00:00:00.000-00:00",
+ ;;           :code "THP2",
+ ;;           :name "Born of the Gods Hero's Path"}
+ ;; #:edition{:date #inst "2014-01-01T00:00:00.000-00:00",
+ ;;           :code "PDP15",
+ ;;           :name "Duels of the Planeswalkers 2015 Promos"}
+ ;; #:edition{:date #inst "2014-01-01T00:00:00.000-00:00",
+ ;;           :code "PI14",
+ ;;           :name "IDW Comics 2014"}
+ ;; #:edition{:date #inst "2014-01-01T00:00:00.000-00:00",
+ ;;           :code "L14",
+ ;;           :name "League Tokens 2014"}
+ ;; #:edition{:date #inst "2014-01-01T00:00:00.000-00:00",
+ ;;           :code "F14",
+ ;;           :name "Friday Night Magic 2014"}
+ ;; #:edition{:date #inst "2014-01-01T00:00:00.000-00:00",
+ ;;           :code "J14",
+ ;;           :name "Judge Gift Cards 2014"}
+ ;; #:edition{:date #inst "2013-11-01T00:00:00.000-00:00",
+ ;;           :code "C13",
+ ;;           :name "Commander 2013"}
+ ;; #:edition{:date #inst "2013-11-01T00:00:00.000-00:00",
+ ;;           :code "OC13",
+ ;;           :name "Commander 2013 Oversized"}
+ ;; #:edition{:date #inst "2013-09-27T00:00:00.000-00:00",
+ ;;           :code "THS",
+ ;;           :name "Theros"}
+ ;; #:edition{:date #inst "2013-09-21T00:00:00.000-00:00",
+ ;;           :code "PTHS",
+ ;;           :name "Theros Promos"}
+ ;; #:edition{:date #inst "2013-09-27T00:00:00.000-00:00",
+ ;;           :code "TTHS",
+ ;;           :name "Theros Tokens"}
+ ;; #:edition{:date #inst "2013-10-19T00:00:00.000-00:00",
+ ;;           :code "TFTH",
+ ;;           :name "Face the Hydra"}
+ ;; #:edition{:date #inst "2013-09-27T00:00:00.000-00:00",
+ ;;           :code "THP1",
+ ;;           :name "Theros Hero's Path"}
+ ;; #:edition{:date #inst "2013-09-06T00:00:00.000-00:00",
+ ;;           :code "DDL",
+ ;;           :name "Duel Decks: Heroes vs. Monsters"}
+ ;; #:edition{:date #inst "2013-09-06T00:00:00.000-00:00",
+ ;;           :code "TDDL",
+ ;;           :name "Duel Decks: Heroes vs. Monsters Tokens"}
+ ;; #:edition{:date #inst "2013-08-23T00:00:00.000-00:00",
+ ;;           :code "V13",
+ ;;           :name "From the Vault: Twenty"}
+ ;; #:edition{:date #inst "2013-07-19T00:00:00.000-00:00",
+ ;;           :code "M14",
+ ;;           :name "Magic 2014"}
+ ;; #:edition{:date #inst "2013-07-18T00:00:00.000-00:00",
+ ;;           :code "PM14",
+ ;;           :name "Magic 2014 Promos"}
+ ;; #:edition{:date #inst "2013-07-19T00:00:00.000-00:00",
+ ;;           :code "TM14",
+ ;;           :name "Magic 2014 Tokens"}
+ ;; #:edition{:date #inst "2013-07-18T00:00:00.000-00:00",
+ ;;           :code "PSDC",
+ ;;           :name "San Diego Comic-Con 2013"}
+ ;; #:edition{:date #inst "2013-06-07T00:00:00.000-00:00",
+ ;;           :code "MMA",
+ ;;           :name "Modern Masters"}
+ ;; #:edition{:date #inst "2013-06-07T00:00:00.000-00:00",
+ ;;           :code "TMMA",
+ ;;           :name "Modern Masters Tokens"}
+ ;; #:edition{:date #inst "2013-05-03T00:00:00.000-00:00",
+ ;;           :code "DGM",
+ ;;           :name "Dragon's Maze"}
+ ;; #:edition{:date #inst "2013-04-27T00:00:00.000-00:00",
+ ;;           :code "PDGM",
+ ;;           :name "Dragon's Maze Promos"}
+ ;; #:edition{:date #inst "2013-05-03T00:00:00.000-00:00",
+ ;;           :code "TDGM",
+ ;;           :name "Dragon's Maze Tokens"}
+ ;; #:edition{:date #inst "2013-04-06T00:00:00.000-00:00",
+ ;;           :code "PWCQ",
+ ;;           :name "World Magic Cup Qualifiers"}
+ ;; #:edition{:date #inst "2013-03-15T00:00:00.000-00:00",
+ ;;           :code "DDK",
+ ;;           :name "Duel Decks: Sorin vs. Tibalt"}
+ ;; #:edition{:date #inst "2013-03-15T00:00:00.000-00:00",
+ ;;           :code "TDDK",
+ ;;           :name "Duel Decks: Sorin vs. Tibalt Tokens"}
+ ;; #:edition{:date #inst "2013-02-01T00:00:00.000-00:00",
+ ;;           :code "GTC",
+ ;;           :name "Gatecrash"}
+ ;; #:edition{:date #inst "2013-01-26T00:00:00.000-00:00",
+ ;;           :code "PGTC",
+ ;;           :name "Gatecrash Promos"}
+ ;; #:edition{:date #inst "2013-02-01T00:00:00.000-00:00",
+ ;;           :code "TGTC",
+ ;;           :name "Gatecrash Tokens"}
+ ;; #:edition{:date #inst "2013-01-01T00:00:00.000-00:00",
+ ;;           :code "PDP14",
+ ;;           :name "Duels of the Planeswalkers 2014 Promos"}
+ ;; #:edition{:date #inst "2013-01-01T00:00:00.000-00:00",
+ ;;           :code "PI13",
+ ;;           :name "IDW Comics 2013"}
+ ;; #:edition{:date #inst "2013-01-01T00:00:00.000-00:00",
+ ;;           :code "L13",
+ ;;           :name "League Tokens 2013"}
+ ;; #:edition{:date #inst "2013-01-01T00:00:00.000-00:00",
+ ;;           :code "F13",
+ ;;           :name "Friday Night Magic 2013"}
+ ;; #:edition{:date #inst "2013-01-01T00:00:00.000-00:00",
+ ;;           :code "J13",
+ ;;           :name "Judge Gift Cards 2013"}
+ ;; #:edition{:date #inst "2012-11-02T00:00:00.000-00:00",
+ ;;           :code "CM1",
+ ;;           :name "Commander's Arsenal"}
+ ;; #:edition{:date #inst "2012-11-02T00:00:00.000-00:00",
+ ;;           :code "OCM1",
+ ;;           :name "Commander's Arsenal Oversized"}
+ ;; #:edition{:date #inst "2012-10-05T00:00:00.000-00:00",
+ ;;           :code "RTR",
+ ;;           :name "Return to Ravnica"}
+ ;; #:edition{:date #inst "2012-10-05T00:00:00.000-00:00",
+ ;;           :code "PRTR",
+ ;;           :name "Return to Ravnica Promos"}
+ ;; #:edition{:date #inst "2012-10-05T00:00:00.000-00:00",
+ ;;           :code "TRTR",
+ ;;           :name "Return to Ravnica Tokens"}
+ ;; #:edition{:date #inst "2012-09-07T00:00:00.000-00:00",
+ ;;           :code "DDJ",
+ ;;           :name "Duel Decks: Izzet vs. Golgari"}
+ ;; #:edition{:date #inst "2012-09-07T00:00:00.000-00:00",
+ ;;           :code "TDDJ",
+ ;;           :name "Duel Decks: Izzet vs. Golgari Tokens"}
+ ;; #:edition{:date #inst "2012-08-31T00:00:00.000-00:00",
+ ;;           :code "V12",
+ ;;           :name "From the Vault: Realms"}
+ ;; #:edition{:date #inst "2012-07-13T00:00:00.000-00:00",
+ ;;           :code "M13",
+ ;;           :name "Magic 2013"}
+ ;; #:edition{:date #inst "2012-07-12T00:00:00.000-00:00",
+ ;;           :code "PM13",
+ ;;           :name "Magic 2013 Promos"}
+ ;; #:edition{:date #inst "2012-07-13T00:00:00.000-00:00",
+ ;;           :code "TM13",
+ ;;           :name "Magic 2013 Tokens"}
+ ;; #:edition{:date #inst "2012-06-01T00:00:00.000-00:00",
+ ;;           :code "PC2",
+ ;;           :name "Planechase 2012"}
+ ;; #:edition{:date #inst "2012-06-01T00:00:00.000-00:00",
+ ;;           :code "OPC2",
+ ;;           :name "Planechase 2012 Planes"}
+ ;; #:edition{:date #inst "2012-05-04T00:00:00.000-00:00",
+ ;;           :code "AVR",
+ ;;           :name "Avacyn Restored"}
+ ;; #:edition{:date #inst "2012-04-28T00:00:00.000-00:00",
+ ;;           :code "PAVR",
+ ;;           :name "Avacyn Restored Promos"}
+ ;; #:edition{:date #inst "2012-05-04T00:00:00.000-00:00",
+ ;;           :code "TAVR",
+ ;;           :name "Avacyn Restored Tokens"}
+ ;; #:edition{:date #inst "2012-04-28T00:00:00.000-00:00",
+ ;;           :code "PHEL",
+ ;;           :name "Open the Helvault"}
+ ;; #:edition{:date #inst "2012-03-30T00:00:00.000-00:00",
+ ;;           :code "DDI",
+ ;;           :name "Duel Decks: Venser vs. Koth"}
+ ;; #:edition{:date #inst "2012-03-30T00:00:00.000-00:00",
+ ;;           :code "TDDI",
+ ;;           :name "Duel Decks: Venser vs. Koth Tokens"}
+ ;; #:edition{:date #inst "2012-02-03T00:00:00.000-00:00",
+ ;;           :code "DKA",
+ ;;           :name "Dark Ascension"}
+ ;; #:edition{:date #inst "2012-01-28T00:00:00.000-00:00",
+ ;;           :code "PDKA",
+ ;;           :name "Dark Ascension Promos"}
+ ;; #:edition{:date #inst "2012-02-03T00:00:00.000-00:00",
+ ;;           :code "TDKA",
+ ;;           :name "Dark Ascension Tokens"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "PIDW",
+ ;;           :name "IDW Comics 2012"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "PW12",
+ ;;           :name "Wizards Play Network 2012"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "PDP13",
+ ;;           :name "Duels of the Planeswalkers 2013 Promos"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "L12",
+ ;;           :name "League Tokens 2012"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "J12",
+ ;;           :name "Judge Gift Cards 2012"}
+ ;; #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+ ;;           :code "F12",
+ ;;           :name "Friday Night Magic 2012"}
+ ;; #:edition{:date #inst "2011-11-18T00:00:00.000-00:00",
+ ;;           :code "PD3",
+ ;;           :name "Premium Deck Series: Graveborn"}
+ ;; #:edition{:date #inst "2011-09-30T00:00:00.000-00:00",
+ ;;           :code "ISD",
+ ;;           :name "Innistrad"}
+ ;; #:edition{:date #inst "2011-09-24T00:00:00.000-00:00",
+ ;;           :code "PISD",
+ ;;           :name "Innistrad Promos"}
+ ;; #:edition{:date #inst "2011-09-30T00:00:00.000-00:00",
+ ;;           :code "TISD",
+ ;;           :name "Innistrad Tokens"}
+ ;; #:edition{:date #inst "2011-09-02T00:00:00.000-00:00",
+ ;;           :code "DDH",
+ ;;           :name "Duel Decks: Ajani vs. Nicol Bolas"}
+ ;; #:edition{:date #inst "2011-09-02T00:00:00.000-00:00",
+ ;;           :code "TDDH",
+ ;;           :name "Duel Decks: Ajani vs. Nicol Bolas Tokens"}
+ ;; #:edition{:date #inst "2011-08-26T00:00:00.000-00:00",
+ ;;           :code "V11",
+ ;;           :name "From the Vault: Legends"}
+ ;; #:edition{:date #inst "2011-07-15T00:00:00.000-00:00",
+ ;;           :code "M12",
+ ;;           :name "Magic 2012"}
+ ;; #:edition{:date #inst "2011-07-14T00:00:00.000-00:00",
+ ;;           :code "PM12",
+ ;;           :name "Magic 2012 Promos"}
+ ;; #:edition{:date #inst "2011-07-15T00:00:00.000-00:00",
+ ;;           :code "TM12",
+ ;;           :name "Magic 2012 Tokens"}
+ ;; #:edition{:date #inst "2011-06-17T00:00:00.000-00:00",
+ ;;           :code "CMD",
+ ;;           :name "Commander 2011"}
+ ;; #:edition{:date #inst "2011-06-17T00:00:00.000-00:00",
+ ;;           :code "PCMD",
+ ;;           :name "Commander 2011 Launch Party"}
+ ;; #:edition{:date #inst "2011-06-17T00:00:00.000-00:00",
+ ;;           :code "OCMD",
+ ;;           :name "Commander 2011 Oversized"}
+ ;; #:edition{:date #inst "2011-05-14T00:00:00.000-00:00",
+ ;;           :code "TD2",
+ ;;           :name "Duel Decks: Mirrodin Pure vs. New Phyrexia"}
+ ;; #:edition{:date #inst "2011-05-13T00:00:00.000-00:00",
+ ;;           :code "NPH",
+ ;;           :name "New Phyrexia"}
+ ;; #:edition{:date #inst "2011-05-12T00:00:00.000-00:00",
+ ;;           :code "PNPH",
+ ;;           :name "New Phyrexia Promos"}
+ ;; #:edition{:date #inst "2011-05-13T00:00:00.000-00:00",
+ ;;           :code "TNPH",
+ ;;           :name "New Phyrexia Tokens"}
+ ;; #:edition{:date #inst "2011-04-01T00:00:00.000-00:00",
+ ;;           :code "DDG",
+ ;;           :name "Duel Decks: Knights vs. Dragons"}
+ ;; #:edition{:date #inst "2011-04-01T00:00:00.000-00:00",
+ ;;           :code "TDDG",
+ ;;           :name "Duel Decks: Knights vs. Dragons Tokens"}
+ ;; #:edition{:date #inst "2011-02-04T00:00:00.000-00:00",
+ ;;           :code "MBS",
+ ;;           :name "Mirrodin Besieged"}
+ ;; #:edition{:date #inst "2011-02-03T00:00:00.000-00:00",
+ ;;           :code "PMBS",
+ ;;           :name "Mirrodin Besieged Promos"}
+ ;; #:edition{:date #inst "2011-02-04T00:00:00.000-00:00",
+ ;;           :code "TMBS",
+ ;;           :name "Mirrodin Besieged Tokens"}
+ ;; #:edition{:date #inst "2011-01-10T00:00:00.000-00:00",
+ ;;           :code "ME4",
+ ;;           :name "Masters Edition IV"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "PDP12",
+ ;;           :name "Duels of the Planeswalkers 2012 Promos"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "PW11",
+ ;;           :name "Wizards Play Network 2011"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "OLGC",
+ ;;           :name "Legacy Championship"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "F11",
+ ;;           :name "Friday Night Magic 2011"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "P11",
+ ;;           :name "Magic Player Rewards 2011"}
+ ;; #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+ ;;           :code "G11",
+ ;;           :name "Judge Gift Cards 2011"}
+ ;; #:edition{:date #inst "2010-11-19T00:00:00.000-00:00",
+ ;;           :code "PD2",
+ ;;           :name "Premium Deck Series: Fire and Lightning"}
+ ;; #:edition{:date #inst "2010-11-08T00:00:00.000-00:00",
+ ;;           :code "TD0",
+ ;;           :name "Magic Online Theme Decks"}
+ ;; #:edition{:date #inst "2010-10-01T00:00:00.000-00:00",
+ ;;           :code "SOM",
+ ;;           :name "Scars of Mirrodin"}
+ ;; #:edition{:date #inst "2010-09-30T00:00:00.000-00:00",
+ ;;           :code "PSOM",
+ ;;           :name "Scars of Mirrodin Promos"}
+ ;; #:edition{:date #inst "2010-10-01T00:00:00.000-00:00",
+ ;;           :code "TSOM",
+ ;;           :name "Scars of Mirrodin Tokens"}
+ ;; #:edition{:date #inst "2010-09-03T00:00:00.000-00:00",
+ ;;           :code "DDF",
+ ;;           :name "Duel Decks: Elspeth vs. Tezzeret"}
+ ;; #:edition{:date #inst "2010-09-03T00:00:00.000-00:00",
+ ;;           :code "TDDF",
+ ;;           :name "Duel Decks: Elspeth vs. Tezzeret Tokens"}
+ ;; #:edition{:date #inst "2010-08-27T00:00:00.000-00:00",
+ ;;           :code "V10",
+ ;;           :name "From the Vault: Relics"}
+ ;; #:edition{:date #inst "2010-07-16T00:00:00.000-00:00",
+ ;;           :code "M11",
+ ;;           :name "Magic 2011"}
+ ;; #:edition{:date #inst "2010-07-15T00:00:00.000-00:00",
+ ;;           :code "PM11",
+ ;;           :name "Magic 2011 Promos"}
+ ;; #:edition{:date #inst "2010-07-16T00:00:00.000-00:00",
+ ;;           :code "TM11",
+ ;;           :name "Magic 2011 Tokens"}
+ ;; #:edition{:date #inst "2010-06-18T00:00:00.000-00:00",
+ ;;           :code "ARC",
+ ;;           :name "Archenemy"}
+ ;; #:edition{:date #inst "2010-06-18T00:00:00.000-00:00",
+ ;;           :code "OARC",
+ ;;           :name "Archenemy Schemes"}
+ ;; #:edition{:date #inst "2010-06-18T00:00:00.000-00:00",
+ ;;           :code "PARC",
+ ;;           :name "Promotional Schemes"}
+ ;; #:edition{:date #inst "2010-06-04T00:00:00.000-00:00",
+ ;;           :code "DPA",
+ ;;           :name "Duels of the Planeswalkers"}
+ ;; #:edition{:date #inst "2010-04-23T00:00:00.000-00:00",
+ ;;           :code "ROE",
+ ;;           :name "Rise of the Eldrazi"}
+ ;; #:edition{:date #inst "2010-04-23T00:00:00.000-00:00",
+ ;;           :code "PROE",
+ ;;           :name "Rise of the Eldrazi Promos"}
+ ;; #:edition{:date #inst "2010-04-23T00:00:00.000-00:00",
+ ;;           :code "TROE",
+ ;;           :name "Rise of the Eldrazi Tokens"}
+ ;; #:edition{:date #inst "2010-03-19T00:00:00.000-00:00",
+ ;;           :code "DDE",
+ ;;           :name "Duel Decks: Phyrexia vs. the Coalition"}
+ ;; #:edition{:date #inst "2010-03-19T00:00:00.000-00:00",
+ ;;           :code "TDDE",
+ ;;           :name "Duel Decks: Phyrexia vs. the Coalition Tokens"}
+ ;; #:edition{:date #inst "2010-02-05T00:00:00.000-00:00",
+ ;;           :code "WWK",
+ ;;           :name "Worldwake"}
+ ;; #:edition{:date #inst "2010-02-05T00:00:00.000-00:00",
+ ;;           :code "PWWK",
+ ;;           :name "Worldwake Promos"}
+ ;; #:edition{:date #inst "2010-02-05T00:00:00.000-00:00",
+ ;;           :code "TWWK",
+ ;;           :name "Worldwake Tokens"}
+ ;; #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+ ;;           :code "PDP10",
+ ;;           :name "Duels of the Planeswalkers 2010 Promos"}
+ ;; #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+ ;;           :code "PW10",
+ ;;           :name "Wizards Play Network 2010"}
+ ;; #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+ ;;           :code "G10",
+ ;;           :name "Judge Gift Cards 2010"}
+ ;; #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+ ;;           :code "P10",
+ ;;           :name "Magic Player Rewards 2010"}
+ ;; #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+ ;;           :code "F10",
+ ;;           :name "Friday Night Magic 2010"}
+ ;; #:edition{:date #inst "2009-11-20T00:00:00.000-00:00",
+ ;;           :code "H09",
+ ;;           :name "Premium Deck Series: Slivers"}
+ ;; #:edition{:date #inst "2009-10-30T00:00:00.000-00:00",
+ ;;           :code "DDD",
+ ;;           :name "Duel Decks: Garruk vs. Liliana"}
+ ;; #:edition{:date #inst "2009-10-30T00:00:00.000-00:00",
+ ;;           :code "TDDD",
+ ;;           :name "Duel Decks: Garruk vs. Liliana Tokens"}
+ ;; #:edition{:date #inst "2009-10-02T00:00:00.000-00:00",
+ ;;           :code "ZEN",
+ ;;           :name "Zendikar"}
+ ;; #:edition{:date #inst "2009-10-02T00:00:00.000-00:00",
+ ;;           :code "PZEN",
+ ;;           :name "Zendikar Promos"}
+ ;; #:edition{:date #inst "2009-10-02T00:00:00.000-00:00",
+ ;;           :code "TZEN",
+ ;;           :name "Zendikar Tokens"}
+ ;; #:edition{:date #inst "2009-09-07T00:00:00.000-00:00",
+ ;;           :code "ME3",
+ ;;           :name "Masters Edition III"}
+ ;; #:edition{:date #inst "2009-09-04T00:00:00.000-00:00",
+ ;;           :code "HOP",
+ ;;           :name "Planechase"}
+ ;; #:edition{:date #inst "2009-09-04T00:00:00.000-00:00",
+ ;;           :code "OHOP",
+ ;;           :name "Planechase Planes"}
+ ;; #:edition{:date #inst "2009-09-04T00:00:00.000-00:00",
+ ;;           :code "PHOP",
+ ;;           :name "Promotional Planes"}
+ ;; #:edition{:date #inst "2009-08-28T00:00:00.000-00:00",
+ ;;           :code "V09",
+ ;;           :name "From the Vault: Exiled"}
+ ;; #:edition{:date #inst "2009-07-17T00:00:00.000-00:00",
+ ;;           :code "M10",
+ ;;           :name "Magic 2010"}
+ ;; #:edition{:date #inst "2009-07-16T00:00:00.000-00:00",
+ ;;           :code "PM10",
+ ;;           :name "Magic 2010 Promos"}
+ ;; #:edition{:date #inst "2009-07-17T00:00:00.000-00:00",
+ ;;           :code "TM10",
+ ;;           :name "Magic 2010 Tokens"}
+ ;; #:edition{:date #inst "2009-04-30T00:00:00.000-00:00",
+ ;;           :code "ARB",
+ ;;           :name "Alara Reborn"}
+ ;; #:edition{:date #inst "2009-04-30T00:00:00.000-00:00",
+ ;;           :code "PARB",
+ ;;           :name "Alara Reborn Promos"}
+ ;; #:edition{:date #inst "2009-04-30T00:00:00.000-00:00",
+ ;;           :code "TARB",
+ ;;           :name "Alara Reborn Tokens"}
+ ;; #:edition{:date #inst "2009-04-10T00:00:00.000-00:00",
+ ;;           :code "DDC",
+ ;;           :name "Duel Decks: Divine vs. Demonic"}
+ ;; #:edition{:date #inst "2009-04-10T00:00:00.000-00:00",
+ ;;           :code "TDDC",
+ ;;           :name "Duel Decks: Divine vs. Demonic Tokens"}
+ ;; #:edition{:date #inst "2009-02-08T00:00:00.000-00:00",
+ ;;           :code "PURL",
+ ;;           :name "URL/Convention Promos"}
+ ;; #:edition{:date #inst "2009-02-06T00:00:00.000-00:00",
+ ;;           :code "CON",
+ ;;           :name "Conflux"}
+ ;; #:edition{:date #inst "2009-02-06T00:00:00.000-00:00",
+ ;;           :code "PCON",
+ ;;           :name "Conflux Promos"}
+ ;; #:edition{:date #inst "2009-02-06T00:00:00.000-00:00",
+ ;;           :code "TCON",
+ ;;           :name "Conflux Tokens"}
+ ;; #:edition{:date #inst "2009-01-27T00:00:00.000-00:00",
+ ;;           :code "PBOOK",
+ ;;           :name "Miscellaneous Book Promos"}
+ ;; #:edition{:date #inst "2009-01-01T00:00:00.000-00:00",
+ ;;           :code "PW09",
+ ;;           :name "Wizards Play Network 2009"}
+ ;; #:edition{:date #inst "2009-01-01T00:00:00.000-00:00",
+ ;;           :code "PDTP",
+ ;;           :name "Duels of the Planeswalkers 2009 Promos"}
+ ;; #:edition{:date #inst "2009-01-01T00:00:00.000-00:00",
+ ;;           :code "P09",
+ ;;           :name "Magic Player Rewards 2009"}
+ ;; #:edition{:date #inst "2009-01-01T00:00:00.000-00:00",
+ ;;           :code "F09",
+ ;;           :name "Friday Night Magic 2009"}
+ ;; #:edition{:date #inst "2009-01-01T00:00:00.000-00:00",
+ ;;           :code "G09",
+ ;;           :name "Judge Gift Cards 2009"}
+ ;; #:edition{:date #inst "2008-11-07T00:00:00.000-00:00",
+ ;;           :code "DD2",
+ ;;           :name "Duel Decks: Jace vs. Chandra"}
+ ;; #:edition{:date #inst "2008-11-07T00:00:00.000-00:00",
+ ;;           :code "TDD2",
+ ;;           :name "Duel Decks: Jace vs. Chandra Tokens"}
+ ;; #:edition{:date #inst "2008-10-03T00:00:00.000-00:00",
+ ;;           :code "ALA",
+ ;;           :name "Shards of Alara"}
+ ;; #:edition{:date #inst "2008-10-03T00:00:00.000-00:00",
+ ;;           :code "PALA",
+ ;;           :name "Shards of Alara Promos"}
+ ;; #:edition{:date #inst "2008-10-03T00:00:00.000-00:00",
+ ;;           :code "TALA",
+ ;;           :name "Shards of Alara Tokens"}
+ ;; #:edition{:date #inst "2008-10-01T00:00:00.000-00:00",
+ ;;           :code "PWPN",
+ ;;           :name "Wizards Play Network 2008"}
+ ;; #:edition{:date #inst "2008-09-22T00:00:00.000-00:00",
+ ;;           :code "ME2",
+ ;;           :name "Masters Edition II"}
+ ;; #:edition{:date #inst "2008-08-29T00:00:00.000-00:00",
+ ;;           :code "DRB",
+ ;;           :name "From the Vault: Dragons"}
+ ;; #:edition{:date #inst "2008-07-25T00:00:00.000-00:00",
+ ;;           :code "EVE",
+ ;;           :name "Eventide"}
+ ;; #:edition{:date #inst "2008-07-25T00:00:00.000-00:00",
+ ;;           :code "PEVE",
+ ;;           :name "Eventide Promos"}
+ ;; #:edition{:date #inst "2008-07-25T00:00:00.000-00:00",
+ ;;           :code "TEVE",
+ ;;           :name "Eventide Tokens"}
+ ;; #:edition{:date #inst "2008-05-02T00:00:00.000-00:00",
+ ;;           :code "SHM",
+ ;;           :name "Shadowmoor"}
+ ;; #:edition{:date #inst "2008-05-02T00:00:00.000-00:00",
+ ;;           :code "PSHM",
+ ;;           :name "Shadowmoor Promos"}
+ ;; #:edition{:date #inst "2008-05-02T00:00:00.000-00:00",
+ ;;           :code "TSHM",
+ ;;           :name "Shadowmoor Tokens"}
+ ;; #:edition{:date #inst "2008-04-01T00:00:00.000-00:00",
+ ;;           :code "P15A",
+ ;;           :name "15th Anniversary Cards"}
+ ;; #:edition{:date #inst "2008-02-01T00:00:00.000-00:00",
+ ;;           :code "MOR",
+ ;;           :name "Morningtide"}
+ ;; #:edition{:date #inst "2008-02-01T00:00:00.000-00:00",
+ ;;           :code "PMOR",
+ ;;           :name "Morningtide Promos"}
+ ;; #:edition{:date #inst "2008-02-01T00:00:00.000-00:00",
+ ;;           :code "TMOR",
+ ;;           :name "Morningtide Tokens"}
+ ;; #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
+ ;;           :code "PG08",
+ ;;           :name "Gateway 2008"}
+ ;; #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
+ ;;           :code "F08",
+ ;;           :name "Friday Night Magic 2008"}
+ ;; #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
+ ;;           :code "G08",
+ ;;           :name "Judge Gift Cards 2008"}
+ ;; #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
+ ;;           :code "P08",
+ ;;           :name "Magic Player Rewards 2008"}
+ ;; #:edition{:date #inst "2007-11-16T00:00:00.000-00:00",
+ ;;           :code "DD1",
+ ;;           :name "Duel Decks: Elves vs. Goblins"}
+ ;; #:edition{:date #inst "2007-11-16T00:00:00.000-00:00",
+ ;;           :code "TDD1",
+ ;;           :name "Duel Decks: Elves vs. Goblins Tokens"}
+ ;; #:edition{:date #inst "2007-10-12T00:00:00.000-00:00",
+ ;;           :code "LRW",
+ ;;           :name "Lorwyn"}
+ ;; #:edition{:date #inst "2007-10-12T00:00:00.000-00:00",
+ ;;           :code "PLRW",
+ ;;           :name "Lorwyn Promos"}
+ ;; #:edition{:date #inst "2007-10-12T00:00:00.000-00:00",
+ ;;           :code "TLRW",
+ ;;           :name "Lorwyn Tokens"}
+ ;; #:edition{:date #inst "2007-09-10T00:00:00.000-00:00",
+ ;;           :code "ME1",
+ ;;           :name "Masters Edition"}
+ ;; #:edition{:date #inst "2007-07-21T00:00:00.000-00:00",
+ ;;           :code "PSUM",
+ ;;           :name "Summer of Magic"}
+ ;; #:edition{:date #inst "2007-07-13T00:00:00.000-00:00",
+ ;;           :code "10E",
+ ;;           :name "Tenth Edition"}
+ ;; #:edition{:date #inst "2007-07-13T00:00:00.000-00:00",
+ ;;           :code "P10E",
+ ;;           :name "Tenth Edition Promos"}
+ ;; #:edition{:date #inst "2007-07-13T00:00:00.000-00:00",
+ ;;           :code "T10E",
+ ;;           :name "Tenth Edition Tokens"}
+ ;; #:edition{:date #inst "2007-05-04T00:00:00.000-00:00",
+ ;;           :code "FUT",
+ ;;           :name "Future Sight"}
+ ;; #:edition{:date #inst "2007-05-04T00:00:00.000-00:00",
+ ;;           :code "PFUT",
+ ;;           :name "Future Sight Promos"}
+ ;; #:edition{:date #inst "2007-02-24T00:00:00.000-00:00",
+ ;;           :code "PGPX",
+ ;;           :name "Grand Prix Promos"}
+ ;; #:edition{:date #inst "2007-02-09T00:00:00.000-00:00",
+ ;;           :code "PPRO",
+ ;;           :name "Pro Tour Promos"}
+ ;; #:edition{:date #inst "2007-02-02T00:00:00.000-00:00",
+ ;;           :code "PLC",
+ ;;           :name "Planar Chaos"}
+ ;; #:edition{:date #inst "2007-02-02T00:00:00.000-00:00",
+ ;;           :code "PPLC",
+ ;;           :name "Planar Chaos Promos"}
+ ;; #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+ ;;           :code "PRES",
+ ;;           :name "Resale Promos"}
+ ;; #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+ ;;           :code "PG07",
+ ;;           :name "Gateway 2007"}
+ ;; #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+ ;;           :code "G07",
+ ;;           :name "Judge Gift Cards 2007"}
+ ;; #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+ ;;           :code "P07",
+ ;;           :name "Magic Player Rewards 2007"}
+ ;; #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+ ;;           :code "F07",
+ ;;           :name "Friday Night Magic 2007"}
+ ;; #:edition{:date #inst "2006-12-31T00:00:00.000-00:00",
+ ;;           :code "HHO",
+ ;;           :name "Happy Holidays"}
+ ;; #:edition{:date #inst "2006-10-06T00:00:00.000-00:00",
+ ;;           :code "TSP",
+ ;;           :name "Time Spiral"}
+ ;; #:edition{:date #inst "2006-10-06T00:00:00.000-00:00",
+ ;;           :code "PTSP",
+ ;;           :name "Time Spiral Promos"}
+ ;; #:edition{:date #inst "2006-10-06T00:00:00.000-00:00",
+ ;;           :code "TSB",
+ ;;           :name "Time Spiral Timeshifted"}
+ ;; #:edition{:date #inst "2006-07-21T00:00:00.000-00:00",
+ ;;           :code "CSP",
+ ;;           :name "Coldsnap"}
+ ;; #:edition{:date #inst "2006-07-21T00:00:00.000-00:00",
+ ;;           :code "PCSP",
+ ;;           :name "Coldsnap Promos"}
+ ;; #:edition{:date #inst "2006-07-21T00:00:00.000-00:00",
+ ;;           :code "CST",
+ ;;           :name "Coldsnap Theme Decks"}
+ ;; #:edition{:date #inst "2006-05-05T00:00:00.000-00:00",
+ ;;           :code "DIS",
+ ;;           :name "Dissension"}
+ ;; #:edition{:date #inst "2006-05-05T00:00:00.000-00:00",
+ ;;           :code "PDIS",
+ ;;           :name "Dissension Promos"}
+ ;; #:edition{:date #inst "2006-03-18T00:00:00.000-00:00",
+ ;;           :code "PCMP",
+ ;;           :name "Champs and States"}
+ ;; #:edition{:date #inst "2006-02-03T00:00:00.000-00:00",
+ ;;           :code "GPT",
+ ;;           :name "Guildpact"}
+ ;; #:edition{:date #inst "2006-02-03T00:00:00.000-00:00",
+ ;;           :code "PGPT",
+ ;;           :name "Guildpact Promos"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL06",
+ ;;           :name "Arena League 2006"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "PJAS",
+ ;;           :name "Junior APAC Series"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "G06",
+ ;;           :name "Judge Gift Cards 2006"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "PGTW",
+ ;;           :name "Gateway 2006"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "P06",
+ ;;           :name "Magic Player Rewards 2006"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "PHUK",
+ ;;           :name "Hachette UK"}
+ ;; #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+ ;;           :code "F06",
+ ;;           :name "Friday Night Magic 2006"}
+ ;; #:edition{:date #inst "2005-12-09T00:00:00.000-00:00",
+ ;;           :code "P2HG",
+ ;;           :name "Two-Headed Giant Tournament"}
+ ;; #:edition{:date #inst "2005-10-07T00:00:00.000-00:00",
+ ;;           :code "RAV",
+ ;;           :name "Ravnica: City of Guilds"}
+ ;; #:edition{:date #inst "2005-10-07T00:00:00.000-00:00",
+ ;;           :code "PRAV",
+ ;;           :name "Ravnica: City of Guilds Promos"}
+ ;; #:edition{:date #inst "2005-07-29T00:00:00.000-00:00",
+ ;;           :code "9ED",
+ ;;           :name "Ninth Edition"}
+ ;; #:edition{:date #inst "2005-07-29T00:00:00.000-00:00",
+ ;;           :code "P9ED",
+ ;;           :name "Ninth Edition Promos"}
+ ;; #:edition{:date #inst "2005-06-03T00:00:00.000-00:00",
+ ;;           :code "SOK",
+ ;;           :name "Saviors of Kamigawa"}
+ ;; #:edition{:date #inst "2005-06-03T00:00:00.000-00:00",
+ ;;           :code "PSOK",
+ ;;           :name "Saviors of Kamigawa Promos"}
+ ;; #:edition{:date #inst "2005-02-04T00:00:00.000-00:00",
+ ;;           :code "BOK",
+ ;;           :name "Betrayers of Kamigawa"}
+ ;; #:edition{:date #inst "2005-02-04T00:00:00.000-00:00",
+ ;;           :code "PBOK",
+ ;;           :name "Betrayers of Kamigawa Promos"}
+ ;; #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL05",
+ ;;           :name "Arena League 2005"}
+ ;; #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
+ ;;           :code "PJSE",
+ ;;           :name "Junior Series Europe"}
+ ;; #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
+ ;;           :code "G05",
+ ;;           :name "Judge Gift Cards 2005"}
+ ;; #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
+ ;;           :code "F05",
+ ;;           :name "Friday Night Magic 2005"}
+ ;; #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
+ ;;           :code "P05",
+ ;;           :name "Magic Player Rewards 2005"}
+ ;; #:edition{:date #inst "2004-11-19T00:00:00.000-00:00",
+ ;;           :code "UNH",
+ ;;           :name "Unhinged"}
+ ;; #:edition{:date #inst "2004-11-19T00:00:00.000-00:00",
+ ;;           :code "PUNH",
+ ;;           :name "Unhinged Promos"}
+ ;; #:edition{:date #inst "2004-10-01T00:00:00.000-00:00",
+ ;;           :code "CHK",
+ ;;           :name "Champions of Kamigawa"}
+ ;; #:edition{:date #inst "2004-10-01T00:00:00.000-00:00",
+ ;;           :code "PCHK",
+ ;;           :name "Champions of Kamigawa Promos"}
+ ;; #:edition{:date #inst "2004-09-01T00:00:00.000-00:00",
+ ;;           :code "WC04",
+ ;;           :name "World Championship Decks 2004"}
+ ;; #:edition{:date #inst "2004-06-04T00:00:00.000-00:00",
+ ;;           :code "5DN",
+ ;;           :name "Fifth Dawn"}
+ ;; #:edition{:date #inst "2004-06-04T00:00:00.000-00:00",
+ ;;           :code "P5DN",
+ ;;           :name "Fifth Dawn Promos"}
+ ;; #:edition{:date #inst "2004-02-06T00:00:00.000-00:00",
+ ;;           :code "DST",
+ ;;           :name "Darksteel"}
+ ;; #:edition{:date #inst "2004-06-04T00:00:00.000-00:00",
+ ;;           :code "PDST",
+ ;;           :name "Darksteel Promos"}
+ ;; #:edition{:date #inst "2004-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL04",
+ ;;           :name "Arena League 2004"}
+ ;; #:edition{:date #inst "2004-01-01T00:00:00.000-00:00",
+ ;;           :code "P04",
+ ;;           :name "Magic Player Rewards 2004"}
+ ;; #:edition{:date #inst "2004-01-01T00:00:00.000-00:00",
+ ;;           :code "G04",
+ ;;           :name "Judge Gift Cards 2004"}
+ ;; #:edition{:date #inst "2004-01-01T00:00:00.000-00:00",
+ ;;           :code "F04",
+ ;;           :name "Friday Night Magic 2004"}
+ ;; #:edition{:date #inst "2003-10-02T00:00:00.000-00:00",
+ ;;           :code "MRD",
+ ;;           :name "Mirrodin"}
+ ;; #:edition{:date #inst "2004-06-04T00:00:00.000-00:00",
+ ;;           :code "PMRD",
+ ;;           :name "Mirrodin Promos"}
+ ;; #:edition{:date #inst "2003-08-06T00:00:00.000-00:00",
+ ;;           :code "WC03",
+ ;;           :name "World Championship Decks 2003"}
+ ;; #:edition{:date #inst "2003-07-28T00:00:00.000-00:00",
+ ;;           :code "8ED",
+ ;;           :name "Eighth Edition"}
+ ;; #:edition{:date #inst "2003-07-28T00:00:00.000-00:00",
+ ;;           :code "P8ED",
+ ;;           :name "Eighth Edition Promos"}
+ ;; #:edition{:date #inst "2003-05-26T00:00:00.000-00:00",
+ ;;           :code "SCG",
+ ;;           :name "Scourge"}
+ ;; #:edition{:date #inst "2003-05-26T00:00:00.000-00:00",
+ ;;           :code "PSCG",
+ ;;           :name "Scourge Promos"}
+ ;; #:edition{:date #inst "2003-02-03T00:00:00.000-00:00",
+ ;;           :code "LGN",
+ ;;           :name "Legions"}
+ ;; #:edition{:date #inst "2003-02-03T00:00:00.000-00:00",
+ ;;           :code "PLGN",
+ ;;           :name "Legions Promos"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "PMOA",
+ ;;           :name "Magic Online Avatars"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL03",
+ ;;           :name "Arena League 2003"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "P03",
+ ;;           :name "Magic Player Rewards 2003"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "F03",
+ ;;           :name "Friday Night Magic 2003"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "G03",
+ ;;           :name "Judge Gift Cards 2003"}
+ ;; #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+ ;;           :code "OVNT",
+ ;;           :name "Vintage Championship"}
+ ;; #:edition{:date #inst "2002-10-07T00:00:00.000-00:00",
+ ;;           :code "ONS",
+ ;;           :name "Onslaught"}
+ ;; #:edition{:date #inst "2003-02-03T00:00:00.000-00:00",
+ ;;           :code "PONS",
+ ;;           :name "Onslaught Promos"}
+ ;; #:edition{:date #inst "2002-08-14T00:00:00.000-00:00",
+ ;;           :code "WC02",
+ ;;           :name "World Championship Decks 2002"}
+ ;; #:edition{:date #inst "2002-06-24T00:00:00.000-00:00",
+ ;;           :code "PRM",
+ ;;           :name "Magic Online Promos"}
+ ;; #:edition{:date #inst "2002-05-27T00:00:00.000-00:00",
+ ;;           :code "JUD",
+ ;;           :name "Judgment"}
+ ;; #:edition{:date #inst "2002-02-04T00:00:00.000-00:00",
+ ;;           :code "TOR",
+ ;;           :name "Torment"}
+ ;; #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL02",
+ ;;           :name "Arena League 2002"}
+ ;; #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
+ ;;           :code "PR2",
+ ;;           :name "Magic Player Rewards 2002"}
+ ;; #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
+ ;;           :code "G02",
+ ;;           :name "Judge Gift Cards 2002"}
+ ;; #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
+ ;;           :code "F02",
+ ;;           :name "Friday Night Magic 2002"}
+ ;; #:edition{:date #inst "2001-12-01T00:00:00.000-00:00",
+ ;;           :code "DKM",
+ ;;           :name "Deckmasters"}
+ ;; #:edition{:date #inst "2001-10-01T00:00:00.000-00:00",
+ ;;           :code "ODY",
+ ;;           :name "Odyssey"}
+ ;; #:edition{:date #inst "2001-08-08T00:00:00.000-00:00",
+ ;;           :code "WC01",
+ ;;           :name "World Championship Decks 2001"}
+ ;; #:edition{:date #inst "2001-06-04T00:00:00.000-00:00",
+ ;;           :code "APC",
+ ;;           :name "Apocalypse"}
+ ;; #:edition{:date #inst "2001-04-11T00:00:00.000-00:00",
+ ;;           :code "7ED",
+ ;;           :name "Seventh Edition"}
+ ;; #:edition{:date #inst "2001-02-05T00:00:00.000-00:00",
+ ;;           :code "PLS",
+ ;;           :name "Planeshift"}
+ ;; #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL01",
+ ;;           :name "Arena League 2001"}
+ ;; #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
+ ;;           :code "F01",
+ ;;           :name "Friday Night Magic 2001"}
+ ;; #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
+ ;;           :code "MPR",
+ ;;           :name "Magic Player Rewards 2001"}
+ ;; #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
+ ;;           :code "G01",
+ ;;           :name "Judge Gift Cards 2001"}
+ ;; #:edition{:date #inst "2000-10-02T00:00:00.000-00:00",
+ ;;           :code "INV",
+ ;;           :name "Invasion"}
+ ;; #:edition{:date #inst "2000-10-01T00:00:00.000-00:00",
+ ;;           :code "BTD",
+ ;;           :name "Beatdown Box Set"}
+ ;; #:edition{:date #inst "2000-08-02T00:00:00.000-00:00",
+ ;;           :code "WC00",
+ ;;           :name "World Championship Decks 2000"}
+ ;; #:edition{:date #inst "2000-06-05T00:00:00.000-00:00",
+ ;;           :code "PCY",
+ ;;           :name "Prophecy"}
+ ;; #:edition{:date #inst "2000-06-05T00:00:00.000-00:00",
+ ;;           :code "PPCY",
+ ;;           :name "Prophecy Promos"}
+ ;; #:edition{:date #inst "2000-04-01T00:00:00.000-00:00",
+ ;;           :code "S00",
+ ;;           :name "Starter 2000"}
+ ;; #:edition{:date #inst "2000-02-14T00:00:00.000-00:00",
+ ;;           :code "NEM",
+ ;;           :name "Nemesis"}
+ ;; #:edition{:date #inst "2000-02-14T00:00:00.000-00:00",
+ ;;           :code "PNEM",
+ ;;           :name "Nemesis Promos"}
+ ;; #:edition{:date #inst "2000-02-05T00:00:00.000-00:00",
+ ;;           :code "PELP",
+ ;;           :name "European Land Program"}
+ ;; #:edition{:date #inst "2000-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL00",
+ ;;           :name "Arena League 2000"}
+ ;; #:edition{:date #inst "2000-01-01T00:00:00.000-00:00",
+ ;;           :code "FNM",
+ ;;           :name "Friday Night Magic 2000"}
+ ;; #:edition{:date #inst "2000-01-01T00:00:00.000-00:00",
+ ;;           :code "G00",
+ ;;           :name "Judge Gift Cards 2000"}
+ ;; #:edition{:date #inst "1999-12-01T00:00:00.000-00:00",
+ ;;           :code "PSUS",
+ ;;           :name "Junior Super Series"}
+ ;; #:edition{:date #inst "1999-11-12T00:00:00.000-00:00",
+ ;;           :code "BRB",
+ ;;           :name "Battle Royale Box Set"}
+ ;; #:edition{:date #inst "1999-10-04T00:00:00.000-00:00",
+ ;;           :code "MMQ",
+ ;;           :name "Mercadian Masques"}
+ ;; #:edition{:date #inst "1999-10-04T00:00:00.000-00:00",
+ ;;           :code "PMMQ",
+ ;;           :name "Mercadian Masques Promos"}
+ ;; #:edition{:date #inst "1999-09-04T00:00:00.000-00:00",
+ ;;           :code "PWOS",
+ ;;           :name "Wizards of the Coast Online Store"}
+ ;; #:edition{:date #inst "1999-08-04T00:00:00.000-00:00",
+ ;;           :code "WC99",
+ ;;           :name "World Championship Decks 1999"}
+ ;; #:edition{:date #inst "1999-08-04T00:00:00.000-00:00",
+ ;;           :code "PWOR",
+ ;;           :name "World Championship Promos"}
+ ;; #:edition{:date #inst "1999-07-12T00:00:00.000-00:00",
+ ;;           :code "PGRU",
+ ;;           :name "Guru"}
+ ;; #:edition{:date #inst "1999-07-06T00:00:00.000-00:00",
+ ;;           :code "PTK",
+ ;;           :name "Portal Three Kingdoms"}
+ ;; #:edition{:date #inst "1999-07-01T00:00:00.000-00:00",
+ ;;           :code "PPTK",
+ ;;           :name "Portal: Three Kingdoms Promos"}
+ ;; #:edition{:date #inst "1999-07-01T00:00:00.000-00:00",
+ ;;           :code "S99",
+ ;;           :name "Starter 1999"}
+ ;; #:edition{:date #inst "1999-06-07T00:00:00.000-00:00",
+ ;;           :code "UDS",
+ ;;           :name "Urza's Destiny"}
+ ;; #:edition{:date #inst "1999-06-07T00:00:00.000-00:00",
+ ;;           :code "PUDS",
+ ;;           :name "Urza's Destiny Promos"}
+ ;; #:edition{:date #inst "1999-04-21T00:00:00.000-00:00",
+ ;;           :code "6ED",
+ ;;           :name "Classic Sixth Edition"}
+ ;; #:edition{:date #inst "1999-02-15T00:00:00.000-00:00",
+ ;;           :code "ULG",
+ ;;           :name "Urza's Legacy"}
+ ;; #:edition{:date #inst "1999-02-15T00:00:00.000-00:00",
+ ;;           :code "PULG",
+ ;;           :name "Urza's Legacy Promos"}
+ ;; #:edition{:date #inst "1999-01-01T00:00:00.000-00:00",
+ ;;           :code "PAL99",
+ ;;           :name "Arena League 1999"}
+ ;; #:edition{:date #inst "1999-01-01T00:00:00.000-00:00",
+ ;;           :code "G99",
+ ;;           :name "Judge Gift Cards 1999"}
+ ;; #:edition{:date #inst "1998-11-01T00:00:00.000-00:00",
+ ;;           :code "ATH",
+ ;;           :name "Anthologies"}
+ ;; #:edition{:date #inst "1998-10-12T00:00:00.000-00:00",
+ ;;           :code "USG",
+ ;;           :name "Urza's Saga"}
+ ;; #:edition{:date #inst "1998-10-12T00:00:00.000-00:00",
+ ;;           :code "PUSG",
+ ;;           :name "Urza's Saga Promos"}
+ ;; #:edition{:date #inst "1998-09-01T00:00:00.000-00:00",
+ ;;           :code "PALP",
+ ;;           :name "Asia Pacific Land Program"}
+ ;; #:edition{:date #inst "1998-08-12T00:00:00.000-00:00",
+ ;;           :code "WC98",
+ ;;           :name "World Championship Decks 1998"}
+ ;; #:edition{:date #inst "1998-08-11T00:00:00.000-00:00",
+ ;;           :code "UGL",
+ ;;           :name "Unglued"}
+ ;; #:edition{:date #inst "1998-08-11T00:00:00.000-00:00",
+ ;;           :code "TUGL",
+ ;;           :name "Unglued Tokens"}
+ ;; #:edition{:date #inst "1998-06-24T00:00:00.000-00:00",
+ ;;           :code "P02",
+ ;;           :name "Portal Second Age"}
+ ;; #:edition{:date #inst "1998-06-15T00:00:00.000-00:00",
+ ;;           :code "EXO",
+ ;;           :name "Exodus"}
+ ;; #:edition{:date #inst "1998-06-15T00:00:00.000-00:00",
+ ;;           :code "PEXO",
+ ;;           :name "Exodus Promos"}
+ ;; #:edition{:date #inst "1998-03-02T00:00:00.000-00:00",
+ ;;           :code "STH",
+ ;;           :name "Stronghold"}
+ ;; #:edition{:date #inst "1998-03-02T00:00:00.000-00:00",
+ ;;           :code "PSTH",
+ ;;           :name "Stronghold Promos"}
+ ;; #:edition{:date #inst "1998-01-01T00:00:00.000-00:00",
+ ;;           :code "JGP",
+ ;;           :name "Judge Gift Cards 1998"}
+ ;; #:edition{:date #inst "1997-10-14T00:00:00.000-00:00",
+ ;;           :code "TMP",
+ ;;           :name "Tempest"}
+ ;; #:edition{:date #inst "1997-10-14T00:00:00.000-00:00",
+ ;;           :code "PTMP",
+ ;;           :name "Tempest Promos"}
+ ;; #:edition{:date #inst "1997-08-13T00:00:00.000-00:00",
+ ;;           :code "WC97",
+ ;;           :name "World Championship Decks 1997"}
+ ;; #:edition{:date #inst "1997-06-09T00:00:00.000-00:00",
+ ;;           :code "WTH",
+ ;;           :name "Weatherlight"}
+ ;; #:edition{:date #inst "1997-05-01T00:00:00.000-00:00",
+ ;;           :code "POR",
+ ;;           :name "Portal"}
+ ;; #:edition{:date #inst "1997-05-01T00:00:00.000-00:00",
+ ;;           :code "PPOD",
+ ;;           :name "Portal Demo Game"}
+ ;; #:edition{:date #inst "1997-05-01T00:00:00.000-00:00",
+ ;;           :code "PVAN",
+ ;;           :name "Vanguard Series"}
+ ;; #:edition{:date #inst "1997-04-01T00:00:00.000-00:00",
+ ;;           :code "PAST",
+ ;;           :name "Astral Cards"}
+ ;; #:edition{:date #inst "1997-04-01T00:00:00.000-00:00",
+ ;;           :code "PMIC",
+ ;;           :name "MicroProse Promos"}
+ ;; #:edition{:date #inst "1997-03-24T00:00:00.000-00:00",
+ ;;           :code "5ED",
+ ;;           :name "Fifth Edition"}
+ ;; #:edition{:date #inst "1997-02-03T00:00:00.000-00:00",
+ ;;           :code "VIS",
+ ;;           :name "Visions"}
+ ;; #:edition{:date #inst "1996-12-31T00:00:00.000-00:00",
+ ;;           :code "ITP",
+ ;;           :name "Introductory Two-Player Set"}
+ ;; #:edition{:date #inst "1996-11-01T00:00:00.000-00:00",
+ ;;           :code "MGB",
+ ;;           :name "Multiverse Gift Box"}
+ ;; #:edition{:date #inst "1996-10-08T00:00:00.000-00:00",
+ ;;           :code "MIR",
+ ;;           :name "Mirage"}
+ ;; #:edition{:date #inst "1996-08-14T00:00:00.000-00:00",
+ ;;           :code "PCEL",
+ ;;           :name "Celebration Cards"}
+ ;; #:edition{:date #inst "1996-08-02T00:00:00.000-00:00",
+ ;;           :code "PARL",
+ ;;           :name "Arena League 1996"}
+ #:edition{:date #inst "1996-07-01T00:00:00.000-00:00",
+           :code "RQS",
+           :name "Rivals Quick Start Set"}
  #:edition{:date #inst "1996-06-10T00:00:00.000-00:00",
            :code "ALL",
            :name "Alliances"}
@@ -20,11 +2093,11 @@
            :code "4ED",
            :name "Fourth Edition"}
  #:edition{:date #inst "1995-01-01T00:00:00.000-00:00",
-           :code "PMEI",
-           :name "Media Inserts"}
- #:edition{:date #inst "1995-01-01T00:00:00.000-00:00",
            :code "PLGM",
            :name "DCI Legend Membership"}
+ #:edition{:date #inst "1995-01-01T00:00:00.000-00:00",
+           :code "PMEI",
+           :name "Media Inserts"}
  #:edition{:date #inst "1994-11-01T00:00:00.000-00:00",
            :code "FEM",
            :name "Fallen Empires"}
