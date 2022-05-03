@@ -17,3 +17,8 @@
 ;;   (->> (dc/card-list->deck EDITION-CARDS card-list :newest "MIR" :oldest "MIR")
 ;;        (dt/deck->ttsdeck EDDEX)
 ;;        (dt/write-ttsdeck!)))
+
+(doseq [card-list (dc/!read-card-list "ITP")]
+  (->> (dc/card-list->deck EDITION-CARDS card-list :newest "ITP" :oldest "ITP")
+       (dt/deck->ttsdeck EDDEX)
+       (dt/write-ttsdeck!)))
