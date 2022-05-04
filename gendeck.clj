@@ -9,26 +9,67 @@
 (def EDITION-CARDS (de/!read-edition-cards))
 
 
-;; (let [cardex (dx/gen-cardex EDITION-CARDS :newst "RQS" :oldest "RQS")]
-;;   (doseq [card-list (dc/!read-card-list "RQS")]
+;; (let [edition "RQS"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
 ;;     (->> (dc/card-list->deck cardex card-list)
 ;;          (dt/deck->ttsdeck EDDEX)
 ;;          (dt/write-ttsdeck!))))
 
-;; (let [cardex (dx/gen-cardex EDITION-CARDS :newst "MIR" :oldest "MIR")]
-;;   (doseq [card-list (dc/!read-card-list "MIR")]
+;; (let [edition "MIR"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
 ;;     (->> (dc/card-list->deck cardex card-list)
 ;;          (dt/deck->ttsdeck EDDEX)
 ;;          (dt/write-ttsdeck!))))
 
-;; (let [cardex (dx/gen-cardex EDITION-CARDS :newst "ITP" :oldest "ITP")]
-;;   (doseq [card-list (dc/!read-card-list "ITP")]
+;; (let [edition "ITP"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
 ;;     (->> (dc/card-list->deck cardex card-list)
 ;;          (dt/deck->ttsdeck EDDEX)
 ;;          (dt/write-ttsdeck!))))
 
-(let [cardex (dx/gen-cardex EDITION-CARDS :newst "VIS" :oldest "MIR" :ignore #{"ITP" "MGB"})]
-  (doseq [card-list (dc/!read-card-list "VIS")]
+;; (let [edition "VIS"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :ignore #{"ITP" "MGB"}
+;;                             :oldest "MIR" )]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+;; (let [edition "5ED"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+;; (let [edition "POR"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+(let [edition "WTH"
+      cardex (dx/gen-cardex EDITION-CARDS
+                            :newest edition
+                            :ignore #{"POR" "PPOD" "PVAN" "PAST" "PMIC" "ITP" "MGB"}
+                            :oldest "MIR")]
+  (doseq [card-list (dc/!read-card-list edition)]
     (->> (dc/card-list->deck cardex card-list)
          (dt/deck->ttsdeck EDDEX)
          (dt/write-ttsdeck!))))
