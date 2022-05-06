@@ -64,11 +64,39 @@
 ;;          (dt/deck->ttsdeck EDDEX)
 ;;          (dt/write-ttsdeck!))))
 
-(let [edition "WTH"
+;; (let [edition "WTH"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :ignore #{"POR" "PPOD" "PVAN" "PAST" "PMIC" "ITP" "MGB"}
+;;                             :oldest "MIR")]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+;; (let [edition "WC97"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+;; (let [edition "TMP"
+;;       cardex (dx/gen-cardex EDITION-CARDS
+;;                             :newest edition
+;;                             :oldest edition)]
+;;   (doseq [card-list (dc/!read-card-list edition)]
+;;     (->> (dc/card-list->deck cardex card-list)
+;;          (dt/deck->ttsdeck EDDEX)
+;;          (dt/write-ttsdeck!))))
+
+(let [edition "STH"
       cardex (dx/gen-cardex EDITION-CARDS
                             :newest edition
-                            :ignore #{"POR" "PPOD" "PVAN" "PAST" "PMIC" "ITP" "MGB"}
-                            :oldest "MIR")]
+                            :ignore #{"PSTH" "JGP"}
+                            :oldest "TMP")]
   (doseq [card-list (dc/!read-card-list edition)]
     (->> (dc/card-list->deck cardex card-list)
          (dt/deck->ttsdeck EDDEX)
