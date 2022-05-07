@@ -43,10 +43,12 @@
   [edition]
   (letfn [(->card [scryfall-card]
             #:card{:collector-number (:collector_number scryfall-card)
-                   :name (:name scryfall-card)
+                   :name (get scryfall-card :name)
                    :png (get-in scryfall-card [:image_uris :png])
-                   :type-line (get-in scryfall-card [:type_line])
-                   :oracle-text (get-in scryfall-card [:oracle_text])})]
+                   :type-line (get scryfall-card :type_line)
+                   :oracle-text (get scryfall-card :oracle_text)
+                   :layout (get scryfall-card :layout)
+                   :highres? (get scryfall-card :highres_image)})]
 
     (loop [acc [] page 1 has-more? true]
       (if (not has-more?)
