@@ -1,0 +1,869 @@
+(#:card{:code "btd",
+        :collector-number "1",
+        :name "Air Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4508520-b4ad-44da-a63b-bcfafc62b1e3.png?1562933039",
+        :type-line "Creature — Elemental",
+        :oracle-text "Flying"}
+ #:card{:code "btd",
+        :collector-number "2",
+        :name "Blizzard Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/204b6b56-e3fc-443e-8e44-66b3c86fec40.png?1562901782",
+        :type-line "Creature — Elemental",
+        :oracle-text "Flying\n{3}{U}: Untap Blizzard Elemental."}
+ #:card{:code "btd",
+        :collector-number "3",
+        :name "Brainstorm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/72507835-d27b-48e3-a602-b5b6c876557f.png?1616400135",
+        :type-line "Instant",
+        :oracle-text
+        "Draw three cards, then put two cards from your hand on top of your library in any order."}
+ #:card{:code "btd",
+        :collector-number "4",
+        :name "Cloud Djinn",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed6e3741-6247-4180-8e79-2759af7f70df.png?1562945012",
+        :type-line "Creature — Djinn",
+        :oracle-text
+        "Flying\nCloud Djinn can block only creatures with flying."}
+ #:card{:code "btd",
+        :collector-number "5",
+        :name "Cloud Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/17ed3144-4af7-4def-b51a-a8a4398d00b4.png?1562900065",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Flying\nCloud Elemental can block only creatures with flying."}
+ #:card{:code "btd",
+        :collector-number "6",
+        :name "Counterspell",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0bd56820-a903-4118-bbef-3e091789482f.png?1562897460",
+        :type-line "Instant",
+        :oracle-text "Counter target spell."}
+ #:card{:code "btd",
+        :collector-number "7",
+        :name "Fog Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/868ea140-dced-444b-bae5-3e79a9b4bc0d.png?1562923386",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Fog Elemental attacks or blocks, sacrifice it at end of combat."}
+ #:card{:code "btd",
+        :collector-number "8",
+        :name "Gaseous Form",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/690a54c2-edda-4a6b-9e54-3525b63ca615.png?1562916985",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nPrevent all combat damage that would be dealt to and dealt by enchanted creature."}
+ #:card{:code "btd",
+        :collector-number "9",
+        :name "Giant Crab",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f5eab308-f2b1-46ed-aeb5-ecc3a49ed693.png?1562946865",
+        :type-line "Creature — Crab",
+        :oracle-text
+        "{U}: Giant Crab gains shroud until end of turn. (It can't be the target of spells or abilities.)"}
+ #:card{:code "btd",
+        :collector-number "10",
+        :name "Impulse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.png?1562902778",
+        :type-line "Instant",
+        :oracle-text
+        "Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order."}
+ #:card{:code "btd",
+        :collector-number "11",
+        :name "Killer Whale",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/060a44f2-2251-4d90-925d-6c41da2d5ad7.png?1562896267",
+        :type-line "Creature — Whale",
+        :oracle-text
+        "{U}: Killer Whale gains flying until end of turn."}
+ #:card{:code "btd",
+        :collector-number "12",
+        :name "Leviathan",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/755e292b-220d-44b0-aa07-a803c5cf26cc.png?1562919683",
+        :type-line "Creature — Leviathan",
+        :oracle-text
+        "Trample\nLeviathan enters the battlefield tapped and doesn't untap during your untap step.\nAt the beginning of your upkeep, you may sacrifice two Islands. If you do, untap Leviathan.\nLeviathan can't attack unless you sacrifice two Islands. (This cost is paid as attackers are declared.)"}
+ #:card{:code "btd",
+        :collector-number "13",
+        :name "Mahamoti Djinn",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c3c29ff-c062-4b13-9ac0-fcbf87817a9e.png?1562921180",
+        :type-line "Creature — Djinn",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)"}
+ #:card{:code "btd",
+        :collector-number "14",
+        :name "Power Sink",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6e10587-3595-4fa2-bcf4-607c478fda9d.png?1562930153",
+        :type-line "Instant",
+        :oracle-text
+        "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana."}
+ #:card{:code "btd",
+        :collector-number "15",
+        :name "Snapping Drake",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d1c47e5-8ae4-486a-acb7-991eed0b1d4f.png?1562928147",
+        :type-line "Creature — Drake",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)"}
+ #:card{:code "btd",
+        :collector-number "16",
+        :name "Tolarian Winds",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d592e82a-00cb-4a7c-8c62-097e6b972b86.png?1562940197",
+        :type-line "Instant",
+        :oracle-text
+        "Discard all the cards in your hand, then draw that many cards."}
+ #:card{:code "btd",
+        :collector-number "17",
+        :name "Vigilant Drake",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/b/fbf2703c-1b0f-4ffa-9214-e2f575d037e8.png?1562948381",
+        :type-line "Creature — Drake",
+        :oracle-text "Flying\n{2}{U}: Untap Vigilant Drake."}
+ #:card{:code "btd",
+        :collector-number "18",
+        :name "Wayward Soul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2aa991db-a7dc-4163-9da2-3f1bb896f231.png?1562904044",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\n{U}: Put Wayward Soul on top of its owner's library."}
+ #:card{:code "btd",
+        :collector-number "19",
+        :name "Bone Harvest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f22e9279-0f7c-4f82-918f-0a3d794c6be3.png?1562946096",
+        :type-line "Instant",
+        :oracle-text
+        "Put any number of target creature cards from your graveyard on top of your library.\nDraw a card at the beginning of the next turn's upkeep."}
+ #:card{:code "btd",
+        :collector-number "20",
+        :name "Coercion",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/ab1be87a-24d7-4b53-a84e-99f3a8fdff71.png?1562931111",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target opponent reveals their hand. You choose a card from it. That player discards that card."}
+ #:card{:code "btd",
+        :collector-number "21",
+        :name "Dark Ritual",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/626d685b-12ee-45c2-8250-4a9e75f47cd7.png?1562915563",
+        :type-line "Instant",
+        :oracle-text "Add {B}{B}{B}."}
+ #:card{:code "btd",
+        :collector-number "22",
+        :name "Death Stroke",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f77d7d4a-ded4-426a-bbbd-fd7a833e7feb.png?1562947256",
+        :type-line "Sorcery",
+        :oracle-text "Destroy target tapped creature."}
+ #:card{:code "btd",
+        :collector-number "23",
+        :name "Diabolic Edict",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/855fe6f4-03a1-4864-b60e-ccf7e8da1b08.png?1562923161",
+        :type-line "Instant",
+        :oracle-text "Target player sacrifices a creature."}
+ #:card{:code "btd",
+        :collector-number "24",
+        :name "Drain Life",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/6995dfc3-7365-408f-aeb4-9a2963f513a0.png?1562917082",
+        :type-line "Sorcery",
+        :oracle-text
+        "Spend only black mana on X.\nDrain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness."}
+ #:card{:code "btd",
+        :collector-number "25",
+        :name "Fallen Angel",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b0fdc3e-8ad6-419d-8974-27648107bd13.png?1562927715",
+        :type-line "Creature — Angel",
+        :oracle-text
+        "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "26",
+        :name "Feral Shadow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/90cc7336-7dd8-49c1-bb8e-2f8085cb8aa9.png?1562925512",
+        :type-line "Creature — Nightstalker",
+        :oracle-text "Flying"}
+ #:card{:code "btd",
+        :collector-number "27",
+        :name "Gravedigger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3ebe1a08-fb38-4704-aca9-9fa768339253.png?1562908030",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand."}
+ #:card{:code "btd",
+        :collector-number "28",
+        :name "Hollow Dogs",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb5af11b-d73e-44e9-9856-3386b7e9601e.png?1562937958",
+        :type-line "Creature — Phyrexian Zombie Dog",
+        :oracle-text
+        "Whenever Hollow Dogs attacks, it gets +2/+0 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "29",
+        :name "Sengir Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45430031-a6a2-4e15-9483-bff588ccab3b.png?1603293229",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire."}
+ #:card{:code "btd",
+        :collector-number "30",
+        :name "Skittering Horror",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6ef0eab9-37e7-4d6b-82e8-15e9b5575d1b.png?1562918300",
+        :type-line "Creature — Phyrexian Horror",
+        :oracle-text
+        "When you cast a creature spell, sacrifice Skittering Horror."}
+ #:card{:code "btd",
+        :collector-number "31",
+        :name "Skittering Skirge",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/77175deb-ffef-41ae-ba76-a284f51d25d3.png?1562920054",
+        :type-line "Creature — Phyrexian Imp",
+        :oracle-text
+        "Flying\nWhen you cast a creature spell, sacrifice Skittering Skirge."}
+ #:card{:code "btd",
+        :collector-number "32",
+        :name "Tar Pit Warrior",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/234ad46f-0779-4220-81d0-b1b713fa813e.png?1562902449",
+        :type-line "Creature — Cyclops Warrior",
+        :oracle-text
+        "When Tar Pit Warrior becomes the target of a spell or ability, sacrifice it."}
+ #:card{:code "btd",
+        :collector-number "33",
+        :name "Terror",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/338b25bf-24ac-44ff-99bd-86862855aaab.png?1562905819",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target nonartifact, nonblack creature. It can't be regenerated."}
+ #:card{:code "btd",
+        :collector-number "34",
+        :name "Balduvian Horde",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d76417ee-6868-47b4-8411-f4bede8dde14.png?1562940540",
+        :type-line "Creature — Human Barbarian",
+        :oracle-text
+        "When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random."}
+ #:card{:code "btd",
+        :collector-number "35",
+        :name "Ball Lightning",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/6312e369-aef7-486e-a689-97eef04c71d8.png?1562915703",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nHaste (This creature can attack and {T} as soon as it comes under your control.)\nAt the beginning of the end step, sacrifice Ball Lightning."}
+ #:card{:code "btd",
+        :collector-number "36",
+        :name "Bloodrock Cyclops",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/6/f6b5fcda-858a-4ba8-8bef-f19009c8a94e.png?1592485550",
+        :type-line "Creature — Cyclops",
+        :oracle-text "Bloodrock Cyclops attacks each combat if able."}
+ #:card{:code "btd",
+        :collector-number "37",
+        :name "Fireball",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3ea1a073-698a-4d91-81fd-b2c7f5c0da00.png?1562908013",
+        :type-line "Sorcery",
+        :oracle-text
+        "This spell costs {1} more to cast for each target beyond the first.\nFireball deals X damage divided evenly, rounded down, among any number of targets."}
+ #:card{:code "btd",
+        :collector-number "38",
+        :name "Hulking Cyclops",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c47d0c55-b267-4eb1-a424-d676f20eb5a0.png?1562936551",
+        :type-line "Creature — Cyclops",
+        :oracle-text "Hulking Cyclops can't block."}
+ #:card{:code "btd",
+        :collector-number "39",
+        :name "Kird Ape",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/931bfa1c-da84-4678-94eb-ec831180d522.png?1562926092",
+        :type-line "Creature — Ape",
+        :oracle-text
+        "Kird Ape gets +1/+2 as long as you control a Forest."}
+ #:card{:code "btd",
+        :collector-number "40",
+        :name "Lava Axe",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/895ae34b-5f55-4657-a477-15c8e331fb4f.png?1562924046",
+        :type-line "Sorcery",
+        :oracle-text
+        "Lava Axe deals 5 damage to target player or planeswalker."}
+ #:card{:code "btd",
+        :collector-number "41",
+        :name "Lightning Bolt",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a9f447d7-bd08-4f35-bc09-ed335b09a0f8.png?1562930855",
+        :type-line "Instant",
+        :oracle-text "Lightning Bolt deals 3 damage to any target."}
+ #:card{:code "btd",
+        :collector-number "42",
+        :name "Lowland Giant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b77ea270-683f-4407-825e-92390dcbd70c.png?1562933730",
+        :type-line "Creature — Giant",
+        :oracle-text ""}
+ #:card{:code "btd",
+        :collector-number "43",
+        :name "Raging Goblin",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a75746a8-4b9d-4a2c-b988-b26a5eadb569.png?1562930251",
+        :type-line "Creature — Goblin Berserker",
+        :oracle-text
+        "Haste (This creature can attack and {T} as soon as it comes under your control.)"}
+ #:card{:code "btd",
+        :collector-number "44",
+        :name "Shivan Dragon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/475e27c5-bc2a-4907-9c18-5c8ba82d116f.png?1596481678",
+        :type-line "Creature — Dragon",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "45",
+        :name "Shock",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/8/5883be3c-8301-42da-99e2-998f909c3ac7.png?1562913489",
+        :type-line "Instant",
+        :oracle-text "Shock deals 2 damage to any target."}
+ #:card{:code "btd",
+        :collector-number "46",
+        :name "Sonic Burst",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/2/42eeded8-163f-4a85-8bed-4343df43adee.png?1562908841",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, discard a card at random.\nSonic Burst deals 4 damage to any target."}
+ #:card{:code "btd",
+        :collector-number "47",
+        :name "Talruum Minotaur",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d2d1e5b-7757-46e4-b42d-76c28785f835.png?1562904492",
+        :type-line "Creature — Minotaur Berserker",
+        :oracle-text "Haste"}
+ #:card{:code "btd",
+        :collector-number "48",
+        :name "Thunderbolt",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/92d9ae2b-0c7e-4100-8d09-7bd321237046.png?1562926037",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Thunderbolt deals 3 damage to target player or planeswalker.\n• Thunderbolt deals 4 damage to target creature with flying."}
+ #:card{:code "btd",
+        :collector-number "49",
+        :name "Thundering Giant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45e1e06b-8702-4f34-b390-1acaa5af6473.png?1562909464",
+        :type-line "Creature — Giant",
+        :oracle-text
+        "Haste (This creature can attack and {T} as soon as it comes under your control.)"}
+ #:card{:code "btd",
+        :collector-number "50",
+        :name "Viashino Warrior",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d10a82f4-12f2-43b1-bafe-b01f693da497.png?1562939230",
+        :type-line "Creature — Viashino Warrior",
+        :oracle-text ""}
+ #:card{:code "btd",
+        :collector-number "51",
+        :name "Crash of Rhinos",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4f53ff6-f053-4872-b293-78c46ec469a2.png?1562943344",
+        :type-line "Creature — Rhino",
+        :oracle-text "Trample"}
+ #:card{:code "btd",
+        :collector-number "52",
+        :name "Crashing Boars",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/3272021b-1fe1-4097-92a0-ac1bae5dfcd3.png?1562905534",
+        :type-line "Creature — Boar",
+        :oracle-text
+        "Whenever Crashing Boars attacks, defending player chooses an untapped creature they control. That creature blocks Crashing Boars this turn if able."}
+ #:card{:code "btd",
+        :collector-number "53",
+        :name "Deadly Insect",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe0f348b-f9d7-4b53-b835-a1ef88dd8ba3.png?1562948813",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)"}
+ #:card{:code "btd",
+        :collector-number "54",
+        :name "Erhnam Djinn",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bbc568ce-e81b-462b-9f88-1e90c6c34815.png?1603293224",
+        :type-line "Creature — Djinn",
+        :oracle-text
+        "At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep. (It can't be blocked as long as defending player controls a Forest.)"}
+ #:card{:code "btd",
+        :collector-number "55",
+        :name "Fog",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/6678a7f2-ff1f-4755-ad40-b8eebc313ae9.png?1562916431",
+        :type-line "Instant",
+        :oracle-text
+        "Prevent all combat damage that would be dealt this turn."}
+ #:card{:code "btd",
+        :collector-number "56",
+        :name "Force of Nature",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4a32da5-bee0-41b4-9458-06e3e13da945.png?1562933126",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
+ #:card{:code "btd",
+        :collector-number "57",
+        :name "Giant Growth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fab6e9d9-cdd9-4e77-8e37-689bea8efbbe.png?1562948109",
+        :type-line "Instant",
+        :oracle-text "Target creature gets +3/+3 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "58",
+        :name "Llanowar Elves",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5fa7af70-08d0-453f-a0b6-a408642bf03e.png?1562914976",
+        :type-line "Creature — Elf Druid",
+        :oracle-text "{T}: Add {G}."}
+ #:card{:code "btd",
+        :collector-number "59",
+        :name "Plated Spider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/8/78ca8e51-9f44-4c44-b6cc-46b07316a1f3.png?1562920359",
+        :type-line "Creature — Spider",
+        :oracle-text
+        "Reach (This creature can block creatures with flying.)"}
+ #:card{:code "btd",
+        :collector-number "60",
+        :name "Quirion Elves",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/acd1e410-8451-4a81-b91f-4460ab0b013f.png?1562931470",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "As Quirion Elves enters the battlefield, choose a color.\n{T}: Add {G}.\n{T}: Add one mana of the chosen color."}
+ #:card{:code "btd",
+        :collector-number "61",
+        :name "Rampant Growth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3cca3b09-03a5-4664-8f76-a110c8d5e690.png?1562907622",
+        :type-line "Sorcery",
+        :oracle-text
+        "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:code "btd",
+        :collector-number "62",
+        :name "Scaled Wurm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/54ca19f3-fbff-49dc-a104-b429c413873e.png?1562912684",
+        :type-line "Creature — Wurm",
+        :oracle-text ""}
+ #:card{:code "btd",
+        :collector-number "63",
+        :name "Shambling Strider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2b91418-5cbd-443d-9963-7e590dd0b6fc.png?1562932684",
+        :type-line "Creature — Yeti",
+        :oracle-text
+        "{R}{G}: Shambling Strider gets +1/-1 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "64",
+        :name "Wild Growth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/238e69f9-f96f-4ccb-9791-6da40bbbe04e.png?1562902541",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds an additional {G}."}
+ #:card{:code "btd",
+        :collector-number "65",
+        :name "Woolly Spider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f835154-38fd-464c-8015-9eb6b4da00d0.png?1562908201",
+        :type-line "Creature — Spider",
+        :oracle-text
+        "Reach (This creature can block creatures with flying.)\nWhenever Woolly Spider blocks a creature with flying, Woolly Spider gets +0/+2 until end of turn."}
+ #:card{:code "btd",
+        :collector-number "66",
+        :name "Yavimaya Wurm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/25e6de28-d1f1-4225-a0e3-181992d1a614.png?1562902953",
+        :type-line "Creature — Wurm",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"}
+ #:card{:code "btd",
+        :collector-number "67",
+        :name "Diabolic Vision",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e83a5b23-0e39-4c5a-a313-10110eb32fd5.png?1562943996",
+        :type-line "Sorcery",
+        :oracle-text
+        "Look at the top five cards of your library. Put one of them into your hand and the rest on top of your library in any order."}
+ #:card{:code "btd",
+        :collector-number "68",
+        :name "Segmented Wurm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d780bcf-9480-451c-a6c8-d86457816210.png?1562911277",
+        :type-line "Creature — Wurm",
+        :oracle-text
+        "Whenever Segmented Wurm becomes the target of a spell or ability, put a -1/-1 counter on it."}
+ #:card{:code "btd",
+        :collector-number "69",
+        :name "Clockwork Avian",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/6/f61e58fa-a24e-4f37-85c2-7f4884a1b60e.png?1562946914",
+        :type-line "Artifact Creature — Bird",
+        :oracle-text
+        "Flying\nClockwork Avian enters the battlefield with four +1/+0 counters on it.\nAt end of combat, if Clockwork Avian attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on Clockwork Avian. This ability can't cause the total number of +1/+0 counters on Clockwork Avian to be greater than four. Activate only during your upkeep."}
+ #:card{:code "btd",
+        :collector-number "70",
+        :name "Clockwork Beast",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d5e5ae63-4963-485e-b40c-3450ee46674b.png?1562940262",
+        :type-line "Artifact Creature — Beast",
+        :oracle-text
+        "Clockwork Beast enters the battlefield with seven +1/+0 counters on it.\nAt end of combat, if Clockwork Beast attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on Clockwork Beast. This ability can't cause the total number of +1/+0 counters on Clockwork Beast to be greater than seven. Activate only during your upkeep."}
+ #:card{:code "btd",
+        :collector-number "71",
+        :name "Dwarven Ruins",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e424ff8c-ea29-4241-86d1-fb60185ed2ab.png?1562943187",
+        :type-line "Land",
+        :oracle-text
+        "Dwarven Ruins enters the battlefield tapped.\n{T}: Add {R}.\n{T}, Sacrifice Dwarven Ruins: Add {R}{R}."}
+ #:card{:code "btd",
+        :collector-number "72",
+        :name "Ebon Stronghold",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c8b0879d-6427-44ec-9915-bdca8a339f94.png?1562937393",
+        :type-line "Land",
+        :oracle-text
+        "Ebon Stronghold enters the battlefield tapped.\n{T}: Add {B}.\n{T}, Sacrifice Ebon Stronghold: Add {B}{B}."}
+ #:card{:code "btd",
+        :collector-number "73",
+        :name "Havenwood Battleground",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d260938c-3dc8-4009-b228-89c21cb3fe86.png?1562939553",
+        :type-line "Land",
+        :oracle-text
+        "Havenwood Battleground enters the battlefield tapped.\n{T}: Add {G}.\n{T}, Sacrifice Havenwood Battleground: Add {G}{G}."}
+ #:card{:code "btd",
+        :collector-number "74",
+        :name "Polluted Mire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20c9a5f0-6099-4d07-8667-284a482202af.png?1562901882",
+        :type-line "Land",
+        :oracle-text
+        "Polluted Mire enters the battlefield tapped.\n{T}: Add {B}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "btd",
+        :collector-number "75",
+        :name "Remote Isle",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/deb45f1f-5f99-4486-9503-975b72313d7c.png?1562941966",
+        :type-line "Land",
+        :oracle-text
+        "Remote Isle enters the battlefield tapped.\n{T}: Add {U}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "btd",
+        :collector-number "76",
+        :name "Slippery Karst",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/314dc678-4794-4ba2-b76e-da275b156ef8.png?1562905355",
+        :type-line "Land",
+        :oracle-text
+        "Slippery Karst enters the battlefield tapped.\n{T}: Add {G}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "btd",
+        :collector-number "77",
+        :name "Smoldering Crater",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/06f740fe-44b1-4a31-b353-6fbc6fb45fbf.png?1562896475",
+        :type-line "Land",
+        :oracle-text
+        "Smoldering Crater enters the battlefield tapped.\n{T}: Add {R}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "btd",
+        :collector-number "78",
+        :name "Svyelunite Temple",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba58b6c7-2893-43ed-8087-86dfed99fb02.png?1562934387",
+        :type-line "Land",
+        :oracle-text
+        "Svyelunite Temple enters the battlefield tapped.\n{T}: Add {U}.\n{T}, Sacrifice Svyelunite Temple: Add {U}{U}."}
+ #:card{:code "btd",
+        :collector-number "79",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91e54b2b-1839-4cc8-a8bb-8aae29de7b06.png?1562925817",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "btd",
+        :collector-number "80",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8db03fd6-c773-433e-b00b-d85b0d604f15.png?1562924890",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "btd",
+        :collector-number "81",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f8191904-7d18-436c-ae9a-3039f8e58bc4.png?1562947425",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "btd",
+        :collector-number "82",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a1abcf8-7b06-4f84-862c-739469be42d3.png?1562913800",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "btd",
+        :collector-number "83",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd9f4c4e-7fd4-4b6d-87a3-b48c64a46d3b.png?1562948730",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "btd",
+        :collector-number "84",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a7fffaf-048a-4034-b536-a24b5b0363e1.png?1562904007",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "btd",
+        :collector-number "85",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1eb27de-4caa-469b-8f19-5233ee8c8410.png?1562942620",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "btd",
+        :collector-number "86",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb66051e-297c-45c0-9a1c-ade44fa175a6.png?1562937970",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "btd",
+        :collector-number "87",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/8/48499e73-d420-4914-a789-2cadfdb2f452.png?1562910043",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "btd",
+        :collector-number "88",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c04a4b2-63ad-4518-86a3-c34cf4cc00f9.png?1562914229",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "btd",
+        :collector-number "89",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74daa25f-ae48-4a1e-afde-c914f001adae.png?1562919595",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "btd",
+        :collector-number "90",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5c47932-1dd8-426b-bb08-dce8d4461901.png?1562933381",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"})

@@ -1,0 +1,24 @@
+(#:card{:code "pbok",
+        :collector-number "71★",
+        :name "Ink-Eyes, Servant of Oni",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0abf36e-a038-4645-ba39-12e610b9e135.png?1606846491",
+        :type-line "Legendary Creature — Rat Ninja",
+        :oracle-text
+        "Ninjutsu {3}{B}{B} ({3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Ink-Eyes, Servant of Oni deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.\n{1}{B}: Regenerate Ink-Eyes."}
+ #:card{:code "pbok",
+        :collector-number "122★",
+        :name "Budoka Pupil // Ichiga, Who Topples Oaks",
+        :layout "flip",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0ecac065-c807-4bf4-935c-badd3c64407d.png?1606846451",
+        :faces
+        [{:type-line "Creature — Human Monk",
+          :oracle-text
+          "Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Budoka Pupil.\nAt the beginning of the end step, if there are two or more ki counters on Budoka Pupil, you may flip it."}
+         {:type-line "Legendary Creature — Spirit",
+          :oracle-text
+          "Trample\nRemove a ki counter from Ichiga, Who Topples Oaks: Target creature gets +2/+2 until end of turn."}]})

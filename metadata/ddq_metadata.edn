@@ -1,0 +1,779 @@
+(#:card{:code "ddq",
+        :collector-number "1",
+        :name "Geist of Saint Traft",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0ba5dd1a-6906-4b45-bbf7-2f10cb955083.png?1592762492",
+        :type-line "Legendary Creature — Spirit Cleric",
+        :oracle-text
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nWhenever Geist of Saint Traft attacks, create a 4/4 white Angel creature token with flying that's tapped and attacking. Exile that token at end of combat."}
+ #:card{:code "ddq",
+        :collector-number "2",
+        :name "Bonds of Faith",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc5dbb93-63a2-478e-b874-1fdf3a03cbff.png?1592762504",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block."}
+ #:card{:code "ddq",
+        :collector-number "3",
+        :name "Cathedral Sanctifier",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de3d0a45-3b3a-4718-9cb8-ff0c2464d634.png?1592762516",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "When Cathedral Sanctifier enters the battlefield, you gain 3 life."}
+ #:card{:code "ddq",
+        :collector-number "4",
+        :name "Champion of the Parish",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec2120ff-a6d4-4192-96c0-33c139155ddf.png?1592762531",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish."}
+ #:card{:code "ddq",
+        :collector-number "5",
+        :name "Chapel Geist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36fcc018-76c2-4246-8eca-b78115d568be.png?1592762545",
+        :type-line "Creature — Spirit",
+        :oracle-text "Flying"}
+ #:card{:code "ddq",
+        :collector-number "6",
+        :name "Dearly Departed",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16e88d15-26b3-4782-a7f9-231f23905fb5.png?1592762559",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nAs long as Dearly Departed is in your graveyard, each Human creature you control enters the battlefield with an additional +1/+1 counter on it."}
+ #:card{:code "ddq",
+        :collector-number "7",
+        :name "Doomed Traveler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/86f7fae8-a03a-4535-83c1-cece267fedec.png?1592762571",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying."}
+ #:card{:code "ddq",
+        :collector-number "8",
+        :name "Eerie Interlude",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa8e63c6-6bbc-405d-84c0-6958931ad310.png?1592762580",
+        :type-line "Instant",
+        :oracle-text
+        "Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step."}
+ #:card{:code "ddq",
+        :collector-number "9",
+        :name "Elder Cathar",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/26c38fbf-09ab-46fc-905e-ca45a85d794b.png?1592762595",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead."}
+ #:card{:code "ddq",
+        :collector-number "10",
+        :name "Emancipation Angel",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/796583d3-8738-438a-bf6d-906acebff0ce.png?1592762606",
+        :type-line "Creature — Angel",
+        :oracle-text
+        "Flying\nWhen Emancipation Angel enters the battlefield, return a permanent you control to its owner's hand."}
+ #:card{:code "ddq",
+        :collector-number "11",
+        :name "Fiend Hunter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f8fd6e7-a7d9-433c-9d8c-ec279132af50.png?1592762622",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+ #:card{:code "ddq",
+        :collector-number "12",
+        :name "Gather the Townsfolk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76f66ee8-8289-4780-aaec-feabd8ea9e3d.png?1592762642",
+        :type-line "Sorcery",
+        :oracle-text
+        "Create two 1/1 white Human creature tokens.\nFateful hour — If you have 5 or less life, create five of those tokens instead."}
+ #:card{:code "ddq",
+        :collector-number "13",
+        :name "Goldnight Redeemer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/9396d218-35e4-4457-9f3a-18bae368b526.png?1592762657",
+        :type-line "Creature — Angel",
+        :oracle-text
+        "Flying\nWhen Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control."}
+ #:card{:code "ddq",
+        :collector-number "14",
+        :name "Increasing Devotion",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd7844a2-70a1-4195-b2b7-1653cb882c6a.png?1592762671",
+        :type-line "Sorcery",
+        :oracle-text
+        "Create five 1/1 white Human creature tokens. If this spell was cast from a graveyard, create ten of those tokens instead.\nFlashback {7}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "15",
+        :name "Momentary Blink",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2cefcc4-8fb2-4acf-b8f0-e40acba87b42.png?1592762683",
+        :type-line "Instant",
+        :oracle-text
+        "Exile target creature you control, then return it to the battlefield under its owner's control.\nFlashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "16",
+        :name "Moorland Inquisitor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8bcf35f7-ac95-46e9-b84d-eae5adaf8109.png?1592762701",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "{2}{W}: Moorland Inquisitor gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"}
+ #:card{:code "ddq",
+        :collector-number "17",
+        :name "Rebuke",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b6b0457-024c-4957-bf77-75fe0a33c51f.png?1592762714",
+        :type-line "Instant",
+        :oracle-text "Destroy target attacking creature."}
+ #:card{:code "ddq",
+        :collector-number "18",
+        :name "Slayer of the Wicked",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22580e42-c164-4e9b-8210-6fa48bec7b8b.png?1592762724",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "When Slayer of the Wicked enters the battlefield, you may destroy target Vampire, Werewolf, or Zombie."}
+ #:card{:code "ddq",
+        :collector-number "19",
+        :name "Spectral Gateguards",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8f658073-5d90-4dca-b867-35ab827f22fd.png?1592762736",
+        :type-line "Creature — Spirit Soldier",
+        :oracle-text
+        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Spectral Gateguards is paired with another creature, both creatures have vigilance."}
+ #:card{:code "ddq",
+        :collector-number "20",
+        :name "Thraben Heretic",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20eb4f21-2f20-4e4b-998c-a72527585549.png?1592762748",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{T}: Exile target creature card from a graveyard."}
+ #:card{:code "ddq",
+        :collector-number "21",
+        :name "Topplegeist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c987f24a-679f-4c4f-a04f-251cec3aef67.png?1592762763",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nWhen Topplegeist enters the battlefield, tap target creature an opponent controls.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, tap target creature that player controls."}
+ #:card{:code "ddq",
+        :collector-number "22",
+        :name "Village Bell-Ringer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/3543ed04-9519-4d69-b2ab-cd6c0747d9fd.png?1592762775",
+        :type-line "Creature — Human Scout",
+        :oracle-text
+        "Flash (You may cast this spell any time you could cast an instant.)\nWhen Village Bell-Ringer enters the battlefield, untap all creatures you control."}
+ #:card{:code "ddq",
+        :collector-number "23",
+        :name "Voice of the Provinces",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/11a8437f-a783-4d76-8af1-a347d48a1bad.png?1592762787",
+        :type-line "Creature — Angel",
+        :oracle-text
+        "Flying\nWhen Voice of the Provinces enters the battlefield, create a 1/1 white Human creature token."}
+ #:card{:code "ddq",
+        :collector-number "24",
+        :name "Captain of the Mists",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa959355-ffac-442c-9c59-b2a654b4b400.png?1592762799",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Whenever another Human enters the battlefield under your control, untap Captain of the Mists.\n{1}{U}, {T}: You may tap or untap target permanent."}
+ #:card{:code "ddq",
+        :collector-number "25",
+        :name "Gryff Vanguard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53a14ab8-62f4-4873-b4ef-650f0aded095.png?1592762813",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "Flying\nWhen Gryff Vanguard enters the battlefield, draw a card."}
+ #:card{:code "ddq",
+        :collector-number "26",
+        :name "Mist Raven",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/4784a4d2-8af8-47dc-9ef8-053c6c873f93.png?1592762829",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying\nWhen Mist Raven enters the battlefield, return target creature to its owner's hand."}
+ #:card{:code "ddq",
+        :collector-number "27",
+        :name "Nephalia Smuggler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a67bcad1-b535-4e51-a5f4-50612b0346ce.png?1592762844",
+        :type-line "Creature — Human Rogue",
+        :oracle-text
+        "{3}{U}, {T}: Exile another target creature you control, then return that card to the battlefield under your control."}
+ #:card{:code "ddq",
+        :collector-number "28",
+        :name "Pore Over the Pages",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7f9b8f0-f2b9-48ec-86c2-71d1419e396b.png?1592762858",
+        :type-line "Sorcery",
+        :oracle-text
+        "Draw three cards, untap up to two lands, then discard a card."}
+ #:card{:code "ddq",
+        :collector-number "29",
+        :name "Tandem Lookout",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/3547d3ce-0837-4fc2-9e19-904519287ad5.png?1592762873",
+        :type-line "Creature — Human Scout",
+        :oracle-text
+        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Tandem Lookout is paired with another creature, each of those creatures has \"Whenever this creature deals damage to an opponent, draw a card.\""}
+ #:card{:code "ddq",
+        :collector-number "30",
+        :name "Tower Geist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/3304c2bc-2d05-497d-b92a-3de21a9d6b45.png?1592762885",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nWhen Tower Geist enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."}
+ #:card{:code "ddq",
+        :collector-number "31",
+        :name "Butcher's Cleaver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/9359d59f-872e-4e43-94b6-90d6616f17e0.png?1592762900",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature gets +3/+0.\nAs long as equipped creature is a Human, it has lifelink.\nEquip {3}"}
+ #:card{:code "ddq",
+        :collector-number "32",
+        :name "Sharpened Pitchfork",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36c8cdec-5ca9-40b0-ba90-48966e674546.png?1592762914",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature has first strike.\nAs long as equipped creature is a Human, it gets +1/+1.\nEquip {1}"}
+ #:card{:code "ddq",
+        :collector-number "33",
+        :name "Seraph Sanctuary",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1c1fa29-362f-40b4-b67f-513f6592fb3b.png?1592762924",
+        :type-line "Land",
+        :oracle-text
+        "When Seraph Sanctuary enters the battlefield, you gain 1 life.\nWhenever an Angel enters the battlefield under your control, you gain 1 life.\n{T}: Add {C}."}
+ #:card{:code "ddq",
+        :collector-number "34",
+        :name "Tranquil Cove",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6b403e68-4696-4c8a-bb25-68dc7f98e5e4.png?1592762935",
+        :type-line "Land",
+        :oracle-text
+        "Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters the battlefield, you gain 1 life.\n{T}: Add {W} or {U}."}
+ #:card{:code "ddq",
+        :collector-number "35",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c234458f-1b0a-47a2-9cee-b6920e1ad54e.png?1592762946",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "36",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/029540f9-9a19-4b1e-a61a-30813fd8cdd0.png?1592762956",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "37",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6bf7b441-34e9-4a0e-bc78-61ed9b077d1c.png?1592762969",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "38",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a3cc4f04-9fc2-4ee0-b60c-a102e442141f.png?1592762980",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddq",
+        :collector-number "39",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6a6edf8-47a8-4471-9d62-8fe3d102567a.png?1592762992",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddq",
+        :collector-number "40",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/7244582e-39a6-479e-9239-fc5d98c1a52f.png?1592763005",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddq",
+        :collector-number "41",
+        :name "Mindwrack Demon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd80262b-5f4a-4ea5-88da-f21fca83df3e.png?1592763015",
+        :type-line "Creature — Demon",
+        :oracle-text
+        "Flying, trample\nWhen Mindwrack Demon enters the battlefield, mill four cards.\nDelirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard."}
+ #:card{:code "ddq",
+        :collector-number "42",
+        :name "Compelling Deterrence",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d89de92b-2890-42f5-a7cf-72c67e3b70c2.png?1592763026",
+        :type-line "Instant",
+        :oracle-text
+        "Return target nonland permanent to its owner's hand. Then that player discards a card if you control a Zombie."}
+ #:card{:code "ddq",
+        :collector-number "43",
+        :name "Forbidden Alchemy",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/96fd7354-7069-4e3e-b4f2-f9cd15c970ea.png?1592763039",
+        :type-line "Instant",
+        :oracle-text
+        "Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.\nFlashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "44",
+        :name "Havengul Runebinder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/beca3e00-2c04-41be-98d1-59bc2b5f05e4.png?1592763053",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{2}{U}, {T}, Exile a creature card from your graveyard: Create a 2/2 black Zombie creature token, then put a +1/+1 counter on each Zombie creature you control."}
+ #:card{:code "ddq",
+        :collector-number "45",
+        :name "Makeshift Mauler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/8782f856-06d3-43ef-958a-d2397353fa3a.png?1592763065",
+        :type-line "Creature — Zombie Horror",
+        :oracle-text
+        "As an additional cost to cast this spell, exile a creature card from your graveyard."}
+ #:card{:code "ddq",
+        :collector-number "46",
+        :name "Relentless Skaabs",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7cf48c1a-5709-4e24-8a85-8292a4457150.png?1592763076",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "As an additional cost to cast this spell, exile a creature card from your graveyard.\nUndying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)"}
+ #:card{:code "ddq",
+        :collector-number "47",
+        :name "Scrapskin Drake",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/740fc68d-1f08-4e9e-a797-427dcd7733ba.png?1592763089",
+        :type-line "Creature — Zombie Drake",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nScrapskin Drake can block only creatures with flying."}
+ #:card{:code "ddq",
+        :collector-number "48",
+        :name "Screeching Skaab",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d0142f7-7461-446a-b690-6882ccd93116.png?1592763098",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "When Screeching Skaab enters the battlefield, mill two cards."}
+ #:card{:code "ddq",
+        :collector-number "49",
+        :name "Stitched Drake",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3ff74655-3156-4a02-af5a-f57c285e9d45.png?1592763109",
+        :type-line "Creature — Zombie Drake",
+        :oracle-text
+        "As an additional cost to cast this spell, exile a creature card from your graveyard.\nFlying"}
+ #:card{:code "ddq",
+        :collector-number "50",
+        :name "Abattoir Ghoul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/43297ddd-276f-4d2d-9d9c-937603d0e376.png?1592763119",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "First strike\nWhenever a creature dealt damage by Abattoir Ghoul this turn dies, you gain life equal to that creature's toughness."}
+ #:card{:code "ddq",
+        :collector-number "51",
+        :name "Appetite for Brains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/ef9b4e72-2ac9-444c-81a9-756c5d3f2d65.png?1592763135",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target opponent reveals their hand. You choose a card from it with mana value 4 or greater and exile that card."}
+ #:card{:code "ddq",
+        :collector-number "52",
+        :name "Barter in Blood",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb3411cb-8c43-4f06-8583-49dd9ba5db63.png?1592763150",
+        :type-line "Sorcery",
+        :oracle-text "Each player sacrifices two creatures."}
+ #:card{:code "ddq",
+        :collector-number "53",
+        :name "Butcher Ghoul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/37117234-76eb-4a94-8230-a0a8c9b92e47.png?1592763162",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)"}
+ #:card{:code "ddq",
+        :collector-number "54",
+        :name "Diregraf Ghoul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6adfcecf-bd58-4546-a058-0aa3fd93bce1.png?1592763175",
+        :type-line "Creature — Zombie",
+        :oracle-text "Diregraf Ghoul enters the battlefield tapped."}
+ #:card{:code "ddq",
+        :collector-number "55",
+        :name "Dread Return",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fee9b318-15c1-45cf-97a5-2ad4764e06d0.png?1592763188",
+        :type-line "Sorcery",
+        :oracle-text
+        "Return target creature card from your graveyard to the battlefield.\nFlashback—Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "56",
+        :name "Driver of the Dead",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fcb29d03-2287-4586-a199-b31759ced9dc.png?1592763203",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "When Driver of the Dead dies, return target creature card with mana value 2 or less from your graveyard to the battlefield."}
+ #:card{:code "ddq",
+        :collector-number "57",
+        :name "Falkenrath Noble",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65b51d77-2335-4170-8d86-96052e9dc260.png?1592763222",
+        :type-line "Creature — Vampire Noble",
+        :oracle-text
+        "Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life."}
+ #:card{:code "ddq",
+        :collector-number "58",
+        :name "Ghoulraiser",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/1/b1155a94-1e6a-43d5-8438-5fa5aaec62d1.png?1592763236",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand."}
+ #:card{:code "ddq",
+        :collector-number "59",
+        :name "Gravecrawler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c189fe5-a5f9-4057-bb70-0a88ae3169de.png?1592763247",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Gravecrawler can't block.\nYou may cast Gravecrawler from your graveyard as long as you control a Zombie."}
+ #:card{:code "ddq",
+        :collector-number "60",
+        :name "Harvester of Souls",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba7827c0-0b31-46d0-8489-e7c14d25035e.png?1592763261",
+        :type-line "Creature — Demon",
+        :oracle-text
+        "Deathtouch\nWhenever another nontoken creature dies, you may draw a card."}
+ #:card{:code "ddq",
+        :collector-number "61",
+        :name "Human Frailty",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80b582e3-1e02-4c24-87be-05880b56df70.png?1592763277",
+        :type-line "Instant",
+        :oracle-text "Destroy target Human creature."}
+ #:card{:code "ddq",
+        :collector-number "62",
+        :name "Moan of the Unhallowed",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bbed06f6-c7f0-4304-b57a-b996a531adb1.png?1592763290",
+        :type-line "Sorcery",
+        :oracle-text
+        "Create two 2/2 black Zombie creature tokens.\nFlashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "63",
+        :name "Sever the Bloodline",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/9895dbaf-2a5e-472b-a605-d3d8075eb927.png?1592763304",
+        :type-line "Sorcery",
+        :oracle-text
+        "Exile target creature and all other creatures with the same name as that creature.\nFlashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddq",
+        :collector-number "64",
+        :name "Tooth Collector",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0f7106b-6550-4b84-82df-98d47b823548.png?1592763316",
+        :type-line "Creature — Human Rogue",
+        :oracle-text
+        "When Tooth Collector enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, target creature that player controls gets -1/-1 until end of turn."}
+ #:card{:code "ddq",
+        :collector-number "65",
+        :name "Tribute to Hunger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fcfc9bd3-4378-4305-b427-4e3dd4e1fba1.png?1592763328",
+        :type-line "Instant",
+        :oracle-text
+        "Target opponent sacrifices a creature. You gain life equal to that creature's toughness."}
+ #:card{:code "ddq",
+        :collector-number "66",
+        :name "Unbreathing Horde",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd119aa8-8414-4942-9a28-3e68a9a52a8e.png?1592763342",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.\nIf Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it."}
+ #:card{:code "ddq",
+        :collector-number "67",
+        :name "Victim of Night",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/1/c128272d-4611-477c-84b9-081bddcc7188.png?1592763354",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target non-Vampire, non-Werewolf, non-Zombie creature."}
+ #:card{:code "ddq",
+        :collector-number "68",
+        :name "Diregraf Captain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f71d26ad-2d32-4202-8237-bc4612a53ea0.png?1592763367",
+        :type-line "Creature — Zombie Soldier",
+        :oracle-text
+        "Deathtouch\nOther Zombie creatures you control get +1/+1.\nWhenever another Zombie you control dies, target opponent loses 1 life."}
+ #:card{:code "ddq",
+        :collector-number "69",
+        :name "Cobbled Wings",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f8fe253-8f0c-43b6-81cd-357e33fe7e0d.png?1592763379",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature has flying.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:code "ddq",
+        :collector-number "70",
+        :name "Dismal Backwater",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5f74adf-e66b-4b5c-9e26-db4f23c721f6.png?1592763390",
+        :type-line "Land",
+        :oracle-text
+        "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters the battlefield, you gain 1 life.\n{T}: Add {U} or {B}."}
+ #:card{:code "ddq",
+        :collector-number "71",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f15e81c7-38fd-402b-bd49-68869fe7142c.png?1592763401",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "72",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/f/4f60ca04-0b6e-4e8b-b3b1-8f68fe692d1c.png?1592763414",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "73",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f49aa320-797b-4608-acda-f68ef21d1c0d.png?1592763424",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddq",
+        :collector-number "74",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b0d5294d-8f26-47f9-90f2-c0eb095dbcfc.png?1592763436",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddq",
+        :collector-number "75",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b31dbc7a-8d66-44bb-836a-c1ed95152b86.png?1592763446",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddq",
+        :collector-number "76",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/086468db-5ecb-4b57-90a8-041eff6faad8.png?1592763455",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddq",
+        :collector-number "77",
+        :name "Angel",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e3a583e-2310-4284-ac44-fd28c72ec11b.png?1593142553",
+        :type-line "Token Creature — Angel",
+        :oracle-text "Flying"}
+ #:card{:code "ddq",
+        :collector-number "78",
+        :name "Human",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/15a620da-5056-4582-8da5-2c955c3f4c0d.png?1593142549",
+        :type-line "Token Creature — Human",
+        :oracle-text ""}
+ #:card{:code "ddq",
+        :collector-number "79",
+        :name "Spirit",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b38c8153-ded1-499f-929a-b7bc8a09cd5a.png?1593142528",
+        :type-line "Token Creature — Spirit",
+        :oracle-text "Flying"}
+ #:card{:code "ddq",
+        :collector-number "80",
+        :name "Zombie",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c60e495-8fb7-43bb-b11d-52882c0246bc.png?1593142529",
+        :type-line "Token Creature — Zombie",
+        :oracle-text ""})

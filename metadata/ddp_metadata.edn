@@ -1,0 +1,778 @@
+(#:card{:code "ddp",
+        :collector-number "1",
+        :name "Avenger of Zendikar",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6a971200-0d89-45e2-8c1e-fb087642f7dc.png?1593095337",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control."}
+ #:card{:code "ddp",
+        :collector-number "2",
+        :name "Affa Guard Hound",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7269cf5-6777-4ba4-98fb-6c28b2b9cbb6.png?1593095348",
+        :type-line "Creature — Dog",
+        :oracle-text
+        "Flash (You may cast this spell any time you could cast an instant.)\nWhen Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "3",
+        :name "Caravan Escort",
+        :layout "leveler",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/817602f9-0844-4ba2-bd7c-380fcd0c15ff.png?1593095358",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 1-4\n2/2\nLEVEL 5+\n5/5\nFirst strike"}
+ #:card{:code "ddp",
+        :collector-number "4",
+        :name "Kabira Vindicator",
+        :layout "leveler",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20bc9c3c-0c20-4ea6-a182-b7f3a75f5982.png?1593095368",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "Level up {2}{W} ({2}{W}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 2-4\n3/6\nOther creatures you control get +1/+1.\nLEVEL 5+\n4/8\nOther creatures you control get +2/+2."}
+ #:card{:code "ddp",
+        :collector-number "5",
+        :name "Knight of Cliffhaven",
+        :layout "leveler",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a1c3f32-9add-455d-bb7f-b31c430c6590.png?1593095377",
+        :type-line "Creature — Kor Knight",
+        :oracle-text
+        "Level up {3} ({3}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 1-3\n2/3\nFlying\nLEVEL 4+\n4/4\nFlying, vigilance"}
+ #:card{:code "ddp",
+        :collector-number "6",
+        :name "Makindi Griffin",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/05c4a9c4-20d5-457d-9127-c27b8768255a.png?1593095387",
+        :type-line "Creature — Griffin",
+        :oracle-text "Flying"}
+ #:card{:code "ddp",
+        :collector-number "7",
+        :name "Oust",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd915d09-5ecf-45b6-90ae-970a2c7de475.png?1593095396",
+        :type-line "Sorcery",
+        :oracle-text
+        "Put target creature into its owner's library second from the top. Its controller gains 3 life."}
+ #:card{:code "ddp",
+        :collector-number "8",
+        :name "Repel the Darkness",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/297fe585-54a6-4910-b848-2a1d2d10c7a6.png?1593095406",
+        :type-line "Instant",
+        :oracle-text "Tap up to two target creatures.\nDraw a card."}
+ #:card{:code "ddp",
+        :collector-number "9",
+        :name "Sheer Drop",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca6e9658-684e-44fd-9c72-c5c3faa9fb1f.png?1593095413",
+        :type-line "Sorcery",
+        :oracle-text
+        "Destroy target tapped creature.\nAwaken 3—{5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)"}
+ #:card{:code "ddp",
+        :collector-number "10",
+        :name "Beastbreaker of Bala Ged",
+        :layout "leveler",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/9499b38f-5030-4348-a0ff-9002b0e46f2a.png?1593095420",
+        :type-line "Creature — Human Warrior",
+        :oracle-text
+        "Level up {2}{G} ({2}{G}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 1-3\n4/4\nLEVEL 4+\n6/6\nTrample"}
+ #:card{:code "ddp",
+        :collector-number "11",
+        :name "Daggerback Basilisk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b45e122-85fa-4c11-b5b4-5d3fedb1680e.png?1593095426",
+        :type-line "Creature — Basilisk",
+        :oracle-text
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)"}
+ #:card{:code "ddp",
+        :collector-number "12",
+        :name "Frontier Guide",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2f70f45f-aad0-47d5-9ed1-d5b1d591f775.png?1593095433",
+        :type-line "Creature — Elf Scout",
+        :oracle-text
+        "{3}{G}, {T}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "13",
+        :name "Graypelt Hunter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b93b6f18-87f1-4b7c-bfdd-1b2a6384b00d.png?1593095439",
+        :type-line "Creature — Human Warrior Ally",
+        :oracle-text
+        "Trample\nWhenever Graypelt Hunter or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Graypelt Hunter."}
+ #:card{:code "ddp",
+        :collector-number "14",
+        :name "Grazing Gladehart",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/06dda49d-25a2-4fa3-80f2-0d784e1ad30f.png?1593095445",
+        :type-line "Creature — Antelope",
+        :oracle-text
+        "Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life."}
+ #:card{:code "ddp",
+        :collector-number "15",
+        :name "Groundswell",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/821e9cb9-f78e-4d11-9c36-42e8b84b49cd.png?1593095453",
+        :type-line "Instant",
+        :oracle-text
+        "Target creature gets +2/+2 until end of turn.\nLandfall — If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead."}
+ #:card{:code "ddp",
+        :collector-number "16",
+        :name "Harrow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d7bcecb-9e7c-4f05-bdb5-9a0380ec2810.png?1593095461",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for up to two basic land cards, put them onto the battlefield, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "17",
+        :name "Joraga Bard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b903472f-bd9b-4d7e-9820-34b7dd601ecb.png?1593095467",
+        :type-line "Creature — Elf Rogue Bard Ally",
+        :oracle-text
+        "Whenever Joraga Bard or another Ally enters the battlefield under your control, you may have Ally creatures you control gain vigilance until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "18",
+        :name "Khalni Heart Expedition",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db7bca99-4e53-48bf-8b58-39f27cd41314.png?1593095474",
+        :type-line "Enchantment",
+        :oracle-text
+        "Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.\nRemove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "19",
+        :name "Ondu Giant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c7d46f1f-d35b-4b7b-a2db-38791014d16e.png?1593095481",
+        :type-line "Creature — Giant Druid",
+        :oracle-text
+        "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "20",
+        :name "Primal Command",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87d2ad86-5d74-4507-8faa-fc6124fd5a7f.png?1593095486",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose two —\n• Target player gains 7 life.\n• Put target noncreature permanent on top of its owner's library.\n• Target player shuffles their graveyard into their library.\n• Search your library for a creature card, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "21",
+        :name "Retreat to Kazandu",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d3a089f-2049-406f-aa7e-2fdcbc59a826.png?1593095493",
+        :type-line "Enchantment",
+        :oracle-text
+        "Landfall — Whenever a land enters the battlefield under your control, choose one —\n• Put a +1/+1 counter on target creature.\n• You gain 2 life."}
+ #:card{:code "ddp",
+        :collector-number "22",
+        :name "Scute Mob",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da8a6917-0d66-4a1b-b5ef-a2a5faf63c00.png?1593095501",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob."}
+ #:card{:code "ddp",
+        :collector-number "23",
+        :name "Tajuru Archer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/557b2178-2778-4596-9c50-28212616c56c.png?1593095508",
+        :type-line "Creature — Elf Archer Ally",
+        :oracle-text
+        "Whenever Tajuru Archer or another Ally enters the battlefield under your control, you may have Tajuru Archer deal damage to target creature with flying equal to the number of Allies you control."}
+ #:card{:code "ddp",
+        :collector-number "24",
+        :name "Territorial Baloth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d53ca35-f585-4d19-87fe-c2e27652f0b4.png?1593095515",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Landfall — Whenever a land enters the battlefield under your control, Territorial Baloth gets +2/+2 until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "25",
+        :name "Turntimber Basilisk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a1c82f0c-70ff-4f8b-a8c8-2b5313d9f0ec.png?1593095524",
+        :type-line "Creature — Basilisk",
+        :oracle-text
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLandfall — Whenever a land enters the battlefield under your control, you may have target creature block Turntimber Basilisk this turn if able."}
+ #:card{:code "ddp",
+        :collector-number "26",
+        :name "Wildheart Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ede96507-a325-4866-976b-51a824fadc5e.png?1593095533",
+        :type-line "Creature — Elf Shaman",
+        :oracle-text
+        "{8}: Target creature gets +5/+5 and gains trample until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "27",
+        :name "Veteran Warleader",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/577d6061-c6b9-43e6-9832-6a00f3eb734e.png?1593095543",
+        :type-line "Creature — Human Soldier Ally",
+        :oracle-text
+        "Veteran Warleader's power and toughness are each equal to the number of creatures you control.\nTap another untapped Ally you control: Veteran Warleader gains your choice of first strike, vigilance, or trample until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "28",
+        :name "Explorer's Scope",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/2087a2bb-7448-44c8-a075-0da6a5cdc418.png?1593095552",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Whenever equipped creature attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:code "ddp",
+        :collector-number "29",
+        :name "Seer's Sundial",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e5b04a0-8b0a-4b7c-92aa-6ad701851604.png?1593095561",
+        :type-line "Artifact",
+        :oracle-text
+        "Landfall — Whenever a land enters the battlefield under your control, you may pay {2}. If you do, draw a card."}
+ #:card{:code "ddp",
+        :collector-number "30",
+        :name "Stonework Puma",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/35155ed9-35f4-4b20-8885-c72b8372fa1d.png?1593095570",
+        :type-line "Artifact Creature — Cat Ally",
+        :oracle-text ""}
+ #:card{:code "ddp",
+        :collector-number "31",
+        :name "Evolving Wilds",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d4b4f13-2ef0-4653-ad76-f95a7feacfd3.png?1593095578",
+        :type-line "Land",
+        :oracle-text
+        "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "32",
+        :name "Graypelt Refuge",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c48e19dd-f1b0-4aab-8620-42c0247a2b3a.png?1593095585",
+        :type-line "Land",
+        :oracle-text
+        "Graypelt Refuge enters the battlefield tapped.\nWhen Graypelt Refuge enters the battlefield, you gain 1 life.\n{T}: Add {G} or {W}."}
+ #:card{:code "ddp",
+        :collector-number "33",
+        :name "Stirring Wildwood",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a87acdd9-e203-4131-b55e-dc5dd7926710.png?1593095594",
+        :type-line "Land",
+        :oracle-text
+        "Stirring Wildwood enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land."}
+ #:card{:code "ddp",
+        :collector-number "34",
+        :name "Turntimber Grove",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d0c5c07b-df81-4941-ae7e-2d38e317059d.png?1593095602",
+        :type-line "Land",
+        :oracle-text
+        "Turntimber Grove enters the battlefield tapped.\nWhen Turntimber Grove enters the battlefield, target creature gets +1/+1 until end of turn.\n{T}: Add {G}."}
+ #:card{:code "ddp",
+        :collector-number "35",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9706bb7-4fcb-4561-981d-aef34e23756b.png?1593095610",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddp",
+        :collector-number "36",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7de212e-93d3-430d-b4b8-242b7b526eda.png?1593095617",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddp",
+        :collector-number "37",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c577a2c0-88e3-49da-9586-6148f19e5c27.png?1593095625",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddp",
+        :collector-number "38",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/47c223fa-8173-4da2-abb0-753ffb4fc51c.png?1593095635",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddp",
+        :collector-number "39",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a181800-f5ef-4019-b93d-35d8f1dbf953.png?1593095644",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddp",
+        :collector-number "40",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6cb33c43-4f6e-4052-91f0-ca9bf8db5fec.png?1593095651",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddp",
+        :collector-number "41",
+        :name "Oblivion Sower",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9f3a5dea-0422-49f8-a35b-757ea500a52d.png?1593095657",
+        :type-line "Creature — Eldrazi",
+        :oracle-text
+        "When you cast this spell, target opponent exiles the top four cards of their library, then you may put any number of land cards that player owns from exile onto the battlefield under your control."}
+ #:card{:code "ddp",
+        :collector-number "42",
+        :name "Artisan of Kozilek",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c861b386-20e4-42ae-b4db-392217c4f6d1.png?1593095665",
+        :type-line "Creature — Eldrazi",
+        :oracle-text
+        "When you cast this spell, you may return target creature card from your graveyard to the battlefield.\nAnnihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)"}
+ #:card{:code "ddp",
+        :collector-number "43",
+        :name "It That Betrays",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5b64cfc0-dace-4f54-b2b1-c92d8cb64c35.png?1593095672",
+        :type-line "Creature — Eldrazi",
+        :oracle-text
+        "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)\nWhenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control."}
+ #:card{:code "ddp",
+        :collector-number "44",
+        :name "Ulamog's Crusher",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/3/c391c62f-d219-4b6d-ab49-2f8975f880c6.png?1593095680",
+        :type-line "Creature — Eldrazi",
+        :oracle-text
+        "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)\nUlamog's Crusher attacks each combat if able."}
+ #:card{:code "ddp",
+        :collector-number "45",
+        :name "Bloodrite Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94ebd19f-c3ec-41de-bde0-3118b34b76a4.png?1593095689",
+        :type-line "Creature — Vampire Shaman",
+        :oracle-text
+        "{8}: Target player loses 3 life and you gain 3 life."}
+ #:card{:code "ddp",
+        :collector-number "46",
+        :name "Bloodthrone Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee7354fe-fb76-4196-a69b-0916af73bf45.png?1593095696",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "47",
+        :name "Butcher of Malakir",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1c428841-6ac7-4ca6-a3ff-2541a1444893.png?1593095708",
+        :type-line "Creature — Vampire Warrior",
+        :oracle-text
+        "Flying\nWhenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature."}
+ #:card{:code "ddp",
+        :collector-number "48",
+        :name "Cadaver Imp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8f1b92b-d546-4ab6-8628-51e8cb366519.png?1593095721",
+        :type-line "Creature — Imp",
+        :oracle-text
+        "Flying\nWhen Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand."}
+ #:card{:code "ddp",
+        :collector-number "49",
+        :name "Consume the Meek",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c94dcaed-55da-41f4-a61f-2a79ef6c1459.png?1593095734",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy each creature with mana value 3 or less. They can't be regenerated."}
+ #:card{:code "ddp",
+        :collector-number "50",
+        :name "Corpsehatch",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f8f9dc0-67c3-4ded-bf95-02452d4ee635.png?1593095745",
+        :type-line "Sorcery",
+        :oracle-text
+        "Destroy target nonblack creature. Create two 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\""}
+ #:card{:code "ddp",
+        :collector-number "51",
+        :name "Dominator Drone",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9f48118-243b-4780-98a3-389f59e1b5b0.png?1593095754",
+        :type-line "Creature — Eldrazi Drone",
+        :oracle-text
+        "Devoid (This card has no color.)\nIngest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)\nWhen Dominator Drone enters the battlefield, if you control another colorless creature, each opponent loses 2 life."}
+ #:card{:code "ddp",
+        :collector-number "52",
+        :name "Heartstabber Mosquito",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2ce0a6f-4990-41ae-a37d-b89da2b9e4de.png?1593095763",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)\nFlying\nWhen Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature."}
+ #:card{:code "ddp",
+        :collector-number "53",
+        :name "Induce Despair",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba9153ce-2acd-4170-a2ab-c8b660614152.png?1593095773",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, reveal a creature card from your hand.\nTarget creature gets -X/-X until end of turn, where X is the revealed card's mana value."}
+ #:card{:code "ddp",
+        :collector-number "54",
+        :name "Marsh Casualties",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/9861ea61-d635-4f1c-b5eb-d608e12713ec.png?1593095782",
+        :type-line "Sorcery",
+        :oracle-text
+        "Kicker {3} (You may pay an additional {3} as you cast this spell.)\nCreatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead."}
+ #:card{:code "ddp",
+        :collector-number "55",
+        :name "Pawn of Ulamog",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/937d2120-09c6-4898-8024-b9d45b8d00e5.png?1593095791",
+        :type-line "Creature — Vampire Shaman",
+        :oracle-text
+        "Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\""}
+ #:card{:code "ddp",
+        :collector-number "56",
+        :name "Read the Bones",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/9/0975e578-cd4e-43fa-800c-c38e6cd1248a.png?1593095802",
+        :type-line "Sorcery",
+        :oracle-text "Scry 2, then draw two cards. You lose 2 life."}
+ #:card{:code "ddp",
+        :collector-number "57",
+        :name "Smother",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf605c8e-e59f-4f49-bb55-1824e7eadec0.png?1593095813",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target creature with mana value 3 or less. It can't be regenerated."}
+ #:card{:code "ddp",
+        :collector-number "58",
+        :name "Vampire Nighthawk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/93933cd6-dfc9-4901-be1c-2bf05c1785ec.png?1593095824",
+        :type-line "Creature — Vampire Shaman",
+        :oracle-text "Flying, deathtouch, lifelink"}
+ #:card{:code "ddp",
+        :collector-number "59",
+        :name "Emrakul's Hatcher",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/35fab29d-1bcc-4ba0-90bf-427d95bf6699.png?1593095836",
+        :type-line "Creature — Eldrazi Drone",
+        :oracle-text
+        "When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\""}
+ #:card{:code "ddp",
+        :collector-number "60",
+        :name "Forked Bolt",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/364ed745-0dff-477a-a2c5-987639936337.png?1593095847",
+        :type-line "Sorcery",
+        :oracle-text
+        "Forked Bolt deals 2 damage divided as you choose among one or two targets."}
+ #:card{:code "ddp",
+        :collector-number "61",
+        :name "Hellion Eruption",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/31770e58-51f2-4942-b86c-cb1f089ad74e.png?1593095857",
+        :type-line "Sorcery",
+        :oracle-text
+        "Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens."}
+ #:card{:code "ddp",
+        :collector-number "62",
+        :name "Magmaw",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f170d96-5070-41ed-abf3-e3bddceb9d0e.png?1593095869",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "{1}, Sacrifice a nonland permanent: Magmaw deals 1 damage to any target."}
+ #:card{:code "ddp",
+        :collector-number "63",
+        :name "Torch Slinger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/229dec8c-ec73-4bab-8c37-517cb4a01988.png?1593095879",
+        :type-line "Creature — Goblin Shaman",
+        :oracle-text
+        "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nWhen Torch Slinger enters the battlefield, if it was kicked, it deals 2 damage to target creature."}
+ #:card{:code "ddp",
+        :collector-number "64",
+        :name "Forerunner of Slaughter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/195b867e-41ca-48af-bbd2-5e2c97411752.png?1593095887",
+        :type-line "Creature — Eldrazi Drone",
+        :oracle-text
+        "Devoid (This card has no color.)\n{1}: Target colorless creature gains haste until end of turn."}
+ #:card{:code "ddp",
+        :collector-number "65",
+        :name "Mind Stone",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0eebe138-f638-4e8a-820e-ecdada7cc586.png?1593095895",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice Mind Stone: Draw a card."}
+ #:card{:code "ddp",
+        :collector-number "66",
+        :name "Runed Servitor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e9820223-77b9-42e5-94e3-bb131bbffc28.png?1593095903",
+        :type-line "Artifact Creature — Construct",
+        :oracle-text
+        "When Runed Servitor dies, each player draws a card."}
+ #:card{:code "ddp",
+        :collector-number "67",
+        :name "Akoum Refuge",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a110d58-3576-48cb-a446-8351e0f33a16.png?1593095910",
+        :type-line "Land",
+        :oracle-text
+        "Akoum Refuge enters the battlefield tapped.\nWhen Akoum Refuge enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}."}
+ #:card{:code "ddp",
+        :collector-number "68",
+        :name "Eldrazi Temple",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c42049e2-fe4e-4fe9-9599-faf1af50b97d.png?1593095918",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi."}
+ #:card{:code "ddp",
+        :collector-number "69",
+        :name "Rocky Tar Pit",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/869a0c02-2a67-4847-ae38-21752159adf9.png?1593095928",
+        :type-line "Land",
+        :oracle-text
+        "Rocky Tar Pit enters the battlefield tapped.\n{T}, Sacrifice Rocky Tar Pit: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle."}
+ #:card{:code "ddp",
+        :collector-number "70",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/ab891f92-bd3c-4ef7-bfe2-855fb01f583e.png?1593095936",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddp",
+        :collector-number "71",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a9bb8c7b-88f3-4ce5-8b07-8f78aa5eb456.png?1593095944",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddp",
+        :collector-number "72",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2fe8fd6b-f6b0-442a-950e-65144a019b74.png?1593095951",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddp",
+        :collector-number "73",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd16edd0-4d4e-4db6-9da9-4bb5994fa047.png?1593095963",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddp",
+        :collector-number "74",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46ae8b67-6239-47fa-b5d0-9c9454fbdcdf.png?1593095972",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddp",
+        :collector-number "75",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/ad25a56c-607b-4896-a34a-aeb2712b2a08.png?1593095984",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddp",
+        :collector-number "76",
+        :name "Eldrazi Spawn",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/3616dc24-69fb-4cd1-b14b-526e91612361.png?1593142788",
+        :type-line "Token Creature — Eldrazi Spawn",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:code "ddp",
+        :collector-number "77",
+        :name "Eldrazi Spawn",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/7787eae2-7dfb-44ab-8e92-56fdfc0bb39e.png?1593142790",
+        :type-line "Token Creature — Eldrazi Spawn",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:code "ddp",
+        :collector-number "78",
+        :name "Eldrazi Spawn",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4703aeb-4255-461f-9d46-443143a8ca3b.png?1593142800",
+        :type-line "Token Creature — Eldrazi Spawn",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:code "ddp",
+        :collector-number "79",
+        :name "Hellion",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da59fb40-b218-452f-b161-3bde15e30c74.png?1593142801",
+        :type-line "Token Creature — Hellion",
+        :oracle-text ""}
+ #:card{:code "ddp",
+        :collector-number "80",
+        :name "Plant",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d365bf32-74a3-436b-b1cc-1a7d3254257a.png?1593142810",
+        :type-line "Token Creature — Plant",
+        :oracle-text ""})

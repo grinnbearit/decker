@@ -1,0 +1,617 @@
+(#:card{:code "ddd",
+        :collector-number "1",
+        :name "Garruk Wildspeaker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45dedbf8-2a36-415d-bed5-65a3329c5ea9.png?1537149543",
+        :type-line "Legendary Planeswalker — Garruk",
+        :oracle-text
+        "+1: Untap two target lands.\n−1: Create a 3/3 green Beast creature token.\n−4: Creatures you control get +3/+3 and gain trample until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "2",
+        :name "Basking Rootwalla",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc1d4035-da49-449f-9cc2-a35b95ecef96.png?1562090225",
+        :type-line "Creature — Lizard",
+        :oracle-text
+        "{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+ #:card{:code "ddd",
+        :collector-number "3",
+        :name "Albino Troll",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f04b6f8-ce92-4f8d-ac05-e2b17c3b1f8a.png?1562089292",
+        :type-line "Creature — Troll",
+        :oracle-text
+        "Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\n{1}{G}: Regenerate Albino Troll."}
+ #:card{:code "ddd",
+        :collector-number "4",
+        :name "Vine Trellis",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b4e2b39-9c1d-4bbd-95c7-c0c5b6d434bd.png?1562089274",
+        :type-line "Creature — Plant Wall",
+        :oracle-text
+        "Defender (This creature can't attack.)\n{T}: Add {G}."}
+ #:card{:code "ddd",
+        :collector-number "5",
+        :name "Wild Mongrel",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a80d20f-3e86-47bc-a657-944355db0f73.png?1562089744",
+        :type-line "Creature — Dog",
+        :oracle-text
+        "Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "6",
+        :name "Wirewood Savage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c066535f-a6d1-4189-b54b-8f096516d990.png?1562090213",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "Whenever a Beast enters the battlefield, you may draw a card."}
+ #:card{:code "ddd",
+        :collector-number "7",
+        :name "Blastoderm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/1354ca60-7183-47ae-ba7b-0871311cba66.png?1562089277",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)\nFading 3 (This creature enters the battlefield with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)"}
+ #:card{:code "ddd",
+        :collector-number "8",
+        :name "Ravenous Baloth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c87f3600-f043-477d-8d34-40807185996f.png?1592666561",
+        :type-line "Creature — Beast",
+        :oracle-text "Sacrifice a Beast: You gain 4 life."}
+ #:card{:code "ddd",
+        :collector-number "9",
+        :name "Stampeding Wildebeests",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d0aa06df-9ecd-48cb-bbb9-1ad8477d5c59.png?1562090220",
+        :type-line "Creature — Antelope Beast",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, return a green creature you control to its owner's hand."}
+ #:card{:code "ddd",
+        :collector-number "10",
+        :name "Indrik Stomphowler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/8886df8d-70fb-4203-9f47-2dd5565a297b.png?1562089761",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "When Indrik Stomphowler enters the battlefield, destroy target artifact or enchantment."}
+ #:card{:code "ddd",
+        :collector-number "11",
+        :name "Krosan Tusker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f90c331a-970b-4e88-a9b8-2adeba22d267.png?1562090231",
+        :type-line "Creature — Boar Beast",
+        :oracle-text
+        "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)\nWhen you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)"}
+ #:card{:code "ddd",
+        :collector-number "12",
+        :name "Plated Slagwurm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/4520ed6d-725e-4aa5-be2d-2d8506a44d9f.png?1562089298",
+        :type-line "Creature — Wurm",
+        :oracle-text
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)"}
+ #:card{:code "ddd",
+        :collector-number "13",
+        :name "Genju of the Cedars",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff477469-d74e-41ac-9f91-deeec12da2b3.png?1562090235",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant Forest\n{2}: Enchanted Forest becomes a 4/4 green Spirit creature until end of turn. It's still a land.\nWhen enchanted Forest is put into a graveyard, you may return Genju of the Cedars from your graveyard to your hand."}
+ #:card{:code "ddd",
+        :collector-number "14",
+        :name "Giant Growth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f5f8c40-db25-4f1e-82d6-3db555617119.png?1562089748",
+        :type-line "Instant",
+        :oracle-text "Target creature gets +3/+3 until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "15",
+        :name "Rancor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a13768a2-caa3-4489-b1e2-ba5f0e104931.png?1562089773",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+0 and has trample.\nWhen Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand."}
+ #:card{:code "ddd",
+        :collector-number "16",
+        :name "Lignify",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2b4650a-29d0-41c2-ab3b-d685692680d5.png?1620713635",
+        :type-line "Tribal Enchantment — Treefolk Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature is a Treefolk with base power and toughness 0/4 and loses all abilities."}
+ #:card{:code "ddd",
+        :collector-number "17",
+        :name "Nature's Lore",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/430ab1e8-0fb9-48ed-8a49-b151b660de6a.png?1562089294",
+        :type-line "Sorcery",
+        :oracle-text
+        "Search your library for a Forest card, put that card onto the battlefield, then shuffle."}
+ #:card{:code "ddd",
+        :collector-number "18",
+        :name "Elephant Guide",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9bce4776-e630-403a-8222-08d893bfe6d3.png?1562089764",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +3/+3.\nWhen enchanted creature dies, create a 3/3 green Elephant creature token."}
+ #:card{:code "ddd",
+        :collector-number "19",
+        :name "Invigorate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65736b5f-1222-41a4-a2ae-3dacb4936664.png?1562089754",
+        :type-line "Instant",
+        :oracle-text
+        "If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.\nTarget creature gets +4/+4 until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "20",
+        :name "Serrated Arrows",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/aceb40f9-79e6-44cf-9dae-360b17351bbd.png?1562089778",
+        :type-line "Artifact",
+        :oracle-text
+        "Serrated Arrows enters the battlefield with three arrowhead counters on it.\nAt the beginning of your upkeep, if there are no arrowhead counters on Serrated Arrows, sacrifice it.\n{T}, Remove an arrowhead counter from Serrated Arrows: Put a -1/-1 counter on target creature."}
+ #:card{:code "ddd",
+        :collector-number "21",
+        :name "Harmonize",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c64db7b-9d60-45ce-9df2-17c8f8fd9938.png?1562089745",
+        :type-line "Sorcery",
+        :oracle-text "Draw three cards."}
+ #:card{:code "ddd",
+        :collector-number "22",
+        :name "Rude Awakening",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/10fb2533-24e5-4489-b583-e787a90815b5.png?1562089276",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose one —\n• Untap all lands you control.\n• Until end of turn, lands you control become 2/2 creatures that are still lands.\nEntwine {2}{G} (Choose both if you pay the entwine cost.)"}
+ #:card{:code "ddd",
+        :collector-number "23",
+        :name "Beast Attack",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b57bb8a9-3cba-4814-9073-e6f672ed5e4f.png?1562089779",
+        :type-line "Instant",
+        :oracle-text
+        "Create a 4/4 green Beast creature token.\nFlashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddd",
+        :collector-number "24",
+        :name "Overrun",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9a92c49-bdf1-466d-9a6c-65633efb1050.png?1562090234",
+        :type-line "Sorcery",
+        :oracle-text
+        "Creatures you control get +3/+3 and gain trample until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "25",
+        :name "Windstorm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a61100e8-bf46-472d-93e1-488ea4b65ae5.png?1562089775",
+        :type-line "Instant",
+        :oracle-text
+        "Windstorm deals X damage to each creature with flying."}
+ #:card{:code "ddd",
+        :collector-number "26",
+        :name "Slippery Karst",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac81d1fa-1b2d-496f-b78a-60c41ab64954.png?1562089776",
+        :type-line "Land",
+        :oracle-text
+        "Slippery Karst enters the battlefield tapped.\n{T}: Add {G}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "ddd",
+        :collector-number "27",
+        :name "Treetop Village",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f39744c1-3b64-4312-8577-7c40afaf2702.png?1562090229",
+        :type-line "Land",
+        :oracle-text
+        "Treetop Village enters the battlefield tapped.\n{T}: Add {G}.\n{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)"}
+ #:card{:code "ddd",
+        :collector-number "28",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53f45c42-b2c7-4464-b708-d11c654a9ce7.png?1562089741",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddd",
+        :collector-number "29",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5d206442-eb93-4dc8-ae59-5b72777c961e.png?1562089747",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddd",
+        :collector-number "30",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f373e6a7-319a-481b-8bf3-5f4e5d229456.png?1562090227",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddd",
+        :collector-number "31",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/35e8b186-ea04-4895-b5b2-f02e9c848c97.png?1562089289",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddd",
+        :collector-number "32",
+        :name "Liliana Vess",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a05ead0-5e82-4af9-9c7e-78a6de425673.png?1537149265",
+        :type-line "Legendary Planeswalker — Liliana",
+        :oracle-text
+        "+1: Target player discards a card.\n−2: Search your library for a card, then shuffle and put that card on top.\n−8: Put all creature cards from all graveyards onto the battlefield under your control."}
+ #:card{:code "ddd",
+        :collector-number "33",
+        :name "Deathgreeter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9dce12e4-4cb0-491d-8eae-d0c589f21a6e.png?1562089767",
+        :type-line "Creature — Human Shaman",
+        :oracle-text
+        "Whenever another creature dies, you may gain 1 life."}
+ #:card{:code "ddd",
+        :collector-number "34",
+        :name "Ghost-Lit Stalker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/148f6863-e15c-4c51-9479-33fbf944031e.png?1562089279",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "{4}{B}, {T}: Target player discards two cards. Activate only as a sorcery.\nChannel — {5}{B}{B}, Discard Ghost-Lit Stalker: Target player discards four cards. Activate only as a sorcery."}
+ #:card{:code "ddd",
+        :collector-number "35",
+        :name "Vampire Bats",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4ca3cfc8-6df2-44cc-8210-03a0f2d45aab.png?1562089739",
+        :type-line "Creature — Bat",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Vampire Bats gets +1/+0 until end of turn. Activate no more than twice each turn."}
+ #:card{:code "ddd",
+        :collector-number "36",
+        :name "Drudge Skeletons",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/82caa4d5-ef9f-4903-98a7-134c984da663.png?1562089759",
+        :type-line "Creature — Skeleton",
+        :oracle-text
+        "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+ #:card{:code "ddd",
+        :collector-number "37",
+        :name "Ravenous Rats",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c55d72c-61fa-48b5-bd96-9a952c05067b.png?1562089766",
+        :type-line "Creature — Rat",
+        :oracle-text
+        "When Ravenous Rats enters the battlefield, target opponent discards a card."}
+ #:card{:code "ddd",
+        :collector-number "38",
+        :name "Fleshbag Marauder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9220bde-ff88-4080-b657-3aca494e1d12.png?1562090232",
+        :type-line "Creature — Zombie Warrior",
+        :oracle-text
+        "When Fleshbag Marauder enters the battlefield, each player sacrifices a creature."}
+ #:card{:code "ddd",
+        :collector-number "39",
+        :name "Phyrexian Rager",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/a/7aede682-c5a1-486e-ae61-017f99aed5b0.png?1562089755",
+        :type-line "Creature — Phyrexian Horror",
+        :oracle-text
+        "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life."}
+ #:card{:code "ddd",
+        :collector-number "40",
+        :name "Urborg Syphon-Mage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/331732da-6003-4801-8a97-29a19986b8da.png?1562089283",
+        :type-line "Creature — Human Spellshaper",
+        :oracle-text
+        "{2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way."}
+ #:card{:code "ddd",
+        :collector-number "41",
+        :name "Wall of Bone",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/621904de-6c25-421b-8c14-de5278e4d216.png?1562089750",
+        :type-line "Creature — Skeleton Wall",
+        :oracle-text
+        "Defender (This creature can't attack.)\n{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+ #:card{:code "ddd",
+        :collector-number "42",
+        :name "Faerie Macabre",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33629770-e1fb-4e0d-9b4c-411d2a7953ae.png?1562089286",
+        :type-line "Creature — Faerie Rogue",
+        :oracle-text
+        "Flying\nDiscard Faerie Macabre: Exile up to two target cards from graveyards."}
+ #:card{:code "ddd",
+        :collector-number "43",
+        :name "Howling Banshee",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9fa0e1f2-9c17-4041-b898-89ccabccb5d8.png?1562089772",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nWhen Howling Banshee enters the battlefield, each player loses 3 life."}
+ #:card{:code "ddd",
+        :collector-number "44",
+        :name "Keening Banshee",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bccbd872-eec8-4978-acaf-fa5c3ac33861.png?1562089780",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nWhen Keening Banshee enters the battlefield, target creature gets -2/-2 until end of turn."}
+ #:card{:code "ddd",
+        :collector-number "45",
+        :name "Twisted Abomination",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63c8acb3-67da-43b1-9e4e-895779bff678.png?1562089751",
+        :type-line "Creature — Zombie Mutant",
+        :oracle-text
+        "{B}: Regenerate Twisted Abomination.\nSwampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)"}
+ #:card{:code "ddd",
+        :collector-number "46",
+        :name "Skeletal Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7cb8d6b0-13c1-4b04-9a92-1b87f2b7c1ea.png?1562089757",
+        :type-line "Creature — Vampire Skeleton",
+        :oracle-text
+        "Flying\nWhen Skeletal Vampire enters the battlefield, create two 1/1 black Bat creature tokens with flying.\n{3}{B}{B}, Sacrifice a Bat: Create two 1/1 black Bat creature tokens with flying.\nSacrifice a Bat: Regenerate Skeletal Vampire."}
+ #:card{:code "ddd",
+        :collector-number "47",
+        :name "Genju of the Fens",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d41c71a-5024-4433-986e-c82473952606.png?1562089290",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant Swamp\n{2}: Until end of turn, enchanted Swamp becomes a 2/2 black Spirit creature with \"{B}: This creature gets +1/+1 until end of turn.\" It's still a land.\nWhen enchanted Swamp is put into a graveyard, you may return Genju of the Fens from your graveyard to your hand."}
+ #:card{:code "ddd",
+        :collector-number "48",
+        :name "Bad Moon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e74f6e6-bcb1-4c4a-bfdc-7262be98249e.png?1562089769",
+        :type-line "Enchantment",
+        :oracle-text "Black creatures get +1/+1."}
+ #:card{:code "ddd",
+        :collector-number "49",
+        :name "Sign in Blood",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/572e9d19-263b-4c6c-a7f0-143d3d5a4bc5.png?1562089742",
+        :type-line "Sorcery",
+        :oracle-text "Target player draws two cards and loses 2 life."}
+ #:card{:code "ddd",
+        :collector-number "50",
+        :name "Vicious Hunger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/461e6a49-df94-40ec-ba7a-c71918977356.png?1562089737",
+        :type-line "Sorcery",
+        :oracle-text
+        "Vicious Hunger deals 2 damage to target creature and you gain 2 life."}
+ #:card{:code "ddd",
+        :collector-number "51",
+        :name "Ichor Slick",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/8529f0b0-0451-480e-82bb-df48fb9910cc.png?1562089760",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target creature gets -3/-3 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)\nMadness {3}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+ #:card{:code "ddd",
+        :collector-number "52",
+        :name "Hideous End",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/457373ae-69a4-4c3c-a8ea-d3a6b7996ba8.png?1562089300",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target nonblack creature. Its controller loses 2 life."}
+ #:card{:code "ddd",
+        :collector-number "53",
+        :name "Snuff Out",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db8b3560-4940-40cc-9797-f909dcb1519b.png?1562090223",
+        :type-line "Instant",
+        :oracle-text
+        "If you control a Swamp, you may pay 4 life rather than pay this spell's mana cost.\nDestroy target nonblack creature. It can't be regenerated."}
+ #:card{:code "ddd",
+        :collector-number "54",
+        :name "Tendrils of Corruption",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6464207b-5887-41d3-a58c-a622531ab8be.png?1562089753",
+        :type-line "Instant",
+        :oracle-text
+        "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control."}
+ #:card{:code "ddd",
+        :collector-number "55",
+        :name "Mutilate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9cbdabf-18e3-4c0c-b37b-097aaa650066.png?1562090221",
+        :type-line "Sorcery",
+        :oracle-text
+        "All creatures get -1/-1 until end of turn for each Swamp you control."}
+ #:card{:code "ddd",
+        :collector-number "56",
+        :name "Rise from the Grave",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dcd502af-7e79-459b-89ab-7d1c753e768b.png?1562090226",
+        :type-line "Sorcery",
+        :oracle-text
+        "Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types."}
+ #:card{:code "ddd",
+        :collector-number "57",
+        :name "Corrupt",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91355d59-3445-4fb4-82c5-25610714c271.png?1562089763",
+        :type-line "Sorcery",
+        :oracle-text
+        "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way."}
+ #:card{:code "ddd",
+        :collector-number "58",
+        :name "Enslave",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cbaa647f-5799-4255-82c2-06ac4c159a21.png?1562090217",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nYou control enchanted creature.\nAt the beginning of your upkeep, enchanted creature deals 1 damage to its owner."}
+ #:card{:code "ddd",
+        :collector-number "59",
+        :name "Polluted Mire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9edb2ad9-f27a-42cc-a095-303ae10968cf.png?1562089771",
+        :type-line "Land",
+        :oracle-text
+        "Polluted Mire enters the battlefield tapped.\n{T}: Add {B}.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "ddd",
+        :collector-number "60",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/2333076d-db67-405a-9e76-27edfc591e02.png?1562089280",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddd",
+        :collector-number "61",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3ff995d3-e322-422c-9385-4d93152dc7c8.png?1562089293",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddd",
+        :collector-number "62",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d29e1c2-7afc-45d0-a1cf-78998dc416f7.png?1562089282",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddd",
+        :collector-number "63",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34b5fe23-e909-422b-b5a9-74907739ca95.png?1562089287",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"})

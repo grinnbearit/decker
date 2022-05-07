@@ -1,0 +1,1435 @@
+(#:card{:code "lgn",
+        :collector-number "1",
+        :name "Akroma, Angel of Wrath",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/814245de-6105-43ef-acbf-d12d304b6331.png?1562921034",
+        :type-line "Legendary Creature — Angel",
+        :oracle-text
+        "Flying, first strike, vigilance, trample, haste, protection from black and from red"}
+ #:card{:code "lgn",
+        :collector-number "2",
+        :name "Akroma's Devoted",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/798893df-e720-471d-822d-50284de23efd.png?1562919405",
+        :type-line "Creature — Human Cleric",
+        :oracle-text "Cleric creatures have vigilance."}
+ #:card{:code "lgn",
+        :collector-number "3",
+        :name "Aven Redeemer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a2fa0a3-e40f-49e4-a4fd-427e7e808afd.png?1562922946",
+        :type-line "Creature — Bird Cleric",
+        :oracle-text
+        "Flying\n{T}: Prevent the next 2 damage that would be dealt to any target this turn."}
+ #:card{:code "lgn",
+        :collector-number "4",
+        :name "Aven Warhawk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/8/386a7062-6da8-4663-a218-75d894f7c0e0.png?1562906368",
+        :type-line "Creature — Bird Soldier",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Bird and/or Soldier card you reveal in your hand.)\nFlying"}
+ #:card{:code "lgn",
+        :collector-number "5",
+        :name "Beacon of Destiny",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/30b1cad7-4e96-4ebe-8c99-4ed9217becf3.png?1562904924",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{T}: The next time a source of your choice would deal damage to you this turn, that damage is dealt to Beacon of Destiny instead."}
+ #:card{:code "lgn",
+        :collector-number "6",
+        :name "Celestial Gatekeeper",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b4dc1d3-53a1-411b-abf9-f5e4e80edc63.png?1562897265",
+        :type-line "Creature — Bird Cleric",
+        :oracle-text
+        "Flying\nWhen Celestial Gatekeeper dies, exile it, then return up to two target Bird and/or Cleric permanent cards from your graveyard to the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "7",
+        :name "Cloudreach Cavalry",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65680bda-b999-4c2a-99a8-b03287e00807.png?1562915593",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "As long as you control a Bird, Cloudreach Cavalry gets +2/+2 and has flying."}
+ #:card{:code "lgn",
+        :collector-number "8",
+        :name "Daru Mender",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de13fba8-3fee-4ce2-b84d-b518a99eefe0.png?1562939683",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Daru Mender is turned face up, regenerate target creature."}
+ #:card{:code "lgn",
+        :collector-number "9",
+        :name "Daru Sanctifier",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/8/38b14a24-c74a-4465-9b36-8f5309e0a333.png?1562906416",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "Morph {1}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Daru Sanctifier is turned face up, destroy target enchantment."}
+ #:card{:code "lgn",
+        :collector-number "10",
+        :name "Daru Stinger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff5866a4-f4c0-45bc-9b33-b77387441d34.png?1562946568",
+        :type-line "Creature — Soldier",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Soldier card you reveal in your hand.)\n{T}: Daru Stinger deals damage equal to the number of +1/+1 counters on it to target attacking or blocking creature."}
+ #:card{:code "lgn",
+        :collector-number "11",
+        :name "Defender of the Order",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/236b1c88-20a0-479e-91fb-16bb77f699fe.png?1562902106",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "Morph {W}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Defender of the Order is turned face up, creatures you control get +0/+2 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "12",
+        :name "Deftblade Elite",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76ffbae4-7aad-493c-86a0-c6e6425da8fd.png?1562918855",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)\n{1}{W}: Prevent all combat damage that would be dealt to and dealt by Deftblade Elite this turn."}
+ #:card{:code "lgn",
+        :collector-number "13",
+        :name "Essence Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/1346fa14-1d9f-4c6a-887d-d3a93de00743.png?1562898842",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "Whenever a Sliver deals damage, its controller gains that much life."}
+ #:card{:code "lgn",
+        :collector-number "14",
+        :name "Gempalm Avenger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/dbc66291-fdcc-4106-8875-94d2b0a70deb.png?1562939189",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Avenger, Soldier creatures get +1/+1 and gain first strike until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "15",
+        :name "Glowrider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9ad94e39-0aac-46bb-a7f2-bd88c537cb9c.png?1562926255",
+        :type-line "Creature — Human Cleric",
+        :oracle-text "Noncreature spells cost {1} more to cast."}
+ #:card{:code "lgn",
+        :collector-number "16",
+        :name "Liege of the Axe",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb518bf0-17ad-4bbf-b922-42ee76ffcbea.png?1562942251",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Vigilance\nMorph {1}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Liege of the Axe is turned face up, untap it."}
+ #:card{:code "lgn",
+        :collector-number "17",
+        :name "Lowland Tracker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f8eaaded-b18a-4614-b5b5-b4bb49a2e1b1.png?1562945177",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "First strike\nProvoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "18",
+        :name "Planar Guide",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/7087cb1e-f2e2-4b75-bacf-bc4153e398e3.png?1562917504",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{3}{W}, Exile Planar Guide: Exile all creatures. At the beginning of the next end step, return those cards to the battlefield under their owners' control."}
+ #:card{:code "lgn",
+        :collector-number "19",
+        :name "Plated Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/82846d31-4981-4ef1-85c3-703569146a84.png?1562921399",
+        :type-line "Creature — Sliver",
+        :oracle-text "All Sliver creatures get +0/+1."}
+ #:card{:code "lgn",
+        :collector-number "20",
+        :name "Starlight Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4c66afc4-3d6d-4ce7-acfc-a4ad34aa3e99.png?1562910443",
+        :type-line "Creature — Human Cleric Mutant",
+        :oracle-text "{7}{W}: You gain 5 life."}
+ #:card{:code "lgn",
+        :collector-number "21",
+        :name "Stoic Champion",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6b69d619-c31b-472b-9ae8-d4503704680d.png?1562916585",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Whenever a player cycles a card, Stoic Champion gets +2/+2 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "22",
+        :name "Sunstrike Legionnaire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f5d519a-9f11-4b10-97ad-edccfda639bb.png?1562898137",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "Sunstrike Legionnaire doesn't untap during your untap step.\nWhenever another creature enters the battlefield, untap Sunstrike Legionnaire.\n{T}: Tap target creature with mana value 3 or less."}
+ #:card{:code "lgn",
+        :collector-number "23",
+        :name "Swooping Talon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34c3d19c-d4c6-4c5c-85eb-11d55959a89c.png?1562905654",
+        :type-line "Creature — Bird Soldier",
+        :oracle-text
+        "Flying\n{1}: Swooping Talon loses flying until end of turn.\nProvoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "24",
+        :name "Wall of Hope",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b463b3e1-e314-4a65-a89e-0712f630b016.png?1562931313",
+        :type-line "Creature — Wall",
+        :oracle-text
+        "Defender (This creature can't attack.)\nWhenever Wall of Hope is dealt damage, you gain that much life."}
+ #:card{:code "lgn",
+        :collector-number "25",
+        :name "Ward Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/2/e264369a-ab81-4938-9fa6-7c3e069442f4.png?1562940465",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "As Ward Sliver enters the battlefield, choose a color.\nAll Slivers have protection from the chosen color."}
+ #:card{:code "lgn",
+        :collector-number "26",
+        :name "Whipgrass Entangler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0b18b09-b1ff-479d-bd1c-cb8620a34fe4.png?1562933704",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{1}{W}: Until end of turn, target creature gains \"This creature can't attack or block unless its controller pays {1} for each Cleric on the battlefield.\""}
+ #:card{:code "lgn",
+        :collector-number "27",
+        :name "White Knight",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb9cb8ed-7abb-4e71-b42f-5041dd0c0394.png?1562935895",
+        :type-line "Creature — Human Knight",
+        :oracle-text
+        "First strike (This creature deals combat damage before creatures without first strike.)\nProtection from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.)"}
+ #:card{:code "lgn",
+        :collector-number "28",
+        :name "Windborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c45fd87-7b44-4e1a-b30f-41220b69d9e6.png?1562916728",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Flying\nCreatures can't attack you unless their controller pays {2} for each creature they control that's attacking you."}
+ #:card{:code "lgn",
+        :collector-number "29",
+        :name "Wingbeat Warrior",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd58d164-861d-4c80-ad2f-6283ed82faa1.png?1562936257",
+        :type-line "Creature — Bird Soldier Warrior",
+        :oracle-text
+        "Flying\nMorph {2}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Wingbeat Warrior is turned face up, target creature gains first strike until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "30",
+        :name "Aven Envoy",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40ead30e-9f96-4fca-b619-fdc8d1b5e2e0.png?1562907998",
+        :type-line "Creature — Bird Soldier",
+        :oracle-text "Flying"}
+ #:card{:code "lgn",
+        :collector-number "31",
+        :name "Cephalid Pathmage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88528929-4953-452a-b85e-dac15786e094.png?1562922565",
+        :type-line "Creature — Cephalid Wizard",
+        :oracle-text
+        "Cephalid Pathmage can't be blocked.\n{T}, Sacrifice Cephalid Pathmage: Target creature can't be blocked this turn."}
+ #:card{:code "lgn",
+        :collector-number "32",
+        :name "Chromeshell Crab",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e02a40a4-fa61-4595-810a-3796e0d71507.png?1562940039",
+        :type-line "Creature — Crab Beast",
+        :oracle-text
+        "Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Chromeshell Crab is turned face up, you may exchange control of target creature you control and target creature an opponent controls."}
+ #:card{:code "lgn",
+        :collector-number "33",
+        :name "Covert Operative",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/dbda6799-3b55-4714-8305-713e1e198a15.png?1562939217",
+        :type-line "Creature — Human Wizard",
+        :oracle-text "Covert Operative can't be blocked."}
+ #:card{:code "lgn",
+        :collector-number "34",
+        :name "Crookclaw Elder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8ced7275-3935-4bba-877d-81282bd171fd.png?1562923490",
+        :type-line "Creature — Bird Wizard",
+        :oracle-text
+        "Flying\nTap two untapped Birds you control: Draw a card.\nTap two untapped Wizards you control: Target creature gains flying until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "35",
+        :name "Dermoplasm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf2f5dca-e01f-41e3-bb6f-a60162118c6d.png?1562936638",
+        :type-line "Creature — Shapeshifter",
+        :oracle-text
+        "Flying\nMorph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Dermoplasm is turned face up, you may put a creature card with a morph ability from your hand onto the battlefield face up. If you do, return Dermoplasm to its owner's hand."}
+ #:card{:code "lgn",
+        :collector-number "36",
+        :name "Dreamborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e36cf11-5dfb-4593-8335-f739b7c7829c.png?1562926891",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "At the beginning of each player's upkeep, that player mills X cards, where X is the number of cards in their hand."}
+ #:card{:code "lgn",
+        :collector-number "37",
+        :name "Echo Tracer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63390760-35a7-4b4c-8c68-5c84f90d0c58.png?1562915084",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Echo Tracer is turned face up, return target creature to its owner's hand."}
+ #:card{:code "lgn",
+        :collector-number "38",
+        :name "Fugitive Wizard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a1020538-89c8-4986-9687-78ab326acb3e.png?1562927553",
+        :type-line "Creature — Human Wizard",
+        :oracle-text ""}
+ #:card{:code "lgn",
+        :collector-number "39",
+        :name "Gempalm Sorcerer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/67bda65b-2e26-4531-9f6a-952df314c8f7.png?1562915932",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Sorcerer, Wizard creatures gain flying until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "40",
+        :name "Glintwing Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16184709-f370-40cc-91f2-849a44ac451a.png?1562899418",
+        :type-line "Creature — Human Wizard Mutant",
+        :oracle-text
+        "{7}{U}: Glintwing Invoker gets +3/+3 and gains flying until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "41",
+        :name "Keeneye Aven",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a355c58-cd28-4d2d-9df1-91b4196b01ef.png?1562900188",
+        :type-line "Creature — Bird Soldier",
+        :oracle-text
+        "Flying\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "lgn",
+        :collector-number "42",
+        :name "Keeper of the Nine Gales",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f75eef50-b474-44bb-8222-3e473928304a.png?1562944856",
+        :type-line "Creature — Bird Wizard",
+        :oracle-text
+        "Flying\n{T}, Tap two untapped Birds you control: Return target permanent to its owner's hand."}
+ #:card{:code "lgn",
+        :collector-number "43",
+        :name "Master of the Veil",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d7ce1755-9f4a-4741-b6e5-288595ec494d.png?1562938335",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Master of the Veil is turned face up, you may turn target creature with a morph ability face down."}
+ #:card{:code "lgn",
+        :collector-number "44",
+        :name "Merchant of Secrets",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d1109bdd-a5ce-4e63-adee-54e43a4c4a1e.png?1562937017",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "When Merchant of Secrets enters the battlefield, draw a card."}
+ #:card{:code "lgn",
+        :collector-number "45",
+        :name "Mistform Seaswift",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2f6c73c-8162-499f-8d16-92f17c0c2bee.png?1562931016",
+        :type-line "Creature — Illusion",
+        :oracle-text
+        "Flying\n{1}: Mistform Seaswift becomes the creature type of your choice until end of turn.\nMorph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "46",
+        :name "Mistform Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79a53c29-6753-4f6b-b4ee-00c1adf7e9c6.png?1562919442",
+        :type-line "Creature — Illusion Sliver",
+        :oracle-text
+        "All Slivers have \"{1}: This permanent becomes the creature type of your choice in addition to its other types until end of turn.\""}
+ #:card{:code "lgn",
+        :collector-number "47",
+        :name "Mistform Ultimus",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3be21c3-9b83-430b-be0a-792de9a680e3.png?1562940674",
+        :type-line "Legendary Creature — Illusion",
+        :oracle-text
+        "Mistform Ultimus is every creature type (even if this card isn't on the battlefield)."}
+ #:card{:code "lgn",
+        :collector-number "48",
+        :name "Mistform Wakecaster",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/e/1e5cbfb9-9bd0-4f8b-a444-a480de4b9662.png?1562900987",
+        :type-line "Creature — Illusion",
+        :oracle-text
+        "Flying\n{1}: Mistform Wakecaster becomes the creature type of your choice until end of turn.\n{2}{U}{U}, {T}: Choose a creature type. Each creature you control becomes that type until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "49",
+        :name "Primoc Escapee",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6cb3e72-bb64-4b1e-a54b-1fe4fb4ad4c9.png?1562941357",
+        :type-line "Creature — Bird Beast",
+        :oracle-text
+        "Flying\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+ #:card{:code "lgn",
+        :collector-number "50",
+        :name "Riptide Director",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/8/28d07de3-b176-4ac7-aaa7-497c06c08b55.png?1562903326",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{2}{U}{U}, {T}: Draw a card for each Wizard you control."}
+ #:card{:code "lgn",
+        :collector-number "51",
+        :name "Riptide Mangler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/5314a802-85d6-4d7b-ae9a-ca64eec652cf.png?1562911887",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "{1}{U}: Change Riptide Mangler's base power to target creature's power. (This effect lasts indefinitely.)"}
+ #:card{:code "lgn",
+        :collector-number "52",
+        :name "Shifting Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f68c4c2-91b5-4ffe-9dff-a6834038aa94.png?1562901214",
+        :type-line "Creature — Sliver",
+        :oracle-text "Slivers can't be blocked except by Slivers."}
+ #:card{:code "lgn",
+        :collector-number "53",
+        :name "Synapse Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8bf966ff-0fd0-404d-be91-5b0c21035d73.png?1562923281",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "Whenever a Sliver deals combat damage to a player, its controller may draw a card."}
+ #:card{:code "lgn",
+        :collector-number "54",
+        :name "Voidmage Apprentice",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55924a25-e749-48f6-8ef1-1fa8376f96b1.png?1562912415",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Voidmage Apprentice is turned face up, counter target spell."}
+ #:card{:code "lgn",
+        :collector-number "55",
+        :name "Wall of Deceit",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/1496d941-88fd-433e-8fae-1218316ef3a9.png?1562899105",
+        :type-line "Creature — Wall",
+        :oracle-text
+        "Defender (This creature can't attack.)\n{3}: Turn Wall of Deceit face down.\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "56",
+        :name "Warped Researcher",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5df94a4e-1371-4b75-a557-eeb83c23cf9d.png?1562914038",
+        :type-line "Creature — Human Wizard Mutant",
+        :oracle-text
+        "Whenever a player cycles a card, Warped Researcher gains flying and shroud until end of turn. (It can't be the target of spells or abilities.)"}
+ #:card{:code "lgn",
+        :collector-number "57",
+        :name "Weaver of Lies",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/12172d0e-0c73-4482-9f83-2c23ace9b7a0.png?1562898647",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Weaver of Lies is turned face up, turn any number of target creatures with morph abilities other than Weaver of Lies face down."}
+ #:card{:code "lgn",
+        :collector-number "58",
+        :name "Willbender",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/b/fb33b35b-33c9-4d59-9ed6-7ad40ea82cb0.png?1562945680",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Willbender is turned face up, change the target of target spell or ability with a single target."}
+ #:card{:code "lgn",
+        :collector-number "59",
+        :name "Aphetto Exterminator",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/06be8f63-daf2-4dbe-bb07-2b246145cdab.png?1562896334",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Morph {3}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Aphetto Exterminator is turned face up, target creature gets -3/-3 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "60",
+        :name "Bane of the Living",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f45ebf65-77b8-41bc-b913-d864c4a00549.png?1562944144",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Morph {X}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Bane of the Living is turned face up, all creatures get -X/-X until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "61",
+        :name "Blood Celebrant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/805de325-6f14-4a52-bb85-f9a9545d82a4.png?1562920849",
+        :type-line "Creature — Human Cleric",
+        :oracle-text "{B}, Pay 1 life: Add one mana of any color."}
+ #:card{:code "lgn",
+        :collector-number "62",
+        :name "Corpse Harvester",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d09c2c8-526b-4693-bbaa-109911ce5281.png?1562897662",
+        :type-line "Creature — Zombie Wizard",
+        :oracle-text
+        "{1}{B}, {T}, Sacrifice a creature: Search your library for a Zombie card and a Swamp card, reveal them, put them into your hand, then shuffle."}
+ #:card{:code "lgn",
+        :collector-number "63",
+        :name "Crypt Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/0/507097eb-6b50-47ae-a545-df76b743b2bd.png?1562911300",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "All Slivers have \"{T}: Regenerate target Sliver.\""}
+ #:card{:code "lgn",
+        :collector-number "64",
+        :name "Dark Supplicant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb685932-5df5-4f26-9633-b1daa8925359.png?1562942279",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{T}, Sacrifice three Clerics: Search your graveyard, hand, and/or library for a card named Scion of Darkness and put it onto the battlefield. If you search your library this way, shuffle."}
+ #:card{:code "lgn",
+        :collector-number "65",
+        :name "Deathmark Prelate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b54fb4b2-ecce-4a6c-8d76-4b5879ba836f.png?1562931487",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{2}{B}, {T}, Sacrifice a Zombie: Destroy target non-Zombie creature. It can't be regenerated. Activate only as a sorcery."}
+ #:card{:code "lgn",
+        :collector-number "66",
+        :name "Drinker of Sorrow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2bc8758b-68cc-45ab-85d0-b870cef7dd85.png?1562903921",
+        :type-line "Creature — Horror",
+        :oracle-text
+        "Drinker of Sorrow can't block.\nWhenever Drinker of Sorrow deals combat damage, sacrifice a permanent."}
+ #:card{:code "lgn",
+        :collector-number "67",
+        :name "Dripping Dead",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cdb3b483-01a8-4f54-9a3a-0d3f5aa3cd8b.png?1562936359",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Dripping Dead can't block.\nWhenever Dripping Dead deals combat damage to a creature, destroy that creature. It can't be regenerated."}
+ #:card{:code "lgn",
+        :collector-number "68",
+        :name "Earthblighter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/830a4048-48ac-4856-9af9-5052ec146518.png?1562921544",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "{2}{B}, {T}, Sacrifice a Goblin: Destroy target land."}
+ #:card{:code "lgn",
+        :collector-number "69",
+        :name "Embalmed Brawler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2e214da0-68c0-4cf6-ba12-e2b2394909c1.png?1562904398",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Zombie card you reveal in your hand.)\nWhenever Embalmed Brawler attacks or blocks, you lose 1 life for each +1/+1 counter on it."}
+ #:card{:code "lgn",
+        :collector-number "70",
+        :name "Gempalm Polluter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e9943ac-9e3f-4ee0-b5fd-3b0fb17097d8.png?1562923789",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Cycling {B}{B} ({B}{B}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Polluter, you may have target player lose life equal to the number of Zombies on the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "71",
+        :name "Ghastly Remains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63e67323-df54-4043-a6b6-18bb89ef1f62.png?1562915232",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Zombie card you reveal in your hand.)\nAt the beginning of your upkeep, if Ghastly Remains is in your graveyard, you may pay {B}{B}{B}. If you do, return Ghastly Remains to your hand."}
+ #:card{:code "lgn",
+        :collector-number "72",
+        :name "Goblin Turncoat",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2ac74e64-8831-4af2-9c6d-22c533389144.png?1562903706",
+        :type-line "Creature — Goblin Mercenary",
+        :oracle-text "Sacrifice a Goblin: Regenerate Goblin Turncoat."}
+ #:card{:code "lgn",
+        :collector-number "73",
+        :name "Graveborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa432e4e-ff23-4ad2-8d0a-403efee86f11.png?1562929311",
+        :type-line "Creature — Zombie Spirit",
+        :oracle-text
+        "At the beginning of your upkeep, you draw X cards and you lose X life, where X is the number of Zombies you control."}
+ #:card{:code "lgn",
+        :collector-number "74",
+        :name "Havoc Demon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6477802a-349d-41e1-b050-58da0d806abf.png?1562915373",
+        :type-line "Creature — Demon",
+        :oracle-text
+        "Flying\nWhen Havoc Demon dies, all creatures get -5/-5 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "75",
+        :name "Hollow Specter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2db779fd-0e01-417b-aee2-786db2c0b8c8.png?1562904303",
+        :type-line "Creature — Specter",
+        :oracle-text
+        "Flying\nWhenever Hollow Specter deals combat damage to a player, you may pay {X}. If you do, that player reveals X cards from their hand and you choose one of them. That player discards that card."}
+ #:card{:code "lgn",
+        :collector-number "76",
+        :name "Infernal Caretaker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a028a30-6242-4d87-9501-d1826ecb69b0.png?1562922909",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "Morph {3}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Infernal Caretaker is turned face up, return all Zombie cards from all graveyards to their owners' hands."}
+ #:card{:code "lgn",
+        :collector-number "77",
+        :name "Noxious Ghoul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9d3b33d-25b4-42b4-a93e-2a6b69832030.png?1562945384",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Whenever Noxious Ghoul or another Zombie enters the battlefield, all non-Zombie creatures get -1/-1 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "78",
+        :name "Phage the Untouchable",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a410b933-99d0-4383-b54b-4839a76eb6fe.png?1562928176",
+        :type-line "Legendary Creature — Avatar Minion",
+        :oracle-text
+        "When Phage the Untouchable enters the battlefield, if you didn't cast it from your hand, you lose the game.\nWhenever Phage deals combat damage to a creature, destroy that creature. It can't be regenerated.\nWhenever Phage deals combat damage to a player, that player loses the game."}
+ #:card{:code "lgn",
+        :collector-number "79",
+        :name "Scion of Darkness",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/497c2629-1263-48a4-9c31-7f052808b2b8.png?1562909883",
+        :type-line "Creature — Avatar",
+        :oracle-text
+        "Trample\nWhenever Scion of Darkness deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.\nCycling {3} ({3}, Discard this card: Draw a card.)"}
+ #:card{:code "lgn",
+        :collector-number "80",
+        :name "Skinthinner",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/89b8c392-da68-4894-b6e8-eb430141a0d7.png?1562922833",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Skinthinner is turned face up, destroy target nonblack creature. It can't be regenerated."}
+ #:card{:code "lgn",
+        :collector-number "81",
+        :name "Smokespew Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fea393a4-58c8-4a42-bd95-a3312504f2e2.png?1562946410",
+        :type-line "Creature — Zombie Mutant",
+        :oracle-text
+        "{7}{B}: Target creature gets -3/-3 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "82",
+        :name "Sootfeather Flock",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/216a2ccc-8847-452b-b030-27d8506675bd.png?1562901660",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Flying\nMorph {3}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "83",
+        :name "Spectral Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/bec97e3c-7b75-4abb-a50e-86bc8cc3bf06.png?1562933371",
+        :type-line "Creature — Sliver Spirit",
+        :oracle-text
+        "All Sliver creatures have \"{2}: This creature gets +1/+1 until end of turn.\""}
+ #:card{:code "lgn",
+        :collector-number "84",
+        :name "Toxin Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c04ab6b6-27ee-4c93-a87c-cbc3743f4faf.png?1562933654",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "Whenever a Sliver deals combat damage to a creature, destroy that creature. It can't be regenerated."}
+ #:card{:code "lgn",
+        :collector-number "85",
+        :name "Vile Deacon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2641bd5-c845-47a1-8038-bb28b06f896e.png?1562930921",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "Whenever Vile Deacon attacks, it gets +X/+X until end of turn, where X is the number of Clerics on the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "86",
+        :name "Withered Wretch",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8a82948-503f-4ad4-9e3c-c080c16afd63.png?1562932159",
+        :type-line "Creature — Zombie Cleric",
+        :oracle-text "{1}: Exile target card from a graveyard."}
+ #:card{:code "lgn",
+        :collector-number "87",
+        :name "Zombie Brute",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b37db470-3aef-4fc4-98ce-63b5fb2546f6.png?1562931118",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Zombie card you reveal in your hand.)\nTrample"}
+ #:card{:code "lgn",
+        :collector-number "88",
+        :name "Blade Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8d6f7a6-7b6a-44f4-be04-7c02806b9f09.png?1562929059",
+        :type-line "Creature — Sliver",
+        :oracle-text "All Sliver creatures get +1/+0."}
+ #:card{:code "lgn",
+        :collector-number "89",
+        :name "Bloodstoke Howler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/743779d4-fee8-4b8d-a5ac-27f355e006e5.png?1562918274",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Morph {6}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Bloodstoke Howler is turned face up, Beast creatures you control get +3/+0 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "90",
+        :name "Clickslither",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bf1c3f62-f275-46e1-8c26-c219683effb1.png?1562933424",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "Haste\nSacrifice a Goblin: Clickslither gets +2/+2 and gains trample until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "91",
+        :name "Crested Craghorn",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aadb40c8-3d54-4705-82dc-54e8d6e315d5.png?1562929450",
+        :type-line "Creature — Goat Beast",
+        :oracle-text
+        "Haste\nProvoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "92",
+        :name "Flamewave Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/13a68534-2d9a-47e9-9d2a-cb6df4362aa9.png?1562898919",
+        :type-line "Creature — Goblin Mutant",
+        :oracle-text
+        "{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker."}
+ #:card{:code "lgn",
+        :collector-number "93",
+        :name "Frenetic Raptor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8f6bc3c0-2d6e-4a09-84c4-b26a352186bb.png?1562923949",
+        :type-line "Creature — Dinosaur Beast",
+        :oracle-text "Beasts can't block."}
+ #:card{:code "lgn",
+        :collector-number "94",
+        :name "Gempalm Incinerator",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/2687c311-fd0c-4fe0-bce8-e3f412216796.png?1562902848",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Incinerator, you may have it deal X damage to target creature, where X is the number of Goblins on the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "95",
+        :name "Goblin Assassin",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57ec836f-6dcf-45f9-8e95-487762742a1e.png?1562912891",
+        :type-line "Creature — Goblin Assassin",
+        :oracle-text
+        "Whenever Goblin Assassin or another Goblin enters the battlefield, each player flips a coin. Each player whose coin comes up tails sacrifices a creature."}
+ #:card{:code "lgn",
+        :collector-number "96",
+        :name "Goblin Clearcutter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e07c0cae-852c-444c-8994-68a6d81b4cd4.png?1562940096",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}."}
+ #:card{:code "lgn",
+        :collector-number "97",
+        :name "Goblin Dynamo",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/9462cb4e-a38c-4a41-bad2-4ea3b22b0edb.png?1562924933",
+        :type-line "Creature — Goblin Mutant",
+        :oracle-text
+        "{T}: Goblin Dynamo deals 1 damage to any target.\n{X}{R}, {T}, Sacrifice Goblin Dynamo: It deals X damage to any target."}
+ #:card{:code "lgn",
+        :collector-number "98",
+        :name "Goblin Firebug",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/2370d319-d1d2-4bca-9275-ff72fb400709.png?1562902107",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "When Goblin Firebug leaves the battlefield, sacrifice a land."}
+ #:card{:code "lgn",
+        :collector-number "99",
+        :name "Goblin Goon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c77cac8-fe95-4925-a815-8c514cc41b22.png?1562916759",
+        :type-line "Creature — Goblin Mutant",
+        :oracle-text
+        "Goblin Goon can't attack unless you control more creatures than defending player.\nGoblin Goon can't block unless you control more creatures than attacking player."}
+ #:card{:code "lgn",
+        :collector-number "100",
+        :name "Goblin Grappler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c948872-295c-41b9-8094-db7db7578b0d.png?1562913803",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "101",
+        :name "Goblin Lookout",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23bbe84a-8857-467a-a4a1-e57086cc9501.png?1562902159",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "{T}, Sacrifice a Goblin: Goblin creatures get +2/+0 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "102",
+        :name "Hunter Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca9aea1a-6f50-4f66-9f36-2e214dce41b4.png?1562935688",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "All Sliver creatures have provoke. (Whenever a Sliver attacks, its controller may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "103",
+        :name "Imperial Hellkite",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1fc3c5f3-f71b-4a1e-bd90-365d23889925.png?1562901333",
+        :type-line "Creature — Dragon",
+        :oracle-text
+        "Flying\nMorph {6}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "lgn",
+        :collector-number "104",
+        :name "Kilnmouth Dragon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/effe13c3-3c8b-4faa-bdd4-491039bfa82b.png?1562943198",
+        :type-line "Creature — Dragon",
+        :oracle-text
+        "Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)\nFlying\n{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target."}
+ #:card{:code "lgn",
+        :collector-number "105",
+        :name "Lavaborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4cbc94fb-9e3f-4075-bb6a-8f04862dc585.png?1562910527",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to that player."}
+ #:card{:code "lgn",
+        :collector-number "106",
+        :name "Macetail Hystrodon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/8451ab3f-5d61-4f35-ab70-5a5060caf53d.png?1562921768",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "First strike, haste\nCycling {3} ({3}, Discard this card: Draw a card.)"}
+ #:card{:code "lgn",
+        :collector-number "107",
+        :name "Magma Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/9091d908-456f-4127-857d-b22fdb4f2fd9.png?1562924149",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "All Slivers have \"{T}: Target Sliver creature gets +X/+0 until end of turn, where X is the number of Slivers on the battlefield.\""}
+ #:card{:code "lgn",
+        :collector-number "108",
+        :name "Ridgetop Raptor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/1013cbc4-09f4-484f-b328-9f7403225149.png?1562898258",
+        :type-line "Creature — Dinosaur Beast",
+        :oracle-text
+        "Double strike (This creature deals both first-strike and regular combat damage.)"}
+ #:card{:code "lgn",
+        :collector-number "109",
+        :name "Rockshard Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d6343c0-3fb5-4bac-bea7-cba36498cd69.png?1562904235",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Double strike (This creature deals both first-strike and regular combat damage.)\nMorph {4}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "110",
+        :name "Shaleskin Plower",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/2/42658b33-9a12-403b-bc7d-807fbe1f1a36.png?1562908348",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Morph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Shaleskin Plower is turned face up, destroy target land."}
+ #:card{:code "lgn",
+        :collector-number "111",
+        :name "Skirk Alarmist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd1c1d41-8666-4c1d-9498-0e259472958d.png?1562946070",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Haste\n{T}: Turn target face-down creature you control face up. At the beginning of the next end step, sacrifice it."}
+ #:card{:code "lgn",
+        :collector-number "112",
+        :name "Skirk Drill Sergeant",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/359b2d1a-4027-46d9-b780-bcac8d60ecdb.png?1562905832",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "Whenever Skirk Drill Sergeant or another Goblin dies, you may pay {2}{R}. If you do, reveal the top card of your library. If it's a Goblin permanent card, put it onto the battlefield. Otherwise, put it into your graveyard."}
+ #:card{:code "lgn",
+        :collector-number "113",
+        :name "Skirk Marauder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bbd2ff12-c6f7-4986-801f-225ad6f59278.png?1562932762",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Skirk Marauder is turned face up, it deals 2 damage to any target."}
+ #:card{:code "lgn",
+        :collector-number "114",
+        :name "Skirk Outrider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/416de0f4-1540-4286-a1ac-4f57301c54e9.png?1562908122",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "As long as you control a Beast, Skirk Outrider gets +2/+2 and has trample."}
+ #:card{:code "lgn",
+        :collector-number "115",
+        :name "Unstable Hulk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/889cfde2-42fa-4278-ae4e-7e4dd993cda8.png?1562922605",
+        :type-line "Creature — Goblin Mutant",
+        :oracle-text
+        "Morph {3}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Unstable Hulk is turned face up, it gets +6/+6 and gains trample until end of turn. You skip your next turn."}
+ #:card{:code "lgn",
+        :collector-number "116",
+        :name "Warbreak Trumpeter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc942957-1067-428c-8ee1-01f9e260efe1.png?1562945961",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "Morph {X}{X}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Warbreak Trumpeter is turned face up, create X 1/1 red Goblin creature tokens."}
+ #:card{:code "lgn",
+        :collector-number "117",
+        :name "Berserk Murlodont",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/499c4674-dd9f-4848-8447-721f842a0213.png?1562909903",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Whenever a Beast becomes blocked, it gets +1/+1 until end of turn for each creature blocking it."}
+ #:card{:code "lgn",
+        :collector-number "118",
+        :name "Branchsnap Lorian",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52118ff1-ad76-4b97-9fdc-6adfe80140f8.png?1562911651",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Trample\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "119",
+        :name "Brontotherium",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a171f5e2-ed3d-4675-a4fc-953ebb907aa0.png?1562927638",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Trample\nProvoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "120",
+        :name "Brood Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33803c12-1d78-49fe-a3a3-7f47c60a96b6.png?1562905370",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "Whenever a Sliver deals combat damage to a player, its controller may create a 1/1 colorless Sliver creature token."}
+ #:card{:code "lgn",
+        :collector-number "121",
+        :name "Caller of the Claw",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a073459e-1f00-47e0-a1b3-d30203aa35d1.png?1562927399",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "Flash\nWhen Caller of the Claw enters the battlefield, create a 2/2 green Bear creature token for each nontoken creature put into your graveyard from the battlefield this turn."}
+ #:card{:code "lgn",
+        :collector-number "122",
+        :name "Canopy Crawler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/c/0ccdc9d7-71b5-4304-8d19-a63952e17a6b.png?1562897615",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Beast card you reveal in your hand.)\n{T}: Target creature gets +1/+1 until end of turn for each +1/+1 counter on Canopy Crawler."}
+ #:card{:code "lgn",
+        :collector-number "123",
+        :name "Defiant Elf",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3b7a0b8f-6942-40b0-8efc-234ae77855b4.png?1562907012",
+        :type-line "Creature — Elf",
+        :oracle-text "Trample"}
+ #:card{:code "lgn",
+        :collector-number "124",
+        :name "Elvish Soultiller",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e2c8de5-bc80-4fad-af09-6d0a639f6e18.png?1562926879",
+        :type-line "Creature — Elf Mutant",
+        :oracle-text
+        "When Elvish Soultiller dies, choose a creature type. Shuffle all creature cards of that type from your graveyard into your library."}
+ #:card{:code "lgn",
+        :collector-number "125",
+        :name "Enormous Baloth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/cebfb5a6-9052-47be-b931-834b5064df31.png?1562936577",
+        :type-line "Creature — Beast",
+        :oracle-text ""}
+ #:card{:code "lgn",
+        :collector-number "126",
+        :name "Feral Throwback",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/49e0c5e5-b293-419e-aac5-3b81af4b6498.png?1562909958",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Amplify 2 (As this creature enters the battlefield, put two +1/+1 counters on it for each Beast card you reveal in your hand.)\nProvoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"}
+ #:card{:code "lgn",
+        :collector-number "127",
+        :name "Gempalm Strider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f93d89f5-3e77-4dc0-935b-e6f6a3e968d2.png?1562945248",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "Cycling {2}{G}{G} ({2}{G}{G}, Discard this card: Draw a card.)\nWhen you cycle Gempalm Strider, Elf creatures get +2/+2 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "128",
+        :name "Glowering Rogon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/974b0881-bd26-4074-93dd-a1e3600347c4.png?1562925487",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Beast card you reveal in your hand.)"}
+ #:card{:code "lgn",
+        :collector-number "129",
+        :name "Hundroog",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f525c356-88ca-4e2e-8f06-663be101e34f.png?1562944359",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Cycling {3} ({3}, Discard this card: Draw a card.)"}
+ #:card{:code "lgn",
+        :collector-number "130",
+        :name "Krosan Cloudscraper",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/51ef4cda-e55b-45a8-9c02-4e77e5b15a9e.png?1562911611",
+        :type-line "Creature — Beast Mutant",
+        :oracle-text
+        "At the beginning of your upkeep, sacrifice Krosan Cloudscraper unless you pay {G}{G}.\nMorph {7}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "131",
+        :name "Krosan Vorine",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7d1c6c6-16b3-4a52-aeda-683b1aeb0e7f.png?1562931992",
+        :type-line "Creature — Cat Beast",
+        :oracle-text
+        "Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)\nKrosan Vorine can't be blocked by more than one creature."}
+ #:card{:code "lgn",
+        :collector-number "132",
+        :name "Nantuko Vigilante",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7474849-a6b4-4f3b-a836-37b88c26047b.png?1562941424",
+        :type-line "Creature — Insect Druid Mutant",
+        :oracle-text
+        "Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Nantuko Vigilante is turned face up, destroy target artifact or enchantment."}
+ #:card{:code "lgn",
+        :collector-number "133",
+        :name "Needleshot Gourna",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9b1628d-aacd-4e19-9ebb-bcd9b2842c91.png?1562945371",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Reach (This creature can block creatures with flying.)"}
+ #:card{:code "lgn",
+        :collector-number "134",
+        :name "Patron of the Wild",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7f7a0810-3970-454f-8381-700d6c6aefdc.png?1562920729",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "Morph {2}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Patron of the Wild is turned face up, target creature gets +3/+3 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "135",
+        :name "Primal Whisperer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c777432f-7965-4ad8-8d53-93919ae767d4.png?1562935034",
+        :type-line "Creature — Elf Soldier",
+        :oracle-text
+        "Primal Whisperer gets +2/+2 for each face-down creature on the battlefield.\nMorph {3}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:code "lgn",
+        :collector-number "136",
+        :name "Quick Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/30a60b2d-aeeb-4dbf-bf1a-20a274fe323f.png?1562904913",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "Flash\nAny player may cast Sliver spells as though they had flash."}
+ #:card{:code "lgn",
+        :collector-number "137",
+        :name "Root Sliver",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fdf5a106-5fb7-40e4-82a7-db559302a923.png?1562946276",
+        :type-line "Creature — Sliver",
+        :oracle-text
+        "This spell can't be countered.\nSliver spells can't be countered."}
+ #:card{:code "lgn",
+        :collector-number "138",
+        :name "Seedborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/35b13321-e429-4497-aef2-93a9df421d38.png?1562905861",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Untap all permanents you control during each other player's untap step."}
+ #:card{:code "lgn",
+        :collector-number "139",
+        :name "Stonewood Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94d0235d-7176-44a2-8e95-eb231f4af441.png?1562925012",
+        :type-line "Creature — Elf Mutant",
+        :oracle-text
+        "{7}{G}: Stonewood Invoker gets +5/+5 until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "140",
+        :name "Timberwatch Elf",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/045ae4ec-07f2-4098-a2d9-4bfcbd0273b2.png?1562895850",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "141",
+        :name "Totem Speaker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce12115b-2667-47f7-bd24-17c982a4f79a.png?1562936447",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "Whenever a Beast enters the battlefield, you may gain 3 life."}
+ #:card{:code "lgn",
+        :collector-number "142",
+        :name "Tribal Forcemage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/104735d7-6cea-4d4a-8cc8-e1934883da97.png?1562898295",
+        :type-line "Creature — Elf Wizard",
+        :oracle-text
+        "Morph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Tribal Forcemage is turned face up, creatures of the creature type of your choice get +2/+2 and gain trample until end of turn."}
+ #:card{:code "lgn",
+        :collector-number "143",
+        :name "Vexing Beetle",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d599d35f-1b73-498b-9a21-831c908a95d8.png?1562937848",
+        :type-line "Creature — Insect",
+        :oracle-text
+        "This spell can't be countered.\nVexing Beetle gets +3/+3 as long as no opponent controls a creature."}
+ #:card{:code "lgn",
+        :collector-number "144",
+        :name "Wirewood Channeler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36e5579e-dab7-49db-a141-a5bc5b5aee90.png?1562906076",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "{T}: Add X mana of any one color, where X is the number of Elves on the battlefield."}
+ #:card{:code "lgn",
+        :collector-number "145",
+        :name "Wirewood Hivemaster",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea55b4fc-366f-4906-9eaa-9085f6a22612.png?1562942070",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "Whenever another nontoken Elf enters the battlefield, you may create a 1/1 green Insect creature token."})

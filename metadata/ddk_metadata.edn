@@ -1,0 +1,779 @@
+(#:card{:code "ddk",
+        :collector-number "1",
+        :name "Sorin, Lord of Innistrad",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/329b9f70-2c35-4fec-813a-5b7f26d34c8e.png?1592714178",
+        :type-line "Legendary Planeswalker — Sorin",
+        :oracle-text
+        "+1: Create a 1/1 black Vampire creature token with lifelink.\n−2: You get an emblem with \"Creatures you control get +1/+0.\"\n−6: Destroy up to three target creatures and/or other planeswalkers. Return each card put into a graveyard this way to the battlefield under your control."}
+ #:card{:code "ddk",
+        :collector-number "2",
+        :name "Doomed Traveler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8ed737f-dbda-455c-a240-5fca57caeb64.png?1592714184",
+        :type-line "Creature — Human Soldier",
+        :oracle-text
+        "When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying."}
+ #:card{:code "ddk",
+        :collector-number "3",
+        :name "Vampire Lacerator",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/4425f4be-cc4e-4247-a407-39142bcb6b44.png?1592714190",
+        :type-line "Creature — Vampire Warrior",
+        :oracle-text
+        "At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life."}
+ #:card{:code "ddk",
+        :collector-number "4",
+        :name "Wall of Omens",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/0596155d-8f83-40ca-be31-9a0df1ced65e.png?1592714198",
+        :type-line "Creature — Wall",
+        :oracle-text
+        "Defender\nWhen Wall of Omens enters the battlefield, draw a card."}
+ #:card{:code "ddk",
+        :collector-number "5",
+        :name "Child of Night",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7cb2a512-330a-4ae6-888c-6762fa099fae.png?1592714204",
+        :type-line "Creature — Vampire",
+        :oracle-text "Lifelink"}
+ #:card{:code "ddk",
+        :collector-number "6",
+        :name "Duskhunter Bat",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/3438edfe-479d-4595-a694-5848f07156d6.png?1592714211",
+        :type-line "Creature — Bat",
+        :oracle-text
+        "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)\nFlying"}
+ #:card{:code "ddk",
+        :collector-number "7",
+        :name "Mesmeric Fiend",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/1785cb18-c291-4fd5-b8c7-ace893c32e49.png?1592714218",
+        :type-line "Creature — Nightmare Horror",
+        :oracle-text
+        "When Mesmeric Fiend enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.\nWhen Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand."}
+ #:card{:code "ddk",
+        :collector-number "8",
+        :name "Gatekeeper of Malakir",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8417510-3e4b-4093-8980-ce6a9625eb14.png?1592714225",
+        :type-line "Creature — Vampire Warrior",
+        :oracle-text
+        "Kicker {B} (You may pay an additional {B} as you cast this spell.)\nWhen Gatekeeper of Malakir enters the battlefield, if it was kicked, target player sacrifices a creature."}
+ #:card{:code "ddk",
+        :collector-number "9",
+        :name "Twilight Drover",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3c44b4b-616e-4652-b85f-a627025d09b8.png?1592714231",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "Whenever a creature token leaves the battlefield, put a +1/+1 counter on Twilight Drover.\n{2}{W}, Remove a +1/+1 counter from Twilight Drover: Create two 1/1 white Spirit creature tokens with flying."}
+ #:card{:code "ddk",
+        :collector-number "10",
+        :name "Bloodrage Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/692013da-b090-49d1-9c7a-ff5863d6ffd5.png?1592714238",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)"}
+ #:card{:code "ddk",
+        :collector-number "11",
+        :name "Fiend Hunter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d7b402fa-abf1-4e93-a481-dfd065ae3206.png?1592714245",
+        :type-line "Creature — Human Cleric",
+        :oracle-text
+        "When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+ #:card{:code "ddk",
+        :collector-number "12",
+        :name "Vampire Nighthawk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c98ccdac-3c6f-464f-962d-73fd4b8c597f.png?1592714251",
+        :type-line "Creature — Vampire Shaman",
+        :oracle-text "Flying, deathtouch, lifelink"}
+ #:card{:code "ddk",
+        :collector-number "13",
+        :name "Mausoleum Guard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/9/996ac78f-ad5f-44d5-8567-3d88934c5a71.png?1592714257",
+        :type-line "Creature — Human Scout",
+        :oracle-text
+        "When Mausoleum Guard dies, create two 1/1 white Spirit creature tokens with flying."}
+ #:card{:code "ddk",
+        :collector-number "14",
+        :name "Phantom General",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2bd4af62-ed1e-47be-991b-0ce984a7b321.png?1592714264",
+        :type-line "Creature — Spirit Soldier",
+        :oracle-text "Creature tokens you control get +1/+1."}
+ #:card{:code "ddk",
+        :collector-number "15",
+        :name "Vampire Outcasts",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/354eabab-39d2-457e-a0e7-5d6e26f0b17c.png?1592714270",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)"}
+ #:card{:code "ddk",
+        :collector-number "16",
+        :name "Revenant Patriarch",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52f23f01-67f0-49d3-b907-6203976cdf4d.png?1592714276",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips their next combat phase.\nRevenant Patriarch can't block."}
+ #:card{:code "ddk",
+        :collector-number "17",
+        :name "Sengir Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88ade143-90be-4ded-911e-5f1318ac24a1.png?1592714282",
+        :type-line "Creature — Vampire",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire."}
+ #:card{:code "ddk",
+        :collector-number "18",
+        :name "Butcher of Malakir",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/7053cea1-d986-4ae6-b9ae-e7aace6b1f9f.png?1592714291",
+        :type-line "Creature — Vampire Warrior",
+        :oracle-text
+        "Flying\nWhenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature."}
+ #:card{:code "ddk",
+        :collector-number "19",
+        :name "Vampire's Bite",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57003079-3d0f-48fe-8fc1-94d38a94d1a8.png?1592714298",
+        :type-line "Instant",
+        :oracle-text
+        "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)\nTarget creature gets +3/+0 until end of turn. If this spell was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"}
+ #:card{:code "ddk",
+        :collector-number "20",
+        :name "Decompose",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4868145-fb8b-4624-8554-ddbab3d5a43c.png?1592714305",
+        :type-line "Sorcery",
+        :oracle-text
+        "Exile up to three target cards from a single graveyard."}
+ #:card{:code "ddk",
+        :collector-number "21",
+        :name "Sorin's Thirst",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/2700fb32-029b-485d-9d9d-3527ca7ef33c.png?1592714313",
+        :type-line "Instant",
+        :oracle-text
+        "Sorin's Thirst deals 2 damage to target creature and you gain 2 life."}
+ #:card{:code "ddk",
+        :collector-number "22",
+        :name "Urge to Feed",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/eed371fb-b23b-41b0-9fa2-4cb1be8b77cc.png?1592714320",
+        :type-line "Instant",
+        :oracle-text
+        "Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires."}
+ #:card{:code "ddk",
+        :collector-number "23",
+        :name "Zealous Persecution",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80b73c66-3b26-4067-bc44-b74fe0f6547e.png?1592714326",
+        :type-line "Instant",
+        :oracle-text
+        "Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1."}
+ #:card{:code "ddk",
+        :collector-number "24",
+        :name "Lingering Souls",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f28d352a-7254-45ad-afe7-299062f0de61.png?1592714332",
+        :type-line "Sorcery",
+        :oracle-text
+        "Create two 1/1 white Spirit creature tokens with flying.\nFlashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "25",
+        :name "Mortify",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/8/38c5e2e8-b781-4265-bce1-98fa25ddd8c3.png?1592714339",
+        :type-line "Instant",
+        :oracle-text "Destroy target creature or enchantment."}
+ #:card{:code "ddk",
+        :collector-number "26",
+        :name "Spectral Procession",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74e91e61-f1e8-4028-9bcd-c1ea25694d20.png?1592714346",
+        :type-line "Sorcery",
+        :oracle-text
+        "Create three 1/1 white Spirit creature tokens with flying."}
+ #:card{:code "ddk",
+        :collector-number "27",
+        :name "Unmake",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d0dea1b-43dc-4e76-aabd-f12e121a78af.png?1592714352",
+        :type-line "Instant",
+        :oracle-text "Exile target creature."}
+ #:card{:code "ddk",
+        :collector-number "28",
+        :name "Ancient Craving",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b0e0b4bb-791a-4c6e-8dbc-f4dd56d2bc34.png?1592714358",
+        :type-line "Sorcery",
+        :oracle-text "You draw three cards and you lose 3 life."}
+ #:card{:code "ddk",
+        :collector-number "29",
+        :name "Mark of the Vampire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85221e36-d0c4-4688-a5aa-776f320ef737.png?1592714366",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 and has lifelink."}
+ #:card{:code "ddk",
+        :collector-number "30",
+        :name "Field of Souls",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/54c208eb-a770-4402-8ed5-2aa7f28c0c68.png?1592714374",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever a nontoken creature is put into your graveyard from the battlefield, create a 1/1 white Spirit creature token with flying."}
+ #:card{:code "ddk",
+        :collector-number "31",
+        :name "Absorb Vis",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/8/18ed2ea8-614b-472d-979d-0d026895abca.png?1592714381",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target player loses 4 life and you gain 4 life.\nBasic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)"}
+ #:card{:code "ddk",
+        :collector-number "32",
+        :name "Death Grasp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b53775ac-c207-45ec-a868-6354888e30d6.png?1592714388",
+        :type-line "Sorcery",
+        :oracle-text
+        "Death Grasp deals X damage to any target. You gain X life."}
+ #:card{:code "ddk",
+        :collector-number "33",
+        :name "Evolving Wilds",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e784f9a3-d7c2-4b73-83b2-3296014f9bf4.png?1592714396",
+        :type-line "Land",
+        :oracle-text
+        "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:code "ddk",
+        :collector-number "34",
+        :name "Tainted Field",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/82eea1f3-b8b3-4369-964e-32c3917be90c.png?1592714406",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {W} or {B}. Activate only if you control a Swamp."}
+ #:card{:code "ddk",
+        :collector-number "35",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c5301f8-350a-4e26-8d97-0f643e5da7d6.png?1592714414",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddk",
+        :collector-number "36",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/f/4f7d8adb-36b1-4f7b-b01d-e60c7bec79be.png?1592714420",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddk",
+        :collector-number "37",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21c39822-b53e-488b-b5df-c0ce325d9039.png?1592714426",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddk",
+        :collector-number "38",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/121cc3c5-522e-4b3c-9551-dc501b006ca1.png?1592714433",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddk",
+        :collector-number "39",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a4b95d4-4ffb-4db1-80cf-c2c90839e8a3.png?1592714439",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddk",
+        :collector-number "40",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65e1287a-2166-4592-9518-da4b92b3623b.png?1592714444",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ddk",
+        :collector-number "41",
+        :name "Tibalt, the Fiend-Blooded",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fa56d53c-836c-483d-988d-a288d0ad91bb.png?1592714451",
+        :type-line "Legendary Planeswalker — Tibalt",
+        :oracle-text
+        "+1: Draw a card, then discard a card at random.\n−4: Tibalt, the Fiend-Blooded deals damage equal to the number of cards in target player's hand to that player.\n−6: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn."}
+ #:card{:code "ddk",
+        :collector-number "42",
+        :name "Goblin Arsonist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc6f5598-6fbd-4808-bae6-e4d62ce6d315.png?1592714458",
+        :type-line "Creature — Goblin Shaman",
+        :oracle-text
+        "When Goblin Arsonist dies, you may have it deal 1 damage to any target."}
+ #:card{:code "ddk",
+        :collector-number "43",
+        :name "Scorched Rusalka",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/0332c184-476e-4320-b5c9-544a5e4f5ede.png?1592714464",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "{R}, Sacrifice a creature: Scorched Rusalka deals 1 damage to target player or planeswalker."}
+ #:card{:code "ddk",
+        :collector-number "44",
+        :name "Reassembling Skeleton",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/370d519c-8877-433c-837e-0b5abe866c9d.png?1592714472",
+        :type-line "Creature — Skeleton Warrior",
+        :oracle-text
+        "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped."}
+ #:card{:code "ddk",
+        :collector-number "45",
+        :name "Ashmouth Hound",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c243559-fec8-4b18-b119-3cb0ec19eb9f.png?1592714479",
+        :type-line "Creature — Elemental Dog",
+        :oracle-text
+        "Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature."}
+ #:card{:code "ddk",
+        :collector-number "46",
+        :name "Hellspark Elemental",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea080c34-8446-429b-a380-3a95f43089fb.png?1592714486",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "Trample, haste\nAt the beginning of the end step, sacrifice Hellspark Elemental.\nUnearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:code "ddk",
+        :collector-number "47",
+        :name "Vithian Stinger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21626e4b-9361-4657-bac0-85fb475de225.png?1592714493",
+        :type-line "Creature — Human Shaman",
+        :oracle-text
+        "{T}: Vithian Stinger deals 1 damage to any target.\nUnearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:code "ddk",
+        :collector-number "48",
+        :name "Shambling Remains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/1/0171e38f-b663-477b-970e-fce8f00321c7.png?1592714500",
+        :type-line "Creature — Zombie Horror",
+        :oracle-text
+        "Shambling Remains can't block.\nUnearth {B}{R} ({B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:code "ddk",
+        :collector-number "49",
+        :name "Coal Stoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/eea8624b-10fb-40ed-b771-90cc73abe676.png?1592714507",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R}."}
+ #:card{:code "ddk",
+        :collector-number "50",
+        :name "Lavaborn Muse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9ac12fe-f895-4450-8516-1feb6a48f1bc.png?1592714515",
+        :type-line "Creature — Spirit",
+        :oracle-text
+        "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to that player."}
+ #:card{:code "ddk",
+        :collector-number "51",
+        :name "Mad Prophet",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/802101e1-9c1b-4b46-a7b3-b84b6b2757a0.png?1592714524",
+        :type-line "Creature — Human Shaman",
+        :oracle-text "Haste\n{T}, Discard a card: Draw a card."}
+ #:card{:code "ddk",
+        :collector-number "52",
+        :name "Hellrider",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/660694d7-d863-45a3-9992-d4bf95db1186.png?1592714530",
+        :type-line "Creature — Devil",
+        :oracle-text
+        "Haste\nWhenever a creature you control attacks, Hellrider deals 1 damage to the player or planeswalker it's attacking."}
+ #:card{:code "ddk",
+        :collector-number "53",
+        :name "Skirsdag Cultist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66a20272-2151-4402-b79b-064c95dd26ad.png?1592714539",
+        :type-line "Creature — Human Shaman",
+        :oracle-text
+        "{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to any target."}
+ #:card{:code "ddk",
+        :collector-number "54",
+        :name "Corpse Connoisseur",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34320bc2-12af-42a6-8139-d7479e6a3074.png?1592714545",
+        :type-line "Creature — Zombie Wizard",
+        :oracle-text
+        "When Corpse Connoisseur enters the battlefield, you may search your library for a creature card, put that card into your graveyard, then shuffle.\nUnearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:code "ddk",
+        :collector-number "55",
+        :name "Scourge Devil",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6f0f89c-453b-41c8-98dc-283e4e7e8edf.png?1592714551",
+        :type-line "Creature — Devil",
+        :oracle-text
+        "When Scourge Devil enters the battlefield, creatures you control get +1/+0 until end of turn.\nUnearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:code "ddk",
+        :collector-number "56",
+        :name "Gang of Devils",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc8680db-dc0c-4282-aa63-80f83913c47e.png?1592714557",
+        :type-line "Creature — Devil",
+        :oracle-text
+        "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three targets."}
+ #:card{:code "ddk",
+        :collector-number "57",
+        :name "Bump in the Night",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/320e394c-c8b1-42ad-91a5-6d57296f85ab.png?1592714563",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target opponent loses 3 life.\nFlashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "58",
+        :name "Blazing Salvo",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87ce6584-0a21-43d0-a2fe-cbdea564927a.png?1592714570",
+        :type-line "Instant",
+        :oracle-text
+        "Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to them."}
+ #:card{:code "ddk",
+        :collector-number "59",
+        :name "Faithless Looting",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4c81df5a-0829-4117-a94c-f634f338cfad.png?1592714578",
+        :type-line "Sorcery",
+        :oracle-text
+        "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "60",
+        :name "Flame Slash",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/124c6c0f-d16b-4ec0-aa78-a9595f8888d4.png?1592714585",
+        :type-line "Sorcery",
+        :oracle-text "Flame Slash deals 4 damage to target creature."}
+ #:card{:code "ddk",
+        :collector-number "61",
+        :name "Geistflame",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c671b096-17a4-4cdb-b954-7b04981e7aef.png?1592714591",
+        :type-line "Instant",
+        :oracle-text
+        "Geistflame deals 1 damage to any target.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "62",
+        :name "Pyroclasm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a454c426-dd7b-44e4-8404-adb4e0739e4a.png?1592714598",
+        :type-line "Sorcery",
+        :oracle-text "Pyroclasm deals 2 damage to each creature."}
+ #:card{:code "ddk",
+        :collector-number "63",
+        :name "Recoup",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/77ac0e4e-71ae-4a4b-aa73-64079bd50308.png?1592714608",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (Mana cost includes color.)\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "64",
+        :name "Terminate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/2142dc8c-faf2-41a4-a394-38cbcf26bd0d.png?1592714615",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target creature. It can't be regenerated."}
+ #:card{:code "ddk",
+        :collector-number "65",
+        :name "Strangling Soot",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/12ef65e3-2731-4425-9425-8dc16e9e02c6.png?1592714622",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target creature with toughness 3 or less.\nFlashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "66",
+        :name "Browbeat",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/77c0eb52-8e09-471a-b00c-aaa1ae244afc.png?1592714628",
+        :type-line "Sorcery",
+        :oracle-text
+        "Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards."}
+ #:card{:code "ddk",
+        :collector-number "67",
+        :name "Breaking Point",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73e348dd-2d8a-4ee6-a834-2d5861566043.png?1592714635",
+        :type-line "Sorcery",
+        :oracle-text
+        "Any player may have Breaking Point deal 6 damage to them. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated."}
+ #:card{:code "ddk",
+        :collector-number "68",
+        :name "Sulfuric Vortex",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a7addef-6612-4796-8d14-39aac3ba38e0.png?1592714643",
+        :type-line "Enchantment",
+        :oracle-text
+        "At the beginning of each player's upkeep, Sulfuric Vortex deals 2 damage to that player.\nIf a player would gain life, that player gains no life instead."}
+ #:card{:code "ddk",
+        :collector-number "69",
+        :name "Blightning",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68ba5a86-ef90-45fd-bc7a-e870e91a207c.png?1592714653",
+        :type-line "Sorcery",
+        :oracle-text
+        "Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards."}
+ #:card{:code "ddk",
+        :collector-number "70",
+        :name "Flame Javelin",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9989a45-3e18-4aeb-88a6-bac905567958.png?1592714661",
+        :type-line "Instant",
+        :oracle-text
+        "({2/R} can be paid with any two mana or with {R}. This card's mana value is 6.)\nFlame Javelin deals 4 damage to any target."}
+ #:card{:code "ddk",
+        :collector-number "71",
+        :name "Torrent of Souls",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4ce01cf5-d72c-4b1d-aa52-1040c069572c.png?1592714668",
+        :type-line "Sorcery",
+        :oracle-text
+        "Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast this spell. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast this spell. (Do both if {B}{R} was spent.)"}
+ #:card{:code "ddk",
+        :collector-number "72",
+        :name "Devil's Play",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/337dea2d-4604-4c1c-8f03-846a4e913bdc.png?1592714676",
+        :type-line "Sorcery",
+        :oracle-text
+        "Devil's Play deals X damage to any target.\nFlashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:code "ddk",
+        :collector-number "73",
+        :name "Akoum Refuge",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/df319dcb-419d-4588-9c8a-fe82973b704a.png?1592714685",
+        :type-line "Land",
+        :oracle-text
+        "Akoum Refuge enters the battlefield tapped.\nWhen Akoum Refuge enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}."}
+ #:card{:code "ddk",
+        :collector-number "74",
+        :name "Rakdos Carnarium",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/2/42bba982-aa07-4dcb-becb-1568021a94fc.png?1592714692",
+        :type-line "Land",
+        :oracle-text
+        "Rakdos Carnarium enters the battlefield tapped.\nWhen Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.\n{T}: Add {B}{R}."}
+ #:card{:code "ddk",
+        :collector-number "75",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4f4d8ac-a69f-436a-9f3e-be2d66b056ff.png?1592714699",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddk",
+        :collector-number "76",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9db73fef-f5eb-4d98-aa11-117bbed46bbf.png?1592714709",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddk",
+        :collector-number "77",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88b6057d-19f6-4cf3-8d13-a5e9c7a9941d.png?1592714719",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddk",
+        :collector-number "78",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/757d7085-fbd1-4343-b09a-5113d749c731.png?1592714730",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddk",
+        :collector-number "79",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c706106e-f556-4ba5-98f1-c5536eb9a0b0.png?1592714739",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ddk",
+        :collector-number "80",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/8/183acdf0-bd08-4598-966d-426dea71583d.png?1592714747",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"})

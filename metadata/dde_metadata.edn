@@ -1,0 +1,694 @@
+(#:card{:code "dde",
+        :collector-number "1",
+        :name "Phyrexian Negator",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b3543e0-c15f-4fed-9a68-8f590b40ab16.png?1562917757",
+        :type-line "Creature — Phyrexian Horror",
+        :oracle-text
+        "Trample\nWhenever Phyrexian Negator is dealt damage, sacrifice that many permanents."}
+ #:card{:code "dde",
+        :collector-number "2",
+        :name "Carrion Feeder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/083f4ccc-9cfc-44b1-af77-304b65bd878b.png?1562896596",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "Carrion Feeder can't block.\nSacrifice a creature: Put a +1/+1 counter on Carrion Feeder."}
+ #:card{:code "dde",
+        :collector-number "3",
+        :name "Phyrexian Battleflies",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6aceeffd-f6d9-46ff-97f8-8accad49ff8d.png?1562914815",
+        :type-line "Creature — Phyrexian Insect",
+        :oracle-text
+        "Flying\n{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate no more than twice each turn."}
+ #:card{:code "dde",
+        :collector-number "4",
+        :name "Phyrexian Denouncer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/1444786c-fb9f-4398-b442-c7cfd6f1df40.png?1562898848",
+        :type-line "Creature — Phyrexian Carrier",
+        :oracle-text
+        "{T}, Sacrifice Phyrexian Denouncer: Target creature gets -1/-1 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "5",
+        :name "Bone Shredder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83bd8fc0-21b8-45f9-ba09-78ca877ff532.png?1562919455",
+        :type-line "Creature — Phyrexian Minion",
+        :oracle-text
+        "Flying\nEcho {2}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature."}
+ #:card{:code "dde",
+        :collector-number "6",
+        :name "Phyrexian Ghoul",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/249fea41-8378-4d6f-a49c-42037b8d219b.png?1562901844",
+        :type-line "Creature — Phyrexian Zombie",
+        :oracle-text
+        "Sacrifice a creature: Phyrexian Ghoul gets +2/+2 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "7",
+        :name "Priest of Gix",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8cbc4c4c-f1f5-4593-9894-1d8715a2f2c1.png?1562921109",
+        :type-line "Creature — Phyrexian Human Cleric Minion",
+        :oracle-text
+        "When Priest of Gix enters the battlefield, add {B}{B}{B}."}
+ #:card{:code "dde",
+        :collector-number "8",
+        :name "Phyrexian Broodlings",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f0579fb-f6a1-4304-82a6-b3e05e5e9b06.png?1562915579",
+        :type-line "Creature — Phyrexian Minion",
+        :oracle-text
+        "{1}, Sacrifice a creature: Put a +1/+1 counter on Phyrexian Broodlings."}
+ #:card{:code "dde",
+        :collector-number "9",
+        :name "Sanguine Guard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c1fa0c5-8eef-484e-9d5f-38e87d99ed73.png?1562903161",
+        :type-line "Creature — Phyrexian Zombie Knight",
+        :oracle-text
+        "First strike\n{1}{B}: Regenerate Sanguine Guard."}
+ #:card{:code "dde",
+        :collector-number "10",
+        :name "Phyrexian Debaser",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd434b31-a92a-4e0e-aabd-4d3e77ff6dcc.png?1562933421",
+        :type-line "Creature — Phyrexian Carrier",
+        :oracle-text
+        "Flying\n{T}, Sacrifice Phyrexian Debaser: Target creature gets -2/-2 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "11",
+        :name "Order of Yawgmoth",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/49e5ff9f-9ec9-4c96-b28f-938a2abd15bf.png?1562908507",
+        :type-line "Creature — Phyrexian Zombie Knight",
+        :oracle-text
+        "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever Order of Yawgmoth deals damage to a player, that player discards a card."}
+ #:card{:code "dde",
+        :collector-number "12",
+        :name "Phyrexian Defiler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4fc16e1-07d5-4e45-ab29-de526f43036c.png?1562941014",
+        :type-line "Creature — Phyrexian Carrier",
+        :oracle-text
+        "{T}, Sacrifice Phyrexian Defiler: Target creature gets -3/-3 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "13",
+        :name "Phyrexian Plaguelord",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7d2e7fb-22a2-4f56-8772-bbbf7e491b9c.png?1562926342",
+        :type-line "Creature — Phyrexian Carrier",
+        :oracle-text
+        "{T}, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.\nSacrifice a creature: Target creature gets -1/-1 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "14",
+        :name "Phyrexian Hulk",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16b741c6-3c3b-433f-894e-481611c38a20.png?1562899291",
+        :type-line "Artifact Creature — Phyrexian Golem",
+        :oracle-text ""}
+ #:card{:code "dde",
+        :collector-number "15",
+        :name "Phyrexian Gargantua",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/df109c9d-cbd4-4504-b71e-44486b5b20b3.png?1562936642",
+        :type-line "Creature — Phyrexian Horror",
+        :oracle-text
+        "When Phyrexian Gargantua enters the battlefield, you draw two cards and you lose 2 life."}
+ #:card{:code "dde",
+        :collector-number "16",
+        :name "Phyrexian Colossus",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/25ff2fcb-dcf4-41dc-8178-8e3f6c7839fa.png?1562902085",
+        :type-line "Artifact Creature — Phyrexian Golem",
+        :oracle-text
+        "Phyrexian Colossus doesn't untap during your untap step.\nPay 8 life: Untap Phyrexian Colossus.\nPhyrexian Colossus can't be blocked except by three or more creatures."}
+ #:card{:code "dde",
+        :collector-number "17",
+        :name "Voltaic Key",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e1c9ab6-347b-4581-af79-d8105acb8aee.png?1562909335",
+        :type-line "Artifact",
+        :oracle-text "{1}, {T}: Untap target artifact."}
+ #:card{:code "dde",
+        :collector-number "18",
+        :name "Dark Ritual",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f363f93-be79-46c6-9dee-987d31da157a.png?1562912548",
+        :type-line "Instant",
+        :oracle-text "Add {B}{B}{B}."}
+ #:card{:code "dde",
+        :collector-number "19",
+        :name "Lightning Greaves",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d64fc93-aeb4-4f21-a794-71f38ac97ba8.png?1562897592",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}"}
+ #:card{:code "dde",
+        :collector-number "20",
+        :name "Phyrexian Totem",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/31593a02-d026-4108-82e0-21ad5ff8c890.png?1562904134",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Add {B}.\n{2}{B}: Phyrexian Totem becomes a 5/5 black Phyrexian Horror artifact creature with trample until end of turn.\nWhenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents."}
+ #:card{:code "dde",
+        :collector-number "21",
+        :name "Phyrexian Vault",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e184c465-4f19-4054-b853-dbf8c2efb4aa.png?1562937147",
+        :type-line "Artifact",
+        :oracle-text "{2}, {T}, Sacrifice a creature: Draw a card."}
+ #:card{:code "dde",
+        :collector-number "22",
+        :name "Puppet Strings",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53e0bb82-c64a-4ae6-962a-7a0c45329159.png?1562910395",
+        :type-line "Artifact",
+        :oracle-text "{2}, {T}: You may tap or untap target creature."}
+ #:card{:code "dde",
+        :collector-number "23",
+        :name "Whispersilk Cloak",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83a5ba81-1ea0-4cf2-95ba-9f3cbb91bbbb.png?1562919443",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)\nEquip {2}"}
+ #:card{:code "dde",
+        :collector-number "24",
+        :name "Worn Powerstone",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d4d228fc-2c46-4ded-b2b6-bcada5c24a4e.png?1562934740",
+        :type-line "Artifact",
+        :oracle-text
+        "Worn Powerstone enters the battlefield tapped.\n{T}: Add {C}{C}."}
+ #:card{:code "dde",
+        :collector-number "25",
+        :name "Slay",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94dcbf68-faa7-4fa1-be17-2f71a0f9ad5e.png?1562922654",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target green creature. It can't be regenerated.\nDraw a card."}
+ #:card{:code "dde",
+        :collector-number "26",
+        :name "Hideous End",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/519bf730-195c-4d3a-b80b-641b66ffc794.png?1562909976",
+        :type-line "Instant",
+        :oracle-text
+        "Destroy target nonblack creature. Its controller loses 2 life."}
+ #:card{:code "dde",
+        :collector-number "27",
+        :name "Phyrexian Arena",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bcb4ba1d-7fbe-4173-902e-8d68c57a2622.png?1562930271",
+        :type-line "Enchantment",
+        :oracle-text
+        "At the beginning of your upkeep, you draw a card and you lose 1 life."}
+ #:card{:code "dde",
+        :collector-number "28",
+        :name "Hornet Cannon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a3ea39a8-48d1-4a58-8662-88841eabec92.png?1562925559",
+        :type-line "Artifact",
+        :oracle-text
+        "{3}, {T}: Create a 1/1 colorless Insect artifact creature token with flying and haste named Hornet. Destroy it at the beginning of the next end step."}
+ #:card{:code "dde",
+        :collector-number "29",
+        :name "Phyrexian Processor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/04789161-f0a8-4ba5-832f-4d585c5117a6.png?1562895906",
+        :type-line "Artifact",
+        :oracle-text
+        "As Phyrexian Processor enters the battlefield, pay any amount of life.\n{4}, {T}: Create an X/X black Phyrexian Minion creature token, where X is the life paid as Phyrexian Processor entered the battlefield."}
+ #:card{:code "dde",
+        :collector-number "30",
+        :name "Tendrils of Corruption",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75d33538-eff7-45a9-996a-f380a07d6026.png?1562916800",
+        :type-line "Instant",
+        :oracle-text
+        "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control."}
+ #:card{:code "dde",
+        :collector-number "31",
+        :name "Living Death",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/902e75fd-f5d6-4102-9e9b-d8d05a97be86.png?1562921773",
+        :type-line "Sorcery",
+        :oracle-text
+        "Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield."}
+ #:card{:code "dde",
+        :collector-number "32",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/81a8861a-ae60-4a1f-9b25-0bc080cfe3af.png?1562919044",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "dde",
+        :collector-number "33",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68c40a79-7213-42e2-b93e-d14f0cc5deef.png?1562914408",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "dde",
+        :collector-number "34",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/6/b6787446-3a5b-4639-87f9-f605f59f4baf.png?1562928982",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "dde",
+        :collector-number "35",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce6966a1-cbf9-4ee9-9fa8-c72e0b1f24ff.png?1562933615",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "dde",
+        :collector-number "36",
+        :name "Urza's Rage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/774c52e2-b0d1-4b70-b6d1-bf98f6298603.png?1562917055",
+        :type-line "Instant",
+        :oracle-text
+        "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)\nThis spell can't be countered.\nUrza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented."}
+ #:card{:code "dde",
+        :collector-number "37",
+        :name "Thornscape Apprentice",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/ef276e2e-7e4d-48a0-af51-70cd843c6561.png?1562939921",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "{R}, {T}: Target creature gains first strike until end of turn.\n{W}, {T}: Tap target creature."}
+ #:card{:code "dde",
+        :collector-number "38",
+        :name "Nomadic Elf",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc4a26f7-36df-4018-8dab-a1294c36b0f0.png?1562942563",
+        :type-line "Creature — Elf Nomad",
+        :oracle-text "{1}{G}: Add one mana of any color."}
+ #:card{:code "dde",
+        :collector-number "39",
+        :name "Quirion Elves",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74a39656-769f-4540-9a30-f637a8ec302e.png?1562916625",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "As Quirion Elves enters the battlefield, choose a color.\n{T}: Add {G}.\n{T}: Add one mana of the chosen color."}
+ #:card{:code "dde",
+        :collector-number "40",
+        :name "Sunscape Battlemage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/679e3d63-8902-458e-a9a3-cefe14f6b415.png?1562914168",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Kicker {1}{G} and/or {2}{U} (You may pay an additional {1}{G} and/or {2}{U} as you cast this spell.)\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {1}{G} kicker, destroy target creature with flying.\nWhen Sunscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, draw two cards."}
+ #:card{:code "dde",
+        :collector-number "41",
+        :name "Thunderscape Battlemage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/ddb1475d-abee-4eec-8615-bf5e286afb4a.png?1562936350",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Kicker {1}{B} and/or {G} (You may pay an additional {1}{B} and/or {G} as you cast this spell.)\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, target player discards two cards.\nWhen Thunderscape Battlemage enters the battlefield, if it was kicked with its {G} kicker, destroy target enchantment."}
+ #:card{:code "dde",
+        :collector-number "42",
+        :name "Thornscape Battlemage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88866b39-3f43-44fb-a568-8547edc89fe2.png?1562920277",
+        :type-line "Creature — Elf Wizard",
+        :oracle-text
+        "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.\nWhen Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact."}
+ #:card{:code "dde",
+        :collector-number "43",
+        :name "Verduran Emissary",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf0a1951-4482-4ba0-b29e-2091adde0628.png?1562933708",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nWhen Verduran Emissary enters the battlefield, if it was kicked, destroy target artifact. It can't be regenerated."}
+ #:card{:code "dde",
+        :collector-number "44",
+        :name "Yavimaya Elder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34e8aaaa-0135-440f-9d73-042229f6abfe.png?1562904802",
+        :type-line "Creature — Human Druid",
+        :oracle-text
+        "When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.\n{2}, Sacrifice Yavimaya Elder: Draw a card."}
+ #:card{:code "dde",
+        :collector-number "45",
+        :name "Charging Troll",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a3d4b427-7fef-4a56-91a4-89cfbd881c89.png?1562925557",
+        :type-line "Creature — Troll",
+        :oracle-text "Vigilance\n{G}: Regenerate Charging Troll."}
+ #:card{:code "dde",
+        :collector-number "46",
+        :name "Gerrard Capashen",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/447c8c98-ac0e-4a12-a99e-f75d82b7a51f.png?1562907491",
+        :type-line "Legendary Creature — Human Soldier",
+        :oracle-text
+        "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.\n{3}{W}: Tap target creature. Activate only if Gerrard Capashen is attacking."}
+ #:card{:code "dde",
+        :collector-number "47",
+        :name "Darigaaz, the Igniter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/942acc59-3644-47be-80ab-fc8f27626aa3.png?1562922475",
+        :type-line "Legendary Creature — Dragon",
+        :oracle-text
+        "Flying\nWhenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals their hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way."}
+ #:card{:code "dde",
+        :collector-number "48",
+        :name "Rith, the Awakener",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/822bb102-58a8-47c7-ab44-6fef29885425.png?1562919155",
+        :type-line "Legendary Creature — Dragon",
+        :oracle-text
+        "Flying\nWhenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then create a 1/1 green Saproling creature token for each permanent of that color."}
+ #:card{:code "dde",
+        :collector-number "49",
+        :name "Treva, the Renewer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74ee66b2-5b69-461b-9590-1143adc692af.png?1562916678",
+        :type-line "Legendary Creature — Dragon",
+        :oracle-text
+        "Flying\nWhenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color."}
+ #:card{:code "dde",
+        :collector-number "50",
+        :name "Evasive Action",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d8fad630-bd1c-42df-86b5-cc00da28abfd.png?1562935570",
+        :type-line "Instant",
+        :oracle-text
+        "Domain — Counter target spell unless its controller pays {1} for each basic land type among lands you control."}
+ #:card{:code "dde",
+        :collector-number "51",
+        :name "Tribal Flames",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d041ec68-89cc-41bb-8339-2d785bc08357.png?1562933947",
+        :type-line "Sorcery",
+        :oracle-text
+        "Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control."}
+ #:card{:code "dde",
+        :collector-number "52",
+        :name "Fertile Ground",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/7014841f-c3ad-4ce1-b008-e7410002be6f.png?1562915768",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
+ #:card{:code "dde",
+        :collector-number "53",
+        :name "Gerrard's Command",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cdb56601-35dd-4b79-80d1-1dff785e32cd.png?1595076335",
+        :type-line "Instant",
+        :oracle-text
+        "Untap target creature. It gets +3/+3 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "54",
+        :name "Coalition Relic",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73f27b75-d400-46fd-acec-6b55a1e801ee.png?1562916506",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Add one mana of any color.\n{T}: Put a charge counter on Coalition Relic.\nAt the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color for each charge counter removed this way."}
+ #:card{:code "dde",
+        :collector-number "55",
+        :name "Narrow Escape",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c730b0c4-e8cf-4c6f-b65c-faebf508fc3c.png?1562932274",
+        :type-line "Instant",
+        :oracle-text
+        "Return target permanent you control to its owner's hand. You gain 4 life."}
+ #:card{:code "dde",
+        :collector-number "56",
+        :name "Exotic Curse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/e/1eff81c4-c402-437d-aace-dfe875d9857d.png?1562900735",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nDomain — Enchanted creature gets -1/-1 for each basic land type among lands you control."}
+ #:card{:code "dde",
+        :collector-number "57",
+        :name "Harrow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d81fcdf6-2af2-4454-b73c-e98739339c1a.png?1562935431",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for up to two basic land cards, put them onto the battlefield, then shuffle."}
+ #:card{:code "dde",
+        :collector-number "58",
+        :name "Armadillo Cloak",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/679ba4c8-ea53-4e1f-a85d-76a5dfa5bc2c.png?1562914167",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nWhenever enchanted creature deals damage, you gain that much life."}
+ #:card{:code "dde",
+        :collector-number "59",
+        :name "Darigaaz's Charm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/928af23d-1558-4d20-8841-554a327db861.png?1562922170",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Darigaaz's Charm deals 3 damage to any target.\n• Target creature gets +3/+3 until end of turn."}
+ #:card{:code "dde",
+        :collector-number "60",
+        :name "Rith's Charm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a353fed-e01c-4eaf-afb5-446644628284.png?1562896971",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Destroy target nonbasic land.\n• Create three 1/1 green Saproling creature tokens.\n• Prevent all damage a source of your choice would deal this turn."}
+ #:card{:code "dde",
+        :collector-number "61",
+        :name "Treva's Charm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/6/f63c6e81-8d78-4f20-b572-6015385e03ba.png?1562941242",
+        :type-line "Instant",
+        :oracle-text
+        "Choose one —\n• Destroy target enchantment.\n• Exile target attacking creature.\n• Draw a card, then discard a card."}
+ #:card{:code "dde",
+        :collector-number "62",
+        :name "Power Armor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20bc8710-3d56-45fb-81e7-383a274a2374.png?1562901076",
+        :type-line "Artifact",
+        :oracle-text
+        "Domain — {3}, {T}: Target creature gets +1/+1 until end of turn for each basic land type among lands you control."}
+ #:card{:code "dde",
+        :collector-number "63",
+        :name "Allied Strategies",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2dea7475-af87-4cee-bfdc-804351a632b5.png?1562903417",
+        :type-line "Sorcery",
+        :oracle-text
+        "Domain — Target player draws a card for each basic land type among lands they control."}
+ #:card{:code "dde",
+        :collector-number "64",
+        :name "Elfhame Palace",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f784ffb4-b460-4a61-b1ac-4b25efbfc056.png?1562941476",
+        :type-line "Land",
+        :oracle-text
+        "Elfhame Palace enters the battlefield tapped.\n{T}: Add {G} or {W}."}
+ #:card{:code "dde",
+        :collector-number "65",
+        :name "Shivan Oasis",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d11de19-fb40-4dc6-ad61-3b7e95163c0b.png?1562915258",
+        :type-line "Land",
+        :oracle-text
+        "Shivan Oasis enters the battlefield tapped.\n{T}: Add {R} or {G}."}
+ #:card{:code "dde",
+        :collector-number "66",
+        :name "Terramorphic Expanse",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c842d45c-9f15-404f-9cd6-9b68a68fb2e7.png?1562932491",
+        :type-line "Land",
+        :oracle-text
+        "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:code "dde",
+        :collector-number "67",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c8409f3e-aa2d-4ee0-b9e8-97c03aff5eff.png?1562932479",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "dde",
+        :collector-number "68",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83415cd2-7805-450b-be38-99ca0cbb4fea.png?1562919360",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "dde",
+        :collector-number "69",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf0725c1-2b83-406e-8a19-0b9d159c8614.png?1562933707",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "dde",
+        :collector-number "70",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c931df5b-650a-4640-b4fa-7c883db1aed9.png?1562932632",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "dde",
+        :collector-number "71",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b275edcf-51dc-4dba-be25-875356a05074.png?1562928206",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"})

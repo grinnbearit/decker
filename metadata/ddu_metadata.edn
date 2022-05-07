@@ -1,0 +1,746 @@
+(#:card{:code "ddu",
+        :collector-number "1",
+        :name "Ezuri, Renegade Leader",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a448dbf-08a1-4145-a4b2-0265cc9f2e53.png?1561759289",
+        :type-line "Legendary Creature — Elf Warrior",
+        :oracle-text
+        "{G}: Regenerate another target Elf.\n{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn."}
+ #:card{:code "ddu",
+        :collector-number "2",
+        :name "Dwynen, Gilt-Leaf Daen",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/868bb9fc-6b55-471c-9963-055ed2221526.png?1561759280",
+        :type-line "Legendary Creature — Elf Warrior",
+        :oracle-text
+        "Reach\nOther Elf creatures you control get +1/+1.\nWhenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control."}
+ #:card{:code "ddu",
+        :collector-number "3",
+        :name "Dwynen's Elite",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8abb79f6-e54c-4c37-8cc5-115a737898a0.png?1561759293",
+        :type-line "Creature — Elf Warrior",
+        :oracle-text
+        "When Dwynen's Elite enters the battlefield, if you control another Elf, create a 1/1 green Elf Warrior creature token."}
+ #:card{:code "ddu",
+        :collector-number "4",
+        :name "Elvish Aberration",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/43a1d2c3-0bae-47ef-acf0-d94f7abe2ea0.png?1561758939",
+        :type-line "Creature — Elf Mutant",
+        :oracle-text
+        "{T}: Add {G}{G}{G}.\nForestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)"}
+ #:card{:code "ddu",
+        :collector-number "5",
+        :name "Elvish Archdruid",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/e/1eb230a8-08d6-46a8-87fb-3c1614550f16.png?1561758897",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "Other Elf creatures you control get +1/+1.\n{T}: Add {G} for each Elf you control."}
+ #:card{:code "ddu",
+        :collector-number "6",
+        :name "Elvish Branchbender",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f3731491-097c-4915-acab-1da2d5176b37.png?1561759783",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "{T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control."}
+ #:card{:code "ddu",
+        :collector-number "7",
+        :name "Elvish Mystic",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d618c3ea-f823-4fe0-8e11-65d5965528d3.png?1561759745",
+        :type-line "Creature — Elf Druid",
+        :oracle-text "{T}: Add {G}."}
+ #:card{:code "ddu",
+        :collector-number "8",
+        :name "Elvish Vanguard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/838a8d40-5268-467e-8d14-d9fd72253df6.png?1561759271",
+        :type-line "Creature — Elf Warrior",
+        :oracle-text
+        "Whenever another Elf enters the battlefield, put a +1/+1 counter on Elvish Vanguard."}
+ #:card{:code "ddu",
+        :collector-number "9",
+        :name "Ezuri's Archers",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f909f002-f419-4292-ad92-05c4fd71749d.png?1561759795",
+        :type-line "Creature — Elf Archer",
+        :oracle-text
+        "Reach (This creature can block creatures with flying.)\nWhenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn."}
+ #:card{:code "ddu",
+        :collector-number "10",
+        :name "Fierce Empath",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/856c640c-234e-4fa7-b486-834134ba1a84.png?1561759275",
+        :type-line "Creature — Elf",
+        :oracle-text
+        "When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "ddu",
+        :collector-number "11",
+        :name "Gladehart Cavalry",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/0/50558302-eea7-4d60-a65b-50386e73fccd.png?1561758956",
+        :type-line "Creature — Elf Knight",
+        :oracle-text
+        "When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature you control with a +1/+1 counter on it dies, you gain 2 life."}
+ #:card{:code "ddu",
+        :collector-number "12",
+        :name "Ivy Lane Denizen",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/dba4b527-8dbf-4d11-af87-710ab9561182.png?1561759749",
+        :type-line "Creature — Elf Warrior",
+        :oracle-text
+        "Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature."}
+ #:card{:code "ddu",
+        :collector-number "13",
+        :name "Jagged-Scar Archers",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f6ff643-461c-428b-8420-3b3393bbb003.png?1561758872",
+        :type-line "Creature — Elf Archer",
+        :oracle-text
+        "Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.\n{T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying."}
+ #:card{:code "ddu",
+        :collector-number "14",
+        :name "Krosan Tusker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d1eb94d-5e52-4e4d-9cf7-5df1021b2aac.png?1561758981",
+        :type-line "Creature — Boar Beast",
+        :oracle-text
+        "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)\nWhen you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)"}
+ #:card{:code "ddu",
+        :collector-number "15",
+        :name "Kujar Seedsculptor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/a/7a8a8d63-e64b-4a7a-ba95-1a68f75977d4.png?1561759267",
+        :type-line "Creature — Elf Druid",
+        :oracle-text
+        "When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control."}
+ #:card{:code "ddu",
+        :collector-number "16",
+        :name "Lead the Stampede",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4d1f656-4a33-4348-b850-af7391ac071b.png?1561759361",
+        :type-line "Sorcery",
+        :oracle-text
+        "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order."}
+ #:card{:code "ddu",
+        :collector-number "17",
+        :name "Leaf Gilder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7d04e77-cbc4-40bf-a0f2-67312309a9cb.png?1561759774",
+        :type-line "Creature — Elf Druid",
+        :oracle-text "{T}: Add {G}."}
+ #:card{:code "ddu",
+        :collector-number "18",
+        :name "Llanowar Empath",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8ad19d75-b506-4d5c-bd94-40e8a1be7f27.png?1561759297",
+        :type-line "Creature — Elf Shaman",
+        :oracle-text
+        "When Llanowar Empath enters the battlefield, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"}
+ #:card{:code "ddu",
+        :collector-number "19",
+        :name "Naturalize",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3b4465b8-0988-4efd-8b33-cc471909a773.png?1561758931",
+        :type-line "Instant",
+        :oracle-text "Destroy target artifact or enchantment."}
+ #:card{:code "ddu",
+        :collector-number "20",
+        :name "Nature's Way",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29a4abe5-9770-4a55-b20a-2ceb6bb00db6.png?1561758914",
+        :type-line "Sorcery",
+        :oracle-text
+        "Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control."}
+ #:card{:code "ddu",
+        :collector-number "21",
+        :name "Nissa's Judgment",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e9dcece0-13eb-4931-b39e-13de528a11a6.png?1561759779",
+        :type-line "Sorcery",
+        :oracle-text
+        "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)\nChoose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature."}
+ #:card{:code "ddu",
+        :collector-number "22",
+        :name "Regal Force",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c24fe81-a8b7-4b20-b5dd-1d1c91ff057f.png?1561759340",
+        :type-line "Creature — Elemental",
+        :oracle-text
+        "When Regal Force enters the battlefield, draw a card for each green creature you control."}
+ #:card{:code "ddu",
+        :collector-number "23",
+        :name "Sylvan Advocate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46475e1b-f49f-4880-accd-1a5e4b119198.png?1561758947",
+        :type-line "Creature — Elf Druid Ally",
+        :oracle-text
+        "Vigilance\nAs long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2."}
+ #:card{:code "ddu",
+        :collector-number "24",
+        :name "Talara's Battalion",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/366c5992-e97f-4f15-bea9-8a62675e46a5.png?1561758927",
+        :type-line "Creature — Elf Warrior",
+        :oracle-text
+        "Cast this spell only if you've cast another green spell this turn.\nTrample"}
+ #:card{:code "ddu",
+        :collector-number "25",
+        :name "Viridian Shaman",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/bed8b8aa-2c1f-4a5b-af6e-16802b3b9453.png?1561759733",
+        :type-line "Creature — Elf Shaman",
+        :oracle-text
+        "When Viridian Shaman enters the battlefield, destroy target artifact."}
+ #:card{:code "ddu",
+        :collector-number "26",
+        :name "Wildheart Invoker",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/416b9302-62e9-453b-a8b6-db367d37a584.png?1592487130",
+        :type-line "Creature — Elf Shaman",
+        :oracle-text
+        "{8}: Target creature gets +5/+5 and gains trample until end of turn."}
+ #:card{:code "ddu",
+        :collector-number "27",
+        :name "Yeva, Nature's Herald",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22ecead7-58b3-4e34-8f7d-b095abee7f24.png?1561758901",
+        :type-line "Legendary Creature — Elf Shaman",
+        :oracle-text
+        "Flash (You may cast this spell any time you could cast an instant.)\nYou may cast green creature spells as though they had flash."}
+ #:card{:code "ddu",
+        :collector-number "28",
+        :name "Oran-Rief, the Vastwood",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d307dc2-7897-4394-b437-c1fc7c199e68.png?1561758868",
+        :type-line "Land",
+        :oracle-text
+        "Oran-Rief, the Vastwood enters the battlefield tapped.\n{T}: Add {G}.\n{T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn."}
+ #:card{:code "ddu",
+        :collector-number "29",
+        :name "Tranquil Thicket",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/0433780c-d072-4d8b-9109-236764824dc9.png?1561758863",
+        :type-line "Land",
+        :oracle-text
+        "Tranquil Thicket enters the battlefield tapped.\n{T}: Add {G}.\nCycling {G} ({G}, Discard this card: Draw a card.)"}
+ #:card{:code "ddu",
+        :collector-number "30",
+        :name "Treetop Village",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14394198-0993-46ee-a3ea-5c7084a78772.png?1561758885",
+        :type-line "Land",
+        :oracle-text
+        "Treetop Village enters the battlefield tapped.\n{T}: Add {G}.\n{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)"}
+ #:card{:code "ddu",
+        :collector-number "31",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c284c81-195b-49e5-bfdd-3e0447103469.png?1561758972",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddu",
+        :collector-number "32",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/5257440c-ab4e-4b9e-a694-f7ff54feaa1b.png?1561758964",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddu",
+        :collector-number "33",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88e1bf57-cb14-4dfe-abb1-d8ed9c051f1a.png?1561759284",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddu",
+        :collector-number "34",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bb0e5fc9-1b11-45c0-a0c7-668507cfabfb.png?1561759377",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:code "ddu",
+        :collector-number "35",
+        :name "Goblin Welder",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/17be21c8-d7bb-405e-addd-5aba1125b709.png?1561758893",
+        :type-line "Creature — Goblin Artificer",
+        :oracle-text
+        "{T}: Choose target artifact a player controls and target artifact card in that player's graveyard. If both targets are still legal as this ability resolves, that player simultaneously sacrifices the artifact and returns the artifact card to the battlefield."}
+ #:card{:code "ddu",
+        :collector-number "36",
+        :name "Artificer's Epiphany",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4e6f89d-c73b-4105-9743-95504f0fd866.png?1561759787",
+        :type-line "Instant",
+        :oracle-text
+        "Draw two cards. If you control no artifacts, discard a card."}
+ #:card{:code "ddu",
+        :collector-number "37",
+        :name "Etherium Sculptor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/7225ae44-1357-44a6-9244-1cf43c199f15.png?1561758985",
+        :type-line "Artifact Creature — Vedalken Artificer",
+        :oracle-text "Artifact spells you cast cost {1} less to cast."}
+ #:card{:code "ddu",
+        :collector-number "38",
+        :name "Faerie Mechanist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8733a45-fb31-439b-9e4c-a092ae015569.png?1561759373",
+        :type-line "Artifact Creature — Faerie Artificer",
+        :oracle-text
+        "Flying\nWhen Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order."}
+ #:card{:code "ddu",
+        :collector-number "39",
+        :name "Riddlesmith",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29638358-d0fa-4cd5-9d42-66cee8e8ccc6.png?1561758910",
+        :type-line "Creature — Human Artificer",
+        :oracle-text
+        "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card."}
+ #:card{:code "ddu",
+        :collector-number "40",
+        :name "Treasure Mage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b87cd20-b8c7-4ce2-86f9-3d1078995bfb.png?1561758923",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "ddu",
+        :collector-number "41",
+        :name "Trinket Mage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a7800f7-95cd-4f5c-b054-4afad8924367.png?1561759331",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "When Trinket Mage enters the battlefield, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle."}
+ #:card{:code "ddu",
+        :collector-number "42",
+        :name "Trophy Mage",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/5252794a-5cbe-45e3-b5c1-b27c667e9c17.png?1561758960",
+        :type-line "Creature — Human Wizard",
+        :oracle-text
+        "When Trophy Mage enters the battlefield, you may search your library for an artifact card with mana value 3, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "ddu",
+        :collector-number "43",
+        :name "Whirler Rogue",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6bf5a7b6-62ef-48c5-b081-a6f0ca917d16.png?1561758976",
+        :type-line "Creature — Human Rogue Artificer",
+        :oracle-text
+        "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
+ #:card{:code "ddu",
+        :collector-number "44",
+        :name "Barrage Ogre",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98e67a2f-7556-47aa-a953-89dcfe57a6ee.png?1561759327",
+        :type-line "Creature — Ogre Warrior",
+        :oracle-text
+        "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target."}
+ #:card{:code "ddu",
+        :collector-number "45",
+        :name "Galvanic Blast",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3ba390c-26d4-4086-ab7e-db5e61bd9db9.png?1561759762",
+        :type-line "Instant",
+        :oracle-text
+        "Galvanic Blast deals 2 damage to any target.\nMetalcraft — Galvanic Blast deals 4 damage instead if you control three or more artifacts."}
+ #:card{:code "ddu",
+        :collector-number "46",
+        :name "Ghirapur Gearcrafter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6087550-9f15-4a06-b030-18b0be652065.png?1561759770",
+        :type-line "Creature — Human Artificer",
+        :oracle-text
+        "When Ghirapur Gearcrafter enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying. (A creature with flying can't be blocked except by creatures with flying or reach.)"}
+ #:card{:code "ddu",
+        :collector-number "47",
+        :name "Pia and Kiran Nalaar",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/107b2271-ec4d-4c4c-b52b-ecf698066aef.png?1561758881",
+        :type-line "Legendary Creature — Human Artificer",
+        :oracle-text
+        "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\n{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target."}
+ #:card{:code "ddu",
+        :collector-number "48",
+        :name "Shrapnel Blast",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae1c5afc-81b4-438a-928e-0b0aefae191a.png?1561759352",
+        :type-line "Instant",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice an artifact.\nShrapnel Blast deals 5 damage to any target."}
+ #:card{:code "ddu",
+        :collector-number "49",
+        :name "Welding Sparks",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e6bbaa4-b2c8-4e95-92b3-4d2e713e1a8d.png?1561759310",
+        :type-line "Instant",
+        :oracle-text
+        "Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control."}
+ #:card{:code "ddu",
+        :collector-number "50",
+        :name "Maverick Thopterist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/1022eb7c-4195-41dc-acdb-ac42ddaec45e.png?1561758876",
+        :type-line "Creature — Human Artificer",
+        :oracle-text
+        "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWhen Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying."}
+ #:card{:code "ddu",
+        :collector-number "51",
+        :name "Reclusive Artificer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e6cda07-c6b0-4138-9b83-bff1802fe138.png?1561759344",
+        :type-line "Creature — Human Artificer",
+        :oracle-text
+        "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen Reclusive Artificer enters the battlefield, you may have it deal damage to target creature equal to the number of artifacts you control."}
+ #:card{:code "ddu",
+        :collector-number "52",
+        :name "Darksteel Plate",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/7718b0ef-9df6-4983-b902-8d9580fc9370.png?1575875091",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Indestructible\nEquipped creature has indestructible.\nEquip {2}"}
+ #:card{:code "ddu",
+        :collector-number "53",
+        :name "Filigree Familiar",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/987d52d0-d682-4a79-b48b-21a0eddd0732.png?1561759323",
+        :type-line "Artifact Creature — Fox",
+        :oracle-text
+        "When Filigree Familiar enters the battlefield, you gain 2 life.\nWhen Filigree Familiar dies, draw a card."}
+ #:card{:code "ddu",
+        :collector-number "54",
+        :name "Ichor Wellspring",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/537721ab-088f-4dbd-b984-67f68eaaf3cf.png?1561758968",
+        :type-line "Artifact",
+        :oracle-text
+        "When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card."}
+ #:card{:code "ddu",
+        :collector-number "55",
+        :name "Inventor's Goggles",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8fc62d61-2bc0-4b84-a0e9-5a01fcd4ef92.png?1561759314",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature gets +1/+2.\nWhenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles to it.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:code "ddu",
+        :collector-number "56",
+        :name "Mycosynth Wellspring",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f7104572-5602-4c26-8df3-b1cb8409db41.png?1561759791",
+        :type-line "Artifact",
+        :oracle-text
+        "When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
+ #:card{:code "ddu",
+        :collector-number "57",
+        :name "Myr Battlesphere",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b3d86bd-0686-42bc-b540-3c1e2cb75e35.png?1561758919",
+        :type-line "Artifact Creature — Myr Construct",
+        :oracle-text
+        "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.\nWhenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking."}
+ #:card{:code "ddu",
+        :collector-number "58",
+        :name "Myr Sire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e289d6c-1dcd-4431-9ed4-62b48eb207e1.png?1561759305",
+        :type-line "Artifact Creature — Phyrexian Myr",
+        :oracle-text
+        "When Myr Sire dies, create a 1/1 colorless Phyrexian Myr artifact creature token."}
+ #:card{:code "ddu",
+        :collector-number "59",
+        :name "Neurok Replica",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76114dda-811c-41b2-995b-9e80115cc8c8.png?1561759254",
+        :type-line "Artifact Creature — Wizard",
+        :oracle-text
+        "{1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand."}
+ #:card{:code "ddu",
+        :collector-number "60",
+        :name "Pyrite Spellbomb",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b76903b2-f8d2-4157-ad93-361eccc1a617.png?1561759369",
+        :type-line "Artifact",
+        :oracle-text
+        "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.\n{1}, Sacrifice Pyrite Spellbomb: Draw a card."}
+ #:card{:code "ddu",
+        :collector-number "61",
+        :name "Scuttling Doom Engine",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16f74ee4-f647-49b1-88b8-1aae8df3b271.png?1561758889",
+        :type-line "Artifact Creature — Construct",
+        :oracle-text
+        "Scuttling Doom Engine can't be blocked by creatures with power 2 or less.\nWhen Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker."}
+ #:card{:code "ddu",
+        :collector-number "62",
+        :name "Solemn Simulacrum",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9fb8c25a-5ca8-40b2-a782-50eee49721b7.png?1561759348",
+        :type-line "Artifact Creature — Golem",
+        :oracle-text
+        "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen Solemn Simulacrum dies, you may draw a card."}
+ #:card{:code "ddu",
+        :collector-number "63",
+        :name "Thopter Assembly",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94858a1d-7107-4ae4-a519-c3f7904146fa.png?1561759318",
+        :type-line "Artifact Creature — Thopter",
+        :oracle-text
+        "Flying\nAt the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying."}
+ #:card{:code "ddu",
+        :collector-number "64",
+        :name "Voyager Staff",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44db92d7-2c55-4587-9a49-7cc305b8fca0.png?1561758943",
+        :type-line "Artifact",
+        :oracle-text
+        "{2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step."}
+ #:card{:code "ddu",
+        :collector-number "65",
+        :name "Darksteel Citadel",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/dbd78b03-312b-4bbf-a4f6-d5095545a11b.png?1561759754",
+        :type-line "Artifact Land",
+        :oracle-text "Indestructible\n{T}: Add {C}."}
+ #:card{:code "ddu",
+        :collector-number "66",
+        :name "Foundry of the Consuls",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/7907175d-aa71-4c6b-8d44-026cb6b0f91c.png?1561759263",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying."}
+ #:card{:code "ddu",
+        :collector-number "67",
+        :name "Great Furnace",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c91c6c79-8512-4318-822c-8eed96eecdaa.png?1561759741",
+        :type-line "Artifact Land",
+        :oracle-text "{T}: Add {R}."}
+ #:card{:code "ddu",
+        :collector-number "68",
+        :name "Phyrexia's Core",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8d0afc49-24af-4ef6-8336-ad47bfd38e81.png?1561759301",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice an artifact: You gain 1 life."}
+ #:card{:code "ddu",
+        :collector-number "69",
+        :name "Seat of the Synod",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/27b10829-fd16-4bef-8aa7-d47acdb3f53f.png?1561758906",
+        :type-line "Artifact Land",
+        :oracle-text
+        "(Seat of the Synod isn't a spell.)\n{T}: Add {U}."}
+ #:card{:code "ddu",
+        :collector-number "70",
+        :name "Shivan Reef",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae4c9315-41f9-4264-ae6b-c0d9ed6287ca.png?1561759356",
+        :type-line "Land",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."}
+ #:card{:code "ddu",
+        :collector-number "71",
+        :name "Swiftwater Cliffs",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b0bfb57-1483-4049-82da-05d206338b2c.png?1561759335",
+        :type-line "Land",
+        :oracle-text
+        "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters the battlefield, you gain 1 life.\n{T}: Add {U} or {R}."}
+ #:card{:code "ddu",
+        :collector-number "72",
+        :name "Temple of Epiphany",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b1ba650-2397-4dc4-bad3-5c97f3a1e0db.png?1561758952",
+        :type-line "Land",
+        :oracle-text
+        "Temple of Epiphany enters the battlefield tapped.\nWhen Temple of Epiphany enters the battlefield, scry 1.\n{T}: Add {U} or {R}."}
+ #:card{:code "ddu",
+        :collector-number "73",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0229fef-746c-417a-beb9-150f286da14a.png?1561759737",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddu",
+        :collector-number "74",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4f4b3e7-7c8e-42c9-895d-4c8b802ed4f7.png?1561759766",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ddu",
+        :collector-number "75",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b55b57b3-6cbd-4571-8163-b6ba76904d9d.png?1561759365",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ddu",
+        :collector-number "76",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e13ee385-ad54-410a-b1db-19a0267294e1.png?1561759758",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"})

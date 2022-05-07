@@ -1,0 +1,876 @@
+(#:card{:code "ugl",
+        :collector-number "1",
+        :name "Charm School",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/93b690ef-9fcb-42be-bbee-6aad516534a5.png?1562799124",
+        :type-line "Enchantment",
+        :oracle-text
+        "As Charm School enters the battlefield, choose a color and balance Charm School on your head.\nPrevent all damage that would be dealt to you by sources of the chosen color.\nWhen Charm School falls off your head, sacrifice Charm School."}
+ #:card{:code "ugl",
+        :collector-number "2",
+        :name "The Cheese Stands Alone",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d01a114f-3349-4a62-bfad-0dc33b78a53f.png?1562799163",
+        :type-line "Enchantment",
+        :oracle-text
+        "When you control no permanents other than The Cheese Stands Alone and have no cards in hand, you win the game."}
+ #:card{:code "ugl",
+        :collector-number "3",
+        :name "Double Dip",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/ebbdbd92-ec36-4fe9-b75d-13f55574db5e.png?1562799185",
+        :type-line "Instant",
+        :oracle-text
+        "Choose another player. You gain 5 life. At the beginning of the first upkeep in your next game with that player, you gain 5 life."}
+ #:card{:code "ugl",
+        :collector-number "4",
+        :name "Get a Life",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/2757b582-d995-45f9-9482-0792b0f0784d.png?1562799080",
+        :type-line "Instant",
+        :oracle-text
+        "Target player and each of that player's teammates exchange life totals."}
+ #:card{:code "ugl",
+        :collector-number "5",
+        :name "I'm Rubber, You're Glue",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/9/5979237f-ff41-4e87-b2e4-d09b81eca2dc.png?1562799099",
+        :type-line "Enchantment",
+        :oracle-text
+        "When you speak in non-rhyming sentences, sacrifice I'm Rubber, You're Glue.\nSay \"I'm rubber, you're glue. Everything bounces off me and sticks to you\": Change the target of target spell or ability that targets only you."}
+ #:card{:code "ugl",
+        :collector-number "6",
+        :name "Knight of the Hokey Pokey",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd53daa7-9130-4187-9e53-1075c6ab67d0.png?1562799152",
+        :type-line "Creature — Knight",
+        :oracle-text
+        "First strike\n{1}{W}, Do the Hokey Pokey: Prevent all damage a source of your choice would deal to Knight of the Hokey Pokey this turn. (To do the Hokey Pokey, choose an arm, a leg, or your whole self and put it in. Put it out. Put it in. Shake it all about. You do the Hokey Pokey! Turn yourself around.)"}
+ #:card{:code "ugl",
+        :collector-number "7",
+        :name "Lexivore",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b39db7a3-028e-4c01-8ff9-64d2a1397379.png?1562799143",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Whenever Lexivore deals damage to a player, destroy target permanent other than Lexivore with the most lines of text in its text box. (If two or more cards are tied, target any one of them.)"}
+ #:card{:code "ugl",
+        :collector-number "8",
+        :name "Look at Me, I'm the DCI",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14fb0d87-b086-4546-8f7f-786cb0b7b2f5.png?1562799065",
+        :type-line "Sorcery",
+        :oracle-text
+        "Ban a card other than a basic land card for the rest of the match. (All cards with that name in any zone or sideboard are removed from the match.)"}
+ #:card{:code "ugl",
+        :collector-number "9",
+        :name "Mesa Chicken",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cfd1edbc-ea37-42c4-8fb9-deac011372b5.png?1582935089",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "Stand up, Flap your arms, Cluck like a chicken: Mesa Chicken gains flying until end of turn."}
+ #:card{:code "ugl",
+        :collector-number "10",
+        :name "Miss Demeanor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/747ff5d4-69cd-447e-a18d-edcf583d0539.png?1562799115",
+        :type-line "Creature — Lady of Proper Etiquette",
+        :oracle-text
+        "Flying, first strike\nAt the beginning of each other player's upkeep, you may compliment that player on their game play. If you don't, sacrifice Miss Demeanor."}
+ #:card{:code "ugl",
+        :collector-number "11",
+        :name "Once More with Feeling",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba42881b-9275-4b54-a17f-dec87d21a270.png?1562799151",
+        :type-line "Sorcery",
+        :oracle-text
+        "Exile all permanents and all cards from all graveyards. Each player shuffles their hand into their library, then draws seven cards. Each player's life total becomes 10. Exile Once More with Feeling.\nDCI ruling — A deck can have only one card named Once More with Feeling."}
+ #:card{:code "ugl",
+        :collector-number "12",
+        :name "Prismatic Wardrobe",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79624ebe-7110-486d-82ff-b64c662dc6de.png?1593865843",
+        :type-line "Sorcery",
+        :oracle-text
+        "Destroy target nonartifact, nonland permanent that doesn't share a color with clothing worn by its controller."}
+ #:card{:code "ugl",
+        :collector-number "13",
+        :name "Sex Appeal",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/97cfc18c-ed01-4016-86a2-162d7bc1bf33.png?1562799126",
+        :type-line "Instant",
+        :oracle-text
+        "Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If there are more people in the room of a different gender than you are as you cast this spell, prevent the next 6 damage this way instead."}
+ #:card{:code "ugl",
+        :collector-number "14",
+        :name "Bureaucracy",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/43417d07-725e-4c3d-99d2-bbbfbdeee770.png?1562799091",
+        :type-line "Enchantment",
+        :oracle-text
+        "Pursuant to subsection 3.1(4) of Richard's Rules of Order, at the beginning of the upkeep of each participant in this game of the Magic: The Gathering® trading card game (hereafter known as \"PLAYER\"), that PLAYER performs all actions in the sequence of previously added actions (hereafter known as \"ACTION QUEUE\"), in the order those actions were added, then adds another action to the end of the ACTION QUEUE. All actions must be simple physical or verbal actions that a player can perform while sitting in a chair, without jeopardizing the health and security of said PLAYER.\nWhen any PLAYER does not perform all the prescribed actions in the correct order, sacrifice Bureaucracy and said PLAYER discards their complement of cards in hand (hereafter known as \"HAND\")."}
+ #:card{:code "ugl",
+        :collector-number "15",
+        :name "Censorship",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/2/e24d4fba-cf12-4ad3-bca3-6824dbc639af.png?1562799173",
+        :type-line "Enchantment",
+        :oracle-text
+        "As Censorship enters the battlefield, choose a word.\nWhenever a player says the chosen word, Censorship deals 2 damage to that player."}
+ #:card{:code "ugl",
+        :collector-number "16",
+        :name "Checks and Balances",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc70457a-34dc-48a1-8643-4a78c1e6f2d3.png?1562799158",
+        :type-line "Enchantment",
+        :oracle-text
+        "Cast this spell only if there are three or more players in the game.\nWhenever a player casts a spell, each of that player's opponents may discard a card. If they do, counter that spell."}
+ #:card{:code "ugl",
+        :collector-number "17",
+        :name "Chicken à la King",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3fcefcab-8988-47e8-89bb-9b76f14c9d8b.png?1562799089",
+        :type-line "Creature — Bird Noble",
+        :oracle-text
+        "Whenever a 6 is rolled on a six-sided die, put a +1/+1 counter on each Bird. (You may roll dice only when instructed to.)\nTap an untapped Bird you control: Roll a six-sided die. (Like now.)"}
+ #:card{:code "ugl",
+        :collector-number "18",
+        :name "Clambassadors",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/349ba052-10f7-4612-91b7-a1528c188ec3.png?1562799085",
+        :type-line "Creature — Clamfolk",
+        :oracle-text
+        "Whenever Clambassadors deals damage to a player, choose an artifact, creature, or land you control. That player gains control of that permanent."}
+ #:card{:code "ugl",
+        :collector-number "19",
+        :name "Clam-I-Am",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b57e1b62-df2b-48dc-9cb1-d86c9d3ab986.png?1595053626",
+        :type-line "Creature — Clamfolk",
+        :oracle-text
+        "If you roll a 3 on a six-sided die, you may reroll that die."}
+ #:card{:code "ugl",
+        :collector-number "20",
+        :name "Clam Session",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1c2953cd-1b7e-41aa-959f-fb7ba2964bfb.png?1562799071",
+        :type-line "Creature — Clamfolk",
+        :oracle-text
+        "As Clam Session enters the battlefield, choose a word.\nAt the beginning of your upkeep, you may sing at least six words of a song, at least one of which is the chosen word. If you don't, sacrifice Clam Session. You can't repeat a song."}
+ #:card{:code "ugl",
+        :collector-number "21",
+        :name "Common Courtesy",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9ad6b646-a2b2-4817-856c-580a5953d87e.png?1562799130",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever a player casts a spell without asking your permission while casting it, counter that spell.\nWhen a player asks you permission to cast a spell and you refuse, counter that spell and sacrifice Common Courtesy."}
+ #:card{:code "ugl",
+        :collector-number "22",
+        :name "Denied!",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/1285c125-e145-4565-a029-352ac6adf688.png?1562799062",
+        :type-line "Instant",
+        :oracle-text
+        "Choose a card name, then target spell's controller reveals their hand. If a card with the chosen name is revealed this way, counter that spell."}
+ #:card{:code "ugl",
+        :collector-number "23",
+        :name "Double Take",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71941f1f-b41e-4ec9-a7c6-61eccaa47b0e.png?1562799113",
+        :type-line "Instant",
+        :oracle-text
+        "Choose another player. You draw two cards. At the beginning of the first upkeep in your next game with that player, you draw two cards."}
+ #:card{:code "ugl",
+        :collector-number "24",
+        :name "Fowl Play",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/2303a4e0-b8eb-4e8b-bc62-507eee52e7bc.png?1582980605",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nEnchanted creature loses all abilities and is a Bird creature with base power and toughness 1/1."}
+ #:card{:code "ugl",
+        :collector-number "25",
+        :name "Free-for-All",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/630efac8-3033-4c2d-9127-b3b2f78bb136.png?1562799106",
+        :type-line "Enchantment",
+        :oracle-text
+        "When Free-for-All enters the battlefield, exile all creatures face down.\nAt the beginning of each player's upkeep, that player chooses a card exiled with Free-for-All at random and puts it onto the battlefield.\nWhen Free-for-All leaves the battlefield, put all cards exiled with it into their owners' graveyards."}
+ #:card{:code "ugl",
+        :collector-number "26",
+        :name "Psychic Network",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/60dfba09-9e75-4fb9-a163-40e3149f7785.png?1562799103",
+        :type-line "Enchantment",
+        :oracle-text
+        "Each player plays with the top card of their library held against their forehead, revealed to each other player."}
+ #:card{:code "ugl",
+        :collector-number "27",
+        :name "Sorry",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14606012-d57b-4fe7-908b-b5cfc272994b.png?1562799063",
+        :type-line "Enchantment",
+        :oracle-text
+        "Before any player casts a spell with the same name as a card in any graveyard, that player may say \"sorry.\" If they don't, any other player may say \"sorry\" as the spell is being cast. When another player says \"sorry\" this way, counter the spell.\nWhenever a player says \"sorry\" at any other time, Sorry deals 2 damage to that player."}
+ #:card{:code "ugl",
+        :collector-number "28",
+        :name "B.F.M. (Big Furry Monster)",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a9f9c279-e382-4feb-9575-196e7cf5d7dc.png?1562799139",
+        :type-line "Creature — The Biggest, Baddest, Nastiest,",
+        :oracle-text
+        "You must cast both B.F.M. cards to put\nleaves the battlefield, sacrifice the other.\nB.F.M. can't be blocked except by three or"}
+ #:card{:code "ugl",
+        :collector-number "29",
+        :name "B.F.M. (Big Furry Monster)",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d15c6375-2e4e-47f7-88e1-d90794e7f724.png?1562799164",
+        :type-line "Scariest Creature You’ll Ever See",
+        :oracle-text
+        "B.F.M. onto the battlefield. If one B.F.M. card\nmore creatures."}
+ #:card{:code "ugl",
+        :collector-number "30",
+        :name "Deadhead",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cdb3998e-b4a1-4dd1-8e12-24579ec8938b.png?1562799160",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "{0}: Return Deadhead from your graveyard to the battlefield. Activate only if an opponent isn't touching their hand (of cards)."}
+ #:card{:code "ugl",
+        :collector-number "31",
+        :name "Double Cross",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8f90e34-3736-42ed-aade-e31247b3472d.png?1562799179",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose another player. Look at that player's hand and choose a card other than a basic land card from it. They discard that card. At the beginning of the first upkeep in your next game with that player, look at that player's hand and choose a card other than a basic land card from it. They discard that card."}
+ #:card{:code "ugl",
+        :collector-number "32",
+        :name "Handcuffs",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/08ae92f5-4219-4194-b152-c2b2653aef3f.png?1562799060",
+        :type-line "Enchantment",
+        :oracle-text
+        "As Handcuffs enters the battlefield, choose a player.\nWhen the chosen player's hands aren't touching each other, sacrifice Handcuffs and that player sacrifices three permanents."}
+ #:card{:code "ugl",
+        :collector-number "33",
+        :name "Infernal Spawn of Evil",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/9/99711b5b-3cb2-4d57-ac9a-f43cc86a7ca9.png?1562799128",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "Flying, first strike\n{1}{B}, Reveal Infernal Spawn of Evil from your hand, Say \"It's coming!\": Infernal Spawn of Evil deals 1 damage to target opponent or planeswalker. Activate only during your upkeep and only once each turn."}
+ #:card{:code "ugl",
+        :collector-number "34",
+        :name "Jumbo Imp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a135b61b-eb8c-44d7-8227-bd268c3ca463.png?1562799133",
+        :type-line "Creature — Imp",
+        :oracle-text
+        "Flying\nAs Jumbo Imp enters the battlefield, roll a six-sided die. Jumbo Imp enters the battlefield with a number of +1/+1 counters on it equal to the result.\nAt the beginning of your upkeep, roll a six-sided die and put a number of +1/+1 counters on Jumbo Imp equal to the result.\nAt the beginning of your end step, roll a six-sided die and remove a number of +1/+1 counters from Jumbo Imp equal to the result."}
+ #:card{:code "ugl",
+        :collector-number "35",
+        :name "Organ Harvest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/05213eec-322f-4bc7-b607-217290447f40.png?1562799057",
+        :type-line "Sorcery",
+        :oracle-text
+        "Your team may sacrifice any number of creatures. For each creature sacrificed this way, you add {B}{B}."}
+ #:card{:code "ugl",
+        :collector-number "36",
+        :name "Ow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd26c2a6-7b08-4de6-afbf-e34d321995ab.png?1562799172",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever a creature deals damage to a player, that player may say \"Ow\" once for each permanent named Ow. If the player doesn't, Ow deals 1 damage to them."}
+ #:card{:code "ugl",
+        :collector-number "37",
+        :name "Poultrygeist",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c6bec883-a2e0-49a5-8cdd-2755c0963a2d.png?1562799154",
+        :type-line "Creature — Bird Spirit",
+        :oracle-text
+        "Flying\nWhenever a creature dies, you may roll a six-sided die. If you roll a 1, sacrifice Poultrygeist. Otherwise, put a +1/+1 counter on Poultrygeist."}
+ #:card{:code "ugl",
+        :collector-number "38",
+        :name "Temp of the Damned",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7105d13-798e-472b-bb00-d419886e9cc7.png?1562799148",
+        :type-line "Creature — Zombie",
+        :oracle-text
+        "As Temp of the Damned enters the battlefield, roll a six-sided die. Temp of the Damned enters the battlefield with a number of funk counters on it equal to the result.\nAt the beginning of your upkeep, remove a funk counter from Temp of the Damned. If you can't, sacrifice it."}
+ #:card{:code "ugl",
+        :collector-number "39",
+        :name "Volrath's Motion Sensor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2b915b6-4436-4007-a014-415694117c7e.png?1562799142",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant player\nAs Volrath's Motion Sensor enters the battlefield, choose one of enchanted player's hands. That player balances Volrath's Motion Sensor on the back of that hand.\nWhen Volrath's Motion Sensor falls off the chosen hand, sacrifice Volrath's Motion Sensor and enchanted player loses 3 life."}
+ #:card{:code "ugl",
+        :collector-number "40",
+        :name "Burning Cinder Fury of Crimson Chaos Fire",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/17ed4800-dc0f-4681-9ae6-74bd0018e8dc.png?1618610634",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever any player taps a permanent, that player chooses one of their opponents. The chosen player gains control of that permanent at the beginning of the next end step.\nAt the beginning of each player's end step, if that player didn't tap any nonland permanents that turn, Burning Cinder Fury of Crimson Chaos Fire deals 3 damage to that player."}
+ #:card{:code "ugl",
+        :collector-number "41",
+        :name "Chicken Egg",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/640ac565-331b-47e2-b2af-a8a94a96488a.png?1582935068",
+        :type-line "Creature — Egg",
+        :oracle-text
+        "At the beginning of your upkeep, roll a six-sided die. If you roll a 6, sacrifice Chicken Egg and create a 4/4 red Giant Bird creature token."}
+ #:card{:code "ugl",
+        :collector-number "42",
+        :name "Double Deal",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed8b3def-30ee-4dd2-9a25-ecf7d5663f96.png?1562799187",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose another player. Double Deal deals 3 damage to that player. At the beginning of the first upkeep in your next game with that player, Double Deal deals 3 damage to the player."}
+ #:card{:code "ugl",
+        :collector-number "43",
+        :name "Goblin Bookie",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc880e76-1e92-4af1-b89f-b5a2b60b86f0.png?1593352486",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "{R}, {T}: Reflip any coin or reroll any die. (Activate only any time it makes sense.)"}
+ #:card{:code "ugl",
+        :collector-number "44",
+        :name "Goblin Bowling Team",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/0/00325992-ec1c-469a-8df0-ffb9a197d221.png?1562799056",
+        :type-line "Creature — Goblin",
+        :oracle-text
+        "If Goblin Bowling Team would deal damage to a permanent or player, it deals that much damage plus the result of a six-sided die roll to that permanent or player instead."}
+ #:card{:code "ugl",
+        :collector-number "45",
+        :name "Goblin Tutor",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23bc822d-a028-4162-bf23-6ff4b9f43688.png?1562799078",
+        :type-line "Instant",
+        :oracle-text
+        "Roll a six-sided die. If you roll a 1, Goblin Tutor has no effect. Otherwise, search your library for the indicated card, reveal it, put it into your hand, then shuffle.\n2 — A card named Goblin Tutor\n3 — An enchantment\n4 — An artifact\n5 — A creature\n6 — An instant or sorcery"}
+ #:card{:code "ugl",
+        :collector-number "46",
+        :name "Hurloon Wrangler",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d957abcb-ba56-42b4-9316-f30ac821ecf9.png?1562799167",
+        :type-line "Creature — Minotaur",
+        :oracle-text
+        "Denimwalk (This creature can't be blocked as long as defending player is wearing denim.)"}
+ #:card{:code "ugl",
+        :collector-number "47",
+        :name "Jalum Grifter",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b5d0ead-7798-49a2-8106-418db1d4fd69.png?1562799131",
+        :type-line "Legendary Creature — Devil",
+        :oracle-text
+        "{1}{R}, {T}: Shuffle Jalum Grifter and two lands you control face down. Target opponent chooses one of those cards. Turn the cards face up. If they chose Jalum Grifter, sacrifice it. Otherwise, destroy target permanent."}
+ #:card{:code "ugl",
+        :collector-number "48",
+        :name "Krazy Kow",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e978fdf7-2243-49d0-b265-a3287f19b17d.png?1562799181",
+        :type-line "Creature — Cow",
+        :oracle-text
+        "At the beginning of your upkeep, roll a six-sided die. If you a roll a 1, sacrifice Krazy Kow and it deals 3 damage to each creature and each player."}
+ #:card{:code "ugl",
+        :collector-number "49",
+        :name "Landfill",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3ef5452d-b5cb-4772-a5ac-1b4c976e03a5.png?1562799088",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose a land type. Exile all lands you control of that type. Drop those cards, one at a time, onto the playing area from a height of at least one foot. Destroy each permanent completely covered by those cards. Then return the cards you dropped to the battlefield tapped."}
+ #:card{:code "ugl",
+        :collector-number "50",
+        :name "Ricochet",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea993e57-b72f-48f8-9132-0693f2e78ce4.png?1562799184",
+        :type-line "Enchantment",
+        :oracle-text
+        "Whenever a player casts a spell that targets a single player, each player rolls a six-sided die. Change the target of that spell to the player with the lowest result. Reroll to break ties, if necessary."}
+ #:card{:code "ugl",
+        :collector-number "51",
+        :name "Spark Fiend",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea73a7ef-e9da-4d5b-aa4d-a953cbacd6c2.png?1562799182",
+        :type-line "Creature — Beast",
+        :oracle-text
+        "When Spark Fiend enters the battlefield, roll two six-sided dice. If you rolled 2, 3, or 12, sacrifice Spark Fiend. If you rolled 7 or 11, don't roll dice for Spark Fiend during any of your following upkeeps. If you rolled any other total, note that total.\nAt the beginning of your upkeep, roll two six-sided dice. If you rolled 7, sacrifice Spark Fiend. If you roll the noted total, don't roll dice for Spark Fiend during any of your following upkeeps. Otherwise, do nothing."}
+ #:card{:code "ugl",
+        :collector-number "52",
+        :name "Strategy, Schmategy",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2996a63-9fb6-4455-906d-13f917a8bb29.png?1562799134",
+        :type-line "Sorcery",
+        :oracle-text
+        "Roll a six-sided die. Strategy, Schmategy has the indicated effect.\n1 — Do nothing.\n2 — Destroy all artifacts.\n3 — Destroy all lands.\n4 — Strategy, Schmategy deals 3 damage to each creature and each player.\n5 — Each player discards their hand and draws seven cards.\n6 — Repeat this process two more times."}
+ #:card{:code "ugl",
+        :collector-number "53",
+        :name
+        "The Ultimate Nightmare of Wizards of the Coast® Customer Service",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/616abc97-4276-4e96-bbe8-e47ba7cac075.png?1562799105",
+        :type-line "Sorcery",
+        :oracle-text
+        "The Ultimate Nightmare of Wizards of the Coast® Customer Service deals X damage to each of Y target creatures and Z target players or planeswalkers."}
+ #:card{:code "ugl",
+        :collector-number "54",
+        :name "Cardboard Carapace",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/059fc73f-7a00-4014-9e92-75765798cf2d.png?1562799059",
+        :type-line "Enchantment — Aura",
+        :oracle-text
+        "Enchant creature\nFor each other card named Cardboard Carapace you have with you outside the game, enchanted creature gets +1/+1."}
+ #:card{:code "ugl",
+        :collector-number "55",
+        :name "Double Play",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e35c66e0-0ca8-447f-b8d9-b03ce7ffaf7f.png?1562799175",
+        :type-line "Sorcery",
+        :oracle-text
+        "Choose another player. Search your library for a basic land card, put it onto the battlefield, then shuffle. At the beginning of the first upkeep in your next game with that player, search your library for a basic land card, put it onto the battlefield, then shuffle."}
+ #:card{:code "ugl",
+        :collector-number "56",
+        :name "Elvish Impersonators",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/922663f0-f444-4364-a706-eb6b91ac36ef.png?1562799122",
+        :type-line "Creature — Elves",
+        :oracle-text
+        "As Elvish Impersonators enters the battlefield, roll a six-sided die twice. Its base power becomes the first result and its base toughness becomes the second result."}
+ #:card{:code "ugl",
+        :collector-number "57",
+        :name "Flock of Rabid Sheep",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1ce65cbd-e2cf-4fbf-8424-287cd87c97f1.png?1562799074",
+        :type-line "Sorcery",
+        :oracle-text
+        "Flip X coins. For each flip you win, create a 2/2 green Sheep creature token named Rabid Sheep."}
+ #:card{:code "ugl",
+        :collector-number "58",
+        :name "Free-Range Chicken",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/5/e59e6414-62ac-427e-8e37-690ed401b4dd.png?1582935164",
+        :type-line "Creature — Bird",
+        :oracle-text
+        "{1}{G}: Roll two six-sided dice. If both results are the same, Free-Range Chicken gets +X/+X until end of turn, where X is that result. If the total of those results is equal to any other total you have rolled this turn for this ability, sacrifice it. (For example, if you roll two 3s, it gets +3/+3. If you roll a 4 and a 2 for this ability later that turn, sacrifice it.)"}
+ #:card{:code "ugl",
+        :collector-number "59",
+        :name "Gerrymandering",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/aea8ab0f-6898-4312-9989-915d6357515f.png?1562799140",
+        :type-line "Sorcery",
+        :oracle-text
+        "Exile all lands. Give each player a number of those cards chosen at random equal to the number of those cards the player controlled. Each player returns those cards to the battlefield under their control."}
+ #:card{:code "ugl",
+        :collector-number "60",
+        :name "Ghazbán Ogress",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/17c18690-cf8c-4006-a981-6258d18ba538.png?1562799066",
+        :type-line "Creature — Ogre",
+        :oracle-text
+        "When Ghazbán Ogress enters the battlefield, if one player has won more Magic games that day than any other player, that player gains control of Ghazbán Ogress."}
+ #:card{:code "ugl",
+        :collector-number "61",
+        :name "Growth Spurt",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/2905accf-ea94-48fa-8dbe-b4a7dd57a277.png?1562799082",
+        :type-line "Instant",
+        :oracle-text
+        "Roll a six-sided die. Target creature gets +X/+X until end of turn, where X is the result."}
+ #:card{:code "ugl",
+        :collector-number "62",
+        :name "Gus",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9b05428-d9f3-42ec-bef4-286f1ad06901.png?1562799169",
+        :type-line "Creature — Gus",
+        :oracle-text
+        "Gus enters the battlefield with a +1/+1 counter on it for each Magic game you have lost to one of your opponents since you last won a game against them."}
+ #:card{:code "ugl",
+        :collector-number "63",
+        :name "Hungry Hungry Heifer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a17ecb8-cf64-420a-9038-609bfdb4c669.png?1562799086",
+        :type-line "Creature — Cow",
+        :oracle-text
+        "At the beginning of your upkeep, you may remove a counter from a permanent you control. If you don't, sacrifice Hungry Hungry Heifer."}
+ #:card{:code "ugl",
+        :collector-number "64",
+        :name "Incoming!",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/573cf5e6-35ee-4eb6-990a-524ba7335797.png?1562799098",
+        :type-line "Sorcery",
+        :oracle-text
+        "Each player searches their library for any number of artifact, creature, enchantment, and/or land cards, puts them onto the battlefield, then shuffles."}
+ #:card{:code "ugl",
+        :collector-number "65",
+        :name "Mine, Mine, Mine!",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a91f28e0-867a-4713-955d-582201af63ae.png?1617967901",
+        :type-line "Enchantment",
+        :oracle-text
+        "When Mine, Mine, Mine! enters the battlefield, each player puts their library into their hand.\nPlayers have no maximum hand size and don't lose the game for drawing from an empty library.\nEach player can't cast more than one spell each turn.\nWhen Mine, Mine, Mine! leaves the battlefield, each player shuffles their hand and graveyard into their library."}
+ #:card{:code "ugl",
+        :collector-number "66",
+        :name "Squirrel Farm",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/987ddd67-305a-4c95-9f1a-17eeeb058aaa.png?1562799127",
+        :type-line "Enchantment",
+        :oracle-text
+        "{1}{G}: Reveal a card in your hand, covering the artist credit. Target opponent guesses the artist. If they guess wrong, create a 1/1 green Squirrel creature token."}
+ #:card{:code "ugl",
+        :collector-number "67",
+        :name "Team Spirit",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8369211-e7e1-45e1-a142-274f4236e230.png?1562799149",
+        :type-line "Instant",
+        :oracle-text
+        "Creatures target player's team controls get +1/+1 until end of turn."}
+ #:card{:code "ugl",
+        :collector-number "68",
+        :name "Timmy, Power Gamer",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e43ce658-12be-4eb2-b679-0aefea348de2.png?1562799176",
+        :type-line "Legendary Creature — Human Gamer",
+        :oracle-text
+        "{4}: You may put a creature card from your hand onto the battlefield."}
+ #:card{:code "ugl",
+        :collector-number "69",
+        :name "Ashnod's Coupon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d420010f-5389-4aa2-a5f8-d9631249679a.png?1562799166",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}, Sacrifice Ashnod's Coupon: Target player gets you target drink. You pay any costs for the drink."}
+ #:card{:code "ugl",
+        :collector-number "70",
+        :name "Blacker Lotus",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4c85d097-e87b-41ee-93c6-0e54ec41b174.png?1562799094",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Tear Blacker Lotus into pieces. Add four mana of any one color. Remove the pieces from the game."}
+ #:card{:code "ugl",
+        :collector-number "71",
+        :name "Bronze Calendar",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21943fe2-3eeb-441a-a3ae-99866c6e76bd.png?1562799075",
+        :type-line "Artifact",
+        :oracle-text
+        "Spells you cast cost {1} less to cast.\nYou must speak in a voice other than your normal voice.\nWhen you speak in your normal voice, sacrifice Bronze Calendar."}
+ #:card{:code "ugl",
+        :collector-number "72",
+        :name "Chaos Confetti",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5cee00a-5ab5-43c3-8017-db20d37e69c4.png?1562799136",
+        :type-line "Artifact",
+        :oracle-text
+        "{4}, {T}: Tear Chaos Confetti into pieces. Throw the pieces onto the battlefield from a distance of at least five feet. Destroy each permanent that a piece touches. Remove the pieces from the game."}
+ #:card{:code "ugl",
+        :collector-number "73",
+        :name "Clay Pigeon",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4dfacc30-0acc-4b2d-bc7b-6ff72afc1077.png?1562799095",
+        :type-line "Artifact Creature — Bird",
+        :oracle-text
+        "Flying\n{1}, Throw Clay Pigeon into the air at least two feet above your head while seated: If you catch Clay Pigeon with one hand, prevent all damage a source of your choice would deal to you this turn and tap Clay Pigeon. Otherwise, sacrifice it."}
+ #:card{:code "ugl",
+        :collector-number "74",
+        :name "Giant Fan",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1cdb8678-3c0c-4ee3-aeff-52a4db4e09c4.png?1585994350",
+        :type-line "Artifact",
+        :oracle-text
+        "{2}, {T}: Move a counter from one permanent onto another. If the second permanent refers to any kind of counter, the moved counter becomes one of those counters. Otherwise, it becomes a +1/+1 counter."}
+ #:card{:code "ugl",
+        :collector-number "75",
+        :name "Jack-in-the-Mox",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/8/1834ac92-8b4e-4442-a834-acd580e1ef99.png?1562799070",
+        :type-line "Artifact",
+        :oracle-text
+        "{T}: Roll a six-sided die. This ability has the indicated effect.\n1 — Sacrifice Jack-in-the-Mox and you lose 5 life.\n2 — Add {W}.\n3 — Add {U}.\n4 — Add {B}.\n5 — Add {R}.\n6 — Add {G}."}
+ #:card{:code "ugl",
+        :collector-number "76",
+        :name "Jester's Sombrero",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6e68f012-307f-4ffb-909e-1284fb39e64f.png?1562799112",
+        :type-line "Artifact",
+        :oracle-text
+        "{2}, {T}, Sacrifice Jester's Sombrero: Look at target player's sideboard, choose three cards from it, and remove those cards from the match."}
+ #:card{:code "ugl",
+        :collector-number "77",
+        :name "Mirror Mirror",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2abf208d-5fe6-4030-a19d-7505832dab3b.png?1562799083",
+        :type-line "Artifact",
+        :oracle-text
+        "Mirror Mirror enters the battlefield tapped.\n{7}, {T}, Sacrifice Mirror Mirror: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
+ #:card{:code "ugl",
+        :collector-number "78",
+        :name "Paper Tiger",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d1cb9ab-512e-4bb1-8d77-37a0b2d3e7f8.png?1562799110",
+        :type-line "Artifact Creature — Cat",
+        :oracle-text
+        "Creatures named Rock Lobster can't attack or block."}
+ #:card{:code "ugl",
+        :collector-number "79",
+        :name "Rock Lobster",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5ba96c2a-9ccf-4b28-8af5-f8c221fc6823.png?1562799102",
+        :type-line "Artifact Creature — Lobster",
+        :oracle-text
+        "Creatures named Scissors Lizard can't attack or block."}
+ #:card{:code "ugl",
+        :collector-number "80",
+        :name "Scissors Lizard",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c7b3502d-5519-4254-b946-226edc3bd7e4.png?1562799155",
+        :type-line "Artifact Creature — Lizard",
+        :oracle-text
+        "Creatures named Paper Tiger can't attack or block."}
+ #:card{:code "ugl",
+        :collector-number "81",
+        :name "Spatula of the Ages",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/777d1435-bde3-46f7-a35d-2a663e05fb97.png?1562799116",
+        :type-line "Artifact",
+        :oracle-text
+        "{4}, {T}, Sacrifice Spatula of the Ages: You may put a silver-bordered permanent card from your hand onto the battlefield."}
+ #:card{:code "ugl",
+        :collector-number "82",
+        :name "Urza's Contact Lenses",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f386c088-fa37-4134-96bb-9fb784719101.png?1562799188",
+        :type-line "Artifact",
+        :oracle-text
+        "Urza's Contact Lenses enters the battlefield tapped.\nUrza's Contact Lenses doesn't untap during your untap step.\nAs long as Urza's Contact Lenses is untapped, all players play with their hands revealed.\nClap your hands twice: You may tap or untap Urza's Contact Lenses."}
+ #:card{:code "ugl",
+        :collector-number "83",
+        :name "Urza's Science Fair Project",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8bfe56d0-c15f-4a68-a0b8-911e13b1bc9a.png?1562799119",
+        :type-line "Artifact Creature — Construct",
+        :oracle-text
+        "{2}: Roll a six-sided die. Urza's Science Fair Project gets the indicated result.\n1 — It gets -2/-2 until end of turn.\n2 — Prevent all combat damage it would deal this turn.\n3 — It gains vigilance until end of turn.\n4 — It gains first strike until end of turn.\n5 — It gains flying until end of turn.\n6 — It gets +2/+2 until end of turn."}
+ #:card{:code "ugl",
+        :collector-number "84",
+        :name "Plains",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb382733-ff3d-43e2-9b1e-efa2f7c28173.png?1562799157",
+        :type-line "Basic Land — Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:code "ugl",
+        :collector-number "85",
+        :name "Island",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/547f89f2-30a0-493a-914e-6251d2574099.png?1562799096",
+        :type-line "Basic Land — Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:code "ugl",
+        :collector-number "86",
+        :name "Swamp",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69384f97-3333-4aa7-bc4f-928ba49a2c80.png?1562799109",
+        :type-line "Basic Land — Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:code "ugl",
+        :collector-number "87",
+        :name "Mountain",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e3c2e1a-181e-4275-ad09-51c9de039d32.png?1562799121",
+        :type-line "Basic Land — Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:code "ugl",
+        :collector-number "88",
+        :name "Forest",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3ed8a17-ce32-4100-8ffc-fb8af1c35142.png?1562799145",
+        :type-line "Basic Land — Forest",
+        :oracle-text "({T}: Add {G}.)"})

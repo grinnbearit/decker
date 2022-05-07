@@ -1,0 +1,45 @@
+(#:card{:code "h17",
+        :collector-number "1",
+        :name "Grimlock, Dinobot Leader // Grimlock, Ferocious King",
+        :layout "transform",
+        :highres? true,
+        :faces
+        [{:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f1bb8fb5-32f2-444d-85cb-de84657b21bd.png?1561758404",
+          :type-line "Legendary Artifact Creature — Autobot",
+          :oracle-text
+          "Dinosaurs, Vehicles, and other Transformers® creatures you control get +2/+0.\n{2}, Convert a Transformers toy you own to its other mode: Grimlock, Dinobot Leader becomes Grimlock, Ferocious King."}
+         {:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/back/f/1/f1bb8fb5-32f2-444d-85cb-de84657b21bd.png?1561758404",
+          :type-line "Legendary Artifact Creature — Dinosaur",
+          :oracle-text
+          "Trample\n{2}, Convert a Transformers toy you own to its other mode: Grimlock, Ferocious King becomes Grimlock, Dinobot Leader."}]}
+ #:card{:code "h17",
+        :collector-number "2",
+        :name "Nerf War",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2eb08fc5-29a4-4911-ac94-dc5ff2fc2ace.png?1561756860",
+        :type-line "Sorcery",
+        :oracle-text
+        "Fire a Nerf® blaster until empty at target library from at least two meters away. For each card knocked off that library, put it into its owner's graveyard and Nerf War deals ½ damage to that player. (Foam darts only.)"}
+ #:card{:code "h17",
+        :collector-number "3",
+        :name "Sword of Dungeons & Dragons",
+        :layout "normal",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e5180da-d757-415c-b92d-090ad5c1b658.png?1561757695",
+        :type-line "Artifact — Equipment",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from Rogues and from Clerics.\nWhenever equipped creature deals combat damage to a player, create a 4/4 gold Dragon creature token with flying and roll a d20 (a twenty-sided die). If you roll a 20, repeat this process.\nEquip {2}"}
+ #:card{:code "h17",
+        :collector-number "4",
+        :name "Dragon",
+        :layout "token",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8ee8b915-afd3-4fad-8aef-7e9cbbbbc2e4.png?1561757559",
+        :type-line "Token Creature — Dragon",
+        :oracle-text "Flying"})

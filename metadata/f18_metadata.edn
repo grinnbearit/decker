@@ -1,0 +1,46 @@
+(#:card{:code "f18",
+        :collector-number "1",
+        :name "Merfolk // Treasure",
+        :layout "double_faced_token",
+        :highres? true,
+        :faces
+        [{:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2e20d047-0d43-4709-919c-0b0f714e9903.png?1572177109",
+          :type-line "Token Creature — Merfolk",
+          :oracle-text
+          "Hexproof (This creature can't be the target of spells or abilities your opponents control.)"}
+         {:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/back/2/e/2e20d047-0d43-4709-919c-0b0f714e9903.png?1572177109",
+          :type-line "Token Artifact — Treasure",
+          :oracle-text
+          "{T}, Sacrifice this artifact: Add one mana of any color."}]}
+ #:card{:code "f18",
+        :collector-number "2",
+        :name "City's Blessing // Elemental",
+        :layout "double_faced_token",
+        :highres? true,
+        :faces
+        [{:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/60ca146d-4e88-4e87-a775-9cfbc9e6b9f2.png?1572258725",
+          :type-line "Card",
+          :oracle-text ""}
+         {:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/back/6/0/60ca146d-4e88-4e87-a775-9cfbc9e6b9f2.png?1572258725",
+          :type-line "Token Creature — Elemental",
+          :oracle-text
+          "At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn."}]}
+ #:card{:code "f18",
+        :collector-number "3",
+        :name "Illusion // Saproling",
+        :layout "double_faced_token",
+        :highres? true,
+        :faces
+        [{:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cf70d25-9de9-4c3a-a52f-be17831e5695.png?1561757235",
+          :type-line "Token Creature — Illusion",
+          :oracle-text
+          "When this creature becomes the target of a spell, sacrifice it."}
+         {:png
+          "https://c1.scryfall.com/file/scryfall-cards/png/back/5/c/5cf70d25-9de9-4c3a-a52f-be17831e5695.png?1561757235",
+          :type-line "Token Creature — Saproling",
+          :oracle-text ""}]})
