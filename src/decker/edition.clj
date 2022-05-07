@@ -43,13 +43,13 @@
   "maps card layouts into 4 categories"
   [layout]
   (case layout
-    ("normal" "token" "emblem" "planar" "leveler" "scheme" "adventure" "vanguard")
+    ("normal" "token" "emblem" "planar" "leveler" "scheme" "adventure" "vanguard" "host" "augment" "saga" "class")
     :normal
 
     ("split" "flip")
     :split
 
-    ("double_faced_token" "transform" "modal_dfc")
+    ("double_faced_token" "transform" "modal_dfc" "meld" "art_series" "reversible_card")
     :double
 
     :unknown))

@@ -5,27 +5,98 @@
 
 (facts
  "card -> objectstate"
- (card->objectstate {:card/png "png-url"})
- =>   {"FaceURL" "png-url"
-       "BackURL" BACK-URL
-       "NumHeight" 1
-       "NumWidth" 1
-       "BackIsHidden" true})
+ (card->objectstate #:card{:png "png-url"
+                           :layout "planar"})
+ => {"FaceURL" "png-url"
+     "BackURL" (BACK-URL "planar")
+     "NumHeight" 1
+     "NumWidth" 1
+     "BackIsHidden" true}
+
+
+ (card->objectstate #:card{:png "png-url"
+                           :layout "split"})
+ => {"FaceURL" "png-url"
+     "BackURL" (BACK-URL "normal")
+     "NumHeight" 1
+     "NumWidth" 1
+     "BackIsHidden" true}
+
+
+ (card->objectstate #:card{:faces [{:png "png-url-1"}
+                                   {:png "png-url-2"}]
+                           :layout "double_faced_token"})
+ => {"FaceURL" "png-url-1"
+     "BackURL" (BACK-URL "normal")
+     "NumHeight" 1
+     "NumWidth" 1
+     "BackIsHidden" true}
+
+
+ (card->objectstate #:card{:faces [{:png "png-url-1"}
+                                   {:png "png-url-2"}]
+                           :layout "double_faced_token"}
+                    true)
+ => {"FaceURL" "png-url-2"
+     "BackURL" (BACK-URL "normal")
+     "NumHeight" 1
+     "NumWidth" 1
+     "BackIsHidden" true})
 
 
 (facts
  "card -> description"
 
  (card->description #:card{:type-line "type line"
-                           :oracle-text "oracle text"})
- => "[b]type line[/b]\n\noracle text")
+                           :oracle-text "oracle text"
+                           :layout "normal"})
+ => (str "[b]type line[/b]"
+         "\n\n"
+         "oracle text")
 
+
+ (card->description #:card{:layout "split"
+                           :faces [{:type-line "type line 1"
+                                    :oracle-text "oracle text 1"}
+                                   {:type-line "type line 2"
+                                    :oracle-text "oracle text 2"}]})
+ => (str "[b]type line 1[/b]"
+         "\n\n"
+         "oracle text 1"
+         "\n\n"
+         "--------------------------"
+         "\n\n"
+         "[b]type line 2[/b]"
+         "\n\n"
+         "oracle text 2")
+
+
+ (card->description #:card{:layout "double_faced_token"
+                           :faces [{:type-line "type line 1"
+                                    :oracle-text "oracle text 1"}
+                                   {:type-line "type line 2"
+                                    :oracle-text "oracle text 2"}]})
+ => (str "[b]type line 1[/b]"
+         "\n\n"
+         "oracle text 1")
+
+
+ (card->description #:card{:layout "double_faced_token"
+                           :faces [{:type-line "type line 1"
+                                    :oracle-text "oracle text 1"}
+                                   {:type-line "type line 2"
+                                    :oracle-text "oracle text 2"}]}
+                    true)
+ => (str "[b]type line 2[/b]"
+         "\n\n"
+         "oracle text 2"))
 
 
 (facts
  "card -> contained object"
 
- (let [card #:card{:name "card-name"}]
+ (let [card #:card{:name "card-name"
+                   :layout "normal"}]
 
    (card->contained-object 100 card)
    => {"Name" "Card",
@@ -37,7 +108,33 @@
        "CardID" 100}
 
    (provided
-    (card->description card) => "card-description")))
+    (card->description card false) => "card-description"))
+
+
+ (let [card #:card{:name "card-name"
+                   :layout "double_faced_token"}]
+
+   (card->contained-object 100 card)
+   => {"Name" "Card",
+       "Transform" {"posX" 0.0 "posY" 0.0 "posZ" 0.0
+                    "rotX" 0.0 "rotY" 180.0 "rotZ" 180.0
+                    "scaleX" 1.0 "scaleY" 1.0, "scaleZ" 1.0}
+       "Nickname" "card-name"
+       "Description" "card-description-1"
+       "CardID" 100
+       "States" {"2" {"Name" "Card",
+                      "Transform" {"posX" 0.0 "posY" 0.0 "posZ" 0.0
+                                   "rotX" 0.0 "rotY" 180.0 "rotZ" 180.0
+                                   "scaleX" 1.0 "scaleY" 1.0, "scaleZ" 1.0}
+                      "Nickname" "card-name"
+                      "Description" "card-description-2"
+                      "CardID" 100
+                      "CustomDeck" {"1" "flipped-state"}}}}
+
+   (provided
+    (card->description card false) => "card-description-1"
+    (card->description card true) => "card-description-2"
+    (card->objectstate card true) => "flipped-state")))
 
 
 (facts
@@ -55,14 +152,11 @@
 (facts
  "explode deck"
 
- (let [eddex {"rqs" {"1" #:card{:name "card-1"}
-                     "2" #:card{:name "card-2"}}}]
-
-   (explode-deck eddex [#:deckline{:name "card-1" :code "rqs" :collector-number "1" :count 2}
-                        #:deckline{:name "card-2" :code "rqs" :collector-number "2" :count 1}])
-   => [[100 #:card{:name "card-1"}]
-       [100 #:card{:name "card-1"}]
-       [200 #:card{:name "card-2"}]]))
+ (explode-deck [#:deckline{:count 2 :card #:card{:name "card-1"}}
+                #:deckline{:count 1 :card #:card{:name "card-2"}}])
+ => [[100 #:card{:name "card-1"}]
+     [100 #:card{:name "card-1"}]
+     [200 #:card{:name "card-2"}]])
 
 
 (facts
@@ -101,20 +195,20 @@
 (facts
  "deck -> ttsdeck"
 
- (deck->ttsdeck "EDDEX" #:deck{:name "deck" :decklines [#:deckline{:name "card-1"}]})
+ (deck->ttsdeck #:deck{:name "deck" :decklines [#:deckline{:card #:card{:name "card-1"}}]})
  => "tts-card"
 
  (provided
-  (explode-deck "EDDEX" [#:deckline{:name "card-1"}])
+  (explode-deck [#:deckline{:card #:card{:name "card-1"}}])
   => [[100 #:card{:name "card-1"}]]
 
   (card->ttscard #:card{:name "card-1"})
   => "tts-card")
 
- (deck->ttsdeck "EDDEX" #:deck{:name "deck"
-                               :description "description"
-                               :decklines [#:deckline{:name "card-1"}
-                                           #:deckline{:name "card-2"}]})
+ (deck->ttsdeck #:deck{:name "deck"
+                       :description "description"
+                       :decklines [#:deckline{:name "card-1"}
+                                   #:deckline{:name "card-2"}]})
  => {"ObjectStates" [{"Name" "DeckCustom"
                       "Nickname" "deck"
                       "Description" "description"
@@ -126,8 +220,8 @@
                       "ContainedObjects" "contained-objects"}]}
 
  (provided
-  (explode-deck "EDDEX" [#:deckline{:name "card-1"}
-                         #:deckline{:name "card-2"}])
+  (explode-deck [#:deckline{:name "card-1"}
+                 #:deckline{:name "card-2"}])
   => [[100 #:card{:name "card-1"}]
       [200 #:card{:name "card-2"}]]
 
