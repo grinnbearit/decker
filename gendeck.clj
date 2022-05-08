@@ -55,4 +55,8 @@
   (write-decks! EDITION-CARDS EDDEX "WTH" :oldest "MIR")
   (write-decks! EDITION-CARDS EDDEX "WC97")
   (write-decks! EDITION-CARDS EDDEX "TMP")
-  (write-decks! EDITION-CARDS EDDEX "STH" :oldest "TMP"))
+  (write-decks! EDITION-CARDS EDDEX "STH" :oldest "TMP")
+  ;; time skip
+  (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
+  (write-decks! EDITION-CARDS EDDEX "DDK")
+  (write-decks! EDITION-CARDS EDDEX "DGM" :oldest "M13"))
