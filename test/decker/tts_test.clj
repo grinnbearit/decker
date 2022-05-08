@@ -72,7 +72,7 @@
          "oracle text 2")
 
 
- (card->Description #:card{:layout-category :double
+ (card->Description #:card{:layout-category :transform
                            :faces [{:type-line "type line 1"
                                     :oracle-text "oracle text 1"}
                                    {:type-line "type line 2"
@@ -82,7 +82,7 @@
          "oracle text 1")
 
 
- (card->Description #:card{:layout-category :double
+ (card->Description #:card{:layout-category :transform
                            :faces [{:type-line "type line 1"
                                     :oracle-text "oracle text 1"}
                                    {:type-line "type line 2"

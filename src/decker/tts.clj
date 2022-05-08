@@ -49,7 +49,7 @@
              (get-in card [:card/faces 1 :type-line])
              (get-in card [:card/faces 1 :oracle-text]))
 
-     :double
+     :transform
      (let [face (if transformed? 1 0)]
        (format  "[b]%s[/b]\n\n%s"
                 (get-in card [:card/faces face :type-line])
