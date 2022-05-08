@@ -39,22 +39,6 @@
     (edn/read (java.io.PushbackReader. f))))
 
 
-(defn layout->category
-  "maps card layouts into 4 categories"
-  [layout]
-  (case layout
-    ("normal" "token" "emblem" "planar" "leveler" "scheme" "adventure" "vanguard" "host" "augment" "saga" "class")
-    :normal
-
-    ("split" "flip")
-    :split
-
-    ("double_faced_token" "transform" "modal_dfc" "meld" "art_series" "reversible_card")
-    :double
-
-    :unknown))
-
-
 (defn scryfall->card
   "Converts a standard scyfall card map to a card object"
   [scryfall-card]
@@ -63,30 +47,33 @@
                          :name (scryfall-card :name)
                          :layout (scryfall-card :layout)
                          :highres? (scryfall-card :highres_image)}]
-    (case (layout->category (:layout scryfall-card))
+    (case (:layout scryfall-card)
 
-      :normal
+      ("normal" "token" "emblem" "planar" "leveler" "scheme"
+       "adventure" "vanguard" "host" "augment" "saga" "class")
       (assoc base-card
+             :card/layout-category :normal
              :card/png (get-in scryfall-card [:image_uris :png])
              :card/type-line (scryfall-card :type_line)
              :card/oracle-text (scryfall-card :oracle_text))
 
-      :split
+      ("split" "flip")
       (assoc base-card
+             :card/layout-category :split
              :card/png (get-in scryfall-card [:image_uris :png])
-             :card/faces [{:type-line (get-in scryfall-card [:card_faces 0 :type_line])
-                           :oracle-text (get-in scryfall-card [:card_faces 0 :oracle_text])}
-                          {:type-line (get-in scryfall-card [:card_faces 1 :type_line])
-                           :oracle-text (get-in scryfall-card [:card_faces 1 :oracle_text])}])
+             :card/faces (vec
+                          (for [face [0 1]]
+                            {:type-line (get-in scryfall-card [:card_faces face :type_line])
+                             :oracle-text (get-in scryfall-card [:card_faces face :oracle_text])})))
 
-      :double
+      ("transform" "double_faced_token" "modal_dfc" "meld" "art_series" "reversible_card")
       (assoc base-card
-             :card/faces [{:png (get-in scryfall-card [:card_faces 0 :image_uris :png])
-                           :type-line (get-in scryfall-card [:card_faces 0 :type_line])
-                           :oracle-text (get-in scryfall-card [:card_faces 0 :oracle_text])}
-                          {:png (get-in scryfall-card [:card_faces 1 :image_uris :png])
-                           :type-line (get-in scryfall-card [:card_faces 1 :type_line])
-                           :oracle-text (get-in scryfall-card [:card_faces 1 :oracle_text])}])
+             :card/layout-category :transform
+             :card/faces (vec
+                          (for [face [0 1]]
+                            {:png (get-in scryfall-card [:card_faces face :image_uris :png])
+                             :type-line (get-in scryfall-card [:card_faces face :type_line])
+                             :oracle-text (get-in scryfall-card [:card_faces face :oracle_text])})))
 
       (throw (ex-info "unknown layout" {:scryfall-card scryfall-card})))))
 

@@ -4,22 +4,6 @@
 
 
 (facts
- "layout -> category"
-
- (layout->category "normal")
- => :normal
-
- (layout->category "split")
- => :split
-
- (layout->category "double_faced_token")
- => :double
-
- (layout->category "weird")
- => :unknown)
-
-
-(facts
  "scryfall -> card"
 
  (scryfall->card {:set "set"
@@ -34,6 +18,7 @@
            :collector-number "1"
            :name "card"
            :layout "normal"
+           :layout-category :normal
            :highres? true
            :png "pngurl"
            :type-line "type-line"
@@ -54,6 +39,7 @@
            :collector-number "1"
            :name "card"
            :layout "split"
+           :layout-category :split
            :highres? true
            :png "pngurl"
            :faces [{:type-line "type-line-1"
@@ -65,7 +51,7 @@
  (scryfall->card {:set "set"
                   :collector_number "1"
                   :name "card"
-                  :layout "double_faced_token"
+                  :layout "transform"
                   :highres_image true
                   :card_faces [{:image_uris {:png "pngurl-1"}
                                 :type_line "type-line-1"
@@ -76,7 +62,8 @@
  => #:card{:code "set"
            :collector-number "1"
            :name "card"
-           :layout "double_faced_token"
+           :layout "transform"
+           :layout-category :transform
            :highres? true
            :faces [{:png "pngurl-1"
                     :type-line "type-line-1"
