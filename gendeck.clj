@@ -5,8 +5,8 @@
             [decker.tts :as dt]))
 
 
-(def EDITION-CARDS (de/!read-edition-cards))
-(def EDDEX (de/!read-eddex))
+(defonce EDITION-CARDS (de/!read-edition-cards))
+(defonce EDDEX (de/!read-eddex))
 
 
 (defn !test-decks
@@ -39,10 +39,10 @@
                               :oldest (or oldest edition)
                               :ignore (disj (de/peripheral-editions EDDEX)
                                             edition))]
-    (doseq [card-list (dc/!read-card-list edition)]
+    (doseq [card-list (dc/!read-card-lists edition)]
       (->> (dc/card-list->deck eddex cardex card-list)
-           (dt/deck->ttsdeck)
-           (dt/write-ttsdeck!)))))
+           (dt/deck->tts-deck)
+           (dt/write-tts-deck!)))))
 
 
 (comment
