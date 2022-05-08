@@ -50,14 +50,14 @@
     (case (:layout scryfall-card)
 
       ("normal" "token" "emblem" "planar" "leveler" "scheme"
-       "adventure" "vanguard" "host" "augment" "saga" "class")
+       "vanguard" "host" "augment" "saga" "class" "meld")
       (assoc base-card
              :card/layout-category :normal
              :card/png (get-in scryfall-card [:image_uris :png])
              :card/type-line (scryfall-card :type_line)
              :card/oracle-text (scryfall-card :oracle_text))
 
-      ("split" "flip")
+      ("split" "flip" "adventure")
       (assoc base-card
              :card/layout-category :split
              :card/png (get-in scryfall-card [:image_uris :png])
@@ -66,7 +66,7 @@
                             {:type-line (get-in scryfall-card [:card_faces face :type_line])
                              :oracle-text (get-in scryfall-card [:card_faces face :oracle_text])})))
 
-      ("transform" "double_faced_token" "modal_dfc" "meld" "art_series" "reversible_card")
+      ("transform" "double_faced_token" "modal_dfc" "art_series" "reversible_card")
       (assoc base-card
              :card/layout-category :transform
              :card/faces (vec
