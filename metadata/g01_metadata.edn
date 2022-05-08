@@ -1,20 +1,22 @@
-(#:card{:code "g01",
-        :collector-number "1",
-        :name "Ball Lightning",
-        :layout "normal",
+(#:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "g01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b70b374-94b6-48d5-a1d7-04d012049c22.png?1595442704",
-        :type-line "Creature — Elemental",
+        :collector-number "1",
+        :layout "normal",
+        :name "Ball Lightning",
         :oracle-text
         "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nHaste (This creature can attack and {T} as soon as it comes under your control.)\nAt the beginning of the end step, sacrifice Ball Lightning."}
- #:card{:code "g01",
-        :collector-number "2",
-        :name "Oath of Druids",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "g01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5dd34ceb-2659-44fe-b11d-b6b71dcfef02.png?1561757255",
-        :type-line "Enchantment",
+        :collector-number "2",
+        :layout "normal",
+        :name "Oath of Druids",
         :oracle-text
         "At the beginning of each player's upkeep, that player chooses target player who controls more creatures than they do and is their opponent. The first player may reveal cards from the top of their library until they reveal a creature card. If the first player does, that player puts that card onto the battlefield and all other cards revealed this way into their graveyard."})

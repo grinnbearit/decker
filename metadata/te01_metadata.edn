@@ -1,45 +1,50 @@
-(#:card{:code "te01",
-        :collector-number "1",
-        :name "Soldier",
-        :layout "token",
+(#:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "te01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3b7ed2fe-4f78-4a09-8d2c-342dcf92eae4.png?1561756951",
-        :type-line "Token Creature — Soldier",
-        :oracle-text ""}
- #:card{:code "te01",
-        :collector-number "2",
-        :name "Spirit",
+        :collector-number "1",
         :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "te01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5b2c2f3d-9489-4e7b-85e3-db1f2ee0f601.png?1561757212",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "te01",
-        :collector-number "3",
-        :name "Horror",
+        :collector-number "2",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Horror",
+        :layout-category :normal,
+        :code "te01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8cfb1a9c-3f34-4362-bc2d-4cd584488820.png?1561757545",
-        :type-line "Token Creature — Horror",
-        :oracle-text ""}
- #:card{:code "te01",
-        :collector-number "4",
-        :name "Beast",
+        :collector-number "3",
         :layout "token",
+        :name "Horror",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "te01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c5ca0ca5-421c-41d9-a797-3c8443d253ae.png?1561758023",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "te01",
-        :collector-number "5",
-        :name "Beast",
+        :collector-number "4",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "te01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4210312-e617-4e72-bf80-2c8d42b7777d.png?1561757740",
-        :type-line "Token Creature — Beast",
+        :collector-number "5",
+        :layout "token",
+        :name "Beast",
         :oracle-text ""})

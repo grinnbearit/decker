@@ -1,59 +1,65 @@
-(#:card{:code "pw21",
-        :collector-number "1",
-        :name "Arbor Elf",
-        :layout "normal",
+(#:card{:type-line "Creature — Elf Druid",
+        :layout-category :normal,
+        :code "pw21",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/3178e55c-7e49-4621-906a-a66e5656e276.png?1643831775",
-        :type-line "Creature — Elf Druid",
-        :oracle-text "{T}: Untap target Forest."}
- #:card{:code "pw21",
-        :collector-number "2",
-        :name "Collected Company",
+        :collector-number "1",
         :layout "normal",
+        :name "Arbor Elf",
+        :oracle-text "{T}: Untap target Forest."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pw21",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/8/286db2ad-ee23-4aeb-99f8-6786611264bb.png?1643830471",
-        :type-line "Instant",
+        :collector-number "2",
+        :layout "normal",
+        :name "Collected Company",
         :oracle-text
         "Look at the top six cards of your library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order."}
- #:card{:code "pw21",
-        :collector-number "3",
-        :name "Wurmcoil Engine",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Phyrexian Wurm",
+        :layout-category :normal,
+        :code "pw21",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2daa42ef-0981-4e4f-9916-b6a3d227943f.png?1643843893",
-        :type-line "Artifact Creature — Phyrexian Wurm",
+        :collector-number "3",
+        :layout "normal",
+        :name "Wurmcoil Engine",
         :oracle-text
         "Deathtouch, lifelink\nWhen Wurmcoil Engine dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink."}
- #:card{:code "pw21",
-        :collector-number "4",
-        :name "Fabled Passage",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pw21",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e374f1a8-0b90-4f62-9af5-3bbb11a0fbc4.png?1630199893",
-        :type-line "Land",
+        :collector-number "4",
+        :layout "normal",
+        :name "Fabled Passage",
         :oracle-text
         "{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land."}
- #:card{:code "pw21",
-        :collector-number "5",
-        :name "Mind Stone",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pw21",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/174e631f-f024-41fd-8660-7cc8708ee3a2.png?1640720711",
-        :type-line "Artifact",
+        :collector-number "5",
+        :layout "normal",
+        :name "Mind Stone",
         :oracle-text
         "{T}: Add {C}.\n{1}, {T}, Sacrifice Mind Stone: Draw a card."}
- #:card{:code "pw21",
-        :collector-number "6",
-        :name "Conjurer's Closet",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pw21",
         :highres? false,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5de7e412-87b1-4c03-a074-f319a8c073ce.png?1630004443",
-        :type-line "Artifact",
+        :collector-number "6",
+        :layout "normal",
+        :name "Conjurer's Closet",
         :oracle-text
         "At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control."})

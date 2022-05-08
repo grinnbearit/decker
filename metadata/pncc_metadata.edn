@@ -1,0 +1,691 @@
+(#:card{:type-line "Legendary Creature — Devil Rogue",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5b64d793-6ec5-4262-9d46-85f6c379fd4d.png?1651955326",
+        :collector-number "2p",
+        :layout "normal",
+        :name "Henzie \"Toolbox\" Torre",
+        :oracle-text
+        "Each creature spell you cast with mana value 4 or greater has blitz. The blitz cost is equal to its mana cost. (You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nBlitz costs you pay cost {1} less for each time you've cast your commander from the command zone this game."}
+ #:card{:type-line "Creature — Bird Soldier",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2f44253-ce51-4253-96c7-afb3ea128dbd.png?1651954495",
+        :collector-number "11p",
+        :layout "normal",
+        :name "Aerial Extortionist",
+        :oracle-text
+        "Flying\nWhenever Aerial Extortionist enters the battlefield or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
+ #:card{:type-line "Creature — Angel Advisor",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a9af808-5739-4eec-b64d-c88aff13a193.png?1651954550",
+        :collector-number "12p",
+        :layout "normal",
+        :name "Angelic Sleuth",
+        :oracle-text
+        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+ #:card{:type-line "Creature — Elf Citizen",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c68871d-1e4d-447d-931a-c2d9114e677a.png?1651954721",
+        :collector-number "13p",
+        :layout "normal",
+        :name "Boss's Chauffeur",
+        :oracle-text
+        "Boss's Chauffeur enters the battlefield with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Boss's Chauffeur.\nWhen Boss's Chauffeur dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cc932f3-de94-42f6-842c-0d7c94544a9f.png?1651954913",
+        :collector-number "14p",
+        :layout "normal",
+        :name "Contractual Safeguard",
+        :oracle-text
+        "Addendum — If you cast this spell during your main phase, put a shield counter on a creature you control. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nChoose a kind of counter on a creature you control. Put a counter of that kind on each other creature you control."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff779b50-e11d-46c9-aa7f-c3c1797bfe20.png?1651955020",
+        :collector-number "15p",
+        :layout "normal",
+        :name "Damning Verdict",
+        :oracle-text "Destroy all creatures with no counters on them."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87abd7e2-175b-4905-a6c7-38a2ed1f6eff.png?1651955277",
+        :collector-number "16p",
+        :layout "normal",
+        :name "Grand Crescendo",
+        :oracle-text
+        "Create X 1/1 green and white Citizen creature tokens. Creatures you control gain indestructible until end of turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c552b2e9-b5c4-4d0f-b04c-802f8e6a86ac.png?1651955373",
+        :collector-number "17p",
+        :layout "normal",
+        :name "Jailbreak",
+        :oracle-text
+        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters the battlefield, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
+ #:card{:type-line "Creature — Rhino Druid",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/262c9e86-2fdd-4f44-a90e-18155fbcb7a8.png?1651955608",
+        :collector-number "18p",
+        :layout "normal",
+        :name "Master of Ceremonies",
+        :oracle-text
+        "At the beginning of your upkeep, each opponent chooses money, friends, or secrets. For each player who chose money, you and that player each create a Treasure token. For each player who chose friends, you and that player each create a 1/1 green and white Citizen creature token. For each player who chose secrets, you and that player each draw a card."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec613a66-9594-446c-9be5-99a65044f3b7.png?1651955878",
+        :collector-number "19p",
+        :layout "normal",
+        :name "Resourceful Defense",
+        :oracle-text
+        "Whenever a permanent you control leaves the battlefield, if it had counters on it, put those counters on target permanent you control.\n{4}{W}: Move any number of counters from target permanent you control to another target permanent you control."}
+ #:card{:type-line "Creature — Bird Advisor",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45f7457f-c513-4e33-8827-e440ca12078e.png?1651956163",
+        :collector-number "20p",
+        :layout "normal",
+        :name "Skyboon Evangelist",
+        :oracle-text
+        "Flying\nWhen Skyboon Evangelist enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e0482e3-7723-4854-a078-f93d08dabb8d.png?1651956245",
+        :collector-number "21p",
+        :layout "normal",
+        :name "Smuggler's Share",
+        :oracle-text
+        "At the beginning of each end step, draw a card for each opponent who drew two or more cards this turn, then create a Treasure token for each opponent who had two or more lands enter the battlefield under their control this turn."}
+ #:card{:type-line "Creature — Bird Advisor",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8d30838f-1bd5-4d9b-91cd-337494d08b69.png?1651954612",
+        :collector-number "22p",
+        :layout "normal",
+        :name "Aven Courier",
+        :oracle-text
+        "Flying\nWhenever Aven Courier attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
+ #:card{:type-line "Creature — Cephalid Rogue",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6771bd5-8d11-4b0b-af41-53c9e63e296f.png?1651954861",
+        :collector-number "23p",
+        :layout "normal",
+        :name "Cephalid Facetaker",
+        :oracle-text
+        "Cephalid Facetaker can't be blocked.\nAt the beginning of combat on your turn, you may have Cephalid Facetaker become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6bcf9e9d-e735-44e4-aef3-589ac7f967ee.png?1651954885",
+        :collector-number "24p",
+        :layout "normal",
+        :name "Change of Plans",
+        :oracle-text
+        "Each of X target creatures you control connive. You may have any number of them phase out. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature. Treat phased out permanents and anything attached to them as though they don't exist until their controller's next turn.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/447f3f85-cc95-410a-a76b-4e9708c0db66.png?1651955118",
+        :collector-number "25p",
+        :layout "normal",
+        :name "Extravagant Replication",
+        :oracle-text
+        "At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/6639904c-6bf2-48bd-80cb-fcccdcf6ba1c.png?1651955225",
+        :collector-number "26p",
+        :layout "normal",
+        :name "Flawless Forgery",
+        :oracle-text
+        "Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nExile target instant or sorcery card from an opponent's graveyard. Copy that card. You may cast the copy without paying its mana cost."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/dfa1f50a-a311-4d98-8626-4a8a6abf5fdd.png?1651955584",
+        :collector-number "28p",
+        :layout "normal",
+        :name "Mask of the Schemer",
+        :oracle-text
+        "Whenever equipped creature deals combat damage to a player, it connives X, where X is the amount of damage it dealt to that player. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)\nEquip {2}"}
+ #:card{:type-line "Creature — Cephalid Advisor",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/e/1ed682d3-a1c2-4b29-b5df-a49df5bd4a01.png?1651956098",
+        :collector-number "29p",
+        :layout "normal",
+        :name "Shield Broker",
+        :oracle-text
+        "When Shield Broker enters the battlefield, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22512ace-0699-4756-b6ba-e899eb88d7b8.png?1651956128",
+        :collector-number "30p",
+        :layout "normal",
+        :name "Sinister Concierge",
+        :oracle-text
+        "When Sinister Concierge dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they cast it without paying its mana cost. Those creature spells have haste.)"}
+ #:card{:type-line "Creature — Bird Rogue",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/270c4881-47fa-4f1f-9e16-943747b051e3.png?1651956190",
+        :collector-number "31p",
+        :layout "normal",
+        :name "Skyway Robber",
+        :oracle-text
+        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nSkyway Robber escapes with \"Whenever Skyway Robber deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with Skyway Robber without paying its mana cost.\""}
+ #:card{:type-line "Creature — Ogre Warrior",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e6d7e25-d762-4f9f-8566-53636d88a3d8.png?1651954639",
+        :collector-number "33p",
+        :layout "normal",
+        :name "Bellowing Mauler",
+        :oracle-text
+        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/df9aa3dd-9666-4236-96b2-e20e6f7da1ab.png?1651954691",
+        :collector-number "34p",
+        :layout "normal",
+        :name "Body Count",
+        :oracle-text
+        "Spectacle {B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nDraw a card for each creature that died under your control this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/ef618c8e-9635-4b99-a563-e88b5265437a.png?1651955433",
+        :collector-number "36p",
+        :layout "normal",
+        :name "Lethal Scheme",
+        :oracle-text
+        "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nDestroy target creature or planeswalker. Each creature that convoked Lethal Scheme connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd6f3105-50d3-4067-a823-7603b75d8c8f.png?1651955559",
+        :collector-number "37p",
+        :layout "normal",
+        :name "Make an Example",
+        :oracle-text
+        "Each opponent separates the creatures they control into two piles. For each opponent, you choose one of their piles. Each opponent sacrifices the creatures in their chosen pile. (Piles can be empty.)"}
+ #:card{:type-line "Creature — Human Warlock",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8ba3fca8-2001-4f62-8209-8dfa292395f0.png?1651955670",
+        :collector-number "38p",
+        :layout "normal",
+        :name "Misfortune Teller",
+        :oracle-text
+        "Deathtouch\nWhenever Misfortune Teller enters the battlefield or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76be9a78-9c34-4932-bc2c-b0f85f691ac1.png?1651955824",
+        :collector-number "39p",
+        :layout "normal",
+        :name "Protection Racket",
+        :oracle-text
+        "At the beginning of your upkeep, repeat the following process for each opponent in turn order. Reveal the top card of your library. That player may pay life equal to that card's mana value. If they do, exile that card. Otherwise, put it into your hand."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/8197deca-1222-4ab4-a41c-e5d621cfb6d7.png?1651954582",
+        :collector-number "44p",
+        :layout "normal",
+        :name "Audacious Swap",
+        :oracle-text
+        "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nThe owner of target nonenchantment permanent shuffles it into their library, then exiles the top card of their library. If it's a land card, they put it onto the battlefield. Otherwise, they may cast it without paying its mana cost."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd85ec0c-3ad5-400c-9224-3bac4fee307e.png?1651955067",
+        :collector-number "45p",
+        :layout "normal",
+        :name "Determined Iteration",
+        :oracle-text
+        "At the beginning of combat on your turn, populate. The token created this way gains haste. Sacrifice it at the beginning of the next end step. (To populate, create a token that's a copy of a creature token you control.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/adffe20a-d5df-4659-ac01-939c78c53479.png?1651955349",
+        :collector-number "47p",
+        :layout "normal",
+        :name "Industrial Advancement",
+        :oracle-text
+        "At the beginning of your end step, you may sacrifice a creature. If you do, look at the top X cards of your library, where X is that creature's mana value. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order."}
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/89478efa-0440-4390-8337-e094f4cd8553.png?1651955503",
+        :collector-number "48p",
+        :layout "normal",
+        :name "Life of the Party",
+        :oracle-text
+        "First strike, trample, haste\nWhenever Life of the Party attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen Life of the Party enters the battlefield, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
+ #:card{:type-line "Creature — Viashino Rogue",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21b207ec-64ad-4d30-ba26-1eb9d01b6723.png?1651955642",
+        :collector-number "49p",
+        :layout "normal",
+        :name "Mezzio Mugger",
+        :oracle-text
+        "Whenever Mezzio Mugger attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bfe0c4c2-c40d-4f27-be02-b730e644d637.png?1651955853",
+        :collector-number "50p",
+        :layout "normal",
+        :name "Rain of Riches",
+        :oracle-text
+        "When Rain of Riches enters the battlefield, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
+ #:card{:type-line "Creature — Ogre Warrior",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/129bb381-c0a3-4f17-be80-bd7a798a1c54.png?1651955948",
+        :collector-number "51p",
+        :layout "normal",
+        :name "Rose Room Treasurer",
+        :oracle-text
+        "Alliance — Whenever another creature enters the battlefield under your control, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, Rose Room Treasurer deals X damage to any target."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc3de9a9-439b-4198-9bb1-9d3f1da8b37c.png?1651956072",
+        :collector-number "52p",
+        :layout "normal",
+        :name "Seize the Spotlight",
+        :oracle-text
+        "Each opponent chooses fame or fortune. For each player who chose fame, gain control of a creature that player controls until end of turn. Untap those creatures and they gain haste until end of turn. For each player who chose fortune, you draw a card and create a Treasure token."}
+ #:card{:type-line "Creature — Human Bard",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png "https://c2.scryfall.com/file/scryfall-errors/soon.jpg",
+        :collector-number "53p",
+        :layout "normal",
+        :name "Spellbinding Soprano",
+        :oracle-text
+        "Whenever Spellbinding Soprano attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+ #:card{:type-line "Creature — Rhino Warrior",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5bc362b9-81a8-4c7b-ab89-207d514f839a.png?1651954749",
+        :collector-number "55p",
+        :layout "normal",
+        :name "Bribe Taker",
+        :oracle-text
+        "Trample\nWhen Bribe Taker enters the battlefield, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on Bribe Taker."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/771257d2-64be-4a61-9eae-d1a98b14a63f.png?1651954832",
+        :collector-number "56p",
+        :layout "normal",
+        :name "Caldaia Guardian",
+        :oracle-text
+        "Whenever Caldaia Guardian or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c97e5ce-e134-453e-9abb-d024734a562c.png?1651954942",
+        :collector-number "57p",
+        :layout "normal",
+        :name "Crash the Party",
+        :oracle-text
+        "Create a tapped 4/4 green Rhino Warrior creature token for each tapped creature you control."}
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f96927d4-f3be-43a0-afa9-fcb55f4628b3.png?1651955093",
+        :collector-number "58p",
+        :layout "normal",
+        :name "Dodgy Jalopy",
+        :oracle-text
+        "Trample\nDodgy Jalopy's power is equal to the highest mana value among creatures you control.\nCrew 3\nScavenge {2}{G} ({2}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/2528890a-18ff-4979-b370-d83ace3d806f.png?1651955175",
+        :collector-number "59p",
+        :layout "normal",
+        :name "Family's Favor",
+        :oracle-text
+        "Whenever you attack, put a shield counter on target attacking creature. Until end of turn, it gains \"Whenever this creature deals combat damage to a player, remove a shield counter from it. If you do, draw a card.\" (If a creature with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
+ #:card{:type-line "Creature — Ogre Citizen",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/572d0c0e-c19f-4fcc-9c2d-9215b91732f6.png?1651955198",
+        :collector-number "60p",
+        :layout "normal",
+        :name "First Responder",
+        :oracle-text
+        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on First Responder."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6b425048-c587-40ee-842c-648ffa0d6dd5.png?1651955405",
+        :collector-number "61p",
+        :layout "normal",
+        :name "Killer Service",
+        :oracle-text
+        "When Killer Service enters the battlefield, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a3b1cd5-a46e-4f7f-8ea5-89295b2f1762.png?1651955696",
+        :collector-number "62p",
+        :layout "normal",
+        :name "Next of Kin",
+        :oracle-text
+        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return Next of Kin to the battlefield attached to that creature at the beginning of the next end step."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/7208ef9e-aa90-4533-b37b-4ca4abbedb29.png?1651955773",
+        :collector-number "63p",
+        :layout "normal",
+        :name "Park Heights Maverick",
+        :oracle-text
+        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nPark Heights Maverick can't be blocked by creatures with power 2 or less.\nWhenever Park Heights Maverick deals combat damage to a player or dies, proliferate."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/937e16a3-95b9-497e-b86f-3322458a27c1.png?1651956045",
+        :collector-number "64p",
+        :layout "normal",
+        :name "Scepter of Celebration",
+        :oracle-text
+        "Equipped creature gets +2/+0 and has trample.\nWhenever equipped creature deals combat damage to a player, create that many 1/1 green and white Citizen creature tokens.\nEquip {3}"}
+ #:card{:type-line "Artifact — Clue",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a3ea13b-2032-4a2c-92bb-6dff0358fc5a.png?1651954520",
+        :collector-number "66p",
+        :layout "normal",
+        :name "Agent's Toolkit",
+        :oracle-text
+        "Agent's Toolkit enters the battlefield with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature enters the battlefield under your control, you may move a counter from Agent's Toolkit onto that creature.\n{2}, Sacrifice Agent's Toolkit: Draw a card."}
+ #:card{:type-line "Legendary Creature — Human Citizen",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db6c2c95-fce2-4066-adbd-c10cfa5b7ec6.png?1651954669",
+        :collector-number "67p",
+        :layout "normal",
+        :name "Bess, Soul Nourisher",
+        :oracle-text
+        "Whenever one or more other creatures with base power and toughness 1/1 enter the battlefield under your control, put a +1/+1 counter on Bess, Soul Nourisher.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3cb19d38-27f1-4a5a-899e-7576fa5a3b9e.png?1651954774",
+        :collector-number "68p",
+        :layout "normal",
+        :name "Brokers Confluence",
+        :oracle-text
+        "Choose three. You may choose the same mode more than once.\n• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\n• Target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)\n• Counter target activated or triggered ability."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20f2a4c8-ba65-4b4c-8b61-6f56c124c906.png?1651954805",
+        :collector-number "69p",
+        :layout "normal",
+        :name "Cabaretti Confluence",
+        :oracle-text
+        "Choose three. You may choose the same mode more than once.\n• Create a token that's a copy of target creature you control. It gains haste. Sacrifice it at the beginning of the next end step.\n• Exile target artifact or enchantment.\n• Creatures target player controls get +1/+1 and gain first strike until end of turn."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a17a1f7a-c66d-4fec-a51d-c55361a66f5b.png?1651954970",
+        :collector-number "70p",
+        :layout "normal",
+        :name "Cryptic Pursuit",
+        :oracle-text
+        "Whenever you cast an instant or sorcery spell from your hand, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)\nWhenever a face-down creature you control dies, exile it if it's an instant or sorcery card. You may cast that card until the end of your next turn."}
+ #:card{:type-line "Legendary Creature — Cat Advisor",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/892aeb60-a8aa-4e28-b86f-a66594991cf0.png?1651955042",
+        :collector-number "71p",
+        :layout "normal",
+        :name "Denry Klin, Editor in Chief",
+        :oracle-text
+        "Denry Klin, Editor in Chief enters the battlefield with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature enters the battlefield under your control, if Denry has counters on it, put the same number of each kind of counter on that creature."}
+ #:card{:type-line "Creature — Horror",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec716736-9c07-4dbb-bbf3-e9be9a040dd2.png?1651955301",
+        :collector-number "72p",
+        :layout "normal",
+        :name "Grime Gorger",
+        :oracle-text
+        "Menace\nWhenever Grime Gorger attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on Grime Gorger for each card exiled this way."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c4748af6-c77a-48cc-8ff0-39c303119c85.png?1651955464",
+        :collector-number "74p",
+        :layout "normal",
+        :name "Life Insurance",
+        :oracle-text
+        "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nWhenever a nontoken creature dies, you lose 1 life and create a Treasure token."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7f9614d-8a3e-405f-b689-e74b543ffbdf.png?1651955528",
+        :collector-number "75p",
+        :layout "normal",
+        :name "Maestros Confluence",
+        :oracle-text
+        "Choose three. You may choose the same mode more than once.\n• Return target monocolored instant or sorcery card from your graveyard to your hand.\n• Target creature gets -3/-3 until end of turn.\n• Goad each creature target player controls. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/163a5a68-66ed-4508-9c27-32d81ae913b5.png?1651955723",
+        :collector-number "76p",
+        :layout "normal",
+        :name "Obscura Confluence",
+        :oracle-text
+        "Choose three. You may choose the same mode more than once.\n• Until end of turn, target creature loses all abilities and has base power and toughness 1/1.\n• Target creature connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)\n• Target player returns a creature card from their graveyard to their hand."}
+ #:card{:type-line "Legendary Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac13a687-4053-494a-9198-cee65045cf36.png?1651955749",
+        :collector-number "77p",
+        :layout "normal",
+        :name "Oskar, Rubbish Reclaimer",
+        :oracle-text
+        "This spell costs {1} less to cast for each different mana value among cards in your graveyard.\nWhenever you discard a nonland card, you may cast it from your graveyard."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/359d4a70-404a-4db2-bf7b-0882223427f9.png?1651955797",
+        :collector-number "78p",
+        :layout "normal",
+        :name "Prosperous Partnership",
+        :oracle-text
+        "When Prosperous Partnership enters the battlefield, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8a7d5c2-2ba0-4dcb-9674-30f560d8ec1a.png?1651955909",
+        :collector-number "79p",
+        :layout "normal",
+        :name "Riveteers Confluence",
+        :oracle-text
+        "Choose three. You may choose the same mode more than once.\n• You draw a card and you lose 1 life.\n• Riveteers Confluence deals 1 damage to each creature and planeswalker you don't control.\n• You may put a land card from your hand or graveyard onto the battlefield tapped."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/9/59e70558-6698-436f-a203-c5ef9f799104.png?1651954995",
+        :collector-number "81p",
+        :layout "normal",
+        :name "Currency Converter",
+        :oracle-text
+        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with Currency Converter into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36feb903-079f-409b-9e93-fa7da5657a23.png?1651955148",
+        :collector-number "82p",
+        :layout "normal",
+        :name "False Floor",
+        :oracle-text
+        "False Floor enters the battlefield tapped.\nCreatures enter the battlefield tapped.\n{2}, {T}, Exile False Floor: Exile all untapped creatures. Activate only as a sorcery."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23459e7a-5d9b-4d13-af69-b13ed1c73be1.png?1651955254",
+        :collector-number "83p",
+        :layout "normal",
+        :name "Gavel of the Righteous",
+        :oracle-text
+        "At the beginning of combat on your turn, put a charge counter on Gavel of the Righteous.\nEquipped creature gets +1/+1 for each counter on Gavel of the Righteous.\nAs long as Gavel of the Righteous has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from Gavel of the Righteous."}
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pncc",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d8cf3fbb-af22-400d-bf8e-21c113f4f515.png?1651956212",
+        :collector-number "84p",
+        :layout "normal",
+        :name "Smuggler's Buggy",
+        :oracle-text
+        "Hideaway 4 (When this artifact enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever Smuggler's Buggy deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return Smuggler's Buggy to its owner's hand.\nCrew 2"})

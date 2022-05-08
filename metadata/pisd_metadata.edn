@@ -1,11 +1,12 @@
-(#:card{:code "pisd",
-        :collector-number "13",
-        :name "Elite Inquisitor",
-        :layout "normal",
+(#:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pisd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98f687bb-157c-4e98-b39b-2dce7f145fa5.png?1561757637",
-        :type-line "Creature — Human Soldier",
+        :collector-number "13",
+        :layout "normal",
+        :name "Elite Inquisitor",
         :oracle-text
         "First strike, vigilance\nProtection from Vampires, from Werewolves, and from Zombies"}
  #:card{:code "pisd",
@@ -13,6 +14,7 @@
         :name "Ludevic's Test Subject // Ludevic's Abomination",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/340b660c-9aa1-4bd2-8c6f-d9af7fee5f4a.png?1605371414",
@@ -23,23 +25,25 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/3/4/340b660c-9aa1-4bd2-8c6f-d9af7fee5f4a.png?1605371414",
           :type-line "Creature — Lizard Horror",
           :oracle-text "Trample"}]}
- #:card{:code "pisd",
-        :collector-number "97",
-        :name "Diregraf Ghoul",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pisd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9cf8ad2-de95-417c-8808-83e60df9c007.png?1561757921",
-        :type-line "Creature — Zombie",
-        :oracle-text "Diregraf Ghoul enters the battlefield tapped."}
- #:card{:code "pisd",
-        :collector-number "140",
-        :name "Devil's Play",
+        :collector-number "97",
         :layout "normal",
+        :name "Diregraf Ghoul",
+        :oracle-text "Diregraf Ghoul enters the battlefield tapped."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pisd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6dd2f9e-16c2-4d25-98c4-0017ccd42228.png?1561758340",
-        :type-line "Sorcery",
+        :collector-number "140",
+        :layout "normal",
+        :name "Devil's Play",
         :oracle-text
         "Devil's Play deals X damage to any target.\nFlashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
  #:card{:code "pisd",
@@ -47,6 +51,7 @@
         :name "Mayor of Avabruck // Howlpack Alpha",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/685b0777-b4e1-4c85-ad35-524024cb3a71.png?1605370722",

@@ -1,48 +1,53 @@
-(#:card{:code "psom",
-        :collector-number "24",
-        :name "Tempered Steel",
-        :layout "normal",
+(#:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "psom",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd03c292-821f-41fd-b582-db71b40b9804.png?1561757942",
-        :type-line "Enchantment",
-        :oracle-text "Artifact creatures you control get +2/+2."}
- #:card{:code "psom",
-        :collector-number "*69",
-        :name "Memoricide",
+        :collector-number "24",
         :layout "normal",
+        :name "Tempered Steel",
+        :oracle-text "Artifact creatures you control get +2/+2."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "psom",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c9d74bae-0b96-4a78-b805-a0b764d0716c.png?1561758074",
-        :type-line "Sorcery",
+        :collector-number "*69",
+        :layout "normal",
+        :name "Memoricide",
         :oracle-text
         "Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles."}
- #:card{:code "psom",
-        :collector-number "174",
-        :name "Memnite",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "psom",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/4669327f-268f-43c2-ad57-555a02baa6a1.png?1561757035",
-        :type-line "Artifact Creature — Construct",
-        :oracle-text ""}
- #:card{:code "psom",
-        :collector-number "205★",
-        :name "Steel Hellkite",
+        :collector-number "174",
         :layout "normal",
+        :name "Memnite",
+        :oracle-text ""}
+ #:card{:type-line "Artifact Creature — Dragon",
+        :layout-category :normal,
+        :code "psom",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b268cd3b-af91-4c22-ac73-347babb69200.png?1605371303",
-        :type-line "Artifact Creature — Dragon",
+        :collector-number "205★",
+        :layout "normal",
+        :name "Steel Hellkite",
         :oracle-text
         "Flying\n{2}: Steel Hellkite gets +1/+0 until end of turn.\n{X}: Destroy each nonland permanent with mana value X whose controller was dealt combat damage by Steel Hellkite this turn. Activate only once each turn."}
- #:card{:code "psom",
-        :collector-number "223★",
-        :name "Wurmcoil Engine",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Phyrexian Wurm",
+        :layout-category :normal,
+        :code "psom",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9bdfa34-f608-40d4-b634-b260ad620f18.png?1605370802",
-        :type-line "Artifact Creature — Phyrexian Wurm",
+        :collector-number "223★",
+        :layout "normal",
+        :name "Wurmcoil Engine",
         :oracle-text
         "Deathtouch, lifelink\nWhen Wurmcoil Engine dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink."})

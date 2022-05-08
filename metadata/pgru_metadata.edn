@@ -1,45 +1,50 @@
-(#:card{:code "pgru",
-        :collector-number "1",
-        :name "Plains",
-        :layout "normal",
+(#:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pgru",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/412af58e-e46e-4346-aa25-6624f0c3d142.png?1562531060",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "pgru",
-        :collector-number "2",
-        :name "Island",
+        :collector-number "1",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pgru",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79fe9e5e-3ddc-4b15-81d5-9659cd087649.png?1562531010",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "pgru",
-        :collector-number "3",
-        :name "Swamp",
+        :collector-number "2",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pgru",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/90b3ef81-2c77-4355-afcb-7b419d4bcb2c.png?1562531068",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "pgru",
-        :collector-number "4",
-        :name "Mountain",
+        :collector-number "3",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pgru",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c5fce146-ac20-4fc2-ba5a-ab135c323d55.png?1562531029",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "pgru",
-        :collector-number "5",
-        :name "Forest",
+        :collector-number "4",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pgru",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74b109df-ce9e-4448-a5d5-3f53cf892731.png?1562530992",
-        :type-line "Basic Land — Forest",
+        :collector-number "5",
+        :layout "normal",
+        :name "Forest",
         :oracle-text "({T}: Add {G}.)"})

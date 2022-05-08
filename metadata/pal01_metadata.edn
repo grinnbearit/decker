@@ -1,111 +1,123 @@
-(#:card{:code "pal01",
-        :collector-number "1",
-        :name "Forest",
-        :layout "normal",
+(#:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/df5d894f-ead3-4077-94a0-765b1159a34a.png?1562636928",
-        :type-line "Basic Land — Forest",
-        :oracle-text "({T}: Add {G}.)"}
- #:card{:code "pal01",
-        :collector-number "2",
-        :name "Creeping Mold",
+        :collector-number "1",
         :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87f53a8f-a86d-47ad-ae5c-89b3135a34a5.png?1562636841",
-        :type-line "Sorcery",
-        :oracle-text "Destroy target artifact, enchantment, or land."}
- #:card{:code "pal01",
-        :collector-number "3",
-        :name "Island",
+        :collector-number "2",
         :layout "normal",
+        :name "Creeping Mold",
+        :oracle-text "Destroy target artifact, enchantment, or land."}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c20fe46c-f358-4974-adfb-86193c4857c1.png?1562636888",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "pal01",
-        :collector-number "4",
-        :name "Dismiss",
+        :collector-number "3",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/710876cc-5e09-4d0f-aafc-dc8b6f020d91.png?1562636812",
-        :type-line "Instant",
-        :oracle-text "Counter target spell.\nDraw a card."}
- #:card{:code "pal01",
-        :collector-number "5",
-        :name "Mountain",
+        :collector-number "4",
         :layout "normal",
+        :name "Dismiss",
+        :oracle-text "Counter target spell.\nDraw a card."}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/3/c35b5aa9-0d84-45df-99da-21535f9d45c5.png?1562636891",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "pal01",
-        :collector-number "6",
-        :name "Fling",
+        :collector-number "5",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/84ba156e-09f4-415e-a7a2-95ba5d52f4a6.png?1562636832",
-        :type-line "Instant",
+        :collector-number "6",
+        :layout "normal",
+        :name "Fling",
         :oracle-text
         "As an additional cost to cast this spell, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to any target."}
- #:card{:code "pal01",
-        :collector-number "7",
-        :name "Plains",
-        :layout "normal",
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/793bfd55-e7ff-46cd-ad29-7997c9fd521a.png?1562636822",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "pal01",
-        :collector-number "8",
-        :name "Empyrial Armor",
+        :collector-number "7",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4d278c1-8610-435d-8cfa-dd268a74eb63.png?1595442734",
-        :type-line "Enchantment — Aura",
+        :collector-number "8",
+        :layout "normal",
+        :name "Empyrial Armor",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +1/+1 for each card in your hand."}
- #:card{:code "pal01",
-        :collector-number "9",
-        :name "Swamp",
-        :layout "normal",
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/115cfb4f-06d2-42c4-b94b-d0cbe44e2f8b.png?1562636736",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "pal01",
-        :collector-number "10",
-        :name "Diabolic Edict",
+        :collector-number "9",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf7acfaa-0fb7-4f2b-8607-3bfa877f8682.png?1562636906",
-        :type-line "Instant",
-        :oracle-text "Target player sacrifices a creature."}
- #:card{:code "pal01",
-        :collector-number "11",
-        :name "Forest",
+        :collector-number "10",
         :layout "normal",
+        :name "Diabolic Edict",
+        :oracle-text "Target player sacrifices a creature."}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a67a595c-50fb-42c8-a15e-6ee40239ca23.png?1562636867",
-        :type-line "Basic Land — Forest",
-        :oracle-text "({T}: Add {G}.)"}
- #:card{:code "pal01",
-        :collector-number "12",
-        :name "Gaea's Blessing",
+        :collector-number "11",
         :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pal01",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8b09be15-1674-4ce7-a3fb-acf572cc25bf.png?1562636843",
-        :type-line "Sorcery",
+        :collector-number "12",
+        :layout "normal",
+        :name "Gaea's Blessing",
         :oracle-text
         "Target player shuffles up to three target cards from their graveyard into their library.\nDraw a card.\nWhen Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library."})

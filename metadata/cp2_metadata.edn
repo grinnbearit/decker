@@ -1,59 +1,65 @@
-(#:card{:code "cp2",
-        :collector-number "1",
-        :name "Necropolis Fiend",
-        :layout "normal",
+(#:card{:type-line "Creature — Demon",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f27fb4a1-cf88-45e3-90bc-aa146f7c4ffa.png?1583432665",
-        :type-line "Creature — Demon",
+        :collector-number "1",
+        :layout "normal",
+        :name "Necropolis Fiend",
         :oracle-text
         "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\n{X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn."}
- #:card{:code "cp2",
-        :collector-number "2",
-        :name "Hero's Downfall",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/64aa5cbd-98e9-46fc-8de4-64eab7afc90f.png?1561757293",
-        :type-line "Instant",
-        :oracle-text "Destroy target creature or planeswalker."}
- #:card{:code "cp2",
-        :collector-number "3",
-        :name "Sultai Ascendancy",
+        :collector-number "2",
         :layout "normal",
+        :name "Hero's Downfall",
+        :oracle-text "Destroy target creature or planeswalker."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/32f4c02f-9a64-45b5-8c2e-d34b0ff3e54b.png?1583433269",
-        :type-line "Enchantment",
+        :collector-number "3",
+        :layout "normal",
+        :name "Sultai Ascendancy",
         :oracle-text
         "At the beginning of your upkeep, look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order."}
- #:card{:code "cp2",
-        :collector-number "4",
-        :name "Reaper of the Wilds",
-        :layout "normal",
+ #:card{:type-line "Creature — Gorgon",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cdce5fb1-319b-4b70-aa75-a9434eb0cc4c.png?1561758102",
-        :type-line "Creature — Gorgon",
+        :collector-number "4",
+        :layout "normal",
+        :name "Reaper of the Wilds",
         :oracle-text
         "Whenever another creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{B}: Reaper of the Wilds gains deathtouch until end of turn.\n{1}{G}: Reaper of the Wilds gains hexproof until end of turn."}
- #:card{:code "cp2",
-        :collector-number "5",
-        :name "Whip of Erebos",
-        :layout "normal",
+ #:card{:type-line "Legendary Enchantment Artifact",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a67b5770-3b52-4f43-9db3-71224c9bebd2.png?1561757766",
-        :type-line "Legendary Enchantment Artifact",
+        :collector-number "5",
+        :layout "normal",
+        :name "Whip of Erebos",
         :oracle-text
         "Creatures you control have lifelink.\n{2}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate only as a sorcery."}
- #:card{:code "cp2",
-        :collector-number "6",
-        :name "Courser of Kruphix",
-        :layout "normal",
+ #:card{:type-line "Enchantment Creature — Centaur",
+        :layout-category :normal,
+        :code "cp2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8383d6a-0f26-4afe-88e0-9b14c8e9122d.png?1561758352",
-        :type-line "Enchantment Creature — Centaur",
+        :collector-number "6",
+        :layout "normal",
+        :name "Courser of Kruphix",
         :oracle-text
         "Play with the top card of your library revealed.\nYou may play lands from the top of your library.\nWhenever a land enters the battlefield under your control, you gain 1 life."})

@@ -1,49 +1,54 @@
-(#:card{:code "pavr",
-        :collector-number "32★",
-        :name "Restoration Angel",
-        :layout "normal",
+(#:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "pavr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c83c7429-751e-4103-b09a-f78a9617020d.png?1605371306",
-        :type-line "Creature — Angel",
+        :collector-number "32★",
+        :layout "normal",
+        :name "Restoration Angel",
         :oracle-text
         "Flash\nFlying\nWhen Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control."}
- #:card{:code "pavr",
-        :collector-number "*36",
-        :name "Silverblade Paladin",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "pavr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bde0dbd9-354d-42b2-83f4-7f8f98c7b4de.png?1561757955",
-        :type-line "Creature — Human Knight",
+        :collector-number "*36",
+        :layout "normal",
+        :name "Silverblade Paladin",
         :oracle-text
         "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Silverblade Paladin is paired with another creature, both creatures have double strike."}
- #:card{:code "pavr",
-        :collector-number "63",
-        :name "Latch Seeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "pavr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57976d9d-0c22-4274-9ebc-e34a15005cf2.png?1561757182",
-        :type-line "Creature — Spirit",
-        :oracle-text "Latch Seeker can't be blocked."}
- #:card{:code "pavr",
-        :collector-number "111",
-        :name "Killing Wave",
+        :collector-number "63",
         :layout "normal",
+        :name "Latch Seeker",
+        :oracle-text "Latch Seeker can't be blocked."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pavr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e40ed6b1-7b92-4ba4-b197-07c3f171a935.png?1561758322",
-        :type-line "Sorcery",
+        :collector-number "111",
+        :layout "normal",
+        :name "Killing Wave",
         :oracle-text
         "For each creature, its controller sacrifices it unless they pay X life."}
- #:card{:code "pavr",
-        :collector-number "217★",
-        :name "Moonsilver Spear",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "pavr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f37ac81-6656-4929-a979-9d2ad5f90feb.png?1605370810",
-        :type-line "Artifact — Equipment",
+        :collector-number "217★",
+        :layout "normal",
+        :name "Moonsilver Spear",
         :oracle-text
         "Equipped creature has first strike.\nWhenever equipped creature attacks, create a 4/4 white Angel creature token with flying.\nEquip {4}"})

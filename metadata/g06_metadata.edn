@@ -1,40 +1,44 @@
-(#:card{:code "g06",
-        :collector-number "1",
-        :name "Exalted Angel",
-        :layout "normal",
+(#:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "g06",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0ab545ad-5690-48f4-8d5e-7a06cfe8fc7c.png?1617148399",
-        :type-line "Creature — Angel",
+        :collector-number "1",
+        :layout "normal",
+        :name "Exalted Angel",
         :oracle-text
         "Flying\nWhenever Exalted Angel deals damage, you gain that much life.\nMorph {2}{W}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
- #:card{:code "g06",
-        :collector-number "2",
-        :name "Grim Lavamancer",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "g06",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/0/00c1c7c9-ca58-465a-9001-05e1c7baa51a.png?1561756573",
-        :type-line "Creature — Human Wizard",
+        :collector-number "2",
+        :layout "normal",
+        :name "Grim Lavamancer",
         :oracle-text
         "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target."}
- #:card{:code "g06",
-        :collector-number "3",
-        :name "Meddling Mage",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "g06",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff33040f-08b3-4229-a543-d65610c25257.png?1561758505",
-        :type-line "Creature — Human Wizard",
+        :collector-number "3",
+        :layout "normal",
+        :name "Meddling Mage",
         :oracle-text
         "As Meddling Mage enters the battlefield, choose a nonland card name.\nSpells with the chosen name can't be cast."}
- #:card{:code "g06",
-        :collector-number "4",
-        :name "Pernicious Deed",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "g06",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7ccb3e75-dc82-4dab-be96-38da1c3f20e6.png?1594065355",
-        :type-line "Enchantment",
+        :collector-number "4",
+        :layout "normal",
+        :name "Pernicious Deed",
         :oracle-text
         "{X}, Sacrifice Pernicious Deed: Destroy each artifact, creature, and enchantment with mana value X or less."})

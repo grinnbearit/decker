@@ -1,27 +1,30 @@
-(#:card{:code "tddt",
-        :collector-number "1",
-        :name "Elemental",
-        :layout "token",
+(#:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "tddt",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae196fbc-c9ee-4dba-9eb3-52209908b898.png?1561757813",
-        :type-line "Token Creature — Elemental",
-        :oracle-text ""}
- #:card{:code "tddt",
-        :collector-number "2",
-        :name "Wall",
+        :collector-number "1",
         :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Wall",
+        :layout-category :normal,
+        :code "tddt",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/353aaec9-79fb-4b83-b4f4-8c7dc2a6b1c1.png?1561756910",
-        :type-line "Token Creature — Wall",
-        :oracle-text "Defender"}
- #:card{:code "tddt",
-        :collector-number "3",
-        :name "Goblin",
+        :collector-number "2",
         :layout "token",
+        :name "Wall",
+        :oracle-text "Defender"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tddt",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/159c6eb5-c6a8-4d11-8e09-0a5a3f04cd0e.png?1561756705",
-        :type-line "Token Creature — Goblin",
+        :collector-number "3",
+        :layout "token",
+        :name "Goblin",
         :oracle-text ""})

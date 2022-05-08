@@ -1,11 +1,12 @@
-(#:card{:code "mafr",
-        :collector-number "1",
-        :name "Booster Blitz",
-        :layout "token",
+(#:card{:type-line "Card",
+        :layout-category :normal,
+        :code "mafr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7bd82d5-0f8a-4c14-8fc4-18645caaa613.png?1630031306",
-        :type-line "Card",
+        :collector-number "1",
+        :layout "token",
+        :name "Booster Blitz",
         :oracle-text
         "2 players | 2 packs | 10 minutes\nOBJECTIVE:\nBest your opponent in a series of fast Magic games using only the cards in a single pack!\nGET READY:\nEach player opens a pack and makes four face-down piles of three cards each using the Magic cards inside. Players make their piles with the goal of winning a series of Magic games with these modified rules:\nPlayers start at 5 life, have infinite mana, and cannot lose by drawing from an empty library.\nLET'S PLAY:\nRandomly determine who goes first. Each player chooses which pile their opponent will use for each round. Then both players draw all three of their cards and play a game of Magic. When a player loses a game, they get to go first in the next game.\nTO WIN:\nThe first player to win two games wins the match."}
  #:card{:code "mafr",
@@ -14,6 +15,7 @@
         "Totally Lost in Translation // Totally Lost in Translation (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f99a98d6-4d03-4635-a31b-8c6e32e24982.png?1630031331",
@@ -30,6 +32,7 @@
         :name "Magic and Minions // Magic and Minions (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3babdb30-3be2-4a8c-a2a8-95947e40cf64.png?1630032186",
@@ -46,6 +49,7 @@
         :name "Mimic Match // Mimic Match (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/2/42efae65-8a2e-4771-aa19-7b6ddb1cbd1d.png?1630032417",
@@ -62,6 +66,7 @@
         :name "Roll for Initiative // Roll for Initiative (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d87ef32-5b97-4c97-85e6-89c94eaffc08.png?1630032735",

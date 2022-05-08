@@ -1,332 +1,366 @@
-(#:card{:code "pmei",
-        :collector-number "4",
-        :name "Fireball",
-        :layout "normal",
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a450153-45b5-4aea-aa27-8ffe6301e8b6.png?1562911699",
-        :type-line "Sorcery",
+        :collector-number "4",
+        :layout "normal",
+        :name "Fireball",
         :oracle-text
         "This spell costs {1} more to cast for each target beyond the first.\nFireball deals X damage divided evenly, rounded down, among any number of targets."}
- #:card{:code "pmei",
-        :collector-number "5",
-        :name "Blue Elemental Blast",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/27f7db50-05b9-48f6-9086-f5b0788f9972.png?1562902400",
-        :type-line "Instant",
+        :collector-number "5",
+        :layout "normal",
+        :name "Blue Elemental Blast",
         :oracle-text
         "Choose one —\n• Counter target red spell.\n• Destroy target red permanent."}
- #:card{:code "pmei",
-        :collector-number "9",
-        :name "Scent of Cinder",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d083fcdc-1e1f-4ad3-82d1-11f0b84dd74d.png?1562934001",
-        :type-line "Sorcery",
+        :collector-number "9",
+        :layout "normal",
+        :name "Scent of Cinder",
         :oracle-text
         "Reveal any number of red cards in your hand. Scent of Cinder deals X damage to any target, where X is the number of cards revealed this way."}
- #:card{:code "pmei",
-        :collector-number "10",
-        :name "Lightning Hounds",
-        :layout "normal",
+ #:card{:type-line "Creature — Dog",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9565a78-c6c4-4a32-8e0e-b1fda6bf879d.png?1562929538",
-        :type-line "Creature — Dog",
-        :oracle-text "First strike"}
- #:card{:code "pmei",
-        :collector-number "10*",
-        :name "Jamuraan Lion",
+        :collector-number "10",
         :layout "normal",
+        :name "Lightning Hounds",
+        :oracle-text "First strike"}
+ #:card{:type-line "Creature — Cat",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a30df3d3-17b3-4bd0-b566-ed4d32a921f2.png?1584061220",
-        :type-line "Creature — Cat",
+        :collector-number "10*",
+        :layout "normal",
+        :name "Jamuraan Lion",
         :oracle-text
         "{W}, {T}: Target creature can't block this turn."}
- #:card{:code "pmei",
-        :collector-number "11",
-        :name "Spined Wurm",
-        :layout "normal",
+ #:card{:type-line "Creature — Wurm",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e0c70431-d1d1-494c-a75e-54734e489c02.png?1562936952",
-        :type-line "Creature — Wurm",
-        :oracle-text ""}
- #:card{:code "pmei",
-        :collector-number "12",
-        :name "Warmonger",
+        :collector-number "11",
         :layout "normal",
+        :name "Spined Wurm",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Minotaur Monger",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c4077d6-d98c-4fdd-ba57-0781aa21f68b.png?1562903179",
-        :type-line "Creature — Minotaur Monger",
+        :collector-number "12",
+        :layout "normal",
+        :name "Warmonger",
         :oracle-text
         "{2}: Warmonger deals 1 damage to each creature without flying and each player. Any player may activate this ability."}
- #:card{:code "pmei",
-        :collector-number "13",
-        :name "Silver Drake",
-        :layout "normal",
+ #:card{:type-line "Creature — Drake",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/726aa407-dadd-4575-aee2-b7888e67a722.png?1562916240",
-        :type-line "Creature — Drake",
+        :collector-number "13",
+        :layout "normal",
+        :name "Silver Drake",
         :oracle-text
         "Flying\nWhen Silver Drake enters the battlefield, return a white or blue creature you control to its owner's hand."}
- #:card{:code "pmei",
-        :collector-number "14",
-        :name "Phyrexian Rager",
-        :layout "normal",
+ #:card{:type-line "Creature — Phyrexian Horror",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0a29ba4-fe8b-442f-a8b5-8cce7c765011.png?1562930974",
-        :type-line "Creature — Phyrexian Horror",
+        :collector-number "14",
+        :layout "normal",
+        :name "Phyrexian Rager",
         :oracle-text
         "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life."}
- #:card{:code "pmei",
-        :collector-number "15",
-        :name "Shivan Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e70868a4-3971-431d-a614-604aca110fe4.png?1562938236",
-        :type-line "Creature — Dragon",
+        :collector-number "15",
+        :layout "normal",
+        :name "Shivan Dragon",
         :oracle-text
         "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn."}
- #:card{:code "pmei",
-        :collector-number "16",
-        :name "Darksteel Juggernaut",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Juggernaut",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/95ea30b2-654b-4892-ba58-e52334efb953.png?1562922830",
-        :type-line "Artifact Creature — Juggernaut",
+        :collector-number "16",
+        :layout "normal",
+        :name "Darksteel Juggernaut",
         :oracle-text
         "Indestructible\nDarksteel Juggernaut's power and toughness are each equal to the number of artifacts you control.\nDarksteel Juggernaut attacks each combat if able."}
- #:card{:code "pmei",
-        :collector-number "17",
-        :name "Cunning Sparkmage",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9bdf3665-beb0-461b-9ce3-b678e625ead2.png?1562924047",
-        :type-line "Creature — Human Shaman",
+        :collector-number "17",
+        :layout "normal",
+        :name "Cunning Sparkmage",
         :oracle-text
         "Haste\n{T}: Cunning Sparkmage deals 1 damage to any target."}
- #:card{:code "pmei",
-        :collector-number "18",
-        :name "Chandra's Outrage",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b00553c7-d3f9-4d77-8433-2f425361516f.png?1562927752",
-        :type-line "Instant",
+        :collector-number "18",
+        :layout "normal",
+        :name "Chandra's Outrage",
         :oracle-text
         "Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller."}
- #:card{:code "pmei",
-        :collector-number "19",
-        :name "Chandra's Spitfire",
-        :layout "normal",
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/af1d86fc-385c-498b-9aa6-c97cd7f884f0.png?1562927577",
-        :type-line "Creature — Elemental",
+        :collector-number "19",
+        :layout "normal",
+        :name "Chandra's Spitfire",
         :oracle-text
         "Flying\nWhenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn."}
- #:card{:code "pmei",
-        :collector-number "20",
-        :name "Kuldotha Phoenix",
-        :layout "normal",
+ #:card{:type-line "Creature — Phoenix",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/0610102f-bfc0-45f9-9b9c-cdade744e470.png?1562896191",
-        :type-line "Creature — Phoenix",
+        :collector-number "20",
+        :layout "normal",
+        :name "Kuldotha Phoenix",
         :oracle-text
         "Flying, haste\nMetalcraft — {4}: Return Kuldotha Phoenix from your graveyard to the battlefield. Activate only during your upkeep and only if you control three or more artifacts."}
- #:card{:code "pmei",
-        :collector-number "21",
-        :name "Phantasmal Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon Illusion",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/652c09cb-9af2-4173-9db5-b1179cff838c.png?1585517183",
-        :type-line "Creature — Dragon Illusion",
+        :collector-number "21",
+        :layout "normal",
+        :name "Phantasmal Dragon",
         :oracle-text
         "Flying\nWhen Phantasmal Dragon becomes the target of a spell or ability, sacrifice it."}
- #:card{:code "pmei",
-        :collector-number "22",
-        :name "Sandbar Crocodile",
-        :layout "normal",
+ #:card{:type-line "Creature — Crocodile",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53d668ab-8cfd-422a-9497-0158c836c2e8.png?1562910383",
-        :type-line "Creature — Crocodile",
+        :collector-number "22",
+        :layout "normal",
+        :name "Sandbar Crocodile",
         :oracle-text
         "Phasing (This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.)"}
- #:card{:code "pmei",
-        :collector-number "23",
-        :name "Zhalfirin Knight",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bb5b0fcb-c170-4d12-8761-de833e944e2f.png?1562929992",
-        :type-line "Creature — Human Knight",
+        :collector-number "23",
+        :layout "normal",
+        :name "Zhalfirin Knight",
         :oracle-text
         "Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)\n{W}{W}: Zhalfirin Knight gains first strike until end of turn."}
- #:card{:code "pmei",
-        :collector-number "24",
-        :name "Shrieking Drake",
-        :layout "normal",
+ #:card{:type-line "Creature — Drake",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/dae31023-2649-4f37-b1ec-d9f650d53f09.png?1562935880",
-        :type-line "Creature — Drake",
+        :collector-number "24",
+        :layout "normal",
+        :name "Shrieking Drake",
         :oracle-text
         "Flying\nWhen Shrieking Drake enters the battlefield, return a creature you control to its owner's hand."}
- #:card{:code "pmei",
-        :collector-number "25",
-        :name "Stream of Life",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1ead259-73fa-4556-8149-ea80a379f59f.png?1562937238",
-        :type-line "Sorcery",
-        :oracle-text "Target player gains X life."}
- #:card{:code "pmei",
-        :collector-number "26",
-        :name "Thorn Elemental",
+        :collector-number "25",
         :layout "normal",
+        :name "Stream of Life",
+        :oracle-text "Target player gains X life."}
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/12711a8f-91e5-4bb7-bbc5-3f8f644988ee.png?1562898572",
-        :type-line "Creature — Elemental",
+        :collector-number "26",
+        :layout "normal",
+        :name "Thorn Elemental",
         :oracle-text
         "You may have Thorn Elemental assign its combat damage as though it weren't blocked."}
- #:card{:code "pmei",
-        :collector-number "27",
-        :name "Parallax Dementia",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5eed50e7-c07b-415e-a847-535d08fcd8ca.png?1562912515",
-        :type-line "Enchantment — Aura",
+        :collector-number "27",
+        :layout "normal",
+        :name "Parallax Dementia",
         :oracle-text
         "Enchant creature\nFading 1 (This enchantment enters the battlefield with one fade counter on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)\nEnchanted creature gets +3/+2.\nWhen Parallax Dementia leaves the battlefield, destroy enchanted creature. That creature can't be regenerated."}
- #:card{:code "pmei",
-        :collector-number "28",
-        :name "Ascendant Evincar",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Phyrexian Vampire Noble",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5e1cf470-f2af-469d-914b-e250652c861d.png?1562912363",
-        :type-line "Legendary Creature — Phyrexian Vampire Noble",
+        :collector-number "28",
+        :layout "normal",
+        :name "Ascendant Evincar",
         :oracle-text
         "Flying (This creature can't be blocked except by creatures with flying or reach.)\nOther black creatures get +1/+1.\nNonblack creatures get -1/-1."}
- #:card{:code "pmei",
-        :collector-number "29",
-        :name "Archangel",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e40d5c20-c599-4aa0-b214-48df40236b12.png?1599766686",
-        :type-line "Creature — Angel",
-        :oracle-text "Flying, vigilance"}
- #:card{:code "pmei",
-        :collector-number "30",
-        :name "Cast Down",
+        :collector-number "29",
         :layout "normal",
+        :name "Archangel",
+        :oracle-text "Flying, vigilance"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/9731641c-f0c3-46eb-9fc2-155f9bc041a2.png?1615159415",
-        :type-line "Instant",
-        :oracle-text "Destroy target nonlegendary creature."}
- #:card{:code "pmei",
-        :collector-number "31",
-        :name "Diabolic Edict",
+        :collector-number "30",
         :layout "normal",
+        :name "Cast Down",
+        :oracle-text "Destroy target nonlegendary creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2cda4b2-50c2-4442-9ca2-1c668cc07b0e.png?1563153084",
-        :type-line "Instant",
-        :oracle-text "Target player sacrifices a creature."}
- #:card{:code "pmei",
-        :collector-number "32",
-        :name "Shock",
+        :collector-number "31",
         :layout "normal",
+        :name "Diabolic Edict",
+        :oracle-text "Target player sacrifices a creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/843f290b-8c1d-4124-99c7-e11b8b4481cf.png?1585489721",
-        :type-line "Instant",
-        :oracle-text "Shock deals 2 damage to any target."}
- #:card{:code "pmei",
-        :collector-number "33",
-        :name "Lava Coil",
+        :collector-number "32",
         :layout "normal",
+        :name "Shock",
+        :oracle-text "Shock deals 2 damage to any target."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e165d16a-06c7-4373-9c36-89e127e669dd.png?1585489516",
-        :type-line "Sorcery",
+        :collector-number "33",
+        :layout "normal",
+        :name "Lava Coil",
         :oracle-text
         "Lava Coil deals 4 damage to target creature. If that creature would die this turn, exile it instead."}
- #:card{:code "pmei",
-        :collector-number "34",
-        :name "Duress",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e77dfac9-2de7-460e-9561-20db16baa4c5.png?1585515528",
-        :type-line "Sorcery",
+        :collector-number "34",
+        :layout "normal",
+        :name "Duress",
         :oracle-text
         "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."}
- #:card{:code "pmei",
-        :collector-number "35",
-        :name "Voltaic Key",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/02efd6cf-1ed0-44b3-b3b9-94a45696e1f3.png?1585515350",
-        :type-line "Artifact",
-        :oracle-text "{1}, {T}: Untap target artifact."}
- #:card{:code "pmei",
-        :collector-number "36",
-        :name "Daxos, Blessed by the Sun",
+        :collector-number "35",
         :layout "normal",
+        :name "Voltaic Key",
+        :oracle-text "{1}, {T}: Untap target artifact."}
+ #:card{:type-line "Legendary Enchantment Creature — Demigod",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94355044-e67a-4605-a37b-e879784fc9e5.png?1588680968",
-        :type-line "Legendary Enchantment Creature — Demigod",
+        :collector-number "36",
+        :layout "normal",
+        :name "Daxos, Blessed by the Sun",
         :oracle-text
         "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life."}
- #:card{:code "pmei",
-        :collector-number "37",
-        :name "Staggering Insight",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a96f2a9-3f53-457d-ad1b-691babb1539f.png?1583987278",
-        :type-line "Enchantment — Aura",
+        :collector-number "37",
+        :layout "normal",
+        :name "Staggering Insight",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink and \"Whenever this creature deals combat damage to a player, draw a card.\""}
- #:card{:code "pmei",
-        :collector-number "38",
-        :name "Dark Ritual",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b464bf34-d651-496c-9a92-bee839af1fa6.png?1644346443",
-        :type-line "Instant",
-        :oracle-text "Add {B}{B}{B}."}
- #:card{:code "pmei",
-        :collector-number "39",
-        :name "Sprite Dragon",
+        :collector-number "38",
         :layout "normal",
+        :name "Dark Ritual",
+        :oracle-text "Add {B}{B}{B}."}
+ #:card{:type-line "Creature — Faerie Dragon",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29ce8e10-1db2-4cfd-ace3-c6b418e00007.png?1600310574",
-        :type-line "Creature — Faerie Dragon",
+        :collector-number "39",
+        :layout "normal",
+        :name "Sprite Dragon",
         :oracle-text
         "Flying, haste\nWhenever you cast a noncreature spell, put a +1/+1 counter on Sprite Dragon."}
  #:card{:code "pmei",
@@ -334,28 +368,34 @@
         :name "Hypnotic Sprite // Mesmeric Glare",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74417059-a6d0-4810-8b4d-6b0f26d73783.png?1600310675",
-        :type-line "Creature — Faerie // Instant — Adventure",
-        :oracle-text nil}
- #:card{:code "pmei",
-        :collector-number "41",
-        :name "Heliod's Pilgrim",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Faerie", :oracle-text "Flying"}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Counter target spell with mana value 3 or less. (Then exile this card. You may cast the creature later from exile.)"}]}
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a1e5ad3-00fa-4b6b-a0a3-d52fcbe897ac.png?1600310591",
-        :type-line "Creature — Human Cleric",
+        :collector-number "41",
+        :layout "normal",
+        :name "Heliod's Pilgrim",
         :oracle-text
         "When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "pmei",
-        :collector-number "42",
-        :name "Crop Rotation",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f8b6160-84cc-4052-8c19-6184a72c16a6.png?1639361255",
-        :type-line "Instant",
+        :collector-number "42",
+        :layout "normal",
+        :name "Crop Rotation",
         :oracle-text
         "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for a land card, put that card onto the battlefield, then shuffle."}
  #:card{:code "pmei",
@@ -363,6 +403,7 @@
         :name "Tangled Florahedron // Tangled Vale",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/61daf058-37ec-4a20-89e1-4fcfa6bd5b3e.png?1632449654",
@@ -373,31 +414,34 @@
           :type-line "Land",
           :oracle-text
           "Tangled Vale enters the battlefield tapped.\n{T}: Add {G}."}]}
- #:card{:code "pmei",
-        :collector-number "44",
-        :name "Counterspell",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/791cc2f2-2ec6-4df0-8c59-a31dee319729.png?1639361191",
-        :type-line "Instant",
-        :oracle-text "Counter target spell."}
- #:card{:code "pmei",
-        :collector-number "45",
-        :name "Bone Shredder",
+        :collector-number "44",
         :layout "normal",
+        :name "Counterspell",
+        :oracle-text "Counter target spell."}
+ #:card{:type-line "Creature — Phyrexian Minion",
+        :layout-category :normal,
+        :code "pmei",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76a525da-aa38-4359-8eaf-90c70d98024e.png?1639361221",
-        :type-line "Creature — Phyrexian Minion",
+        :collector-number "45",
+        :layout "normal",
+        :name "Bone Shredder",
         :oracle-text
         "Flying\nEcho {2}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature."}
- #:card{:code "pmei",
-        :collector-number "46",
-        :name "Disenchant",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pmei",
         :highres? false,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de20e1a3-2073-4ef5-821c-b35fb6bbbba7.png?1642974938",
-        :type-line "Instant",
+        :collector-number "46",
+        :layout "normal",
+        :name "Disenchant",
         :oracle-text "Destroy target artifact or enchantment."})

@@ -1,37 +1,41 @@
-(#:card{:code "tfrf",
-        :collector-number "1",
-        :name "Monk",
-        :layout "token",
+(#:card{:type-line "Token Creature — Monk",
+        :layout-category :normal,
+        :code "tfrf",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/3142cb28-23cc-405f-9db5-7c4d168aab19.png?1561756870",
-        :type-line "Token Creature — Monk",
-        :oracle-text "Prowess"}
- #:card{:code "tfrf",
-        :collector-number "2",
-        :name "Spirit",
+        :collector-number "1",
         :layout "token",
+        :name "Monk",
+        :oracle-text "Prowess"}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tfrf",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52e32ad7-d59e-4cd8-ab88-3c7c0c083357.png?1561757140",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tfrf",
-        :collector-number "3",
-        :name "Warrior",
+        :collector-number "2",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "tfrf",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3b5eaba1-a7e1-4bbb-949c-e7f6a9592f50.png?1561756949",
-        :type-line "Token Creature — Warrior",
-        :oracle-text ""}
- #:card{:code "tfrf",
-        :collector-number "4",
-        :name "Manifest",
+        :collector-number "3",
         :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Creature",
+        :layout-category :normal,
+        :code "tfrf",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e9f896d4-34b4-407d-be7e-bf7a69aaf811.png?1561758369",
-        :type-line "Creature",
+        :collector-number "4",
+        :layout "token",
+        :name "Manifest",
         :oracle-text
         "(You can cover a face-down manifested creature with this reminder card.\nA manifested creature card can be turned face up any time for its mana cost. A face-down card can also be turned face up for its morph cost.)"})

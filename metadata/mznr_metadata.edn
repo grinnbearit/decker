@@ -3,6 +3,7 @@
         :name "Base Race // Base Race (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/89b9ded0-6ddf-4d3e-9442-53e647bad172.png?1609267019",
@@ -14,14 +15,15 @@
           :type-line "Card",
           :oracle-text
           "empty space. Moving a card onto a space occupied by an opponent's card starts a battle! Reveal both cards and do the following for each card type:\nIf both revealed cards are Creatures/Artifact Creatures, the card with the higher toughness wins and remains face up; the loser is discarded. If they tie, the attacker wins.\nLegendary Creatures/Planeswalkers always win against nonlegendary creatures. When they battle each other, the higher toughness or loyalty wins. If they tie, the attacker wins.\nIf either of the revealed cards is an Instant/Sorcery/Enchantment, discard both revealed cards. (Other effects still happen.)\nIf one of the revealed cards is an Artifact, the player who owns it discards it and takes an extra turn. If both revealed cards are Artifacts, only the attacker gets the extra turn.\nTO WIN:\nWhen a Land is revealed in battle, its owner loses the game. When one Land attacks another, the attacking land wins the game."}]}
- #:card{:code "mznr",
-        :collector-number "2",
-        :name "Booster Blitz",
-        :layout "token",
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "mznr",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52140a7d-853a-4a32-a0fb-18c4a6bf48a7.png?1605579757",
-        :type-line "Card",
+        :collector-number "2",
+        :layout "token",
+        :name "Booster Blitz",
         :oracle-text
         "2 players | 2 packs | 10 minutes\nOBJECTIVE:\nBest your opponent in a series of fast Magic games using only the cards in a single pack!\nGET READY:\nEach player opens a pack and makes four face-down piles of three cards each using the Magic cards inside. Players make their piles with the goal of winning a series of Magic games with these modified rules:\nPlayers start at 5 life, have infinite mana, and cannot lose by drawing from an empty library.\nLET'S PLAY:\nRandomly determine who goes first. Each player chooses which pile their opponent will use for each round. Then both players draw all three of their cards and play a game of Magic. When a player loses a game, they get to go first in the next game.\nTO WIN:\nThe first player to win two games wins the match."}
  #:card{:code "mznr",
@@ -29,6 +31,7 @@
         :name "Booster Sleuth // Booster Sleuth (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44b0da54-3c2e-42d9-b46b-a67bb7fd10fe.png?1609267027",
@@ -45,6 +48,7 @@
         :name "Roil Royale // Roil Royale (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f69159e-46cc-4399-8efe-3f94a5368e86.png?1609267037",
@@ -61,6 +65,7 @@
         :name "Strictly Better // Strictly Better (cont'd)",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/ef8d4393-0ded-41c2-a6b5-b01d994b32a2.png?1609267043",

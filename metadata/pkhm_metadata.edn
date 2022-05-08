@@ -1,51 +1,56 @@
-(#:card{:code "pkhm",
-        :collector-number "1",
-        :name "Fiendish Duo",
-        :layout "normal",
+(#:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/160d705f-48fb-4bff-a677-cdf1c3305080.png?1643843038",
-        :type-line "Creature — Devil",
+        :collector-number "1",
+        :layout "normal",
+        :name "Fiendish Duo",
         :oracle-text
         "First strike\nIf a source would deal damage to an opponent, it deals double that damage to that player instead."}
- #:card{:code "pkhm",
-        :collector-number "9p",
-        :name "Doomskar",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/11224400-f8c7-4d8e-9793-49436255aeef.png?1628383397",
-        :type-line "Sorcery",
+        :collector-number "9p",
+        :layout "normal",
+        :name "Doomskar",
         :oracle-text
         "Destroy all creatures.\nForetell {1}{W}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "9s",
-        :name "Doomskar",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/aec7e049-ab9d-4d3b-97ff-ea08bffe9246.png?1628383067",
-        :type-line "Sorcery",
+        :collector-number "9s",
+        :layout "normal",
+        :name "Doomskar",
         :oracle-text
         "Destroy all creatures.\nForetell {1}{W}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "12p",
-        :name "Glorious Protector",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/9305f9f3-7c34-4af4-b2f9-a833516c9352.png?1628383356",
-        :type-line "Creature — Angel Cleric",
+        :collector-number "12p",
+        :layout "normal",
+        :name "Glorious Protector",
         :oracle-text
         "Flash\nFlying\nWhen Glorious Protector enters the battlefield, you may exile any number of non-Angel creatures you control until Glorious Protector leaves the battlefield.\nForetell {2}{W}"}
- #:card{:code "pkhm",
-        :collector-number "12s",
-        :name "Glorious Protector",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79c357e4-7aa6-4789-976a-4d480e070097.png?1628383031",
-        :type-line "Creature — Angel Cleric",
+        :collector-number "12s",
+        :layout "normal",
+        :name "Glorious Protector",
         :oracle-text
         "Flash\nFlying\nWhen Glorious Protector enters the battlefield, you may exile any number of non-Angel creatures you control until Glorious Protector leaves the battlefield.\nForetell {2}{W}"}
  #:card{:code "pkhm",
@@ -53,6 +58,7 @@
         :name "Halvar, God of Battle // Sword of the Realms",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c604e263-11cf-46ee-8d26-b2ef833d44f6.png?1628382975",
@@ -64,24 +70,26 @@
           :type-line "Legendary Artifact — Equipment",
           :oracle-text
           "Equipped creature gets +2/+0 and has vigilance.\nWhenever equipped creature dies, return it to its owner's hand.\nEquip {1}{W}"}]}
- #:card{:code "pkhm",
-        :collector-number "20p",
-        :name "Rally the Ranks",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22e71ec5-f9bd-4434-982b-7cb4cfa7ea15.png?1628383311",
-        :type-line "Enchantment",
+        :collector-number "20p",
+        :layout "normal",
+        :name "Rally the Ranks",
         :oracle-text
         "As Rally the Ranks enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1."}
- #:card{:code "pkhm",
-        :collector-number "20s",
-        :name "Rally the Ranks",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9fd635c-60e6-4dc8-a2b4-3f960a693ce8.png?1628382942",
-        :type-line "Enchantment",
+        :collector-number "20s",
+        :layout "normal",
+        :name "Rally the Ranks",
         :oracle-text
         "As Rally the Ranks enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1."}
  #:card{:code "pkhm",
@@ -90,6 +98,7 @@
         "Reidane, God of the Worthy // Valkmira, Protector's Shield",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2dca37fb-e794-4027-bc4d-11677e67dfa7.png?1628382882",
@@ -101,124 +110,136 @@
           :type-line "Legendary Artifact",
           :oracle-text
           "If a source an opponent controls would deal damage to you or a permanent you control, prevent 1 of that damage.\nWhenever you or another permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}."}]}
- #:card{:code "pkhm",
-        :collector-number "22p",
-        :name "Resplendent Marshal",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52de996e-e06d-4507-86d1-ffe836182e08.png?1628383279",
-        :type-line "Creature — Angel Warrior",
+        :collector-number "22p",
+        :layout "normal",
+        :name "Resplendent Marshal",
         :oracle-text
         "Flying\nWhen Resplendent Marshal enters the battlefield or dies, you may exile another creature card from your graveyard. When you do, put a +1/+1 counter on each creature you control other than Resplendent Marshal that shares a creature type with the exiled card."}
- #:card{:code "pkhm",
-        :collector-number "22s",
-        :name "Resplendent Marshal",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3d136f7-bcac-41c4-b411-85851a586a06.png?1628382842",
-        :type-line "Creature — Angel Warrior",
+        :collector-number "22s",
+        :layout "normal",
+        :name "Resplendent Marshal",
         :oracle-text
         "Flying\nWhen Resplendent Marshal enters the battlefield or dies, you may exile another creature card from your graveyard. When you do, put a +1/+1 counter on each creature you control other than Resplendent Marshal that shares a creature type with the exiled card."}
- #:card{:code "pkhm",
-        :collector-number "24p",
-        :name "Righteous Valkyrie",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d7d4bc6-d539-4caa-841a-7b70c736cf20.png?1628383240",
-        :type-line "Creature — Angel Cleric",
+        :collector-number "24p",
+        :layout "normal",
+        :name "Righteous Valkyrie",
         :oracle-text
         "Flying\nWhenever another Angel or Cleric enters the battlefield under your control, you gain life equal to that creature's toughness.\nAs long as you have at least 7 life more than your starting life total, creatures you control get +2/+2."}
- #:card{:code "pkhm",
-        :collector-number "24s",
-        :name "Righteous Valkyrie",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0ab9ab79-cdee-4847-91f8-6344794cb2af.png?1628382809",
-        :type-line "Creature — Angel Cleric",
+        :collector-number "24s",
+        :layout "normal",
+        :name "Righteous Valkyrie",
         :oracle-text
         "Flying\nWhenever another Angel or Cleric enters the battlefield under your control, you gain life equal to that creature's toughness.\nAs long as you have at least 7 life more than your starting life total, creatures you control get +2/+2."}
- #:card{:code "pkhm",
-        :collector-number "26p",
-        :name "Runeforge Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Dwarf Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/5731fe7d-d0db-48fc-86ae-51b0213303a7.png?1628383189",
-        :type-line "Creature — Dwarf Warrior",
+        :collector-number "26p",
+        :layout "normal",
+        :name "Runeforge Champion",
         :oracle-text
         "When Runeforge Champion enters the battlefield, you may search your library and/or graveyard for a Rune card, reveal it, and put it into your hand. If you search your library this way, shuffle.\nYou may pay {1} rather than pay the mana cost for Rune spells you cast."}
- #:card{:code "pkhm",
-        :collector-number "26s",
-        :name "Runeforge Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Dwarf Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a1e9dbe-ace3-4ac3-9d4d-98e2f65bba12.png?1628382773",
-        :type-line "Creature — Dwarf Warrior",
+        :collector-number "26s",
+        :layout "normal",
+        :name "Runeforge Champion",
         :oracle-text
         "When Runeforge Champion enters the battlefield, you may search your library and/or graveyard for a Rune card, reveal it, and put it into your hand. If you search your library this way, shuffle.\nYou may pay {1} rather than pay the mana cost for Rune spells you cast."}
- #:card{:code "pkhm",
-        :collector-number "27p",
-        :name "Search for Glory",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/0/00c833d3-d406-4c24-a4ab-9302fc27497e.png?1628383142",
-        :type-line "Snow Sorcery",
+        :collector-number "27p",
+        :layout "normal",
+        :name "Search for Glory",
         :oracle-text
         "Search your library for a snow permanent card, a legendary card, or a Saga card, reveal it, put it into your hand, then shuffle. You gain 1 life for each {S} spent to cast this spell. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "27s",
-        :name "Search for Glory",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/950ec42d-69df-497b-9cda-7b1e53f2c204.png?1628382741",
-        :type-line "Snow Sorcery",
+        :collector-number "27s",
+        :layout "normal",
+        :name "Search for Glory",
         :oracle-text
         "Search your library for a snow permanent card, a legendary card, or a Saga card, reveal it, put it into your hand, then shuffle. You gain 1 life for each {S} spent to cast this spell. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "29p",
-        :name "Sigrid, God-Favored",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd7a0a0f-8a8e-480e-9a5a-3942c8a09d74.png?1628383082",
-        :type-line "Legendary Creature — Human Warrior",
+        :collector-number "29p",
+        :layout "normal",
+        :name "Sigrid, God-Favored",
         :oracle-text
         "Flash\nFirst strike, protection from God creatures\nWhen Sigrid, God-Favored enters the battlefield, exile up to one target attacking or blocking creature until Sigrid leaves the battlefield."}
- #:card{:code "pkhm",
-        :collector-number "29s",
-        :name "Sigrid, God-Favored",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/105e4824-306a-46d2-a1f4-d19a4302cc58.png?1628382709",
-        :type-line "Legendary Creature — Human Warrior",
+        :collector-number "29s",
+        :layout "normal",
+        :name "Sigrid, God-Favored",
         :oracle-text
         "Flash\nFirst strike, protection from God creatures\nWhen Sigrid, God-Favored enters the battlefield, exile up to one target attacking or blocking creature until Sigrid leaves the battlefield."}
- #:card{:code "pkhm",
-        :collector-number "33p",
-        :name "Starnheim Unleashed",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba7e9886-4c52-4685-a686-0dfb23b28410.png?1628383041",
-        :type-line "Sorcery",
+        :collector-number "33p",
+        :layout "normal",
+        :name "Starnheim Unleashed",
         :oracle-text
         "Create a 4/4 white Angel Warrior creature token with flying and vigilance. If this spell was foretold, create X of those tokens instead.\nForetell {X}{X}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "33s",
-        :name "Starnheim Unleashed",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a07040ff-06c0-4a40-a019-9500e4fef9d5.png?1628382665",
-        :type-line "Sorcery",
+        :collector-number "33s",
+        :layout "normal",
+        :name "Starnheim Unleashed",
         :oracle-text
         "Create a 4/4 white Angel Warrior creature token with flying and vigilance. If this spell was foretold, create X of those tokens instead.\nForetell {X}{X}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
  #:card{:code "pkhm",
@@ -226,6 +247,7 @@
         :name "Alrund, God of the Cosmos // Hakka, Whispering Raven",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e1e85b9-db1d-4bf8-b504-d419bcbd5ee2.png?1628382604",
@@ -237,44 +259,48 @@
           :type-line "Legendary Creature — Bird",
           :oracle-text
           "Flying\nWhenever Hakka, Whispering Raven deals combat damage to a player, return it to its owner's hand, then scry 2."}]}
- #:card{:code "pkhm",
-        :collector-number "41p",
-        :name "Alrund's Epiphany",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c453a523-f154-4e96-97c4-df720c2cf0bc.png?1628383001",
-        :type-line "Sorcery",
+        :collector-number "41p",
+        :layout "normal",
+        :name "Alrund's Epiphany",
         :oracle-text
         "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "41s",
-        :name "Alrund's Epiphany",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e83c24b8-9f33-4b91-87ac-afe2c10dc302.png?1628382562",
-        :type-line "Sorcery",
+        :collector-number "41s",
+        :layout "normal",
+        :name "Alrund's Epiphany",
         :oracle-text
         "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "43p",
-        :name "Ascendant Spirit",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Spirit",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/083596f7-cf4d-417c-98af-67aed3403617.png?1628382957",
-        :type-line "Snow Creature — Spirit",
+        :collector-number "43p",
+        :layout "normal",
+        :name "Ascendant Spirit",
         :oracle-text
         "{S}{S}: Ascendant Spirit becomes a Spirit Warrior with base power and toughness 2/3.\n{S}{S}{S}: If Ascendant Spirit is a Warrior, put a flying counter on it and it becomes a Spirit Warrior Angel with base power and toughness 4/4.\n{S}{S}{S}{S}: If Ascendant Spirit is an Angel, put two +1/+1 counters on it and it gains \"Whenever this creature deals combat damage to a player, draw a card.\""}
- #:card{:code "pkhm",
-        :collector-number "43s",
-        :name "Ascendant Spirit",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Spirit",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c250a40-1a3c-42a2-88fe-75c5b12dedc3.png?1628382524",
-        :type-line "Snow Creature — Spirit",
+        :collector-number "43s",
+        :layout "normal",
+        :name "Ascendant Spirit",
         :oracle-text
         "{S}{S}: Ascendant Spirit becomes a Spirit Warrior with base power and toughness 2/3.\n{S}{S}{S}: If Ascendant Spirit is a Warrior, put a flying counter on it and it becomes a Spirit Warrior Angel with base power and toughness 4/4.\n{S}{S}{S}{S}: If Ascendant Spirit is an Angel, put two +1/+1 counters on it and it gains \"Whenever this creature deals combat damage to a player, draw a card.\""}
  #:card{:code "pkhm",
@@ -282,6 +308,7 @@
         :name "Cosima, God of the Voyage // The Omenkeel",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/2528acc3-682c-4129-af6f-ffca8ecf85f5.png?1628382458",
@@ -293,244 +320,268 @@
           :type-line "Legendary Artifact — Vehicle",
           :oracle-text
           "Whenever a Vehicle you control deals combat damage to a player, that player exiles that many cards from the top of their library. You may play lands from among those cards for as long as they remain exiled.\nCrew 1"}]}
- #:card{:code "pkhm",
-        :collector-number "51p",
-        :name "Cosmos Charger",
-        :layout "normal",
+ #:card{:type-line "Creature — Horse Spirit",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/9/099e0c0c-d44d-48d6-b798-7acb95a5b565.png?1628382906",
-        :type-line "Creature — Horse Spirit",
+        :collector-number "51p",
+        :layout "normal",
+        :name "Cosmos Charger",
         :oracle-text
         "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "51s",
-        :name "Cosmos Charger",
-        :layout "normal",
+ #:card{:type-line "Creature — Horse Spirit",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16b5b227-1c02-4d0d-81c8-335f5f908ce9.png?1628382419",
-        :type-line "Creature — Horse Spirit",
+        :collector-number "51s",
+        :layout "normal",
+        :name "Cosmos Charger",
         :oracle-text
         "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "52p",
-        :name "Cyclone Summoner",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Wizard",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d0c70717-0765-47e1-b10d-9dfabba8052a.png?1628382865",
-        :type-line "Creature — Giant Wizard",
+        :collector-number "52p",
+        :layout "normal",
+        :name "Cyclone Summoner",
         :oracle-text
         "When Cyclone Summoner enters the battlefield, if you cast it from your hand, return all permanents to their owners' hands except for Giants, Wizards, and lands."}
- #:card{:code "pkhm",
-        :collector-number "52s",
-        :name "Cyclone Summoner",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Wizard",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf5da39e-ba07-4b7f-90e4-3138b736337e.png?1628382387",
-        :type-line "Creature — Giant Wizard",
+        :collector-number "52s",
+        :layout "normal",
+        :name "Cyclone Summoner",
         :oracle-text
         "When Cyclone Summoner enters the battlefield, if you cast it from your hand, return all permanents to their owners' hands except for Giants, Wizards, and lands."}
- #:card{:code "pkhm",
-        :collector-number "61p",
-        :name "Graven Lore",
-        :layout "normal",
+ #:card{:type-line "Snow Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cfed0f5b-c65a-489a-920f-9a0426b5c671.png?1628382821",
-        :type-line "Snow Instant",
+        :collector-number "61p",
+        :layout "normal",
+        :name "Graven Lore",
         :oracle-text
         "Scry X, where X is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "61s",
-        :name "Graven Lore",
-        :layout "normal",
+ #:card{:type-line "Snow Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7dc2adbf-488b-49e3-b840-a22338a03b6f.png?1628382352",
-        :type-line "Snow Instant",
+        :collector-number "61s",
+        :layout "normal",
+        :name "Graven Lore",
         :oracle-text
         "Scry X, where X is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "63p",
-        :name "Icebreaker Kraken",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Kraken",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/02e0cbc9-fc3f-45f8-80d3-a321ccb82f1f.png?1628382783",
-        :type-line "Snow Creature — Kraken",
+        :collector-number "63p",
+        :layout "normal",
+        :name "Icebreaker Kraken",
         :oracle-text
         "This spell costs {1} less to cast for each snow land you control.\nWhen Icebreaker Kraken enters the battlefield, artifacts and creatures target opponent controls don't untap during that player's next untap step.\nReturn three snow lands you control to their owner's hand: Return Icebreaker Kraken to its owner's hand."}
- #:card{:code "pkhm",
-        :collector-number "63s",
-        :name "Icebreaker Kraken",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Kraken",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/11900b77-f09a-4018-bb5d-5bb1979b6721.png?1628382312",
-        :type-line "Snow Creature — Kraken",
+        :collector-number "63s",
+        :layout "normal",
+        :name "Icebreaker Kraken",
         :oracle-text
         "This spell costs {1} less to cast for each snow land you control.\nWhen Icebreaker Kraken enters the battlefield, artifacts and creatures target opponent controls don't untap during that player's next untap step.\nReturn three snow lands you control to their owner's hand: Return Icebreaker Kraken to its owner's hand."}
- #:card{:code "pkhm",
-        :collector-number "69p",
-        :name "Mystic Reflection",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/302580e6-b639-40a3-9754-4f5cfc98a9a1.png?1628382738",
-        :type-line "Instant",
+        :collector-number "69p",
+        :layout "normal",
+        :name "Mystic Reflection",
         :oracle-text
         "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "69s",
-        :name "Mystic Reflection",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/5/e519d5bf-ff17-4688-977d-ccb2e47b94aa.png?1628382268",
-        :type-line "Instant",
+        :collector-number "69s",
+        :layout "normal",
+        :name "Mystic Reflection",
         :oracle-text
         "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "70p",
-        :name "Orvar, the All-Form",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/c/0cd55a90-440e-4b0e-92b3-a022b8d34c0f.png?1628382669",
-        :type-line "Legendary Creature — Shapeshifter",
+        :collector-number "70p",
+        :layout "normal",
+        :name "Orvar, the All-Form",
         :oracle-text
         "Changeling\nWhenever you cast an instant or sorcery spell, if it targets one or more other permanents you control, create a token that's a copy of one of those permanents.\nWhen a spell or ability an opponent controls causes you to discard this card, create a token that's a copy of target permanent."}
- #:card{:code "pkhm",
-        :collector-number "70s",
-        :name "Orvar, the All-Form",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b882f4b-df46-465b-a058-2cc4ec9303d4.png?1628382231",
-        :type-line "Legendary Creature — Shapeshifter",
+        :collector-number "70s",
+        :layout "normal",
+        :name "Orvar, the All-Form",
         :oracle-text
         "Changeling\nWhenever you cast an instant or sorcery spell, if it targets one or more other permanents you control, create a token that's a copy of one of those permanents.\nWhen a spell or ability an opponent controls causes you to discard this card, create a token that's a copy of target permanent."}
- #:card{:code "pkhm",
-        :collector-number "73p",
-        :name "Reflections of Littjara",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8d680e67-4a88-4ef8-9ca1-0d198de5b25e.png?1628382622",
-        :type-line "Enchantment",
+        :collector-number "73p",
+        :layout "normal",
+        :name "Reflections of Littjara",
         :oracle-text
         "As Reflections of Littjara enters the battlefield, choose a creature type.\nWhenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)"}
- #:card{:code "pkhm",
-        :collector-number "73s",
-        :name "Reflections of Littjara",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/62773d6e-b530-4391-a6c4-775619660d07.png?1628382198",
-        :type-line "Enchantment",
+        :collector-number "73s",
+        :layout "normal",
+        :name "Reflections of Littjara",
         :oracle-text
         "As Reflections of Littjara enters the battlefield, choose a creature type.\nWhenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)"}
- #:card{:code "pkhm",
-        :collector-number "79p",
-        :name "Blood on the Snow",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66a2d37e-4edf-4774-8cc1-0b091c1aa801.png?1628382573",
-        :type-line "Snow Sorcery",
+        :collector-number "79p",
+        :layout "normal",
+        :name "Blood on the Snow",
         :oracle-text
         "Choose one —\n• Destroy all creatures.\n• Destroy all planeswalkers.\nThen return a creature or planeswalker card with mana value X or less from your graveyard to the battlefield, where X is the amount of {S} spent to cast this spell. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "79s",
-        :name "Blood on the Snow",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/898819fe-8042-46b0-86f4-e3bce253731d.png?1628382167",
-        :type-line "Snow Sorcery",
+        :collector-number "79s",
+        :layout "normal",
+        :name "Blood on the Snow",
         :oracle-text
         "Choose one —\n• Destroy all creatures.\n• Destroy all planeswalkers.\nThen return a creature or planeswalker card with mana value X or less from your graveyard to the battlefield, where X is the amount of {S} spent to cast this spell. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "81p",
-        :name "Burning-Rune Demon",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b968ca8-3307-42f0-b51f-36e6d6fe33b6.png?1628382519",
-        :type-line "Creature — Demon Berserker",
+        :collector-number "81p",
+        :layout "normal",
+        :name "Burning-Rune Demon",
         :oracle-text
         "Flying\nWhen Burning-Rune Demon enters the battlefield, you may search your library for exactly two cards not named Burning-Rune Demon that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle."}
- #:card{:code "pkhm",
-        :collector-number "81s",
-        :name "Burning-Rune Demon",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/6/56d18713-4078-490b-bde4-00875426d028.png?1628382129",
-        :type-line "Creature — Demon Berserker",
+        :collector-number "81s",
+        :layout "normal",
+        :name "Burning-Rune Demon",
         :oracle-text
         "Flying\nWhen Burning-Rune Demon enters the battlefield, you may search your library for exactly two cards not named Burning-Rune Demon that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle."}
- #:card{:code "pkhm",
-        :collector-number "82p",
-        :name "Crippling Fear",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b82ca44-6c80-4220-bf41-76a62cd3459f.png?1628382470",
-        :type-line "Sorcery",
+        :collector-number "82p",
+        :layout "normal",
+        :name "Crippling Fear",
         :oracle-text
         "Choose a creature type. Creatures that aren't of the chosen type get -3/-3 until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "82s",
-        :name "Crippling Fear",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9128be6-bdb3-498e-be23-59598a558cc8.png?1628382096",
-        :type-line "Sorcery",
+        :collector-number "82s",
+        :layout "normal",
+        :name "Crippling Fear",
         :oracle-text
         "Choose a creature type. Creatures that aren't of the chosen type get -3/-3 until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "86p",
-        :name "Draugr Necromancer",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Zombie Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a918f05-23cf-4d3a-b21a-dc4539f7fb95.png?1628382415",
-        :type-line "Snow Creature — Zombie Cleric",
+        :collector-number "86p",
+        :layout "normal",
+        :name "Draugr Necromancer",
         :oracle-text
         "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.\nYou may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells."}
- #:card{:code "pkhm",
-        :collector-number "86s",
-        :name "Draugr Necromancer",
-        :layout "normal",
+ #:card{:type-line "Snow Creature — Zombie Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b22238c2-0100-4ff6-b715-2339ca1abda5.png?1628382063",
-        :type-line "Snow Creature — Zombie Cleric",
+        :collector-number "86s",
+        :layout "normal",
+        :name "Draugr Necromancer",
         :oracle-text
         "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.\nYou may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells."}
- #:card{:code "pkhm",
-        :collector-number "90p",
-        :name "Dream Devourer",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/5748b305-0428-40dd-b12d-0abeef5fcfde.png?1628382375",
-        :type-line "Creature — Demon Cleric",
+        :collector-number "90p",
+        :layout "normal",
+        :name "Dream Devourer",
         :oracle-text
         "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)\nWhenever you foretell a card, Dream Devourer gets +2/+0 until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "90s",
-        :name "Dream Devourer",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon Cleric",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e5b9ae4-cc88-46e9-89b7-7ba85e4c4da6.png?1628382030",
-        :type-line "Creature — Demon Cleric",
+        :collector-number "90s",
+        :layout "normal",
+        :name "Dream Devourer",
         :oracle-text
         "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)\nWhenever you foretell a card, Dream Devourer gets +2/+0 until end of turn."}
  #:card{:code "pkhm",
@@ -538,6 +589,7 @@
         :name "Egon, God of Death // Throne of Death",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7d1f5c0a-3590-4da2-81a2-107f2a0f5b5f.png?1628381970",
@@ -549,84 +601,92 @@
           :type-line "Legendary Artifact",
           :oracle-text
           "At the beginning of your upkeep, mill a card.\n{2}{B}, {T}, Exile a creature card from your graveyard: Draw a card."}]}
- #:card{:code "pkhm",
-        :collector-number "94p",
-        :name "Eradicator Valkyrie",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/af1459fc-a19f-4106-939d-9b9672cecce7.png?1628382336",
-        :type-line "Creature — Angel Berserker",
+        :collector-number "94p",
+        :layout "normal",
+        :name "Eradicator Valkyrie",
         :oracle-text
         "Flying, lifelink, hexproof from planeswalkers\nBoast — {1}{B}, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "94s",
-        :name "Eradicator Valkyrie",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7dcd014c-455e-444c-aec5-a1108dc4a80a.png?1628381928",
-        :type-line "Creature — Angel Berserker",
+        :collector-number "94s",
+        :layout "normal",
+        :name "Eradicator Valkyrie",
         :oracle-text
         "Flying, lifelink, hexproof from planeswalkers\nBoast — {1}{B}, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "98p",
-        :name "Haunting Voyage",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cccb5f07-69ba-475f-8b91-9a5e1cd58594.png?1628382284",
-        :type-line "Sorcery",
+        :collector-number "98p",
+        :layout "normal",
+        :name "Haunting Voyage",
         :oracle-text
         "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "98s",
-        :name "Haunting Voyage",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/682d5ccb-d192-4b04-9aa3-6c348dff271a.png?1628381895",
-        :type-line "Sorcery",
+        :collector-number "98s",
+        :layout "normal",
+        :name "Haunting Voyage",
         :oracle-text
         "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "107p",
-        :name "Rise of the Dread Marn",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73628490-baa5-4057-99fc-da4a9a16132f.png?1628382241",
-        :type-line "Instant",
+        :collector-number "107p",
+        :layout "normal",
+        :name "Rise of the Dread Marn",
         :oracle-text
         "Create X 2/2 black Zombie Berserker creature tokens, where X is the number of nontoken creatures that died this turn.\nForetell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "107s",
-        :name "Rise of the Dread Marn",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c4dfa14-f7e0-4623-8a1c-58ccb940a684.png?1628381861",
-        :type-line "Instant",
+        :collector-number "107s",
+        :layout "normal",
+        :name "Rise of the Dread Marn",
         :oracle-text
         "Create X 2/2 black Zombie Berserker creature tokens, where X is the number of nontoken creatures that died this turn.\nForetell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "109p",
-        :name "Skemfar Avenger",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de1063fa-3c9a-4978-8976-8727d9b5d2bd.png?1628382182",
-        :type-line "Creature — Elf Berserker",
+        :collector-number "109p",
+        :layout "normal",
+        :name "Skemfar Avenger",
         :oracle-text
         "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life."}
- #:card{:code "pkhm",
-        :collector-number "109s",
-        :name "Skemfar Avenger",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e1a9b9c-5990-4914-8b01-ec8b19e912e8.png?1628381823",
-        :type-line "Creature — Elf Berserker",
+        :collector-number "109s",
+        :layout "normal",
+        :name "Skemfar Avenger",
         :oracle-text
         "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life."}
  #:card{:code "pkhm",
@@ -634,6 +694,7 @@
         :name "Tergrid, God of Fright // Tergrid's Lantern",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66904768-09d0-4836-a6a0-c474678f19c1.png?1628381759",
@@ -650,6 +711,7 @@
         :name "Valki, God of Lies // Tibalt, Cosmic Impostor",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a70c5a0b-77d8-4d9e-a143-aaa2be4dc494.png?1628381690",
@@ -661,44 +723,48 @@
           :type-line "Legendary Planeswalker — Tibalt",
           :oracle-text
           "As Tibalt enters the battlefield, you get an emblem with \"You may play cards exiled with Tibalt, Cosmic Impostor, and you may spend mana as though it were mana of any color to cast those spells.\"\n+2: Exile the top card of each player's library.\n−3: Exile target artifact or creature.\n−8: Exile all graveyards. Add {R}{R}{R}."}]}
- #:card{:code "pkhm",
-        :collector-number "115p",
-        :name "Varragoth, Bloodsky Sire",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Demon Rogue",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cdcefaf2-ad5a-4bab-95bb-7f6155cb8764.png?1628382109",
-        :type-line "Legendary Creature — Demon Rogue",
+        :collector-number "115p",
+        :layout "normal",
+        :name "Varragoth, Bloodsky Sire",
         :oracle-text
         "Deathtouch\nBoast — {1}{B}: Target player searches their library for a card, then shuffles and puts that card on top. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "115s",
-        :name "Varragoth, Bloodsky Sire",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Demon Rogue",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa0db676-6e0a-421d-a089-c6d6cfdd0584.png?1628381652",
-        :type-line "Legendary Creature — Demon Rogue",
+        :collector-number "115s",
+        :layout "normal",
+        :name "Varragoth, Bloodsky Sire",
         :oracle-text
         "Deathtouch\nBoast — {1}{B}: Target player searches their library for a card, then shuffles and puts that card on top. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "120p",
-        :name "Arni Brokenbrow",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/96797fc6-3288-4fb5-97b7-06de0f5ea4d9.png?1628382042",
-        :type-line "Legendary Creature — Human Berserker",
+        :collector-number "120p",
+        :layout "normal",
+        :name "Arni Brokenbrow",
         :oracle-text
         "Haste\nBoast — {1}: You may change Arni Brokenbrow's base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "120s",
-        :name "Arni Brokenbrow",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff712e3e-3831-4ef5-95bb-02144a9d8539.png?1628381589",
-        :type-line "Legendary Creature — Human Berserker",
+        :collector-number "120s",
+        :layout "normal",
+        :name "Arni Brokenbrow",
         :oracle-text
         "Haste\nBoast — {1}: You may change Arni Brokenbrow's base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate only if this creature attacked this turn and only once each turn.)"}
  #:card{:code "pkhm",
@@ -706,6 +772,7 @@
         :name "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/252c0f8a-54d5-461d-84f7-496c42703ff0.png?1628381533",
@@ -717,144 +784,158 @@
           :type-line "Legendary Artifact",
           :oracle-text
           "Discard a card: Exile the top two cards of your library. You may play those cards this turn."}]}
- #:card{:code "pkhm",
-        :collector-number "125p",
-        :name "Calamity Bearer",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d521e56a-6c05-40c0-a0a0-d2cddbf214f0.png?1628381992",
-        :type-line "Creature — Giant Berserker",
+        :collector-number "125p",
+        :layout "normal",
+        :name "Calamity Bearer",
         :oracle-text
         "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."}
- #:card{:code "pkhm",
-        :collector-number "125s",
-        :name "Calamity Bearer",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/30204768-b2af-4796-8117-ffba05ce972e.png?1628381495",
-        :type-line "Creature — Giant Berserker",
+        :collector-number "125s",
+        :layout "normal",
+        :name "Calamity Bearer",
         :oracle-text
         "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."}
- #:card{:code "pkhm",
-        :collector-number "131p",
-        :name "Dragonkin Berserker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d088f78-42fd-4166-a6d4-88d025193648.png?1628381946",
-        :type-line "Creature — Human Berserker",
+        :collector-number "131p",
+        :layout "normal",
+        :name "Dragonkin Berserker",
         :oracle-text
         "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast — {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "131s",
-        :name "Dragonkin Berserker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91a72d38-a7b5-40ad-a76f-da5950307f99.png?1628381451",
-        :type-line "Creature — Human Berserker",
+        :collector-number "131s",
+        :layout "normal",
+        :name "Dragonkin Berserker",
         :oracle-text
         "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast — {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate only if this creature attacked this turn and only once each turn.)"}
- #:card{:code "pkhm",
-        :collector-number "139p",
-        :name "Goldspan Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c860c53a-b33f-47e6-8715-3529d0fc6c35.png?1628381887",
-        :type-line "Creature — Dragon",
+        :collector-number "139p",
+        :layout "normal",
+        :name "Goldspan Dragon",
         :oracle-text
         "Flying, haste\nWhenever Goldspan Dragon attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\""}
- #:card{:code "pkhm",
-        :collector-number "139s",
-        :name "Goldspan Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a23c31d-a056-402a-8142-75189eda667a.png?1628381414",
-        :type-line "Creature — Dragon",
+        :collector-number "139s",
+        :layout "normal",
+        :name "Goldspan Dragon",
         :oracle-text
         "Flying, haste\nWhenever Goldspan Dragon attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\""}
- #:card{:code "pkhm",
-        :collector-number "142p",
-        :name "Magda, Brazen Outlaw",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Dwarf Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e446a2b-1e8e-49e2-9c09-9d614474b192.png?1628381848",
-        :type-line "Legendary Creature — Dwarf Berserker",
+        :collector-number "142p",
+        :layout "normal",
+        :name "Magda, Brazen Outlaw",
         :oracle-text
         "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle."}
- #:card{:code "pkhm",
-        :collector-number "142s",
-        :name "Magda, Brazen Outlaw",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Dwarf Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2eefac21-f972-4f77-970a-e0e4a3fc433c.png?1628381375",
-        :type-line "Legendary Creature — Dwarf Berserker",
+        :collector-number "142s",
+        :layout "normal",
+        :name "Magda, Brazen Outlaw",
         :oracle-text
         "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle."}
- #:card{:code "pkhm",
-        :collector-number "145p",
-        :name "Quakebringer",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/04b333fc-7354-49b7-a6fc-5d75951a6ddb.png?1628381801",
-        :type-line "Creature — Giant Berserker",
+        :collector-number "145p",
+        :layout "normal",
+        :name "Quakebringer",
         :oracle-text
         "Your opponents can't gain life.\nAt the beginning of your upkeep, Quakebringer deals 2 damage to each opponent. This ability triggers only if Quakebringer is on the battlefield or if Quakebringer is in your graveyard and you control a Giant.\nForetell {2}{R}{R}"}
- #:card{:code "pkhm",
-        :collector-number "145s",
-        :name "Quakebringer",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant Berserker",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/9/09efd4e1-1d5e-405e-abef-abca4c3aeb1e.png?1628381345",
-        :type-line "Creature — Giant Berserker",
+        :collector-number "145s",
+        :layout "normal",
+        :name "Quakebringer",
         :oracle-text
         "Your opponents can't gain life.\nAt the beginning of your upkeep, Quakebringer deals 2 damage to each opponent. This ability triggers only if Quakebringer is on the battlefield or if Quakebringer is in your graveyard and you control a Giant.\nForetell {2}{R}{R}"}
- #:card{:code "pkhm",
-        :collector-number "146p",
-        :name "Reckless Crew",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8df2a9c6-0bda-468e-9f86-c3c66fa6474f.png?1628381766",
-        :type-line "Sorcery",
+        :collector-number "146p",
+        :layout "normal",
+        :name "Reckless Crew",
         :oracle-text
         "Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it."}
- #:card{:code "pkhm",
-        :collector-number "146s",
-        :name "Reckless Crew",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/366cdfc4-3f52-42a4-8512-6bf22f7a4daf.png?1628381314",
-        :type-line "Sorcery",
+        :collector-number "146s",
+        :layout "normal",
+        :name "Reckless Crew",
         :oracle-text
         "Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it."}
- #:card{:code "pkhm",
-        :collector-number "153p",
-        :name "Tibalt's Trickery",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/51c2ce43-16ae-49bd-8fb3-0aa65eae5b9b.png?1628381713",
-        :type-line "Instant",
+        :collector-number "153p",
+        :layout "normal",
+        :name "Tibalt's Trickery",
         :oracle-text
         "Counter target spell. Choose 1, 2, or 3 at random. Its controller mills that many cards, then exiles cards from the top of their library until they exile a nonland card with a different name than that spell. They may cast that card without paying its mana cost. Then they put the exiled cards on the bottom of their library in a random order."}
- #:card{:code "pkhm",
-        :collector-number "153s",
-        :name "Tibalt's Trickery",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bc84af8a-c950-4da2-b307-ac36f454ce88.png?1628381281",
-        :type-line "Instant",
+        :collector-number "153s",
+        :layout "normal",
+        :name "Tibalt's Trickery",
         :oracle-text
         "Counter target spell. Choose 1, 2, or 3 at random. Its controller mills that many cards, then exiles cards from the top of their library until they exile a nonland card with a different name than that spell. They may cast that card without paying its mana cost. Then they put the exiled cards on the bottom of their library in a random order."}
  #:card{:code "pkhm",
@@ -862,6 +943,7 @@
         :name "Toralf, God of Fury // Toralf's Hammer",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/6/56169747-9603-431e-bd88-bfa6982f029c.png?1628381226",
@@ -873,84 +955,92 @@
           :type-line "Legendary Artifact — Equipment",
           :oracle-text
           "Equipped creature has \"{1}{R}, {T}, Unattach Toralf's Hammer: It deals 3 damage to any target. Return Toralf's Hammer to its owner's hand.\"\nEquipped creature gets +3/+0 as long as it's legendary.\nEquip {1}{R}"}]}
- #:card{:code "pkhm",
-        :collector-number "156p",
-        :name "Tundra Fumarole",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce3ca151-8d95-4367-9df1-82b7c8f85bfe.png?1628381662",
-        :type-line "Snow Sorcery",
+        :collector-number "156p",
+        :layout "normal",
+        :name "Tundra Fumarole",
         :oracle-text
         "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "156s",
-        :name "Tundra Fumarole",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d31769d1-7521-42fd-bc2f-9ed3302bd183.png?1628381181",
-        :type-line "Snow Sorcery",
+        :collector-number "156s",
+        :layout "normal",
+        :name "Tundra Fumarole",
         :oracle-text
         "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "160p",
-        :name "Battle Mammoth",
-        :layout "normal",
+ #:card{:type-line "Creature — Elephant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/645f24f5-8411-4fb8-bfa6-316833fe99ce.png?1628381618",
-        :type-line "Creature — Elephant",
+        :collector-number "160p",
+        :layout "normal",
+        :name "Battle Mammoth",
         :oracle-text
         "Trample\nWhenever a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.\nForetell {2}{G}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "160s",
-        :name "Battle Mammoth",
-        :layout "normal",
+ #:card{:type-line "Creature — Elephant",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb036e88-5e5a-4c08-be0b-64fc45aded2e.png?1628381149",
-        :type-line "Creature — Elephant",
+        :collector-number "160s",
+        :layout "normal",
+        :name "Battle Mammoth",
         :oracle-text
         "Trample\nWhenever a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.\nForetell {2}{G}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
- #:card{:code "pkhm",
-        :collector-number "161p",
-        :name "Blessing of Frost",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29f32166-20b9-4e4d-b357-a72e5c923f9a.png?1628381583",
-        :type-line "Snow Sorcery",
+        :collector-number "161p",
+        :layout "normal",
+        :name "Blessing of Frost",
         :oracle-text
         "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater."}
- #:card{:code "pkhm",
-        :collector-number "161s",
-        :name "Blessing of Frost",
-        :layout "normal",
+ #:card{:type-line "Snow Sorcery",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/0/006b5880-eb49-4198-930c-39a85ff6ec66.png?1628381118",
-        :type-line "Snow Sorcery",
+        :collector-number "161s",
+        :layout "normal",
+        :name "Blessing of Frost",
         :oracle-text
         "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater."}
- #:card{:code "pkhm",
-        :collector-number "167p",
-        :name "Elvish Warmaster",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/32bd6e06-8971-4134-9ca4-5300a9022d85.png?1628381544",
-        :type-line "Creature — Elf Warrior",
+        :collector-number "167p",
+        :layout "normal",
+        :name "Elvish Warmaster",
         :oracle-text
         "Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "167s",
-        :name "Elvish Warmaster",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/96889b5d-4f7c-418a-95c9-8675fdd0a2c4.png?1628381088",
-        :type-line "Creature — Elf Warrior",
+        :collector-number "167s",
+        :layout "normal",
+        :name "Elvish Warmaster",
         :oracle-text
         "Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn."}
  #:card{:code "pkhm",
@@ -958,6 +1048,7 @@
         :name "Esika, God of the Tree // The Prismatic Bridge",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91b23fea-9347-4bd2-a073-f48f46e32869.png?1628381037",
@@ -969,44 +1060,48 @@
           :type-line "Legendary Enchantment",
           :oracle-text
           "At the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order."}]}
- #:card{:code "pkhm",
-        :collector-number "169p",
-        :name "Esika's Chariot",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce058f51-4ab9-4481-8813-1f5b0654b227.png?1628381507",
-        :type-line "Legendary Artifact — Vehicle",
+        :collector-number "169p",
+        :layout "normal",
+        :name "Esika's Chariot",
         :oracle-text
         "When Esika's Chariot enters the battlefield, create two 2/2 green Cat creature tokens.\nWhenever Esika's Chariot attacks, create a token that's a copy of target token you control.\nCrew 4"}
- #:card{:code "pkhm",
-        :collector-number "169s",
-        :name "Esika's Chariot",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f6c1b83-ac63-4666-b853-66a8bf14ad14.png?1628381002",
-        :type-line "Legendary Artifact — Vehicle",
+        :collector-number "169s",
+        :layout "normal",
+        :name "Esika's Chariot",
         :oracle-text
         "When Esika's Chariot enters the battlefield, create two 2/2 green Cat creature tokens.\nWhenever Esika's Chariot attacks, create a token that's a copy of target token you control.\nCrew 4"}
- #:card{:code "pkhm",
-        :collector-number "177p",
-        :name "In Search of Greatness",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21837093-1dba-4c3e-8782-f9e77d10a773.png?1628381464",
-        :type-line "Enchantment",
+        :collector-number "177p",
+        :layout "normal",
+        :name "In Search of Greatness",
         :oracle-text
         "At the beginning of your upkeep, you may cast a permanent spell from your hand with mana value equal to 1 plus the highest mana value among other permanents you control without paying its mana cost. If you don't, scry 1."}
- #:card{:code "pkhm",
-        :collector-number "177s",
-        :name "In Search of Greatness",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e69efcc2-8cb5-437e-ab4b-e8d13fe9e22d.png?1628380964",
-        :type-line "Enchantment",
+        :collector-number "177s",
+        :layout "normal",
+        :name "In Search of Greatness",
         :oracle-text
         "At the beginning of your upkeep, you may cast a permanent spell from your hand with mana value equal to 1 plus the highest mana value among other permanents you control without paying its mana cost. If you don't, scry 1."}
  #:card{:code "pkhm",
@@ -1014,6 +1109,7 @@
         :name "Jorn, God of Winter // Kaldring, the Rimestaff",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0195076-ce62-4a4e-b381-aaf7c009b9ee.png?1628380901",
@@ -1030,6 +1126,7 @@
         :name "Kolvori, God of Kinship // The Ringhart Crest",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f43e124-344e-4e58-8a8e-c710b28d7ebf.png?1628380840",
@@ -1041,464 +1138,510 @@
           :type-line "Legendary Artifact",
           :oracle-text
           "As The Ringhart Crest enters the battlefield, choose a creature type.\n{T}: Add {G}. Spend this mana only to cast a creature spell of the chosen type or a legendary creature spell."}]}
- #:card{:code "pkhm",
-        :collector-number "185p",
-        :name "Old-Growth Troll",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9ddda844-96b6-4bc0-be4e-8cb12c84f630.png?1628381412",
-        :type-line "Creature — Troll Warrior",
+        :collector-number "185p",
+        :layout "normal",
+        :name "Old-Growth Troll",
         :oracle-text
         "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'\""}
- #:card{:code "pkhm",
-        :collector-number "185s",
-        :name "Old-Growth Troll",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll Warrior",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/953fade5-1ea1-421a-8d6f-7729b64e94c1.png?1628380797",
-        :type-line "Creature — Troll Warrior",
+        :collector-number "185s",
+        :layout "normal",
+        :name "Old-Growth Troll",
         :oracle-text
         "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'\""}
- #:card{:code "pkhm",
-        :collector-number "188p",
-        :name "Realmwalker",
-        :layout "normal",
+ #:card{:type-line "Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd38662b-06c7-4e75-81c8-a6e071632e0f.png?1628381368",
-        :type-line "Creature — Shapeshifter",
+        :collector-number "188p",
+        :layout "normal",
+        :name "Realmwalker",
         :oracle-text
         "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library."}
- #:card{:code "pkhm",
-        :collector-number "188s",
-        :name "Realmwalker",
-        :layout "normal",
+ #:card{:type-line "Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20543e39-749a-40af-9320-584ac5f5346a.png?1628380767",
-        :type-line "Creature — Shapeshifter",
+        :collector-number "188s",
+        :layout "normal",
+        :name "Realmwalker",
         :oracle-text
         "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library."}
- #:card{:code "pkhm",
-        :collector-number "197p",
-        :name "Toski, Bearer of Secrets",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Squirrel",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/9/99355ca7-9447-4ba2-b515-e1f823caab11.png?1628381314",
-        :type-line "Legendary Creature — Squirrel",
+        :collector-number "197p",
+        :layout "normal",
+        :name "Toski, Bearer of Secrets",
         :oracle-text
         "This spell can't be countered.\nIndestructible\nToski, Bearer of Secrets attacks each combat if able.\nWhenever a creature you control deals combat damage to a player, draw a card."}
- #:card{:code "pkhm",
-        :collector-number "197s",
-        :name "Toski, Bearer of Secrets",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Squirrel",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/86fba621-3cda-4090-999e-84ae4897c576.png?1628380737",
-        :type-line "Legendary Creature — Squirrel",
+        :collector-number "197s",
+        :layout "normal",
+        :name "Toski, Bearer of Secrets",
         :oracle-text
         "This spell can't be countered.\nIndestructible\nToski, Bearer of Secrets attacks each combat if able.\nWhenever a creature you control deals combat damage to a player, draw a card."}
- #:card{:code "pkhm",
-        :collector-number "198p",
-        :name "Tyvar Kell",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Tyvar",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4a7582b-2755-43d9-b8d3-a3d5a9f6709b.png?1628381268",
-        :type-line "Legendary Planeswalker — Tyvar",
+        :collector-number "198p",
+        :layout "normal",
+        :name "Tyvar Kell",
         :oracle-text
         "Elves you control have \"{T}: Add {B}.\"\n+1: Put a +1/+1 counter on up to one target Elf. Untap it. It gains deathtouch until end of turn.\n0: Create a 1/1 green Elf Warrior creature token.\n−6: You get an emblem with \"Whenever you cast an Elf spell, it gains haste until end of turn and you draw two cards.\""}
- #:card{:code "pkhm",
-        :collector-number "198s",
-        :name "Tyvar Kell",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Tyvar",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a007cfa6-4ef5-4e84-af31-fb87601a55f9.png?1628380706",
-        :type-line "Legendary Planeswalker — Tyvar",
+        :collector-number "198s",
+        :layout "normal",
+        :name "Tyvar Kell",
         :oracle-text
         "Elves you control have \"{T}: Add {B}.\"\n+1: Put a +1/+1 counter on up to one target Elf. Untap it. It gains deathtouch until end of turn.\n0: Create a 1/1 green Elf Warrior creature token.\n−6: You get an emblem with \"Whenever you cast an Elf spell, it gains haste until end of turn and you draw two cards.\""}
- #:card{:code "pkhm",
-        :collector-number "199p",
-        :name "Vorinclex, Monstrous Raider",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Phyrexian Praetor",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce330b20-bc6e-4353-93af-4c5bf8fc12be.png?1628381230",
-        :type-line "Legendary Creature — Phyrexian Praetor",
+        :collector-number "199p",
+        :layout "normal",
+        :name "Vorinclex, Monstrous Raider",
         :oracle-text
         "Trample, haste\nIf you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.\nIf an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down."}
- #:card{:code "pkhm",
-        :collector-number "199s",
-        :name "Vorinclex, Monstrous Raider",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Phyrexian Praetor",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5e835ba1-d408-4dcf-abd2-93196ac06e1a.png?1628380672",
-        :type-line "Legendary Creature — Phyrexian Praetor",
+        :collector-number "199s",
+        :layout "normal",
+        :name "Vorinclex, Monstrous Raider",
         :oracle-text
         "Trample, haste\nIf you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.\nIf an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down."}
- #:card{:code "pkhm",
-        :collector-number "203p",
-        :name "Battle for Bretagard",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a494aa22-60b9-47d0-b43f-b6593e49ea30.png?1628381189",
-        :type-line "Enchantment — Saga",
+        :collector-number "203p",
+        :layout "saga",
+        :name "Battle for Bretagard",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Warrior creature token.\nII — Create a 1/1 green Elf Warrior creature token.\nIII — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token that's a copy of it."}
- #:card{:code "pkhm",
-        :collector-number "203s",
-        :name "Battle for Bretagard",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/624b66e3-8bc2-4e3f-88a6-f634853f2820.png?1628380646",
-        :type-line "Enchantment — Saga",
+        :collector-number "203s",
+        :layout "saga",
+        :name "Battle for Bretagard",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Warrior creature token.\nII — Create a 1/1 green Elf Warrior creature token.\nIII — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token that's a copy of it."}
- #:card{:code "pkhm",
-        :collector-number "204p",
-        :name "Battle of Frost and Fire",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/894f90ce-c105-44aa-98a8-13deb916a9c5.png?1628381134",
-        :type-line "Enchantment — Saga",
+        :collector-number "204p",
+        :layout "saga",
+        :name "Battle of Frost and Fire",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Battle of Frost and Fire deals 4 damage to each non-Giant creature and each planeswalker.\nII — Scry 3.\nIII — Whenever you cast a spell with mana value 5 or greater this turn, draw two cards, then discard a card."}
- #:card{:code "pkhm",
-        :collector-number "204s",
-        :name "Battle of Frost and Fire",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4e2e7ec-f90b-4646-8bda-627488236d06.png?1628380615",
-        :type-line "Enchantment — Saga",
+        :collector-number "204s",
+        :layout "saga",
+        :name "Battle of Frost and Fire",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Battle of Frost and Fire deals 4 damage to each non-Giant creature and each planeswalker.\nII — Scry 3.\nIII — Whenever you cast a spell with mana value 5 or greater this turn, draw two cards, then discard a card."}
- #:card{:code "pkhm",
-        :collector-number "205p",
-        :name "The Bears of Littjara",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68a6723c-d401-44fa-9728-e28f46e738f4.png?1628381091",
-        :type-line "Enchantment — Saga",
+        :collector-number "205p",
+        :layout "saga",
+        :name "The Bears of Littjara",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/2 blue Shapeshifter creature token with changeling.\nII — Any number of target Shapeshifter creatures you control have base power and toughness 4/4.\nIII — Choose up to one target creature or planeswalker. Each creature with power 4 or greater you control deals damage equal to its power to that permanent."}
- #:card{:code "pkhm",
-        :collector-number "205s",
-        :name "The Bears of Littjara",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/0675dfab-2c60-4701-9a0f-da6c876d9616.png?1628380579",
-        :type-line "Enchantment — Saga",
+        :collector-number "205s",
+        :layout "saga",
+        :name "The Bears of Littjara",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/2 blue Shapeshifter creature token with changeling.\nII — Any number of target Shapeshifter creatures you control have base power and toughness 4/4.\nIII — Choose up to one target creature or planeswalker. Each creature with power 4 or greater you control deals damage equal to its power to that permanent."}
- #:card{:code "pkhm",
-        :collector-number "207p",
-        :name "The Bloodsky Massacre",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec475385-6755-4b90-a48f-5e58e326aaca.png?1628381036",
-        :type-line "Enchantment — Saga",
+        :collector-number "207p",
+        :layout "saga",
+        :name "The Bloodsky Massacre",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/3 red Demon Berserker creature token with menace.\nII — Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII — Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps and phases end."}
- #:card{:code "pkhm",
-        :collector-number "207s",
-        :name "The Bloodsky Massacre",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/313d00cc-2cd7-4e2a-a218-935801c297b3.png?1628380550",
-        :type-line "Enchantment — Saga",
+        :collector-number "207s",
+        :layout "saga",
+        :name "The Bloodsky Massacre",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/3 red Demon Berserker creature token with menace.\nII — Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII — Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps and phases end."}
- #:card{:code "pkhm",
-        :collector-number "210p",
-        :name "Firja's Retribution",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55ef5a63-7990-43e5-bfad-e1834809cad5.png?1628380987",
-        :type-line "Enchantment — Saga",
+        :collector-number "210p",
+        :layout "saga",
+        :name "Firja's Retribution",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII — Until end of turn, Angels you control gain \"{T}: Destroy target creature with power less than this creature's power.\"\nIII — Angels you control gain double strike until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "210s",
-        :name "Firja's Retribution",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/1329b3dc-c08a-4e9d-a354-0fdb60fb1a95.png?1628380519",
-        :type-line "Enchantment — Saga",
+        :collector-number "210s",
+        :layout "saga",
+        :name "Firja's Retribution",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII — Until end of turn, Angels you control gain \"{T}: Destroy target creature with power less than this creature's power.\"\nIII — Angels you control gain double strike until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "213p",
-        :name "Harald Unites the Elves",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bfe533c5-19c4-4d7a-8d8c-be7fa5b4e6bc.png?1628380929",
-        :type-line "Enchantment — Saga",
+        :collector-number "213p",
+        :layout "saga",
+        :name "Harald Unites the Elves",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards. You may put an Elf or Tyvar card from your graveyard onto the battlefield.\nII — Put a +1/+1 counter on each Elf you control.\nIII — Whenever an Elf you control attacks this turn, target creature an opponent controls gets -1/-1 until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "213s",
-        :name "Harald Unites the Elves",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/838f4cde-c428-44ed-b7e8-e330e228a304.png?1628380493",
-        :type-line "Enchantment — Saga",
+        :collector-number "213s",
+        :layout "saga",
+        :name "Harald Unites the Elves",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards. You may put an Elf or Tyvar card from your graveyard onto the battlefield.\nII — Put a +1/+1 counter on each Elf you control.\nIII — Whenever an Elf you control attacks this turn, target creature an opponent controls gets -1/-1 until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "214p",
-        :name "Immersturm Predator",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Dragon",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/858121f5-4110-47ed-b6c2-28ff414652dd.png?1628380875",
-        :type-line "Creature — Vampire Dragon",
+        :collector-number "214p",
+        :layout "normal",
+        :name "Immersturm Predator",
         :oracle-text
         "Flying\nWhenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator.\nSacrifice another creature: Immersturm Predator gains indestructible until end of turn. Tap it."}
- #:card{:code "pkhm",
-        :collector-number "214s",
-        :name "Immersturm Predator",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Dragon",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0eae38b6-12d5-4414-93fd-7b2d8dd1398b.png?1628380463",
-        :type-line "Creature — Vampire Dragon",
+        :collector-number "214s",
+        :layout "normal",
+        :name "Immersturm Predator",
         :oracle-text
         "Flying\nWhenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator.\nSacrifice another creature: Immersturm Predator gains indestructible until end of turn. Tap it."}
- #:card{:code "pkhm",
-        :collector-number "218p",
-        :name "Kaya the Inexorable",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Kaya",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/459c4a00-35eb-4cb4-8cee-e7d8a8152c4a.png?1628380827",
-        :type-line "Legendary Planeswalker — Kaya",
+        :collector-number "218p",
+        :layout "normal",
+        :name "Kaya the Inexorable",
         :oracle-text
         "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n−3: Exile target nonland permanent.\n−7: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\""}
- #:card{:code "pkhm",
-        :collector-number "218s",
-        :name "Kaya the Inexorable",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Kaya",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/03eeec31-538f-4f67-b635-8c68bc678dea.png?1628380431",
-        :type-line "Legendary Planeswalker — Kaya",
+        :collector-number "218s",
+        :layout "normal",
+        :name "Kaya the Inexorable",
         :oracle-text
         "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n−3: Exile target nonland permanent.\n−7: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\""}
- #:card{:code "pkhm",
-        :collector-number "219p",
-        :name "King Narfi's Betrayal",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/9562b164-33f5-4dff-b2df-2281c1125ee4.png?1628380781",
-        :type-line "Enchantment — Saga",
+        :collector-number "219p",
+        :layout "saga",
+        :name "King Narfi's Betrayal",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player mills four cards. Then you may exile a creature or planeswalker card from each graveyard.\nII, III — Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells."}
- #:card{:code "pkhm",
-        :collector-number "219s",
-        :name "King Narfi's Betrayal",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4a160a0-df41-4a33-bed2-7fca8e1edc87.png?1628380401",
-        :type-line "Enchantment — Saga",
+        :collector-number "219s",
+        :layout "saga",
+        :name "King Narfi's Betrayal",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player mills four cards. Then you may exile a creature or planeswalker card from each graveyard.\nII, III — Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells."}
- #:card{:code "pkhm",
-        :collector-number "221p",
-        :name "Koma, Cosmos Serpent",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Serpent",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/682cdd7e-31ff-4789-9d0d-ad43581c7621.png?1628380742",
-        :type-line "Legendary Creature — Serpent",
+        :collector-number "221p",
+        :layout "normal",
+        :name "Koma, Cosmos Serpent",
         :oracle-text
         "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma, Cosmos Serpent gains indestructible until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "221s",
-        :name "Koma, Cosmos Serpent",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Serpent",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0ea77f6d-9e1b-479f-bc1b-8d2474ddf46a.png?1628380368",
-        :type-line "Legendary Creature — Serpent",
+        :collector-number "221s",
+        :layout "normal",
+        :name "Koma, Cosmos Serpent",
         :oracle-text
         "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma, Cosmos Serpent gains indestructible until end of turn."}
- #:card{:code "pkhm",
-        :collector-number "225p",
-        :name "Niko Aris",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Niko",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed8b624f-e888-4ee4-9ca2-9a0f2f30a9f7.png?1628380693",
-        :type-line "Legendary Planeswalker — Niko",
+        :collector-number "225p",
+        :layout "normal",
+        :name "Niko Aris",
         :oracle-text
         "When Niko Aris enters the battlefield, create X Shard tokens. (They're enchantments with \"{2}, Sacrifice this enchantment: Scry 1, then draw a card.\")\n+1: Up to one target creature you control can't be blocked this turn. Whenever that creature deals damage this turn, return it to its owner's hand.\n−1: Niko Aris deals 2 damage to target tapped creature for each card you've drawn this turn.\n−1: Create a Shard token."}
- #:card{:code "pkhm",
-        :collector-number "225s",
-        :name "Niko Aris",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Niko",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc8353d8-bb68-4483-85b0-5ac61788c923.png?1628380340",
-        :type-line "Legendary Planeswalker — Niko",
+        :collector-number "225s",
+        :layout "normal",
+        :name "Niko Aris",
         :oracle-text
         "When Niko Aris enters the battlefield, create X Shard tokens. (They're enchantments with \"{2}, Sacrifice this enchantment: Scry 1, then draw a card.\")\n+1: Up to one target creature you control can't be blocked this turn. Whenever that creature deals damage this turn, return it to its owner's hand.\n−1: Niko Aris deals 2 damage to target tapped creature for each card you've drawn this turn.\n−1: Create a Shard token."}
- #:card{:code "pkhm",
-        :collector-number "227p",
-        :name "The Raven's Warning",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa206f9e-5dfc-4ffa-bfbd-c19142f97f98.png?1628380650",
-        :type-line "Enchantment — Saga",
+        :collector-number "227p",
+        :layout "saga",
+        :name "The Raven's Warning",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 blue Bird creature token with flying. You gain 2 life.\nII — Whenever one or more creatures you control with flying deal combat damage to a player this turn, look at that player's hand and draw a card.\nIII — You may put a card you own from outside the game on top of your library."}
- #:card{:code "pkhm",
-        :collector-number "227s",
-        :name "The Raven's Warning",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/573b3e89-9dbc-4a93-8dbc-2fdd64edee85.png?1628380307",
-        :type-line "Enchantment — Saga",
+        :collector-number "227s",
+        :layout "saga",
+        :name "The Raven's Warning",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 blue Bird creature token with flying. You gain 2 life.\nII — Whenever one or more creatures you control with flying deal combat damage to a player this turn, look at that player's hand and draw a card.\nIII — You may put a card you own from outside the game on top of your library."}
- #:card{:code "pkhm",
-        :collector-number "228p",
-        :name "Sarulf, Realm Eater",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Wolf",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29415c76-ba78-403e-a2da-7c1dcde01d68.png?1628380600",
-        :type-line "Legendary Creature — Wolf",
+        :collector-number "228p",
+        :layout "normal",
+        :name "Sarulf, Realm Eater",
         :oracle-text
         "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with mana value less than or equal to the number of counters removed this way."}
- #:card{:code "pkhm",
-        :collector-number "228s",
-        :name "Sarulf, Realm Eater",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Wolf",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6d55b53-ccd2-496a-a969-23fcde8f2210.png?1628380279",
-        :type-line "Legendary Creature — Wolf",
+        :collector-number "228s",
+        :layout "normal",
+        :name "Sarulf, Realm Eater",
         :oracle-text
         "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with mana value less than or equal to the number of counters removed this way."}
- #:card{:code "pkhm",
-        :collector-number "229p",
-        :name "Showdown of the Skalds",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/60c80c69-3bee-4c53-aac8-afc313973abc.png?1628380545",
-        :type-line "Enchantment — Saga",
+        :collector-number "229p",
+        :layout "saga",
+        :name "Showdown of the Skalds",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile the top four cards of your library. Until the end of your next turn, you may play those cards.\nII, III — Whenever you cast a spell this turn, put a +1/+1 counter on target creature you control."}
- #:card{:code "pkhm",
-        :collector-number "229s",
-        :name "Showdown of the Skalds",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f31d5885-35bc-455a-a824-22d8b4b459ef.png?1628380246",
-        :type-line "Enchantment — Saga",
+        :collector-number "229s",
+        :layout "saga",
+        :name "Showdown of the Skalds",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile the top four cards of your library. Until the end of your next turn, you may play those cards.\nII, III — Whenever you cast a spell this turn, put a +1/+1 counter on target creature you control."}
- #:card{:code "pkhm",
-        :collector-number "234p",
-        :name "Waking the Trolls",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c40cbbb6-7585-4f70-b4b8-668b3182242e.png?1628380508",
-        :type-line "Enchantment — Saga",
+        :collector-number "234p",
+        :layout "saga",
+        :name "Waking the Trolls",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target land.\nII — Put target land card from a graveyard onto the battlefield under your control.\nIII — Choose target opponent. If they control fewer lands than you, create a number of 4/4 green Troll Warrior creature tokens with trample equal to the difference."}
- #:card{:code "pkhm",
-        :collector-number "234s",
-        :name "Waking the Trolls",
-        :layout "saga",
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8fe7367c-d5fe-404a-9e21-ff61c22bf5fc.png?1628380216",
-        :type-line "Enchantment — Saga",
+        :collector-number "234s",
+        :layout "saga",
+        :name "Waking the Trolls",
         :oracle-text
         "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target land.\nII — Put target land card from a graveyard onto the battlefield under your control.\nIII — Choose target opponent. If they control fewer lands than you, create a number of 4/4 green Troll Warrior creature tokens with trample equal to the difference."}
- #:card{:code "pkhm",
-        :collector-number "237p",
-        :name "Cosmos Elixir",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/3/c3f92c04-8136-4c5f-bfa0-7849a4a74eed.png?1628380475",
-        :type-line "Artifact",
+        :collector-number "237p",
+        :layout "normal",
+        :name "Cosmos Elixir",
         :oracle-text
         "At the beginning of your end step, draw a card if your life total is greater than your starting life total. Otherwise, you gain 2 life."}
- #:card{:code "pkhm",
-        :collector-number "237s",
-        :name "Cosmos Elixir",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85a9d667-5cc0-4a3a-a722-24616993943e.png?1628380188",
-        :type-line "Artifact",
+        :collector-number "237s",
+        :layout "normal",
+        :name "Cosmos Elixir",
         :oracle-text
         "At the beginning of your end step, draw a card if your life total is greater than your starting life total. Otherwise, you gain 2 life."}
- #:card{:code "pkhm",
-        :collector-number "240p",
-        :name "Maskwood Nexus",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7bbcf127-8612-4569-a618-34507300d2ce.png?1628380438",
-        :type-line "Artifact",
+        :collector-number "240p",
+        :layout "normal",
+        :name "Maskwood Nexus",
         :oracle-text
         "Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\n{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)"}
- #:card{:code "pkhm",
-        :collector-number "240s",
-        :name "Maskwood Nexus",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9900049-65e4-47e0-a90a-38678cc940a5.png?1628380161",
-        :type-line "Artifact",
+        :collector-number "240s",
+        :layout "normal",
+        :name "Maskwood Nexus",
         :oracle-text
         "Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\n{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)"}
- #:card{:code "pkhm",
-        :collector-number "241p",
-        :name "Pyre of Heroes",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd1751ca-4945-4071-87f1-9d5f282c35f0.png?1628380391",
-        :type-line "Artifact",
+        :collector-number "241p",
+        :layout "normal",
+        :name "Pyre of Heroes",
         :oracle-text
         "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has mana value equal to 1 plus that creature's mana value. Put that card onto the battlefield, then shuffle. Activate only as a sorcery."}
- #:card{:code "pkhm",
-        :collector-number "241s",
-        :name "Pyre of Heroes",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc8a934e-220e-4788-9ea2-9d96c8c2481f.png?1628380131",
-        :type-line "Artifact",
+        :collector-number "241s",
+        :layout "normal",
+        :name "Pyre of Heroes",
         :oracle-text
         "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has mana value equal to 1 plus that creature's mana value. Put that card onto the battlefield, then shuffle. Activate only as a sorcery."}
  #:card{:code "pkhm",
@@ -1506,6 +1649,7 @@
         :name "Barkchannel Pathway // Tidechannel Pathway",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/954adeb7-84f1-44f6-a801-9fdef7b54fae.png?1628380076",
@@ -1520,6 +1664,7 @@
         :name "Blightstep Pathway // Searstep Pathway",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba86286b-d2ce-4f50-b675-37a356d64bd9.png?1628380023",
@@ -1534,6 +1679,7 @@
         :name "Darkbore Pathway // Slitherbore Pathway",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d6197486-ac34-4762-88c5-caed219a99a6.png?1628379964",
@@ -1543,24 +1689,26 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/d/6/d6197486-ac34-4762-88c5-caed219a99a6.png?1628379964",
           :type-line "Land",
           :oracle-text "{T}: Add {G}."}]}
- #:card{:code "pkhm",
-        :collector-number "255p",
-        :name "Faceless Haven",
-        :layout "normal",
+ #:card{:type-line "Snow Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a07c63b-10da-4685-9380-e14dfc55092a.png?1628380356",
-        :type-line "Snow Land",
+        :collector-number "255p",
+        :layout "normal",
+        :name "Faceless Haven",
         :oracle-text
         "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)"}
- #:card{:code "pkhm",
-        :collector-number "255s",
-        :name "Faceless Haven",
-        :layout "normal",
+ #:card{:type-line "Snow Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a377a2a-4f79-4ea5-9ce2-4677ba6df081.png?1628379935",
-        :type-line "Snow Land",
+        :collector-number "255s",
+        :layout "normal",
+        :name "Faceless Haven",
         :oracle-text
         "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)"}
  #:card{:code "pkhm",
@@ -1568,6 +1716,7 @@
         :name "Hengegate Pathway // Mistgate Pathway",
         :layout "modal_dfc",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/358ac5f8-6719-4777-81cb-4d64d5f24415.png?1628379889",
@@ -1577,43 +1726,47 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/3/5/358ac5f8-6719-4777-81cb-4d64d5f24415.png?1628379889",
           :type-line "Land",
           :oracle-text "{T}: Add {U}."}]}
- #:card{:code "pkhm",
-        :collector-number "272p",
-        :name "Tyrite Sanctum",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7879ccd-5548-47ac-9611-23fc425c3333.png?1628380328",
-        :type-line "Land",
+        :collector-number "272p",
+        :layout "normal",
+        :name "Tyrite Sanctum",
         :oracle-text
         "{T}: Add {C}.\n{2}, {T}: Target legendary creature becomes a God in addition to its other types. Put a +1/+1 counter on it.\n{4}, {T}, Sacrifice Tyrite Sanctum: Put an indestructible counter on target God."}
- #:card{:code "pkhm",
-        :collector-number "272s",
-        :name "Tyrite Sanctum",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53d85e79-ec12-41bc-bbd7-5cf37e889051.png?1628379853",
-        :type-line "Land",
+        :collector-number "272s",
+        :layout "normal",
+        :name "Tyrite Sanctum",
         :oracle-text
         "{T}: Add {C}.\n{2}, {T}: Target legendary creature becomes a God in addition to its other types. Put a +1/+1 counter on it.\n{4}, {T}, Sacrifice Tyrite Sanctum: Put an indestructible counter on target God."}
- #:card{:code "pkhm",
-        :collector-number "275p",
-        :name "The World Tree",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e19fb1a1-b0fb-4ffd-b6f2-dfc69c7d5473.png?1628380281",
-        :type-line "Land",
+        :collector-number "275p",
+        :layout "normal",
+        :name "The World Tree",
         :oracle-text
         "The World Tree enters the battlefield tapped.\n{T}: Add {G}.\nAs long as you control six or more lands, lands you control have \"{T}: Add one mana of any color.\"\n{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice The World Tree: Search your library for any number of God cards, put them onto the battlefield, then shuffle."}
- #:card{:code "pkhm",
-        :collector-number "275s",
-        :name "The World Tree",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pkhm",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34fc25b4-046a-4893-9041-6a00df53fe12.png?1628379810",
-        :type-line "Land",
+        :collector-number "275s",
+        :layout "normal",
+        :name "The World Tree",
         :oracle-text
         "The World Tree enters the battlefield tapped.\n{T}: Add {G}.\nAs long as you control six or more lands, lands you control have \"{T}: Add one mana of any color.\"\n{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice The World Tree: Search your library for any number of God cards, put them onto the battlefield, then shuffle."})

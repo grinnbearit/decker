@@ -1,49 +1,54 @@
-(#:card{:code "pm10",
-        :collector-number "16★",
-        :name "Honor of the Pure",
-        :layout "normal",
+(#:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pm10",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e09a2f0a-333a-4114-8b9b-f0011628cb90.png?1605361610",
-        :type-line "Enchantment",
-        :oracle-text "White creatures you control get +1/+1."}
- #:card{:code "pm10",
-        :collector-number "28",
-        :name "Mycoid Shepherd",
+        :collector-number "16★",
         :layout "normal",
+        :name "Honor of the Pure",
+        :oracle-text "White creatures you control get +1/+1."}
+ #:card{:type-line "Creature — Fungus",
+        :layout-category :normal,
+        :code "pm10",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4bb53920-2511-4467-b287-79b562d3c24c.png?1561757096",
-        :type-line "Creature — Fungus",
+        :collector-number "28",
+        :layout "normal",
+        :name "Mycoid Shepherd",
         :oracle-text
         "Whenever Mycoid Shepherd or another creature you control with power 5 or greater dies, you may gain 5 life."}
- #:card{:code "pm10",
-        :collector-number "29",
-        :name "Naya Sojourners",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Shaman",
+        :layout-category :normal,
+        :code "pm10",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a7dcba8-416e-4908-8969-bf5511a117e8.png?1561756746",
-        :type-line "Creature — Elf Shaman",
+        :collector-number "29",
+        :layout "normal",
+        :name "Naya Sojourners",
         :oracle-text
         "When you cycle Naya Sojourners or it dies, you may put a +1/+1 counter on target creature.\nCycling {2}{G} ({2}{G}, Discard this card: Draw a card.)"}
- #:card{:code "pm10",
-        :collector-number "118★",
-        :name "Vampire Nocturnus",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pm10",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/3194ae81-90fb-49e9-90de-9d161e296770.png?1605361616",
-        :type-line "Creature — Vampire",
+        :collector-number "118★",
+        :layout "normal",
+        :name "Vampire Nocturnus",
         :oracle-text
         "Play with the top card of your library revealed.\nAs long as the top card of your library is black, Vampire Nocturnus and other Vampire creatures you control get +2/+1 and have flying."}
- #:card{:code "pm10",
-        :collector-number "166★",
-        :name "Ant Queen",
-        :layout "normal",
+ #:card{:type-line "Creature — Insect",
+        :layout-category :normal,
+        :code "pm10",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d868d3b8-997c-4984-a2b3-72de90e280f7.png?1605361613",
-        :type-line "Creature — Insect",
+        :collector-number "166★",
+        :layout "normal",
+        :name "Ant Queen",
         :oracle-text
         "{1}{G}: Create a 1/1 green Insect creature token."})

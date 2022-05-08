@@ -1,131 +1,145 @@
-(#:card{:code "tm15",
-        :collector-number "1",
-        :name "Sliver",
-        :layout "token",
+(#:card{:type-line "Token Creature — Sliver",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/dec96e95-5580-4110-86ec-561007ab0f1e.png?1562640084",
-        :type-line "Token Creature — Sliver",
-        :oracle-text ""}
- #:card{:code "tm15",
-        :collector-number "2",
-        :name "Soldier",
+        :collector-number "1",
         :layout "token",
+        :name "Sliver",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/faf83070-573c-4a06-9a2d-1263d7600b66.png?1562640146",
-        :type-line "Token Creature — Soldier",
-        :oracle-text ""}
- #:card{:code "tm15",
-        :collector-number "3",
-        :name "Spirit",
+        :collector-number "2",
         :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/41dbf439-793a-4fe6-9d4e-0333f482e364.png?1562639767",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tm15",
-        :collector-number "4",
-        :name "Squid",
+        :collector-number "3",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Squid",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8c366546-6da9-4daa-b0c3-1401ace5568c.png?1562639916",
-        :type-line "Token Creature — Squid",
-        :oracle-text "Islandwalk"}
- #:card{:code "tm15",
-        :collector-number "5",
-        :name "Beast",
+        :collector-number "4",
         :layout "token",
+        :name "Squid",
+        :oracle-text "Islandwalk"}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc48bf5f-5fe1-41ef-a63d-85daacd941f7.png?1562640149",
-        :type-line "Token Creature — Beast",
-        :oracle-text "Deathtouch"}
- #:card{:code "tm15",
-        :collector-number "6",
-        :name "Zombie",
+        :collector-number "5",
         :layout "token",
+        :name "Beast",
+        :oracle-text "Deathtouch"}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb0a1ebd-a0ac-4a03-8ac2-4678d6fb03fa.png?1562640118",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tm15",
-        :collector-number "7",
-        :name "Dragon",
+        :collector-number "6",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/9661e23a-8914-493b-a08a-e9cd29b4666e.png?1562639938",
-        :type-line "Token Creature — Dragon",
+        :collector-number "7",
+        :layout "token",
+        :name "Dragon",
         :oracle-text
         "Flying\n{R}: This creature gets +1/+0 until end of turn."}
- #:card{:code "tm15",
-        :collector-number "8",
-        :name "Goblin",
-        :layout "token",
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98993a45-4aff-4f9b-a030-7d72fbb4ec6c.png?1562639941",
-        :type-line "Token Creature — Goblin",
-        :oracle-text ""}
- #:card{:code "tm15",
-        :collector-number "9",
-        :name "Beast",
+        :collector-number "8",
         :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd81e49b-bd38-4c0c-b9fe-ce33c15621d6.png?1562640083",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tm15",
-        :collector-number "10",
-        :name "Insect",
+        :collector-number "9",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e101a5b1-614e-43a0-9e7e-de5a248e2e43.png?1562640090",
-        :type-line "Token Creature — Insect",
-        :oracle-text "Flying, deathtouch"}
- #:card{:code "tm15",
-        :collector-number "11",
-        :name "Treefolk Warrior",
+        :collector-number "10",
         :layout "token",
+        :name "Insect",
+        :oracle-text "Flying, deathtouch"}
+ #:card{:type-line "Token Creature — Treefolk Warrior",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/2569593a-d2f2-414c-9e61-2c34e8a5832d.png?1562639718",
-        :type-line "Token Creature — Treefolk Warrior",
+        :collector-number "11",
+        :layout "token",
+        :name "Treefolk Warrior",
         :oracle-text
         "This creature's power and toughness are each equal to the number of Forests you control."}
- #:card{:code "tm15",
-        :collector-number "12",
-        :name "Land Mine",
-        :layout "token",
+ #:card{:type-line "Token Artifact",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/30093c6e-505e-4902-b535-707e364059b4.png?1562639734",
-        :type-line "Token Artifact",
+        :collector-number "12",
+        :layout "token",
+        :name "Land Mine",
         :oracle-text
         "{R}, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying."}
- #:card{:code "tm15",
-        :collector-number "13",
-        :name "Ajani Steadfast Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Ajani",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8ec39dd-8ba5-4a92-bfc8-4028a2c4691d.png?1562640117",
-        :type-line "Emblem — Ajani",
+        :collector-number "13",
+        :layout "emblem",
+        :name "Ajani Steadfast Emblem",
         :oracle-text
         "If a source would deal damage to you or a planeswalker you control, prevent all but 1 of that damage."}
- #:card{:code "tm15",
-        :collector-number "14",
-        :name "Garruk, Apex Predator Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Garruk",
+        :layout-category :normal,
+        :code "tm15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a6fa6ba-045a-43f8-8b04-579ffe24f927.png?1562639819",
-        :type-line "Emblem — Garruk",
+        :collector-number "14",
+        :layout "emblem",
+        :name "Garruk, Apex Predator Emblem",
         :oracle-text
         "Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn."})

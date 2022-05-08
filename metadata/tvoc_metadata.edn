@@ -1,54 +1,60 @@
-(#:card{:code "tvoc",
-        :collector-number "1",
-        :name "Spirit",
-        :layout "token",
+(#:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83497714-97ae-4846-8096-f7f1524f0e09.png?1641599803",
-        :type-line "Token Creature — Spirit",
-        :oracle-text ""}
- #:card{:code "tvoc",
-        :collector-number "2",
-        :name "Angel",
+        :collector-number "1",
         :layout "token",
+        :name "Spirit",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6dd9a8a-3b80-4c1c-9d44-7f998164dbcc.png?1641599832",
-        :type-line "Token Creature — Angel",
-        :oracle-text "Flying"}
- #:card{:code "tvoc",
-        :collector-number "3",
-        :name "Spirit",
+        :collector-number "2",
         :layout "token",
+        :name "Angel",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6e361f5-a662-495f-a8e5-e4a647833af5.png?1641599867",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tvoc",
-        :collector-number "4",
-        :name "Bat",
+        :collector-number "3",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Bat",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55368a15-e45b-4407-9c03-1b17bf84607a.png?1641599893",
-        :type-line "Token Creature — Bat",
-        :oracle-text "Flying"}
- #:card{:code "tvoc",
-        :collector-number "5",
-        :name "Clue",
+        :collector-number "4",
         :layout "token",
+        :name "Bat",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e69b3894-a78f-446b-9777-3c33731aa2ac.png?1641599918",
-        :type-line "Token Artifact — Clue",
-        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
- #:card{:code "tvoc",
-        :collector-number "6",
-        :name "Thopter",
+        :collector-number "5",
         :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "tvoc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca51da85-15ed-4f65-8ffa-8868ef779cd2.png?1641599947",
-        :type-line "Token Artifact Creature — Thopter",
+        :collector-number "6",
+        :layout "token",
+        :name "Thopter",
         :oracle-text "Flying"})

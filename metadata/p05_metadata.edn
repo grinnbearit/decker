@@ -1,60 +1,66 @@
-(#:card{:code "p05",
-        :collector-number "1",
-        :name "Psychatog",
-        :layout "normal",
+(#:card{:type-line "Creature — Atog",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d4d067fb-f3c9-4fe0-8330-da5e566eae9c.png?1561758146",
-        :type-line "Creature — Atog",
+        :collector-number "1",
+        :layout "normal",
+        :name "Psychatog",
         :oracle-text
         "Discard a card: Psychatog gets +1/+1 until end of turn.\nExile two cards from your graveyard: Psychatog gets +1/+1 until end of turn."}
- #:card{:code "p05",
-        :collector-number "2",
-        :name "Terror",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba9d4863-75f2-4894-8033-e4ffebe0547a.png?1561757930",
-        :type-line "Instant",
+        :collector-number "2",
+        :layout "normal",
+        :name "Terror",
         :oracle-text
         "Destroy target nonartifact, nonblack creature. It can't be regenerated."}
- #:card{:code "p05",
-        :collector-number "3",
-        :name "Fireball",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c11fcd9-abad-47c8-ae47-55750bc1c9de.png?1561757452",
-        :type-line "Sorcery",
+        :collector-number "3",
+        :layout "normal",
+        :name "Fireball",
         :oracle-text
         "This spell costs {1} more to cast for each target beyond the first.\nFireball deals X damage divided evenly, rounded down, among any number of targets."}
- #:card{:code "p05",
-        :collector-number "4",
-        :name "Oxidize",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/96837aad-424c-4d25-9ec1-b3121e6ac9a6.png?1561757624",
-        :type-line "Instant",
+        :collector-number "4",
+        :layout "normal",
+        :name "Oxidize",
         :oracle-text
         "Destroy target artifact. It can't be regenerated."}
- #:card{:code "p05",
-        :collector-number "5",
-        :name "Mana Leak",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/dea41eb7-5828-4735-bca1-0dbb0fda04e3.png?1561758236",
-        :type-line "Instant",
+        :collector-number "5",
+        :layout "normal",
+        :name "Mana Leak",
         :oracle-text
         "Counter target spell unless its controller pays {3}."}
- #:card{:code "p05",
-        :collector-number "6",
-        :name "Reciprocate",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "p05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f55274a-54f1-4ab2-90ae-8634073baf5f.png?1561756981",
-        :type-line "Instant",
+        :collector-number "6",
+        :layout "normal",
+        :name "Reciprocate",
         :oracle-text
         "Exile target creature that dealt damage to you this turn."})

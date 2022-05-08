@@ -1,19 +1,21 @@
-(#:card{:code "plg20",
-        :collector-number "1",
-        :name "Reliquary Tower",
-        :layout "normal",
+(#:card{:type-line "Land",
+        :layout-category :normal,
+        :code "plg20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d27b6a46-f9be-437a-a13c-ad8077ac0127.png?1596137323",
-        :type-line "Land",
-        :oracle-text "You have no maximum hand size.\n{T}: Add {C}."}
- #:card{:code "plg20",
-        :collector-number "2",
-        :name "Hangarback Walker",
+        :collector-number "1",
         :layout "normal",
+        :name "Reliquary Tower",
+        :oracle-text "You have no maximum hand size.\n{T}: Add {C}."}
+ #:card{:type-line "Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "plg20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/773916fd-060e-4abc-a060-e18768807571.png?1599769039",
-        :type-line "Artifact Creature — Construct",
+        :collector-number "2",
+        :layout "normal",
+        :name "Hangarback Walker",
         :oracle-text
         "Hangarback Walker enters the battlefield with X +1/+1 counters on it.\nWhen Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.\n{1}, {T}: Put a +1/+1 counter on Hangarback Walker."})

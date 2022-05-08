@@ -1,29 +1,32 @@
-(#:card{:code "tgn2",
-        :collector-number "1",
-        :name "Dragon",
-        :layout "token",
+(#:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tgn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/4068d6ea-7452-45bf-beb1-94f1a5ec9d39.png?1576266497",
-        :type-line "Token Creature — Dragon",
+        :collector-number "1",
+        :layout "token",
+        :name "Dragon",
         :oracle-text
         "Flying\n{R}: This creature gets +1/+0 until end of turn."}
- #:card{:code "tgn2",
-        :collector-number "2",
-        :name "Dragon",
-        :layout "token",
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tgn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ced2ab20-bdc8-4f37-90d4-81554588c336.png?1576266653",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tgn2",
-        :collector-number "3",
-        :name "Dinosaur",
+        :collector-number "2",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Dinosaur",
+        :layout-category :normal,
+        :code "tgn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/1/b1ade1a5-74bf-41cd-b3b4-3bf33cf6d016.png?1576266741",
-        :type-line "Token Creature — Dinosaur",
+        :collector-number "3",
+        :layout "token",
+        :name "Dinosaur",
         :oracle-text
         "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"})

@@ -1,39 +1,43 @@
-(#:card{:code "g05",
-        :collector-number "1",
-        :name "Gemstone Mine",
-        :layout "normal",
+(#:card{:type-line "Land",
+        :layout-category :normal,
+        :code "g05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b825eb24-751c-438a-a058-e08a17a30894.png?1561757907",
-        :type-line "Land",
+        :collector-number "1",
+        :layout "normal",
+        :name "Gemstone Mine",
         :oracle-text
         "Gemstone Mine enters the battlefield with three mining counters on it.\n{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color. If there are no mining counters on Gemstone Mine, sacrifice it."}
- #:card{:code "g05",
-        :collector-number "2",
-        :name "Regrowth",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "g05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/eea5640f-2f6e-485d-bd4c-4c4f9a29afc0.png?1561758385",
-        :type-line "Sorcery",
+        :collector-number "2",
+        :layout "normal",
+        :name "Regrowth",
         :oracle-text
         "Return target card from your graveyard to your hand."}
- #:card{:code "g05",
-        :collector-number "3",
-        :name "Sol Ring",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "g05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a5b855b-f391-4963-a3d9-47880e084a7f.png?1561756742",
-        :type-line "Artifact",
-        :oracle-text "{T}: Add {C}{C}."}
- #:card{:code "g05",
-        :collector-number "4",
-        :name "Mishra's Factory",
+        :collector-number "3",
         :layout "normal",
+        :name "Sol Ring",
+        :oracle-text "{T}: Add {C}{C}."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "g05",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/397d5e83-0634-4312-aa95-9f3cf928533c.png?1561756936",
-        :type-line "Land",
+        :collector-number "4",
+        :layout "normal",
+        :name "Mishra's Factory",
         :oracle-text
         "{T}: Add {C}.\n{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.\n{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."})

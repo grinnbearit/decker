@@ -1,37 +1,41 @@
-(#:card{:code "tmd1",
-        :collector-number "1",
-        :name "Soldier",
-        :layout "token",
+(#:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tmd1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/05e8f775-02bd-46dc-a618-07a9a127fa69.png?1561756597",
-        :type-line "Token Creature — Soldier",
-        :oracle-text ""}
- #:card{:code "tmd1",
-        :collector-number "2",
-        :name "Spirit",
+        :collector-number "1",
         :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tmd1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2e16c19f-ef44-4ebc-aa1d-f95646ae312b.png?1561756847",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tmd1",
-        :collector-number "3",
-        :name "Myr",
+        :collector-number "2",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact Creature — Myr",
+        :layout-category :normal,
+        :code "tmd1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/dfe197cf-6f36-424e-a544-cbe7a56f8a32.png?1561758258",
-        :type-line "Token Artifact Creature — Myr",
+        :collector-number "3",
+        :layout "token",
+        :name "Myr",
         :oracle-text ""}
- #:card{:code "tmd1",
-        :collector-number "4",
-        :name "Elspeth, Knight-Errant Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Elspeth",
+        :layout-category :normal,
+        :code "tmd1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/8360fc12-57c0-4701-8e19-0878ed5abb4f.png?1561757481",
-        :type-line "Emblem — Elspeth",
+        :collector-number "4",
+        :layout "emblem",
+        :name "Elspeth, Knight-Errant Emblem",
         :oracle-text
         "Artifacts, creatures, enchantments, and lands you control have indestructible."})

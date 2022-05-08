@@ -1,73 +1,81 @@
-(#:card{:code "tdtk",
-        :collector-number "1",
-        :name "Warrior",
-        :layout "token",
+(#:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/677a1d9d-86fd-49db-9573-8cd2cbc1a096.png?1561757326",
-        :type-line "Token Creature — Warrior",
-        :oracle-text ""}
- #:card{:code "tdtk",
-        :collector-number "2",
-        :name "Djinn Monk",
+        :collector-number "1",
         :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Djinn Monk",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f2e8077e-4400-4923-afe6-6ff5a51b5e91.png?1561758421",
-        :type-line "Token Creature — Djinn Monk",
-        :oracle-text "Flying"}
- #:card{:code "tdtk",
-        :collector-number "3",
-        :name "Zombie",
+        :collector-number "2",
         :layout "token",
+        :name "Djinn Monk",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4de662d-374d-4dd7-908f-bcde7bdc5ae9.png?1561758331",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tdtk",
-        :collector-number "4",
-        :name "Zombie Horror",
+        :collector-number "3",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/533c41ab-d9ee-4817-a982-41d4da6fa9ad.png?1561757143",
-        :type-line "Token Creature — Zombie Horror",
-        :oracle-text ""}
- #:card{:code "tdtk",
-        :collector-number "5",
-        :name "Dragon",
+        :collector-number "4",
         :layout "token",
+        :name "Zombie Horror",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/e/1ee0725f-8562-49c2-83fa-11a702e5c78d.png?1561756763",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tdtk",
-        :collector-number "6",
-        :name "Goblin",
+        :collector-number "5",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/5/e55d42ad-63b1-4468-8da0-c245db4d0ae3.png?1561758336",
-        :type-line "Token Creature — Goblin",
-        :oracle-text ""}
- #:card{:code "tdtk",
-        :collector-number "7",
-        :name "Morph",
+        :collector-number "6",
         :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Creature",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f29231c-dd21-4a45-a1f0-464d338128ed.png?1561757258",
-        :type-line "Creature",
+        :collector-number "7",
+        :layout "token",
+        :name "Morph",
         :oracle-text
         "(You can cover a face-down creature with this reminder card.\nA card with morph can be turned face up any time for its morph cost.)"}
- #:card{:code "tdtk",
-        :collector-number "8",
-        :name "Narset Transcendent Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Narset",
+        :layout-category :normal,
+        :code "tdtk",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a70dfe0-874c-473a-a26e-1f88a842df41.png?1561757075",
-        :type-line "Emblem — Narset",
+        :collector-number "8",
+        :layout "emblem",
+        :name "Narset Transcendent Emblem",
         :oracle-text "Your opponents can't cast noncreature spells."})

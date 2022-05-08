@@ -1,31 +1,34 @@
-(#:card{:code "pvow",
-        :collector-number "5p",
-        :name "By Invitation Only",
-        :layout "normal",
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/932aaab1-8f45-435b-8899-6d29c799128f.png?1646335658",
-        :type-line "Sorcery",
+        :collector-number "5p",
+        :layout "normal",
+        :name "By Invitation Only",
         :oracle-text
         "Choose a number between 0 and 13. Each player sacrifices that many creatures."}
- #:card{:code "pvow",
-        :collector-number "5s",
-        :name "By Invitation Only",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2479abd-8338-45e4-89a4-901305f2f6c4.png?1638535656",
-        :type-line "Sorcery",
+        :collector-number "5s",
+        :layout "normal",
+        :name "By Invitation Only",
         :oracle-text
         "Choose a number between 0 and 13. Each player sacrifices that many creatures."}
- #:card{:code "pvow",
-        :collector-number "6s",
-        :name "Cemetery Protector",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3358348-5f6a-4f6f-ac9c-9378cd71b782.png?1638535633",
-        :type-line "Creature — Human Soldier",
+        :collector-number "6s",
+        :layout "normal",
+        :name "Cemetery Protector",
         :oracle-text
         "Flash\nWhen Cemetery Protector enters the battlefield, exile a card from a graveyard.\nWhenever you play a land or cast a spell, if it shares a card type with the exiled card, create a 1/1 white Human creature token."}
  #:card{:code "pvow",
@@ -33,6 +36,7 @@
         :name "Faithbound Judge // Sinner's Judgment",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/e/9e4186ec-c0ce-475a-a812-8b56c7cd0bc8.png?1638535596",
@@ -44,24 +48,26 @@
           :type-line "Enchantment — Aura Curse",
           :oracle-text
           "Enchant player\nAt the beginning of your upkeep, put a judgment counter on Sinner's Judgment. Then if there are three or more judgment counters on it, enchanted player loses the game.\nIf Sinner's Judgment would be put into a graveyard from anywhere, exile it instead."}]}
- #:card{:code "pvow",
-        :collector-number "17s",
-        :name "Hallowed Haunting",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36134883-9f3a-4335-9b15-ecfd7494d3c6.png?1638535558",
-        :type-line "Enchantment",
+        :collector-number "17s",
+        :layout "normal",
+        :name "Hallowed Haunting",
         :oracle-text
         "As long as you control seven or more enchantments, creatures you control have flying and vigilance.\nWhenever you cast an enchantment spell, create a white Spirit Cleric creature token with \"This creature's power and toughness are each equal to the number of Spirits you control.\""}
- #:card{:code "pvow",
-        :collector-number "20s",
-        :name "Hopeful Initiate",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warlock",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/1/011f9ce7-2b11-4fdb-80ff-e01cc3173edb.png?1638535528",
-        :type-line "Creature — Human Warlock",
+        :collector-number "20s",
+        :layout "normal",
+        :name "Hopeful Initiate",
         :oracle-text
         "Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)\n{2}{W}, Remove two +1/+1 counters from among creatures you control: Destroy target artifact or enchantment."}
  #:card{:code "pvow",
@@ -69,6 +75,7 @@
         :name "Katilda, Dawnhart Martyr // Katilda's Rising Dawn",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae364690-4db5-4aa4-96dd-c3d12203229c.png?1638535481",
@@ -80,54 +87,59 @@
           :type-line "Legendary Enchantment — Aura",
           :oracle-text
           "Enchant creature\nEnchanted creature has flying, lifelink, and protection from Vampires, and it gets +X/+X, where X is the number of permanents you control that are Spirits and/or enchantments.\nIf Katilda's Rising Dawn would be put into a graveyard from anywhere, exile it instead."}]}
- #:card{:code "pvow",
-        :collector-number "23s",
-        :name "Lantern Flare",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80061b55-cd2d-4c84-8f45-a4d8c3b9d1f8.png?1638535454",
-        :type-line "Instant",
+        :collector-number "23s",
+        :layout "normal",
+        :name "Lantern Flare",
         :oracle-text
         "Cleave {X}{R}{W} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nLantern Flare deals X damage to target creature or planeswalker and you gain X life. [X is the number of creatures you control.]"}
- #:card{:code "pvow",
-        :collector-number "34s",
-        :name "Savior of Ollenbock",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22cfb604-5580-4db5-a29c-f846671dd469.png?1638535427",
-        :type-line "Creature — Human Soldier",
+        :collector-number "34s",
+        :layout "normal",
+        :name "Savior of Ollenbock",
         :oracle-text
         "Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)\nWhenever Savior of Ollenbock trains, exile up to one other target creature from the battlefield or creature card from a graveyard.\nWhen Savior of Ollenbock leaves the battlefield, put the exiled cards onto the battlefield under their owners' control."}
- #:card{:code "pvow",
-        :collector-number "36s",
-        :name "Sigarda's Summons",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d8677205-a3c4-4afb-8f42-7f20259fba7a.png?1638535400",
-        :type-line "Enchantment",
+        :collector-number "36s",
+        :layout "normal",
+        :name "Sigarda's Summons",
         :oracle-text
         "Creatures you control with +1/+1 counters on them have base power and toughness 4/4, have flying, and are Angels in addition to their other types."}
- #:card{:code "pvow",
-        :collector-number "38s",
-        :name "Thalia, Guardian of Thraben",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a79989bb-867e-40d4-ae79-c192b1e93a5e.png?1638535365",
-        :type-line "Legendary Creature — Human Soldier",
+        :collector-number "38s",
+        :layout "normal",
+        :name "Thalia, Guardian of Thraben",
         :oracle-text
         "First strike\nNoncreature spells cost {1} more to cast."}
- #:card{:code "pvow",
-        :collector-number "44s",
-        :name "Voice of the Blessed",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit Cleric",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/baeccf4a-887f-4294-aa06-4cb42b22c5ec.png?1638535316",
-        :type-line "Creature — Spirit Cleric",
+        :collector-number "44s",
+        :layout "normal",
+        :name "Voice of the Blessed",
         :oracle-text
         "Whenever you gain life, put a +1/+1 counter on Voice of the Blessed.\nAs long as Voice of the Blessed has four or more +1/+1 counters on it, it has flying and vigilance.\nAs long as Voice of the Blessed has ten or more +1/+1 counters on it, it has indestructible."}
  #:card{:code "pvow",
@@ -135,6 +147,7 @@
         :name "Wedding Announcement // Wedding Festivity",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/516b8c3a-675e-4dd4-a9b2-a9af4e5b7878.png?1638535260",
@@ -145,74 +158,81 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/5/1/516b8c3a-675e-4dd4-a9b2-a9af4e5b7878.png?1638535260",
           :type-line "Enchantment",
           :oracle-text "Creatures you control get +1/+1."}]}
- #:card{:code "pvow",
-        :collector-number "46s",
-        :name "Welcoming Vampire",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7561a0f-43ab-47f3-b0e9-ff3c4b6661bd.png?1638535231",
-        :type-line "Creature — Vampire",
+        :collector-number "46s",
+        :layout "normal",
+        :name "Welcoming Vampire",
         :oracle-text
         "Flying\nWhenever one or more other creatures with power 2 or less enter the battlefield under your control, draw a card. This ability triggers only once each turn."}
- #:card{:code "pvow",
-        :collector-number "50s",
-        :name "Cemetery Illuminator",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68422bca-d518-4801-9302-89ecaf0746b2.png?1638535201",
-        :type-line "Creature — Spirit",
+        :collector-number "50s",
+        :layout "normal",
+        :name "Cemetery Illuminator",
         :oracle-text
         "Flying\nWhenever Cemetery Illuminator enters the battlefield or attacks, exile a card from a graveyard.\nYou may look at the top card of your library any time.\nOnce each turn, you may cast a spell from the top of your library if it shares a card type with a card exiled with Cemetery Illuminator."}
- #:card{:code "pvow",
-        :collector-number "53s",
-        :name "Consuming Tide",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/075b98d8-9134-4c0d-807c-d26a77f49ead.png?1638535172",
-        :type-line "Sorcery",
+        :collector-number "53s",
+        :layout "normal",
+        :name "Consuming Tide",
         :oracle-text
         "Each player chooses a nonland permanent they control. Return all nonland permanents not chosen this way to their owners' hands. Then you draw a card for each opponent who has more cards in their hand than you."}
- #:card{:code "pvow",
-        :collector-number "58s",
-        :name "Dreamshackle Geist",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/37c01fb0-3659-4013-acd3-6ec1f907b59c.png?1638535143",
-        :type-line "Creature — Spirit",
+        :collector-number "58s",
+        :layout "normal",
+        :name "Dreamshackle Geist",
         :oracle-text
         "Flying\nAt the beginning of combat on your turn, choose up to one —\n• Tap target creature.\n• Target creature doesn't untap during its controller's next untap step."}
- #:card{:code "pvow",
-        :collector-number "61s",
-        :name "Geralf, Visionary Stitcher",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/32751a52-5473-4fb3-8356-da80aaf1f20e.png?1638535117",
-        :type-line "Legendary Creature — Human Wizard",
+        :collector-number "61s",
+        :layout "normal",
+        :name "Geralf, Visionary Stitcher",
         :oracle-text
         "Zombies you control have flying.\n{U}, {T}, Sacrifice another nontoken creature: Create an X/X blue Zombie creature token, where X is the sacrificed creature's toughness."}
- #:card{:code "pvow",
-        :collector-number "63s",
-        :name "Hullbreaker Horror",
-        :layout "normal",
+ #:card{:type-line "Creature — Kraken Horror",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7960697-7c1e-4131-821a-6d439a692edb.png?1638535090",
-        :type-line "Creature — Kraken Horror",
+        :collector-number "63s",
+        :layout "normal",
+        :name "Hullbreaker Horror",
         :oracle-text
         "Flash\nThis spell can't be countered.\nWhenever you cast a spell, choose up to one —\n• Return target spell you don't control to its owner's hand.\n• Return target nonland permanent to its owner's hand."}
- #:card{:code "pvow",
-        :collector-number "64s",
-        :name "Inspired Idea",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7dae24e3-b6b4-4c71-9500-ca9453c8b573.png?1638535051",
-        :type-line "Sorcery",
+        :collector-number "64s",
+        :layout "normal",
+        :name "Inspired Idea",
         :oracle-text
         "Cleave {3}{U}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDraw three cards. [Your maximum hand size is reduced by three for the rest of the game.]"}
  #:card{:code "pvow",
@@ -220,6 +240,7 @@
         :name "Jacob Hauken, Inspector // Hauken's Insight",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98933271-76a7-45a4-8015-e24d0a4409e1.png?1638535002",
@@ -236,6 +257,7 @@
         :name "Mirrorhall Mimic // Ghastly Mimicry",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/3449aba0-264e-4cdc-ba94-fbf38dc3029e.png?1638534945",
@@ -247,74 +269,81 @@
           :type-line "Enchantment — Aura",
           :oracle-text
           "Enchant creature\nAt the beginning of your upkeep, create a token that's a copy of enchanted creature, except it's a Spirit in addition to its other types.\nIf Ghastly Mimicry would be put into a graveyard from anywhere, exile it instead."}]}
- #:card{:code "pvow",
-        :collector-number "70s",
-        :name "Necroduality",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8fb5459-c09b-41e6-953d-e9d710a383b4.png?1638534915",
-        :type-line "Enchantment",
+        :collector-number "70s",
+        :layout "normal",
+        :name "Necroduality",
         :oracle-text
         "Whenever a nontoken Zombie enters the battlefield under your control, create a token that's a copy of that creature."}
- #:card{:code "pvow",
-        :collector-number "71s",
-        :name "Overcharged Amalgam",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fdad1ebd-1ee4-4fc7-87c2-35d441caae6d.png?1638534888",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "71s",
+        :layout "normal",
+        :name "Overcharged Amalgam",
         :oracle-text
         "Flash\nFlying\nExploit (When this creature enters the battlefield, you may sacrifice a creature.)\nWhen Overcharged Amalgam exploits a creature, counter target spell, activated ability, or triggered ability."}
- #:card{:code "pvow",
-        :collector-number "72s",
-        :name "Patchwork Crawler",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/17022b1f-5d1a-4306-8688-c3b01df8b4fc.png?1638534863",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "72s",
+        :layout "normal",
+        :name "Patchwork Crawler",
         :oracle-text
         "{2}{U}: Exile target creature card from your graveyard and put a +1/+1 counter on Patchwork Crawler.\nPatchwork Crawler has all activated abilities of all creature cards exiled with it."}
- #:card{:code "pvow",
-        :collector-number "89p",
-        :name "Winged Portent",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0f3dd96-0521-459b-8ee0-6dd8a6e1b4e4.png?1646335834",
-        :type-line "Instant",
+        :collector-number "89p",
+        :layout "normal",
+        :name "Winged Portent",
         :oracle-text
         "Cleave {4}{G}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDraw a card for each creature [with flying] you control."}
- #:card{:code "pvow",
-        :collector-number "89s",
-        :name "Winged Portent",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0173fe3-3fb9-4413-987b-a00938a35d01.png?1638534831",
-        :type-line "Instant",
+        :collector-number "89s",
+        :layout "normal",
+        :name "Winged Portent",
         :oracle-text
         "Cleave {4}{G}{U} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDraw a card for each creature [with flying] you control."}
- #:card{:code "pvow",
-        :collector-number "98s",
-        :name "Bloodvial Purveyor",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6834849-f315-4fb3-a30f-1499821123c6.png?1638534800",
-        :type-line "Creature — Vampire",
+        :collector-number "98s",
+        :layout "normal",
+        :name "Bloodvial Purveyor",
         :oracle-text
         "Flying, trample\nWhenever an opponent casts a spell, that player creates a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nWhenever Bloodvial Purveyor attacks, it gets +1/+0 until end of turn for each Blood token defending player controls."}
- #:card{:code "pvow",
-        :collector-number "100s",
-        :name "Cemetery Desecrator",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5eed1907-03ba-46c2-a4ef-4429bd2237bf.png?1638534775",
-        :type-line "Creature — Zombie",
+        :collector-number "100s",
+        :layout "normal",
+        :name "Cemetery Desecrator",
         :oracle-text
         "Menace\nWhen Cemetery Desecrator enters the battlefield or dies, exile another card from a graveyard. When you do, choose one —\n• Remove X counters from target permanent, where X is the mana value of the exiled card.\n• Target creature an opponent controls gets -X/-X until end of turn, where X is the mana value of the exiled card."}
  #:card{:code "pvow",
@@ -322,6 +351,7 @@
         :name "Concealing Curtains // Revealing Eye",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6a497d9c-c56c-427d-b5f5-7f0ac48a42f0.png?1638534708",
@@ -333,74 +363,81 @@
           :type-line "Creature — Eye Horror",
           :oracle-text
           "Menace\nWhen this creature transforms into Revealing Eye, target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card, then draws a card."}]}
- #:card{:code "pvow",
-        :collector-number "103s",
-        :name "Demonic Bargain",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/8/584f9e00-4442-4cf8-a968-d61c0082e4a0.png?1638534680",
-        :type-line "Sorcery",
+        :collector-number "103s",
+        :layout "normal",
+        :name "Demonic Bargain",
         :oracle-text
         "Exile the top thirteen cards of your library, then search your library for a card. Put that card into your hand, then shuffle."}
- #:card{:code "pvow",
-        :collector-number "108s",
-        :name "Dreadfeast Demon",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/12a24f93-def0-47e2-a430-b622689e2b9a.png?1638534651",
-        :type-line "Creature — Demon",
+        :collector-number "108s",
+        :layout "normal",
+        :name "Dreadfeast Demon",
         :oracle-text
         "Flying\nAt the beginning of your end step, sacrifice a non-Demon creature. If you do, create a token that's a copy of Dreadfeast Demon."}
- #:card{:code "pvow",
-        :collector-number "109s",
-        :name "Dying to Serve",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4dd92822-ad29-43cb-afb8-5d3c6623233a.png?1638534613",
-        :type-line "Enchantment",
+        :collector-number "109s",
+        :layout "normal",
+        :name "Dying to Serve",
         :oracle-text
         "Whenever you discard one or more cards, create a tapped 2/2 black Zombie creature token. This ability triggers only once each turn."}
- #:card{:code "pvow",
-        :collector-number "111s",
-        :name "Falkenrath Forebear",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae713604-bd07-4ebd-aecb-1fa6a06b7d7d.png?1638534587",
-        :type-line "Creature — Vampire",
+        :collector-number "111s",
+        :layout "normal",
+        :name "Falkenrath Forebear",
         :oracle-text
         "Flying\nFalkenrath Forebear can't block.\nWhenever Falkenrath Forebear deals combat damage to a player, create a Blood token.\n{B}, Sacrifice two Blood tokens: Return Falkenrath Forebear from your graveyard to the battlefield."}
- #:card{:code "pvow",
-        :collector-number "115s",
-        :name "Graf Reaver",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Warrior",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8f152d88-614e-4893-acf7-3255140c090a.png?1638534560",
-        :type-line "Creature — Zombie Warrior",
+        :collector-number "115s",
+        :layout "normal",
+        :name "Graf Reaver",
         :oracle-text
         "Exploit (When this creature enters the battlefield, you may sacrifice a creature.)\nWhen Graf Reaver exploits a creature, destroy target planeswalker.\nAt the beginning of your upkeep, Graf Reaver deals 1 damage to you."}
- #:card{:code "pvow",
-        :collector-number "118p",
-        :name "Headless Rider",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc4dad13-45c1-4b64-a713-a5c003b70afa.png?1646335708",
-        :type-line "Creature — Zombie",
+        :collector-number "118p",
+        :layout "normal",
+        :name "Headless Rider",
         :oracle-text
         "Whenever Headless Rider or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token."}
- #:card{:code "pvow",
-        :collector-number "118s",
-        :name "Headless Rider",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e9e9dcca-75d6-4852-9b05-eaa7426b636b.png?1638534533",
-        :type-line "Creature — Zombie",
+        :collector-number "118s",
+        :layout "normal",
+        :name "Headless Rider",
         :oracle-text
         "Whenever Headless Rider or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token."}
  #:card{:code "pvow",
@@ -408,6 +445,7 @@
         :name "Henrika Domnathi // Henrika, Infernal Seer",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/2/e2255b09-6967-4e8a-a3e2-a12e524938cb.png?1638534489",
@@ -419,34 +457,37 @@
           :type-line "Legendary Creature — Vampire",
           :oracle-text
           "Flying, deathtouch, lifelink\n{1}{B}{B}: Each creature you control with flying, deathtouch, and/or lifelink gets +1/+0 until end of turn."}]}
- #:card{:code "pvow",
-        :collector-number "124s",
-        :name "Path of Peril",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce491d30-10b2-4613-81d2-e99555366a13.png?1638534456",
-        :type-line "Sorcery",
+        :collector-number "124s",
+        :layout "normal",
+        :name "Path of Peril",
         :oracle-text
         "Cleave {4}{W}{B} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDestroy all creatures [with mana value 2 or less]."}
- #:card{:code "pvow",
-        :collector-number "131s",
-        :name "Sorin the Mirthless",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Sorin",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/793a86b6-f754-46a9-84aa-3010dd402d8a.png?1638534433",
-        :type-line "Legendary Planeswalker — Sorin",
+        :collector-number "131s",
+        :layout "normal",
+        :name "Sorin the Mirthless",
         :oracle-text
         "+1: Look at the top card of your library. You may reveal that card and put it into your hand. If you do, you lose life equal to its mana value.\n−2: Create a 2/3 black Vampire creature token with flying and lifelink.\n−7: Sorin the Mirthless deals 13 damage to any target. You gain 13 life."}
- #:card{:code "pvow",
-        :collector-number "132s",
-        :name "Toxrill, the Corrosive",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Slug Horror",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3da9e97-5a84-47b2-ad2b-3c8010b7792e.png?1638534404",
-        :type-line "Legendary Creature — Slug Horror",
+        :collector-number "132s",
+        :layout "normal",
+        :name "Toxrill, the Corrosive",
         :oracle-text
         "At the beginning of each end step, put a slime counter on each creature you don't control.\nCreatures you don't control get -1/-1 for each slime counter on them.\nWhenever a creature you don't control with a slime counter on it dies, create a 1/1 black Slug creature token.\n{U}{B}, Sacrifice a Slug: Draw a card."}
  #:card{:code "pvow",
@@ -454,6 +495,7 @@
         :name "Voldaren Bloodcaster // Bloodbat Summoner",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/9371077d-c6be-4b78-9557-d66b141791d6.png?1638534356",
@@ -465,84 +507,92 @@
           :type-line "Creature — Vampire Wizard",
           :oracle-text
           "Flying\nAt the beginning of combat on your turn, up to one target Blood token you control becomes a 2/2 black Bat creature with flying and haste in addition to its other types."}]}
- #:card{:code "pvow",
-        :collector-number "140s",
-        :name "Alchemist's Gambit",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/4004e6c0-6e87-4562-a499-ee000fea433b.png?1638534327",
-        :type-line "Sorcery",
+        :collector-number "140s",
+        :layout "normal",
+        :name "Alchemist's Gambit",
         :oracle-text
         "Cleave {4}{U}{U}{R} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nTake an extra turn after this one. During that turn, damage can't be prevented. [At the beginning of that turn's end step, you lose the game.]\nExile Alchemist's Gambit."}
- #:card{:code "pvow",
-        :collector-number "148s",
-        :name "Cemetery Gatekeeper",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/bef53c68-06f0-4e22-949e-0c2130d541b5.png?1638534299",
-        :type-line "Creature — Vampire",
+        :collector-number "148s",
+        :layout "normal",
+        :name "Cemetery Gatekeeper",
         :oracle-text
         "First strike\nWhen Cemetery Gatekeeper enters the battlefield, exile a card from a graveyard.\nWhenever a player plays a land or casts a spell, if it shares a card type with the exiled card, Cemetery Gatekeeper deals 2 damage to that player."}
- #:card{:code "pvow",
-        :collector-number "149s",
-        :name "Chandra, Dressed to Kill",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Chandra",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed1ace4e-3789-48a2-9a47-c0400389cff3.png?1638534272",
-        :type-line "Legendary Planeswalker — Chandra",
+        :collector-number "149s",
+        :layout "normal",
+        :name "Chandra, Dressed to Kill",
         :oracle-text
         "+1: Add {R}. Chandra, Dressed to Kill deals 1 damage to up to one target player or planeswalker.\n+1: Exile the top card of your library. If it's red, you may cast it this turn.\n−7: Exile the top five cards of your library. You may cast red spells from among them this turn. You get an emblem with \"Whenever you cast a red spell, this emblem deals X damage to any target, where X is the amount of mana spent to cast that spell.\""}
- #:card{:code "pvow",
-        :collector-number "150s",
-        :name "Change of Fortune",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed0d0736-cd0b-404c-94a0-a0628cc613ab.png?1638534241",
-        :type-line "Sorcery",
+        :collector-number "150s",
+        :layout "normal",
+        :name "Change of Fortune",
         :oracle-text
         "Discard your hand, then draw a card for each card you've discarded this turn."}
- #:card{:code "pvow",
-        :collector-number "151s",
-        :name "Creepy Puppeteer",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/976a7005-6d04-446f-9c1f-79aee5b50bc3.png?1638534212",
-        :type-line "Creature — Human Rogue",
+        :collector-number "151s",
+        :layout "normal",
+        :name "Creepy Puppeteer",
         :oracle-text
         "Haste\nWhenever Creepy Puppeteer attacks, if you attacked with exactly one other creature this combat, you may have that creature's base power and toughness become 4/3 until end of turn."}
- #:card{:code "pvow",
-        :collector-number "152s",
-        :name "Curse of Hospitality",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura Curse",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/8/789a2cbb-7b8d-4c53-a1cb-0602b17370b3.png?1638534185",
-        :type-line "Enchantment — Aura Curse",
+        :collector-number "152s",
+        :layout "normal",
+        :name "Curse of Hospitality",
         :oracle-text
         "Enchant player\nCreatures attacking enchanted player have trample.\nWhenever a creature deals combat damage to enchanted player, that player exiles the top card of their library. Until end of turn, that creature's controller may play that card and they may spend mana as though it were mana of any color to cast that spell."}
- #:card{:code "pvow",
-        :collector-number "154p",
-        :name "Dominating Vampire",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/809f817d-ac5e-427e-a972-69b1b5abb3bd.png?1646335683",
-        :type-line "Creature — Vampire",
+        :collector-number "154p",
+        :layout "normal",
+        :name "Dominating Vampire",
         :oracle-text
         "When Dominating Vampire enters the battlefield, gain control of target creature with mana value less than or equal to the number of Vampires you control until end of turn. Untap that creature. It gains haste until end of turn."}
- #:card{:code "pvow",
-        :collector-number "154s",
-        :name "Dominating Vampire",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/6172e49b-bdac-4111-9e77-04c3cfca6e8a.png?1638534156",
-        :type-line "Creature — Vampire",
+        :collector-number "154s",
+        :layout "normal",
+        :name "Dominating Vampire",
         :oracle-text
         "When Dominating Vampire enters the battlefield, gain control of target creature with mana value less than or equal to the number of Vampires you control until end of turn. Untap that creature. It gains haste until end of turn."}
  #:card{:code "pvow",
@@ -550,6 +600,7 @@
         :name "Ill-Tempered Loner // Howlpack Avenger",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/baa84f16-cf3a-4ec9-b220-6a7ed86c56de.png?1638534111",
@@ -561,54 +612,59 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Whenever a permanent you control is dealt damage, Howlpack Avenger deals that much damage to any target.\n{1}{R}: Howlpack Avenger gets +2/+0 until end of turn.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)"}]}
- #:card{:code "pvow",
-        :collector-number "165s",
-        :name "Kessig Wolfrider",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd5a414b-9af9-4a0e-a26c-4a5c51b8dac2.png?1638534080",
-        :type-line "Creature — Human Knight",
+        :collector-number "165s",
+        :layout "normal",
+        :name "Kessig Wolfrider",
         :oracle-text
         "Menace\n{2}{R}, {T}, Exile three cards from your graveyard: Create a 3/2 red Wolf creature token."}
- #:card{:code "pvow",
-        :collector-number "170p",
-        :name "Manaform Hellkite",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d74b693-ae6c-4352-82da-d21904cda126.png?1646335761",
-        :type-line "Creature — Dragon",
+        :collector-number "170p",
+        :layout "normal",
+        :name "Manaform Hellkite",
         :oracle-text
         "Flying\nWhenever you cast a noncreature spell, create an X/X red Dragon Illusion creature token with flying and haste, where X is the amount of mana spent to cast that spell. Exile that token at the beginning of the next end step."}
- #:card{:code "pvow",
-        :collector-number "170s",
-        :name "Manaform Hellkite",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/8586795e-0c3e-408b-b210-addd9b027af7.png?1638534054",
-        :type-line "Creature — Dragon",
+        :collector-number "170s",
+        :layout "normal",
+        :name "Manaform Hellkite",
         :oracle-text
         "Flying\nWhenever you cast a noncreature spell, create an X/X red Dragon Illusion creature token with flying and haste, where X is the amount of mana spent to cast that spell. Exile that token at the beginning of the next end step."}
- #:card{:code "pvow",
-        :collector-number "172s",
-        :name "Olivia's Attendants",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e9cabecd-d114-4352-a92e-b49070079c25.png?1638534022",
-        :type-line "Creature — Vampire",
+        :collector-number "172s",
+        :layout "normal",
+        :name "Olivia's Attendants",
         :oracle-text
         "Menace\nWhenever Olivia's Attendants deals damage, create that many Blood tokens. (They're artifacts with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\n{2}{R}: Olivia's Attendants deals 1 damage to any target."}
- #:card{:code "pvow",
-        :collector-number "178s",
-        :name "Stensia Uprising",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/04804537-6dd4-4a68-afe8-92d32e8c39d1.png?1638533983",
-        :type-line "Enchantment",
+        :collector-number "178s",
+        :layout "normal",
+        :name "Stensia Uprising",
         :oracle-text
         "At the beginning of your end step, create a 1/1 red Human creature token. Then if you control exactly thirteen permanents, you may sacrifice Stensia Uprising. When you do, it deals 7 damage to any target."}
  #:card{:code "pvow",
@@ -616,6 +672,7 @@
         :name "Volatile Arsonist // Dire-Strain Anarchist",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/8/4892964d-617a-4221-b258-da4bb08712b7.png?1638533929",
@@ -627,24 +684,26 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Menace, haste\nWhenever Dire-Strain Anarchist attacks, it deals 2 damage to each of up to one target creature, up to one target player, and/or up to one target planeswalker.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)"}]}
- #:card{:code "pvow",
-        :collector-number "186p",
-        :name "Ascendant Packleader",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85b46861-2458-471a-ae03-cfee1d4f49dc.png?1646335634",
-        :type-line "Creature — Wolf",
+        :collector-number "186p",
+        :layout "normal",
+        :name "Ascendant Packleader",
         :oracle-text
         "Ascendant Packleader enters the battlefield with a +1/+1 counter on it if you control a permanent with mana value 4 or greater.\nWhenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Ascendant Packleader."}
- #:card{:code "pvow",
-        :collector-number "186s",
-        :name "Ascendant Packleader",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cbb75573-3995-4abf-9b0b-8800d0d2bc9f.png?1638533899",
-        :type-line "Creature — Wolf",
+        :collector-number "186s",
+        :layout "normal",
+        :name "Ascendant Packleader",
         :oracle-text
         "Ascendant Packleader enters the battlefield with a +1/+1 counter on it if you control a permanent with mana value 4 or greater.\nWhenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on Ascendant Packleader."}
  #:card{:code "pvow",
@@ -652,6 +711,7 @@
         :name "Avabruck Caretaker // Hollowhenge Huntmaster",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a94462d-aff2-4fdc-b236-19cc770dee59.png?1638533851",
@@ -663,74 +723,81 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Hexproof\nOther permanents you control have hexproof.\nAt the beginning of combat on your turn, put two +1/+1 counters on each creature you control.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)"}]}
- #:card{:code "pvow",
-        :collector-number "191s",
-        :name "Cemetery Prowler",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee288344-e203-4df3-9f57-cce68e4cf37f.png?1638533816",
-        :type-line "Creature — Wolf",
+        :collector-number "191s",
+        :layout "normal",
+        :name "Cemetery Prowler",
         :oracle-text
         "Vigilance\nWhenever Cemetery Prowler enters the battlefield or attacks, exile a card from a graveyard.\nSpells you cast cost {1} less to cast for each card type they share with cards exiled with Cemetery Prowler."}
- #:card{:code "pvow",
-        :collector-number "195s",
-        :name "Cultivator Colossus",
-        :layout "normal",
+ #:card{:type-line "Creature — Plant Beast",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/2140e25e-c2b6-4626-b13c-edcaf04614c9.png?1638533790",
-        :type-line "Creature — Plant Beast",
+        :collector-number "195s",
+        :layout "normal",
+        :name "Cultivator Colossus",
         :oracle-text
         "Trample\nCultivator Colossus's power and toughness are each equal to the number of lands you control.\nWhen Cultivator Colossus enters the battlefield, you may put a land card from your hand onto the battlefield tapped. If you do, draw a card and repeat this process."}
- #:card{:code "pvow",
-        :collector-number "197s",
-        :name "Dig Up",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a88fa13-a235-4c70-acc9-c3aaf06b6717.png?1638533766",
-        :type-line "Sorcery",
+        :collector-number "197s",
+        :layout "normal",
+        :name "Dig Up",
         :oracle-text
         "Cleave {1}{B}{B}{G} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nSearch your library for a [basic land] card, [reveal it,] put it into your hand, then shuffle."}
- #:card{:code "pvow",
-        :collector-number "200s",
-        :name "Glorious Sunrise",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3eabfad0-e861-4eef-a293-f3e8bfbc53db.png?1638533737",
-        :type-line "Enchantment",
+        :collector-number "200s",
+        :layout "normal",
+        :name "Glorious Sunrise",
         :oracle-text
         "At the beginning of combat on your turn, choose one —\n• Creatures you control get +1/+1 and gain trample until end of turn.\n• Target land gains \"{T}: Add {G}{G}{G}\" until end of turn.\n• Draw a card if you control a creature with power 3 or greater.\n• You gain 3 life."}
- #:card{:code "pvow",
-        :collector-number "201s",
-        :name "Hamlet Vanguard",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4b73092-0b65-4f59-b171-e5649b75a125.png?1638533712",
-        :type-line "Creature — Human Warrior",
+        :collector-number "201s",
+        :layout "normal",
+        :name "Hamlet Vanguard",
         :oracle-text
         "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nHamlet Vanguard enters the battlefield with two +1/+1 counters on it for each other nontoken Human you control."}
- #:card{:code "pvow",
-        :collector-number "202s",
-        :name "Hiveheart Shaman",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a198da19-29de-4a66-a7cc-ed08d59b408a.png?1638533678",
-        :type-line "Creature — Human Shaman",
+        :collector-number "202s",
+        :layout "normal",
+        :name "Hiveheart Shaman",
         :oracle-text
         "Whenever Hiveheart Shaman attacks, you may search your library for a basic land card that doesn't share a land type with a land you control, put that card onto the battlefield, then shuffle.\n{5}{G}: Create a 1/1 green Insect creature token. Put X +1/+1 counters on it, where X is the number of basic land types among lands you control. Activate only as a sorcery."}
- #:card{:code "pvow",
-        :collector-number "204s",
-        :name "Howling Moon",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d17912d3-16d6-4a67-b375-5f06c718f4fc.png?1638533651",
-        :type-line "Enchantment",
+        :collector-number "204s",
+        :layout "normal",
+        :name "Howling Moon",
         :oracle-text
         "At the beginning of combat on your turn, target Wolf or Werewolf you control gets +2/+2 until end of turn.\nWhenever an opponent casts their second spell each turn, create a 2/2 green Wolf creature token."}
  #:card{:code "pvow",
@@ -738,6 +805,7 @@
         :name "Howlpack Piper // Wildsong Howler",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22b4f25d-d509-418a-a5d9-17e97f806676.png?1638533604",
@@ -749,14 +817,15 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Whenever this creature enters the battlefield or transforms into Wildsong Howler, look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)"}]}
- #:card{:code "pvow",
-        :collector-number "221s",
-        :name "Splendid Reclamation",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0e929479-cbbf-471c-a8d5-baeb2e887d72.png?1638533570",
-        :type-line "Sorcery",
+        :collector-number "221s",
+        :layout "normal",
+        :name "Splendid Reclamation",
         :oracle-text
         "Return all land cards from your graveyard to the battlefield tapped."}
  #:card{:code "pvow",
@@ -764,6 +833,7 @@
         :name "Ulvenwald Oddity // Ulvenwald Behemoth",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1c068cd5-6dcb-48d8-b796-31f5204db84a.png?1638533523",
@@ -775,14 +845,15 @@
           :type-line "Creature — Beast Horror",
           :oracle-text
           "Trample, haste\nOther creatures you control get +1/+1 and have trample and haste."}]}
- #:card{:code "pvow",
-        :collector-number "231s",
-        :name "Anje, Maid of Dishonor",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3b2b39d7-3e93-4f93-8d8d-1dd22f95c9f2.png?1638533488",
-        :type-line "Legendary Creature — Vampire",
+        :collector-number "231s",
+        :layout "normal",
+        :name "Anje, Maid of Dishonor",
         :oracle-text
         "Whenever Anje, Maid of Dishonor and/or one or more other Vampires enter the battlefield under your control, create a Blood token. This ability triggers only once each turn. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\n{2}, Sacrifice another creature or a Blood token: Each opponent loses 2 life and you gain 2 life."}
  #:card{:code "pvow",
@@ -790,6 +861,7 @@
         :name "Dorothea, Vengeful Victim // Dorothea's Retribution",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7ed96489-19b4-4b8e-92fc-3c99d0095854.png?1638533445",
@@ -806,6 +878,7 @@
         :name "Edgar, Charmed Groom // Edgar Markov's Coffin",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b83848f2-bb3f-49b3-8ebf-d8e787a14ae6.png?1638533396",
@@ -817,84 +890,92 @@
           :type-line "Legendary Artifact",
           :oracle-text
           "At the beginning of your upkeep, create a 1/1 white and black Vampire creature token with lifelink and put a bloodline counter on Edgar Markov's Coffin. Then if there are three or more bloodline counters on it, remove those counters and transform it."}]}
- #:card{:code "pvow",
-        :collector-number "237s",
-        :name "Eruth, Tormented Prophet",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5a8105d-1cdb-47f0-81d1-9a358882b834.png?1638533359",
-        :type-line "Legendary Creature — Human Wizard",
+        :collector-number "237s",
+        :layout "normal",
+        :name "Eruth, Tormented Prophet",
         :oracle-text
         "If you would draw a card, exile the top two cards of your library instead. You may play those cards this turn."}
- #:card{:code "pvow",
-        :collector-number "238s",
-        :name "Grolnok, the Omnivore",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Frog",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac6bae00-e965-4664-b3c7-d160949245a1.png?1638533323",
-        :type-line "Legendary Creature — Frog",
+        :collector-number "238s",
+        :layout "normal",
+        :name "Grolnok, the Omnivore",
         :oracle-text
         "Whenever a Frog you control attacks, mill three cards.\nWhenever a permanent card is put into your graveyard from your library, exile it with a croak counter on it.\nYou may play lands and cast spells from among cards you own in exile with croak counters on them."}
- #:card{:code "pvow",
-        :collector-number "239s",
-        :name "Halana and Alena, Partners",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Ranger",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/af7a15fc-429d-4289-8f4e-da74eb71609f.png?1638533299",
-        :type-line "Legendary Creature — Human Ranger",
+        :collector-number "239s",
+        :layout "normal",
+        :name "Halana and Alena, Partners",
         :oracle-text
         "First strike, reach\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is Halana and Alena's power. That creature gains haste until end of turn."}
- #:card{:code "pvow",
-        :collector-number "240s",
-        :name "Kaya, Geist Hunter",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Kaya",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b548475d-2337-44fd-9901-ddc974f66942.png?1638533266",
-        :type-line "Legendary Planeswalker — Kaya",
+        :collector-number "240s",
+        :layout "normal",
+        :name "Kaya, Geist Hunter",
         :oracle-text
         "+1: Creatures you control gain deathtouch until end of turn. Put a +1/+1 counter on up to one target creature token you control.\n−2: Until end of turn, if one or more tokens would be created under your control, twice that many of those tokens are created instead.\n−6: Exile all cards from all graveyards, then create a 1/1 white Spirit creature token with flying for each card exiled this way."}
- #:card{:code "pvow",
-        :collector-number "243s",
-        :name "Odric, Blood-Cursed",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Soldier",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63efb368-083f-4d98-9f81-e72487d97f07.png?1638533239",
-        :type-line "Legendary Creature — Vampire Soldier",
+        :collector-number "243s",
+        :layout "normal",
+        :name "Odric, Blood-Cursed",
         :oracle-text
         "When Odric, Blood-Cursed enters the battlefield, create X Blood tokens, where X is the number of abilities from among flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance found among creatures you control. (Count each ability only once.)"}
- #:card{:code "pvow",
-        :collector-number "244s",
-        :name "Old Rutstein",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Peasant",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/7964d954-0ab5-4290-9b55-c91e4a8c53da.png?1638533211",
-        :type-line "Legendary Creature — Human Peasant",
+        :collector-number "244s",
+        :layout "normal",
+        :name "Old Rutstein",
         :oracle-text
         "When Old Rutstein enters the battlefield or at the beginning of your upkeep, mill a card. If a land card is milled this way, create a Treasure token. If a creature card is milled this way, create a 1/1 green Insect creature token. If a noncreature, nonland card is milled this way, create a Blood token."}
- #:card{:code "pvow",
-        :collector-number "245p",
-        :name "Olivia, Crimson Bride",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/6/56cb291e-9b68-4934-8881-d8c4f5a27aa8.png?1646335787",
-        :type-line "Legendary Creature — Vampire Noble",
+        :collector-number "245p",
+        :layout "normal",
+        :name "Olivia, Crimson Bride",
         :oracle-text
         "Flying, haste\nWhenever Olivia, Crimson Bride attacks, return target creature card from your graveyard to the battlefield tapped and attacking. It gains \"When you don't control a legendary Vampire, exile this creature.\""}
- #:card{:code "pvow",
-        :collector-number "245s",
-        :name "Olivia, Crimson Bride",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a9cb538-bc86-4b2b-95c4-87ee61b18497.png?1638533182",
-        :type-line "Legendary Creature — Vampire Noble",
+        :collector-number "245s",
+        :layout "normal",
+        :name "Olivia, Crimson Bride",
         :oracle-text
         "Flying, haste\nWhenever Olivia, Crimson Bride attacks, return target creature card from your graveyard to the battlefield tapped and attacking. It gains \"When you don't control a legendary Vampire, exile this creature.\""}
  #:card{:code "pvow",
@@ -902,6 +983,7 @@
         :name "Runo Stromkirk // Krothuss, Lord of the Deep",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b509b70-6f8c-490b-be2a-3459f3e5e641.png?1638533137",
@@ -913,113 +995,124 @@
           :type-line "Legendary Creature — Kraken Horror",
           :oracle-text
           "Flying\nWhenever Krothuss, Lord of the Deep attacks, create a tapped and attacking token that's a copy of another target attacking creature. If that creature is a Kraken, Leviathan, Octopus, or Serpent, create two of those tokens instead."}]}
- #:card{:code "pvow",
-        :collector-number "249s",
-        :name "Torens, Fist of the Angels",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Cleric",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f7c2bba-2f69-48c4-9a3d-bf5d623be447.png?1638533098",
-        :type-line "Legendary Creature — Human Cleric",
+        :collector-number "249s",
+        :layout "normal",
+        :name "Torens, Fist of the Angels",
         :oracle-text
         "Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)\nWhenever you cast a creature spell, create a 1/1 green and white Human Soldier creature token with training."}
- #:card{:code "pvow",
-        :collector-number "255s",
-        :name "Dollhouse of Horrors",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/672be217-7a2d-4e88-92ed-c02f9454e3cf.png?1638533071",
-        :type-line "Artifact",
+        :collector-number "255s",
+        :layout "normal",
+        :name "Dollhouse of Horrors",
         :oracle-text
         "{1}, {T}, Exile a creature card from your graveyard: Create a token that's a copy of the exiled card, except it's a 0/0 Construct artifact in addition to its other types and it has \"This creature gets +1/+1 for each Construct you control.\" It gains haste until end of turn. Activate only as a sorcery."}
- #:card{:code "pvow",
-        :collector-number "258p",
-        :name "Investigator's Journal",
-        :layout "normal",
+ #:card{:type-line "Artifact — Clue",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8aed74f5-ff08-4a79-ba13-0eda973b6956.png?1646335736",
-        :type-line "Artifact — Clue",
+        :collector-number "258p",
+        :layout "normal",
+        :name "Investigator's Journal",
         :oracle-text
         "Investigator's Journal enters the battlefield with a number of suspect counters on it equal to the greatest number of creatures a player controls.\n{2}, {T}, Remove a suspect counter from Investigator's Journal: Draw a card.\n{2}, Sacrifice Investigator's Journal: Draw a card."}
- #:card{:code "pvow",
-        :collector-number "258s",
-        :name "Investigator's Journal",
-        :layout "normal",
+ #:card{:type-line "Artifact — Clue",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55875793-543f-44fd-9de8-9bd160c1fdc6.png?1638533036",
-        :type-line "Artifact — Clue",
+        :collector-number "258s",
+        :layout "normal",
+        :name "Investigator's Journal",
         :oracle-text
         "Investigator's Journal enters the battlefield with a number of suspect counters on it equal to the greatest number of creatures a player controls.\n{2}, {T}, Remove a suspect counter from Investigator's Journal: Draw a card.\n{2}, Sacrifice Investigator's Journal: Draw a card."}
- #:card{:code "pvow",
-        :collector-number "261s",
-        :name "Deathcap Glade",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d57d9c0-b1bd-476e-835c-cf1bd7abd09c.png?1638533007",
-        :type-line "Land",
+        :collector-number "261s",
+        :layout "normal",
+        :name "Deathcap Glade",
         :oracle-text
         "Deathcap Glade enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {B} or {G}."}
- #:card{:code "pvow",
-        :collector-number "262s",
-        :name "Dreamroot Cascade",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/0/50cfb859-f381-4f68-8314-48401eea9569.png?1638532978",
-        :type-line "Land",
+        :collector-number "262s",
+        :layout "normal",
+        :name "Dreamroot Cascade",
         :oracle-text
         "Dreamroot Cascade enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {G} or {U}."}
- #:card{:code "pvow",
-        :collector-number "264s",
-        :name "Shattered Sanctum",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7ec32691-7442-494a-a01c-371cc9b35800.png?1638532951",
-        :type-line "Land",
+        :collector-number "264s",
+        :layout "normal",
+        :name "Shattered Sanctum",
         :oracle-text
         "Shattered Sanctum enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {W} or {B}."}
- #:card{:code "pvow",
-        :collector-number "265s",
-        :name "Stormcarved Coast",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a1993de4-29b2-4312-996d-a5e4a7286509.png?1638532925",
-        :type-line "Land",
+        :collector-number "265s",
+        :layout "normal",
+        :name "Stormcarved Coast",
         :oracle-text
         "Stormcarved Coast enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {U} or {R}."}
- #:card{:code "pvow",
-        :collector-number "266s",
-        :name "Sundown Pass",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db28c091-dab4-4eed-b532-ef8b8bbd6d4a.png?1638532897",
-        :type-line "Land",
+        :collector-number "266s",
+        :layout "normal",
+        :name "Sundown Pass",
         :oracle-text
         "Sundown Pass enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {R} or {W}."}
- #:card{:code "pvow",
-        :collector-number "267p",
-        :name "Voldaren Estate",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e44ea3bb-5dc7-4ec8-b610-239e17bc3c42.png?1646335808",
-        :type-line "Land",
+        :collector-number "267p",
+        :layout "normal",
+        :name "Voldaren Estate",
         :oracle-text
         "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a Vampire spell.\n{5}, {T}: Create a Blood token. This ability costs {1} less to activate for each Vampire you control. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "pvow",
-        :collector-number "267s",
-        :name "Voldaren Estate",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pvow",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1b4d6d96-27e8-4064-8016-533a89c8b8d5.png?1638532869",
-        :type-line "Land",
+        :collector-number "267s",
+        :layout "normal",
+        :name "Voldaren Estate",
         :oracle-text
         "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a Vampire spell.\n{5}, {T}: Create a Blood token. This ability costs {1} less to activate for each Vampire you control. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"})

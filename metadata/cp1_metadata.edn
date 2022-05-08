@@ -1,60 +1,66 @@
-(#:card{:code "cp1",
-        :collector-number "1",
-        :name "Prognostic Sphinx",
-        :layout "normal",
+(#:card{:type-line "Creature — Sphinx",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f5f16cb5-39f7-43d8-8831-b83d6828c888.png?1561758441",
-        :type-line "Creature — Sphinx",
+        :collector-number "1",
+        :layout "normal",
+        :name "Prognostic Sphinx",
         :oracle-text
         "Flying\nDiscard a card: Prognostic Sphinx gains hexproof until end of turn. Tap it.\nWhenever Prognostic Sphinx attacks, scry 3."}
- #:card{:code "cp1",
-        :collector-number "2",
-        :name "Fated Intervention",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/1129b8cb-6381-4d17-9e45-a61f9558d312.png?1561756673",
-        :type-line "Instant",
+        :collector-number "2",
+        :layout "normal",
+        :name "Fated Intervention",
         :oracle-text
         "Create two 3/3 green Centaur enchantment creature tokens. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"}
- #:card{:code "cp1",
-        :collector-number "3",
-        :name "Font of Fertility",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/198b8eb7-2e68-49a7-8023-76bdfb788d18.png?1561756733",
-        :type-line "Enchantment",
+        :collector-number "3",
+        :layout "normal",
+        :name "Font of Fertility",
         :oracle-text
         "{1}{G}, Sacrifice Font of Fertility: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
- #:card{:code "cp1",
-        :collector-number "4",
-        :name "Hydra Broodmaster",
-        :layout "normal",
+ #:card{:type-line "Creature — Hydra",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0c9a2c4-e30a-480f-946f-bd9ec4751b99.png?1561757719",
-        :type-line "Creature — Hydra",
+        :collector-number "4",
+        :layout "normal",
+        :name "Hydra Broodmaster",
         :oracle-text
         "{X}{X}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)\nWhen Hydra Broodmaster becomes monstrous, create X X/X green Hydra creature tokens."}
- #:card{:code "cp1",
-        :collector-number "5",
-        :name "Prophet of Kruphix",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1b33df4a-151a-43ab-a72c-e163d8cadf12.png?1561756753",
-        :type-line "Creature — Human Wizard",
+        :collector-number "5",
+        :layout "normal",
+        :name "Prophet of Kruphix",
         :oracle-text
         "Untap all creatures and lands you control during each other player's untap step.\nYou may cast creature spells as though they had flash."}
- #:card{:code "cp1",
-        :collector-number "6",
-        :name "Temple of Mystery",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "cp1",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/13cfd603-5716-4992-93ab-f8c30e17d812.png?1561756684",
-        :type-line "Land",
+        :collector-number "6",
+        :layout "normal",
+        :name "Temple of Mystery",
         :oracle-text
         "Temple of Mystery enters the battlefield tapped.\nWhen Temple of Mystery enters the battlefield, scry 1.\n{T}: Add {G} or {U}."})

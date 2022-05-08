@@ -1,100 +1,111 @@
-(#:card{:code "tc17",
-        :collector-number "1",
-        :name "Cat",
-        :layout "token",
+(#:card{:type-line "Token Creature — Cat",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d3f2fd62-5430-449b-ac1b-14867d2bb326.png?1562636913",
-        :type-line "Token Creature — Cat",
-        :oracle-text ""}
- #:card{:code "tc17",
-        :collector-number "2",
-        :name "Bat",
+        :collector-number "1",
         :layout "token",
+        :name "Cat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Bat",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/020c88d9-d058-4290-b0d7-b91754f91a22.png?1562636716",
-        :type-line "Token Creature — Bat",
-        :oracle-text "Flying"}
- #:card{:code "tc17",
-        :collector-number "3",
-        :name "Rat",
+        :collector-number "2",
         :layout "token",
+        :name "Bat",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Rat",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/1/c1788d4c-31b8-4f73-8275-5470316e7ad4.png?1562636884",
-        :type-line "Token Creature — Rat",
-        :oracle-text "Deathtouch"}
- #:card{:code "tc17",
-        :collector-number "4",
-        :name "Vampire",
+        :collector-number "3",
         :layout "token",
+        :name "Rat",
+        :oracle-text "Deathtouch"}
+ #:card{:type-line "Token Creature — Vampire",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5d328599-b5c8-4cf7-9d62-fe8492e02f48.png?1562636803",
-        :type-line "Token Creature — Vampire",
-        :oracle-text ""}
- #:card{:code "tc17",
-        :collector-number "5",
-        :name "Zombie",
+        :collector-number "4",
         :layout "token",
+        :name "Vampire",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2bd70ba-91a6-4944-92a1-89d561355c25.png?1562636907",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tc17",
-        :collector-number "6",
-        :name "Dragon",
+        :collector-number "5",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb928e3f-b15e-4f76-8909-0ceebe45a8ea.png?1562636896",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tc17",
-        :collector-number "7",
-        :name "Dragon",
+        :collector-number "6",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c66280f-287b-4294-9984-32484de2568a.png?1562636824",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tc17",
-        :collector-number "8",
-        :name "Cat Warrior",
+        :collector-number "7",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Cat Warrior",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29c4e4f2-0040-4490-b357-660d729ad9cc.png?1562636772",
-        :type-line "Token Creature — Cat Warrior",
-        :oracle-text "Forestwalk"}
- #:card{:code "tc17",
-        :collector-number "9",
-        :name "Cat Dragon",
+        :collector-number "8",
         :layout "token",
+        :name "Cat Warrior",
+        :oracle-text "Forestwalk"}
+ #:card{:type-line "Token Creature — Cat Dragon",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/748d267d-9c81-4dc0-92b7-eafb7691c6cc.png?1562636817",
-        :type-line "Token Creature — Cat Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tc17",
-        :collector-number "10",
-        :name "Gold",
+        :collector-number "9",
         :layout "token",
+        :name "Cat Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact — Gold",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b180a33-65ef-43b3-b969-f603b1fc23fb.png?1562636857",
-        :type-line "Token Artifact — Gold",
+        :collector-number "10",
+        :layout "token",
+        :name "Gold",
         :oracle-text
         "Sacrifice this artifact: Add one mana of any color."}
- #:card{:code "tc17",
-        :collector-number "11",
-        :name "Eldrazi Spawn",
-        :layout "token",
+ #:card{:type-line "Token Creature — Eldrazi Spawn",
+        :layout-category :normal,
+        :code "tc17",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1feaa879-ceb3-4b20-8021-ae41d8be9005.png?1562636755",
-        :type-line "Token Creature — Eldrazi Spawn",
+        :collector-number "11",
+        :layout "token",
+        :name "Eldrazi Spawn",
         :oracle-text "Sacrifice this creature: Add {C}."})

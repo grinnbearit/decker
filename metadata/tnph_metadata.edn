@@ -1,46 +1,51 @@
-(#:card{:code "tnph",
-        :collector-number "1",
-        :name "Beast",
-        :layout "token",
+(#:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tnph",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b226475-c85c-4b78-9d6a-70cc9545bc31.png?1561757442",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tnph",
-        :collector-number "2",
-        :name "Goblin",
+        :collector-number "1",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tnph",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/feeae905-e456-4598-b3de-b339397983bf.png?1561758501",
-        :type-line "Token Creature — Goblin",
-        :oracle-text ""}
- #:card{:code "tnph",
-        :collector-number "3",
-        :name "Golem",
+        :collector-number "2",
         :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Golem",
+        :layout-category :normal,
+        :code "tnph",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe9e8d3b-ebc0-448b-bd14-a9f418e196e7.png?1561758492",
-        :type-line "Token Artifact Creature — Golem",
-        :oracle-text ""}
- #:card{:code "tnph",
-        :collector-number "4",
-        :name "Myr",
+        :collector-number "3",
         :layout "token",
+        :name "Golem",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Myr",
+        :layout-category :normal,
+        :code "tnph",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c087beb-99c0-403e-bb44-33cfc549a831.png?1561757228",
-        :type-line "Token Artifact Creature — Myr",
+        :collector-number "4",
+        :layout "token",
+        :name "Myr",
         :oracle-text ""}
- #:card{:code "tnph",
-        :collector-number "5",
-        :name "Poison Counter",
-        :layout "normal",
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tnph",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/470618f6-f67f-44c6-a086-285632508915.png?1561757039",
-        :type-line "Card",
+        :collector-number "5",
+        :layout "normal",
+        :name "Poison Counter",
         :oracle-text
         "(A player with ten or more poison counters loses the game.)"})

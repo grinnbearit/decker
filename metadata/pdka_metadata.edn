@@ -1,11 +1,12 @@
-(#:card{:code "pdka",
-        :collector-number "*64",
-        :name "Gravecrawler",
-        :layout "normal",
+(#:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pdka",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33df275d-bdad-4e4b-9f92-ec2bf98fcba7.png?1561756891",
-        :type-line "Creature — Zombie",
+        :collector-number "*64",
+        :layout "normal",
+        :name "Gravecrawler",
         :oracle-text
         "Gravecrawler can't block.\nYou may cast Gravecrawler from your graveyard as long as you control a Zombie."}
  #:card{:code "pdka",
@@ -13,6 +14,7 @@
         :name "Ravenous Demon // Archdemon of Greed",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/abbbb466-31ef-42dd-9993-124f7ec3d8ae.png?1605370823",
@@ -24,14 +26,15 @@
           :type-line "Creature — Demon",
           :oracle-text
           "Flying, trample\nAt the beginning of your upkeep, sacrifice a Human. If you can't, tap Archdemon of Greed and it deals 9 damage to you."}]}
- #:card{:code "pdka",
-        :collector-number "80",
-        :name "Zombie Apocalypse",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdka",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/756119c5-f10e-431b-9f8b-5da5850a72fd.png?1561757418",
-        :type-line "Sorcery",
+        :collector-number "80",
+        :layout "normal",
+        :name "Zombie Apocalypse",
         :oracle-text
         "Return all Zombie creature cards from your graveyard to the battlefield tapped, then destroy all Humans."}
  #:card{:code "pdka",
@@ -39,6 +42,7 @@
         :name "Mondronen Shaman // Tovolar's Magehunter",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98fc475a-809d-4278-be03-86eab62b46ce.png?1605371311",
@@ -50,13 +54,14 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Whenever an opponent casts a spell, Tovolar's Magehunter deals 2 damage to that player.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Tovolar's Magehunter."}]}
- #:card{:code "pdka",
-        :collector-number "127",
-        :name "Strangleroot Geist",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "pdka",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c840aa15-6d54-41ee-b2e3-c049785ae10d.png?1561758049",
-        :type-line "Creature — Spirit",
+        :collector-number "127",
+        :layout "normal",
+        :name "Strangleroot Geist",
         :oracle-text
         "Haste\nUndying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)"})

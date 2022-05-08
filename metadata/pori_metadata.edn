@@ -1,41 +1,45 @@
-(#:card{:code "pori",
-        :collector-number "14s",
-        :name "Gideon's Phalanx",
-        :layout "normal",
+(#:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d223b9f-f3fb-46cf-93e7-ddd21124f086.png?1562915274",
-        :type-line "Instant",
+        :collector-number "14s",
+        :layout "normal",
+        :name "Gideon's Phalanx",
         :oracle-text
         "Create four 2/2 white Knight creature tokens with vigilance.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, creatures you control gain indestructible until end of turn."}
- #:card{:code "pori",
-        :collector-number "19",
-        :name "Hixus, Prison Warden",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98599d53-35f6-489f-8bce-9525615bcb20.png?1562923274",
-        :type-line "Legendary Creature — Human Soldier",
+        :collector-number "19",
+        :layout "normal",
+        :name "Hixus, Prison Warden",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nWhenever a creature deals combat damage to you, if Hixus, Prison Warden entered the battlefield this turn, exile that creature until Hixus leaves the battlefield. (That creature returns under its owner's control.)"}
- #:card{:code "pori",
-        :collector-number "19s",
-        :name "Hixus, Prison Warden",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/d/1d685282-abeb-4697-9e8b-fa5dc7d139d5.png?1562900487",
-        :type-line "Legendary Creature — Human Soldier",
+        :collector-number "19s",
+        :layout "normal",
+        :name "Hixus, Prison Warden",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nWhenever a creature deals combat damage to you, if Hixus, Prison Warden entered the battlefield this turn, exile that creature until Hixus leaves the battlefield. (That creature returns under its owner's control.)"}
- #:card{:code "pori",
-        :collector-number "21s",
-        :name "Knight of the White Orchid",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74b3616d-4088-49fc-acfe-07a148eef388.png?1562916632",
-        :type-line "Creature — Human Knight",
+        :collector-number "21s",
+        :layout "normal",
+        :name "Knight of the White Orchid",
         :oracle-text
         "First strike\nWhen Knight of the White Orchid enters the battlefield, if an opponent controls more lands than you, you may search your library for a Plains card, put it onto the battlefield, then shuffle."}
  #:card{:code "pori",
@@ -43,6 +47,7 @@
         :name "Kytheon, Hero of Akros // Gideon, Battle-Forged",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c52157c-aafa-4d6d-8d2d-3a471e6ee10c.png?1562906092",
@@ -54,84 +59,92 @@
           :type-line "Legendary Planeswalker — Gideon",
           :oracle-text
           "+2: Up to one target creature an opponent controls attacks Gideon, Battle-Forged during its controller's next turn if able.\n+1: Until your next turn, target creature gains indestructible. Untap that creature.\n0: Until end of turn, Gideon, Battle-Forged becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn."}]}
- #:card{:code "pori",
-        :collector-number "24s",
-        :name "Kytheon's Irregulars",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1c9d2dd8-cdcf-4a89-ac5d-b00c13ce94ff.png?1562900308",
-        :type-line "Creature — Human Soldier",
+        :collector-number "24s",
+        :layout "normal",
+        :name "Kytheon's Irregulars",
         :oracle-text
         "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\n{W}{W}: Tap target creature."}
- #:card{:code "pori",
-        :collector-number "29",
-        :name "Relic Seeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da218c9a-e9a9-4911-9561-623c77afbb74.png?1562935739",
-        :type-line "Creature — Human Soldier",
+        :collector-number "29",
+        :layout "normal",
+        :name "Relic Seeker",
         :oracle-text
         "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Relic Seeker becomes renowned, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "pori",
-        :collector-number "29s",
-        :name "Relic Seeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de02cea5-0304-4838-866a-e792ef548031.png?1562936423",
-        :type-line "Creature — Human Soldier",
+        :collector-number "29s",
+        :layout "normal",
+        :name "Relic Seeker",
         :oracle-text
         "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Relic Seeker becomes renowned, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "pori",
-        :collector-number "38s",
-        :name "Tragic Arrogance",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de44f156-ee4d-48e0-88ac-02a45257bcf3.png?1562936476",
-        :type-line "Sorcery",
+        :collector-number "38s",
+        :layout "normal",
+        :name "Tragic Arrogance",
         :oracle-text
         "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents they control."}
- #:card{:code "pori",
-        :collector-number "40s",
-        :name "Vryn Wingmare",
-        :layout "normal",
+ #:card{:type-line "Creature — Pegasus",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a2f674c-6d7e-470b-9b4f-d37ce4c038d3.png?1562896958",
-        :type-line "Creature — Pegasus",
+        :collector-number "40s",
+        :layout "normal",
+        :name "Vryn Wingmare",
         :oracle-text
         "Flying\nNoncreature spells cost {1} more to cast."}
- #:card{:code "pori",
-        :collector-number "43",
-        :name "Alhammarret, High Arbiter",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Sphinx",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/028ed496-6472-490b-8b1d-fe3c667fb7ba.png?1562895471",
-        :type-line "Legendary Creature — Sphinx",
+        :collector-number "43",
+        :layout "normal",
+        :name "Alhammarret, High Arbiter",
         :oracle-text
         "Flying\nAs Alhammarret, High Arbiter enters the battlefield, each opponent reveals their hand. You choose the name of a nonland card revealed this way.\nYour opponents can't cast spells with the chosen name (as long as this creature is on the battlefield)."}
- #:card{:code "pori",
-        :collector-number "43s",
-        :name "Alhammarret, High Arbiter",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Sphinx",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/9120b615-dc31-4623-9cbd-d4cb99ae9f6f.png?1562921942",
-        :type-line "Legendary Creature — Sphinx",
+        :collector-number "43s",
+        :layout "normal",
+        :name "Alhammarret, High Arbiter",
         :oracle-text
         "Flying\nAs Alhammarret, High Arbiter enters the battlefield, each opponent reveals their hand. You choose the name of a nonland card revealed this way.\nYour opponents can't cast spells with the chosen name (as long as this creature is on the battlefield)."}
- #:card{:code "pori",
-        :collector-number "58s",
-        :name "Harbinger of the Tides",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52485cdb-4498-4091-ad6e-d912471f146e.png?1562910097",
-        :type-line "Creature — Merfolk Wizard",
+        :collector-number "58s",
+        :layout "normal",
+        :name "Harbinger of the Tides",
         :oracle-text
         "You may cast Harbinger of the Tides as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)\nWhen Harbinger of the Tides enters the battlefield, you may return target tapped creature an opponent controls to its owner's hand."}
  #:card{:code "pori",
@@ -139,6 +152,7 @@
         :name "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a893bffb-1ced-49be-96a6-2ecfb98b60fb.png?1562926468",
@@ -150,163 +164,179 @@
           :type-line "Legendary Planeswalker — Jace",
           :oracle-text
           "+1: Up to one target creature gets -2/-0 until your next turn.\n−3: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead.\n−9: You get an emblem with \"Whenever you cast a spell, target opponent mills five cards.\""}]}
- #:card{:code "pori",
-        :collector-number "61p",
-        :name "Jace's Sanctum",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/8930a602-3a1f-48a9-b083-feeb433f2761.png?1593609435",
-        :type-line "Enchantment",
+        :collector-number "61p",
+        :layout "normal",
+        :name "Jace's Sanctum",
         :oracle-text
         "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever you cast an instant or sorcery spell, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
- #:card{:code "pori",
-        :collector-number "64",
-        :name "Mizzium Meddler",
-        :layout "normal",
+ #:card{:type-line "Creature — Vedalken Wizard",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/9/e999c5cc-2999-4ae4-8cdb-b475f0a990ec.png?1562938705",
-        :type-line "Creature — Vedalken Wizard",
+        :collector-number "64",
+        :layout "normal",
+        :name "Mizzium Meddler",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nWhen Mizzium Meddler enters the battlefield, you may change a target of target spell or ability to Mizzium Meddler."}
- #:card{:code "pori",
-        :collector-number "64s",
-        :name "Mizzium Meddler",
-        :layout "normal",
+ #:card{:type-line "Creature — Vedalken Wizard",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/19ffd1c3-4b58-43a3-90d1-6f46c062769b.png?1562899855",
-        :type-line "Creature — Vedalken Wizard",
+        :collector-number "64s",
+        :layout "normal",
+        :name "Mizzium Meddler",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nWhen Mizzium Meddler enters the battlefield, you may change a target of target spell or ability to Mizzium Meddler."}
- #:card{:code "pori",
-        :collector-number "75s",
-        :name "Soulblade Djinn",
-        :layout "normal",
+ #:card{:type-line "Creature — Djinn",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d07bc465-ef74-471f-9b33-12479ae12d3c.png?1562933996",
-        :type-line "Creature — Djinn",
+        :collector-number "75s",
+        :layout "normal",
+        :name "Soulblade Djinn",
         :oracle-text
         "Flying\nWhenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn."}
- #:card{:code "pori",
-        :collector-number "78s",
-        :name "Talent of the Telepath",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed076b23-c5e1-4933-8d53-fb2e87c38583.png?1562939463",
-        :type-line "Sorcery",
+        :collector-number "78s",
+        :layout "normal",
+        :name "Talent of the Telepath",
         :oracle-text
         "Target opponent reveals the top seven cards of their library. You may cast an instant or sorcery spell from among them without paying its mana cost. Then that player puts the rest into their graveyard.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may cast up to two instant and/or sorcery spells from among the revealed cards instead of one."}
- #:card{:code "pori",
-        :collector-number "79s",
-        :name "Thopter Spy Network",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/924d52cf-4ad8-43aa-ab4e-0e18838219a4.png?1562922137",
-        :type-line "Enchantment",
+        :collector-number "79s",
+        :layout "normal",
+        :name "Thopter Spy Network",
         :oracle-text
         "At the beginning of your upkeep, if you control an artifact, create a 1/1 colorless Thopter artifact creature token with flying.\nWhenever one or more artifact creatures you control deal combat damage to a player, draw a card."}
- #:card{:code "pori",
-        :collector-number "84s",
-        :name "Willbreaker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7d68fee8-173f-43b5-92a3-37ecbc8b62df.png?1562918173",
-        :type-line "Creature — Human Wizard",
+        :collector-number "84s",
+        :layout "normal",
+        :name "Willbreaker",
         :oracle-text
         "Whenever a creature an opponent controls becomes the target of a spell or ability you control, gain control of that creature for as long as you control Willbreaker."}
- #:card{:code "pori",
-        :collector-number "90p",
-        :name "Dark Petition",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/7094e9d4-ba51-40d6-b95c-1970d3f89a66.png?1612985341",
-        :type-line "Sorcery",
+        :collector-number "90p",
+        :layout "normal",
+        :name "Dark Petition",
         :oracle-text
         "Search your library for a card, put that card into your hand, then shuffle.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B}."}
- #:card{:code "pori",
-        :collector-number "90s",
-        :name "Dark Petition",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6ccc9529-b25a-41a7-9d27-a952f3cbdf38.png?1562915222",
-        :type-line "Sorcery",
+        :collector-number "90s",
+        :layout "normal",
+        :name "Dark Petition",
         :oracle-text
         "Search your library for a card, put that card into your hand, then shuffle.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B}."}
- #:card{:code "pori",
-        :collector-number "93s",
-        :name "Despoiler of Souls",
-        :layout "normal",
+ #:card{:type-line "Creature — Horror",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f561ed8a-fa0b-405a-9a07-9ee2f8434d72.png?1562941071",
-        :type-line "Creature — Horror",
+        :collector-number "93s",
+        :layout "normal",
+        :name "Despoiler of Souls",
         :oracle-text
         "Despoiler of Souls can't block.\n{B}{B}, Exile two other creature cards from your graveyard: Return Despoiler of Souls from your graveyard to the battlefield."}
- #:card{:code "pori",
-        :collector-number "99s",
-        :name "Gilt-Leaf Winnower",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1999fed-f13a-428a-82cc-ed4a1ef7ec7a.png?1562937161",
-        :type-line "Creature — Elf Warrior",
+        :collector-number "99s",
+        :layout "normal",
+        :name "Gilt-Leaf Winnower",
         :oracle-text
         "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Gilt-Leaf Winnower enters the battlefield, you may destroy target non-Elf creature whose power and toughness aren't equal."}
- #:card{:code "pori",
-        :collector-number "101s",
-        :name "Graveblade Marauder",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a83f6fe-1f73-400e-bd8c-60dd63e4e433.png?1562905788",
-        :type-line "Creature — Human Warrior",
+        :collector-number "101s",
+        :layout "normal",
+        :name "Graveblade Marauder",
         :oracle-text
         "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever Graveblade Marauder deals combat damage to a player, that player loses life equal to the number of creature cards in your graveyard."}
- #:card{:code "pori",
-        :collector-number "104",
-        :name "Kothophed, Soul Hoarder",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Demon",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/3086d1f8-30f1-4aa8-89c7-ce6029ee5613.png?1562903982",
-        :type-line "Legendary Creature — Demon",
+        :collector-number "104",
+        :layout "normal",
+        :name "Kothophed, Soul Hoarder",
         :oracle-text
         "Flying\nWhenever a permanent owned by another player is put into a graveyard from the battlefield, you draw a card and you lose 1 life."}
- #:card{:code "pori",
-        :collector-number "104s",
-        :name "Kothophed, Soul Hoarder",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Demon",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94bada96-bab8-49ab-a018-196390b309f8.png?1562922612",
-        :type-line "Legendary Creature — Demon",
+        :collector-number "104s",
+        :layout "normal",
+        :name "Kothophed, Soul Hoarder",
         :oracle-text
         "Flying\nWhenever a permanent owned by another player is put into a graveyard from the battlefield, you draw a card and you lose 1 life."}
- #:card{:code "pori",
-        :collector-number "105",
-        :name "Languish",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69923060-9015-41ea-91ad-f3252ba25c85.png?1562914534",
-        :type-line "Sorcery",
-        :oracle-text "All creatures get -4/-4 until end of turn."}
- #:card{:code "pori",
-        :collector-number "105s",
-        :name "Languish",
+        :collector-number "105",
         :layout "normal",
+        :name "Languish",
+        :oracle-text "All creatures get -4/-4 until end of turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76947376-7afd-4792-b0f7-c3bc0423ef2f.png?1562916917",
-        :type-line "Sorcery",
+        :collector-number "105s",
+        :layout "normal",
+        :name "Languish",
         :oracle-text "All creatures get -4/-4 until end of turn."}
  #:card{:code "pori",
         :collector-number "106s",
@@ -314,6 +344,7 @@
         "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33209977-45c6-4cd8-915e-1cc72966a7ce.png?1562904467",
@@ -325,24 +356,26 @@
           :type-line "Legendary Planeswalker — Liliana",
           :oracle-text
           "+2: Each player discards a card.\n−X: Return target nonlegendary creature card with mana value X from your graveyard to the battlefield.\n−8: You get an emblem with \"Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step.\""}]}
- #:card{:code "pori",
-        :collector-number "112s",
-        :name "Priest of the Blood Rite",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c31c0a6-989e-4761-a3cc-1f2b2b42f0db.png?1562903170",
-        :type-line "Creature — Human Cleric",
+        :collector-number "112s",
+        :layout "normal",
+        :name "Priest of the Blood Rite",
         :oracle-text
         "When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon creature token with flying.\nAt the beginning of your upkeep, you lose 2 life."}
- #:card{:code "pori",
-        :collector-number "127s",
-        :name "Abbot of Keral Keep",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Monk",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23e60446-324a-4a6a-ac75-d6d27d05a84d.png?1562901650",
-        :type-line "Creature — Human Monk",
+        :collector-number "127s",
+        :layout "normal",
+        :name "Abbot of Keral Keep",
         :oracle-text
         "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Abbot of Keral Keep enters the battlefield, exile the top card of your library. Until end of turn, you may play that card."}
  #:card{:code "pori",
@@ -350,6 +383,7 @@
         :name "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/3936517e-fcbb-4dce-80b1-ea2778dfe9de.png?1562905564",
@@ -361,154 +395,169 @@
           :type-line "Legendary Planeswalker — Chandra",
           :oracle-text
           "+1: Chandra, Roaring Flame deals 2 damage to target player or planeswalker.\n−2: Chandra, Roaring Flame deals 2 damage to target creature.\n−7: Chandra, Roaring Flame deals 6 damage to each opponent. Each player dealt damage this way gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\""}]}
- #:card{:code "pori",
-        :collector-number "137s",
-        :name "Chandra's Ignition",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/6192e42f-6d58-438a-be25-878843e88bea.png?1562913045",
-        :type-line "Sorcery",
+        :collector-number "137s",
+        :layout "normal",
+        :name "Chandra's Ignition",
         :oracle-text
         "Target creature you control deals damage equal to its power to each other creature and each opponent."}
- #:card{:code "pori",
-        :collector-number "141s",
-        :name "Embermaw Hellion",
-        :layout "normal",
+ #:card{:type-line "Creature — Hellion",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/035ea998-1ae5-4e56-bdca-65d9a0fe387d.png?1562895620",
-        :type-line "Creature — Hellion",
+        :collector-number "141s",
+        :layout "normal",
+        :name "Embermaw Hellion",
         :oracle-text
         "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nIf another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead."}
- #:card{:code "pori",
-        :collector-number "143s",
-        :name "Exquisite Firecraft",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b89e3b9e-f92d-4bde-9b29-2547e44df38b.png?1562929357",
-        :type-line "Sorcery",
+        :collector-number "143s",
+        :layout "normal",
+        :name "Exquisite Firecraft",
         :oracle-text
         "Exquisite Firecraft deals 4 damage to any target.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, this spell can't be countered."}
- #:card{:code "pori",
-        :collector-number "151s",
-        :name "Goblin Piledriver",
-        :layout "normal",
+ #:card{:type-line "Creature — Goblin Warrior",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f843a368-9ea6-45b7-aab2-939e75ba453f.png?1562941635",
-        :type-line "Creature — Goblin Warrior",
+        :collector-number "151s",
+        :layout "normal",
+        :name "Goblin Piledriver",
         :oracle-text
         "Protection from blue (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.)\nWhenever Goblin Piledriver attacks, it gets +2/+0 until end of turn for each other attacking Goblin."}
- #:card{:code "pori",
-        :collector-number "157",
-        :name "Pia and Kiran Nalaar",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/e/2eb6fc54-77e7-4e90-abc9-fd88581b57bf.png?1562903596",
-        :type-line "Legendary Creature — Human Artificer",
+        :collector-number "157",
+        :layout "normal",
+        :name "Pia and Kiran Nalaar",
         :oracle-text
         "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\n{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target."}
- #:card{:code "pori",
-        :collector-number "157s",
-        :name "Pia and Kiran Nalaar",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7ea68b47-8a31-41a9-ae70-0a11f3ec3f56.png?1562918450",
-        :type-line "Legendary Creature — Human Artificer",
+        :collector-number "157s",
+        :layout "normal",
+        :name "Pia and Kiran Nalaar",
         :oracle-text
         "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\n{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target."}
- #:card{:code "pori",
-        :collector-number "160s",
-        :name "Scab-Clan Berserker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd680805-5f82-4002-bacc-84e35f2d837c.png?1562933442",
-        :type-line "Creature — Human Berserker",
+        :collector-number "160s",
+        :layout "normal",
+        :name "Scab-Clan Berserker",
         :oracle-text
         "Haste\nRenown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhenever an opponent casts a noncreature spell, if Scab-Clan Berserker is renowned, Scab-Clan Berserker deals 2 damage to that player."}
- #:card{:code "pori",
-        :collector-number "171",
-        :name "Conclave Naturalists",
-        :layout "normal",
+ #:card{:type-line "Creature — Dryad",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7efef088-e214-40dd-920d-039ff4770bc9.png?1562918518",
-        :type-line "Creature — Dryad",
+        :collector-number "171",
+        :layout "normal",
+        :name "Conclave Naturalists",
         :oracle-text
         "When Conclave Naturalists enters the battlefield, you may destroy target artifact or enchantment."}
- #:card{:code "pori",
-        :collector-number "172",
-        :name "Dwynen, Gilt-Leaf Daen",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee9797ee-58a4-4d8d-8c67-aff2cd61c88d.png?1562939789",
-        :type-line "Legendary Creature — Elf Warrior",
+        :collector-number "172",
+        :layout "normal",
+        :name "Dwynen, Gilt-Leaf Daen",
         :oracle-text
         "Reach\nOther Elf creatures you control get +1/+1.\nWhenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control."}
- #:card{:code "pori",
-        :collector-number "172s",
-        :name "Dwynen, Gilt-Leaf Daen",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c715b779-d993-443f-a9d0-45ea9908fd47.png?1562932256",
-        :type-line "Legendary Creature — Elf Warrior",
+        :collector-number "172s",
+        :layout "normal",
+        :name "Dwynen, Gilt-Leaf Daen",
         :oracle-text
         "Reach\nOther Elf creatures you control get +1/+1.\nWhenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control."}
- #:card{:code "pori",
-        :collector-number "176s",
-        :name "Evolutionary Leap",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b99b4d17-b8f6-42a7-99c6-faa0aee86218.png?1562929619",
-        :type-line "Enchantment",
+        :collector-number "176s",
+        :layout "normal",
+        :name "Evolutionary Leap",
         :oracle-text
         "{G}, Sacrifice a creature: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order."}
- #:card{:code "pori",
-        :collector-number "177s",
-        :name "Gaea's Revenge",
-        :layout "normal",
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b140eae-3c0b-4077-8855-48b240e058d0.png?1562902979",
-        :type-line "Creature — Elemental",
+        :collector-number "177s",
+        :layout "normal",
+        :name "Gaea's Revenge",
         :oracle-text
         "This spell can't be countered.\nHaste\nGaea's Revenge can't be the target of nongreen spells or abilities from nongreen sources."}
- #:card{:code "pori",
-        :collector-number "182s",
-        :name "Honored Hierarch",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Druid",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f9a4d21-5c19-494a-a323-9aa84b8b734b.png?1562906705",
-        :type-line "Creature — Human Druid",
+        :collector-number "182s",
+        :layout "normal",
+        :name "Honored Hierarch",
         :oracle-text
         "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nAs long as Honored Hierarch is renowned, it has vigilance and \"{T}: Add one mana of any color.\""}
- #:card{:code "pori",
-        :collector-number "186p",
-        :name "Managorger Hydra",
-        :layout "normal",
+ #:card{:type-line "Creature — Hydra",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/15b49493-2361-4d55-8356-67c61d154a15.png?1590113253",
-        :type-line "Creature — Hydra",
+        :collector-number "186p",
+        :layout "normal",
+        :name "Managorger Hydra",
         :oracle-text
         "Trample\nWhenever a player casts a spell, put a +1/+1 counter on Managorger Hydra."}
- #:card{:code "pori",
-        :collector-number "186s",
-        :name "Managorger Hydra",
-        :layout "normal",
+ #:card{:type-line "Creature — Hydra",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/748670a5-4f0a-41e7-b077-e31f4be49b6f.png?1562916594",
-        :type-line "Creature — Hydra",
+        :collector-number "186s",
+        :layout "normal",
+        :name "Managorger Hydra",
         :oracle-text
         "Trample\nWhenever a player casts a spell, put a +1/+1 counter on Managorger Hydra."}
  #:card{:code "pori",
@@ -516,6 +565,7 @@
         :name "Nissa, Vastwood Seer // Nissa, Sage Animist",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8c40a7db-12f2-41bc-9025-d243208e8d70.png?1562921044",
@@ -527,33 +577,36 @@
           :type-line "Legendary Planeswalker — Nissa",
           :oracle-text
           "+1: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.\n−2: Create Ashaya, the Awoken World, a legendary 4/4 green Elemental creature token.\n−7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands."}]}
- #:card{:code "pori",
-        :collector-number "191s",
-        :name "Nissa's Revelation",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88f176b5-5115-4a46-aea9-e4b936066753.png?1562920359",
-        :type-line "Sorcery",
+        :collector-number "191s",
+        :layout "normal",
+        :name "Nissa's Revelation",
         :oracle-text
         "Scry 5, then reveal the top card of your library. If it's a creature card, you draw cards equal to its power and you gain life equal to its toughness."}
- #:card{:code "pori",
-        :collector-number "193s",
-        :name "Outland Colossus",
-        :layout "normal",
+ #:card{:type-line "Creature — Giant",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6a891032-1395-40bc-9994-78c1dde4faed.png?1562914752",
-        :type-line "Creature — Giant",
+        :collector-number "193s",
+        :layout "normal",
+        :name "Outland Colossus",
         :oracle-text
         "Renown 6 (When this creature deals combat damage to a player, if it isn't renowned, put six +1/+1 counters on it and it becomes renowned.)\nOutland Colossus can't be blocked by more than one creature."}
- #:card{:code "pori",
-        :collector-number "240p",
-        :name "Sword of the Animist",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "pori",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f39e0a2d-2f96-45c5-9c3c-508ed3dfe9af.png?1579733064",
-        :type-line "Legendary Artifact — Equipment",
+        :collector-number "240p",
+        :layout "normal",
+        :name "Sword of the Animist",
         :oracle-text
         "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}"})

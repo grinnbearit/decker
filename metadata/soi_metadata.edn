@@ -1,41 +1,45 @@
-(#:card{:code "soi",
-        :collector-number "1",
-        :name "Always Watching",
-        :layout "normal",
+(#:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/84826f49-b5fb-4bd6-ab46-98e84b0d25c8.png?1576383632",
-        :type-line "Enchantment",
+        :collector-number "1",
+        :layout "normal",
+        :name "Always Watching",
         :oracle-text
         "Nontoken creatures you control get +1/+1 and have vigilance."}
- #:card{:code "soi",
-        :collector-number "2",
-        :name "Angel of Deliverance",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4e12f83-eab8-4113-ab63-3f7a830861d4.png?1576383639",
-        :type-line "Creature — Angel",
+        :collector-number "2",
+        :layout "normal",
+        :name "Angel of Deliverance",
         :oracle-text
         "Flying\nDelirium — Whenever Angel of Deliverance deals damage, if there are four or more card types among cards in your graveyard, exile target creature an opponent controls."}
- #:card{:code "soi",
-        :collector-number "3",
-        :name "Angelic Purge",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d38bae3e-95f3-413a-bb4d-6a0814112a7a.png?1576383645",
-        :type-line "Sorcery",
+        :collector-number "3",
+        :layout "normal",
+        :name "Angelic Purge",
         :oracle-text
         "As an additional cost to cast this spell, sacrifice a permanent.\nExile target artifact, creature, or enchantment."}
- #:card{:code "soi",
-        :collector-number "4",
-        :name "Apothecary Geist",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/37e2358c-211e-4d79-8120-88bb9e656cba.png?1576383651",
-        :type-line "Creature — Spirit",
+        :collector-number "4",
+        :layout "normal",
+        :name "Apothecary Geist",
         :oracle-text
         "Flying\nWhen Apothecary Geist enters the battlefield, if you control another Spirit, you gain 3 life."}
  #:card{:code "soi",
@@ -43,6 +47,7 @@
         :name "Archangel Avacyn // Avacyn, the Purifier",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae155ee2-008f-4dc6-82bf-476be7baa224.png?1576383667",
@@ -59,6 +64,7 @@
         :name "Avacynian Missionaries // Lunarch Inquisitors",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/1001e708-e4f9-456a-8b9d-3421a2a3833d.png?1576383680",
@@ -70,142 +76,156 @@
           :type-line "Creature — Human Cleric",
           :oracle-text
           "When this creature transforms into Lunarch Inquisitors, you may exile another target creature until Lunarch Inquisitors leaves the battlefield."}]}
- #:card{:code "soi",
-        :collector-number "7",
-        :name "Bound by Moonsilver",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7bdf107d-eb67-421c-a7a9-b3e62e03f766.png?1576383687",
-        :type-line "Enchantment — Aura",
+        :collector-number "7",
+        :layout "normal",
+        :name "Bound by Moonsilver",
         :oracle-text
         "Enchant creature\nEnchanted creature can't attack, block, or transform.\nSacrifice another permanent: Attach Bound by Moonsilver to target creature. Activate only as a sorcery and only once each turn."}
- #:card{:code "soi",
-        :collector-number "8",
-        :name "Bygone Bishop",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit Cleric",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c45198f-fb2b-4c83-abdc-8b1a0071cfed.png?1576383693",
-        :type-line "Creature — Spirit Cleric",
+        :collector-number "8",
+        :layout "normal",
+        :name "Bygone Bishop",
         :oracle-text
         "Flying\nWhenever you cast a creature spell with mana value 3 or less, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "9",
-        :name "Cathar's Companion",
-        :layout "normal",
+ #:card{:type-line "Creature — Dog",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f4b9943-0fe6-4383-90a0-4a719dcf9499.png?1576383699",
-        :type-line "Creature — Dog",
+        :collector-number "9",
+        :layout "normal",
+        :name "Cathar's Companion",
         :oracle-text
         "Whenever you cast a noncreature spell, Cathar's Companion gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"}
- #:card{:code "soi",
-        :collector-number "10",
-        :name "Chaplain's Blessing",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f70ea481-1751-4097-af41-2d13fe79e788.png?1576383706",
-        :type-line "Sorcery",
-        :oracle-text "You gain 5 life."}
- #:card{:code "soi",
-        :collector-number "11",
-        :name "Dauntless Cathar",
+        :collector-number "10",
         :layout "normal",
+        :name "Chaplain's Blessing",
+        :oracle-text "You gain 5 life."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bb1a458a-d3b6-44d9-ac80-a7a46b505805.png?1576383712",
-        :type-line "Creature — Human Soldier",
+        :collector-number "11",
+        :layout "normal",
+        :name "Dauntless Cathar",
         :oracle-text
         "{1}{W}, Exile Dauntless Cathar from your graveyard: Create a 1/1 white Spirit creature token with flying. Activate only as a sorcery."}
- #:card{:code "soi",
-        :collector-number "12",
-        :name "Declaration in Stone",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/6/f685445d-e2af-455f-b3b2-97cf15362f3c.png?1576383718",
-        :type-line "Sorcery",
+        :collector-number "12",
+        :layout "normal",
+        :name "Declaration in Stone",
         :oracle-text
         "Exile target creature and all other creatures its controller controls with the same name as that creature. That player investigates for each nontoken creature exiled this way."}
- #:card{:code "soi",
-        :collector-number "13",
-        :name "Descend upon the Sinful",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c9ff2cbf-a1dc-4cc5-9a5d-8439899d4e87.png?1576383726",
-        :type-line "Sorcery",
+        :collector-number "13",
+        :layout "normal",
+        :name "Descend upon the Sinful",
         :oracle-text
         "Exile all creatures.\nDelirium — Create a 4/4 white Angel creature token with flying if there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "14",
-        :name "Devilthorn Fox",
-        :layout "normal",
+ #:card{:type-line "Creature — Fox",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57bea4c2-7a15-4f31-938d-c4c906e4ebe7.png?1576383733",
-        :type-line "Creature — Fox",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "15",
-        :name "Drogskol Cavalry",
+        :collector-number "14",
         :layout "normal",
+        :name "Devilthorn Fox",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Spirit Knight",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46c262c8-9daa-4ed8-b519-11b5895de89f.png?1576383739",
-        :type-line "Creature — Spirit Knight",
+        :collector-number "15",
+        :layout "normal",
+        :name "Drogskol Cavalry",
         :oracle-text
         "Flying\nWhenever another Spirit enters the battlefield under your control, you gain 2 life.\n{3}{W}: Create a 1/1 white Spirit creature token with flying."}
- #:card{:code "soi",
-        :collector-number "16",
-        :name "Eerie Interlude",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dcbab6e4-d317-4e73-a6ff-bed49aa6b70b.png?1576383745",
-        :type-line "Instant",
+        :collector-number "16",
+        :layout "normal",
+        :name "Eerie Interlude",
         :oracle-text
         "Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step."}
- #:card{:code "soi",
-        :collector-number "17",
-        :name "Emissary of the Sleepless",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc5fa496-a830-4031-a19a-d6467d074ad1.png?1576383751",
-        :type-line "Creature — Spirit",
+        :collector-number "17",
+        :layout "normal",
+        :name "Emissary of the Sleepless",
         :oracle-text
         "Flying\nWhen Emissary of the Sleepless enters the battlefield, if a creature died this turn, create a 1/1 white Spirit creature token with flying."}
- #:card{:code "soi",
-        :collector-number "18",
-        :name "Ethereal Guidance",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f47dd220-6193-4e31-a1df-591b6424ad27.png?1576383757",
-        :type-line "Sorcery",
+        :collector-number "18",
+        :layout "normal",
+        :name "Ethereal Guidance",
         :oracle-text
         "Creatures you control get +2/+1 until end of turn."}
- #:card{:code "soi",
-        :collector-number "19",
-        :name "Expose Evil",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9de0341a-cd45-439c-adc2-8d24c47c4bd5.png?1576383763",
-        :type-line "Instant",
+        :collector-number "19",
+        :layout "normal",
+        :name "Expose Evil",
         :oracle-text
         "Tap up to two target creatures.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "20",
-        :name "Gryff's Boon",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d8aecb0-c535-493c-bf64-4964e061deba.png?1576383770",
-        :type-line "Enchantment — Aura",
+        :collector-number "20",
+        :layout "normal",
+        :name "Gryff's Boon",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +1/+0 and has flying.\n{3}{W}: Return Gryff's Boon from your graveyard to the battlefield attached to target creature. Activate only as a sorcery."}
  #:card{:code "soi",
@@ -213,6 +233,7 @@
         :name "Hanweir Militia Captain // Westvale Cult Leader",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7e137566-5033-48e8-88ba-65e3821b3cec.png?1576383782",
@@ -224,124 +245,136 @@
           :type-line "Creature — Human Cleric",
           :oracle-text
           "Westvale Cult Leader's power and toughness are each equal to the number of creatures you control.\nAt the beginning of your end step, create a 1/1 white and black Human Cleric creature token."}]}
- #:card{:code "soi",
-        :collector-number "22",
-        :name "Hope Against Hope",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6f7c6f5-159a-40ed-823a-8740a1ce373e.png?1576383788",
-        :type-line "Enchantment — Aura",
+        :collector-number "22",
+        :layout "normal",
+        :name "Hope Against Hope",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +1/+1 for each creature you control.\nAs long as enchanted creature is a Human, it has first strike."}
- #:card{:code "soi",
-        :collector-number "23",
-        :name "Humble the Brute",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c105686-8b45-494a-b9ef-8aa267bb1b5a.png?1576383796",
-        :type-line "Instant",
+        :collector-number "23",
+        :layout "normal",
+        :name "Humble the Brute",
         :oracle-text
         "Destroy target creature with power 4 or greater.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "24",
-        :name "Inquisitor's Ox",
-        :layout "normal",
+ #:card{:type-line "Creature — Ox",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd1401fe-9e88-401b-96f0-5f58808a519f.png?1576383802",
-        :type-line "Creature — Ox",
+        :collector-number "24",
+        :layout "normal",
+        :name "Inquisitor's Ox",
         :oracle-text
         "Delirium — Inquisitor's Ox gets +1/+0 and has vigilance as long as there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "25",
-        :name "Inspiring Captain",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45704604-a1b3-4225-8466-aa76136c84a8.png?1576383808",
-        :type-line "Creature — Human Knight",
+        :collector-number "25",
+        :layout "normal",
+        :name "Inspiring Captain",
         :oracle-text
         "When Inspiring Captain enters the battlefield, creatures you control get +1/+1 until end of turn."}
- #:card{:code "soi",
-        :collector-number "26",
-        :name "Militant Inquisitor",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68d99f1f-80d6-4b5e-aeae-83fb8ae62cdc.png?1576383815",
-        :type-line "Creature — Human Cleric",
+        :collector-number "26",
+        :layout "normal",
+        :name "Militant Inquisitor",
         :oracle-text
         "Militant Inquisitor gets +1/+0 for each Equipment you control."}
- #:card{:code "soi",
-        :collector-number "27",
-        :name "Moorland Drifter",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/8/5839942c-0ad1-4f77-97a0-142b8ef2266c.png?1576383820",
-        :type-line "Creature — Spirit",
+        :collector-number "27",
+        :layout "normal",
+        :name "Moorland Drifter",
         :oracle-text
         "Delirium — Moorland Drifter has flying as long as there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "28",
-        :name "Nahiri's Machinations",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a9ba0f1c-8641-4f5a-8f2e-f969fc7a058a.png?1576383826",
-        :type-line "Enchantment",
+        :collector-number "28",
+        :layout "normal",
+        :name "Nahiri's Machinations",
         :oracle-text
         "At the beginning of combat on your turn, target creature you control gains indestructible until end of turn.\n{1}{R}: Nahiri's Machinations deals 1 damage to target blocking creature."}
- #:card{:code "soi",
-        :collector-number "29",
-        :name "Nearheath Chaplain",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/362ec364-39c1-4a4b-8dfa-268fad2effdd.png?1576383833",
-        :type-line "Creature — Human Cleric",
+        :collector-number "29",
+        :layout "normal",
+        :name "Nearheath Chaplain",
         :oracle-text
         "Lifelink\n{2}{W}, Exile Nearheath Chaplain from your graveyard: Create two 1/1 white Spirit creature tokens with flying. Activate only as a sorcery."}
- #:card{:code "soi",
-        :collector-number "30",
-        :name "Not Forgotten",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66ecdadf-56f7-4dfb-9c3c-7d240ba19b00.png?1576383839",
-        :type-line "Sorcery",
+        :collector-number "30",
+        :layout "normal",
+        :name "Not Forgotten",
         :oracle-text
         "Put target card from a graveyard on the top or bottom of its owner's library. Create a 1/1 white Spirit creature token with flying."}
- #:card{:code "soi",
-        :collector-number "31",
-        :name "Odric, Lunarch Marshal",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5c77c30f-d813-46e6-9cdd-938b4a6359ad.png?1576383846",
-        :type-line "Legendary Creature — Human Soldier",
+        :collector-number "31",
+        :layout "normal",
+        :name "Odric, Lunarch Marshal",
         :oracle-text
         "At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance."}
- #:card{:code "soi",
-        :collector-number "32",
-        :name "Open the Armory",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07dc0c44-908f-40e9-9c6a-e1ef699e6d2e.png?1576383852",
-        :type-line "Sorcery",
+        :collector-number "32",
+        :layout "normal",
+        :name "Open the Armory",
         :oracle-text
         "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "soi",
-        :collector-number "33",
-        :name "Paranoid Parish-Blade",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16bb6c60-1889-49ed-8767-8144cc5a9571.png?1576383858",
-        :type-line "Creature — Human Soldier",
+        :collector-number "33",
+        :layout "normal",
+        :name "Paranoid Parish-Blade",
         :oracle-text
         "Delirium — Paranoid Parish-Blade gets +1/+0 and has first strike as long as there are four or more card types among cards in your graveyard."}
  #:card{:code "soi",
@@ -349,6 +382,7 @@
         :name "Pious Evangel // Wayward Disciple",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/a/7ac2a5aa-71c3-482b-9431-5f0b228cf64d.png?1576383871",
@@ -360,113 +394,124 @@
           :type-line "Creature — Human Cleric",
           :oracle-text
           "Whenever Wayward Disciple or another creature you control dies, target opponent loses 1 life and you gain 1 life."}]}
- #:card{:code "soi",
-        :collector-number "35",
-        :name "Puncturing Light",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/b/5b101264-4994-43b7-9156-228f7d10d2bd.png?1576383877",
-        :type-line "Instant",
+        :collector-number "35",
+        :layout "normal",
+        :name "Puncturing Light",
         :oracle-text
         "Destroy target attacking or blocking creature with power 3 or less."}
- #:card{:code "soi",
-        :collector-number "36",
-        :name "Reaper of Flight Moonsilver",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/8/58cf3ac8-db59-4acc-abb6-e63b95b849ac.png?1576383883",
-        :type-line "Creature — Angel",
+        :collector-number "36",
+        :layout "normal",
+        :name "Reaper of Flight Moonsilver",
         :oracle-text
         "Flying\nDelirium — Sacrifice another creature: Reaper of Flight Moonsilver gets +2/+1 until end of turn. Activate only if there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "37",
-        :name "Silverstrike",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f27b92a-cde9-41bc-9b23-d83b74b167d4.png?1576383889",
-        :type-line "Instant",
+        :collector-number "37",
+        :layout "normal",
+        :name "Silverstrike",
         :oracle-text
         "Destroy target attacking creature. You gain 3 life."}
- #:card{:code "soi",
-        :collector-number "38",
-        :name "Spectral Shepherd",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac355ae2-7553-4b51-bcce-1c4168dad0d6.png?1576383896",
-        :type-line "Creature — Spirit",
+        :collector-number "38",
+        :layout "normal",
+        :name "Spectral Shepherd",
         :oracle-text
         "Flying\n{1}{U}: Return target Spirit you control to its owner's hand."}
- #:card{:code "soi",
-        :collector-number "39",
-        :name "Stern Constable",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/f/4f0f87d4-5fed-415c-918a-c3546697a3da.png?1576383903",
-        :type-line "Creature — Human Soldier",
-        :oracle-text "{T}, Discard a card: Tap target creature."}
- #:card{:code "soi",
-        :collector-number "40",
-        :name "Strength of Arms",
+        :collector-number "39",
         :layout "normal",
+        :name "Stern Constable",
+        :oracle-text "{T}, Discard a card: Tap target creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52c5c5cf-0ed6-4953-a03a-af51038e3f54.png?1576383909",
-        :type-line "Instant",
+        :collector-number "40",
+        :layout "normal",
+        :name "Strength of Arms",
         :oracle-text
         "Target creature gets +2/+2 until end of turn. If you control an Equipment, create a 1/1 white Human Soldier creature token."}
- #:card{:code "soi",
-        :collector-number "41",
-        :name "Survive the Night",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cb4a0bc-196a-466b-a704-377f5c7eb5b7.png?1576383916",
-        :type-line "Instant",
+        :collector-number "41",
+        :layout "normal",
+        :name "Survive the Night",
         :oracle-text
         "Target creature gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "42",
-        :name "Tenacity",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/41fbe149-3e1f-495e-be1b-efc3a6dbcb08.png?1576383922",
-        :type-line "Instant",
+        :collector-number "42",
+        :layout "normal",
+        :name "Tenacity",
         :oracle-text
         "Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures."}
- #:card{:code "soi",
-        :collector-number "43",
-        :name "Thalia's Lieutenant",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe162594-2332-4816-a9e1-57eb19b12651.png?1576383928",
-        :type-line "Creature — Human Soldier",
+        :collector-number "43",
+        :layout "normal",
+        :name "Thalia's Lieutenant",
         :oracle-text
         "When Thalia's Lieutenant enters the battlefield, put a +1/+1 counter on each other Human you control.\nWhenever another Human enters the battlefield under your control, put a +1/+1 counter on Thalia's Lieutenant."}
- #:card{:code "soi",
-        :collector-number "44",
-        :name "Thraben Inspector",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d140c3b7-ca78-483d-baeb-307b624fea8b.png?1576383936",
-        :type-line "Creature — Human Soldier",
+        :collector-number "44",
+        :layout "normal",
+        :name "Thraben Inspector",
         :oracle-text
         "When Thraben Inspector enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "45",
-        :name "Topplegeist",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec9e8653-13ae-446c-b341-85c9b3fa6ca8.png?1576383942",
-        :type-line "Creature — Spirit",
+        :collector-number "45",
+        :layout "normal",
+        :name "Topplegeist",
         :oracle-text
         "Flying\nWhen Topplegeist enters the battlefield, tap target creature an opponent controls.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, tap target creature that player controls."}
  #:card{:code "soi",
@@ -474,6 +519,7 @@
         :name "Town Gossipmonger // Incited Rabble",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d238d324-8c88-43ca-b203-133830d29447.png?1576383957",
@@ -485,24 +531,26 @@
           :type-line "Creature — Human",
           :oracle-text
           "Incited Rabble attacks each combat if able.\n{2}: Incited Rabble gets +1/+0 until end of turn."}]}
- #:card{:code "soi",
-        :collector-number "47",
-        :name "Unruly Mob",
-        :layout "normal",
+ #:card{:type-line "Creature — Human",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/1/012d76b7-1445-4853-9e54-159154bbb144.png?1576383963",
-        :type-line "Creature — Human",
+        :collector-number "47",
+        :layout "normal",
+        :name "Unruly Mob",
         :oracle-text
         "Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob."}
- #:card{:code "soi",
-        :collector-number "48",
-        :name "Vessel of Ephemera",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4051020-688c-473a-9a08-b62f0fd75675.png?1576383969",
-        :type-line "Enchantment",
+        :collector-number "48",
+        :layout "normal",
+        :name "Vessel of Ephemera",
         :oracle-text
         "{2}{W}, Sacrifice Vessel of Ephemera: Create two 1/1 white Spirit creature tokens with flying."}
  #:card{:code "soi",
@@ -510,6 +558,7 @@
         :name "Aberrant Researcher // Perfected Form",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5c9649e-9ae5-4926-bf08-71ba23aa37f1.png?1576383982",
@@ -520,43 +569,47 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/b/5/b5c9649e-9ae5-4926-bf08-71ba23aa37f1.png?1576383982",
           :type-line "Creature — Insect Horror",
           :oracle-text "Flying"}]}
- #:card{:code "soi",
-        :collector-number "50",
-        :name "Broken Concentration",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/252eef1f-0a62-420d-aad8-e3d7f1e07c1b.png?1576383988",
-        :type-line "Instant",
+        :collector-number "50",
+        :layout "normal",
+        :name "Broken Concentration",
         :oracle-text
         "Counter target spell.\nMadness {3}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "51",
-        :name "Catalog",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1b069516-1465-4acf-b4b9-ca7f1238b4fe.png?1576383994",
-        :type-line "Instant",
-        :oracle-text "Draw two cards, then discard a card."}
- #:card{:code "soi",
-        :collector-number "52",
-        :name "Compelling Deterrence",
+        :collector-number "51",
         :layout "normal",
+        :name "Catalog",
+        :oracle-text "Draw two cards, then discard a card."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0b728f4-d209-4334-9501-4f69b1196739.png?1576384000",
-        :type-line "Instant",
+        :collector-number "52",
+        :layout "normal",
+        :name "Compelling Deterrence",
         :oracle-text
         "Return target nonland permanent to its owner's hand. Then that player discards a card if you control a Zombie."}
- #:card{:code "soi",
-        :collector-number "53",
-        :name "Confirm Suspicions",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf7fcbc2-1034-442d-9f2a-7d79ea40ac3d.png?1576384007",
-        :type-line "Instant",
+        :collector-number "53",
+        :layout "normal",
+        :name "Confirm Suspicions",
         :oracle-text
         "Counter target spell.\nInvestigate three times. (To investigate, create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
  #:card{:code "soi",
@@ -564,6 +617,7 @@
         :name "Daring Sleuth // Bearer of Overwhelming Truths",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/440f9f10-6999-4cff-ab98-8aed77813b07.png?1576384019",
@@ -575,332 +629,365 @@
           :type-line "Creature — Human Wizard",
           :oracle-text
           "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Bearer of Overwhelming Truths deals combat damage to a player, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}]}
- #:card{:code "soi",
-        :collector-number "55",
-        :name "Deny Existence",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16a14eeb-1c85-4029-a047-39a4efef3f74.png?1576384025",
-        :type-line "Instant",
+        :collector-number "55",
+        :layout "normal",
+        :name "Deny Existence",
         :oracle-text
         "Counter target creature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard."}
- #:card{:code "soi",
-        :collector-number "56",
-        :name "Drownyard Explorers",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/3714713f-deb4-4b1c-8764-35287293ca18.png?1576384031",
-        :type-line "Creature — Human Wizard",
+        :collector-number "56",
+        :layout "normal",
+        :name "Drownyard Explorers",
         :oracle-text
         "When Drownyard Explorers enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "57",
-        :name "Drunau Corpse Trawler",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/1997e6a0-9e66-486d-921d-d64137c3221d.png?1576384037",
-        :type-line "Creature — Zombie",
+        :collector-number "57",
+        :layout "normal",
+        :name "Drunau Corpse Trawler",
         :oracle-text
         "When Drunau Corpse Trawler enters the battlefield, create a 2/2 black Zombie creature token.\n{2}{B}: Target Zombie gains deathtouch until end of turn."}
- #:card{:code "soi",
-        :collector-number "58",
-        :name "Engulf the Shore",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22909767-a088-49ff-83be-37f967d1da3d.png?1576384043",
-        :type-line "Instant",
+        :collector-number "58",
+        :layout "normal",
+        :name "Engulf the Shore",
         :oracle-text
         "Return to their owners' hands all creatures with toughness less than or equal to the number of Islands you control."}
- #:card{:code "soi",
-        :collector-number "59",
-        :name "Epiphany at the Drownyard",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/64b44364-8f83-4dcf-8458-0fd54a698524.png?1576384049",
-        :type-line "Instant",
+        :collector-number "59",
+        :layout "normal",
+        :name "Epiphany at the Drownyard",
         :oracle-text
         "Reveal the top X plus one cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard."}
- #:card{:code "soi",
-        :collector-number "60",
-        :name "Erdwal Illuminator",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63df99f9-4f85-4c76-8d76-9075c9ef2b86.png?1576384055",
-        :type-line "Creature — Spirit",
+        :collector-number "60",
+        :layout "normal",
+        :name "Erdwal Illuminator",
         :oracle-text
         "Flying\nWhenever you investigate for the first time each turn, investigate an additional time."}
- #:card{:code "soi",
-        :collector-number "61",
-        :name "Essence Flux",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/639bdbb5-8c2d-439d-bcea-dc54da9686ea.png?1576384063",
-        :type-line "Instant",
+        :collector-number "61",
+        :layout "normal",
+        :name "Essence Flux",
         :oracle-text
         "Exile target creature you control, then return that card to the battlefield under its owner's control. If it's a Spirit, put a +1/+1 counter on it."}
- #:card{:code "soi",
-        :collector-number "62",
-        :name "Fleeting Memories",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b9eaf90-2a9e-44a7-bdae-03c26f9d21e7.png?1576384069",
-        :type-line "Enchantment",
+        :collector-number "62",
+        :layout "normal",
+        :name "Fleeting Memories",
         :oracle-text
         "When Fleeting Memories enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, target player mills three cards."}
- #:card{:code "soi",
-        :collector-number "63",
-        :name "Forgotten Creation",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/27f82ee6-b8cd-4dce-b213-3910302f30e9.png?1576384075",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "63",
+        :layout "normal",
+        :name "Forgotten Creation",
         :oracle-text
         "Skulk (This creature can't be blocked by creatures with greater power.)\nAt the beginning of your upkeep, you may discard all the cards in your hand. If you do, draw that many cards."}
- #:card{:code "soi",
-        :collector-number "64",
-        :name "Furtive Homunculus",
-        :layout "normal",
+ #:card{:type-line "Creature — Homunculus",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f376ec9b-48ac-4ed7-bfa2-60e9dca32dd7.png?1576384082",
-        :type-line "Creature — Homunculus",
+        :collector-number "64",
+        :layout "normal",
+        :name "Furtive Homunculus",
         :oracle-text
         "Skulk (This creature can't be blocked by creatures with greater power.)"}
- #:card{:code "soi",
-        :collector-number "65",
-        :name "Geralf's Masterpiece",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f00d28b8-2ed8-4266-a870-d308f9ebd5da.png?1576384088",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "65",
+        :layout "normal",
+        :name "Geralf's Masterpiece",
         :oracle-text
         "Flying\nGeralf's Masterpiece gets -1/-1 for each card in your hand.\n{3}{U}, Discard three cards: Return Geralf's Masterpiece from your graveyard to the battlefield tapped."}
- #:card{:code "soi",
-        :collector-number "66",
-        :name "Ghostly Wings",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f1b1848c-3160-45f5-91a0-74ab6d91c01b.png?1576384096",
-        :type-line "Enchantment — Aura",
+        :collector-number "66",
+        :layout "normal",
+        :name "Ghostly Wings",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +1/+1 and has flying.\nDiscard a card: Return enchanted creature to its owner's hand."}
- #:card{:code "soi",
-        :collector-number "67",
-        :name "Gone Missing",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e88ae6bf-9c58-4543-ba66-19ea41d01e9b.png?1576384102",
-        :type-line "Sorcery",
+        :collector-number "67",
+        :layout "normal",
+        :name "Gone Missing",
         :oracle-text
         "Put target permanent on top of its owner's library.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "68",
-        :name "Invasive Surgery",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6e644e38-39bf-40bd-9be1-5eb80f472e81.png?1576384110",
-        :type-line "Instant",
+        :collector-number "68",
+        :layout "normal",
+        :name "Invasive Surgery",
         :oracle-text
         "Counter target sorcery spell.\nDelirium — If there are four or more card types among cards in your graveyard, search the graveyard, hand, and library of that spell's controller for any number of cards with the same name as that spell, exile those cards, then that player shuffles."}
- #:card{:code "soi",
-        :collector-number "69",
-        :name "Jace, Unraveler of Secrets",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Jace",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20d5521d-e9f1-49e0-aa13-8e6de794cb12.png?1576384117",
-        :type-line "Legendary Planeswalker — Jace",
+        :collector-number "69",
+        :layout "normal",
+        :name "Jace, Unraveler of Secrets",
         :oracle-text
         "+1: Scry 1, then draw a card.\n−2: Return target creature to its owner's hand.\n−8: You get an emblem with \"Whenever an opponent casts their first spell each turn, counter that spell.\""}
- #:card{:code "soi",
-        :collector-number "70",
-        :name "Jace's Scrutiny",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d0eea0d-c790-4d91-962f-f05b22d0c8fa.png?1576384122",
-        :type-line "Instant",
+        :collector-number "70",
+        :layout "normal",
+        :name "Jace's Scrutiny",
         :oracle-text
         "Target creature gets -4/-0 until end of turn.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "71",
-        :name "Just the Wind",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98b3d18c-7029-4eff-a918-f75e7d9d79d7.png?1576384128",
-        :type-line "Instant",
+        :collector-number "71",
+        :layout "normal",
+        :name "Just the Wind",
         :oracle-text
         "Return target creature to its owner's hand.\nMadness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "72",
-        :name "Lamplighter of Selhoff",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80dadecc-f1f1-44a2-8829-6c94aade73a0.png?1576384134",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "72",
+        :layout "normal",
+        :name "Lamplighter of Selhoff",
         :oracle-text
         "When Lamplighter of Selhoff enters the battlefield, if you control another Zombie, you may draw a card. If you do, discard a card."}
- #:card{:code "soi",
-        :collector-number "73",
-        :name "Manic Scribe",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.png?1576384140",
-        :type-line "Creature — Human Wizard",
+        :collector-number "73",
+        :layout "normal",
+        :name "Manic Scribe",
         :oracle-text
         "When Manic Scribe enters the battlefield, each opponent mills three cards.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, that player mills three cards."}
- #:card{:code "soi",
-        :collector-number "74",
-        :name "Nagging Thoughts",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8a6d6e4-e91f-444f-9eed-88fceaf1a4b8.png?1576384147",
-        :type-line "Sorcery",
+        :collector-number "74",
+        :layout "normal",
+        :name "Nagging Thoughts",
         :oracle-text
         "Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.\nMadness {1}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "75",
-        :name "Nephalia Moondrakes",
-        :layout "normal",
+ #:card{:type-line "Creature — Drake",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f714d6c4-b1e1-40dd-806f-a3d87020292e.png?1576384153",
-        :type-line "Creature — Drake",
+        :collector-number "75",
+        :layout "normal",
+        :name "Nephalia Moondrakes",
         :oracle-text
         "Flying\nWhen Nephalia Moondrakes enters the battlefield, target creature gains flying until end of turn.\n{4}{U}{U}, Exile Nephalia Moondrakes from your graveyard: Creatures you control gain flying until end of turn."}
- #:card{:code "soi",
-        :collector-number "76",
-        :name "Niblis of Dusk",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/394dd931-e34e-4314-88c9-774a2f3c8c1b.png?1576384160",
-        :type-line "Creature — Spirit",
+        :collector-number "76",
+        :layout "normal",
+        :name "Niblis of Dusk",
         :oracle-text
         "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"}
- #:card{:code "soi",
-        :collector-number "77",
-        :name "Ongoing Investigation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/19b8f962-8d4e-4dd8-a157-c0a55f9e152a.png?1576384167",
-        :type-line "Enchantment",
+        :collector-number "77",
+        :layout "normal",
+        :name "Ongoing Investigation",
         :oracle-text
         "Whenever one or more creatures you control deal combat damage to a player, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\n{1}{G}, Exile a creature card from your graveyard: Investigate. You gain 2 life."}
- #:card{:code "soi",
-        :collector-number "78",
-        :name "Pieces of the Puzzle",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69204c83-2e43-4ca1-a4cd-d75399a7d6dd.png?1576384174",
-        :type-line "Sorcery",
+        :collector-number "78",
+        :layout "normal",
+        :name "Pieces of the Puzzle",
         :oracle-text
         "Reveal the top five cards of your library. Put up to two instant and/or sorcery cards from among them into your hand and the rest into your graveyard."}
- #:card{:code "soi",
-        :collector-number "79",
-        :name "Pore Over the Pages",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2288f7b-05b1-4a6c-8d02-42ffcadc6f0b.png?1576384182",
-        :type-line "Sorcery",
+        :collector-number "79",
+        :layout "normal",
+        :name "Pore Over the Pages",
         :oracle-text
         "Draw three cards, untap up to two lands, then discard a card."}
- #:card{:code "soi",
-        :collector-number "80",
-        :name "Press for Answers",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5ec8b8bf-7b02-4f5e-bbd3-9560f9888192.png?1576384189",
-        :type-line "Sorcery",
+        :collector-number "80",
+        :layout "normal",
+        :name "Press for Answers",
         :oracle-text
         "Tap target creature. It doesn't untap during its controller's next untap step.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "81",
-        :name "Rattlechains",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6fc4db9-a29c-4f50-8e41-105b45af0be9.png?1576384197",
-        :type-line "Creature — Spirit",
+        :collector-number "81",
+        :layout "normal",
+        :name "Rattlechains",
         :oracle-text
         "Flash\nFlying\nWhen Rattlechains enters the battlefield, target Spirit gains hexproof until end of turn.\nYou may cast Spirit spells as though they had flash."}
- #:card{:code "soi",
-        :collector-number "82",
-        :name "Reckless Scholar",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d46f9dd3-45cc-4682-a6a0-99f67c0b73c6.png?1576384204",
-        :type-line "Creature — Human Wizard",
+        :collector-number "82",
+        :layout "normal",
+        :name "Reckless Scholar",
         :oracle-text
         "{T}: Target player draws a card, then discards a card."}
- #:card{:code "soi",
-        :collector-number "83",
-        :name "Rise from the Tides",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6e099a6a-97c4-42cd-aca6-5e1a2da0d5e5.png?1576384210",
-        :type-line "Sorcery",
+        :collector-number "83",
+        :layout "normal",
+        :name "Rise from the Tides",
         :oracle-text
         "Create a tapped 2/2 black Zombie creature token for each instant and sorcery card in your graveyard."}
- #:card{:code "soi",
-        :collector-number "84",
-        :name "Seagraf Skaab",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/065d497d-5cfd-43c9-8c86-9a1da3d7e17e.png?1576384218",
-        :type-line "Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "85",
-        :name "Silburlind Snapper",
+        :collector-number "84",
         :layout "normal",
+        :name "Seagraf Skaab",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Turtle",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d7347f4c-a4b3-4c71-91e5-699475e5926e.png?1576384224",
-        :type-line "Creature — Turtle",
+        :collector-number "85",
+        :layout "normal",
+        :name "Silburlind Snapper",
         :oracle-text
         "Silburlind Snapper can't attack unless you've cast a noncreature spell this turn."}
- #:card{:code "soi",
-        :collector-number "86",
-        :name "Silent Observer",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/535e3d1b-b71b-406a-bec6-73b2cb45f6c8.png?1576384231",
-        :type-line "Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "soi",
-        :collector-number "87",
-        :name "Sleep Paralysis",
+        :collector-number "86",
         :layout "normal",
+        :name "Silent Observer",
+        :oracle-text "Flying"}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f010e4f4-f1a3-4062-834c-eec5f1f443d6.png?1576384238",
-        :type-line "Enchantment — Aura",
+        :collector-number "87",
+        :layout "normal",
+        :name "Sleep Paralysis",
         :oracle-text
         "Enchant creature\nWhen Sleep Paralysis enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step."}
  #:card{:code "soi",
@@ -908,6 +995,7 @@
         :name "Startled Awake // Persistent Nightmare",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e630fc56-a96f-4abf-be8d-f0f40d5a9edf.png?1576384252",
@@ -919,40 +1007,44 @@
           :type-line "Creature — Nightmare",
           :oracle-text
           "Skulk (This creature can't be blocked by creatures with greater power.)\nWhen Persistent Nightmare deals combat damage to a player, return it to its owner's hand."}]}
- #:card{:code "soi",
-        :collector-number "89",
-        :name "Stitched Mangler",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c03c643c-8e4c-4dc9-8756-c253fa057729.png?1576384258",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "89",
+        :layout "normal",
+        :name "Stitched Mangler",
         :oracle-text
         "Stitched Mangler enters the battlefield tapped.\nWhen Stitched Mangler enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step."}
- #:card{:code "soi",
-        :collector-number "90",
-        :name "Stitchwing Skaab",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f84bb1ce-a8a0-4a29-9129-b1d7041fd01a.png?1576384264",
-        :type-line "Creature — Zombie Horror",
+        :collector-number "90",
+        :layout "normal",
+        :name "Stitchwing Skaab",
         :oracle-text
         "Flying\n{1}{U}, Discard two cards: Return Stitchwing Skaab from your graveyard to the battlefield tapped."}
- #:card{:code "soi",
-        :collector-number "91",
-        :name "Stormrider Spirit",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c0fb4be-df73-43a9-bd48-fd47a4190fc1.png?1576384269",
-        :type-line "Creature — Spirit",
+        :collector-number "91",
+        :layout "normal",
+        :name "Stormrider Spirit",
         :oracle-text "Flash\nFlying"}
  #:card{:code "soi",
         :collector-number "92",
         :name "Thing in the Ice // Awoken Horror",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/359d1b13-6156-43b0-a9a7-6bfff36c1a91.png?1576384282",
@@ -964,14 +1056,15 @@
           :type-line "Creature — Kraken Horror",
           :oracle-text
           "When this creature transforms into Awoken Horror, return all non-Horror creatures to their owners' hands."}]}
- #:card{:code "soi",
-        :collector-number "93",
-        :name "Trail of Evidence",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b150797-ee8d-42f8-adcb-2f4b1783c074.png?1576384288",
-        :type-line "Enchantment",
+        :collector-number "93",
+        :layout "normal",
+        :name "Trail of Evidence",
         :oracle-text
         "Whenever you cast an instant or sorcery spell, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
  #:card{:code "soi",
@@ -979,6 +1072,7 @@
         :name "Uninvited Geist // Unimpeded Trespasser",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4dea7c9f-ce66-447b-9f1b-d9bca5806153.png?1576384303",
@@ -989,24 +1083,26 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/4/d/4dea7c9f-ce66-447b-9f1b-d9bca5806153.png?1576384303",
           :type-line "Creature — Spirit",
           :oracle-text "Unimpeded Trespasser can't be blocked."}]}
- #:card{:code "soi",
-        :collector-number "95",
-        :name "Vessel of Paramnesia",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4596140-1113-4349-aabe-4e828ea574e8.png?1576384309",
-        :type-line "Enchantment",
+        :collector-number "95",
+        :layout "normal",
+        :name "Vessel of Paramnesia",
         :oracle-text
         "{U}, Sacrifice Vessel of Paramnesia: Target player mills three cards. Draw a card."}
- #:card{:code "soi",
-        :collector-number "96",
-        :name "Welcome to the Fold",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d07fbe1-e66a-4893-86ee-7752ad77b120.png?1576384316",
-        :type-line "Sorcery",
+        :collector-number "96",
+        :layout "normal",
+        :name "Welcome to the Fold",
         :oracle-text
         "Madness {X}{U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nGain control of target creature if its toughness is 2 or less. If this spell's madness cost was paid, instead gain control of that creature if its toughness is X or less."}
  #:card{:code "soi",
@@ -1014,6 +1110,7 @@
         :name "Accursed Witch // Infectious Curse",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/8093f8b0-5d50-48ca-b616-e92535a47138.png?1576384328",
@@ -1025,104 +1122,114 @@
           :type-line "Enchantment — Aura Curse",
           :oracle-text
           "Enchant player\nSpells you cast that target enchanted player cost {1} less to cast.\nAt the beginning of enchanted player's upkeep, that player loses 1 life and you gain 1 life."}]}
- #:card{:code "soi",
-        :collector-number "98",
-        :name "Alms of the Vein",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79b80948-a3cd-4962-8fce-d58f2db7e68e.png?1576384334",
-        :type-line "Sorcery",
+        :collector-number "98",
+        :layout "normal",
+        :name "Alms of the Vein",
         :oracle-text
         "Target opponent loses 3 life and you gain 3 life.\nMadness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "99",
-        :name "Asylum Visitor",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Wizard",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55a4bf6c-167a-4122-a55b-7bc28ca4f0d4.png?1576384340",
-        :type-line "Creature — Vampire Wizard",
+        :collector-number "99",
+        :layout "normal",
+        :name "Asylum Visitor",
         :oracle-text
         "At the beginning of each player's upkeep, if that player has no cards in hand, you draw a card and you lose 1 life.\nMadness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "100",
-        :name "Behind the Scenes",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7fac171d-a8b6-4bb7-a559-473574aa02a8.png?1576384346",
-        :type-line "Enchantment",
+        :collector-number "100",
+        :layout "normal",
+        :name "Behind the Scenes",
         :oracle-text
         "Creatures you control have skulk. (They can't be blocked by creatures with greater power.)\n{4}{W}: Creatures you control get +1/+1 until end of turn."}
- #:card{:code "soi",
-        :collector-number "101",
-        :name "Behold the Beyond",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd22350b-d48c-4ae6-b95f-63336fabe0e3.png?1576384353",
-        :type-line "Sorcery",
+        :collector-number "101",
+        :layout "normal",
+        :name "Behold the Beyond",
         :oracle-text
         "Discard your hand. Search your library for three cards, put them into your hand, then shuffle."}
- #:card{:code "soi",
-        :collector-number "102",
-        :name "Biting Rain",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5ac62d2f-6834-4d98-b69d-bd7b5831d981.png?1576384359",
-        :type-line "Sorcery",
+        :collector-number "102",
+        :layout "normal",
+        :name "Biting Rain",
         :oracle-text
         "All creatures get -2/-2 until end of turn.\nMadness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "103",
-        :name "Call the Bloodline",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3ec85cca-ac2c-4b1b-850b-6a762df72bd0.png?1576384367",
-        :type-line "Enchantment",
+        :collector-number "103",
+        :layout "normal",
+        :name "Call the Bloodline",
         :oracle-text
         "{1}, Discard a card: Create a 1/1 black Vampire Knight creature token with lifelink. Activate only once each turn."}
- #:card{:code "soi",
-        :collector-number "104",
-        :name "Creeping Dread",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/b/8b3376c4-369a-4d63-bd48-966bcfb0c9b9.png?1576384374",
-        :type-line "Enchantment",
+        :collector-number "104",
+        :layout "normal",
+        :name "Creeping Dread",
         :oracle-text
         "At the beginning of your upkeep, each player discards a card. Each opponent who discarded a card that shares a card type with the card you discarded loses 3 life. (Players reveal the discarded cards simultaneously.)"}
- #:card{:code "soi",
-        :collector-number "105",
-        :name "Crow of Dark Tidings",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Bird",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14e4d1b5-72de-4062-9fdd-e9bfd655ee79.png?1576384381",
-        :type-line "Creature — Zombie Bird",
+        :collector-number "105",
+        :layout "normal",
+        :name "Crow of Dark Tidings",
         :oracle-text
         "Flying\nWhen Crow of Dark Tidings enters the battlefield or dies, mill two cards. (Put the top two cards of your library into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "106",
-        :name "Dead Weight",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f09a09de-35c9-4a4e-a4ac-1ce24e166ad9.png?1576384386",
-        :type-line "Enchantment — Aura",
+        :collector-number "106",
+        :layout "normal",
+        :name "Dead Weight",
         :oracle-text
         "Enchant creature\nEnchanted creature gets -2/-2."}
- #:card{:code "soi",
-        :collector-number "107",
-        :name "Diregraf Colossus",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Giant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/9039e8f6-5513-4307-a1b5-07209dc8e1c8.png?1576384392",
-        :type-line "Creature — Zombie Giant",
+        :collector-number "107",
+        :layout "normal",
+        :name "Diregraf Colossus",
         :oracle-text
         "Diregraf Colossus enters the battlefield with a +1/+1 counter on it for each Zombie card in your graveyard.\nWhenever you cast a Zombie spell, create a tapped 2/2 black Zombie creature token."}
  #:card{:code "soi",
@@ -1130,6 +1237,7 @@
         :name "Elusive Tormentor // Insidious Mist",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a32ce90d-9138-4aca-aa3c-a558dd16fad8.png?1576384405",
@@ -1141,74 +1249,81 @@
           :type-line "Creature — Elemental",
           :oracle-text
           "Hexproof, indestructible\nInsidious Mist can't block and can't be blocked.\nWhenever Insidious Mist attacks and isn't blocked, you may pay {2}{B}. If you do, transform it."}]}
- #:card{:code "soi",
-        :collector-number "109",
-        :name "Ever After",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a530a54-2711-4858-bc88-559d90be4f05.png?1576384410",
-        :type-line "Sorcery",
+        :collector-number "109",
+        :layout "normal",
+        :name "Ever After",
         :oracle-text
         "Return up to two target creature cards from your graveyard to the battlefield. Each of those creatures is a black Zombie in addition to its other colors and types. Put Ever After on the bottom of its owner's library."}
- #:card{:code "soi",
-        :collector-number "110",
-        :name "Farbog Revenant",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f6de332-debb-49f3-8b29-1719060ab00c.png?1576384416",
-        :type-line "Creature — Spirit",
+        :collector-number "110",
+        :layout "normal",
+        :name "Farbog Revenant",
         :oracle-text
         "Skulk (This creature can't be blocked by creatures with greater power.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)"}
- #:card{:code "soi",
-        :collector-number "111",
-        :name "From Under the Floorboards",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3e644706-223d-4e56-9614-b224e281be2f.png?1576384423",
-        :type-line "Sorcery",
+        :collector-number "111",
+        :layout "normal",
+        :name "From Under the Floorboards",
         :oracle-text
         "Madness {X}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nCreate three tapped 2/2 black Zombie creature tokens and you gain 3 life. If this spell's madness cost was paid, instead create X of those tokens and you gain X life."}
- #:card{:code "soi",
-        :collector-number "112",
-        :name "Ghoulcaller's Accomplice",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f48828d-5f97-434f-a3b8-9e8c75cc8932.png?1576384430",
-        :type-line "Creature — Human Rogue",
+        :collector-number "112",
+        :layout "normal",
+        :name "Ghoulcaller's Accomplice",
         :oracle-text
         "{3}{B}, Exile Ghoulcaller's Accomplice from your graveyard: Create a 2/2 black Zombie creature token. Activate only as a sorcery."}
- #:card{:code "soi",
-        :collector-number "113",
-        :name "Ghoulsteed",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Horse",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed5ba8dd-d2cd-4ee6-bdb4-390968f1ff54.png?1576384438",
-        :type-line "Creature — Zombie Horse",
+        :collector-number "113",
+        :layout "normal",
+        :name "Ghoulsteed",
         :oracle-text
         "{2}{B}, Discard two cards: Return Ghoulsteed from your graveyard to the battlefield tapped."}
- #:card{:code "soi",
-        :collector-number "114",
-        :name "Gisa's Bidding",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e01e904c-7d8e-447b-90cb-1f4ae3fb304d.png?1576384444",
-        :type-line "Sorcery",
+        :collector-number "114",
+        :layout "normal",
+        :name "Gisa's Bidding",
         :oracle-text
         "Create two 2/2 black Zombie creature tokens.\nMadness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "115",
-        :name "Grotesque Mutation",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce84d54c-ef63-4b90-a2b6-99a4aa21c02d.png?1576384451",
-        :type-line "Instant",
+        :collector-number "115",
+        :layout "normal",
+        :name "Grotesque Mutation",
         :oracle-text
         "Target creature gets +3/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"}
  #:card{:code "soi",
@@ -1216,6 +1331,7 @@
         :name "Heir of Falkenrath // Heir to the Night",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf2ad186-4d85-4628-ae84-3c58c88d34cb.png?1576384463",
@@ -1226,24 +1342,26 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/c/f/cf2ad186-4d85-4628-ae84-3c58c88d34cb.png?1576384463",
           :type-line "Creature — Vampire Berserker",
           :oracle-text "Flying"}]}
- #:card{:code "soi",
-        :collector-number "117",
-        :name "Hound of the Farbogs",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Dog",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0fc37615-ef72-4176-9e94-080e56af1d8a.png?1576384469",
-        :type-line "Creature — Zombie Dog",
+        :collector-number "117",
+        :layout "normal",
+        :name "Hound of the Farbogs",
         :oracle-text
         "Delirium — Hound of the Farbogs has menace as long as there are four or more card types among cards in your graveyard. (A creature with menace can't be blocked except by two or more creatures.)"}
- #:card{:code "soi",
-        :collector-number "118",
-        :name "Indulgent Aristocrat",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f24200d4-cd98-424c-bc2f-69f8b361d8fc.png?1576384475",
-        :type-line "Creature — Vampire Noble",
+        :collector-number "118",
+        :layout "normal",
+        :name "Indulgent Aristocrat",
         :oracle-text
         "Lifelink\n{2}, Sacrifice a creature: Put a +1/+1 counter on each Vampire you control."}
  #:card{:code "soi",
@@ -1251,6 +1369,7 @@
         :name "Kindly Stranger // Demon-Possessed Witch",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e326d5f4-63e1-45fa-8c48-6fdc05709c52.png?1576384488",
@@ -1262,272 +1381,299 @@
           :type-line "Creature — Human Shaman",
           :oracle-text
           "When this creature transforms into Demon-Possessed Witch, you may destroy target creature."}]}
- #:card{:code "soi",
-        :collector-number "120",
-        :name "Liliana's Indignation",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/8/3817ea1a-b3d8-46f1-ac6c-69caf2466bab.png?1576384494",
-        :type-line "Sorcery",
+        :collector-number "120",
+        :layout "normal",
+        :name "Liliana's Indignation",
         :oracle-text
         "Mill X cards. Target player loses 2 life for each creature card put into your graveyard this way."}
- #:card{:code "soi",
-        :collector-number "121",
-        :name "Macabre Waltz",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6ec8571-690e-405f-89d5-b7cc99e8ee63.png?1576384500",
-        :type-line "Sorcery",
+        :collector-number "121",
+        :layout "normal",
+        :name "Macabre Waltz",
         :oracle-text
         "Return up to two target creature cards from your graveyard to your hand, then discard a card."}
- #:card{:code "soi",
-        :collector-number "122",
-        :name "Markov Dreadknight",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fa3ed9d2-9053-4583-a226-0ab49bbdab6e.png?1576384508",
-        :type-line "Creature — Vampire Knight",
+        :collector-number "122",
+        :layout "normal",
+        :name "Markov Dreadknight",
         :oracle-text
         "Flying\n{2}{B}, Discard a card: Put two +1/+1 counters on Markov Dreadknight."}
- #:card{:code "soi",
-        :collector-number "123",
-        :name "Merciless Resolve",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/5/356af156-a059-416c-b78b-d9058b742818.png?1576384515",
-        :type-line "Instant",
+        :collector-number "123",
+        :layout "normal",
+        :name "Merciless Resolve",
         :oracle-text
         "As an additional cost to cast this spell, sacrifice a creature or land.\nDraw two cards."}
- #:card{:code "soi",
-        :collector-number "124",
-        :name "Mindwrack Demon",
-        :layout "normal",
+ #:card{:type-line "Creature — Demon",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b804cb9c-349e-4143-a372-cf65470d5b46.png?1576384521",
-        :type-line "Creature — Demon",
+        :collector-number "124",
+        :layout "normal",
+        :name "Mindwrack Demon",
         :oracle-text
         "Flying, trample\nWhen Mindwrack Demon enters the battlefield, mill four cards.\nDelirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "125",
-        :name "Morkrut Necropod",
-        :layout "normal",
+ #:card{:type-line "Creature — Slug Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f726f215-d0a5-4e2c-b874-9dc209479993.png?1576384528",
-        :type-line "Creature — Slug Horror",
+        :collector-number "125",
+        :layout "normal",
+        :name "Morkrut Necropod",
         :oracle-text
         "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Morkrut Necropod attacks or blocks, sacrifice another creature or land."}
- #:card{:code "soi",
-        :collector-number "126",
-        :name "Murderous Compulsion",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33b94db1-ac8c-4667-81d5-408df0f30879.png?1576384534",
-        :type-line "Sorcery",
+        :collector-number "126",
+        :layout "normal",
+        :name "Murderous Compulsion",
         :oracle-text
         "Destroy target tapped creature.\nMadness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "127",
-        :name "Olivia's Bloodsworn",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fdda34e9-f28b-4606-8298-b2d0c15033e6.png?1576384540",
-        :type-line "Creature — Vampire Soldier",
+        :collector-number "127",
+        :layout "normal",
+        :name "Olivia's Bloodsworn",
         :oracle-text
         "Flying\nOlivia's Bloodsworn can't block.\n{R}: Target Vampire gains haste until end of turn."}
- #:card{:code "soi",
-        :collector-number "128",
-        :name "Pale Rider of Trostad",
-        :layout "normal",
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8dad70b8-0dec-4634-a31a-b78438a313a2.png?1576384546",
-        :type-line "Creature — Spirit",
+        :collector-number "128",
+        :layout "normal",
+        :name "Pale Rider of Trostad",
         :oracle-text
         "Skulk (This creature can't be blocked by creatures with greater power.)\nWhen Pale Rider of Trostad enters the battlefield, discard a card."}
- #:card{:code "soi",
-        :collector-number "129",
-        :name "Pick the Brain",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53503e59-6b6c-4de1-8528-458ab94f4e9a.png?1576384552",
-        :type-line "Sorcery",
+        :collector-number "129",
+        :layout "normal",
+        :name "Pick the Brain",
         :oracle-text
         "Target opponent reveals their hand. You choose a nonland card from it and exile that card.\nDelirium — If there are four or more card types among cards in your graveyard, search that player's graveyard, hand, and library for any number of cards with the same name as the exiled card, exile those cards, then that player shuffles."}
- #:card{:code "soi",
-        :collector-number "130",
-        :name "Rancid Rats",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie Rat",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/336e0a75-8104-4e88-aad0-af7ac3efc115.png?1576384558",
-        :type-line "Creature — Zombie Rat",
+        :collector-number "130",
+        :layout "normal",
+        :name "Rancid Rats",
         :oracle-text
         "Skulk (This creature can't be blocked by creatures with greater power.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)"}
- #:card{:code "soi",
-        :collector-number "131",
-        :name "Relentless Dead",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a0d7998-2f3d-43b8-a0be-6ff7e5c83223.png?1576384563",
-        :type-line "Creature — Zombie",
+        :collector-number "131",
+        :layout "normal",
+        :name "Relentless Dead",
         :oracle-text
         "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Relentless Dead dies, you may pay {B}. If you do, return it to its owner's hand.\nWhen Relentless Dead dies, you may pay {X}. If you do, return another target Zombie creature card with mana value X from your graveyard to the battlefield."}
- #:card{:code "soi",
-        :collector-number "132",
-        :name "Rottenheart Ghoul",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/933f0504-c611-4557-b1e6-f5be72154805.png?1576384569",
-        :type-line "Creature — Zombie",
+        :collector-number "132",
+        :layout "normal",
+        :name "Rottenheart Ghoul",
         :oracle-text
         "When Rottenheart Ghoul dies, target player discards a card."}
- #:card{:code "soi",
-        :collector-number "133",
-        :name "Sanitarium Skeleton",
-        :layout "normal",
+ #:card{:type-line "Creature — Skeleton",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/26b69045-2b22-4fba-868a-b91c93eb960a.png?1576384577",
-        :type-line "Creature — Skeleton",
+        :collector-number "133",
+        :layout "normal",
+        :name "Sanitarium Skeleton",
         :oracle-text
         "{2}{B}: Return Sanitarium Skeleton from your graveyard to your hand."}
- #:card{:code "soi",
-        :collector-number "134",
-        :name "Shamble Back",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/6/f6913dce-05f5-4e1b-9dd9-67eb347b5be8.png?1576384582",
-        :type-line "Sorcery",
+        :collector-number "134",
+        :layout "normal",
+        :name "Shamble Back",
         :oracle-text
         "Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token. You gain 2 life."}
- #:card{:code "soi",
-        :collector-number "135",
-        :name "Sinister Concoction",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/815ca911-ccc1-4466-8d12-054b8d241992.png?1576384588",
-        :type-line "Enchantment",
+        :collector-number "135",
+        :layout "normal",
+        :name "Sinister Concoction",
         :oracle-text
         "{B}, Pay 1 life, Mill a card, Discard a card, Sacrifice Sinister Concoction: Destroy target creature."}
- #:card{:code "soi",
-        :collector-number "136",
-        :name "Stallion of Ashmouth",
-        :layout "normal",
+ #:card{:type-line "Creature — Nightmare Horse",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b465a5d-3ce4-4c96-a3f3-4ad9716946c4.png?1576384594",
-        :type-line "Creature — Nightmare Horse",
+        :collector-number "136",
+        :layout "normal",
+        :name "Stallion of Ashmouth",
         :oracle-text
         "Delirium — {1}{B}: Stallion of Ashmouth gets +1/+1 until end of turn. Activate only if there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "137",
-        :name "Stromkirk Mentor",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aa90b7dc-fb90-411e-a762-06a800bae0cf.png?1576384600",
-        :type-line "Creature — Vampire Soldier",
+        :collector-number "137",
+        :layout "normal",
+        :name "Stromkirk Mentor",
         :oracle-text
         "When Stromkirk Mentor enters the battlefield, put a +1/+1 counter on another target Vampire you control."}
- #:card{:code "soi",
-        :collector-number "138",
-        :name "Throttle",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/953f9001-17b2-4087-8d87-5dbaa6c48b16.png?1576384606",
-        :type-line "Instant",
-        :oracle-text "Target creature gets -4/-4 until end of turn."}
- #:card{:code "soi",
-        :collector-number "139",
-        :name "To the Slaughter",
+        :collector-number "138",
         :layout "normal",
+        :name "Throttle",
+        :oracle-text "Target creature gets -4/-4 until end of turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a645c8d-7cfb-466b-9fd0-e1c26bf6f652.png?1576384612",
-        :type-line "Instant",
+        :collector-number "139",
+        :layout "normal",
+        :name "To the Slaughter",
         :oracle-text
         "Target player sacrifices a creature or planeswalker.\nDelirium — If there are four or more card types among cards in your graveyard, instead that player sacrifices a creature and a planeswalker."}
- #:card{:code "soi",
-        :collector-number "140",
-        :name "Tooth Collector",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/febc9f63-a225-438d-b835-07a561ba91f5.png?1576384619",
-        :type-line "Creature — Human Rogue",
+        :collector-number "140",
+        :layout "normal",
+        :name "Tooth Collector",
         :oracle-text
         "When Tooth Collector enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, target creature that player controls gets -1/-1 until end of turn."}
- #:card{:code "soi",
-        :collector-number "141",
-        :name "Triskaidekaphobia",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/8060b717-94c9-4962-9676-0b1ca6a357a8.png?1576384626",
-        :type-line "Enchantment",
+        :collector-number "141",
+        :layout "normal",
+        :name "Triskaidekaphobia",
         :oracle-text
         "At the beginning of your upkeep, choose one —\n• Each player with exactly 13 life loses the game, then each player gains 1 life.\n• Each player with exactly 13 life loses the game, then each player loses 1 life."}
- #:card{:code "soi",
-        :collector-number "142",
-        :name "Twins of Maurer Estate",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3cc13a00-bd58-44fa-93af-846001ca4f84.png?1576384633",
-        :type-line "Creature — Vampire",
+        :collector-number "142",
+        :layout "normal",
+        :name "Twins of Maurer Estate",
         :oracle-text
         "Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "143",
-        :name "Vampire Noble",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2435f17-0378-4480-8d56-d256245c7ced.png?1576384639",
-        :type-line "Creature — Vampire Noble",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "144",
-        :name "Vessel of Malignity",
+        :collector-number "143",
         :layout "normal",
+        :name "Vampire Noble",
+        :oracle-text ""}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/81b44857-1edb-4de4-b646-917101faf881.png?1576384645",
-        :type-line "Enchantment",
+        :collector-number "144",
+        :layout "normal",
+        :name "Vessel of Malignity",
         :oracle-text
         "{1}{B}, Sacrifice Vessel of Malignity: Target opponent exiles two cards from their hand. Activate only as a sorcery."}
- #:card{:code "soi",
-        :collector-number "145",
-        :name "Avacyn's Judgment",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/c/0c5f44ce-1464-4282-9afa-20e9ea44c613.png?1576384651",
-        :type-line "Sorcery",
+        :collector-number "145",
+        :layout "normal",
+        :name "Avacyn's Judgment",
         :oracle-text
         "Madness {X}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nAvacyn's Judgment deals 2 damage divided as you choose among any number of targets. If this spell's madness cost was paid, it deals X damage divided as you choose among those permanents and/or players instead."}
- #:card{:code "soi",
-        :collector-number "146",
-        :name "Bloodmad Vampire",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Berserker",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/6/b64e974a-3cf7-49f1-9d5a-c74f920f0169.png?1576384657",
-        :type-line "Creature — Vampire Berserker",
+        :collector-number "146",
+        :layout "normal",
+        :name "Bloodmad Vampire",
         :oracle-text
         "Whenever Bloodmad Vampire deals combat damage to a player, put a +1/+1 counter on it.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
  #:card{:code "soi",
@@ -1535,6 +1681,7 @@
         :name "Breakneck Rider // Neck Breaker",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe9f85e8-1e4c-4478-8344-71fae357b694.png?1576384668",
@@ -1546,14 +1693,15 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Attacking creatures you control get +1/+0 and have trample.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Neck Breaker."}]}
- #:card{:code "soi",
-        :collector-number "148",
-        :name "Burn from Within",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f8bdc165-4c6f-47e6-8bda-877c0be3613b.png?1576384673",
-        :type-line "Sorcery",
+        :collector-number "148",
+        :layout "normal",
+        :name "Burn from Within",
         :oracle-text
         "Burn from Within deals X damage to any target. If a creature is dealt damage this way, it loses indestructible until end of turn. If that creature would die this turn, exile it instead."}
  #:card{:code "soi",
@@ -1561,6 +1709,7 @@
         :name "Convicted Killer // Branded Howler",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f43f5f02-1b29-4e75-a6af-378dcc88c3df.png?1576384687",
@@ -1572,84 +1721,92 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "At the beginning of each upkeep, if a player cast two or more spells last turn, transform Branded Howler."}]}
- #:card{:code "soi",
-        :collector-number "150",
-        :name "Dance with Devils",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f1112ebe-2a42-48b9-b0e5-f708305d088a.png?1576384694",
-        :type-line "Instant",
+        :collector-number "150",
+        :layout "normal",
+        :name "Dance with Devils",
         :oracle-text
         "Create two 1/1 red Devil creature tokens. They have \"When this creature dies, it deals 1 damage to any target.\""}
- #:card{:code "soi",
-        :collector-number "151",
-        :name "Devils' Playground",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/1207e6eb-15a7-4ec4-91b3-880375704bb6.png?1576384700",
-        :type-line "Sorcery",
+        :collector-number "151",
+        :layout "normal",
+        :name "Devils' Playground",
         :oracle-text
         "Create four 1/1 red Devil creature tokens. They have \"When this creature dies, it deals 1 damage to any target.\""}
- #:card{:code "soi",
-        :collector-number "152",
-        :name "Dissension in the Ranks",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c1b563a-7856-40bf-954a-a0110ed4880d.png?1576384706",
-        :type-line "Instant",
+        :collector-number "152",
+        :layout "normal",
+        :name "Dissension in the Ranks",
         :oracle-text
         "Target blocking creature fights another target blocking creature."}
- #:card{:code "soi",
-        :collector-number "153",
-        :name "Dual Shot",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7ac4fa4-4a03-41a9-b7e4-c3a6da89472f.png?1576384713",
-        :type-line "Instant",
+        :collector-number "153",
+        :layout "normal",
+        :name "Dual Shot",
         :oracle-text
         "Dual Shot deals 1 damage to each of up to two target creatures."}
- #:card{:code "soi",
-        :collector-number "154",
-        :name "Ember-Eye Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98fe1e1e-b14a-4efe-894b-b9da635f007f.png?1576384719",
-        :type-line "Creature — Wolf",
+        :collector-number "154",
+        :layout "normal",
+        :name "Ember-Eye Wolf",
         :oracle-text
         "Haste\n{1}{R}: Ember-Eye Wolf gets +2/+0 until end of turn."}
- #:card{:code "soi",
-        :collector-number "155",
-        :name "Falkenrath Gorger",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Berserker",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/474895d8-1f2c-45bb-b721-4cf7c290eb23.png?1576384725",
-        :type-line "Creature — Vampire Berserker",
+        :collector-number "155",
+        :layout "normal",
+        :name "Falkenrath Gorger",
         :oracle-text
         "Each Vampire creature card you own that isn't on the battlefield has madness. The madness cost is equal to its mana cost. (If you discard a card with madness, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "156",
-        :name "Fiery Temper",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/61caf82d-e077-4931-a6ad-09fa7f04b36f.png?1576384730",
-        :type-line "Instant",
+        :collector-number "156",
+        :layout "normal",
+        :name "Fiery Temper",
         :oracle-text
         "Fiery Temper deals 3 damage to any target.\nMadness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "157",
-        :name "Flameblade Angel",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/1031ec22-c99f-4843-a7cf-c8332234eca8.png?1576384736",
-        :type-line "Creature — Angel",
+        :collector-number "157",
+        :layout "normal",
+        :name "Flameblade Angel",
         :oracle-text
         "Flying\nWhenever a source an opponent controls deals damage to you or a permanent you control, you may have Flameblade Angel deal 1 damage to that source's controller."}
  #:card{:code "soi",
@@ -1657,6 +1814,7 @@
         :name "Gatstaf Arsonists // Gatstaf Ravagers",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6ab67098-d3d5-4799-ae03-c734244f370e.png?1576384747",
@@ -1673,6 +1831,7 @@
         :name "Geier Reach Bandit // Vildin-Pack Alpha",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/4570117d-c04b-4bdc-b804-21d49154721b.png?1576384759",
@@ -1684,93 +1843,102 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Whenever a Werewolf enters the battlefield under your control, you may transform it.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Vildin-Pack Alpha."}]}
- #:card{:code "soi",
-        :collector-number "160",
-        :name "Geistblast",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/19b1dfd9-b717-4c23-b8e5-a6ec835b278a.png?1576384765",
-        :type-line "Instant",
+        :collector-number "160",
+        :layout "normal",
+        :name "Geistblast",
         :oracle-text
         "Geistblast deals 2 damage to any target.\n{2}{U}, Exile Geistblast from your graveyard: Copy target instant or sorcery spell you control. You may choose new targets for the copy."}
- #:card{:code "soi",
-        :collector-number "161",
-        :name "Gibbering Fiend",
-        :layout "normal",
+ #:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/5113c437-3276-4591-b95e-c2afb9d6329a.png?1576384771",
-        :type-line "Creature — Devil",
+        :collector-number "161",
+        :layout "normal",
+        :name "Gibbering Fiend",
         :oracle-text
         "When Gibbering Fiend enters the battlefield, it deals 1 damage to each opponent.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, Gibbering Fiend deals 1 damage to that player."}
- #:card{:code "soi",
-        :collector-number "162",
-        :name "Goldnight Castigator",
-        :layout "normal",
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca3d3c9a-d41b-4743-87a6-68d116460fe2.png?1576384777",
-        :type-line "Creature — Angel",
+        :collector-number "162",
+        :layout "normal",
+        :name "Goldnight Castigator",
         :oracle-text
         "Flying, haste\nIf a source would deal damage to you, it deals double that damage to you instead.\nIf a source would deal damage to Goldnight Castigator, it deals double that damage to Goldnight Castigator instead."}
- #:card{:code "soi",
-        :collector-number "163",
-        :name "Harness the Storm",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/5294d359-c599-40ed-9e06-2a3cc8624d6a.png?1576384783",
-        :type-line "Enchantment",
+        :collector-number "163",
+        :layout "normal",
+        :name "Harness the Storm",
         :oracle-text
         "Whenever you cast an instant or sorcery spell from your hand, you may cast target card with the same name as that spell from your graveyard. (You still pay its costs.)"}
- #:card{:code "soi",
-        :collector-number "164",
-        :name "Howlpack Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7379689-8e4f-4c23-9276-3510f70ba7ff.png?1576384790",
-        :type-line "Creature — Wolf",
+        :collector-number "164",
+        :layout "normal",
+        :name "Howlpack Wolf",
         :oracle-text
         "Howlpack Wolf can't block unless you control another Wolf or Werewolf."}
- #:card{:code "soi",
-        :collector-number "165",
-        :name "Hulking Devil",
-        :layout "normal",
+ #:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/031ecfc4-cc84-4f74-8eb1-3eaa234d8093.png?1576384796",
-        :type-line "Creature — Devil",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "166",
-        :name "Incorrigible Youths",
+        :collector-number "165",
         :layout "normal",
+        :name "Hulking Devil",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e826571-6f00-4b40-975b-d51b2b17b4a4.png?1576384803",
-        :type-line "Creature — Vampire",
+        :collector-number "166",
+        :layout "normal",
+        :name "Incorrigible Youths",
         :oracle-text
         "Haste\nMadness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "167",
-        :name "Inner Struggle",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b43be50a-8624-46f6-860a-39ffbfbdaa6a.png?1576384809",
-        :type-line "Instant",
+        :collector-number "167",
+        :layout "normal",
+        :name "Inner Struggle",
         :oracle-text
         "Target creature deals damage to itself equal to its power."}
- #:card{:code "soi",
-        :collector-number "168",
-        :name "Insolent Neonate",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/813104f6-e6e4-4709-8626-12fe4262a11f.png?1576384817",
-        :type-line "Creature — Vampire",
+        :collector-number "168",
+        :layout "normal",
+        :name "Insolent Neonate",
         :oracle-text
         "Menace (This creature can't be blocked except by two or more creatures.)\nDiscard a card, Sacrifice Insolent Neonate: Draw a card."}
  #:card{:code "soi",
@@ -1778,6 +1946,7 @@
         :name "Kessig Forgemaster // Flameheart Werewolf",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33e542ce-1106-489d-9563-bd62886b8ed3.png?1576384830",
@@ -1789,122 +1958,134 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Whenever Flameheart Werewolf blocks or becomes blocked by a creature, Flameheart Werewolf deals 2 damage to that creature.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Flameheart Werewolf."}]}
- #:card{:code "soi",
-        :collector-number "170",
-        :name "Lightning Axe",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/97d3105d-4cf9-48bf-8d12-27e856ae7a87.png?1576384836",
-        :type-line "Instant",
+        :collector-number "170",
+        :layout "normal",
+        :name "Lightning Axe",
         :oracle-text
         "As an additional cost to cast this spell, discard a card or pay {5}.\nLightning Axe deals 5 damage to target creature."}
- #:card{:code "soi",
-        :collector-number "171",
-        :name "Mad Prophet",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8f498cb6-2be2-4cd0-b002-564a0f006a69.png?1576384841",
-        :type-line "Creature — Human Shaman",
-        :oracle-text "Haste\n{T}, Discard a card: Draw a card."}
- #:card{:code "soi",
-        :collector-number "172",
-        :name "Magmatic Chasm",
+        :collector-number "171",
         :layout "normal",
+        :name "Mad Prophet",
+        :oracle-text "Haste\n{T}, Discard a card: Draw a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d4d5de8b-0286-4fca-86fd-e983a91f4a8c.png?1576384847",
-        :type-line "Sorcery",
-        :oracle-text "Creatures without flying can't block this turn."}
- #:card{:code "soi",
-        :collector-number "173",
-        :name "Malevolent Whispers",
+        :collector-number "172",
         :layout "normal",
+        :name "Magmatic Chasm",
+        :oracle-text "Creatures without flying can't block this turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/674d33d6-dfd4-4972-aaa3-6de0236a8c45.png?1576384854",
-        :type-line "Sorcery",
+        :collector-number "173",
+        :layout "normal",
+        :name "Malevolent Whispers",
         :oracle-text
         "Gain control of target creature until end of turn. Untap that creature. It gets +2/+0 and gains haste until end of turn.\nMadness {3}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "174",
-        :name "Pyre Hound",
-        :layout "normal",
+ #:card{:type-line "Creature — Elemental Dog",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5d19c5fb-01af-4ca4-af7e-00ec2a748afd.png?1576384860",
-        :type-line "Creature — Elemental Dog",
+        :collector-number "174",
+        :layout "normal",
+        :name "Pyre Hound",
         :oracle-text
         "Trample\nWhenever you cast an instant or sorcery spell, put a +1/+1 counter on Pyre Hound."}
- #:card{:code "soi",
-        :collector-number "175",
-        :name "Ravenous Bloodseeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Berserker",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc4d04bc-6263-43b0-9b01-894a532cd3ed.png?1576384867",
-        :type-line "Creature — Vampire Berserker",
+        :collector-number "175",
+        :layout "normal",
+        :name "Ravenous Bloodseeker",
         :oracle-text
         "Discard a card: Ravenous Bloodseeker gets +2/-2 until end of turn."}
- #:card{:code "soi",
-        :collector-number "176",
-        :name "Reduce to Ashes",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2e23215-ced7-4c44-8595-dd9df3d8227b.png?1576384872",
-        :type-line "Sorcery",
+        :collector-number "176",
+        :layout "normal",
+        :name "Reduce to Ashes",
         :oracle-text
         "Reduce to Ashes deals 5 damage to target creature. If that creature would die this turn, exile it instead."}
- #:card{:code "soi",
-        :collector-number "177",
-        :name "Rush of Adrenaline",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d0def54b-9f0a-4ab1-9df9-25506a06350c.png?1576384878",
-        :type-line "Instant",
+        :collector-number "177",
+        :layout "normal",
+        :name "Rush of Adrenaline",
         :oracle-text
         "Target creature gets +2/+1 and gains trample until end of turn."}
- #:card{:code "soi",
-        :collector-number "178",
-        :name "Sanguinary Mage",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Wizard",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ace86fac-769c-4440-9a40-318d7172555b.png?1576384883",
-        :type-line "Creature — Vampire Wizard",
+        :collector-number "178",
+        :layout "normal",
+        :name "Sanguinary Mage",
         :oracle-text
         "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"}
- #:card{:code "soi",
-        :collector-number "179",
-        :name "Scourge Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/072f47ad-3055-4bd2-b7fd-cfbd22720d58.png?1576384889",
-        :type-line "Creature — Wolf Horror",
+        :collector-number "179",
+        :layout "normal",
+        :name "Scourge Wolf",
         :oracle-text
         "First strike\nDelirium — Scourge Wolf has double strike as long as there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "180",
-        :name "Senseless Rage",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c779cb6-3454-4d5a-85a1-bea5cf8005b1.png?1576384895",
-        :type-line "Enchantment — Aura",
+        :collector-number "180",
+        :layout "normal",
+        :name "Senseless Rage",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +2/+2.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "181",
-        :name "Sin Prodder",
-        :layout "normal",
+ #:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/cefeb031-9dda-4717-a8d1-e2c21551e43a.png?1576384901",
-        :type-line "Creature — Devil",
+        :collector-number "181",
+        :layout "normal",
+        :name "Sin Prodder",
         :oracle-text
         "Menace\nAt the beginning of your upkeep, reveal the top card of your library. Any opponent may have you put that card into your graveyard. If a player does, Sin Prodder deals damage to that player equal to that card's mana value. Otherwise, put that card into your hand."}
  #:card{:code "soi",
@@ -1912,6 +2093,7 @@
         :name "Skin Invasion // Skin Shedder",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0243401-e3ae-41c6-a3a0-9cd4b330c200.png?1576384912",
@@ -1922,74 +2104,81 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/c/0/c0243401-e3ae-41c6-a3a0-9cd4b330c200.png?1576384912",
           :type-line "Creature — Insect Horror",
           :oracle-text ""}]}
- #:card{:code "soi",
-        :collector-number "183",
-        :name "Spiteful Motives",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/9/592d7349-d066-49b0-9920-c1ec1595e00d.png?1576384918",
-        :type-line "Enchantment — Aura",
+        :collector-number "183",
+        :layout "normal",
+        :name "Spiteful Motives",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +3/+0 and has first strike."}
- #:card{:code "soi",
-        :collector-number "184",
-        :name "Stensia Masquerade",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/8/48f1b024-d7d5-4e81-b016-06826e2b8bbf.png?1576384925",
-        :type-line "Enchantment",
+        :collector-number "184",
+        :layout "normal",
+        :name "Stensia Masquerade",
         :oracle-text
         "Attacking creatures you control have first strike.\nWhenever a Vampire you control deals combat damage to a player, put a +1/+1 counter on it.\nMadness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
- #:card{:code "soi",
-        :collector-number "185",
-        :name "Structural Distortion",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7895890-a774-4c7c-9f15-78b8aadfd9ef.png?1576384931",
-        :type-line "Sorcery",
+        :collector-number "185",
+        :layout "normal",
+        :name "Structural Distortion",
         :oracle-text
         "Exile target artifact or land. Structural Distortion deals 2 damage to that permanent's controller."}
- #:card{:code "soi",
-        :collector-number "186",
-        :name "Tormenting Voice",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2f5b0a20-2422-465e-b74e-4402b34fb57b.png?1576384937",
-        :type-line "Sorcery",
+        :collector-number "186",
+        :layout "normal",
+        :name "Tormenting Voice",
         :oracle-text
         "As an additional cost to cast this spell, discard a card.\nDraw two cards."}
- #:card{:code "soi",
-        :collector-number "187",
-        :name "Ulrich's Kindred",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/86d0ee03-a8c6-4f37-9885-60a26a2e2728.png?1576384943",
-        :type-line "Creature — Wolf",
+        :collector-number "187",
+        :layout "normal",
+        :name "Ulrich's Kindred",
         :oracle-text
         "Trample\n{3}{G}: Target attacking Wolf or Werewolf gains indestructible until end of turn."}
- #:card{:code "soi",
-        :collector-number "188",
-        :name "Uncaged Fury",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40440487-5ff2-43da-aa06-c649bf972ef1.png?1576384949",
-        :type-line "Instant",
+        :collector-number "188",
+        :layout "normal",
+        :name "Uncaged Fury",
         :oracle-text
         "Target creature gets +1/+1 and gains double strike until end of turn. (It deals both first-strike and regular combat damage.)"}
- #:card{:code "soi",
-        :collector-number "189",
-        :name "Vessel of Volatility",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/81647b86-2c84-4a14-8d5a-919f7a5b8bc7.png?1576384955",
-        :type-line "Enchantment",
+        :collector-number "189",
+        :layout "normal",
+        :name "Vessel of Volatility",
         :oracle-text
         "{1}{R}, Sacrifice Vessel of Volatility: Add {R}{R}{R}{R}."}
  #:card{:code "soi",
@@ -1997,6 +2186,7 @@
         :name "Village Messenger // Moonrise Intruder",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44deb8cf-b9d1-4a14-aeaf-e62cf3dc9ef2.png?1576384968",
@@ -2008,34 +2198,37 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Menace (This creature can't be blocked except by two or more creatures.)\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonrise Intruder."}]}
- #:card{:code "soi",
-        :collector-number "191",
-        :name "Voldaren Duelist",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Warrior",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2ca081d-6771-407e-ae03-3d6b2ec61dff.png?1576384974",
-        :type-line "Creature — Vampire Warrior",
+        :collector-number "191",
+        :layout "normal",
+        :name "Voldaren Duelist",
         :oracle-text
         "Haste\nWhen Voldaren Duelist enters the battlefield, target creature can't block this turn."}
- #:card{:code "soi",
-        :collector-number "192",
-        :name "Wolf of Devil's Breach",
-        :layout "normal",
+ #:card{:type-line "Creature — Elemental Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fedce04c-e7bc-4db0-94a1-66131761512c.png?1576384980",
-        :type-line "Creature — Elemental Wolf",
+        :collector-number "192",
+        :layout "normal",
+        :name "Wolf of Devil's Breach",
         :oracle-text
         "Whenever Wolf of Devil's Breach attacks, you may pay {1}{R} and discard a card. If you do, Wolf of Devil's Breach deals damage to target creature or planeswalker equal to the discarded card's mana value."}
- #:card{:code "soi",
-        :collector-number "193",
-        :name "Aim High",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98cd33cc-df39-4db1-a4a0-09756ec8372c.png?1576384986",
-        :type-line "Instant",
+        :collector-number "193",
+        :layout "normal",
+        :name "Aim High",
         :oracle-text
         "Untap target creature. It gets +2/+2 and gains reach until end of turn. (It can block creatures with flying.)"}
  #:card{:code "soi",
@@ -2043,6 +2236,7 @@
         :name "Autumnal Gloom // Ancient of the Equinox",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d41b07c8-f0c8-4654-bcc2-00c785c8c628.png?1576384999",
@@ -2053,84 +2247,92 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/d/4/d41b07c8-f0c8-4654-bcc2-00c785c8c628.png?1576384999",
           :type-line "Creature — Treefolk",
           :oracle-text "Trample, hexproof"}]}
- #:card{:code "soi",
-        :collector-number "195",
-        :name "Briarbridge Patrol",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f44a017b-40cb-4c15-b9ea-a3ed904e4e49.png?1576385004",
-        :type-line "Creature — Human Warrior",
+        :collector-number "195",
+        :layout "normal",
+        :name "Briarbridge Patrol",
         :oracle-text
         "Whenever Briarbridge Patrol deals damage to one or more creatures, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\nAt the beginning of each end step, if you sacrificed three or more Clues this turn, you may put a creature card from your hand onto the battlefield."}
- #:card{:code "soi",
-        :collector-number "196",
-        :name "Byway Courier",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Scout",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2f243a51-bbd3-4028-a469-469ab5591aae.png?1576385010",
-        :type-line "Creature — Human Scout",
+        :collector-number "196",
+        :layout "normal",
+        :name "Byway Courier",
         :oracle-text
         "When Byway Courier dies, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "197",
-        :name "Clip Wings",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f2835993-6c71-4a63-bad5-cb25aedc4a15.png?1576385016",
-        :type-line "Instant",
+        :collector-number "197",
+        :layout "normal",
+        :name "Clip Wings",
         :oracle-text
         "Each opponent sacrifices a creature with flying."}
- #:card{:code "soi",
-        :collector-number "198",
-        :name "Confront the Unknown",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c59557c3-aba2-4f80-8f37-accb7b991cb9.png?1576385022",
-        :type-line "Instant",
+        :collector-number "198",
+        :layout "normal",
+        :name "Confront the Unknown",
         :oracle-text
         "Investigate, then target creature gets +1/+1 until end of turn for each Clue you control. (To investigate, create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "199",
-        :name "Crawling Sensation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7f6d5abe-22b5-4ef1-ad74-af3e75e22a07.png?1576385029",
-        :type-line "Enchantment",
+        :collector-number "199",
+        :layout "normal",
+        :name "Crawling Sensation",
         :oracle-text
         "At the beginning of your upkeep, you may mill two cards.\nWhenever one or more land cards are put into your graveyard from anywhere for the first time each turn, create a 1/1 green Insect creature token."}
- #:card{:code "soi",
-        :collector-number "200",
-        :name "Cryptolith Rite",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/2910adcd-882a-46af-8236-ca1a9e2c19ab.png?1576385036",
-        :type-line "Enchantment",
+        :collector-number "200",
+        :layout "normal",
+        :name "Cryptolith Rite",
         :oracle-text
         "Creatures you control have \"{T}: Add one mana of any color.\""}
- #:card{:code "soi",
-        :collector-number "201",
-        :name "Cult of the Waxing Moon",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2a13669-4656-476a-8984-ec3d47960907.png?1576385042",
-        :type-line "Creature — Human Shaman",
+        :collector-number "201",
+        :layout "normal",
+        :name "Cult of the Waxing Moon",
         :oracle-text
         "Whenever a permanent you control transforms into a non-Human creature, create a 2/2 green Wolf creature token."}
- #:card{:code "soi",
-        :collector-number "202",
-        :name "Deathcap Cultivator",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Druid",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc4aee46-ac42-4ede-ad06-906e2955a9d3.png?1576385047",
-        :type-line "Creature — Human Druid",
+        :collector-number "202",
+        :layout "normal",
+        :name "Deathcap Cultivator",
         :oracle-text
         "{T}: Add {B} or {G}.\nDelirium — Deathcap Cultivator has deathtouch as long as there are four or more card types among cards in your graveyard."}
  #:card{:code "soi",
@@ -2138,6 +2340,7 @@
         :name "Duskwatch Recruiter // Krallenhorde Howler",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1915d93-c7dd-4bb7-bd5c-63a359a02b97.png?1576385062",
@@ -2149,53 +2352,58 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Creature spells you cast cost {1} less to cast.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Howler."}]}
- #:card{:code "soi",
-        :collector-number "204",
-        :name "Equestrian Skill",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f9af14d1-a304-4744-9d6f-9ff5fcd92ad3.png?1576385069",
-        :type-line "Enchantment — Aura",
+        :collector-number "204",
+        :layout "normal",
+        :name "Equestrian Skill",
         :oracle-text
         "Enchant creature\nEnchanted creature gets +3/+3.\nAs long as enchanted creature is a Human, it has trample."}
- #:card{:code "soi",
-        :collector-number "205",
-        :name "Fork in the Road",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a7ad701-65c3-494a-8986-b4ea1bab46bc.png?1576385075",
-        :type-line "Sorcery",
+        :collector-number "205",
+        :layout "normal",
+        :name "Fork in the Road",
         :oracle-text
         "Search your library for up to two basic land cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle."}
- #:card{:code "soi",
-        :collector-number "206",
-        :name "Gloomwidow",
-        :layout "normal",
+ #:card{:type-line "Creature — Spider",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee04dfd8-e704-46d7-bdf8-b0b2ee747a49.png?1576385082",
-        :type-line "Creature — Spider",
+        :collector-number "206",
+        :layout "normal",
+        :name "Gloomwidow",
         :oracle-text
         "Reach\nGloomwidow can block only creatures with flying."}
- #:card{:code "soi",
-        :collector-number "207",
-        :name "Graf Mole",
-        :layout "normal",
+ #:card{:type-line "Creature — Mole Beast",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/25a40334-65d8-46d2-9c56-389e9b32107c.png?1576385088",
-        :type-line "Creature — Mole Beast",
-        :oracle-text "Whenever you sacrifice a Clue, you gain 3 life."}
- #:card{:code "soi",
-        :collector-number "208",
-        :name "Groundskeeper",
+        :collector-number "207",
         :layout "normal",
+        :name "Graf Mole",
+        :oracle-text "Whenever you sacrifice a Clue, you gain 3 life."}
+ #:card{:type-line "Creature — Human Druid",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae029a5b-bcfb-4004-86aa-aaeca561545c.png?1576385094",
-        :type-line "Creature — Human Druid",
+        :collector-number "208",
+        :layout "normal",
+        :name "Groundskeeper",
         :oracle-text
         "{1}{G}: Return target basic land card from your graveyard to your hand."}
  #:card{:code "soi",
@@ -2204,6 +2412,7 @@
         "Hermit of the Natterknolls // Lone Wolf of the Natterknolls",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d5e84d80-b5a6-4cd1-9f31-f6ca46bf2c0c.png?1576385105",
@@ -2220,6 +2429,7 @@
         :name "Hinterland Logger // Timber Shredder",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14529bed-9632-4d58-8edc-c5a1359f6604.png?1576385116",
@@ -2231,44 +2441,48 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Trample\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Timber Shredder."}]}
- #:card{:code "soi",
-        :collector-number "211",
-        :name "Howlpack Resurgence",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0063470-3728-4d7e-8f77-5e9c9c7d6a6a.png?1576385122",
-        :type-line "Enchantment",
+        :collector-number "211",
+        :layout "normal",
+        :name "Howlpack Resurgence",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nEach creature you control that's a Wolf or a Werewolf gets +1/+1 and has trample."}
- #:card{:code "soi",
-        :collector-number "212",
-        :name "Inexorable Blob",
-        :layout "normal",
+ #:card{:type-line "Creature — Ooze",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/0210ff44-19d9-4d24-9d32-f1f9f219d9e0.png?1576385128",
-        :type-line "Creature — Ooze",
+        :collector-number "212",
+        :layout "normal",
+        :name "Inexorable Blob",
         :oracle-text
         "Delirium — Whenever Inexorable Blob attacks, if there are four or more card types among cards in your graveyard, create a 3/3 green Ooze creature token that's tapped and attacking."}
- #:card{:code "soi",
-        :collector-number "213",
-        :name "Intrepid Provisioner",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Scout",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da3ac63b-8386-4175-9555-84c54566f5b4.png?1576385134",
-        :type-line "Creature — Human Scout",
+        :collector-number "213",
+        :layout "normal",
+        :name "Intrepid Provisioner",
         :oracle-text
         "Trample\nWhen Intrepid Provisioner enters the battlefield, another target Human you control gets +2/+2 until end of turn."}
- #:card{:code "soi",
-        :collector-number "214",
-        :name "Kessig Dire Swine",
-        :layout "normal",
+ #:card{:type-line "Creature — Boar Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/9235ac46-dac9-46e6-9c7f-a69caaee1a2e.png?1576385139",
-        :type-line "Creature — Boar Horror",
+        :collector-number "214",
+        :layout "normal",
+        :name "Kessig Dire Swine",
         :oracle-text
         "Delirium — Kessig Dire Swine has trample as long as there are four or more card types among cards in your graveyard."}
  #:card{:code "soi",
@@ -2276,6 +2490,7 @@
         :name "Lambholt Pacifist // Lambholt Butcher",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23f3fa96-6276-463e-8033-a64c8f06c933.png?1576385150",
@@ -2287,94 +2502,103 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "At the beginning of each upkeep, if a player cast two or more spells last turn, transform Lambholt Butcher."}]}
- #:card{:code "soi",
-        :collector-number "216",
-        :name "Loam Dryad",
-        :layout "normal",
+ #:card{:type-line "Creature — Dryad Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/61c9441d-18d9-4ec6-859e-e9a7893b54e3.png?1576385156",
-        :type-line "Creature — Dryad Horror",
+        :collector-number "216",
+        :layout "normal",
+        :name "Loam Dryad",
         :oracle-text
         "{T}, Tap an untapped creature you control: Add one mana of any color."}
- #:card{:code "soi",
-        :collector-number "217",
-        :name "Might Beyond Reason",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a274689-82f1-488a-baf8-cd8ef3477b72.png?1576385162",
-        :type-line "Instant",
+        :collector-number "217",
+        :layout "normal",
+        :name "Might Beyond Reason",
         :oracle-text
         "Put two +1/+1 counters on target creature.\nDelirium — Put three +1/+1 counters on that creature instead if there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "218",
-        :name "Moldgraf Scavenger",
-        :layout "normal",
+ #:card{:type-line "Creature — Fungus",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76755763-7c02-451f-b799-2106a3a4973b.png?1576385167",
-        :type-line "Creature — Fungus",
+        :collector-number "218",
+        :layout "normal",
+        :name "Moldgraf Scavenger",
         :oracle-text
         "Delirium — Moldgraf Scavenger gets +3/+0 as long as there are four or more card types among cards in your graveyard."}
- #:card{:code "soi",
-        :collector-number "219",
-        :name "Moonlight Hunt",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9633603-a80f-448d-98d9-00064d379c26.png?1576385173",
-        :type-line "Instant",
+        :collector-number "219",
+        :layout "normal",
+        :name "Moonlight Hunt",
         :oracle-text
         "Choose target creature you don't control. Each creature you control that's a Wolf or a Werewolf deals damage equal to its power to that creature."}
- #:card{:code "soi",
-        :collector-number "220",
-        :name "Obsessive Skinner",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2cc3b9d-4b32-4b2e-9027-876210ccf18e.png?1576385178",
-        :type-line "Creature — Human Rogue",
+        :collector-number "220",
+        :layout "normal",
+        :name "Obsessive Skinner",
         :oracle-text
         "When Obsessive Skinner enters the battlefield, put a +1/+1 counter on target creature.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, put a +1/+1 counter on target creature."}
- #:card{:code "soi",
-        :collector-number "221",
-        :name "Pack Guardian",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf Spirit",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/64dcc129-88c2-4f20-be0b-36c4141688c9.png?1576385183",
-        :type-line "Creature — Wolf Spirit",
+        :collector-number "221",
+        :layout "normal",
+        :name "Pack Guardian",
         :oracle-text
         "Flash (You may cast this spell any time you could cast an instant.)\nWhen Pack Guardian enters the battlefield, you may discard a land card. If you do, create a 2/2 green Wolf creature token."}
- #:card{:code "soi",
-        :collector-number "222",
-        :name "Quilled Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fa1569b5-94ef-4ba5-98c6-f1bd4f73c7d5.png?1576385189",
-        :type-line "Creature — Wolf",
+        :collector-number "222",
+        :layout "normal",
+        :name "Quilled Wolf",
         :oracle-text
         "{5}{G}: Quilled Wolf gets +4/+4 until end of turn."}
- #:card{:code "soi",
-        :collector-number "223",
-        :name "Rabid Bite",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/f/2f573622-877b-4d21-adfc-40a32b7c2e6d.png?1576385195",
-        :type-line "Sorcery",
+        :collector-number "223",
+        :layout "normal",
+        :name "Rabid Bite",
         :oracle-text
         "Target creature you control deals damage equal to its power to target creature you don't control."}
- #:card{:code "soi",
-        :collector-number "224",
-        :name "Root Out",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ffb04258-d6ab-440c-85d2-05a995aeba2c.png?1576385201",
-        :type-line "Sorcery",
+        :collector-number "224",
+        :layout "normal",
+        :name "Root Out",
         :oracle-text
         "Destroy target artifact or enchantment.\nInvestigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
  #:card{:code "soi",
@@ -2382,6 +2606,7 @@
         :name "Sage of Ancient Lore // Werewolf of Ancient Hunger",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94c5f7fe-9ca6-4040-bf7c-062ab22e6a02.png?1576385212",
@@ -2393,34 +2618,37 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "Vigilance, trample\nWerewolf of Ancient Hunger's power and toughness are each equal to the total number of cards in all players' hands.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf of Ancient Hunger."}]}
- #:card{:code "soi",
-        :collector-number "226",
-        :name "Seasons Past",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/668afd78-3cf5-4daf-8dfb-fca90de0ae5a.png?1576385218",
-        :type-line "Sorcery",
+        :collector-number "226",
+        :layout "normal",
+        :name "Seasons Past",
         :oracle-text
         "Return any number of cards with different mana values from your graveyard to your hand. Put Seasons Past on the bottom of its owner's library."}
- #:card{:code "soi",
-        :collector-number "227",
-        :name "Second Harvest",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d0c5127-cd17-4859-8de8-165c4c748e89.png?1576385224",
-        :type-line "Instant",
+        :collector-number "227",
+        :layout "normal",
+        :name "Second Harvest",
         :oracle-text
         "For each token you control, create a token that's a copy of that permanent."}
- #:card{:code "soi",
-        :collector-number "228",
-        :name "Silverfur Partisan",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf Warrior",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a20f5392-5cde-4326-a322-7463ec4b0515.png?1576385230",
-        :type-line "Creature — Wolf Warrior",
+        :collector-number "228",
+        :layout "normal",
+        :name "Silverfur Partisan",
         :oracle-text
         "Trample\nWhenever a Wolf or Werewolf you control becomes the target of an instant or sorcery spell, create a 2/2 green Wolf creature token."}
  #:card{:code "soi",
@@ -2428,6 +2656,7 @@
         :name "Solitary Hunter // One of the Pack",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c200ef1-ea08-48d4-ab50-77940a0e08c3.png?1576385243",
@@ -2439,133 +2668,146 @@
           :type-line "Creature — Werewolf",
           :oracle-text
           "At the beginning of each upkeep, if a player cast two or more spells last turn, transform One of the Pack."}]}
- #:card{:code "soi",
-        :collector-number "230",
-        :name "Soul Swallower",
-        :layout "normal",
+ #:card{:type-line "Creature — Wurm",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22fbc045-2c86-4816-8622-db56929ae94d.png?1576385248",
-        :type-line "Creature — Wurm",
+        :collector-number "230",
+        :layout "normal",
+        :name "Soul Swallower",
         :oracle-text
         "Trample\nDelirium — At the beginning of your upkeep, if there are four or more card types among cards in your graveyard, put three +1/+1 counters on Soul Swallower."}
- #:card{:code "soi",
-        :collector-number "231",
-        :name "Stoic Builder",
-        :layout "normal",
+ #:card{:type-line "Creature — Human",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/0820f17c-ab4a-4a14-84ff-4ea200bef112.png?1576385254",
-        :type-line "Creature — Human",
+        :collector-number "231",
+        :layout "normal",
+        :name "Stoic Builder",
         :oracle-text
         "When Stoic Builder enters the battlefield, you may return target land card from your graveyard to your hand."}
- #:card{:code "soi",
-        :collector-number "232",
-        :name "Thornhide Wolves",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c699b5f-a2de-4c87-a7bc-16be4bc0a8cd.png?1576385260",
-        :type-line "Creature — Wolf",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "233",
-        :name "Tireless Tracker",
+        :collector-number "232",
         :layout "normal",
+        :name "Thornhide Wolves",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Human Scout",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee8e9928-d9b2-4570-adb8-44b34115decd.png?1576385266",
-        :type-line "Creature — Human Scout",
+        :collector-number "233",
+        :layout "normal",
+        :name "Tireless Tracker",
         :oracle-text
         "Whenever a land enters the battlefield under your control, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker."}
- #:card{:code "soi",
-        :collector-number "234",
-        :name "Traverse the Ulvenwald",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bbc69a17-db08-4b4a-bc37-98a12ea108dc.png?1576385271",
-        :type-line "Sorcery",
+        :collector-number "234",
+        :layout "normal",
+        :name "Traverse the Ulvenwald",
         :oracle-text
         "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nDelirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "soi",
-        :collector-number "235",
-        :name "Ulvenwald Hydra",
-        :layout "normal",
+ #:card{:type-line "Creature — Hydra",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a5d48df-7d21-462c-b721-b769a785bb00.png?1576385278",
-        :type-line "Creature — Hydra",
+        :collector-number "235",
+        :layout "normal",
+        :name "Ulvenwald Hydra",
         :oracle-text
         "Reach\nUlvenwald Hydra's power and toughness are each equal to the number of lands you control.\nWhen Ulvenwald Hydra enters the battlefield, you may search your library for a land card, put it onto the battlefield tapped, then shuffle."}
- #:card{:code "soi",
-        :collector-number "236",
-        :name "Ulvenwald Mysteries",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/911a2b5d-7e2d-4358-8e38-cbae7192e4d4.png?1576385285",
-        :type-line "Enchantment",
+        :collector-number "236",
+        :layout "normal",
+        :name "Ulvenwald Mysteries",
         :oracle-text
         "Whenever a nontoken creature you control dies, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, create a 1/1 white Human Soldier creature token."}
- #:card{:code "soi",
-        :collector-number "237",
-        :name "Vessel of Nascency",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/89533790-38c2-4b53-90fa-8abf8c1a6abb.png?1576385291",
-        :type-line "Enchantment",
+        :collector-number "237",
+        :layout "normal",
+        :name "Vessel of Nascency",
         :oracle-text
         "{1}{G}, Sacrifice Vessel of Nascency: Reveal the top four cards of your library. You may put an artifact, creature, enchantment, land, or planeswalker card from among them into your hand. Put the rest into your graveyard."}
- #:card{:code "soi",
-        :collector-number "238",
-        :name "Veteran Cathar",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a471e83e-c0e0-4af6-bfcf-7f4a39f6fccf.png?1576385297",
-        :type-line "Creature — Human Soldier",
+        :collector-number "238",
+        :layout "normal",
+        :name "Veteran Cathar",
         :oracle-text
         "{3}{W}: Target Human gains double strike until end of turn."}
- #:card{:code "soi",
-        :collector-number "239",
-        :name "Watcher in the Web",
-        :layout "normal",
+ #:card{:type-line "Creature — Spider",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/be1ee2d4-5992-4081-9907-4bc26750aff0.png?1576385304",
-        :type-line "Creature — Spider",
+        :collector-number "239",
+        :layout "normal",
+        :name "Watcher in the Web",
         :oracle-text
         "Reach (This creature can block creatures with flying.)\nWatcher in the Web can block an additional seven creatures each combat."}
- #:card{:code "soi",
-        :collector-number "240",
-        :name "Weirding Wood",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8033b16-7a48-4455-9b1b-f62ceb7b9b61.png?1576385311",
-        :type-line "Enchantment — Aura",
+        :collector-number "240",
+        :layout "normal",
+        :name "Weirding Wood",
         :oracle-text
         "Enchant land\nWhen Weirding Wood enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\nEnchanted land has \"{T}: Add two mana of any one color.\""}
- #:card{:code "soi",
-        :collector-number "241",
-        :name "Altered Ego",
-        :layout "normal",
+ #:card{:type-line "Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c05da08d-8fac-47bc-80d8-78a80d1463d2.png?1576385321",
-        :type-line "Creature — Shapeshifter",
+        :collector-number "241",
+        :layout "normal",
+        :name "Altered Ego",
         :oracle-text
         "This spell can't be countered.\nYou may have Altered Ego enter the battlefield as a copy of any creature on the battlefield, except it enters with X additional +1/+1 counters on it."}
- #:card{:code "soi",
-        :collector-number "242",
-        :name "Anguished Unmaking",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/90ced4fa-6509-4f7a-9da7-efc70de6f90c.png?1576385327",
-        :type-line "Instant",
+        :collector-number "242",
+        :layout "normal",
+        :name "Anguished Unmaking",
         :oracle-text
         "Exile target nonland permanent. You lose 3 life."}
  #:card{:code "soi",
@@ -2573,6 +2815,7 @@
         :name "Arlinn Kord // Arlinn, Embraced by the Moon",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b37aa12c-a6b3-4cf8-b5a4-0a999ff12d02.png?1576385339",
@@ -2584,124 +2827,136 @@
           :type-line "Legendary Planeswalker — Arlinn",
           :oracle-text
           "+1: Creatures you control get +1/+1 and gain trample until end of turn.\n−1: Arlinn, Embraced by the Moon deals 3 damage to any target. Transform Arlinn, Embraced by the Moon.\n−6: You get an emblem with \"Creatures you control have haste and '{T}: This creature deals damage equal to its power to any target.'\""}]}
- #:card{:code "soi",
-        :collector-number "244",
-        :name "Fevered Visions",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3ee3fc2b-c2e4-421d-ac1d-6a111bb44f44.png?1576385345",
-        :type-line "Enchantment",
+        :collector-number "244",
+        :layout "normal",
+        :name "Fevered Visions",
         :oracle-text
         "At the beginning of each player's end step, that player draws a card. If the player is your opponent and has four or more cards in hand, Fevered Visions deals 2 damage to that player."}
- #:card{:code "soi",
-        :collector-number "245",
-        :name "The Gitrog Monster",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Frog Horror",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/5790dd89-2be5-4a77-9450-2d3c1422bfc9.png?1576385351",
-        :type-line "Legendary Creature — Frog Horror",
+        :collector-number "245",
+        :layout "normal",
+        :name "The Gitrog Monster",
         :oracle-text
         "Deathtouch\nAt the beginning of your upkeep, sacrifice The Gitrog Monster unless you sacrifice a land.\nYou may play an additional land on each of your turns.\nWhenever one or more land cards are put into your graveyard from anywhere, draw a card."}
- #:card{:code "soi",
-        :collector-number "246",
-        :name "Invocation of Saint Traft",
-        :layout "normal",
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c64077da-9e55-4ced-91f7-db478383172f.png?1576385358",
-        :type-line "Enchantment — Aura",
+        :collector-number "246",
+        :layout "normal",
+        :name "Invocation of Saint Traft",
         :oracle-text
         "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, create a 4/4 white Angel creature token with flying that's tapped and attacking. Exile that token at end of combat.\""}
- #:card{:code "soi",
-        :collector-number "247",
-        :name "Nahiri, the Harbinger",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Nahiri",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/4/84d70487-21d1-4897-ac20-2a996e893b5b.png?1576385364",
-        :type-line "Legendary Planeswalker — Nahiri",
+        :collector-number "247",
+        :layout "normal",
+        :name "Nahiri, the Harbinger",
         :oracle-text
         "+2: You may discard a card. If you do, draw a card.\n−2: Exile target enchantment, tapped artifact, or tapped creature.\n−8: Search your library for an artifact or creature card, put it onto the battlefield, then shuffle. It gains haste. Return it to your hand at the beginning of the next end step."}
- #:card{:code "soi",
-        :collector-number "248",
-        :name "Olivia, Mobilized for War",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/7297dd81-8367-42e9-abf9-9227e202e7ae.png?1576385369",
-        :type-line "Legendary Creature — Vampire Knight",
+        :collector-number "248",
+        :layout "normal",
+        :name "Olivia, Mobilized for War",
         :oracle-text
         "Flying\nWhenever another creature enters the battlefield under your control, you may discard a card. If you do, put a +1/+1 counter on that creature, it gains haste until end of turn, and it becomes a Vampire in addition to its other types."}
- #:card{:code "soi",
-        :collector-number "249",
-        :name "Prized Amalgam",
-        :layout "normal",
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/634cedb6-8b00-4f4b-8790-541188955295.png?1576385376",
-        :type-line "Creature — Zombie",
+        :collector-number "249",
+        :layout "normal",
+        :name "Prized Amalgam",
         :oracle-text
         "Whenever a creature enters the battlefield, if it entered from your graveyard or you cast it from your graveyard, return Prized Amalgam from your graveyard to the battlefield tapped at the beginning of the next end step."}
- #:card{:code "soi",
-        :collector-number "250",
-        :name "Sigarda, Heron's Grace",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db953cb9-52b4-4bf0-86ab-2c3af2faeccf.png?1576385382",
-        :type-line "Legendary Creature — Angel",
+        :collector-number "250",
+        :layout "normal",
+        :name "Sigarda, Heron's Grace",
         :oracle-text
         "Flying\nYou and Humans you control have hexproof.\n{2}, Exile a card from your graveyard: Create a 1/1 white Human Soldier creature token."}
- #:card{:code "soi",
-        :collector-number "251",
-        :name "Sorin, Grim Nemesis",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Sorin",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2933144-c931-498a-9e91-f5165873c3b7.png?1576385388",
-        :type-line "Legendary Planeswalker — Sorin",
+        :collector-number "251",
+        :layout "normal",
+        :name "Sorin, Grim Nemesis",
         :oracle-text
         "+1: Reveal the top card of your library and put that card into your hand. Each opponent loses life equal to its mana value.\n−X: Sorin, Grim Nemesis deals X damage to target creature or planeswalker and you gain X life.\n−9: Create a number of 1/1 black Vampire Knight creature tokens with lifelink equal to the highest life total among all players."}
- #:card{:code "soi",
-        :collector-number "252",
-        :name "Brain in a Jar",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88ecfcbe-e8db-4f08-aa8b-5b7b3e6c6ce7.png?1576385394",
-        :type-line "Artifact",
+        :collector-number "252",
+        :layout "normal",
+        :name "Brain in a Jar",
         :oracle-text
         "{1}, {T}: Put a charge counter on Brain in a Jar, then you may cast an instant or sorcery spell with mana value equal to the number of charge counters on Brain in a Jar from your hand without paying its mana cost.\n{3}, {T}, Remove X charge counters from Brain in a Jar: Scry X."}
- #:card{:code "soi",
-        :collector-number "253",
-        :name "Corrupted Grafstone",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1ffa34cc-4042-4d2b-a7a0-eca0b593eeb6.png?1576385400",
-        :type-line "Artifact",
+        :collector-number "253",
+        :layout "normal",
+        :name "Corrupted Grafstone",
         :oracle-text
         "Corrupted Grafstone enters the battlefield tapped.\n{T}: Choose a color of a card in your graveyard. Add one mana of that color."}
- #:card{:code "soi",
-        :collector-number "254",
-        :name "Epitaph Golem",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Golem",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/937aaed7-d9ad-45e0-915c-df61316c606a.png?1576385408",
-        :type-line "Artifact Creature — Golem",
+        :collector-number "254",
+        :layout "normal",
+        :name "Epitaph Golem",
         :oracle-text
         "{2}: Put target card from your graveyard on the bottom of your library."}
- #:card{:code "soi",
-        :collector-number "255",
-        :name "Explosive Apparatus",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e7329a19-2f68-4d2c-a725-e0d862cd234e.png?1576385415",
-        :type-line "Artifact",
+        :collector-number "255",
+        :layout "normal",
+        :name "Explosive Apparatus",
         :oracle-text
         "{3}, {T}, Sacrifice Explosive Apparatus: It deals 2 damage to any target."}
  #:card{:code "soi",
@@ -2709,6 +2964,7 @@
         :name "Harvest Hand // Scrounged Scythe",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d200f98-3377-46a3-9197-3cbd95d03dbf.png?1576385426",
@@ -2720,34 +2976,37 @@
           :type-line "Artifact — Equipment",
           :oracle-text
           "Equipped creature gets +1/+1.\nAs long as equipped creature is a Human, it has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}]}
- #:card{:code "soi",
-        :collector-number "257",
-        :name "Haunted Cloak",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/f/ef142a2a-08e8-4344-8626-239690b3bb87.png?1576385432",
-        :type-line "Artifact — Equipment",
+        :collector-number "257",
+        :layout "normal",
+        :name "Haunted Cloak",
         :oracle-text
         "Equipped creature has vigilance, trample, and haste.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
- #:card{:code "soi",
-        :collector-number "258",
-        :name "Magnifying Glass",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f7a708d5-f757-4fcf-a167-5b5920c6adeb.png?1576385438",
-        :type-line "Artifact",
+        :collector-number "258",
+        :layout "normal",
+        :name "Magnifying Glass",
         :oracle-text
         "{T}: Add {C}.\n{4}, {T}: Investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
- #:card{:code "soi",
-        :collector-number "259",
-        :name "Murderer's Axe",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/696dcb79-4915-424f-ba8f-5363ae3395a6.png?1576385443",
-        :type-line "Artifact — Equipment",
+        :collector-number "259",
+        :layout "normal",
+        :name "Murderer's Axe",
         :oracle-text
         "Equipped creature gets +2/+2.\nEquip—Discard a card."}
  #:card{:code "soi",
@@ -2755,6 +3014,7 @@
         :name "Neglected Heirloom // Ashmouth Blade",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cc2ac21-d31f-4a0d-956a-dabb6e1f3b5a.png?1576385455",
@@ -2766,54 +3026,59 @@
           :type-line "Artifact — Equipment",
           :oracle-text
           "Equipped creature gets +3/+3 and has first strike.\nEquip {3}"}]}
- #:card{:code "soi",
-        :collector-number "261",
-        :name "Runaway Carriage",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c8ce5d3-0184-4cfb-a41d-3d58229b2a5f.png?1576385460",
-        :type-line "Artifact Creature — Construct",
+        :collector-number "261",
+        :layout "normal",
+        :name "Runaway Carriage",
         :oracle-text
         "Trample\nWhen Runaway Carriage attacks or blocks, sacrifice it at end of combat."}
- #:card{:code "soi",
-        :collector-number "262",
-        :name "Shard of Broken Glass",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/a/7a4924d7-f787-474b-beca-3b369903485c.png?1576385465",
-        :type-line "Artifact — Equipment",
+        :collector-number "262",
+        :layout "normal",
+        :name "Shard of Broken Glass",
         :oracle-text
         "Equipped creature gets +1/+0.\nWhenever equipped creature attacks, you may mill two cards.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
- #:card{:code "soi",
-        :collector-number "263",
-        :name "Skeleton Key",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/3168317b-b166-483e-9d9a-20cdfcdc255c.png?1576385471",
-        :type-line "Artifact — Equipment",
+        :collector-number "263",
+        :layout "normal",
+        :name "Skeleton Key",
         :oracle-text
         "Equipped creature has skulk. (It can't be blocked by creatures with greater power.)\nWhenever equipped creature deals combat damage to a player, you may draw a card. If you do, discard a card.\nEquip {2}"}
- #:card{:code "soi",
-        :collector-number "264",
-        :name "Slayer's Plate",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0810651-0301-46d4-b9d7-c2283ef4031a.png?1576385477",
-        :type-line "Artifact — Equipment",
+        :collector-number "264",
+        :layout "normal",
+        :name "Slayer's Plate",
         :oracle-text
         "Equipped creature gets +4/+2.\nWhenever equipped creature dies, if it was a Human, create a 1/1 white Spirit creature token with flying.\nEquip {3}"}
- #:card{:code "soi",
-        :collector-number "265",
-        :name "Tamiyo's Journal",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b474378c-5fa8-418f-8d76-23e78003ed18.png?1576385483",
-        :type-line "Legendary Artifact",
+        :collector-number "265",
+        :layout "normal",
+        :name "Tamiyo's Journal",
         :oracle-text
         "At the beginning of your upkeep, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")\n{T}, Sacrifice three Clues: Search your library for a card, put that card into your hand, then shuffle."}
  #:card{:code "soi",
@@ -2821,6 +3086,7 @@
         :name "Thraben Gargoyle // Stonewing Antagonizer",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f2687683-2986-4e22-97d9-7820c870475b.png?1576385495",
@@ -2830,143 +3096,157 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/f/2/f2687683-2986-4e22-97d9-7820c870475b.png?1576385495",
           :type-line "Artifact Creature — Gargoyle Horror",
           :oracle-text "Flying"}]}
- #:card{:code "soi",
-        :collector-number "267",
-        :name "True-Faith Censer",
-        :layout "normal",
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/1/815eb91c-06fa-4362-803e-e9bf7d374856.png?1576385501",
-        :type-line "Artifact — Equipment",
+        :collector-number "267",
+        :layout "normal",
+        :name "True-Faith Censer",
         :oracle-text
         "Equipped creature gets +1/+1 and has vigilance.\nAs long as equipped creature is a Human, it gets an additional +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
- #:card{:code "soi",
-        :collector-number "268",
-        :name "Wicker Witch",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Scarecrow",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/e/ae115587-012d-40ff-a20d-270fabf2f8c6.png?1576385506",
-        :type-line "Artifact Creature — Scarecrow",
-        :oracle-text ""}
- #:card{:code "soi",
-        :collector-number "269",
-        :name "Wild-Field Scarecrow",
+        :collector-number "268",
         :layout "normal",
+        :name "Wicker Witch",
+        :oracle-text ""}
+ #:card{:type-line "Artifact Creature — Scarecrow",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/1285b444-1668-4a3d-9fcd-8ce4e95c6d2f.png?1576385512",
-        :type-line "Artifact Creature — Scarecrow",
+        :collector-number "269",
+        :layout "normal",
+        :name "Wild-Field Scarecrow",
         :oracle-text
         "Defender\n{2}, Sacrifice Wild-Field Scarecrow: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle."}
- #:card{:code "soi",
-        :collector-number "270",
-        :name "Choked Estuary",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/9/995d44ca-626d-4c95-97af-ee53fa8baaf0.png?1576385517",
-        :type-line "Land",
+        :collector-number "270",
+        :layout "normal",
+        :name "Choked Estuary",
         :oracle-text
         "As Choked Estuary enters the battlefield, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters the battlefield tapped.\n{T}: Add {U} or {B}."}
- #:card{:code "soi",
-        :collector-number "271",
-        :name "Drownyard Temple",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5bb5657-18a1-455c-a87a-4e67971184ac.png?1576385523",
-        :type-line "Land",
+        :collector-number "271",
+        :layout "normal",
+        :name "Drownyard Temple",
         :oracle-text
         "{T}: Add {C}.\n{3}: Return Drownyard Temple from your graveyard to the battlefield tapped."}
- #:card{:code "soi",
-        :collector-number "272",
-        :name "Foreboding Ruins",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c26ee31-7e2a-4eed-b448-04989fb57523.png?1576385528",
-        :type-line "Land",
+        :collector-number "272",
+        :layout "normal",
+        :name "Foreboding Ruins",
         :oracle-text
         "As Foreboding Ruins enters the battlefield, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters the battlefield tapped.\n{T}: Add {B} or {R}."}
- #:card{:code "soi",
-        :collector-number "273",
-        :name "Forsaken Sanctuary",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0bd86cac-08c1-4db0-ab54-4bb65a771efe.png?1576385533",
-        :type-line "Land",
+        :collector-number "273",
+        :layout "normal",
+        :name "Forsaken Sanctuary",
         :oracle-text
         "Forsaken Sanctuary enters the battlefield tapped.\n{T}: Add {W} or {B}."}
- #:card{:code "soi",
-        :collector-number "274",
-        :name "Fortified Village",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1feb9dc1-671d-43ad-ae22-ed1a9916b140.png?1576385540",
-        :type-line "Land",
+        :collector-number "274",
+        :layout "normal",
+        :name "Fortified Village",
         :oracle-text
         "As Fortified Village enters the battlefield, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters the battlefield tapped.\n{T}: Add {G} or {W}."}
- #:card{:code "soi",
-        :collector-number "275",
-        :name "Foul Orchard",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/2378ac21-9912-40d7-972d-b1b71a8e4984.png?1576385546",
-        :type-line "Land",
+        :collector-number "275",
+        :layout "normal",
+        :name "Foul Orchard",
         :oracle-text
         "Foul Orchard enters the battlefield tapped.\n{T}: Add {B} or {G}."}
- #:card{:code "soi",
-        :collector-number "276",
-        :name "Game Trail",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/21cb5950-adaa-438d-998b-3a64bd4a2b3e.png?1576385553",
-        :type-line "Land",
+        :collector-number "276",
+        :layout "normal",
+        :name "Game Trail",
         :oracle-text
         "As Game Trail enters the battlefield, you may reveal a Mountain or Forest card from your hand. If you don't, Game Trail enters the battlefield tapped.\n{T}: Add {R} or {G}."}
- #:card{:code "soi",
-        :collector-number "277",
-        :name "Highland Lake",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/8/48b97a23-c4cf-47c9-9dbf-34215ea0e908.png?1576385559",
-        :type-line "Land",
+        :collector-number "277",
+        :layout "normal",
+        :name "Highland Lake",
         :oracle-text
         "Highland Lake enters the battlefield tapped.\n{T}: Add {U} or {R}."}
- #:card{:code "soi",
-        :collector-number "278",
-        :name "Port Town",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b866712a-c3ef-4a43-ac0f-146c7836f0d6.png?1576385566",
-        :type-line "Land",
+        :collector-number "278",
+        :layout "normal",
+        :name "Port Town",
         :oracle-text
         "As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.\n{T}: Add {W} or {U}."}
- #:card{:code "soi",
-        :collector-number "279",
-        :name "Stone Quarry",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e636cdc3-4b83-4f15-ad4a-6c8fa3533408.png?1576385573",
-        :type-line "Land",
+        :collector-number "279",
+        :layout "normal",
+        :name "Stone Quarry",
         :oracle-text
         "Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W}."}
- #:card{:code "soi",
-        :collector-number "280",
-        :name "Warped Landscape",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/6/16793435-8eb3-4d57-8683-de1120eb46b6.png?1576385578",
-        :type-line "Land",
+        :collector-number "280",
+        :layout "normal",
+        :name "Warped Landscape",
         :oracle-text
         "{T}: Add {C}.\n{2}, {T}, Sacrifice Warped Landscape: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:code "soi",
@@ -2974,6 +3254,7 @@
         :name "Westvale Abbey // Ormendahl, Profane Prince",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/1/c1f53d7a-9dad-46e8-b686-cd1362867445.png?1576385590",
@@ -2984,148 +3265,164 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/c/1/c1f53d7a-9dad-46e8-b686-cd1362867445.png?1576385590",
           :type-line "Legendary Creature — Demon",
           :oracle-text "Flying, lifelink, indestructible, haste"}]}
- #:card{:code "soi",
-        :collector-number "282",
-        :name "Woodland Stream",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/8/18a0c745-dee6-4cb2-acaa-3d2b8e0cce5b.png?1576385596",
-        :type-line "Land",
+        :collector-number "282",
+        :layout "normal",
+        :name "Woodland Stream",
         :oracle-text
         "Woodland Stream enters the battlefield tapped.\n{T}: Add {G} or {U}."}
- #:card{:code "soi",
-        :collector-number "283",
-        :name "Plains",
-        :layout "normal",
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/6/56bbcfb7-cfbc-4752-9b6c-ffbd5d3dd678.png?1576385602",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "soi",
-        :collector-number "284",
-        :name "Plains",
+        :collector-number "283",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6401c6e7-3415-4e68-b40c-9777c33785eb.png?1576385608",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "soi",
-        :collector-number "285",
-        :name "Plains",
+        :collector-number "284",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fcab7eaa-5e16-40b5-992b-9cc51a95376b.png?1576385614",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "soi",
-        :collector-number "286",
-        :name "Island",
+        :collector-number "285",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bffca348-2af9-44bb-815f-f7f7240ac975.png?1576385620",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "soi",
-        :collector-number "287",
-        :name "Island",
+        :collector-number "286",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6d74e713-11f7-4341-9b22-5300a4587a51.png?1576385626",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "soi",
-        :collector-number "288",
-        :name "Island",
+        :collector-number "287",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/2/125e4610-9bdc-4ee2-8aac-26cbdee13046.png?1576385632",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "soi",
-        :collector-number "289",
-        :name "Swamp",
+        :collector-number "288",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/19f62f5c-ddea-4564-bc47-5845ab15d8e2.png?1576385638",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "soi",
-        :collector-number "290",
-        :name "Swamp",
+        :collector-number "289",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6fae7689-a9df-4f69-8040-9fbe24f64838.png?1576385645",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "soi",
-        :collector-number "291",
-        :name "Swamp",
+        :collector-number "290",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87861e3c-d445-4452-b7e0-19b53e69b6e3.png?1576385650",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "soi",
-        :collector-number "292",
-        :name "Mountain",
+        :collector-number "291",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7878436-bf83-45c6-a040-e2fad447862a.png?1576385656",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "soi",
-        :collector-number "293",
-        :name "Mountain",
+        :collector-number "292",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d55384ef-6e5e-4e0b-8156-edad0fc9b25b.png?1576385662",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "soi",
-        :collector-number "294",
-        :name "Mountain",
+        :collector-number "293",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b37dc16e-3631-46df-acc4-19040fb8a86e.png?1576385668",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "soi",
-        :collector-number "295",
-        :name "Forest",
+        :collector-number "294",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/2/42efdb6a-1c54-497a-9058-af4256241649.png?1576385674",
-        :type-line "Basic Land — Forest",
-        :oracle-text "({T}: Add {G}.)"}
- #:card{:code "soi",
-        :collector-number "296",
-        :name "Forest",
+        :collector-number "295",
         :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c8c30af-055a-4921-99a8-f99c472c7315.png?1576385680",
-        :type-line "Basic Land — Forest",
-        :oracle-text "({T}: Add {G}.)"}
- #:card{:code "soi",
-        :collector-number "297",
-        :name "Forest",
+        :collector-number "296",
         :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "soi",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee1ebe0b-995f-4239-aad3-bfe471a88b6e.png?1576385687",
-        :type-line "Basic Land — Forest",
+        :collector-number "297",
+        :layout "normal",
+        :name "Forest",
         :oracle-text "({T}: Add {G}.)"})

@@ -1,131 +1,145 @@
-(#:card{:code "pal04",
-        :collector-number "1",
-        :name "Plains",
-        :layout "normal",
+(#:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd0f1d3e-a659-4c07-9e5d-b18750dc00fc.png?1562271907",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "pal04",
-        :collector-number "2",
-        :name "Island",
+        :collector-number "1",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd43b070-6a10-44b9-8501-0c2c8ef1f135.png?1562271910",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "pal04",
-        :collector-number "3",
-        :name "Swamp",
+        :collector-number "2",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/901c4c2e-0403-483c-9505-63ca51156a29.png?1562271899",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "pal04",
-        :collector-number "4",
-        :name "Mountain",
+        :collector-number "3",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/af2901cb-7c2a-4471-a824-326e97196201.png?1562271903",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "pal04",
-        :collector-number "5",
-        :name "Forest",
+        :collector-number "4",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c090dcd-0fa4-4f36-8494-98d52f70ffef.png?1562271901",
-        :type-line "Basic Land — Forest",
-        :oracle-text "({T}: Add {G}.)"}
- #:card{:code "pal04",
-        :collector-number "6",
-        :name "Darksteel Ingot",
+        :collector-number "5",
         :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/2/62190d2d-16fc-4d71-84fd-abdf52bb5af5.png?1562271893",
-        :type-line "Artifact",
-        :oracle-text "Indestructible\n{T}: Add one mana of any color."}
- #:card{:code "pal04",
-        :collector-number "7",
-        :name "Serum Visions",
+        :collector-number "6",
         :layout "normal",
+        :name "Darksteel Ingot",
+        :oracle-text "Indestructible\n{T}: Add one mana of any color."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/77e241f0-4cdc-4e37-b5b1-6f47f385d381.png?1562271898",
-        :type-line "Sorcery",
-        :oracle-text "Draw a card. Scry 2."}
- #:card{:code "pal04",
-        :collector-number "8",
-        :name "Glacial Ray",
+        :collector-number "7",
         :layout "normal",
+        :name "Serum Visions",
+        :oracle-text "Draw a card. Scry 2."}
+ #:card{:type-line "Instant — Arcane",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/04c713fd-df47-4b35-bd37-ab65d853bdc8.png?1562271537",
-        :type-line "Instant — Arcane",
+        :collector-number "8",
+        :layout "normal",
+        :name "Glacial Ray",
         :oracle-text
         "Glacial Ray deals 2 damage to any target.\nSplice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)"}
- #:card{:code "pal04",
-        :collector-number "9",
-        :name "Circle of Protection: Art",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba69864e-aee2-4b9f-821c-8b4a1c05c2ac.png?1562271905",
-        :type-line "Enchantment",
+        :collector-number "9",
+        :layout "normal",
+        :name "Circle of Protection: Art",
         :oracle-text
         "As Circle of Protection: Art enters the battlefield, choose an artist.\n{1}{W}: The next time a source of your choice with art by the chosen artist would deal damage to you this turn, prevent that damage.\n{1}{W}: Return Circle of Protection: Art to its owner's hand."}
- #:card{:code "pal04",
-        :collector-number "10",
-        :name "Mise",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6ecbc4d8-cb45-4c3d-8e93-8b517ca7da7f.png?1562271895",
-        :type-line "Instant",
+        :collector-number "10",
+        :layout "normal",
+        :name "Mise",
         :oracle-text
         "Choose a nonland card name, then reveal the top card of your library. If that card has the chosen name, you draw three cards."}
- #:card{:code "pal04",
-        :collector-number "11",
-        :name "Booster Tutor",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/cae082e5-f757-4e7e-9d8c-7d916adf3308.png?1595011005",
-        :type-line "Instant",
+        :collector-number "11",
+        :layout "normal",
+        :name "Booster Tutor",
         :oracle-text
         "Open a sealed Magic booster pack, reveal the cards, and put one of them into your hand. (Remove that card from your deck before beginning a new game.)"}
- #:card{:code "pal04",
-        :collector-number "12",
-        :name "Goblin Mime",
-        :layout "normal",
+ #:card{:type-line "Creature — Goblin Mime",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0fa0dd4a-40a2-4b15-b66a-42366c5f86a6.png?1562271539",
-        :type-line "Creature — Goblin Mime",
-        :oracle-text "When you speak, sacrifice Goblin Mime."}
- #:card{:code "pal04",
-        :collector-number "13",
-        :name "Granny's Payback",
+        :collector-number "12",
         :layout "normal",
+        :name "Goblin Mime",
+        :oracle-text "When you speak, sacrifice Goblin Mime."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a196944-442c-4441-8209-2902010cf407.png?1562271540",
-        :type-line "Sorcery",
-        :oracle-text "You gain life equal to your age."}
- #:card{:code "pal04",
-        :collector-number "14",
-        :name "Ashnod's Coupon",
+        :collector-number "13",
         :layout "normal",
+        :name "Granny's Payback",
+        :oracle-text "You gain life equal to your age."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pal04",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6f3e5fd8-6b7e-4697-9e4b-4caa746a1312.png?1562271896",
-        :type-line "Artifact",
+        :collector-number "14",
+        :layout "normal",
+        :name "Ashnod's Coupon",
         :oracle-text
         "{T}, Sacrifice Ashnod's Coupon: Target player gets you target drink. You pay any costs for the drink."})

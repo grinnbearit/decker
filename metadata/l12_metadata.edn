@@ -1,18 +1,20 @@
-(#:card{:code "l12",
-        :collector-number "1",
-        :name "Goblin",
-        :layout "token",
+(#:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "l12",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/062043de-a199-408d-8d77-09531ad38b16.png?1561756598",
-        :type-line "Token Creature — Goblin",
-        :oracle-text ""}
- #:card{:code "l12",
-        :collector-number "2",
-        :name "Knight",
+        :collector-number "1",
         :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Knight",
+        :layout-category :normal,
+        :code "l12",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bf9acfe1-de7a-48fe-aed3-28a72db6d1c0.png?1561757975",
-        :type-line "Token Creature — Knight",
+        :collector-number "2",
+        :layout "token",
+        :name "Knight",
         :oracle-text "Vigilance"})

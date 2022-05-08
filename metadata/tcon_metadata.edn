@@ -1,18 +1,20 @@
-(#:card{:code "tcon",
-        :collector-number "1",
-        :name "Angel",
-        :layout "token",
+(#:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "tcon",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d902520e-b4ed-4805-9f64-096acf7c5f31.png?1561758186",
-        :type-line "Token Creature — Angel",
-        :oracle-text "Flying"}
- #:card{:code "tcon",
-        :collector-number "2",
-        :name "Elemental",
+        :collector-number "1",
         :layout "token",
+        :name "Angel",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "tcon",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/daf56553-2ecc-4fe8-8730-917d891f6882.png?1561758206",
-        :type-line "Token Creature — Elemental",
+        :collector-number "2",
+        :layout "token",
+        :name "Elemental",
         :oracle-text ""})

@@ -3,6 +3,7 @@
         :name "Angel // Angel",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/e/2/e2235007-b02e-463b-95e1-a8bea74a0f9d.png?1571508092",
@@ -12,20 +13,22 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/e/2/e2235007-b02e-463b-95e1-a8bea74a0f9d.png?1571508092",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "2",
-        :name "Goat",
-        :layout "token",
+ #:card{:type-line "Token Creature — Goat",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c4b44a88-85e8-4f82-8968-cf1352f0fb87.png?1562931813",
-        :type-line "Token Creature — Goat",
+        :collector-number "2",
+        :layout "token",
+        :name "Goat",
         :oracle-text ""}
  #:card{:code "tust",
         :collector-number "3",
         :name "Spirit // Spirit",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/41fc8b22-f6fe-4853-b80a-64ab70a41f1d.png?1571508521",
@@ -35,30 +38,33 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/4/1/41fc8b22-f6fe-4853-b80a-64ab70a41f1d.png?1571508521",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "4",
-        :name "Faerie Spy",
-        :layout "token",
+ #:card{:type-line "Token Creature — Faerie Spy",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/0/1008e47a-a8c4-4f4f-8628-ac4b8f978dd0.png?1562898122",
-        :type-line "Token Creature — Faerie Spy",
+        :collector-number "4",
+        :layout "token",
+        :name "Faerie Spy",
         :oracle-text
         "Flying, haste\nWhenever this creature deals combat damage to a player, draw a card."}
- #:card{:code "tust",
-        :collector-number "5",
-        :name "Storm Crow",
-        :layout "token",
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80165be4-c6c8-4b22-b259-c64eb4b7fc95.png?1562918744",
-        :type-line "Token Creature — Bird",
+        :collector-number "5",
+        :layout "token",
+        :name "Storm Crow",
         :oracle-text "Flying"}
  #:card{:code "tust",
         :collector-number "6",
         :name "Thopter // Thopter",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d844ee2-20a0-4071-bc2c-4a58ab1dc07f.png?1571508393",
@@ -68,20 +74,22 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/2/d/2d844ee2-20a0-4071-bc2c-4a58ab1dc07f.png?1571508393",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "7",
-        :name "Rogue",
-        :layout "token",
+ #:card{:type-line "Token Creature — Rogue",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b633d7b-6d61-4b1a-8d65-6e1f3d5ffba7.png?1562908763",
-        :type-line "Token Creature — Rogue",
+        :collector-number "7",
+        :layout "token",
+        :name "Rogue",
         :oracle-text "Menace"}
  #:card{:code "tust",
         :collector-number "8",
         :name "Vampire // Vampire",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5d9e999f-7033-4ccd-933a-eac4105b3edc.png?1571508406",
@@ -96,6 +104,7 @@
         :name "Zombie // Zombie",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a561f84-5696-44a5-8dc1-227af883341d.png?1571508505",
@@ -105,20 +114,22 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/5/a/5a561f84-5696-44a5-8dc1-227af883341d.png?1571508505",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "10",
-        :name "Brainiac",
-        :layout "token",
+ #:card{:type-line "Token Creature — Brainiac",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/af1a8115-127d-4268-a4d0-95360862e5fb.png?1562927573",
-        :type-line "Token Creature — Brainiac",
+        :collector-number "10",
+        :layout "token",
+        :name "Brainiac",
         :oracle-text ""}
  #:card{:code "tust",
         :collector-number "11",
         :name "Elemental // Elemental",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/2/72b45263-d4e9-4a53-a78b-be651e18b615.png?1571508472",
@@ -128,20 +139,22 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/7/2/72b45263-d4e9-4a53-a78b-be651e18b615.png?1571508472",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "12",
-        :name "Goblin",
-        :layout "token",
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6be4b0d5-b3f8-4a5d-8a38-eb0e1886f655.png?1562915022",
-        :type-line "Token Creature — Goblin",
+        :collector-number "12",
+        :layout "token",
+        :name "Goblin",
         :oracle-text ""}
  #:card{:code "tust",
         :collector-number "13",
         :name "Beast // Beast",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/610def80-1303-488e-bfd9-4a27f031d20e.png?1571508307",
@@ -156,6 +169,7 @@
         :name "Saproling // Saproling",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/8/c/8ce60642-e207-46e6-b198-d803ff3b47f4.png?1571508385",
@@ -165,29 +179,32 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/8/c/8ce60642-e207-46e6-b198-d803ff3b47f4.png?1571508385",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "15",
-        :name "Squirrel",
-        :layout "token",
+ #:card{:type-line "Token Creature — Squirrel",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53500f0f-ef65-4534-a8db-80ce73030bc1.png?1562910261",
-        :type-line "Token Creature — Squirrel",
-        :oracle-text ""}
- #:card{:code "tust",
-        :collector-number "16",
-        :name "Dragon",
+        :collector-number "15",
         :layout "token",
+        :name "Squirrel",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44c65dfd-69be-4345-92e9-51a35a486f21.png?1581535681",
-        :type-line "Token Creature — Dragon",
+        :collector-number "16",
+        :layout "token",
+        :name "Dragon",
         :oracle-text "Flying"}
  #:card{:code "tust",
         :collector-number "17",
         :name "Elemental // Elemental",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/70f1f745-9fc2-41a6-9d39-fb4964595cf5.png?1571508365",
@@ -203,6 +220,7 @@
         :name "Clue // Clue",
         :layout "double_faced_token",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9b111525-0600-4bae-94a3-df8f9472388f.png?1571508353",
@@ -212,21 +230,23 @@
           "https://c1.scryfall.com/file/scryfall-cards/png/back/9/b/9b111525-0600-4bae-94a3-df8f9472388f.png?1571508353",
           :type-line "Token",
           :oracle-text ""}]}
- #:card{:code "tust",
-        :collector-number "19",
-        :name "Construct",
-        :layout "token",
+ #:card{:type-line "Token Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/1935902c-d84f-496a-b9f1-f96d1f5e2b84.png?1562899738",
-        :type-line "Token Artifact Creature — Construct",
-        :oracle-text ""}
- #:card{:code "tust",
-        :collector-number "20",
-        :name "Gnome",
+        :collector-number "19",
         :layout "token",
+        :name "Construct",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Gnome",
+        :layout-category :normal,
+        :code "tust",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/dbf33cc3-254f-4c5c-be22-3a2d96f29b80.png?1581535770",
-        :type-line "Token Artifact Creature — Gnome",
+        :collector-number "20",
+        :layout "token",
+        :name "Gnome",
         :oracle-text ""})

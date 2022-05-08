@@ -1,61 +1,67 @@
-(#:card{:code "peld",
-        :collector-number "1p",
-        :name "Acclaimed Contender",
-        :layout "normal",
+(#:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/77ba25cb-a8a6-46b6-82be-5c70e663dfdf.png?1571886152",
-        :type-line "Creature — Human Knight",
+        :collector-number "1p",
+        :layout "normal",
+        :name "Acclaimed Contender",
         :oracle-text
         "When Acclaimed Contender enters the battlefield, if you control another Knight, look at the top five cards of your library. You may reveal a Knight, Aura, Equipment, or legendary artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
- #:card{:code "peld",
-        :collector-number "1s",
-        :name "Acclaimed Contender",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a675b33-ab47-4a34-ab10-384e0de2f71f.png?1571851323",
-        :type-line "Creature — Human Knight",
+        :collector-number "1s",
+        :layout "normal",
+        :name "Acclaimed Contender",
         :oracle-text
         "When Acclaimed Contender enters the battlefield, if you control another Knight, look at the top five cards of your library. You may reveal a Knight, Aura, Equipment, or legendary artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
- #:card{:code "peld",
-        :collector-number "8p",
-        :name "Charming Prince",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/7/67ca015a-849f-4c9c-9e12-c049cfe16aeb.png?1571886148",
-        :type-line "Creature — Human Noble",
+        :collector-number "8p",
+        :layout "normal",
+        :name "Charming Prince",
         :oracle-text
         "When Charming Prince enters the battlefield, choose one —\n• Scry 2.\n• You gain 3 life.\n• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step."}
- #:card{:code "peld",
-        :collector-number "8s",
-        :name "Charming Prince",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7e9d9a8a-ea85-4d2e-8580-38125aebc736.png?1571851315",
-        :type-line "Creature — Human Noble",
+        :collector-number "8s",
+        :layout "normal",
+        :name "Charming Prince",
         :oracle-text
         "When Charming Prince enters the battlefield, choose one —\n• Scry 2.\n• You gain 3 life.\n• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step."}
- #:card{:code "peld",
-        :collector-number "9p",
-        :name "The Circle of Loyalty",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/1/c1dbb04c-ee12-426a-bb7c-534faa0c2435.png?1571886145",
-        :type-line "Legendary Artifact",
+        :collector-number "9p",
+        :layout "normal",
+        :name "The Circle of Loyalty",
         :oracle-text
         "This spell costs {1} less to cast for each Knight you control.\nCreatures you control get +1/+1.\nWhenever you cast a legendary spell, create a 2/2 white Knight creature token with vigilance.\n{3}{W}, {T}: Create a 2/2 white Knight creature token with vigilance."}
- #:card{:code "peld",
-        :collector-number "9s",
-        :name "The Circle of Loyalty",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/86a4ffbb-9113-4c61-a369-95c1a52cea02.png?1571851307",
-        :type-line "Legendary Artifact",
+        :collector-number "9s",
+        :layout "normal",
+        :name "The Circle of Loyalty",
         :oracle-text
         "This spell costs {1} less to cast for each Knight you control.\nCreatures you control get +1/+1.\nWhenever you cast a legendary spell, create a 2/2 white Knight creature token with vigilance.\n{3}{W}, {T}: Create a 2/2 white Knight creature token with vigilance."}
  #:card{:code "peld",
@@ -63,97 +69,115 @@
         :name "Giant Killer // Chop Down",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a755e9d9-171f-421c-9ed9-7a296b2b0c9b.png?1571886142",
-        :type-line "Creature — Human Peasant // Instant — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Human Peasant",
+          :oracle-text "{1}{W}, {T}: Tap target creature."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Destroy target creature with power 4 or greater. (Then exile this card. You may cast the creature later from exile.)"}]}
  #:card{:code "peld",
         :collector-number "14s",
         :name "Giant Killer // Chop Down",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f999067b-f7af-4482-9549-108d21be7acc.png?1571851296",
-        :type-line "Creature — Human Peasant // Instant — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "16p",
-        :name "Happily Ever After",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Human Peasant",
+          :oracle-text "{1}{W}, {T}: Tap target creature."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Destroy target creature with power 4 or greater. (Then exile this card. You may cast the creature later from exile.)"}]}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b09430e5-028e-4d26-8f90-680a5f11bce4.png?1571886136",
-        :type-line "Enchantment",
+        :collector-number "16p",
+        :layout "normal",
+        :name "Happily Ever After",
         :oracle-text
         "When Happily Ever After enters the battlefield, each player gains 5 life and draws a card.\nAt the beginning of your upkeep, if there are five colors among permanents you control, there are six or more card types among permanents you control and/or cards in your graveyard, and your life total is greater than or equal to your starting life total, you win the game."}
- #:card{:code "peld",
-        :collector-number "16s",
-        :name "Happily Ever After",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/802b088d-2b9f-4b88-b083-b550f775daf7.png?1571851287",
-        :type-line "Enchantment",
+        :collector-number "16s",
+        :layout "normal",
+        :name "Happily Ever After",
         :oracle-text
         "When Happily Ever After enters the battlefield, each player gains 5 life and draws a card.\nAt the beginning of your upkeep, if there are five colors among permanents you control, there are six or more card types among permanents you control and/or cards in your graveyard, and your life total is greater than or equal to your starting life total, you win the game."}
- #:card{:code "peld",
-        :collector-number "17p",
-        :name "Harmonious Archon",
-        :layout "normal",
+ #:card{:type-line "Creature — Archon",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f56777bd-4f93-4817-b5fe-b9fe5fb6f1c0.png?1571886132",
-        :type-line "Creature — Archon",
+        :collector-number "17p",
+        :layout "normal",
+        :name "Harmonious Archon",
         :oracle-text
         "Flying\nNon-Archon creatures have base power and toughness 3/3.\nWhen Harmonious Archon enters the battlefield, create two 1/1 white Human creature tokens."}
- #:card{:code "peld",
-        :collector-number "17s",
-        :name "Harmonious Archon",
-        :layout "normal",
+ #:card{:type-line "Creature — Archon",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/98bf7175-78f5-4c3c-9fa5-10a53dddf69c.png?1571851271",
-        :type-line "Creature — Archon",
+        :collector-number "17s",
+        :layout "normal",
+        :name "Harmonious Archon",
         :oracle-text
         "Flying\nNon-Archon creatures have base power and toughness 3/3.\nWhen Harmonious Archon enters the battlefield, create two 1/1 white Human creature tokens."}
- #:card{:code "peld",
-        :collector-number "18p",
-        :name "Hushbringer",
-        :layout "normal",
+ #:card{:type-line "Creature — Faerie",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c2c2777-1387-4606-8eb1-cc07ac3f38c0.png?1571886129",
-        :type-line "Creature — Faerie",
+        :collector-number "18p",
+        :layout "normal",
+        :name "Hushbringer",
         :oracle-text
         "Flying, lifelink\nCreatures entering the battlefield or dying don't cause abilities to trigger."}
- #:card{:code "peld",
-        :collector-number "18s",
-        :name "Hushbringer",
-        :layout "normal",
+ #:card{:type-line "Creature — Faerie",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3fab4f3-35da-43a6-98e0-8259acc5b817.png?1571851256",
-        :type-line "Creature — Faerie",
+        :collector-number "18s",
+        :layout "normal",
+        :name "Hushbringer",
         :oracle-text
         "Flying, lifelink\nCreatures entering the battlefield or dying don't cause abilities to trigger."}
- #:card{:code "peld",
-        :collector-number "20p",
-        :name "Linden, the Steadfast Queen",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/615ddc94-3c2f-443f-9aae-61f11469fdf9.png?1571886125",
-        :type-line "Legendary Creature — Human Noble",
+        :collector-number "20p",
+        :layout "normal",
+        :name "Linden, the Steadfast Queen",
         :oracle-text
         "Vigilance\nWhenever a white creature you control attacks, you gain 1 life."}
- #:card{:code "peld",
-        :collector-number "20s",
-        :name "Linden, the Steadfast Queen",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85d15f2d-f62a-4cd8-8aa8-dfed0516f354.png?1571851250",
-        :type-line "Legendary Creature — Human Noble",
+        :collector-number "20s",
+        :layout "normal",
+        :name "Linden, the Steadfast Queen",
         :oracle-text
         "Vigilance\nWhenever a white creature you control attacks, you gain 1 life."}
  #:card{:code "peld",
@@ -161,37 +185,47 @@
         :name "Realm-Cloaked Giant // Cast Off",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a57a724e-c828-4c60-97c4-44aca676762c.png?1571886121",
-        :type-line "Creature — Giant // Sorcery — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Giant", :oracle-text "Vigilance"}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "Destroy all non-Giant creatures. (Then exile this card. You may cast the creature later from exile.)"}]}
  #:card{:code "peld",
         :collector-number "26s",
         :name "Realm-Cloaked Giant // Cast Off",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d167173a-a97e-40c2-9146-b6b12404d043.png?1571851243",
-        :type-line "Creature — Giant // Sorcery — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "36p",
-        :name "Worthy Knight",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Giant", :oracle-text "Vigilance"}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "Destroy all non-Giant creatures. (Then exile this card. You may cast the creature later from exile.)"}]}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a0d32a5-3cdd-42af-a42e-0b6b45918798.png?1571886117",
-        :type-line "Creature — Human Knight",
+        :collector-number "36p",
+        :layout "normal",
+        :name "Worthy Knight",
         :oracle-text
         "Whenever you cast a Knight spell, create a 1/1 white Human creature token."}
- #:card{:code "peld",
-        :collector-number "36s",
-        :name "Worthy Knight",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe2c8f3f-1095-41f1-ab72-b1ce65a5655d.png?1571851233",
-        :type-line "Creature — Human Knight",
+        :collector-number "36s",
+        :layout "normal",
+        :name "Worthy Knight",
         :oracle-text
         "Whenever you cast a Knight spell, create a 1/1 white Human creature token."}
  #:card{:code "peld",
@@ -199,37 +233,51 @@
         :name "Brazen Borrower // Petty Theft",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cb72f66-c779-4e29-a6f6-45c31fb57aba.png?1571886113",
-        :type-line "Creature — Faerie Rogue // Instant — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Faerie Rogue",
+          :oracle-text
+          "Flash\nFlying\nBrazen Borrower can block only creatures with flying."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Return target nonland permanent an opponent controls to its owner's hand."}]}
  #:card{:code "peld",
         :collector-number "39s",
         :name "Brazen Borrower // Petty Theft",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07446375-d341-4aa8-8dfc-7e50d0522537.png?1571851221",
-        :type-line "Creature — Faerie Rogue // Instant — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "43p",
-        :name "Emry, Lurker of the Loch",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Faerie Rogue",
+          :oracle-text
+          "Flash\nFlying\nBrazen Borrower can block only creatures with flying."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Return target nonland permanent an opponent controls to its owner's hand."}]}
+ #:card{:type-line "Legendary Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d660ced3-6988-4cb8-a2c1-c603012855a8.png?1571886110",
-        :type-line "Legendary Creature — Merfolk Wizard",
+        :collector-number "43p",
+        :layout "normal",
+        :name "Emry, Lurker of the Loch",
         :oracle-text
         "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
- #:card{:code "peld",
-        :collector-number "43s",
-        :name "Emry, Lurker of the Loch",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e196e5d-7e53-4f87-9528-1bdcaec6fec9.png?1571851209",
-        :type-line "Legendary Creature — Merfolk Wizard",
+        :collector-number "43s",
+        :layout "normal",
+        :name "Emry, Lurker of the Loch",
         :oracle-text
         "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:code "peld",
@@ -237,237 +285,271 @@
         :name "Fae of Wishes // Granted",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6ac9b263-71f2-49f9-a18d-e60aa5864344.png?1571886107",
-        :type-line "Creature — Faerie Wizard // Sorcery — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Faerie Wizard",
+          :oracle-text
+          "Flying\n{1}{U}, Discard two cards: Return Fae of Wishes to its owner's hand."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "You may reveal a noncreature card you own from outside the game and put it into your hand."}]}
  #:card{:code "peld",
         :collector-number "44s",
         :name "Fae of Wishes // Granted",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8fef858-8398-46a8-86a5-7a9b1c3e7336.png?1571851195",
-        :type-line "Creature — Faerie Wizard // Sorcery — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "46p",
-        :name "Folio of Fancies",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Faerie Wizard",
+          :oracle-text
+          "Flying\n{1}{U}, Discard two cards: Return Fae of Wishes to its owner's hand."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "You may reveal a noncreature card you own from outside the game and put it into your hand."}]}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/c/ec6f0e0e-c49e-4d4b-8058-78302fb8a174.png?1571886103",
-        :type-line "Artifact",
+        :collector-number "46p",
+        :layout "normal",
+        :name "Folio of Fancies",
         :oracle-text
         "Players have no maximum hand size.\n{X}{X}, {T}: Each player draws X cards.\n{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand."}
- #:card{:code "peld",
-        :collector-number "46s",
-        :name "Folio of Fancies",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/2059629f-510a-4e4c-9116-1c0235cbaf52.png?1571851186",
-        :type-line "Artifact",
+        :collector-number "46s",
+        :layout "normal",
+        :name "Folio of Fancies",
         :oracle-text
         "Players have no maximum hand size.\n{X}{X}, {T}: Each player draws X cards.\n{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand."}
- #:card{:code "peld",
-        :collector-number "48p",
-        :name "Gadwick, the Wizened",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b2e8b8e6-f932-4a4c-818f-b206d624dcbd.png?1571886100",
-        :type-line "Legendary Creature — Human Wizard",
+        :collector-number "48p",
+        :layout "normal",
+        :name "Gadwick, the Wizened",
         :oracle-text
         "When Gadwick, the Wizened enters the battlefield, draw X cards.\nWhenever you cast a blue spell, tap target nonland permanent an opponent controls."}
- #:card{:code "peld",
-        :collector-number "48s",
-        :name "Gadwick, the Wizened",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/275b5917-79a6-4811-94dd-0083f64e5786.png?1571851178",
-        :type-line "Legendary Creature — Human Wizard",
+        :collector-number "48s",
+        :layout "normal",
+        :name "Gadwick, the Wizened",
         :oracle-text
         "When Gadwick, the Wizened enters the battlefield, draw X cards.\nWhenever you cast a blue spell, tap target nonland permanent an opponent controls."}
- #:card{:code "peld",
-        :collector-number "51p",
-        :name "The Magic Mirror",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45106b5c-56dd-44c9-9e84-c956bea94c1c.png?1571886096",
-        :type-line "Legendary Artifact",
+        :collector-number "51p",
+        :layout "normal",
+        :name "The Magic Mirror",
         :oracle-text
         "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nYou have no maximum hand size.\nAt the beginning of your upkeep, put a knowledge counter on The Magic Mirror, then draw a card for each knowledge counter on The Magic Mirror."}
- #:card{:code "peld",
-        :collector-number "51s",
-        :name "The Magic Mirror",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f386289e-0173-4942-b3f9-de346785358a.png?1571851170",
-        :type-line "Legendary Artifact",
+        :collector-number "51s",
+        :layout "normal",
+        :name "The Magic Mirror",
         :oracle-text
         "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nYou have no maximum hand size.\nAt the beginning of your upkeep, put a knowledge counter on The Magic Mirror, then draw a card for each knowledge counter on The Magic Mirror."}
- #:card{:code "peld",
-        :collector-number "54p",
-        :name "Midnight Clock",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/658eb861-f37a-4942-b5f0-0edb6b5126ef.png?1571886092",
-        :type-line "Artifact",
+        :collector-number "54p",
+        :layout "normal",
+        :name "Midnight Clock",
         :oracle-text
         "{T}: Add {U}.\n{2}{U}: Put an hour counter on Midnight Clock.\nAt the beginning of each upkeep, put an hour counter on Midnight Clock.\nWhen the twelfth hour counter is put on Midnight Clock, shuffle your hand and graveyard into your library, then draw seven cards. Exile Midnight Clock."}
- #:card{:code "peld",
-        :collector-number "54s",
-        :name "Midnight Clock",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5d74de4-4670-417d-8306-aec7e6443ed9.png?1571851161",
-        :type-line "Artifact",
+        :collector-number "54s",
+        :layout "normal",
+        :name "Midnight Clock",
         :oracle-text
         "{T}: Add {U}.\n{2}{U}: Put an hour counter on Midnight Clock.\nAt the beginning of each upkeep, put an hour counter on Midnight Clock.\nWhen the twelfth hour counter is put on Midnight Clock, shuffle your hand and graveyard into your library, then draw seven cards. Exile Midnight Clock."}
- #:card{:code "peld",
-        :collector-number "55p",
-        :name "Mirrormade",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f11f7421-002e-496c-9938-f124408e23a3.png?1571886088",
-        :type-line "Enchantment",
+        :collector-number "55p",
+        :layout "normal",
+        :name "Mirrormade",
         :oracle-text
         "You may have Mirrormade enter the battlefield as a copy of any artifact or enchantment on the battlefield."}
- #:card{:code "peld",
-        :collector-number "55s",
-        :name "Mirrormade",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf5f9a65-1b69-4372-9bb9-2f43560c59d1.png?1571851152",
-        :type-line "Enchantment",
+        :collector-number "55s",
+        :layout "normal",
+        :name "Mirrormade",
         :oracle-text
         "You may have Mirrormade enter the battlefield as a copy of any artifact or enchantment on the battlefield."}
- #:card{:code "peld",
-        :collector-number "66p",
-        :name "Stolen by the Fae",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/2/e2292d6e-da39-4755-8cd8-639e47a4576e.png?1571886084",
-        :type-line "Sorcery",
+        :collector-number "66p",
+        :layout "normal",
+        :name "Stolen by the Fae",
         :oracle-text
         "Return target creature with mana value X to its owner's hand. You create X 1/1 blue Faerie creature tokens with flying."}
- #:card{:code "peld",
-        :collector-number "66s",
-        :name "Stolen by the Fae",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a95fcf6-fe90-4474-b3d2-460ccdb4594e.png?1571851146",
-        :type-line "Sorcery",
+        :collector-number "66s",
+        :layout "normal",
+        :name "Stolen by the Fae",
         :oracle-text
         "Return target creature with mana value X to its owner's hand. You create X 1/1 blue Faerie creature tokens with flying."}
- #:card{:code "peld",
-        :collector-number "71p",
-        :name "Vantress Gargoyle",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Gargoyle",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc201a44-608a-4e04-8454-6f802a903e8f.png?1571886081",
-        :type-line "Artifact Creature — Gargoyle",
+        :collector-number "71p",
+        :layout "normal",
+        :name "Vantress Gargoyle",
         :oracle-text
         "Flying\nVantress Gargoyle can't attack unless defending player has seven or more cards in their graveyard.\nVantress Gargoyle can't block unless you have four or more cards in hand.\n{T}: Each player mills a card."}
- #:card{:code "peld",
-        :collector-number "71s",
-        :name "Vantress Gargoyle",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Gargoyle",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2a46271-6de2-421c-80e3-1e0f02d48596.png?1571851139",
-        :type-line "Artifact Creature — Gargoyle",
+        :collector-number "71s",
+        :layout "normal",
+        :name "Vantress Gargoyle",
         :oracle-text
         "Flying\nVantress Gargoyle can't attack unless defending player has seven or more cards in their graveyard.\nVantress Gargoyle can't block unless you have four or more cards in hand.\n{T}: Each player mills a card."}
- #:card{:code "peld",
-        :collector-number "75p",
-        :name "Ayara, First of Locthwain",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Elf Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d64632c5-3a56-4210-9432-69b30bf89487.png?1571886077",
-        :type-line "Legendary Creature — Elf Noble",
+        :collector-number "75p",
+        :layout "normal",
+        :name "Ayara, First of Locthwain",
         :oracle-text
         "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
- #:card{:code "peld",
-        :collector-number "75s",
-        :name "Ayara, First of Locthwain",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Elf Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/3/33508048-13ad-4de0-8f29-ad44bc8410f4.png?1571851134",
-        :type-line "Legendary Creature — Elf Noble",
+        :collector-number "75s",
+        :layout "normal",
+        :name "Ayara, First of Locthwain",
         :oracle-text
         "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
- #:card{:code "peld",
-        :collector-number "79p",
-        :name "Blacklance Paragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc22dc1c-37ff-4028-b063-1339947a9227.png?1571886073",
-        :type-line "Creature — Human Knight",
+        :collector-number "79p",
+        :layout "normal",
+        :name "Blacklance Paragon",
         :oracle-text
         "Flash\nWhen Blacklance Paragon enters the battlefield, target Knight gains deathtouch and lifelink until end of turn."}
- #:card{:code "peld",
-        :collector-number "79s",
-        :name "Blacklance Paragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a547f55f-7576-4344-9378-a7230f15213b.png?1571851128",
-        :type-line "Creature — Human Knight",
+        :collector-number "79s",
+        :layout "normal",
+        :name "Blacklance Paragon",
         :oracle-text
         "Flash\nWhen Blacklance Paragon enters the battlefield, target Knight gains deathtouch and lifelink until end of turn."}
- #:card{:code "peld",
-        :collector-number "82p",
-        :name "The Cauldron of Eternity",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/2/02540c3f-4b8d-4fba-80eb-c843f1a86cbb.png?1571886070",
-        :type-line "Legendary Artifact",
+        :collector-number "82p",
+        :layout "normal",
+        :name "The Cauldron of Eternity",
         :oracle-text
         "This spell costs {2} less to cast for each creature card in your graveyard.\nWhenever a creature you control dies, put it on the bottom of its owner's library.\n{2}{B}, {T}, Pay 2 life: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery."}
- #:card{:code "peld",
-        :collector-number "82s",
-        :name "The Cauldron of Eternity",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1379b3e-f9ed-4803-9268-61ef649c2ce5.png?1571851123",
-        :type-line "Legendary Artifact",
+        :collector-number "82s",
+        :layout "normal",
+        :name "The Cauldron of Eternity",
         :oracle-text
         "This spell costs {2} less to cast for each creature card in your graveyard.\nWhenever a creature you control dies, put it on the bottom of its owner's library.\n{2}{B}, {T}, Pay 2 life: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery."}
- #:card{:code "peld",
-        :collector-number "84p",
-        :name "Clackbridge Troll",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c8fdc534-0ae7-4a64-bc45-06df61c57841.png?1571886066",
-        :type-line "Creature — Troll",
+        :collector-number "84p",
+        :layout "normal",
+        :name "Clackbridge Troll",
         :oracle-text
         "Trample, haste\nWhen Clackbridge Troll enters the battlefield, target opponent creates three 0/1 white Goat creature tokens.\nAt the beginning of combat on your turn, any opponent may sacrifice a creature. If a player does, tap Clackbridge Troll, you gain 3 life, and you draw a card."}
- #:card{:code "peld",
-        :collector-number "84s",
-        :name "Clackbridge Troll",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3e20bdb7-2b29-4a67-83e4-de01138fb043.png?1571851117",
-        :type-line "Creature — Troll",
+        :collector-number "84s",
+        :layout "normal",
+        :name "Clackbridge Troll",
         :oracle-text
         "Trample, haste\nWhen Clackbridge Troll enters the battlefield, target opponent creates three 0/1 white Goat creature tokens.\nAt the beginning of combat on your turn, any opponent may sacrifice a creature. If a player does, tap Clackbridge Troll, you gain 3 life, and you draw a card."}
  #:card{:code "peld",
@@ -475,117 +557,139 @@
         :name "Murderous Rider // Swift End",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/a/da8d2e34-8be2-4891-8f68-1469bff39324.png?1571886062",
-        :type-line "Creature — Zombie Knight // Instant — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Zombie Knight",
+          :oracle-text
+          "Lifelink\nWhen Murderous Rider dies, put it on the bottom of its owner's library."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Destroy target creature or planeswalker. You lose 2 life. (Then exile this card. You may cast the creature later from exile.)"}]}
  #:card{:code "peld",
         :collector-number "97s",
         :name "Murderous Rider // Swift End",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63c2857a-ac6b-4640-bf14-ad47b62bf8d4.png?1571851112",
-        :type-line "Creature — Zombie Knight // Instant — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "98p",
-        :name "Oathsworn Knight",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Zombie Knight",
+          :oracle-text
+          "Lifelink\nWhen Murderous Rider dies, put it on the bottom of its owner's library."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Destroy target creature or planeswalker. You lose 2 life. (Then exile this card. You may cast the creature later from exile.)"}]}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/95a179da-ae2b-4f13-bc05-d2009440b23c.png?1571886057",
-        :type-line "Creature — Human Knight",
+        :collector-number "98p",
+        :layout "normal",
+        :name "Oathsworn Knight",
         :oracle-text
         "Oathsworn Knight enters the battlefield with four +1/+1 counters on it.\nOathsworn Knight attacks each combat if able.\nIf damage would be dealt to Oathsworn Knight while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from it."}
- #:card{:code "peld",
-        :collector-number "98s",
-        :name "Oathsworn Knight",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/dec1a41b-4342-412a-823e-ab753b0baf53.png?1571851105",
-        :type-line "Creature — Human Knight",
+        :collector-number "98s",
+        :layout "normal",
+        :name "Oathsworn Knight",
         :oracle-text
         "Oathsworn Knight enters the battlefield with four +1/+1 counters on it.\nOathsworn Knight attacks each combat if able.\nIf damage would be dealt to Oathsworn Knight while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from it."}
- #:card{:code "peld",
-        :collector-number "100p",
-        :name "Piper of the Swarm",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warlock",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/e/5e28912f-e95c-45d2-ba1f-c9ceaff91745.png?1571886054",
-        :type-line "Creature — Human Warlock",
+        :collector-number "100p",
+        :layout "normal",
+        :name "Piper of the Swarm",
         :oracle-text
         "Rats you control have menace.\n{1}{B}, {T}: Create a 1/1 black Rat creature token.\n{2}{B}{B}, {T}, Sacrifice three Rats: Gain control of target creature."}
- #:card{:code "peld",
-        :collector-number "100s",
-        :name "Piper of the Swarm",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Warlock",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74274c98-d190-45ce-9030-f89139912cdd.png?1571851097",
-        :type-line "Creature — Human Warlock",
+        :collector-number "100s",
+        :layout "normal",
+        :name "Piper of the Swarm",
         :oracle-text
         "Rats you control have menace.\n{1}{B}, {T}: Create a 1/1 black Rat creature token.\n{2}{B}{B}, {T}, Sacrifice three Rats: Gain control of target creature."}
- #:card{:code "peld",
-        :collector-number "101p",
-        :name "Rankle, Master of Pranks",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Faerie Rogue",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/d/7d767e41-99fc-47aa-ad16-27e1368315a6.png?1571886050",
-        :type-line "Legendary Creature — Faerie Rogue",
+        :collector-number "101p",
+        :layout "normal",
+        :name "Rankle, Master of Pranks",
         :oracle-text
         "Flying, haste\nWhenever Rankle, Master of Pranks deals combat damage to a player, choose any number —\n• Each player discards a card.\n• Each player loses 1 life and draws a card.\n• Each player sacrifices a creature."}
- #:card{:code "peld",
-        :collector-number "101s",
-        :name "Rankle, Master of Pranks",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Faerie Rogue",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5686e11-86ce-4795-9512-7974a2767c93.png?1571851089",
-        :type-line "Legendary Creature — Faerie Rogue",
+        :collector-number "101s",
+        :layout "normal",
+        :name "Rankle, Master of Pranks",
         :oracle-text
         "Flying, haste\nWhenever Rankle, Master of Pranks deals combat damage to a player, choose any number —\n• Each player discards a card.\n• Each player loses 1 life and draws a card.\n• Each player sacrifices a creature."}
- #:card{:code "peld",
-        :collector-number "110p",
-        :name "Wishclaw Talisman",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/7/f7a58088-9765-4249-9957-469b06a6e907.png?1571886047",
-        :type-line "Artifact",
+        :collector-number "110p",
+        :layout "normal",
+        :name "Wishclaw Talisman",
         :oracle-text
         "Wishclaw Talisman enters the battlefield with three wish counters on it.\n{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn."}
- #:card{:code "peld",
-        :collector-number "110s",
-        :name "Wishclaw Talisman",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e867f2d6-e43f-4500-86b4-079ff5c106d1.png?1571851080",
-        :type-line "Artifact",
+        :collector-number "110s",
+        :layout "normal",
+        :name "Wishclaw Talisman",
         :oracle-text
         "Wishclaw Talisman enters the battlefield with three wish counters on it.\n{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn."}
- #:card{:code "peld",
-        :collector-number "111p",
-        :name "Witch's Vengeance",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/3461d6e4-63ad-4354-9880-58e09bbb7d6f.png?1571886044",
-        :type-line "Sorcery",
+        :collector-number "111p",
+        :layout "normal",
+        :name "Witch's Vengeance",
         :oracle-text
         "Creatures of the creature type of your choice get -3/-3 until end of turn."}
- #:card{:code "peld",
-        :collector-number "111s",
-        :name "Witch's Vengeance",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a4b8c328-e14f-4b74-ac50-c688e19ad4b5.png?1571851074",
-        :type-line "Sorcery",
+        :collector-number "111s",
+        :layout "normal",
+        :name "Witch's Vengeance",
         :oracle-text
         "Creatures of the creature type of your choice get -3/-3 until end of turn."}
  #:card{:code "peld",
@@ -593,257 +697,293 @@
         :name "Bonecrusher Giant // Stomp",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7033edf-f152-4c89-9ad2-a431579bb88c.png?1576004015",
-        :type-line "Creature — Giant // Instant — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Giant",
+          :oracle-text
+          "Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant deals 2 damage to that spell's controller."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Damage can't be prevented this turn. Stomp deals 2 damage to any target."}]}
  #:card{:code "peld",
         :collector-number "115s",
         :name "Bonecrusher Giant // Stomp",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/87df5566-84e6-4517-9448-96f22525bcea.png?1576003980",
-        :type-line "Creature — Giant // Instant — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "120p",
-        :name "Embercleave",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Giant",
+          :oracle-text
+          "Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant deals 2 damage to that spell's controller."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Damage can't be prevented this turn. Stomp deals 2 damage to any target."}]}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3e0838ff-8eb1-40ef-aee9-97cc52b5b8e0.png?1571886034",
-        :type-line "Legendary Artifact — Equipment",
+        :collector-number "120p",
+        :layout "normal",
+        :name "Embercleave",
         :oracle-text
         "Flash\nThis spell costs {1} less to cast for each attacking creature you control.\nWhen Embercleave enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3}"}
- #:card{:code "peld",
-        :collector-number "120s",
-        :name "Embercleave",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4b09eb0e-ce97-41fb-9c97-0ecc2b0e13cb.png?1571851058",
-        :type-line "Legendary Artifact — Equipment",
+        :collector-number "120s",
+        :layout "normal",
+        :name "Embercleave",
         :oracle-text
         "Flash\nThis spell costs {1} less to cast for each attacking creature you control.\nWhen Embercleave enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3}"}
- #:card{:code "peld",
-        :collector-number "124p",
-        :name "Fervent Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24dc2c6b-1152-4b20-a5bf-d89cf1be8036.png?1571886028",
-        :type-line "Creature — Human Knight",
+        :collector-number "124p",
+        :layout "normal",
+        :name "Fervent Champion",
         :oracle-text
         "First strike, haste\nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn.\nEquip abilities you activate that target Fervent Champion cost {3} less to activate."}
- #:card{:code "peld",
-        :collector-number "124s",
-        :name "Fervent Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/1/01bf1bf8-1158-417b-946d-31af144b1b4c.png?1571851045",
-        :type-line "Creature — Human Knight",
+        :collector-number "124s",
+        :layout "normal",
+        :name "Fervent Champion",
         :oracle-text
         "First strike, haste\nWhenever Fervent Champion attacks, another target attacking Knight you control gets +1/+0 until end of turn.\nEquip abilities you activate that target Fervent Champion cost {3} less to activate."}
- #:card{:code "peld",
-        :collector-number "125p",
-        :name "Fires of Invention",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f53e9ada-5091-43ca-bd84-6f6d06434d0f.png?1571886023",
-        :type-line "Enchantment",
+        :collector-number "125p",
+        :layout "normal",
+        :name "Fires of Invention",
         :oracle-text
         "You can cast spells only during your turn and you can cast no more than two spells each turn.\nYou may cast spells with mana value less than or equal to the number of lands you control without paying their mana costs."}
- #:card{:code "peld",
-        :collector-number "125s",
-        :name "Fires of Invention",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b939b0c9-794c-4190-84db-dac325dce8da.png?1571851037",
-        :type-line "Enchantment",
+        :collector-number "125s",
+        :layout "normal",
+        :name "Fires of Invention",
         :oracle-text
         "You can cast spells only during your turn and you can cast no more than two spells each turn.\nYou may cast spells with mana value less than or equal to the number of lands you control without paying their mana costs."}
- #:card{:code "peld",
-        :collector-number "127p",
-        :name "Irencrag Feat",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7f0189ee-155b-4d64-8a46-68a88ec5f88e.png?1571886019",
-        :type-line "Sorcery",
+        :collector-number "127p",
+        :layout "normal",
+        :name "Irencrag Feat",
         :oracle-text
         "Add seven {R}. You can cast only one more spell this turn."}
- #:card{:code "peld",
-        :collector-number "127s",
-        :name "Irencrag Feat",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c7c5be0-33b6-404a-b52f-501be19e43f5.png?1571851029",
-        :type-line "Sorcery",
+        :collector-number "127s",
+        :layout "normal",
+        :name "Irencrag Feat",
         :oracle-text
         "Add seven {R}. You can cast only one more spell this turn."}
- #:card{:code "peld",
-        :collector-number "128p",
-        :name "Irencrag Pyromancer",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/15eb0922-345e-43e0-bf29-bd7497fa0058.png?1571886013",
-        :type-line "Creature — Human Wizard",
+        :collector-number "128p",
+        :layout "normal",
+        :name "Irencrag Pyromancer",
         :oracle-text
         "Whenever you draw your second card each turn, Irencrag Pyromancer deals 3 damage to any target."}
- #:card{:code "peld",
-        :collector-number "128s",
-        :name "Irencrag Pyromancer",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a763d58c-0806-4237-9ab2-85e93e7fc0fa.png?1571851020",
-        :type-line "Creature — Human Wizard",
+        :collector-number "128s",
+        :layout "normal",
+        :name "Irencrag Pyromancer",
         :oracle-text
         "Whenever you draw your second card each turn, Irencrag Pyromancer deals 3 damage to any target."}
- #:card{:code "peld",
-        :collector-number "133p",
-        :name "Opportunistic Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d647f55e-a0ef-42d4-b23a-680d2d7f2d6a.png?1571886007",
-        :type-line "Creature — Dragon",
+        :collector-number "133p",
+        :layout "normal",
+        :name "Opportunistic Dragon",
         :oracle-text
         "Flying\nWhen Opportunistic Dragon enters the battlefield, choose target Human or artifact an opponent controls. For as long as Opportunistic Dragon remains on the battlefield, gain control of that permanent, it loses all abilities, and it can't attack or block."}
- #:card{:code "peld",
-        :collector-number "133s",
-        :name "Opportunistic Dragon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/908d91f9-8c1d-48a2-a6c2-e46044621b7a.png?1571851013",
-        :type-line "Creature — Dragon",
+        :collector-number "133s",
+        :layout "normal",
+        :name "Opportunistic Dragon",
         :oracle-text
         "Flying\nWhen Opportunistic Dragon enters the battlefield, choose target Human or artifact an opponent controls. For as long as Opportunistic Dragon remains on the battlefield, gain control of that permanent, it loses all abilities, and it can't attack or block."}
- #:card{:code "peld",
-        :collector-number "138p",
-        :name "Robber of the Rich",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Archer Rogue",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/8/e8a1833d-b1c9-46a3-919a-69da9f2366ec.png?1571886000",
-        :type-line "Creature — Human Archer Rogue",
+        :collector-number "138p",
+        :layout "normal",
+        :name "Robber of the Rich",
         :oracle-text
         "Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. During any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."}
- #:card{:code "peld",
-        :collector-number "138s",
-        :name "Robber of the Rich",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Archer Rogue",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b48c099b-88da-45b8-b0ca-3e2124736ca5.png?1571851008",
-        :type-line "Creature — Human Archer Rogue",
+        :collector-number "138s",
+        :layout "normal",
+        :name "Robber of the Rich",
         :oracle-text
         "Reach, haste\nWhenever Robber of the Rich attacks, if defending player has more cards in hand than you, exile the top card of their library. During any turn you attacked with a Rogue, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."}
- #:card{:code "peld",
-        :collector-number "144p",
-        :name "Sundering Stroke",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bca6a51f-d0be-4eb2-8f5b-77cabd192f3a.png?1571885997",
-        :type-line "Sorcery",
+        :collector-number "144p",
+        :layout "normal",
+        :name "Sundering Stroke",
         :oracle-text
         "Sundering Stroke deals 7 damage divided as you choose among one, two, or three targets. If at least seven red mana was spent to cast this spell, instead Sundering Stroke deals 7 damage to each of those permanents and/or players."}
- #:card{:code "peld",
-        :collector-number "144s",
-        :name "Sundering Stroke",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e19687cd-bafb-4db5-9467-c381ddc31392.png?1571851001",
-        :type-line "Sorcery",
+        :collector-number "144s",
+        :layout "normal",
+        :name "Sundering Stroke",
         :oracle-text
         "Sundering Stroke deals 7 damage divided as you choose among one, two, or three targets. If at least seven red mana was spent to cast this spell, instead Sundering Stroke deals 7 damage to each of those permanents and/or players."}
- #:card{:code "peld",
-        :collector-number "147p",
-        :name "Torbran, Thane of Red Fell",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Dwarf Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4b20e5b-b3b7-4357-97ea-3872e704e3e3.png?1571885994",
-        :type-line "Legendary Creature — Dwarf Noble",
+        :collector-number "147p",
+        :layout "normal",
+        :name "Torbran, Thane of Red Fell",
         :oracle-text
         "If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead."}
- #:card{:code "peld",
-        :collector-number "147s",
-        :name "Torbran, Thane of Red Fell",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Dwarf Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/6/064ce69c-da9c-4d7b-8ec1-4ad300c011d1.png?1571850996",
-        :type-line "Legendary Creature — Dwarf Noble",
+        :collector-number "147s",
+        :layout "normal",
+        :name "Torbran, Thane of Red Fell",
         :oracle-text
         "If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead."}
- #:card{:code "peld",
-        :collector-number "152p",
-        :name "Feasting Troll King",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a54d57d6-507c-453a-95b8-8d2ad447636e.png?1571885990",
-        :type-line "Creature — Troll Noble",
+        :collector-number "152p",
+        :layout "normal",
+        :name "Feasting Troll King",
         :oracle-text
         "Vigilance, trample\nWhen Feasting Troll King enters the battlefield, if you cast it from your hand, create three Food tokens. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nSacrifice three Foods: Return Feasting Troll King from your graveyard to the battlefield. Activate only during your turn."}
- #:card{:code "peld",
-        :collector-number "152s",
-        :name "Feasting Troll King",
-        :layout "normal",
+ #:card{:type-line "Creature — Troll Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/70dbb5f3-0552-408c-9d02-9f9afc72fa7b.png?1571850989",
-        :type-line "Creature — Troll Noble",
+        :collector-number "152s",
+        :layout "normal",
+        :name "Feasting Troll King",
         :oracle-text
         "Vigilance, trample\nWhen Feasting Troll King enters the battlefield, if you cast it from your hand, create three Food tokens. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nSacrifice three Foods: Return Feasting Troll King from your graveyard to the battlefield. Activate only during your turn."}
- #:card{:code "peld",
-        :collector-number "160p",
-        :name "Gilded Goose",
-        :layout "normal",
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba8567d2-38ec-47da-a38b-d2d627d44089.png?1571885987",
-        :type-line "Creature — Bird",
+        :collector-number "160p",
+        :layout "normal",
+        :name "Gilded Goose",
         :oracle-text
         "Flying\nWhen Gilded Goose enters the battlefield, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n{1}{G}, {T}: Create a Food token.\n{T}, Sacrifice a Food: Add one mana of any color."}
- #:card{:code "peld",
-        :collector-number "160s",
-        :name "Gilded Goose",
-        :layout "normal",
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66bd70d4-4cdd-4b92-8792-2a225bc69d1c.png?1571850980",
-        :type-line "Creature — Bird",
+        :collector-number "160s",
+        :layout "normal",
+        :name "Gilded Goose",
         :oracle-text
         "Flying\nWhen Gilded Goose enters the battlefield, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n{1}{G}, {T}: Create a Food token.\n{T}, Sacrifice a Food: Add one mana of any color."}
- #:card{:code "peld",
-        :collector-number "161p",
-        :name "The Great Henge",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/d/1df66b60-9107-44d8-a013-24732b226c16.png?1571885984",
-        :type-line "Legendary Artifact",
+        :collector-number "161p",
+        :layout "normal",
+        :name "The Great Henge",
         :oracle-text
         "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\n{T}: Add {G}{G}. You gain 2 life.\nWhenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card."}
- #:card{:code "peld",
-        :collector-number "161s",
-        :name "The Great Henge",
-        :layout "normal",
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/11bacd78-fdd0-48c9-ae36-3880bde2e97e.png?1571850971",
-        :type-line "Legendary Artifact",
+        :collector-number "161s",
+        :layout "normal",
+        :name "The Great Henge",
         :oracle-text
         "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\n{T}: Add {G}{G}. You gain 2 life.\nWhenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card."}
  #:card{:code "peld",
@@ -851,496 +991,556 @@
         :name "Lovestruck Beast // Heart's Desire",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e1aa5205-45f7-4e54-bfc7-7bc6778506b6.png?1571885980",
-        :type-line "Creature — Beast Noble // Sorcery — Adventure",
-        :oracle-text nil}
+        :faces
+        [{:type-line "Creature — Beast Noble",
+          :oracle-text
+          "Lovestruck Beast can't attack unless you control a 1/1 creature."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "Create a 1/1 white Human creature token. (Then exile this card. You may cast the creature later from exile.)"}]}
  #:card{:code "peld",
         :collector-number "165s",
         :name "Lovestruck Beast // Heart's Desire",
         :layout "adventure",
         :highres? true,
+        :layout-category :split,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/f/4fe83f0f-5336-4ef7-8bc6-d429930f9b7c.png?1571850963",
-        :type-line "Creature — Beast Noble // Sorcery — Adventure",
-        :oracle-text nil}
- #:card{:code "peld",
-        :collector-number "169p",
-        :name "Once Upon a Time",
-        :layout "normal",
+        :faces
+        [{:type-line "Creature — Beast Noble",
+          :oracle-text
+          "Lovestruck Beast can't attack unless you control a 1/1 creature."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "Create a 1/1 white Human creature token. (Then exile this card. You may cast the creature later from exile.)"}]}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/93ae52e8-fff1-4905-bf2b-f315540c511a.png?1571885976",
-        :type-line "Instant",
+        :collector-number "169p",
+        :layout "normal",
+        :name "Once Upon a Time",
         :oracle-text
         "If this spell is the first spell you've cast this game, you may cast it without paying its mana cost.\nLook at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
- #:card{:code "peld",
-        :collector-number "169s",
-        :name "Once Upon a Time",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/82fd3b32-f03b-4c23-884d-a7bb369103e5.png?1571850956",
-        :type-line "Instant",
+        :collector-number "169s",
+        :layout "normal",
+        :name "Once Upon a Time",
         :oracle-text
         "If this spell is the first spell you've cast this game, you may cast it without paying its mana cost.\nLook at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
- #:card{:code "peld",
-        :collector-number "171p",
-        :name "Questing Beast",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Beast",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d5f004d4-e7b8-45e8-98df-e94d6f34b909.png?1571885972",
-        :type-line "Legendary Creature — Beast",
+        :collector-number "171p",
+        :layout "normal",
+        :name "Questing Beast",
         :oracle-text
         "Vigilance, deathtouch, haste\nQuesting Beast can't be blocked by creatures with power 2 or less.\nCombat damage that would be dealt by creatures you control can't be prevented.\nWhenever Questing Beast deals combat damage to an opponent, it deals that much damage to target planeswalker that player controls."}
- #:card{:code "peld",
-        :collector-number "171s",
-        :name "Questing Beast",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Beast",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7fad287e-08cd-415b-9c51-432979184bda.png?1571850948",
-        :type-line "Legendary Creature — Beast",
+        :collector-number "171s",
+        :layout "normal",
+        :name "Questing Beast",
         :oracle-text
         "Vigilance, deathtouch, haste\nQuesting Beast can't be blocked by creatures with power 2 or less.\nCombat damage that would be dealt by creatures you control can't be prevented.\nWhenever Questing Beast deals combat damage to an opponent, it deals that much damage to target planeswalker that player controls."}
- #:card{:code "peld",
-        :collector-number "172p",
-        :name "Return of the Wildspeaker",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4aa40aaa-98ca-4790-b73e-93b67d53e5d2.png?1571885969",
-        :type-line "Instant",
+        :collector-number "172p",
+        :layout "normal",
+        :name "Return of the Wildspeaker",
         :oracle-text
         "Choose one —\n• Draw cards equal to the greatest power among non-Human creatures you control.\n• Non-Human creatures you control get +3/+3 until end of turn."}
- #:card{:code "peld",
-        :collector-number "172s",
-        :name "Return of the Wildspeaker",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d495c55-2109-4669-b6e5-04db336d8231.png?1571850940",
-        :type-line "Instant",
+        :collector-number "172s",
+        :layout "normal",
+        :name "Return of the Wildspeaker",
         :oracle-text
         "Choose one —\n• Draw cards equal to the greatest power among non-Human creatures you control.\n• Non-Human creatures you control get +3/+3 until end of turn."}
- #:card{:code "peld",
-        :collector-number "181p",
-        :name "Wicked Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a6395105-0a73-4e5e-8a4c-753988fc0352.png?1571885965",
-        :type-line "Creature — Wolf",
+        :collector-number "181p",
+        :layout "normal",
+        :name "Wicked Wolf",
         :oracle-text
         "When Wicked Wolf enters the battlefield, it fights up to one target creature you don't control.\nSacrifice a Food: Put a +1/+1 counter on Wicked Wolf. It gains indestructible until end of turn. Tap it."}
- #:card{:code "peld",
-        :collector-number "181s",
-        :name "Wicked Wolf",
-        :layout "normal",
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e43dbd55-0b37-4c9f-b283-d40e30e45a0b.png?1571850933",
-        :type-line "Creature — Wolf",
+        :collector-number "181s",
+        :layout "normal",
+        :name "Wicked Wolf",
         :oracle-text
         "When Wicked Wolf enters the battlefield, it fights up to one target creature you don't control.\nSacrifice a Food: Put a +1/+1 counter on Wicked Wolf. It gains indestructible until end of turn. Tap it."}
- #:card{:code "peld",
-        :collector-number "182p",
-        :name "Wildborn Preserver",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Archer",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6ae82954-06dd-42f7-afc1-80408cbfa07a.png?1571885961",
-        :type-line "Creature — Elf Archer",
+        :collector-number "182p",
+        :layout "normal",
+        :name "Wildborn Preserver",
         :oracle-text
         "Flash\nReach\nWhenever another non-Human creature enters the battlefield under your control, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver."}
- #:card{:code "peld",
-        :collector-number "182s",
-        :name "Wildborn Preserver",
-        :layout "normal",
+ #:card{:type-line "Creature — Elf Archer",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/ab21da09-4041-41a4-a221-5c474b0c96b3.png?1571850924",
-        :type-line "Creature — Elf Archer",
+        :collector-number "182s",
+        :layout "normal",
+        :name "Wildborn Preserver",
         :oracle-text
         "Flash\nReach\nWhenever another non-Human creature enters the battlefield under your control, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver."}
- #:card{:code "peld",
-        :collector-number "185p",
-        :name "Yorvo, Lord of Garenbrig",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Giant Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/969c0c72-ba33-482a-978d-090db5453f14.png?1571885956",
-        :type-line "Legendary Creature — Giant Noble",
+        :collector-number "185p",
+        :layout "normal",
+        :name "Yorvo, Lord of Garenbrig",
         :oracle-text
         "Yorvo, Lord of Garenbrig enters the battlefield with four +1/+1 counters on it.\nWhenever another green creature enters the battlefield under your control, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo."}
- #:card{:code "peld",
-        :collector-number "185s",
-        :name "Yorvo, Lord of Garenbrig",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Giant Noble",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/be411fd8-eafa-49bf-a240-ecb15756ddc1.png?1571850915",
-        :type-line "Legendary Creature — Giant Noble",
+        :collector-number "185s",
+        :layout "normal",
+        :name "Yorvo, Lord of Garenbrig",
         :oracle-text
         "Yorvo, Lord of Garenbrig enters the battlefield with four +1/+1 counters on it.\nWhenever another green creature enters the battlefield under your control, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo."}
- #:card{:code "peld",
-        :collector-number "186p",
-        :name "Dance of the Manse",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/085863ba-06f0-480d-b7be-8f8c4b97d573.png?1571885953",
-        :type-line "Sorcery",
+        :collector-number "186p",
+        :layout "normal",
+        :name "Dance of the Manse",
         :oracle-text
         "Return up to X target artifact and/or non-Aura enchantment cards each with mana value X or less from your graveyard to the battlefield. If X is 6 or more, those permanents are 4/4 creatures in addition to their other types."}
- #:card{:code "peld",
-        :collector-number "186s",
-        :name "Dance of the Manse",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0cc14d0-8ddf-4cf0-b5f5-b398d4ff3651.png?1571850908",
-        :type-line "Sorcery",
+        :collector-number "186s",
+        :layout "normal",
+        :name "Dance of the Manse",
         :oracle-text
         "Return up to X target artifact and/or non-Aura enchantment cards each with mana value X or less from your graveyard to the battlefield. If X is 6 or more, those permanents are 4/4 creatures in addition to their other types."}
- #:card{:code "peld",
-        :collector-number "187p",
-        :name "Doom Foretold",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7e1916a0-fdb1-49ee-b3be-859781ca1f53.png?1571885950",
-        :type-line "Enchantment",
+        :collector-number "187p",
+        :layout "normal",
+        :name "Doom Foretold",
         :oracle-text
         "At the beginning of each player's upkeep, that player sacrifices a nonland, nontoken permanent. If that player can't, they discard a card, they lose 2 life, you draw a card, you gain 2 life, you create a 2/2 white Knight creature token with vigilance, then you sacrifice Doom Foretold."}
- #:card{:code "peld",
-        :collector-number "187s",
-        :name "Doom Foretold",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/ad140458-9229-4556-bdeb-18633b6a0eae.png?1571850899",
-        :type-line "Enchantment",
+        :collector-number "187s",
+        :layout "normal",
+        :name "Doom Foretold",
         :oracle-text
         "At the beginning of each player's upkeep, that player sacrifices a nonland, nontoken permanent. If that player can't, they discard a card, they lose 2 life, you draw a card, you gain 2 life, you create a 2/2 white Knight creature token with vigilance, then you sacrifice Doom Foretold."}
- #:card{:code "peld",
-        :collector-number "189p",
-        :name "Escape to the Wilds",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/be16a90c-793e-45d8-86a1-6545a40e8666.png?1571885944",
-        :type-line "Sorcery",
+        :collector-number "189p",
+        :layout "normal",
+        :name "Escape to the Wilds",
         :oracle-text
         "Exile the top five cards of your library. You may play cards exiled this way until the end of your next turn.\nYou may play an additional land this turn."}
- #:card{:code "peld",
-        :collector-number "189s",
-        :name "Escape to the Wilds",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b54c91d9-6601-44df-9e49-2777ce8ecfb5.png?1571850891",
-        :type-line "Sorcery",
+        :collector-number "189s",
+        :layout "normal",
+        :name "Escape to the Wilds",
         :oracle-text
         "Exile the top five cards of your library. You may play cards exiled this way until the end of your next turn.\nYou may play an additional land this turn."}
- #:card{:code "peld",
-        :collector-number "190p",
-        :name "Faeburrow Elder",
-        :layout "normal",
+ #:card{:type-line "Creature — Treefolk Druid",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/3169c4bb-7a8b-4411-ad05-9c1b50a5ee44.png?1571885940",
-        :type-line "Creature — Treefolk Druid",
+        :collector-number "190p",
+        :layout "normal",
+        :name "Faeburrow Elder",
         :oracle-text
         "Vigilance\nFaeburrow Elder gets +1/+1 for each color among permanents you control.\n{T}: For each color among permanents you control, add one mana of that color."}
- #:card{:code "peld",
-        :collector-number "190s",
-        :name "Faeburrow Elder",
-        :layout "normal",
+ #:card{:type-line "Creature — Treefolk Druid",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46a91c7a-ec6d-45ee-9f5e-46717a84321f.png?1571850885",
-        :type-line "Creature — Treefolk Druid",
+        :collector-number "190s",
+        :layout "normal",
+        :name "Faeburrow Elder",
         :oracle-text
         "Vigilance\nFaeburrow Elder gets +1/+1 for each color among permanents you control.\n{T}: For each color among permanents you control, add one mana of that color."}
- #:card{:code "peld",
-        :collector-number "191p",
-        :name "Garruk, Cursed Huntsman",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Garruk",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea7fccf1-7872-441b-b4e2-41aaaee23858.png?1571885937",
-        :type-line "Legendary Planeswalker — Garruk",
+        :collector-number "191p",
+        :layout "normal",
+        :name "Garruk, Cursed Huntsman",
         :oracle-text
         "0: Create two 2/2 black and green Wolf creature tokens with \"When this creature dies, put a loyalty counter on each Garruk you control.\"\n−3: Destroy target creature. Draw a card.\n−6: You get an emblem with \"Creatures you control get +3/+3 and have trample.\""}
- #:card{:code "peld",
-        :collector-number "191s",
-        :name "Garruk, Cursed Huntsman",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Garruk",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68d3ec62-f33e-473f-bb65-da8166544b81.png?1571850876",
-        :type-line "Legendary Planeswalker — Garruk",
+        :collector-number "191s",
+        :layout "normal",
+        :name "Garruk, Cursed Huntsman",
         :oracle-text
         "0: Create two 2/2 black and green Wolf creature tokens with \"When this creature dies, put a loyalty counter on each Garruk you control.\"\n−3: Destroy target creature. Draw a card.\n−6: You get an emblem with \"Creatures you control get +3/+3 and have trample.\""}
- #:card{:code "peld",
-        :collector-number "195p",
-        :name "Lochmere Serpent",
-        :layout "normal",
+ #:card{:type-line "Creature — Serpent",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/667548ce-4196-4017-bb35-9a817490aed0.png?1571885934",
-        :type-line "Creature — Serpent",
+        :collector-number "195p",
+        :layout "normal",
+        :name "Lochmere Serpent",
         :oracle-text
         "Flash\n{U}, Sacrifice an Island: Lochmere Serpent can't be blocked this turn.\n{B}, Sacrifice a Swamp: You gain 1 life and draw a card.\n{U}{B}: Exile five target cards from an opponent's graveyard. Return Lochmere Serpent from your graveyard to your hand. Activate only as a sorcery."}
- #:card{:code "peld",
-        :collector-number "195s",
-        :name "Lochmere Serpent",
-        :layout "normal",
+ #:card{:type-line "Creature — Serpent",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7e2f8d03-67a3-4dea-90ad-a39851821722.png?1571850867",
-        :type-line "Creature — Serpent",
+        :collector-number "195s",
+        :layout "normal",
+        :name "Lochmere Serpent",
         :oracle-text
         "Flash\n{U}, Sacrifice an Island: Lochmere Serpent can't be blocked this turn.\n{B}, Sacrifice a Swamp: You gain 1 life and draw a card.\n{U}{B}: Exile five target cards from an opponent's graveyard. Return Lochmere Serpent from your graveyard to your hand. Activate only as a sorcery."}
- #:card{:code "peld",
-        :collector-number "197p",
-        :name "Oko, Thief of Crowns",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Oko",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/058c60d2-25d1-42bf-9747-715e9ff56e0b.png?1572956042",
-        :type-line "Legendary Planeswalker — Oko",
+        :collector-number "197p",
+        :layout "normal",
+        :name "Oko, Thief of Crowns",
         :oracle-text
         "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
- #:card{:code "peld",
-        :collector-number "197s",
-        :name "Oko, Thief of Crowns",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Oko",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/acbb9670-5e79-4f19-b4bc-afbbe130d122.png?1571850859",
-        :type-line "Legendary Planeswalker — Oko",
+        :collector-number "197s",
+        :layout "normal",
+        :name "Oko, Thief of Crowns",
         :oracle-text
         "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
- #:card{:code "peld",
-        :collector-number "198p",
-        :name "Outlaws' Merriment",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/d/6da207c0-a83e-4f41-92a5-c40f3aa230bf.png?1571885928",
-        :type-line "Enchantment",
+        :collector-number "198p",
+        :layout "normal",
+        :name "Outlaws' Merriment",
         :oracle-text
         "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics.\n• 3/1 Human Warrior with trample and haste.\n• 2/1 Human Cleric with lifelink and haste.\n• 1/2 Human Rogue with haste and \"When this creature enters the battlefield, it deals 1 damage to any target.\""}
- #:card{:code "peld",
-        :collector-number "198s",
-        :name "Outlaws' Merriment",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7ed44b99-c0f3-4bb0-b08b-6d6c24f7fa4a.png?1571850852",
-        :type-line "Enchantment",
+        :collector-number "198s",
+        :layout "normal",
+        :name "Outlaws' Merriment",
         :oracle-text
         "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics.\n• 3/1 Human Warrior with trample and haste.\n• 2/1 Human Cleric with lifelink and haste.\n• 1/2 Human Rogue with haste and \"When this creature enters the battlefield, it deals 1 damage to any target.\""}
- #:card{:code "peld",
-        :collector-number "199p",
-        :name "The Royal Scions",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Will Rowan",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/a/8a5d5a7b-43ef-4259-ac38-ec49a51f3476.png?1571885925",
-        :type-line "Legendary Planeswalker — Will Rowan",
+        :collector-number "199p",
+        :layout "normal",
+        :name "The Royal Scions",
         :oracle-text
         "+1: Draw a card, then discard a card.\n+1: Target creature gets +2/+0 and gains first strike and trample until end of turn.\n−8: Draw four cards. When you do, The Royal Scions deals damage to any target equal to the number of cards in your hand."}
- #:card{:code "peld",
-        :collector-number "199s",
-        :name "The Royal Scions",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Will Rowan",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/9/49b32cc7-9f77-48a0-9066-1232a06acff0.png?1571850843",
-        :type-line "Legendary Planeswalker — Will Rowan",
+        :collector-number "199s",
+        :layout "normal",
+        :name "The Royal Scions",
         :oracle-text
         "+1: Draw a card, then discard a card.\n+1: Target creature gets +2/+0 and gains first strike and trample until end of turn.\n−8: Draw four cards. When you do, The Royal Scions deals damage to any target equal to the number of cards in your hand."}
- #:card{:code "peld",
-        :collector-number "203p",
-        :name "Stormfist Crusader",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f38fb8e3-7155-468d-8e47-6d9c60490ac4.png?1571885921",
-        :type-line "Creature — Human Knight",
+        :collector-number "203p",
+        :layout "normal",
+        :name "Stormfist Crusader",
         :oracle-text
         "Menace\nAt the beginning of your upkeep, each player draws a card and loses 1 life."}
- #:card{:code "peld",
-        :collector-number "203s",
-        :name "Stormfist Crusader",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b0045cb-38df-46b1-9ab6-9b5b955a09d9.png?1571850835",
-        :type-line "Creature — Human Knight",
+        :collector-number "203s",
+        :layout "normal",
+        :name "Stormfist Crusader",
         :oracle-text
         "Menace\nAt the beginning of your upkeep, each player draws a card and loses 1 life."}
- #:card{:code "peld",
-        :collector-number "233p",
-        :name "Sorcerous Spyglass",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/55ca9cf0-96d2-4f22-aec7-d7bca170c99e.png?1571885918",
-        :type-line "Artifact",
+        :collector-number "233p",
+        :layout "normal",
+        :name "Sorcerous Spyglass",
         :oracle-text
         "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities."}
- #:card{:code "peld",
-        :collector-number "233s",
-        :name "Sorcerous Spyglass",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88c75247-5e6c-4d4b-be1e-032f76a7c167.png?1571850828",
-        :type-line "Artifact",
+        :collector-number "233s",
+        :layout "normal",
+        :name "Sorcerous Spyglass",
         :oracle-text
         "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities."}
- #:card{:code "peld",
-        :collector-number "235p",
-        :name "Stonecoil Serpent",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Snake",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a47f84f5-56d2-45f7-acb6-7e0fcab31ee1.png?1571885915",
-        :type-line "Artifact Creature — Snake",
+        :collector-number "235p",
+        :layout "normal",
+        :name "Stonecoil Serpent",
         :oracle-text
         "Reach, trample, protection from multicolored\nStonecoil Serpent enters the battlefield with X +1/+1 counters on it."}
- #:card{:code "peld",
-        :collector-number "235s",
-        :name "Stonecoil Serpent",
-        :layout "normal",
+ #:card{:type-line "Artifact Creature — Snake",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea931fb3-8989-445d-9af9-c6f2d58ed4ee.png?1571850820",
-        :type-line "Artifact Creature — Snake",
+        :collector-number "235s",
+        :layout "normal",
+        :name "Stonecoil Serpent",
         :oracle-text
         "Reach, trample, protection from multicolored\nStonecoil Serpent enters the battlefield with X +1/+1 counters on it."}
- #:card{:code "peld",
-        :collector-number "238p",
-        :name "Castle Ardenvale",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/4/14255ada-7b64-497a-b9c4-5e25060ba6f8.png?1571885911",
-        :type-line "Land",
+        :collector-number "238p",
+        :layout "normal",
+        :name "Castle Ardenvale",
         :oracle-text
         "Castle Ardenvale enters the battlefield tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token."}
- #:card{:code "peld",
-        :collector-number "238s",
-        :name "Castle Ardenvale",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5c75a87-7a1a-417e-89ac-02608f830a5d.png?1571850814",
-        :type-line "Land",
+        :collector-number "238s",
+        :layout "normal",
+        :name "Castle Ardenvale",
         :oracle-text
         "Castle Ardenvale enters the battlefield tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token."}
- #:card{:code "peld",
-        :collector-number "239p",
-        :name "Castle Embereth",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aadb386b-0d3a-41cd-96f9-c453979a12df.png?1571885908",
-        :type-line "Land",
+        :collector-number "239p",
+        :layout "normal",
+        :name "Castle Embereth",
         :oracle-text
         "Castle Embereth enters the battlefield tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn."}
- #:card{:code "peld",
-        :collector-number "239s",
-        :name "Castle Embereth",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/51d972cc-b08c-499c-a35e-51d275d5a4aa.png?1571850807",
-        :type-line "Land",
+        :collector-number "239s",
+        :layout "normal",
+        :name "Castle Embereth",
         :oracle-text
         "Castle Embereth enters the battlefield tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn."}
- #:card{:code "peld",
-        :collector-number "240p",
-        :name "Castle Garenbrig",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/b/fbef0b7f-f680-4915-a74c-300502745ea6.png?1571885905",
-        :type-line "Land",
+        :collector-number "240p",
+        :layout "normal",
+        :name "Castle Garenbrig",
         :oracle-text
         "Castle Garenbrig enters the battlefield tapped unless you control a Forest.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Add six {G}. Spend this mana only to cast creature spells or activate abilities of creatures."}
- #:card{:code "peld",
-        :collector-number "240s",
-        :name "Castle Garenbrig",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aad91a78-2142-4a0b-a02b-f0f26cb2f3ae.png?1571850794",
-        :type-line "Land",
+        :collector-number "240s",
+        :layout "normal",
+        :name "Castle Garenbrig",
         :oracle-text
         "Castle Garenbrig enters the battlefield tapped unless you control a Forest.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Add six {G}. Spend this mana only to cast creature spells or activate abilities of creatures."}
- #:card{:code "peld",
-        :collector-number "241p",
-        :name "Castle Locthwain",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/a/aad27ff1-ed28-4536-bfdb-5a5de2aa9505.png?1602984638",
-        :type-line "Land",
+        :collector-number "241p",
+        :layout "normal",
+        :name "Castle Locthwain",
         :oracle-text
         "Castle Locthwain enters the battlefield tapped unless you control a Swamp.\n{T}: Add {B}.\n{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand."}
- #:card{:code "peld",
-        :collector-number "241s",
-        :name "Castle Locthwain",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/070c2cda-1893-434e-9eb4-cb16179e1973.png?1602984611",
-        :type-line "Land",
+        :collector-number "241s",
+        :layout "normal",
+        :name "Castle Locthwain",
         :oracle-text
         "Castle Locthwain enters the battlefield tapped unless you control a Swamp.\n{T}: Add {B}.\n{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand."}
- #:card{:code "peld",
-        :collector-number "242p",
-        :name "Castle Vantress",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/92e2debb-a07e-43a8-bec9-6ca384b536f9.png?1571885899",
-        :type-line "Land",
+        :collector-number "242p",
+        :layout "normal",
+        :name "Castle Vantress",
         :oracle-text
         "Castle Vantress enters the battlefield tapped unless you control an Island.\n{T}: Add {U}.\n{2}{U}{U}, {T}: Scry 2."}
- #:card{:code "peld",
-        :collector-number "242s",
-        :name "Castle Vantress",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3dfaba45-3385-4344-9fd6-102298a196ef.png?1571850775",
-        :type-line "Land",
+        :collector-number "242s",
+        :layout "normal",
+        :name "Castle Vantress",
         :oracle-text
         "Castle Vantress enters the battlefield tapped unless you control an Island.\n{T}: Add {U}.\n{2}{U}{U}, {T}: Scry 2."}
- #:card{:code "peld",
-        :collector-number "244p",
-        :name "Fabled Passage",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/c/6c40fe14-2016-44e6-a9d4-c13b254969a3.png?1571885895",
-        :type-line "Land",
+        :collector-number "244p",
+        :layout "normal",
+        :name "Fabled Passage",
         :oracle-text
         "{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land."}
- #:card{:code "peld",
-        :collector-number "244s",
-        :name "Fabled Passage",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "peld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5da290f7-0a2f-4aca-9ec9-0fb1b4014a66.png?1571850767",
-        :type-line "Land",
+        :collector-number "244s",
+        :layout "normal",
+        :name "Fabled Passage",
         :oracle-text
         "{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land."})

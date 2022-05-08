@@ -1,27 +1,30 @@
-(#:card{:code "jgp",
-        :collector-number "1",
-        :name "Lightning Bolt",
-        :layout "normal",
+(#:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "jgp",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/e/6e8b2951-3c66-4042-add9-b2615951ba52.png?1561757374",
-        :type-line "Instant",
-        :oracle-text "Lightning Bolt deals 3 damage to any target."}
- #:card{:code "jgp",
-        :collector-number "2",
-        :name "Stroke of Genius",
+        :collector-number "1",
         :layout "normal",
+        :name "Lightning Bolt",
+        :oracle-text "Lightning Bolt deals 3 damage to any target."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "jgp",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5423cb8-38a2-4769-8999-de6ab5ebc294.png?1561757759",
-        :type-line "Instant",
-        :oracle-text "Target player draws X cards."}
- #:card{:code "jgp",
-        :collector-number "3",
-        :name "Gaea's Cradle",
+        :collector-number "2",
         :layout "normal",
+        :name "Stroke of Genius",
+        :oracle-text "Target player draws X cards."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "jgp",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/a/9a3cccac-c826-41ad-b595-4d53db1ab8fa.png?1617148431",
-        :type-line "Legendary Land",
+        :collector-number "3",
+        :layout "normal",
+        :name "Gaea's Cradle",
         :oracle-text "{T}: Add {G} for each creature you control."})

@@ -1,30 +1,33 @@
-(#:card{:code "gdy",
-        :collector-number "1",
-        :name "Power Word Kill",
-        :layout "normal",
+(#:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "gdy",
         :highres? false,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36c71043-1c11-4377-ab33-41d19927143a.png?1650506251",
-        :type-line "Instant",
+        :collector-number "1",
+        :layout "normal",
+        :name "Power Word Kill",
         :oracle-text
         "Destroy target non-Angel, non-Demon, non-Devil, non-Dragon creature."}
- #:card{:code "gdy",
-        :collector-number "2",
-        :name "Skyclave Apparition",
-        :layout "normal",
+ #:card{:type-line "Creature — Kor Spirit",
+        :layout-category :normal,
+        :code "gdy",
         :highres? false,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/95be5b75-5cef-45e2-8a51-1418e302f13b.png?1650506255",
-        :type-line "Creature — Kor Spirit",
+        :collector-number "2",
+        :layout "normal",
+        :name "Skyclave Apparition",
         :oracle-text
         "When Skyclave Apparition enters the battlefield, exile up to one target nonland, nontoken permanent you don't control with mana value 4 or less.\nWhen Skyclave Apparition leaves the battlefield, the exiled card's owner creates an X/X blue Illusion creature token, where X is the mana value of the exiled card."}
- #:card{:code "gdy",
-        :collector-number "3",
-        :name "All-Seeing Arbiter",
-        :layout "normal",
+ #:card{:type-line "Creature — Avatar",
+        :layout-category :normal,
+        :code "gdy",
         :highres? false,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/dfc831bf-be32-42e4-b266-285b685abf90.png?1650506259",
-        :type-line "Creature — Avatar",
+        :collector-number "3",
+        :layout "normal",
+        :name "All-Seeing Arbiter",
         :oracle-text
         "Flying\nWhenever All-Seeing Arbiter enters the battlefield or attacks, draw two cards, then discard a card.\nWhenever you discard a card, target creature an opponent controls gets -X/-0 until your next turn, where X is the number of different mana values among cards in your graveyard."})

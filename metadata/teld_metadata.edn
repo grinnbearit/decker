@@ -1,188 +1,208 @@
-(#:card{:code "teld",
-        :collector-number "1",
-        :name "Goat",
-        :layout "token",
+(#:card{:type-line "Token Creature — Goat",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/1/213be25c-88db-440b-83c3-973586a4f320.png?1572489117",
-        :type-line "Token Creature — Goat",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "2",
-        :name "Human",
+        :collector-number "1",
         :layout "token",
+        :name "Goat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/94057dc6-e589-4a29-9bda-90f5bece96c4.png?1572489125",
-        :type-line "Token Creature — Human",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "3",
-        :name "Knight",
+        :collector-number "2",
         :layout "token",
+        :name "Human",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Knight",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/703e7ecf-3d73-40c1-8cfe-0758778817cf.png?1572489131",
-        :type-line "Token Creature — Knight",
-        :oracle-text "Vigilance"}
- #:card{:code "teld",
-        :collector-number "4",
-        :name "Mouse",
+        :collector-number "3",
         :layout "token",
+        :name "Knight",
+        :oracle-text "Vigilance"}
+ #:card{:type-line "Token Creature — Mouse",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/e/fe10da68-dd05-4e8e-ab94-37262e835fb3.png?1572489138",
-        :type-line "Token Creature — Mouse",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "5",
-        :name "Faerie",
+        :collector-number "4",
         :layout "token",
+        :name "Mouse",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Faerie",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bcd82cb0-ff4b-4f4d-b3d0-3ac53883b099.png?1572489144",
-        :type-line "Token Creature — Faerie",
-        :oracle-text "Flying"}
- #:card{:code "teld",
-        :collector-number "6",
-        :name "Rat",
+        :collector-number "5",
         :layout "token",
+        :name "Faerie",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Rat",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e43a205e-43ea-4b3e-92ab-c2ee2172a50a.png?1572489150",
-        :type-line "Token Creature — Rat",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "7",
-        :name "Dwarf",
+        :collector-number "6",
         :layout "token",
+        :name "Rat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dwarf",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/cab5d0dd-8095-4410-8feb-8c13edfcb2e5.png?1610066785",
-        :type-line "Token Creature — Dwarf",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "8",
-        :name "Bear",
+        :collector-number "7",
         :layout "token",
+        :name "Dwarf",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Bear",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b0f09f9e-e0f9-4ed8-bfc0-5f1a3046106e.png?1572489163",
-        :type-line "Token Creature — Bear",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "9",
-        :name "Boar",
+        :collector-number "8",
         :layout "token",
+        :name "Bear",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Boar",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/365b2234-c29d-42db-a8e0-80685a4b6434.png?1572489170",
-        :type-line "Token Creature — Boar",
-        :oracle-text "When this creature dies, create a Food token."}
- #:card{:code "teld",
-        :collector-number "10",
-        :name "Giant",
+        :collector-number "9",
         :layout "token",
+        :name "Boar",
+        :oracle-text "When this creature dies, create a Food token."}
+ #:card{:type-line "Token Creature — Giant",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/c/3c1debc4-0b12-4848-b551-90680ab8c0ab.png?1572489176",
-        :type-line "Token Creature — Giant",
-        :oracle-text ""}
- #:card{:code "teld",
-        :collector-number "11",
-        :name "Human Cleric",
+        :collector-number "10",
         :layout "token",
+        :name "Giant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Human Cleric",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db951f76-b785-453e-91b9-b3b8a5c1cfd4.png?1572489184",
-        :type-line "Token Creature — Human Cleric",
-        :oracle-text "Lifelink, haste"}
- #:card{:code "teld",
-        :collector-number "12",
-        :name "Human Rogue",
+        :collector-number "11",
         :layout "token",
+        :name "Human Cleric",
+        :oracle-text "Lifelink, haste"}
+ #:card{:type-line "Token Creature — Human Rogue",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/d/cd3ca6d5-4b2c-46d4-95f3-f0f2fa47f447.png?1572489191",
-        :type-line "Token Creature — Human Rogue",
+        :collector-number "12",
+        :layout "token",
+        :name "Human Rogue",
         :oracle-text
         "Haste\nWhen this creature enters the battlefield, it deals 1 damage to any target."}
- #:card{:code "teld",
-        :collector-number "13",
-        :name "Human Warrior",
-        :layout "token",
+ #:card{:type-line "Token Creature — Human Warrior",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c994ea90-71f4-403f-9418-2b72cc2de14d.png?1572489198",
-        :type-line "Token Creature — Human Warrior",
-        :oracle-text "Trample, haste"}
- #:card{:code "teld",
-        :collector-number "14",
-        :name "Wolf",
+        :collector-number "13",
         :layout "token",
+        :name "Human Warrior",
+        :oracle-text "Trample, haste"}
+ #:card{:type-line "Token Creature — Wolf",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88452ed7-1065-41c3-94a6-dc41108c45c1.png?1596045222",
-        :type-line "Token Creature — Wolf",
+        :collector-number "14",
+        :layout "token",
+        :name "Wolf",
         :oracle-text
         "When this creature dies, put a loyalty counter on each Garruk you control."}
- #:card{:code "teld",
-        :collector-number "15",
-        :name "Food",
-        :layout "token",
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bf36408d-ed85-497f-8e68-d3a922c388a0.png?1572489210",
-        :type-line "Token Artifact — Food",
+        :collector-number "15",
+        :layout "token",
+        :name "Food",
         :oracle-text
         "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
- #:card{:code "teld",
-        :collector-number "16",
-        :name "Food",
-        :layout "token",
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/13e8f518-1c0d-4c01-a397-71481839d02b.png?1572489217",
-        :type-line "Token Artifact — Food",
+        :collector-number "16",
+        :layout "token",
+        :name "Food",
         :oracle-text
         "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
- #:card{:code "teld",
-        :collector-number "17",
-        :name "Food",
-        :layout "token",
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46582e55-c6f4-46e4-a78e-2c586ca4cf4d.png?1572489226",
-        :type-line "Token Artifact — Food",
+        :collector-number "17",
+        :layout "token",
+        :name "Food",
         :oracle-text
         "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
- #:card{:code "teld",
-        :collector-number "18",
-        :name "Food",
-        :layout "token",
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/261aed78-2d57-4ed4-b3d2-53b139b6bd44.png?1572489232",
-        :type-line "Token Artifact — Food",
+        :collector-number "18",
+        :layout "token",
+        :name "Food",
         :oracle-text
         "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
- #:card{:code "teld",
-        :collector-number "19",
-        :name "Garruk, Cursed Huntsman Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/6/d6c65749-1774-4b36-891e-abf762c95cec.png?1572489239",
-        :type-line "Emblem",
+        :collector-number "19",
+        :layout "emblem",
+        :name "Garruk, Cursed Huntsman Emblem",
         :oracle-text
         "Creatures you control get +3/+3 and have trample."}
- #:card{:code "teld",
-        :collector-number "20",
-        :name "On an Adventure",
-        :layout "token",
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "teld",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8d50cf9-03e6-467a-aadf-84a24106ffa9.png?1572489247",
-        :type-line "Card",
+        :collector-number "20",
+        :layout "token",
+        :name "On an Adventure",
         :oracle-text
         "After an Adventure resolves, you can place the exiled card here. You may cast the creature from exile."})

@@ -1,48 +1,53 @@
-(#:card{:code "g07",
-        :collector-number "1",
-        :name "Ravenous Baloth",
-        :layout "normal",
+(#:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "g07",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68c1142a-58c1-4a8e-808b-d47a45abb76b.png?1592666558",
-        :type-line "Creature — Beast",
-        :oracle-text "Sacrifice a Beast: You gain 4 life."}
- #:card{:code "g07",
-        :collector-number "2",
-        :name "Cunning Wish",
+        :collector-number "1",
         :layout "normal",
+        :name "Ravenous Baloth",
+        :oracle-text "Sacrifice a Beast: You gain 4 life."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "g07",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/4/c40e77eb-4363-4fd6-9f38-877d42e0f48c.png?1561758013",
-        :type-line "Instant",
+        :collector-number "2",
+        :layout "normal",
+        :name "Cunning Wish",
         :oracle-text
         "You may reveal an instant card you own from outside the game and put it into your hand. Exile Cunning Wish."}
- #:card{:code "g07",
-        :collector-number "3",
-        :name "Yawgmoth's Will",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "g07",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75d4f6fc-c5cd-416c-aafd-19c2f2c0cd51.png?1561757423",
-        :type-line "Sorcery",
+        :collector-number "3",
+        :layout "normal",
+        :name "Yawgmoth's Will",
         :oracle-text
         "Until end of turn, you may play lands and cast spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead."}
- #:card{:code "g07",
-        :collector-number "4",
-        :name "Vindicate",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "g07",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c2d88dd-813a-4cd5-9a6a-ca6f80564078.png?1561756842",
-        :type-line "Sorcery",
-        :oracle-text "Destroy target permanent."}
- #:card{:code "g07",
-        :collector-number "5",
-        :name "Decree of Justice",
+        :collector-number "4",
         :layout "normal",
+        :name "Vindicate",
+        :oracle-text "Destroy target permanent."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "g07",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3fd8bea-9fb2-4c28-b757-5b1dce091994.png?1561758320",
-        :type-line "Sorcery",
+        :collector-number "5",
+        :layout "normal",
+        :name "Decree of Justice",
         :oracle-text
         "Create X 4/4 white Angel creature tokens with flying.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)\nWhen you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens."})

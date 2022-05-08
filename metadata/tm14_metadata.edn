@@ -1,120 +1,133 @@
-(#:card{:code "tm14",
-        :collector-number "1",
-        :name "Sliver",
-        :layout "token",
+(#:card{:type-line "Token Creature — Sliver",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68353af0-9cd0-43c0-9b39-8f904c618e3a.png?1562497271",
-        :type-line "Token Creature — Sliver",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "2",
-        :name "Angel",
+        :collector-number "1",
         :layout "token",
+        :name "Sliver",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/826320b7-4ccf-4ace-8c2c-15052b6bad73.png?1562497272",
-        :type-line "Token Creature — Angel",
-        :oracle-text "Flying"}
- #:card{:code "tm14",
-        :collector-number "3",
-        :name "Cat",
+        :collector-number "2",
         :layout "token",
+        :name "Angel",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Cat",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/b/db41ce71-52df-4bc1-884d-b09419d8dd13.png?1562497278",
-        :type-line "Token Creature — Cat",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "4",
-        :name "Goat",
+        :collector-number "3",
         :layout "token",
+        :name "Cat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Goat",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/64e90524-bad8-4d24-85be-9402401e7b42.png?1562497269",
-        :type-line "Token Creature — Goat",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "5",
-        :name "Zombie",
+        :collector-number "4",
         :layout "token",
+        :name "Goat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07d82a8d-4c57-401f-92c3-8fd9ba20174a.png?1562497265",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "6",
-        :name "Dragon",
+        :collector-number "5",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0efaa5b5-984d-4eff-81b6-9b4989f149eb.png?1562497266",
-        :type-line "Token Creature — Dragon",
+        :collector-number "6",
+        :layout "token",
+        :name "Dragon",
         :oracle-text
         "Flying\n{R}: This creature gets +1/+0 until end of turn."}
- #:card{:code "tm14",
-        :collector-number "7",
-        :name "Elemental",
-        :layout "token",
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed37fa8e-5930-4e57-8ead-73894ac40c19.png?1562497279",
-        :type-line "Token Creature — Elemental",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "8",
-        :name "Elemental",
+        :collector-number "7",
         :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc7315d5-26d9-4ecc-bca2-b75c6fb12597.png?1562497282",
-        :type-line "Token Creature — Elemental",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "9",
-        :name "Beast",
+        :collector-number "8",
         :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8fc2dc9-40df-46d8-98c0-ca4919bd5524.png?1562497273",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "10",
-        :name "Saproling",
+        :collector-number "9",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Saproling",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/f/afd66b96-eccb-44ce-9125-063d34af2ff8.png?1562497275",
-        :type-line "Token Creature — Saproling",
-        :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "11",
-        :name "Wolf",
+        :collector-number "10",
         :layout "token",
+        :name "Saproling",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Wolf",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/309f1bd4-78af-4722-9d45-b5f40b001570.png?1562497268",
-        :type-line "Token Creature — Wolf",
+        :collector-number "11",
+        :layout "token",
+        :name "Wolf",
         :oracle-text ""}
- #:card{:code "tm14",
-        :collector-number "12",
-        :name "Liliana of the Dark Realms Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Liliana",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f327de6e-c9f1-478d-9940-b500df8cef10.png?1562497281",
-        :type-line "Emblem — Liliana",
+        :collector-number "12",
+        :layout "emblem",
+        :name "Liliana of the Dark Realms Emblem",
         :oracle-text
         "Swamps you control have '{T}: Add {B}{B}{B}{B}.'"}
- #:card{:code "tm14",
-        :collector-number "13",
-        :name "Garruk, Caller of Beasts Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Garruk",
+        :layout-category :normal,
+        :code "tm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d16429cb-9b00-4411-9ffc-252b38ad0b8c.png?1562497276",
-        :type-line "Emblem — Garruk",
+        :collector-number "13",
+        :layout "emblem",
+        :name "Garruk, Caller of Beasts Emblem",
         :oracle-text
         "Whenever you cast a creature spell, you may search your library for a creature card, put it onto the battlefield, then shuffle your library."})

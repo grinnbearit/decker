@@ -1,10 +1,11 @@
-(#:card{:code "pmic",
-        :collector-number "1",
-        :name "Aswan Jaguar",
-        :layout "normal",
+(#:card{:type-line "Summon Jaguar",
+        :layout-category :normal,
+        :code "pmic",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cf25a3a5-0e7d-43d1-a2e6-85a233eee3e4.png?1591128832",
-        :type-line "Summon Jaguar",
+        :collector-number "1",
+        :layout "normal",
+        :name "Aswan Jaguar",
         :oracle-text
         "When Aswan Jaguar comes into play, choose a random creature type from those in target opponent's deck.\n{G}{G}, {T}: Bury target creature of the chosen type."})

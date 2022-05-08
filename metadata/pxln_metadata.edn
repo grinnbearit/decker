@@ -1,81 +1,89 @@
-(#:card{:code "pxln",
-        :collector-number "2p",
-        :name "Ashes of the Abhorrent",
-        :layout "normal",
+(#:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/5505040d-2d75-4041-bb82-74a33cad00d7.png?1566582075",
-        :type-line "Enchantment",
+        :collector-number "2p",
+        :layout "normal",
+        :name "Ashes of the Abhorrent",
         :oracle-text
         "Players can't cast spells from graveyards or activate abilities of cards in graveyards.\nWhenever a creature dies, you gain 1 life."}
- #:card{:code "pxln",
-        :collector-number "2s",
-        :name "Ashes of the Abhorrent",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f25b8e75-e21a-4cbf-92f4-e49c6499abba.png?1562940541",
-        :type-line "Enchantment",
+        :collector-number "2s",
+        :layout "normal",
+        :name "Ashes of the Abhorrent",
         :oracle-text
         "Players can't cast spells from graveyards or activate abilities of cards in graveyards.\nWhenever a creature dies, you gain 1 life."}
- #:card{:code "pxln",
-        :collector-number "3s",
-        :name "Axis of Mortality",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/0777be5a-5585-4d40-8756-7c5f4da99e66.png?1562896460",
-        :type-line "Enchantment",
+        :collector-number "3s",
+        :layout "normal",
+        :name "Axis of Mortality",
         :oracle-text
         "At the beginning of your upkeep, you may have two target players exchange life totals."}
- #:card{:code "pxln",
-        :collector-number "5",
-        :name "Bishop of Rebirth",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Cleric",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/734afc51-2569-43b2-a33c-e0c5f4501264.png?1562916387",
-        :type-line "Creature — Vampire Cleric",
+        :collector-number "5",
+        :layout "normal",
+        :name "Bishop of Rebirth",
         :oracle-text
         "Vigilance\nWhenever Bishop of Rebirth attacks, you may return target creature card with mana value 3 or less from your graveyard to the battlefield."}
- #:card{:code "pxln",
-        :collector-number "5s",
-        :name "Bishop of Rebirth",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Cleric",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/22061eba-4069-46e1-a48a-856254e6d81f.png?1562901284",
-        :type-line "Creature — Vampire Cleric",
+        :collector-number "5s",
+        :layout "normal",
+        :name "Bishop of Rebirth",
         :oracle-text
         "Vigilance\nWhenever Bishop of Rebirth attacks, you may return target creature card with mana value 3 or less from your graveyard to the battlefield."}
- #:card{:code "pxln",
-        :collector-number "13s",
-        :name "Goring Ceratops",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b58a736-0099-40b9-a987-5b37153a6ad3.png?1562897167",
-        :type-line "Creature — Dinosaur",
+        :collector-number "13s",
+        :layout "normal",
+        :name "Goring Ceratops",
         :oracle-text
         "Double strike\nWhenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn."}
- #:card{:code "pxln",
-        :collector-number "19p",
-        :name "Kinjalli's Sunwing",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8a73273-64ac-4c90-a889-741db2fb06f3.png?1566582061",
-        :type-line "Creature — Dinosaur",
+        :collector-number "19p",
+        :layout "normal",
+        :name "Kinjalli's Sunwing",
         :oracle-text
         "Flying\nCreatures your opponents control enter the battlefield tapped."}
- #:card{:code "pxln",
-        :collector-number "19s",
-        :name "Kinjalli's Sunwing",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed28e7f9-04b2-4103-8cca-899366f0fa84.png?1562939509",
-        :type-line "Creature — Dinosaur",
+        :collector-number "19s",
+        :layout "normal",
+        :name "Kinjalli's Sunwing",
         :oracle-text
         "Flying\nCreatures your opponents control enter the battlefield tapped."}
  #:card{:code "pxln",
@@ -83,6 +91,7 @@
         :name "Legion's Landing // Adanto, the First Fort",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4ee6e3d4-8c42-4632-b573-1ef0f2dc2030.png?1596137547",
@@ -94,243 +103,267 @@
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Legion's Landing.)\n{T}: Add {W}.\n{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink."}]}
- #:card{:code "pxln",
-        :collector-number "24p",
-        :name "Mavren Fein, Dusk Apostle",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Cleric",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7aab7ca-2daa-4fb7-957a-254348a7ca11.png?1566582161",
-        :type-line "Legendary Creature — Vampire Cleric",
+        :collector-number "24p",
+        :layout "normal",
+        :name "Mavren Fein, Dusk Apostle",
         :oracle-text
         "Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink."}
- #:card{:code "pxln",
-        :collector-number "24s",
-        :name "Mavren Fein, Dusk Apostle",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Cleric",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/667c1052-9eba-45c8-a178-771bdb5c1883.png?1562913956",
-        :type-line "Legendary Creature — Vampire Cleric",
+        :collector-number "24s",
+        :layout "normal",
+        :name "Mavren Fein, Dusk Apostle",
         :oracle-text
         "Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink."}
- #:card{:code "pxln",
-        :collector-number "27s",
-        :name "Priest of the Wakening Sun",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/2/228f98d0-dbfa-419d-805c-0c6511abdbbc.png?1562901406",
-        :type-line "Creature — Human Cleric",
+        :collector-number "27s",
+        :layout "normal",
+        :name "Priest of the Wakening Sun",
         :oracle-text
         "At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, you gain 2 life.\n{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle."}
- #:card{:code "pxln",
-        :collector-number "33s",
-        :name "Sanguine Sacrament",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d54c850b-d690-4d41-84bc-7f033cdd37d2.png?1562934826",
-        :type-line "Instant",
+        :collector-number "33s",
+        :layout "normal",
+        :name "Sanguine Sacrament",
         :oracle-text
         "You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library."}
- #:card{:code "pxln",
-        :collector-number "34p",
-        :name "Settle the Wreckage",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/89627b06-d1d0-448d-aab1-3768a15c19d4.png?1566582124",
-        :type-line "Instant",
+        :collector-number "34p",
+        :layout "normal",
+        :name "Settle the Wreckage",
         :oracle-text
         "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle."}
- #:card{:code "pxln",
-        :collector-number "34s",
-        :name "Settle the Wreckage",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/6/e6133053-22b1-48a2-acf5-425732e57e85.png?1562937991",
-        :type-line "Instant",
+        :collector-number "34s",
+        :layout "normal",
+        :name "Settle the Wreckage",
         :oracle-text
         "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle."}
- #:card{:code "pxln",
-        :collector-number "42p",
-        :name "Tocatli Honor Guard",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/3/43ab7699-89f0-4c00-8164-b86756cc4b88.png?1566582134",
-        :type-line "Creature — Human Soldier",
+        :collector-number "42p",
+        :layout "normal",
+        :name "Tocatli Honor Guard",
         :oracle-text
         "Creatures entering the battlefield don't cause abilities to trigger."}
- #:card{:code "pxln",
-        :collector-number "42s",
-        :name "Tocatli Honor Guard",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f831a2c3-6c23-4a56-a38a-2bfc6adf9277.png?1562941620",
-        :type-line "Creature — Human Soldier",
+        :collector-number "42s",
+        :layout "normal",
+        :name "Tocatli Honor Guard",
         :oracle-text
         "Creatures entering the battlefield don't cause abilities to trigger."}
- #:card{:code "pxln",
-        :collector-number "44s",
-        :name "Wakening Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1becd3c5-c6cf-42ce-963f-aa91061c66d0.png?1562900232",
-        :type-line "Creature — Dinosaur Avatar",
+        :collector-number "44s",
+        :layout "normal",
+        :name "Wakening Sun's Avatar",
         :oracle-text
         "When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures."}
- #:card{:code "pxln",
-        :collector-number "46p",
-        :name "Arcane Adaptation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85d36199-9f53-4d5f-94e6-a98505e9a1a5.png?1566582144",
-        :type-line "Enchantment",
+        :collector-number "46p",
+        :layout "normal",
+        :name "Arcane Adaptation",
         :oracle-text
         "As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
- #:card{:code "pxln",
-        :collector-number "46s",
-        :name "Arcane Adaptation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/f/6fdfb2d6-acdb-4e88-8d11-b4b4517003ff.png?1562915729",
-        :type-line "Enchantment",
+        :collector-number "46s",
+        :layout "normal",
+        :name "Arcane Adaptation",
         :oracle-text
         "As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
- #:card{:code "pxln",
-        :collector-number "49s",
-        :name "Daring Saboteur",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34f0cf08-0409-492c-84c2-ceb4b86b8d68.png?1562904804",
-        :type-line "Creature — Human Pirate",
+        :collector-number "49s",
+        :layout "normal",
+        :name "Daring Saboteur",
         :oracle-text
         "{2}{U}: Daring Saboteur can't be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card."}
- #:card{:code "pxln",
-        :collector-number "54s",
-        :name "Dreamcaller Siren",
-        :layout "normal",
+ #:card{:type-line "Creature — Siren Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/744eccf5-d7cc-42c9-ad9f-7d003cbcbdc1.png?1562916574",
-        :type-line "Creature — Siren Pirate",
+        :collector-number "54s",
+        :layout "normal",
+        :name "Dreamcaller Siren",
         :oracle-text
         "Flash\nFlying\nDreamcaller Siren can block only creatures with flying.\nWhen Dreamcaller Siren enters the battlefield, if you control another Pirate, tap up to two target nonland permanents."}
- #:card{:code "pxln",
-        :collector-number "55p",
-        :name "Entrancing Melody",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0e377711-af71-49e8-b936-e8bc780f64c3.png?1566582048",
-        :type-line "Sorcery",
+        :collector-number "55p",
+        :layout "normal",
+        :name "Entrancing Melody",
         :oracle-text
         "Gain control of target creature with mana value X."}
- #:card{:code "pxln",
-        :collector-number "55s",
-        :name "Entrancing Melody",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40794b41-a4c1-4734-b893-6271e8d948cf.png?1562906859",
-        :type-line "Sorcery",
+        :collector-number "55s",
+        :layout "normal",
+        :name "Entrancing Melody",
         :oracle-text
         "Gain control of target creature with mana value X."}
- #:card{:code "pxln",
-        :collector-number "57s",
-        :name "Fleet Swallower",
-        :layout "normal",
+ #:card{:type-line "Creature — Fish",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/885db066-b4f8-4855-bcf2-36e339495c28.png?1562920248",
-        :type-line "Creature — Fish",
+        :collector-number "57s",
+        :layout "normal",
+        :name "Fleet Swallower",
         :oracle-text
         "Whenever Fleet Swallower attacks, target player mills half their library, rounded up."}
- #:card{:code "pxln",
-        :collector-number "59p",
-        :name "Herald of Secret Streams",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Warrior",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/ad872f17-6637-46bb-abdf-a540d4b391c8.png?1566582051",
-        :type-line "Creature — Merfolk Warrior",
+        :collector-number "59p",
+        :layout "normal",
+        :name "Herald of Secret Streams",
         :oracle-text
         "Creatures you control with +1/+1 counters on them can't be blocked."}
- #:card{:code "pxln",
-        :collector-number "59s",
-        :name "Herald of Secret Streams",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Warrior",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d71f0b5-777c-4e6c-b703-41b2442a2d4a.png?1562909195",
-        :type-line "Creature — Merfolk Warrior",
+        :collector-number "59s",
+        :layout "normal",
+        :name "Herald of Secret Streams",
         :oracle-text
         "Creatures you control with +1/+1 counters on them can't be blocked."}
- #:card{:code "pxln",
-        :collector-number "60s",
-        :name "Jace, Cunning Castaway",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Jace",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/5/e5048dc6-12cd-45b7-a108-989490028efa.png?1562937789",
-        :type-line "Legendary Planeswalker — Jace",
+        :collector-number "60s",
+        :layout "normal",
+        :name "Jace, Cunning Castaway",
         :oracle-text
         "+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n−2: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"\n−5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary."}
- #:card{:code "pxln",
-        :collector-number "61p",
-        :name "Kopala, Warden of Waves",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/dfa73033-3863-44a6-8287-f9cda949e58a.png?1566582064",
-        :type-line "Legendary Creature — Merfolk Wizard",
+        :collector-number "61p",
+        :layout "normal",
+        :name "Kopala, Warden of Waves",
         :oracle-text
         "Spells your opponents cast that target a Merfolk you control cost {2} more to cast.\nAbilities your opponents activate that target a Merfolk you control cost {2} more to activate."}
- #:card{:code "pxln",
-        :collector-number "61s",
-        :name "Kopala, Warden of Waves",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/a/fa9b98b8-0077-4fb3-93ea-46d175a14f76.png?1562942156",
-        :type-line "Legendary Creature — Merfolk Wizard",
+        :collector-number "61s",
+        :layout "normal",
+        :name "Kopala, Warden of Waves",
         :oracle-text
         "Spells your opponents cast that target a Merfolk you control cost {2} more to cast.\nAbilities your opponents activate that target a Merfolk you control cost {2} more to activate."}
- #:card{:code "pxln",
-        :collector-number "66s",
-        :name "Overflowing Insight",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/5/5565719f-8371-4ba1-84c1-0068fbf0fa84.png?1562910681",
-        :type-line "Sorcery",
-        :oracle-text "Target player draws seven cards."}
- #:card{:code "pxln",
-        :collector-number "71p",
-        :name "River's Rebuke",
+        :collector-number "66s",
         :layout "normal",
+        :name "Overflowing Insight",
+        :oracle-text "Target player draws seven cards."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/864f14e8-aba7-4995-908d-6ef613cc94c7.png?1566582165",
-        :type-line "Sorcery",
+        :collector-number "71p",
+        :layout "normal",
+        :name "River's Rebuke",
         :oracle-text
         "Return all nonland permanents target player controls to their owner's hand."}
- #:card{:code "pxln",
-        :collector-number "71s",
-        :name "River's Rebuke",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cfb91657-1994-4c5c-8e87-202996a5fd63.png?1562933826",
-        :type-line "Sorcery",
+        :collector-number "71s",
+        :layout "normal",
+        :name "River's Rebuke",
         :oracle-text
         "Return all nonland permanents target player controls to their owner's hand."}
  #:card{:code "pxln",
@@ -338,6 +371,7 @@
         :name "Search for Azcanta // Azcanta, the Sunken Ruin",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd67b716-713c-4925-ac9c-0acaa705d5a5.png?1562936275",
@@ -349,24 +383,26 @@
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Search for Azcanta.)\n{T}: Add {U}.\n{2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order."}]}
- #:card{:code "pxln",
-        :collector-number "82p",
-        :name "Spell Swindle",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/7573612c-eded-445f-9bc9-853ffe8be9cd.png?1566582090",
-        :type-line "Instant",
+        :collector-number "82p",
+        :layout "normal",
+        :name "Spell Swindle",
         :oracle-text
         "Counter target spell. Create X Treasure tokens, where X is that spell's mana value. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
- #:card{:code "pxln",
-        :collector-number "82s",
-        :name "Spell Swindle",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/3/c3ff02c8-d030-407b-bf54-515cbc71a7d5.png?1562931661",
-        :type-line "Instant",
+        :collector-number "82s",
+        :layout "normal",
+        :name "Spell Swindle",
         :oracle-text
         "Counter target spell. Create X Treasure tokens, where X is that spell's mana value. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
  #:card{:code "pxln",
@@ -374,6 +410,7 @@
         :name "Arguel's Blood Fast // Temple of Aclazotz",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f1ed1819-6e7b-432b-bedd-0ccda3c2ce15.png?1562940470",
@@ -385,333 +422,366 @@
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Arguel's Blood Fast.)\n{T}: Add {B}.\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness."}]}
- #:card{:code "pxln",
-        :collector-number "93s",
-        :name "Bloodcrazed Paladin",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46ad3a65-3598-4656-9dc2-249c302013c6.png?1562907908",
-        :type-line "Creature — Vampire Knight",
+        :collector-number "93s",
+        :layout "normal",
+        :name "Bloodcrazed Paladin",
         :oracle-text
         "Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn."}
- #:card{:code "pxln",
-        :collector-number "94s",
-        :name "Boneyard Parley",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/f/4fceba50-7666-417d-8f09-e97e73193027.png?1562909629",
-        :type-line "Sorcery",
+        :collector-number "94s",
+        :layout "normal",
+        :name "Boneyard Parley",
         :oracle-text
         "Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the rest into their owners' graveyards."}
- #:card{:code "pxln",
-        :collector-number "99p",
-        :name "Deadeye Tracker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/c/5cb4cac4-dfc7-4079-ad8d-9648a2f9918a.png?1566582104",
-        :type-line "Creature — Human Pirate",
+        :collector-number "99p",
+        :layout "normal",
+        :name "Deadeye Tracker",
         :oracle-text
         "{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
- #:card{:code "pxln",
-        :collector-number "99s",
-        :name "Deadeye Tracker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40329bad-b3a1-4177-a03a-302dfaeba352.png?1562906787",
-        :type-line "Creature — Human Pirate",
+        :collector-number "99s",
+        :layout "normal",
+        :name "Deadeye Tracker",
         :oracle-text
         "{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
- #:card{:code "pxln",
-        :collector-number "104s",
-        :name "Dire Fleet Ravager",
-        :layout "normal",
+ #:card{:type-line "Creature — Orc Pirate Wizard",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/d/1d460083-e12f-4b1e-a17a-c508370dfceb.png?1562900452",
-        :type-line "Creature — Orc Pirate Wizard",
+        :collector-number "104s",
+        :layout "normal",
+        :name "Dire Fleet Ravager",
         :oracle-text
         "Menace, deathtouch\nWhen Dire Fleet Ravager enters the battlefield, each player loses a third of their life, rounded up."}
- #:card{:code "pxln",
-        :collector-number "106p",
-        :name "Fathom Fleet Captain",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/babb7214-9b88-44f9-9a53-652b7e8a2361.png?1566582068",
-        :type-line "Creature — Human Pirate",
+        :collector-number "106p",
+        :layout "normal",
+        :name "Fathom Fleet Captain",
         :oracle-text
         "Menace\nWhenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace."}
- #:card{:code "pxln",
-        :collector-number "106s",
-        :name "Fathom Fleet Captain",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/6848531f-51ae-40d1-ba6a-8a0b638144c4.png?1562914336",
-        :type-line "Creature — Human Pirate",
+        :collector-number "106s",
+        :layout "normal",
+        :name "Fathom Fleet Captain",
         :oracle-text
         "Menace\nWhenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace."}
- #:card{:code "pxln",
-        :collector-number "117p",
-        :name "Revel in Riches",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/2/52c50cf1-7b5c-4875-bdc6-d5fec432ef2d.png?1566582096",
-        :type-line "Enchantment",
+        :collector-number "117p",
+        :layout "normal",
+        :name "Revel in Riches",
         :oracle-text
         "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game."}
- #:card{:code "pxln",
-        :collector-number "117s",
-        :name "Revel in Riches",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b004a88d-2fd6-44dd-9f40-2bf8012fc959.png?1562927748",
-        :type-line "Enchantment",
+        :collector-number "117s",
+        :layout "normal",
+        :name "Revel in Riches",
         :oracle-text
         "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game."}
- #:card{:code "pxln",
-        :collector-number "118p",
-        :name "Ruin Raider",
-        :layout "normal",
+ #:card{:type-line "Creature — Orc Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/51985c64-267c-425b-9eb7-a1aa8aafcbcb.png?1566582072",
-        :type-line "Creature — Orc Pirate",
+        :collector-number "118p",
+        :layout "normal",
+        :name "Ruin Raider",
         :oracle-text
         "Raid — At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's mana value."}
- #:card{:code "pxln",
-        :collector-number "118s",
-        :name "Ruin Raider",
-        :layout "normal",
+ #:card{:type-line "Creature — Orc Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/b/9bc387b8-30e4-4605-9b03-4477e98a0dcc.png?1562924021",
-        :type-line "Creature — Orc Pirate",
+        :collector-number "118s",
+        :layout "normal",
+        :name "Ruin Raider",
         :oracle-text
         "Raid — At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's mana value."}
- #:card{:code "pxln",
-        :collector-number "120p",
-        :name "Sanctum Seeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f56b3404-9948-42bd-86bf-3676f62f5e56.png?1566582093",
-        :type-line "Creature — Vampire Knight",
+        :collector-number "120p",
+        :layout "normal",
+        :name "Sanctum Seeker",
         :oracle-text
         "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life."}
- #:card{:code "pxln",
-        :collector-number "120s",
-        :name "Sanctum Seeker",
-        :layout "normal",
+ #:card{:type-line "Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/d/ad33fe71-60da-493b-a33c-78cb94d8cd3a.png?1562927292",
-        :type-line "Creature — Vampire Knight",
+        :collector-number "120s",
+        :layout "normal",
+        :name "Sanctum Seeker",
         :oracle-text
         "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life."}
- #:card{:code "pxln",
-        :collector-number "126p",
-        :name "Sword-Point Diplomacy",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/9/196ac156-13eb-495f-996d-e43ca83d8869.png?1566582057",
-        :type-line "Sorcery",
+        :collector-number "126p",
+        :layout "normal",
+        :name "Sword-Point Diplomacy",
         :oracle-text
         "Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest."}
- #:card{:code "pxln",
-        :collector-number "126s",
-        :name "Sword-Point Diplomacy",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/3/23f069ff-23ee-4c35-a942-d4f2893f1897.png?1562901672",
-        :type-line "Sorcery",
+        :collector-number "126s",
+        :layout "normal",
+        :name "Sword-Point Diplomacy",
         :oracle-text
         "Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest."}
- #:card{:code "pxln",
-        :collector-number "129p",
-        :name "Vraska's Contempt",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/6355d069-eb76-40a0-901b-d6b737780cc2.png?1566582140",
-        :type-line "Instant",
+        :collector-number "129p",
+        :layout "normal",
+        :name "Vraska's Contempt",
         :oracle-text
         "Exile target creature or planeswalker. You gain 2 life."}
- #:card{:code "pxln",
-        :collector-number "129s",
-        :name "Vraska's Contempt",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d4fe15b4-9f24-4928-b61e-e692455fb4f5.png?1562934790",
-        :type-line "Instant",
+        :collector-number "129s",
+        :layout "normal",
+        :name "Vraska's Contempt",
         :oracle-text
         "Exile target creature or planeswalker. You gain 2 life."}
- #:card{:code "pxln",
-        :collector-number "130",
-        :name "Walk the Plank",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d7f3b24f-e2ec-4405-b6f5-147292063b0a.png?1562935396",
-        :type-line "Sorcery",
-        :oracle-text "Destroy target non-Merfolk creature."}
- #:card{:code "pxln",
-        :collector-number "132s",
-        :name "Angrath's Marauders",
+        :collector-number "130",
         :layout "normal",
+        :name "Walk the Plank",
+        :oracle-text "Destroy target non-Merfolk creature."}
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65a5a15c-e147-481f-92ec-a82b12b37f49.png?1562913815",
-        :type-line "Creature — Human Pirate",
+        :collector-number "132s",
+        :layout "normal",
+        :name "Angrath's Marauders",
         :oracle-text
         "If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."}
- #:card{:code "pxln",
-        :collector-number "135",
-        :name "Burning Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73aaacaa-0890-4948-81f3-0de5ee325377.png?1562916459",
-        :type-line "Creature — Dinosaur Avatar",
+        :collector-number "135",
+        :layout "normal",
+        :name "Burning Sun's Avatar",
         :oracle-text
         "When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature."}
- #:card{:code "pxln",
-        :collector-number "135s",
-        :name "Burning Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/1/61254cfe-4870-4a6d-a60b-0704ae6e051c.png?1562912966",
-        :type-line "Creature — Dinosaur Avatar",
+        :collector-number "135s",
+        :layout "normal",
+        :name "Burning Sun's Avatar",
         :oracle-text
         "When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature."}
- #:card{:code "pxln",
-        :collector-number "136p",
-        :name "Captain Lannery Storm",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f565872a-cc6d-4115-b6de-8d4531cf3295.png?1566582082",
-        :type-line "Legendary Creature — Human Pirate",
+        :collector-number "136p",
+        :layout "normal",
+        :name "Captain Lannery Storm",
         :oracle-text
         "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
- #:card{:code "pxln",
-        :collector-number "136s",
-        :name "Captain Lannery Storm",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73351695-e5f1-41a1-961b-3f2f4ddbc5c2.png?1562916358",
-        :type-line "Legendary Creature — Human Pirate",
+        :collector-number "136s",
+        :layout "normal",
+        :name "Captain Lannery Storm",
         :oracle-text
         "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
- #:card{:code "pxln",
-        :collector-number "137p",
-        :name "Captivating Crew",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/884ce5b5-d62b-4e89-be92-f55138539737.png?1566582147",
-        :type-line "Creature — Human Pirate",
+        :collector-number "137p",
+        :layout "normal",
+        :name "Captivating Crew",
         :oracle-text
         "{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate only as a sorcery."}
- #:card{:code "pxln",
-        :collector-number "137s",
-        :name "Captivating Crew",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8fa81f64-31a2-4663-bd0f-8ffc4e753727.png?1562921683",
-        :type-line "Creature — Human Pirate",
+        :collector-number "137s",
+        :layout "normal",
+        :name "Captivating Crew",
         :oracle-text
         "{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate only as a sorcery."}
- #:card{:code "pxln",
-        :collector-number "154s",
-        :name "Rampaging Ferocidon",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80f08709-639a-4fae-bcfc-a9855b0214cf.png?1562918903",
-        :type-line "Creature — Dinosaur",
+        :collector-number "154s",
+        :layout "normal",
+        :name "Rampaging Ferocidon",
         :oracle-text
         "Menace\nPlayers can't gain life.\nWhenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature's controller."}
- #:card{:code "pxln",
-        :collector-number "156s",
-        :name "Repeating Barrage",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a1b22e36-331f-4010-b40e-b8b46e0cd733.png?1562925209",
-        :type-line "Sorcery",
+        :collector-number "156s",
+        :layout "normal",
+        :name "Repeating Barrage",
         :oracle-text
         "Repeating Barrage deals 3 damage to any target.\nRaid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate only if you attacked this turn."}
- #:card{:code "pxln",
-        :collector-number "159s",
-        :name "Rowdy Crew",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/d/8d0556f8-4099-4015-8e27-a070f10c30f3.png?1562921157",
-        :type-line "Creature — Human Pirate",
+        :collector-number "159s",
+        :layout "normal",
+        :name "Rowdy Crew",
         :oracle-text
         "Trample\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew."}
- #:card{:code "pxln",
-        :collector-number "161p",
-        :name "Star of Extinction",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fdcd1f4a-100e-4d7b-9632-91410f4e65b9.png?1566582042",
-        :type-line "Sorcery",
+        :collector-number "161p",
+        :layout "normal",
+        :name "Star of Extinction",
         :oracle-text
         "Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker."}
- #:card{:code "pxln",
-        :collector-number "161s",
-        :name "Star of Extinction",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34ff3f41-2b8f-4032-9e50-f55927cbd128.png?1562904822",
-        :type-line "Sorcery",
+        :collector-number "161s",
+        :layout "normal",
+        :name "Star of Extinction",
         :oracle-text
         "Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker."}
- #:card{:code "pxln",
-        :collector-number "165p",
-        :name "Sunbird's Invocation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0ad288a7-321d-41a5-a66e-fd984b922bea.png?1566582054",
-        :type-line "Enchantment",
+        :collector-number "165p",
+        :layout "normal",
+        :name "Sunbird's Invocation",
         :oracle-text
         "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order."}
- #:card{:code "pxln",
-        :collector-number "165s",
-        :name "Sunbird's Invocation",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c665dd04-6e2a-4bb3-b800-235a13ae67d4.png?1562932135",
-        :type-line "Enchantment",
+        :collector-number "165s",
+        :layout "normal",
+        :name "Sunbird's Invocation",
         :oracle-text
         "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order."}
- #:card{:code "pxln",
-        :collector-number "170s",
-        :name "Tilonalli's Skinshifter",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f0e6ca8a-4e8a-4be4-bcc7-0a4cb1196aac.png?1562940323",
-        :type-line "Creature — Human Shaman",
+        :collector-number "170s",
+        :layout "normal",
+        :name "Tilonalli's Skinshifter",
         :oracle-text
         "Haste\nWhenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn."}
  #:card{:code "pxln",
@@ -719,6 +789,7 @@
         :name "Vance's Blasting Cannons // Spitfire Bastion",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/0/f/0f4d3cec-bd91-4edd-9b6b-568e272e7891.png?1562897963",
@@ -730,84 +801,92 @@
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Vance's Blasting Cannons.)\n{T}: Add {R}.\n{2}{R}, {T}: Spitfire Bastion deals 3 damage to any target."}]}
- #:card{:code "pxln",
-        :collector-number "179p",
-        :name "Carnage Tyrant",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/15e1b2a6-a4d1-445d-9c20-26eddff25047.png?1566582170",
-        :type-line "Creature — Dinosaur",
+        :collector-number "179p",
+        :layout "normal",
+        :name "Carnage Tyrant",
         :oracle-text
         "This spell can't be countered.\nTrample, hexproof"}
- #:card{:code "pxln",
-        :collector-number "179s",
-        :name "Carnage Tyrant",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a1679ddd-15cd-4283-8aaf-549d8cd799f0.png?1562925155",
-        :type-line "Creature — Dinosaur",
+        :collector-number "179s",
+        :layout "normal",
+        :name "Carnage Tyrant",
         :oracle-text
         "This spell can't be countered.\nTrample, hexproof"}
- #:card{:code "pxln",
-        :collector-number "184p",
-        :name "Deathgorge Scavenger",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/a/ea339676-f51c-4d0b-990b-e3d2d5a968b3.png?1566582131",
-        :type-line "Creature — Dinosaur",
+        :collector-number "184p",
+        :layout "normal",
+        :name "Deathgorge Scavenger",
         :oracle-text
         "Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn."}
- #:card{:code "pxln",
-        :collector-number "184s",
-        :name "Deathgorge Scavenger",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac187409-a426-497b-b3a2-68bd8c07b0d3.png?1562927119",
-        :type-line "Creature — Dinosaur",
+        :collector-number "184s",
+        :layout "normal",
+        :name "Deathgorge Scavenger",
         :oracle-text
         "Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn."}
- #:card{:code "pxln",
-        :collector-number "185",
-        :name "Deeproot Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/a/ca0a34e8-53e3-4fe4-948f-1e6f6ab436c3.png?1562932793",
-        :type-line "Creature — Merfolk Shaman",
+        :collector-number "185",
+        :layout "normal",
+        :name "Deeproot Champion",
         :oracle-text
         "Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion."}
- #:card{:code "pxln",
-        :collector-number "185p",
-        :name "Deeproot Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45fa5937-22b2-4b8b-adcf-31875f902edc.png?1566582157",
-        :type-line "Creature — Merfolk Shaman",
+        :collector-number "185p",
+        :layout "normal",
+        :name "Deeproot Champion",
         :oracle-text
         "Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion."}
- #:card{:code "pxln",
-        :collector-number "185s",
-        :name "Deeproot Champion",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/3/a3370921-9d06-429f-9553-0931416f0fc7.png?1562925469",
-        :type-line "Creature — Merfolk Shaman",
+        :collector-number "185s",
+        :layout "normal",
+        :name "Deeproot Champion",
         :oracle-text
         "Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion."}
- #:card{:code "pxln",
-        :collector-number "189s",
-        :name "Emperor's Vanguard",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Scout",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/7/c730874b-e275-4325-9fd8-eaf4494571f4.png?1562932270",
-        :type-line "Creature — Human Scout",
+        :collector-number "189s",
+        :layout "normal",
+        :name "Emperor's Vanguard",
         :oracle-text
         "Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
  #:card{:code "pxln",
@@ -815,6 +894,7 @@
         :name "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7ea26869-d923-42e1-9b34-3993f63f64b4.png?1562918437",
@@ -826,184 +906,202 @@
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control."}]}
- #:card{:code "pxln",
-        :collector-number "199s",
-        :name "Old-Growth Dryads",
-        :layout "normal",
+ #:card{:type-line "Creature — Dryad",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/66d0eb58-d4ce-428e-90bf-4a03552c9413.png?1562913992",
-        :type-line "Creature — Dryad",
+        :collector-number "199s",
+        :layout "normal",
+        :name "Old-Growth Dryads",
         :oracle-text
         "When Old-Growth Dryads enters the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."}
- #:card{:code "pxln",
-        :collector-number "203p",
-        :name "Ripjaw Raptor",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4bdf9bf0-5247-4a30-91f1-0172b6aa6be6.png?1566582099",
-        :type-line "Creature — Dinosaur",
+        :collector-number "203p",
+        :layout "normal",
+        :name "Ripjaw Raptor",
         :oracle-text
         "Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card."}
- #:card{:code "pxln",
-        :collector-number "203s",
-        :name "Ripjaw Raptor",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bb593a05-4813-4549-b023-1915caec409b.png?1562929988",
-        :type-line "Creature — Dinosaur",
+        :collector-number "203s",
+        :layout "normal",
+        :name "Ripjaw Raptor",
         :oracle-text
         "Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card."}
- #:card{:code "pxln",
-        :collector-number "206p",
-        :name "Shapers' Sanctuary",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/c/2c854232-089d-4cf8-a004-f2ab4ee58070.png?1566582117",
-        :type-line "Enchantment",
+        :collector-number "206p",
+        :layout "normal",
+        :name "Shapers' Sanctuary",
         :oracle-text
         "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card."}
- #:card{:code "pxln",
-        :collector-number "206s",
-        :name "Shapers' Sanctuary",
-        :layout "normal",
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/b/cb40097f-2a92-40b3-97cc-9159386baf49.png?1562933018",
-        :type-line "Enchantment",
+        :collector-number "206s",
+        :layout "normal",
+        :name "Shapers' Sanctuary",
         :oracle-text
         "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card."}
- #:card{:code "pxln",
-        :collector-number "213p",
-        :name "Verdant Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1bff425c-9f92-4f6e-a48d-e6257b48f169.png?1566582128",
-        :type-line "Creature — Dinosaur Avatar",
+        :collector-number "213p",
+        :layout "normal",
+        :name "Verdant Sun's Avatar",
         :oracle-text
         "Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness."}
- #:card{:code "pxln",
-        :collector-number "213s",
-        :name "Verdant Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/b/fbd686da-90ac-4a3b-aeaa-d3141294f78d.png?1562942467",
-        :type-line "Creature — Dinosaur Avatar",
+        :collector-number "213s",
+        :layout "normal",
+        :name "Verdant Sun's Avatar",
         :oracle-text
         "Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness."}
- #:card{:code "pxln",
-        :collector-number "215s",
-        :name "Waker of the Wilds",
-        :layout "normal",
+ #:card{:type-line "Creature — Merfolk Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e79cb13c-11b9-4a3b-a701-af10732c1e05.png?1562938343",
-        :type-line "Creature — Merfolk Shaman",
+        :collector-number "215s",
+        :layout "normal",
+        :name "Waker of the Wilds",
         :oracle-text
         "{X}{G}{G}: Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It's still a land."}
- #:card{:code "pxln",
-        :collector-number "217s",
-        :name "Admiral Beckett Brass",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc92ac48-e09b-4301-9fb2-e129dbb97dba.png?1562942606",
-        :type-line "Legendary Creature — Human Pirate",
+        :collector-number "217s",
+        :layout "normal",
+        :name "Admiral Beckett Brass",
         :oracle-text
         "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn."}
- #:card{:code "pxln",
-        :collector-number "222s",
-        :name "Gishath, Sun's Avatar",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Dinosaur Avatar",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/d/dd1e21f6-2314-469e-b80e-8678c960c09e.png?1562936214",
-        :type-line "Legendary Creature — Dinosaur Avatar",
+        :collector-number "222s",
+        :layout "normal",
+        :name "Gishath, Sun's Avatar",
         :oracle-text
         "Vigilance, trample, haste\nWhenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order."}
- #:card{:code "pxln",
-        :collector-number "223s",
-        :name "Hostage Taker",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/7/4779f967-17b3-4184-a829-31f19db3a75d.png?1562908093",
-        :type-line "Creature — Human Pirate",
+        :collector-number "223s",
+        :layout "normal",
+        :name "Hostage Taker",
         :oracle-text
         "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell."}
- #:card{:code "pxln",
-        :collector-number "224s",
-        :name "Huatli, Warrior Poet",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Huatli",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/6/b66895dc-ecce-4922-9f0f-9ef2ba045966.png?1562928971",
-        :type-line "Legendary Planeswalker — Huatli",
+        :collector-number "224s",
+        :layout "normal",
+        :name "Huatli, Warrior Poet",
         :oracle-text
         "+2: You gain life equal to the greatest power among creatures you control.\n0: Create a 3/3 green Dinosaur creature token with trample.\n−X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures. Creatures dealt damage this way can't block this turn."}
- #:card{:code "pxln",
-        :collector-number "227p",
-        :name "Regisaur Alpha",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc2eec06-261c-4cb3-bd8e-23aaf07db47d.png?1566582154",
-        :type-line "Creature — Dinosaur",
+        :collector-number "227p",
+        :layout "normal",
+        :name "Regisaur Alpha",
         :oracle-text
         "Other Dinosaurs you control have haste.\nWhen Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample."}
- #:card{:code "pxln",
-        :collector-number "227s",
-        :name "Regisaur Alpha",
-        :layout "normal",
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/e/0e27be78-a209-4a64-a75a-bea677cca1b5.png?1562897741",
-        :type-line "Creature — Dinosaur",
+        :collector-number "227s",
+        :layout "normal",
+        :name "Regisaur Alpha",
         :oracle-text
         "Other Dinosaurs you control have haste.\nWhen Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample."}
- #:card{:code "pxln",
-        :collector-number "230s",
-        :name "Tishana, Voice of Thunder",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Merfolk Shaman",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b5f04224-d3db-4cf6-a57b-edf2d41ef8d0.png?1562928926",
-        :type-line "Legendary Creature — Merfolk Shaman",
+        :collector-number "230s",
+        :layout "normal",
+        :name "Tishana, Voice of Thunder",
         :oracle-text
         "Tishana, Voice of Thunder's power and toughness are each equal to the number of cards in your hand.\nYou have no maximum hand size.\nWhen Tishana enters the battlefield, draw a card for each creature you control."}
- #:card{:code "pxln",
-        :collector-number "231s",
-        :name "Vona, Butcher of Magan",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Vampire Knight",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/9/b9236e45-3d4f-4d4a-9882-3a6f99dd1ead.png?1562929494",
-        :type-line "Legendary Creature — Vampire Knight",
+        :collector-number "231s",
+        :layout "normal",
+        :name "Vona, Butcher of Magan",
         :oracle-text
         "Vigilance, lifelink\n{T}, Pay 7 life: Destroy target nonland permanent. Activate only during your turn."}
- #:card{:code "pxln",
-        :collector-number "232p",
-        :name "Vraska, Relic Seeker",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Vraska",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c59e3dd0-9cd4-4c65-9296-e2020a0df857.png?1566582120",
-        :type-line "Legendary Planeswalker — Vraska",
+        :collector-number "232p",
+        :layout "normal",
+        :name "Vraska, Relic Seeker",
         :oracle-text
         "+2: Create a 2/2 black Pirate creature token with menace.\n−3: Destroy target artifact, creature, or enchantment. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n−10: Target player's life total becomes 1."}
- #:card{:code "pxln",
-        :collector-number "232s",
-        :name "Vraska, Relic Seeker",
-        :layout "normal",
+ #:card{:type-line "Legendary Planeswalker — Vraska",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/08d9fdda-c665-4e9a-9e9e-d9fec6f275b8.png?1562896689",
-        :type-line "Legendary Planeswalker — Vraska",
+        :collector-number "232s",
+        :layout "normal",
+        :name "Vraska, Relic Seeker",
         :oracle-text
         "+2: Create a 2/2 black Pirate creature token with menace.\n−3: Destroy target artifact, creature, or enchantment. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n−10: Target player's life total becomes 1."}
  #:card{:code "pxln",
@@ -1011,6 +1109,7 @@
         :name "Conqueror's Galleon // Conqueror's Foothold",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c92712f9-2ee6-441e-b103-6d43410cf01d.png?1562932617",
@@ -1027,6 +1126,7 @@
         :name "Dowsing Dagger // Lost Vale",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d686db7-cd66-4d85-97a7-94263ef346e7.png?1562906312",
@@ -1038,14 +1138,15 @@
           :type-line "Land",
           :oracle-text
           "(Transforms from Dowsing Dagger.)\n{T}: Add three mana of any one color."}]}
- #:card{:code "pxln",
-        :collector-number "238s",
-        :name "Fell Flagship",
-        :layout "normal",
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac26bcdb-7646-40eb-8eca-9e3ac9e58a75.png?1562927124",
-        :type-line "Artifact — Vehicle",
+        :collector-number "238s",
+        :layout "normal",
+        :name "Fell Flagship",
         :oracle-text
         "Pirates you control get +1/+0.\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:code "pxln",
@@ -1053,6 +1154,7 @@
         :name "Primal Amulet // Primal Wellspring",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57c0e869-9324-4352-899c-61c0cc5484b9.png?1562911164",
@@ -1064,34 +1166,37 @@
           :type-line "Land",
           :oracle-text
           "(Transforms from Primal Amulet.)\n{T}: Add one mana of any color. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy."}]}
- #:card{:code "pxln",
-        :collector-number "246s",
-        :name "Shadowed Caravel",
-        :layout "normal",
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/0/d04e5a78-4cd5-4be9-a06e-71562435836e.png?1562933963",
-        :type-line "Artifact — Vehicle",
+        :collector-number "246s",
+        :layout "normal",
+        :name "Shadowed Caravel",
         :oracle-text
         "Whenever a creature you control explores, put a +1/+1 counter on Shadowed Caravel.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
- #:card{:code "pxln",
-        :collector-number "248p",
-        :name "Sorcerous Spyglass",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/1/a120e38c-720a-4164-b3b9-84abbde98b5f.png?1566582107",
-        :type-line "Artifact",
+        :collector-number "248p",
+        :layout "normal",
+        :name "Sorcerous Spyglass",
         :oracle-text
         "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities."}
- #:card{:code "pxln",
-        :collector-number "248s",
-        :name "Sorcerous Spyglass",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a3d24b2-9cf2-42be-97ba-e4b6916cb7c1.png?1562899910",
-        :type-line "Artifact",
+        :collector-number "248s",
+        :layout "normal",
+        :name "Sorcerous Spyglass",
         :oracle-text
         "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities."}
  #:card{:code "pxln",
@@ -1099,6 +1204,7 @@
         :name "Thaumatic Compass // Spires of Orazca",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/0/5/0529769c-b70e-4856-a8ad-59c304d90e3a.png?1596137575",
@@ -1115,6 +1221,7 @@
         :name "Treasure Map // Treasure Cove",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/08ddcbee-906a-4b40-b585-99854dfd458c.png?1562896694",
@@ -1126,133 +1233,146 @@
           :type-line "Land",
           :oracle-text
           "(Transforms from Treasure Map.)\n{T}: Add {C}.\n{T}, Sacrifice a Treasure: Draw a card."}]}
- #:card{:code "pxln",
-        :collector-number "251p",
-        :name "Vanquisher's Banner",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/8/a8b05732-d16c-47df-85e7-fb361ef734eb.png?1566582086",
-        :type-line "Artifact",
+        :collector-number "251p",
+        :layout "normal",
+        :name "Vanquisher's Banner",
         :oracle-text
         "As Vanquisher's Banner enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card."}
- #:card{:code "pxln",
-        :collector-number "251s",
-        :name "Vanquisher's Banner",
-        :layout "normal",
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1b56ca43-4652-4faa-ac25-e48f57315634.png?1562900151",
-        :type-line "Artifact",
+        :collector-number "251s",
+        :layout "normal",
+        :name "Vanquisher's Banner",
         :oracle-text
         "As Vanquisher's Banner enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card."}
- #:card{:code "pxln",
-        :collector-number "252p",
-        :name "Dragonskull Summit",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e33beb10-5834-4a6f-b05d-7d1ca3896119.png?1566582114",
-        :type-line "Land",
+        :collector-number "252p",
+        :layout "normal",
+        :name "Dragonskull Summit",
         :oracle-text
         "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}."}
- #:card{:code "pxln",
-        :collector-number "252s",
-        :name "Dragonskull Summit",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4962bb3-28c3-45bd-8db0-89255b2c8785.png?1562928658",
-        :type-line "Land",
+        :collector-number "252s",
+        :layout "normal",
+        :name "Dragonskull Summit",
         :oracle-text
         "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}."}
- #:card{:code "pxln",
-        :collector-number "253p",
-        :name "Drowned Catacomb",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69ec2758-386c-4da3-bf00-f2d34749f473.png?1566582110",
-        :type-line "Land",
+        :collector-number "253p",
+        :layout "normal",
+        :name "Drowned Catacomb",
         :oracle-text
         "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}."}
- #:card{:code "pxln",
-        :collector-number "253s",
-        :name "Drowned Catacomb",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c60a3772-aefd-44c5-a5e5-75b4c32c39f9.png?1562932052",
-        :type-line "Land",
+        :collector-number "253s",
+        :layout "normal",
+        :name "Drowned Catacomb",
         :oracle-text
         "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}."}
- #:card{:code "pxln",
-        :collector-number "255p",
-        :name "Glacial Fortress",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/3/1377c097-f851-4037-991a-ff6c8d3520d7.png?1566582151",
-        :type-line "Land",
+        :collector-number "255p",
+        :layout "normal",
+        :name "Glacial Fortress",
         :oracle-text
         "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}."}
- #:card{:code "pxln",
-        :collector-number "255s",
-        :name "Glacial Fortress",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2d50167-e51d-4a27-8bf7-82a7a47114af.png?1562934368",
-        :type-line "Land",
+        :collector-number "255s",
+        :layout "normal",
+        :name "Glacial Fortress",
         :oracle-text
         "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}."}
- #:card{:code "pxln",
-        :collector-number "256p",
-        :name "Rootbound Crag",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f505c6f6-bf80-455e-b67d-d08e3a9aec94.png?1566582137",
-        :type-line "Land",
+        :collector-number "256p",
+        :layout "normal",
+        :name "Rootbound Crag",
         :oracle-text
         "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G}."}
- #:card{:code "pxln",
-        :collector-number "256s",
-        :name "Rootbound Crag",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/a/1a8ccb4f-7566-4ce9-83b0-25cc2365cebb.png?1562899994",
-        :type-line "Land",
+        :collector-number "256s",
+        :layout "normal",
+        :name "Rootbound Crag",
         :oracle-text
         "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G}."}
- #:card{:code "pxln",
-        :collector-number "257p",
-        :name "Sunpetal Grove",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45860a19-515f-4bd9-af44-a96e653e9101.png?1566582045",
-        :type-line "Land",
+        :collector-number "257p",
+        :layout "normal",
+        :name "Sunpetal Grove",
         :oracle-text
         "Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W}."}
- #:card{:code "pxln",
-        :collector-number "257s",
-        :name "Sunpetal Grove",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d1e07144-e524-4ced-b0fa-8749924f65a0.png?1562934183",
-        :type-line "Land",
+        :collector-number "257s",
+        :layout "normal",
+        :name "Sunpetal Grove",
         :oracle-text
         "Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W}."}
- #:card{:code "pxln",
-        :collector-number "258",
-        :name "Unclaimed Territory",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pxln",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80c6fc30-04bf-40aa-9db1-28da2c7b2249.png?1562918868",
-        :type-line "Land",
+        :collector-number "258",
+        :layout "normal",
+        :name "Unclaimed Territory",
         :oracle-text
         "As Unclaimed Territory enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type."})

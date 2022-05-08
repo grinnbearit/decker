@@ -1,48 +1,53 @@
-(#:card{:code "pm14",
-        :collector-number "21★",
-        :name "Hive Stirrings",
-        :layout "normal",
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1c44ce9f-27fc-4c28-bc59-4cea9e46ce85.png?1605361730",
-        :type-line "Sorcery",
+        :collector-number "21★",
+        :layout "normal",
+        :name "Hive Stirrings",
         :oracle-text
         "Create two 1/1 colorless Sliver creature tokens."}
- #:card{:code "pm14",
-        :collector-number "48★",
-        :name "Colossal Whale",
-        :layout "normal",
+ #:card{:type-line "Creature — Whale",
+        :layout-category :normal,
+        :code "pm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20968c42-d63b-4b2a-ae47-f986f3c35fdc.png?1605361731",
-        :type-line "Creature — Whale",
+        :collector-number "48★",
+        :layout "normal",
+        :name "Colossal Whale",
         :oracle-text
         "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)"}
- #:card{:code "pm14",
-        :collector-number "141★",
-        :name "Goblin Diplomats",
-        :layout "normal",
+ #:card{:type-line "Creature — Goblin",
+        :layout-category :normal,
+        :code "pm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/4/e4d3dbc0-bc12-437b-968f-ceb8edc9de50.png?1605361733",
-        :type-line "Creature — Goblin",
-        :oracle-text "{T}: Each creature attacks this turn if able."}
- #:card{:code "pm14",
-        :collector-number "185★",
-        :name "Megantic Sliver",
+        :collector-number "141★",
         :layout "normal",
+        :name "Goblin Diplomats",
+        :oracle-text "{T}: Each creature attacks this turn if able."}
+ #:card{:type-line "Creature — Sliver",
+        :layout-category :normal,
+        :code "pm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3ddea611-856c-41e4-909a-80826f3dfca1.png?1605361735",
-        :type-line "Creature — Sliver",
-        :oracle-text "Sliver creatures you control get +3/+3."}
- #:card{:code "pm14",
-        :collector-number "215★",
-        :name "Ratchet Bomb",
+        :collector-number "185★",
         :layout "normal",
+        :name "Megantic Sliver",
+        :oracle-text "Sliver creatures you control get +3/+3."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pm14",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/0784c211-18d3-460a-aacc-272449a7dbbc.png?1605361734",
-        :type-line "Artifact",
+        :collector-number "215★",
+        :layout "normal",
+        :name "Ratchet Bomb",
         :oracle-text
         "{T}: Put a charge counter on Ratchet Bomb.\n{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with mana value equal to the number of charge counters on Ratchet Bomb."})

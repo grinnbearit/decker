@@ -1,77 +1,85 @@
-(#:card{:code "j15",
-        :collector-number "1",
-        :name "Temporal Manipulation",
-        :layout "normal",
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/f/bf195465-092b-4812-b400-b3af433eaeec.png?1561757971",
-        :type-line "Sorcery",
-        :oracle-text "Take an extra turn after this one."}
- #:card{:code "j15",
-        :collector-number "2",
-        :name "Shardless Agent",
+        :collector-number "1",
         :layout "normal",
+        :name "Temporal Manipulation",
+        :oracle-text "Take an extra turn after this one."}
+ #:card{:type-line "Artifact Creature — Human Rogue",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7b7a85c-1316-4a67-988e-71ab0ff912da.png?1561757778",
-        :type-line "Artifact Creature — Human Rogue",
+        :collector-number "2",
+        :layout "normal",
+        :name "Shardless Agent",
         :oracle-text
         "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
- #:card{:code "j15",
-        :collector-number "3",
-        :name "Rishadan Port",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7d8f28e-ea99-4a6f-82ac-c39725150806.png?1591104674",
-        :type-line "Land",
-        :oracle-text "{T}: Add {C}.\n{1}, {T}: Tap target land."}
- #:card{:code "j15",
-        :collector-number "4",
-        :name "Ravages of War",
+        :collector-number "3",
         :layout "normal",
+        :name "Rishadan Port",
+        :oracle-text "{T}: Add {C}.\n{1}, {T}: Tap target land."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f37b0b6d-863f-4a26-a075-3117bab53a1a.png?1561758428",
-        :type-line "Sorcery",
-        :oracle-text "Destroy all lands."}
- #:card{:code "j15",
-        :collector-number "5",
-        :name "Damnation",
+        :collector-number "4",
         :layout "normal",
+        :name "Ravages of War",
+        :oracle-text "Destroy all lands."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d738f452-711f-47a2-9979-26bff7055737.png?1561758161",
-        :type-line "Sorcery",
+        :collector-number "5",
+        :layout "normal",
+        :name "Damnation",
         :oracle-text
         "Destroy all creatures. They can't be regenerated."}
- #:card{:code "j15",
-        :collector-number "6",
-        :name "Dualcaster Mage",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a73faf18-3cc1-4136-91db-9f7273080ff4.png?1561757769",
-        :type-line "Creature — Human Wizard",
+        :collector-number "6",
+        :layout "normal",
+        :name "Dualcaster Mage",
         :oracle-text
         "Flash\nWhen Dualcaster Mage enters the battlefield, copy target instant or sorcery spell. You may choose new targets for the copy."}
- #:card{:code "j15",
-        :collector-number "7",
-        :name "Feldon of the Third Path",
-        :layout "normal",
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e02e276e-0967-4fc6-9809-548677aa131c.png?1561758262",
-        :type-line "Legendary Creature — Human Artificer",
+        :collector-number "7",
+        :layout "normal",
+        :name "Feldon of the Third Path",
         :oracle-text
         "{2}{R}, {T}: Create a token that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step."}
- #:card{:code "j15",
-        :collector-number "8",
-        :name "Wasteland",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "j15",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9f883c77-d5e1-400a-a45b-06654877248e.png?1561757699",
-        :type-line "Land",
+        :collector-number "8",
+        :layout "normal",
+        :name "Wasteland",
         :oracle-text
         "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."})

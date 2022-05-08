@@ -1,74 +1,82 @@
-(#:card{:code "tgrn",
-        :collector-number "1",
-        :name "Angel",
-        :layout "token",
+(#:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/acb271a8-68bb-45e6-9f99-568479e92ea0.png?1572892475",
-        :type-line "Token Creature — Angel",
-        :oracle-text "Flying, vigilance"}
- #:card{:code "tgrn",
-        :collector-number "2",
-        :name "Soldier",
+        :collector-number "1",
         :layout "token",
+        :name "Angel",
+        :oracle-text "Flying, vigilance"}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45907b16-af17-4237-ab38-9d7537fd30e8.png?1572892483",
-        :type-line "Token Creature — Soldier",
-        :oracle-text "Lifelink"}
- #:card{:code "tgrn",
-        :collector-number "3",
-        :name "Bird Illusion",
+        :collector-number "2",
         :layout "token",
+        :name "Soldier",
+        :oracle-text "Lifelink"}
+ #:card{:type-line "Token Creature — Bird Illusion",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/03c3dc23-d6f2-4209-82e1-a0b936c94231.png?1572892490",
-        :type-line "Token Creature — Bird Illusion",
-        :oracle-text "Flying"}
- #:card{:code "tgrn",
-        :collector-number "4",
-        :name "Goblin",
+        :collector-number "3",
         :layout "token",
+        :name "Bird Illusion",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b27dc0bd-ba46-4a5c-9559-7c11eb4ec37b.png?1572892497",
-        :type-line "Token Creature — Goblin",
-        :oracle-text ""}
- #:card{:code "tgrn",
-        :collector-number "5",
-        :name "Insect",
+        :collector-number "4",
         :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/0436e71b-c1f9-4ca8-a29c-775da858a0cd.png?1572892506",
-        :type-line "Token Creature — Insect",
-        :oracle-text ""}
- #:card{:code "tgrn",
-        :collector-number "6",
-        :name "Elf Knight",
+        :collector-number "5",
         :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Elf Knight",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/74506297-41ad-40e5-bb05-175650ff4907.png?1572892512",
-        :type-line "Token Creature — Elf Knight",
+        :collector-number "6",
+        :layout "token",
+        :name "Elf Knight",
         :oracle-text "Vigilance"}
- #:card{:code "tgrn",
-        :collector-number "7",
-        :name "Ral, Izzet Viceroy Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Ral",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/03580d3a-4c02-4f2e-b667-f82028ccde0b.png?1572892519",
-        :type-line "Emblem — Ral",
+        :collector-number "7",
+        :layout "emblem",
+        :name "Ral, Izzet Viceroy Emblem",
         :oracle-text
         "Whenever you cast an instant or sorcery spell, this emblem deals 4 damage to any target and you draw two cards."}
- #:card{:code "tgrn",
-        :collector-number "8",
-        :name "Vraska, Golgari Queen Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Vraska",
+        :layout-category :normal,
+        :code "tgrn",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d81478ee-1ddf-44f5-98a0-df6d4eecad7e.png?1572892526",
-        :type-line "Emblem — Vraska",
+        :collector-number "8",
+        :layout "emblem",
+        :name "Vraska, Golgari Queen Emblem",
         :oracle-text
         "Whenever a creature you control deals combat damage to a player, that player loses the game."})

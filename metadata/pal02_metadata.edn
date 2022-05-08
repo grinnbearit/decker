@@ -1,49 +1,54 @@
-(#:card{:code "pal02",
-        :collector-number "1",
-        :name "Island",
-        :layout "normal",
+(#:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pal02",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc3dd97a-7082-4059-9c27-f25929f819ac.png?1561758211",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "pal02",
-        :collector-number "2",
-        :name "Man-o'-War",
+        :collector-number "1",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Creature — Jellyfish",
+        :layout-category :normal,
+        :code "pal02",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/5/85cdce78-2c97-4078-88a8-5b82f5867c96.png?1561757500",
-        :type-line "Creature — Jellyfish",
+        :collector-number "2",
+        :layout "normal",
+        :name "Man-o'-War",
         :oracle-text
         "When Man-o'-War enters the battlefield, return target creature to its owner's hand."}
- #:card{:code "pal02",
-        :collector-number "3",
-        :name "Arc Lightning",
-        :layout "normal",
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pal02",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/4/f4a13429-8741-478b-8b17-1a0d8a1a7d02.png?1561758434",
-        :type-line "Sorcery",
+        :collector-number "3",
+        :layout "normal",
+        :name "Arc Lightning",
         :oracle-text
         "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets."}
- #:card{:code "pal02",
-        :collector-number "4",
-        :name "Dauthi Slayer",
-        :layout "normal",
+ #:card{:type-line "Creature — Dauthi Soldier",
+        :layout-category :normal,
+        :code "pal02",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/7/a7ed471d-2798-45f1-9529-8b5202cd1af5.png?1618466028",
-        :type-line "Creature — Dauthi Soldier",
+        :collector-number "4",
+        :layout "normal",
+        :name "Dauthi Slayer",
         :oracle-text
         "Shadow (This creature can block or be blocked by only creatures with shadow.)\nDauthi Slayer attacks each combat if able."}
- #:card{:code "pal02",
-        :collector-number "5",
-        :name "Mana Leak",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pal02",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d736f28a-9007-458c-9b6a-f39edde23e4c.png?1561758160",
-        :type-line "Instant",
+        :collector-number "5",
+        :layout "normal",
+        :name "Mana Leak",
         :oracle-text
         "Counter target spell unless its controller pays {3}."})

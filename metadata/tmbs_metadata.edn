@@ -1,55 +1,61 @@
-(#:card{:code "tmbs",
-        :collector-number "1",
-        :name "Germ",
-        :layout "token",
+(#:card{:type-line "Token Creature — Germ",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/760dcba4-c0f1-4843-9c39-393c629aae8e.png?1561757426",
-        :type-line "Token Creature — Germ",
-        :oracle-text ""}
- #:card{:code "tmbs",
-        :collector-number "2",
-        :name "Zombie",
+        :collector-number "1",
         :layout "token",
+        :name "Germ",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/6/46769d11-a7ae-43ac-8c00-e1681955949b.png?1561757036",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tmbs",
-        :collector-number "3",
-        :name "Golem",
+        :collector-number "2",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Golem",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/d/2d84926d-5892-4c62-a943-fac9f0ddc569.png?1561756844",
-        :type-line "Token Artifact Creature — Golem",
-        :oracle-text ""}
- #:card{:code "tmbs",
-        :collector-number "4",
-        :name "Horror",
+        :collector-number "3",
         :layout "token",
+        :name "Golem",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Horror",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a4c5954-da2b-498a-9e86-eb4d6dc95cb8.png?1561757207",
-        :type-line "Token Artifact Creature — Horror",
-        :oracle-text ""}
- #:card{:code "tmbs",
-        :collector-number "5",
-        :name "Thopter",
+        :collector-number "4",
         :layout "token",
+        :name "Horror",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/f/8f4e230e-f604-4803-9cbd-fd08d2863db4.png?1561757563",
-        :type-line "Token Artifact Creature — Thopter",
+        :collector-number "5",
+        :layout "token",
+        :name "Thopter",
         :oracle-text "Flying"}
- #:card{:code "tmbs",
-        :collector-number "6",
-        :name "Poison Counter",
-        :layout "normal",
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tmbs",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/92fcdd2b-dd90-458d-9b8b-5b1b9a3f8bd3.png?1561757601",
-        :type-line "Card",
+        :collector-number "6",
+        :layout "normal",
+        :name "Poison Counter",
         :oracle-text
         "(A player with ten or more poison counters loses the game.)"})

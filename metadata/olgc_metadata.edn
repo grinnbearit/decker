@@ -1,197 +1,218 @@
-(#:card{:code "olgc",
-        :collector-number "2011",
-        :name "Force of Will",
-        :layout "normal",
+(#:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/9/a9b7de61-d201-4e75-b0c8-36816f0f418b.png?1562197253",
-        :type-line "Instant",
+        :collector-number "2011",
+        :layout "normal",
+        :name "Force of Will",
         :oracle-text
         "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell."}
- #:card{:code "olgc",
-        :collector-number "2012",
-        :name "Brainstorm",
-        :layout "normal",
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/82a5c5d4-1a3e-4a3c-bf77-1099836e2f04.png?1562196891",
-        :type-line "Instant",
+        :collector-number "2012",
+        :layout "normal",
+        :name "Brainstorm",
         :oracle-text
         "Draw three cards, then put two cards from your hand on top of your library in any order."}
- #:card{:code "olgc",
-        :collector-number "2013",
-        :name "Wasteland",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd8d3e8a-856d-4c3f-a72f-ec5ea1c2f55d.png?1562197259",
-        :type-line "Land",
+        :collector-number "2013",
+        :layout "normal",
+        :name "Wasteland",
         :oracle-text
         "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."}
- #:card{:code "olgc",
-        :collector-number "2014",
-        :name "Gaea's Cradle",
-        :layout "normal",
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3faf2c71-8591-4005-a93f-08441e3bba49.png?1630620120",
-        :type-line "Legendary Land",
-        :oracle-text "{T}: Add {G} for each creature you control."}
- #:card{:code "olgc",
-        :collector-number "2015",
-        :name "Tundra",
+        :collector-number "2014",
         :layout "normal",
+        :name "Gaea's Cradle",
+        :oracle-text "{T}: Add {G} for each creature you control."}
+ #:card{:type-line "Land — Plains Island",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8ef5d61d-2648-4cbc-8083-3f3c6b362825.png?1630620148",
-        :type-line "Land — Plains Island",
-        :oracle-text "({T}: Add {W} or {U}.)"}
- #:card{:code "olgc",
-        :collector-number "2016EU",
-        :name "Underground Sea",
+        :collector-number "2015",
         :layout "normal",
+        :name "Tundra",
+        :oracle-text "({T}: Add {W} or {U}.)"}
+ #:card{:type-line "Land — Island Swamp",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/6/962719f7-ff8e-480b-985e-bd53a111793b.png?1630620174",
-        :type-line "Land — Island Swamp",
-        :oracle-text "({T}: Add {U} or {B}.)"}
- #:card{:code "olgc",
-        :collector-number "2016NA",
-        :name "Badlands",
+        :collector-number "2016EU",
         :layout "normal",
+        :name "Underground Sea",
+        :oracle-text "({T}: Add {U} or {B}.)"}
+ #:card{:type-line "Land — Swamp Mountain",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/644aba21-1fa7-4483-b9bf-56c5fe4d8975.png?1630620199",
-        :type-line "Land — Swamp Mountain",
-        :oracle-text "({T}: Add {B} or {R}.)"}
- #:card{:code "olgc",
-        :collector-number "2017EU",
-        :name "Taiga",
+        :collector-number "2016NA",
         :layout "normal",
+        :name "Badlands",
+        :oracle-text "({T}: Add {B} or {R}.)"}
+ #:card{:type-line "Land — Mountain Forest",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/453e1bf8-e570-4b9b-8f41-5f4f31ae3b0e.png?1630620225",
-        :type-line "Land — Mountain Forest",
-        :oracle-text "({T}: Add {R} or {G}.)"}
- #:card{:code "olgc",
-        :collector-number "2017NA",
-        :name "Savannah",
+        :collector-number "2017EU",
         :layout "normal",
+        :name "Taiga",
+        :oracle-text "({T}: Add {R} or {G}.)"}
+ #:card{:type-line "Land — Forest Plains",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/9/3/931184cf-0b9a-49d5-8234-a25b90dbaedb.png?1630620249",
-        :type-line "Land — Forest Plains",
-        :oracle-text "({T}: Add {G} or {W}.)"}
- #:card{:code "olgc",
-        :collector-number "2018",
-        :name "Scrubland",
+        :collector-number "2017NA",
         :layout "normal",
+        :name "Savannah",
+        :oracle-text "({T}: Add {G} or {W}.)"}
+ #:card{:type-line "Land — Plains Swamp",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d1428846-e0da-4b62-b0e9-25efe846cc33.png?1562197254",
-        :type-line "Land — Plains Swamp",
-        :oracle-text "({T}: Add {W} or {B}.)"}
- #:card{:code "olgc",
-        :collector-number "2018A",
-        :name "Plateau",
+        :collector-number "2018",
         :layout "normal",
+        :name "Scrubland",
+        :oracle-text "({T}: Add {W} or {B}.)"}
+ #:card{:type-line "Land — Mountain Plains",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/8/0829af6e-7dd9-4bce-bf14-1c5d509556cb.png?1630620277",
-        :type-line "Land — Mountain Plains",
-        :oracle-text "({T}: Add {R} or {W}.)"}
- #:card{:code "olgc",
-        :collector-number "2018NA",
-        :name "Volcanic Island",
+        :collector-number "2018A",
         :layout "normal",
+        :name "Plateau",
+        :oracle-text "({T}: Add {R} or {W}.)"}
+ #:card{:type-line "Land — Island Mountain",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/5/154ce456-38d2-4195-93b7-302e11c006e2.png?1630620306",
-        :type-line "Land — Island Mountain",
-        :oracle-text "({T}: Add {U} or {R}.)"}
- #:card{:code "olgc",
-        :collector-number "2019",
-        :name "Tropical Island",
+        :collector-number "2018NA",
         :layout "normal",
+        :name "Volcanic Island",
+        :oracle-text "({T}: Add {U} or {R}.)"}
+ #:card{:type-line "Land — Forest Island",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/2674e6d9-51b9-405c-ab01-75474abcf690.png?1588360231",
-        :type-line "Land — Forest Island",
-        :oracle-text "({T}: Add {G} or {U}.)"}
- #:card{:code "olgc",
-        :collector-number "2019A",
-        :name "Bayou",
+        :collector-number "2019",
         :layout "normal",
+        :name "Tropical Island",
+        :oracle-text "({T}: Add {G} or {U}.)"}
+ #:card{:type-line "Land — Swamp Forest",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/7/771ab45c-1a14-4ea1-b35a-1cb00a0fc5ff.png?1566518232",
-        :type-line "Land — Swamp Forest",
-        :oracle-text "({T}: Add {B} or {G}.)"}
- #:card{:code "olgc",
-        :collector-number "2019NA",
-        :name "City of Traitors",
+        :collector-number "2019A",
         :layout "normal",
+        :name "Bayou",
+        :oracle-text "({T}: Add {B} or {G}.)"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4c19926a-7792-4e0f-8418-a44f0cf5eeea.png?1621759184",
-        :type-line "Land",
+        :collector-number "2019NA",
+        :layout "normal",
+        :name "City of Traitors",
         :oracle-text
         "When you play another land, sacrifice City of Traitors.\n{T}: Add {C}{C}."}
- #:card{:code "olgc",
-        :collector-number "2020A",
-        :name "Karakas",
-        :layout "normal",
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/6/b68c652e-9413-456e-b875-bf9a0ca801a8.png?1630552366",
-        :type-line "Legendary Land",
+        :collector-number "2020A",
+        :layout "normal",
+        :name "Karakas",
         :oracle-text
         "{T}: Add {W}.\n{T}: Return target legendary creature to its owner's hand."}
- #:card{:code "olgc",
-        :collector-number "2020B",
-        :name "Rishadan Port",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75876b45-4fc8-41b4-bc87-19c5a1d7e315.png?1630552273",
-        :type-line "Land",
-        :oracle-text "{T}: Add {C}.\n{1}, {T}: Tap target land."}
- #:card{:code "olgc",
-        :collector-number "2020C",
-        :name "Maze of Ith",
+        :collector-number "2020B",
         :layout "normal",
+        :name "Rishadan Port",
+        :oracle-text "{T}: Add {C}.\n{1}, {T}: Tap target land."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f8a7e4ce-b7a1-4476-89c7-74825ba31382.png?1630552235",
-        :type-line "Land",
+        :collector-number "2020C",
+        :layout "normal",
+        :name "Maze of Ith",
         :oracle-text
         "{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn."}
- #:card{:code "olgc",
-        :collector-number "2021A",
-        :name "Wasteland",
-        :layout "normal",
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/4/34c7a81b-476c-4a5e-b26c-75a3f4eb46f3.png?1645671148",
-        :type-line "Land",
+        :collector-number "2021A",
+        :layout "normal",
+        :name "Wasteland",
         :oracle-text
         "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."}
- #:card{:code "olgc",
-        :collector-number "2021B",
-        :name "Bayou",
-        :layout "normal",
+ #:card{:type-line "Land — Swamp Forest",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2988d9d-7c56-4daa-8609-ea249c18134f.png?1645671150",
-        :type-line "Land — Swamp Forest",
-        :oracle-text "({T}: Add {B} or {G}.)"}
- #:card{:code "olgc",
-        :collector-number "2021C",
-        :name "Sylvan Library",
+        :collector-number "2021B",
         :layout "normal",
+        :name "Bayou",
+        :oracle-text "({T}: Add {B} or {G}.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olgc",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb6b2d54-0b1d-4b0f-b5b8-6df5491d1bfc.png?1645671177",
-        :type-line "Enchantment",
+        :collector-number "2021C",
+        :layout "normal",
+        :name "Sylvan Library",
         :oracle-text
         "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library."})

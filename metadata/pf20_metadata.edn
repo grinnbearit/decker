@@ -1,55 +1,61 @@
-(#:card{:code "pf20",
-        :collector-number "1",
-        :name "Path to Exile",
-        :layout "normal",
+(#:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/20298a61-2739-4254-b102-51a2a74b5ddc.png?1593878447",
-        :type-line "Instant",
+        :collector-number "1",
+        :layout "normal",
+        :name "Path to Exile",
         :oracle-text
         "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
- #:card{:code "pf20",
-        :collector-number "2",
-        :name "Plains",
-        :layout "normal",
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3e0ae7fe-7cb0-487a-9e1e-fc2a52b42b87.png?1585195241",
-        :type-line "Basic Land — Plains",
-        :oracle-text "({T}: Add {W}.)"}
- #:card{:code "pf20",
-        :collector-number "3",
-        :name "Island",
+        :collector-number "2",
         :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b72bbd7-0b80-4e12-86d5-494d91319ec4.png?1585195243",
-        :type-line "Basic Land — Island",
-        :oracle-text "({T}: Add {U}.)"}
- #:card{:code "pf20",
-        :collector-number "4",
-        :name "Swamp",
+        :collector-number "3",
         :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/e/4e0e3fed-c7b6-43f8-9ab5-b80bde709276.png?1585195244",
-        :type-line "Basic Land — Swamp",
-        :oracle-text "({T}: Add {B}.)"}
- #:card{:code "pf20",
-        :collector-number "5",
-        :name "Mountain",
+        :collector-number "4",
         :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/5/b56f39a5-9c58-4c04-9285-18e3b4ce78d1.png?1585195246",
-        :type-line "Basic Land — Mountain",
-        :oracle-text "({T}: Add {R}.)"}
- #:card{:code "pf20",
-        :collector-number "6",
-        :name "Forest",
+        :collector-number "5",
         :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pf20",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/076c5ceb-4236-46ef-ba8e-336088fcedd9.png?1585195247",
-        :type-line "Basic Land — Forest",
+        :collector-number "6",
+        :layout "normal",
+        :name "Forest",
         :oracle-text "({T}: Add {G}.)"})

@@ -1,18 +1,20 @@
-(#:card{:code "tddl",
-        :collector-number "1",
-        :name "Griffin",
-        :layout "token",
+(#:card{:type-line "Token Creature — Griffin",
+        :layout-category :normal,
+        :code "tddl",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/e/0/e0e3a11d-c7a3-495b-add9-0503141b1cfe.png?1593142722",
-        :type-line "Token Creature — Griffin",
-        :oracle-text "Flying"}
- #:card{:code "tddl",
-        :collector-number "2",
-        :name "Beast",
+        :collector-number "1",
         :layout "token",
+        :name "Griffin",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tddl",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6b28a5db-d095-4214-ba0c-14b1aeddb1eb.png?1593142720",
-        :type-line "Token Creature — Beast",
+        :collector-number "2",
+        :layout "token",
+        :name "Beast",
         :oracle-text ""})

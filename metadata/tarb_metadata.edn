@@ -1,36 +1,40 @@
-(#:card{:code "tarb",
-        :collector-number "1",
-        :name "Bird Soldier",
-        :layout "token",
+(#:card{:type-line "Token Creature — Bird Soldier",
+        :layout-category :normal,
+        :code "tarb",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b7b55dcf-ae63-4b84-8d39-80b5a6de3c1a.png?1561757893",
-        :type-line "Token Creature — Bird Soldier",
-        :oracle-text "Flying"}
- #:card{:code "tarb",
-        :collector-number "2",
-        :name "Lizard",
+        :collector-number "1",
         :layout "token",
+        :name "Bird Soldier",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Lizard",
+        :layout-category :normal,
+        :code "tarb",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83790fd3-f371-494c-97a2-3aa469a399f1.png?1561757482",
-        :type-line "Token Creature — Lizard",
-        :oracle-text ""}
- #:card{:code "tarb",
-        :collector-number "3",
-        :name "Dragon",
+        :collector-number "2",
         :layout "token",
+        :name "Lizard",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tarb",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0bb628da-a02f-4d3e-b919-0c03821dd5f2.png?1561756633",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying, devour 2"}
- #:card{:code "tarb",
-        :collector-number "4",
-        :name "Zombie Wizard",
+        :collector-number "3",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying, devour 2"}
+ #:card{:type-line "Token Creature — Zombie Wizard",
+        :layout-category :normal,
+        :code "tarb",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bde17901-35fb-4045-8ba5-deab046cd44f.png?1561757959",
-        :type-line "Token Creature — Zombie Wizard",
+        :collector-number "4",
+        :layout "token",
+        :name "Zombie Wizard",
         :oracle-text ""})

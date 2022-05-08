@@ -1,74 +1,82 @@
-(#:card{:code "tbbd",
-        :collector-number "1",
-        :name "Spirit",
-        :layout "token",
+(#:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3c9a097-219b-4aaf-831f-cc0cddbcfaae.png?1561757870",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tbbd",
-        :collector-number "2",
-        :name "Warrior",
+        :collector-number "1",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d36e3c0e-a759-4adc-aa2f-61b13c0f786d.png?1561758133",
-        :type-line "Token Creature — Warrior",
-        :oracle-text ""}
- #:card{:code "tbbd",
-        :collector-number "3",
-        :name "Zombie",
+        :collector-number "2",
         :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f08609b4-f5e0-4e3b-aee3-8ed3e3232074.png?1561758393",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tbbd",
-        :collector-number "4",
-        :name "Zombie Giant",
+        :collector-number "3",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie Giant",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/b/e/be7e26e1-5db6-49ba-a88e-c79d889cd364.png?1561757964",
-        :type-line "Token Creature — Zombie Giant",
-        :oracle-text ""}
- #:card{:code "tbbd",
-        :collector-number "5",
-        :name "Beast",
+        :collector-number "4",
         :layout "token",
+        :name "Zombie Giant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/d/5/d51a6408-0311-4daa-bfb2-b2f6f8fcbc3e.png?1561758147",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tbbd",
-        :collector-number "6",
-        :name "Myr",
+        :collector-number "5",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Myr",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/3/f32ad93f-3fd5-465c-ac6a-6f8fb57c19bd.png?1561758422",
-        :type-line "Token Artifact Creature — Myr",
+        :collector-number "6",
+        :layout "token",
+        :name "Myr",
         :oracle-text ""}
- #:card{:code "tbbd",
-        :collector-number "7",
-        :name "Will Kenrith Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Will",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/606d6a38-e564-45d8-9be1-c83c15647711.png?1561757264",
-        :type-line "Emblem — Will",
+        :collector-number "7",
+        :layout "emblem",
+        :name "Will Kenrith Emblem",
         :oracle-text
         "Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy."}
- #:card{:code "tbbd",
-        :collector-number "8",
-        :name "Rowan Kenrith Emblem",
-        :layout "emblem",
+ #:card{:type-line "Emblem — Rowan",
+        :layout-category :normal,
+        :code "tbbd",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a603338e-8ea4-4952-b88f-97d439594ad9.png?1561757762",
-        :type-line "Emblem — Rowan",
+        :collector-number "8",
+        :layout "emblem",
+        :name "Rowan Kenrith Emblem",
         :oracle-text
         "Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy."})

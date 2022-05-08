@@ -3,6 +3,7 @@
         :name "Archangel Avacyn // Avacyn, the Purifier",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24842e29-77ac-4904-bd8f-b2cd163dd357.png?1562701950",
@@ -19,6 +20,7 @@
         :name "Arguel's Blood Fast // Temple of Aclazotz",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d78cd000-3908-446d-b155-dd8af3d8f166.png?1562702374",
@@ -35,6 +37,7 @@
         :name "Arlinn Kord // Arlinn, Embraced by the Moon",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/e/ce0a6fa9-f664-4263-8deb-8112f860814c.png?1562702348",
@@ -51,6 +54,7 @@
         :name "Bloodline Keeper // Lord of Lineage",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/3/2/3216d161-a43d-4a55-a14b-098061805409.png?1562702004",
@@ -62,27 +66,34 @@
           :type-line "Creature — Vampire",
           :oracle-text
           "Flying\nOther Vampire creatures you control get +2/+2.\n{T}: Create a 2/2 black Vampire creature token with flying."}]}
- #:card{:code "v17",
+ #:card{:type-line "Legendary Creature — Angel Horror",
+        :layout-category :normal,
+        :code "v17",
+        :highres? true,
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/2/b/2b45fb19-450d-40bd-91c7-b5ace4a77f2a.png?1625771739",
         :collector-number "5a",
+        :layout "meld",
         :name "Bruna, the Fading Light",
-        :layout "meld",
+        :oracle-text
+        "When you cast this spell, you may return target Angel or Human creature card from your graveyard to the battlefield.\nFlying, vigilance\n(Melds with Gisela, the Broken Blade.)"}
+ #:card{:type-line "Legendary Creature — Eldrazi Angel",
+        :layout-category :normal,
+        :code "v17",
         :highres? true,
-        :faces
-        [{:png nil, :type-line nil, :oracle-text nil}
-         {:png nil, :type-line nil, :oracle-text nil}]}
- #:card{:code "v17",
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eba8bb03-6093-4e2b-99a2-a3fc5d8eb659.png?1625771729",
         :collector-number "5b",
-        :name "Brisela, Voice of Nightmares",
         :layout "meld",
-        :highres? true,
-        :faces
-        [{:png nil, :type-line nil, :oracle-text nil}
-         {:png nil, :type-line nil, :oracle-text nil}]}
+        :name "Brisela, Voice of Nightmares",
+        :oracle-text
+        "Flying, first strike, vigilance, lifelink\nYour opponents can't cast spells with mana value 3 or less."}
  #:card{:code "v17",
         :collector-number "6",
         :name "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7e0cfe44-9b57-4b9a-b23f-18d3237bd7ee.png?1562702153",
@@ -99,6 +110,7 @@
         :name "Delver of Secrets // Insectile Aberration",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/2/8/28059d09-2c7d-4c61-af55-8942107a7c1f.png?1562701962",
@@ -114,6 +126,7 @@
         :name "Elbrus, the Binding Blade // Withengar Unbound",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/a/6/a66d5ee9-86a7-4052-a868-8dc6398342b3.png?1562702238",
@@ -130,6 +143,7 @@
         :name "Garruk Relentless // Garruk, the Veil-Cursed",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/b/bb89599a-1883-45da-a87a-25e3f70c5a33.png?1562702297",
@@ -141,19 +155,23 @@
           :type-line "Legendary Planeswalker — Garruk",
           :oracle-text
           "+1: Create a 1/1 black Wolf creature token with deathtouch.\n−1: Sacrifice a creature. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.\n−3: Creatures you control gain trample and get +X/+X until end of turn, where X is the number of creature cards in your graveyard."}]}
- #:card{:code "v17",
-        :collector-number "10",
-        :name "Gisela, the Broken Blade",
-        :layout "meld",
+ #:card{:type-line "Legendary Creature — Angel Horror",
+        :layout-category :normal,
+        :code "v17",
         :highres? true,
-        :faces
-        [{:png nil, :type-line nil, :oracle-text nil}
-         {:png nil, :type-line nil, :oracle-text nil}]}
+        :png
+        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3c2bd44-4d75-4f61-89c0-1f1ba4d59ffa.png?1625771753",
+        :collector-number "10",
+        :layout "meld",
+        :name "Gisela, the Broken Blade",
+        :oracle-text
+        "Flying, first strike, lifelink\nAt the beginning of your end step, if you both own and control Gisela, the Broken Blade and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares."}
  #:card{:code "v17",
         :collector-number "11",
         :name "Huntmaster of the Fells // Ravager of the Fells",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d553078-afaf-42db-879b-fb4cb4d25742.png?1562702046",
@@ -170,6 +188,7 @@
         :name "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cc750c64-fd83-4b7b-9a40-a99213e6fa6d.png?1562702327",
@@ -186,6 +205,7 @@
         :name "Kytheon, Hero of Akros // Gideon, Battle-Forged",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6473e356-2685-4f91-ab42-cca8c6be0816.png?1562702104",
@@ -203,6 +223,7 @@
         "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/b/1/b101dd14-aff1-4811-bf1b-468930dd2999.png?1562702260",
@@ -219,6 +240,7 @@
         :name "Nissa, Vastwood Seer // Nissa, Sage Animist",
         :layout "transform",
         :highres? true,
+        :layout-category :transform,
         :faces
         [{:png
           "https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/63b2b7cd-a51d-4e50-b794-a52731196973.png?1562702090",

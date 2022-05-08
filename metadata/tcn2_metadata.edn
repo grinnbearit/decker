@@ -1,109 +1,121 @@
-(#:card{:code "tcn2",
-        :collector-number "1",
-        :name "The Monarch",
-        :layout "token",
+(#:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/0/40b79918-22a7-4fff-82a6-8ebfe6e87185.png?1561897497",
-        :type-line "Card",
+        :collector-number "1",
+        :layout "token",
+        :name "The Monarch",
         :oracle-text
         "At the beginning of your end step, draw a card.\nWhenever a creature deals combat damage to you, its controller becomes the monarch."}
- #:card{:code "tcn2",
-        :collector-number "2",
-        :name "Soldier",
-        :layout "token",
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36d229e4-2a21-4d56-be82-5f812659f8e6.png?1561897121",
-        :type-line "Token Creature — Soldier",
-        :oracle-text ""}
- #:card{:code "tcn2",
-        :collector-number "3",
-        :name "Soldier",
+        :collector-number "2",
         :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d5c2f87-f0c9-4188-9b20-1c2a1d3c4f45.png?1561897495",
-        :type-line "Token Creature — Soldier",
-        :oracle-text "Defender"}
- #:card{:code "tcn2",
-        :collector-number "4",
-        :name "Spirit",
+        :collector-number "3",
         :layout "token",
+        :name "Soldier",
+        :oracle-text "Defender"}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/8/f89b99b9-9720-4177-b664-aac310fc1bea.png?1561897511",
-        :type-line "Token Creature — Spirit",
-        :oracle-text "Flying"}
- #:card{:code "tcn2",
-        :collector-number "5",
-        :name "Assassin",
+        :collector-number "4",
         :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Assassin",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f577d422-59d7-43ab-a822-2d73d47e61dd.png?1561897509",
-        :type-line "Token Creature — Assassin",
-        :oracle-text "Deathtouch, haste"}
- #:card{:code "tcn2",
-        :collector-number "6",
-        :name "Zombie",
+        :collector-number "5",
         :layout "token",
+        :name "Assassin",
+        :oracle-text "Deathtouch, haste"}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/4/c/4ccc931f-4586-4d7e-a984-dc7142359a85.png?1561897498",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tcn2",
-        :collector-number "7",
-        :name "Dragon",
+        :collector-number "6",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8e3b2942-d1a4-4d27-9d64-65712497ab2e.png?1561897504",
-        :type-line "Token Creature — Dragon",
-        :oracle-text "Flying"}
- #:card{:code "tcn2",
-        :collector-number "8",
-        :name "Goblin",
+        :collector-number "7",
         :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c63967fe-62da-4c27-9aa7-67adc77b2baf.png?1561897507",
-        :type-line "Token Creature — Goblin",
-        :oracle-text "This creature can't block."}
- #:card{:code "tcn2",
-        :collector-number "9",
-        :name "Lizard",
+        :collector-number "8",
         :layout "token",
+        :name "Goblin",
+        :oracle-text "This creature can't block."}
+ #:card{:type-line "Token Creature — Lizard",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/0/70345006-5cde-44f8-ab66-9d8163d4c4f6.png?1561897499",
-        :type-line "Token Creature — Lizard",
-        :oracle-text ""}
- #:card{:code "tcn2",
-        :collector-number "10",
-        :name "Beast",
+        :collector-number "9",
         :layout "token",
+        :name "Lizard",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac453b05-4eb3-42f2-99e7-40e29558c50a.png?1561897506",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tcn2",
-        :collector-number "11",
-        :name "Insect",
+        :collector-number "10",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36fcdda7-8fe7-4cf0-9025-89ff88398994.png?1561897493",
-        :type-line "Token Creature — Insect",
-        :oracle-text ""}
- #:card{:code "tcn2",
-        :collector-number "12",
-        :name "Construct",
+        :collector-number "11",
         :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "tcn2",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/7/c/7c82af53-2de8-4cd6-84bf-fb39d2693de2.png?1561897501",
-        :type-line "Token Artifact Creature — Construct",
+        :collector-number "12",
+        :layout "token",
+        :name "Construct",
         :oracle-text "Defender"})

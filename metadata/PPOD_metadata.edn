@@ -1,58 +1,64 @@
-(#:card{:code "ppod",
-        :collector-number "1",
-        :name "Armored Pegasus",
-        :layout "normal",
+(#:card{:type-line "Creature — Pegasus",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f021a79-a182-4914-9ff4-d6fcba7c1d22.png?1561756977",
-        :type-line "Creature — Pegasus",
-        :oracle-text "Flying"}
- #:card{:code "ppod",
-        :collector-number "2",
-        :name "Bull Hippo",
+        :collector-number "1",
         :layout "normal",
+        :name "Armored Pegasus",
+        :oracle-text "Flying"}
+ #:card{:type-line "Creature — Hippo",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1fbe115b-ded7-4749-95e2-b69bff26fc74.png?1561756770",
-        :type-line "Creature — Hippo",
+        :collector-number "2",
+        :layout "normal",
+        :name "Bull Hippo",
         :oracle-text
         "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)"}
- #:card{:code "ppod",
-        :collector-number "3",
-        :name "Cloud Pirates",
-        :layout "normal",
+ #:card{:type-line "Creature — Human Pirate",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88425a48-7b03-4ecf-88cd-d72ef98ca814.png?1561757512",
-        :type-line "Creature — Human Pirate",
+        :collector-number "3",
+        :layout "normal",
+        :name "Cloud Pirates",
         :oracle-text
         "Flying\nCloud Pirates can block only creatures with flying."}
- #:card{:code "ppod",
-        :collector-number "4",
-        :name "Feral Shadow",
-        :layout "normal",
+ #:card{:type-line "Creature — Nightstalker",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/200365f5-05a1-461e-904e-daf99f4b92bb.png?1561756774",
-        :type-line "Creature — Nightstalker",
-        :oracle-text "Flying"}
- #:card{:code "ppod",
-        :collector-number "5",
-        :name "Snapping Drake",
+        :collector-number "4",
         :layout "normal",
+        :name "Feral Shadow",
+        :oracle-text "Flying"}
+ #:card{:type-line "Creature — Drake",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/0/a0fadc0d-d6de-4634-9c15-d9c9732cdc87.png?1561757724",
-        :type-line "Creature — Drake",
+        :collector-number "5",
+        :layout "normal",
+        :name "Snapping Drake",
         :oracle-text
         "Flying (This creature can't be blocked except by creatures with flying or reach.)"}
- #:card{:code "ppod",
-        :collector-number "6",
-        :name "Storm Crow",
-        :layout "normal",
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "ppod",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/a/5/a5bb2fa5-8f88-4d08-badb-3e52358d21d6.png?1561757760",
-        :type-line "Creature — Bird",
+        :collector-number "6",
+        :layout "normal",
+        :name "Storm Crow",
         :oracle-text
         "Flying (This creature can't be blocked except by creatures with flying or reach.)"})

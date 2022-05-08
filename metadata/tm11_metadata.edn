@@ -1,56 +1,62 @@
-(#:card{:code "tm11",
-        :collector-number "1",
-        :name "Avatar",
-        :layout "token",
+(#:card{:type-line "Token Creature — Avatar",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/863768b5-3cf9-415c-b4fd-371dc5afee18.png?1561757503",
-        :type-line "Token Creature — Avatar",
+        :collector-number "1",
+        :layout "token",
+        :name "Avatar",
         :oracle-text
         "This creature's power and toughness are each equal to your life total."}
- #:card{:code "tm11",
-        :collector-number "2",
-        :name "Bird",
-        :layout "token",
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/5/a/5a84671e-cbe8-467e-9a8a-bbecba6158fa.png?1561757209",
-        :type-line "Token Creature — Bird",
-        :oracle-text "Flying"}
- #:card{:code "tm11",
-        :collector-number "3",
-        :name "Zombie",
+        :collector-number "2",
         :layout "token",
+        :name "Bird",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/b/6b365694-e056-48b9-aae3-599180c0c29c.png?1561757358",
-        :type-line "Token Creature — Zombie",
-        :oracle-text ""}
- #:card{:code "tm11",
-        :collector-number "4",
-        :name "Beast",
+        :collector-number "3",
         :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/664bd13a-80fd-4ffe-bc65-f02a7a087427.png?1561757318",
-        :type-line "Token Creature — Beast",
-        :oracle-text ""}
- #:card{:code "tm11",
-        :collector-number "5",
-        :name "Ooze",
+        :collector-number "4",
         :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Ooze",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/8/e/8ea26341-372c-4657-8910-08e0131fe0fc.png?1561757556",
-        :type-line "Token Creature — Ooze",
+        :collector-number "5",
+        :layout "token",
+        :name "Ooze",
         :oracle-text
         "When this creature dies, create two 1/1 green Ooze creature tokens."}
- #:card{:code "tm11",
-        :collector-number "6",
-        :name "Ooze",
-        :layout "token",
+ #:card{:type-line "Token Creature — Ooze",
+        :layout-category :normal,
+        :code "tm11",
         :highres? true,
         :png
         "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24edd312-ef8e-48a0-8532-13e072daa00f.png?1561756796",
-        :type-line "Token Creature — Ooze",
+        :collector-number "6",
+        :layout "token",
+        :name "Ooze",
         :oracle-text ""})
