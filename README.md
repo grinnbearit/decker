@@ -4,7 +4,9 @@ Generates MtG decks for TTS and Proxying
 
 ## Usage
 
-FIXME
+gendeck.clj contains examples on how to generate your own decks for TTS
+
+All edition metadata is in metadata/ while all decks are in data/
 
 ## License
 
