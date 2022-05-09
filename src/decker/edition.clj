@@ -138,11 +138,11 @@
 (def CORE-EDITIONS
   #{"LEA" "LEB" "2ED" "ARN" "ATQ" "3ED" "DRK" "FEM" "4ED" "ICE" "HML" "ALL" "MIR" "VIS" "5ED" "WTH" "TMP"
     "STH" "EXD" "USG" "ULG" "6ED" "UDS" "MMQ" "NEM" "PCY" "INV" "PLS" "7ED" "APC" "ODY" "TOR" "JUD" "ONS"
-    "LGN" "8ED" "MRD" "DST" "5DN" "CHK" "BOK" "SOK" "9ED" "RAV" "GPT" "DIS" "CSP" "TSP" "PLC" "FUT" "10E"
-    "LRW" "MOR" "SHM" "EVE" "ALA" "CON" "ARB" "M10" "ZEN" "WWK" "ROE" "M11" "SOM" "MDS" "NPH" "M12" "ISD"
-    "DKA" "AVR" "M13" "RTR" "GTC" "DGM" "M14" "THS" "BNG" "JOU" "M15" "KTK" "FRF" "DTK" "ORI" "BFZ" "OGW"
-    "SOI" "EMN" "KLD" "AER" "AKH" "HOU" "XLN" "RIX" "DOM" "M19" "GRN" "RNA" "WAR" "M20" "ELD" "THB" "IKO"
-    "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC"})
+    "LGN" "SCG" "8ED" "MRD" "DST" "5DN" "CHK" "BOK" "SOK" "9ED" "RAV" "GPT" "DIS" "CSP" "TSP" "PLC" "FUT"
+    "10E" "LRW" "MOR" "SHM" "EVE" "ALA" "CON" "ARB" "M10" "ZEN" "WWK" "ROE" "M11" "SOM" "MBS" "NPH" "M12"
+    "ISD" "DKA" "AVR" "M13" "RTR" "GTC" "DGM" "M14" "THS" "BNG" "JOU" "M15" "KTK" "FRF" "DTK" "ORI" "BFZ"
+    "OGW" "SOI" "EMN" "KLD" "AER" "AKH" "HOU" "XLN" "RIX" "DOM" "M19" "GRN" "RNA" "WAR" "M20" "ELD" "THB"
+    "IKO" "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC"})
 
 
 (defn peripheral-editions
