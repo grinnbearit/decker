@@ -60,4 +60,6 @@
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
   (write-decks! EDITION-CARDS EDDEX "DGM" :oldest "M13")
-  (write-decks! EDITION-CARDS EDDEX "M14" :oldest "5ED"))
+  (write-decks! EDITION-CARDS EDDEX "M14" :oldest "5ED")
+  (write-decks! EDITION-CARDS EDDEX "DDL")
+  (write-decks! EDITION-CARDS EDDEX "THS" :oldest "M14"))
