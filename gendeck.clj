@@ -28,7 +28,8 @@
         (let [deck (dc/card-list->deck eddex cardex card-list)]
           {:name (:card-list/name card-list)
            :highres? (dc/highres-deck? deck)
-           :editions (dc/deck->editions deck)})))))
+           :editions (dc/deck->editions deck)
+           :count (dc/deck->count deck)})))))
 
 
 (defn write-decks!
@@ -56,6 +57,8 @@
   (write-decks! EDITION-CARDS EDDEX "WC97")
   (write-decks! EDITION-CARDS EDDEX "TMP")
   (write-decks! EDITION-CARDS EDDEX "STH" :oldest "TMP")
+  (write-decks! EDITION-CARDS EDDEX "EXO" :oldest "TMP")
+  (write-decks! EDITION-CARDS EDDEX "P02")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
