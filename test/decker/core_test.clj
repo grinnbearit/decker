@@ -87,3 +87,10 @@
                                     {:deckline/card #:card{:code "set-1"}}
                                     {:deckline/card #:card{:code "set-2"}}]})
  => #{"set-1" "set-2"})
+
+
+(facts
+ "deck -> count"
+ (deck->count #:deck{:decklines [{:deckline/count 1}
+                                 {:deckline/count 3}]})
+ => 4)

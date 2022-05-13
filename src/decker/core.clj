@@ -46,3 +46,11 @@
   (->> (:deck/decklines deck)
        (map (comp :card/code :deckline/card))
        (into #{})))
+
+
+(defn deck->count
+  "Given a deck, returns the number of cards in the deck"
+  [deck]
+  (->> (:deck/decklines deck)
+       (map :deckline/count)
+       (apply +)))
