@@ -64,6 +64,10 @@
   (write-decks! EDITION-CARDS EDDEX "ATH")
   (write-decks! EDITION-CARDS EDDEX "ULG" :oldest "USG")
   (write-decks! EDITION-CARDS EDDEX "6ED")
+  (write-decks! EDITION-CARDS EDDEX "UDS" :oldest "USG")
+  (write-decks! EDITION-CARDS EDDEX "PTK")
+  (write-decks! EDITION-CARDS EDDEX "WC99")
+  (write-decks! EDITION-CARDS EDDEX "S99")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
