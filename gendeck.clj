@@ -2,7 +2,8 @@
   (:require [decker.edition :as de]
             [decker.codex :as dx]
             [decker.core :as dc]
-            [decker.tts :as dt]))
+            [decker.tts :as dt]
+            [clojure.set :as set]))
 
 
 (defonce EDITION-CARDS (de/!read-edition-cards))
@@ -14,12 +15,13 @@
   {:name :missing :highres? :editions}
 
   :highres? and :editions are only non nil if no cards are missing"
-  [edition-cards eddex edition & {:keys [oldest]}]
+  [edition-cards eddex edition & {:keys [oldest ignore]}]
   (let [cardex (dx/gen-cardex edition-cards
                               :newest edition
                               :oldest (or oldest edition)
-                              :ignore (disj (de/peripheral-editions eddex)
-                                            edition))]
+                              :ignore (-> (de/peripheral-editions EDDEX)
+                                          (set/union ignore)
+                                          (disj edition)))]
     (for [card-list (dc/!read-card-lists edition)
           :let [missing-cards (dc/list-missing-cards cardex card-list)]]
       (if (seq missing-cards)
@@ -34,12 +36,13 @@
 
 (defn write-decks!
   "writes all decks in the passed edition, assumes no issues"
-  [edition-cards eddex edition & {:keys [oldest]}]
+  [edition-cards eddex edition & {:keys [oldest ignore]}]
   (let [cardex (dx/gen-cardex edition-cards
                               :newest edition
                               :oldest (or oldest edition)
-                              :ignore (disj (de/peripheral-editions EDDEX)
-                                            edition))]
+                              :ignore (-> (de/peripheral-editions EDDEX)
+                                          (set/union ignore)
+                                          (disj edition)))]
     (doseq [card-list (dc/!read-card-lists edition)]
       (->> (dc/card-list->deck eddex cardex card-list)
            (dt/deck->tts-deck)
@@ -68,6 +71,12 @@
   (write-decks! EDITION-CARDS EDDEX "PTK")
   (write-decks! EDITION-CARDS EDDEX "WC99")
   (write-decks! EDITION-CARDS EDDEX "S99")
+  (write-decks! EDITION-CARDS EDDEX "MMQ")
+  (write-decks! EDITION-CARDS EDDEX "BRB")
+  (write-decks! EDITION-CARDS EDDEX "NEM" :oldest "MMQ")
+  (write-decks! EDITION-CARDS EDDEX "S00" :oldest "6ED" :ignore #{"MMQ"})
+  (write-decks! EDITION-CARDS EDDEX "PCY" :oldest "MMQ")
+  (write-decks! EDITION-CARDS EDDEX "WC00")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
