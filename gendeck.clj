@@ -77,6 +77,12 @@
   (write-decks! EDITION-CARDS EDDEX "S00" :oldest "6ED" :ignore #{"MMQ"})
   (write-decks! EDITION-CARDS EDDEX "PCY" :oldest "MMQ")
   (write-decks! EDITION-CARDS EDDEX "WC00")
+  (write-decks! EDITION-CARDS EDDEX "BTD")
+  (write-decks! EDITION-CARDS EDDEX "INV")
+  (write-decks! EDITION-CARDS EDDEX "PLS" :oldest "INV")
+  (write-decks! EDITION-CARDS EDDEX "7ED")
+  (write-decks! EDITION-CARDS EDDEX "APC" :oldest "INV" :ignore #{"7ED"})
+  (write-decks! EDITION-CARDS EDDEX "WC01")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
