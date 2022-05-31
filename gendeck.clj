@@ -83,6 +83,9 @@
   (write-decks! EDITION-CARDS EDDEX "7ED")
   (write-decks! EDITION-CARDS EDDEX "APC" :oldest "INV" :ignore #{"7ED"})
   (write-decks! EDITION-CARDS EDDEX "WC01")
+  (write-decks! EDITION-CARDS EDDEX "ODY")
+  (write-decks! EDITION-CARDS EDDEX "DKM")
+  (write-decks! EDITION-CARDS EDDEX "TOR" :oldest "ODY")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
