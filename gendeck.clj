@@ -86,6 +86,9 @@
   (write-decks! EDITION-CARDS EDDEX "ODY")
   (write-decks! EDITION-CARDS EDDEX "DKM")
   (write-decks! EDITION-CARDS EDDEX "TOR" :oldest "ODY")
+  (write-decks! EDITION-CARDS EDDEX "JUD" :oldest "ODY")
+  (write-decks! EDITION-CARDS EDDEX "WC02")
+  (write-decks! EDITION-CARDS EDDEX "ONS")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
