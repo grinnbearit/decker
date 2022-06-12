@@ -95,6 +95,9 @@
   (write-decks! EDITION-CARDS EDDEX "WC03")
   (write-decks! EDITION-CARDS EDDEX "MRD")
   (write-decks! EDITION-CARDS EDDEX "DST" :oldest "MRD")
+  (write-decks! EDITION-CARDS EDDEX "5DN" :oldest "MRD")
+  (write-decks! EDITION-CARDS EDDEX "WC04")
+  (write-decks! EDITION-CARDS EDDEX "CHK")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
