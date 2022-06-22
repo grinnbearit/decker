@@ -15,9 +15,9 @@
   {:name :missing :highres? :editions}
 
   :highres? and :editions are only non nil if no cards are missing"
-  [edition-cards eddex edition & {:keys [oldest ignore]}]
+  [edition-cards eddex edition & {:keys [newest oldest ignore]}]
   (let [cardex (dx/gen-cardex edition-cards
-                              :newest edition
+                              :newest (or newest edition)
                               :oldest (or oldest edition)
                               :ignore (-> (de/peripheral-editions EDDEX)
                                           (set/union ignore)
@@ -98,6 +98,14 @@
   (write-decks! EDITION-CARDS EDDEX "5DN" :oldest "MRD")
   (write-decks! EDITION-CARDS EDDEX "WC04")
   (write-decks! EDITION-CARDS EDDEX "CHK")
+  (write-decks! EDITION-CARDS EDDEX "BOK" :oldest "CHK")
+  (write-decks! EDITION-CARDS EDDEX "SOK" :oldest "CHK")
+  (write-decks! EDITION-CARDS EDDEX "9ED")
+  (write-decks! EDITION-CARDS EDDEX "RAV")
+  (write-decks! EDITION-CARDS EDDEX "GPT" :oldest "RAV")
+  (write-decks! EDITION-CARDS EDDEX "DIS" :oldest "RAV")
+  ;; catching up
+  (!test-decks EDITION-CARDS EDDEX "PSAL" :newest "10E" :oldest "INV")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
