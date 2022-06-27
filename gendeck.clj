@@ -106,6 +106,11 @@
   (write-decks! EDITION-CARDS EDDEX "RAV")
   (write-decks! EDITION-CARDS EDDEX "GPT" :oldest "RAV")
   (write-decks! EDITION-CARDS EDDEX "DIS" :oldest "RAV")
+  (write-decks! EDITION-CARDS EDDEX "CSP" :oldest "ICE"
+                :ignore #{"5ED" "MMQ" "MIR" "9ED" "INV" "6ED" "RAV" "CHK"
+                          "MRD" "8ED" "ONS" "ODY" "7ED" "TMP" "USG"})
+  (write-decks! EDITION-CARDS EDDEX "TSP" :oldest "TSB" :include #{"TSB"})
+  (write-decks! EDITION-CARDS EDDEX "PLC" :oldest "TSB" :include #{"PLB" "TSB"})
   ;; catching up
   (!test-decks EDITION-CARDS EDDEX "PSAL" :newest "10E" :oldest "INV")
   ;; time skip
@@ -115,4 +120,5 @@
   (write-decks! EDITION-CARDS EDDEX "M14" :oldest "5ED")
   (write-decks! EDITION-CARDS EDDEX "DDL")
   (write-decks! EDITION-CARDS EDDEX "THS" :oldest "M14")
-  (write-decks! EDITION-CARDS EDDEX "C13"))
+  (write-decks! EDITION-CARDS EDDEX "C13")
+  (write-decks! EDITION-CARDS EDDEX "BNG" :oldest "M14"))
