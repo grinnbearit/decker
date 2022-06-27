@@ -15,12 +15,13 @@
   {:name :missing :highres? :editions}
 
   :highres? and :editions are only non nil if no cards are missing"
-  [edition-cards eddex edition & {:keys [newest oldest ignore]}]
+  [edition-cards eddex edition & {:keys [newest oldest ignore include]}]
   (let [cardex (dx/gen-cardex edition-cards
                               :newest (or newest edition)
                               :oldest (or oldest edition)
                               :ignore (-> (de/peripheral-editions EDDEX)
                                           (set/union ignore)
+                                          (set/difference include)
                                           (disj edition)))]
     (for [card-list (dc/!read-card-lists edition)
           :let [missing-cards (dc/list-missing-cards cardex card-list)]]
@@ -36,12 +37,13 @@
 
 (defn write-decks!
   "writes all decks in the passed edition, assumes no issues"
-  [edition-cards eddex edition & {:keys [oldest ignore]}]
+  [edition-cards eddex edition & {:keys [newest oldest ignore include]}]
   (let [cardex (dx/gen-cardex edition-cards
-                              :newest edition
+                              :newest (or newest edition)
                               :oldest (or oldest edition)
                               :ignore (-> (de/peripheral-editions EDDEX)
                                           (set/union ignore)
+                                          (set/difference include)
                                           (disj edition)))]
     (doseq [card-list (dc/!read-card-lists edition)]
       (->> (dc/card-list->deck eddex cardex card-list)
