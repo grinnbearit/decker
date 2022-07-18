@@ -118,6 +118,9 @@
   (write-decks! EDITION-CARDS EDDEX "EVG")
   (write-decks! EDITION-CARDS EDDEX "MOR" :oldest "LRW")
   (write-decks! EDITION-CARDS EDDEX "SHM" :oldest "10E")
+  (write-decks! EDITION-CARDS EDDEX "EVE" :oldest "SHM")
+  (write-decks! EDITION-CARDS EDDEX "ME2" :oldest "ME1" :include #{"ME1"} :ignore #{"SHM" "LRW"})
+  (write-decks! EDITION-CARDS EDDEX "ALA" :oldest "10E")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
@@ -131,4 +134,6 @@
   (write-decks! EDITION-CARDS EDDEX "JOU" :oldest "M14")
   (write-decks! EDITION-CARDS EDDEX "M15" :oldest "THS")
   (write-decks! EDITION-CARDS EDDEX "DDN")
-  (write-decks! EDITION-CARDS EDDEX "KTK" :oldest "M15"))
+  (write-decks! EDITION-CARDS EDDEX "KTK" :oldest "M15")
+  (write-decks! EDITION-CARDS EDDEX "C14")
+  (write-decks! EDITION-CARDS EDDEX "FRF" :oldest "THS"))
