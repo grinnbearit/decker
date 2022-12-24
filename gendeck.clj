@@ -126,7 +126,6 @@
   (write-decks! EDITION-CARDS EDDEX "DDC")
   (write-decks! EDITION-CARDS EDDEX "ARB" :oldest "10E")
   (write-decks! EDITION-CARDS EDDEX "M10")
-  (write-decks! EDITION-CARDS EDDEX "TD0")
   (write-decks! EDITION-CARDS EDDEX "HOP" :oldest "OHOP" :include #{"OHOP"})
   (write-decks! EDITION-CARDS EDDEX "ZEN" :oldest "M10")
   (write-decks! EDITION-CARDS EDDEX "DDD")
@@ -137,6 +136,10 @@
   (write-decks! EDITION-CARDS EDDEX "ARC" :oldest "OARC" :include #{"OARC"})
   (write-decks! EDITION-CARDS EDDEX "M11" :oldest "ZEN")
   (write-decks! EDITION-CARDS EDDEX "DDF")
+  (write-decks! EDITION-CARDS EDDEX "SOM" :oldest "M11")
+  (write-decks! EDITION-CARDS EDDEX "TD0")
+  (write-decks! EDITION-CARDS EDDEX "MBS" :oldest "ZEN")
+  (write-decks! EDITION-CARDS EDDEX "DDG")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
