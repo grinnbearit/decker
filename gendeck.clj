@@ -167,4 +167,7 @@
   (write-decks! EDITION-CARDS EDDEX "DDR")
   (write-decks! EDITION-CARDS EDDEX "KLD")
   (write-decks! EDITION-CARDS EDDEX "C16")
-  (write-decks! EDITION-CARDS EDDEX "AER" :oldest "KLD"))
+  (write-decks! EDITION-CARDS EDDEX "AER" :oldest "KLD")
+  (write-decks! EDITION-CARDS EDDEX "DDS")
+  (write-decks! EDITION-CARDS EDDEX "AKH")
+  (write-decks! EDITION-CARDS EDDEX "W17" :oldest "KLD"))
