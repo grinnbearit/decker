@@ -140,6 +140,9 @@
   (write-decks! EDITION-CARDS EDDEX "TD0")
   (write-decks! EDITION-CARDS EDDEX "MBS" :oldest "ZEN")
   (write-decks! EDITION-CARDS EDDEX "DDG")
+  (write-decks! EDITION-CARDS EDDEX "NPH" :oldest "ZEN")
+  (write-decks! EDITION-CARDS EDDEX "CMD")
+  (write-decks! EDITION-CARDS EDDEX "M12" :oldest "ZEN")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
