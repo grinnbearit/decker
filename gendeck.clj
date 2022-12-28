@@ -176,4 +176,7 @@
   (write-decks! EDITION-CARDS EDDEX "AER" :oldest "KLD")
   (write-decks! EDITION-CARDS EDDEX "DDS")
   (write-decks! EDITION-CARDS EDDEX "AKH")
-  (write-decks! EDITION-CARDS EDDEX "W17" :oldest "KLD"))
+  (write-decks! EDITION-CARDS EDDEX "W17" :oldest "KLD")
+  (write-decks! EDITION-CARDS EDDEX "CMA")
+  (write-decks! EDITION-CARDS EDDEX "E01" :oldest "AKH" :include #{"OE01"})
+  (write-decks! EDITION-CARDS EDDEX "HOU" :oldest "AKH"))
