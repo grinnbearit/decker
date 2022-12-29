@@ -146,7 +146,12 @@
   (write-decks! EDITION-CARDS EDDEX "DDH")
   (write-decks! EDITION-CARDS EDDEX "ISD" :oldest "SOM")
   (write-decks! EDITION-CARDS EDDEX "DKA" :oldest "SOM")
-  ;; time skip
+  (write-decks! EDITION-CARDS EDDEX "DDI")
+  (write-decks! EDITION-CARDS EDDEX "AVR" :oldest "SOM")
+  (write-decks! EDITION-CARDS EDDEX "PC2" :oldest "OPC2" :include #{"OPC2"})
+  (write-decks! EDITION-CARDS EDDEX "M13" :oldest "SOM")
+  (write-decks! EDITION-CARDS EDDEX "DDJ")
+  (write-decks! EDITION-CARDS EDDEX "RTR" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "GTC" :oldest "ISD")
   (write-decks! EDITION-CARDS EDDEX "DDK")
   (write-decks! EDITION-CARDS EDDEX "DGM" :oldest "M13")
