@@ -191,4 +191,6 @@
   (write-decks! EDITION-CARDS EDDEX "C17")
   (write-decks! EDITION-CARDS EDDEX "XLN")
   (write-decks! EDITION-CARDS EDDEX "DDT")
-  (write-decks! EDITION-CARDS EDDEX "E02" :oldest "XLN"))
+  (write-decks! EDITION-CARDS EDDEX "E02" :oldest "XLN")
+  ;; time skip
+  (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"}))
