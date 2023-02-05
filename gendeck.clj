@@ -194,4 +194,5 @@
   (write-decks! EDITION-CARDS EDDEX "E02" :oldest "XLN")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
-  (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"}))
+  (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"})
+  (write-decks! EDITION-CARDS EDDEX "2021_arena_starter_kit" :newest "AFR" :oldest "ZNR"))
