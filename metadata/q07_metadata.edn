@@ -1,0 +1,16 @@
+(#:card{:code "q07",
+        :collector-number "T12",
+        :name "Goblin // Blood",
+        :layout "double_faced_token",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/b/7/b72fe493-f712-45b3-9af2-7f96a31cad85.png?1666380536",
+          :type-line "Token Creature — Goblin",
+          :oracle-text ""}
+         {:png
+          "https://cards.scryfall.io/png/back/b/7/b72fe493-f712-45b3-9af2-7f96a31cad85.png?1666380536",
+          :type-line "Token Artifact — Blood",
+          :oracle-text
+          "{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."}]})

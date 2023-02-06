@@ -142,7 +142,7 @@
     "10E" "LRW" "MOR" "SHM" "EVE" "ALA" "CON" "ARB" "M10" "ZEN" "WWK" "ROE" "M11" "SOM" "MBS" "NPH" "M12"
     "ISD" "DKA" "AVR" "M13" "RTR" "GTC" "DGM" "M14" "THS" "BNG" "JOU" "M15" "KTK" "FRF" "DTK" "ORI" "BFZ"
     "OGW" "SOI" "EMN" "KLD" "AER" "AKH" "HOU" "XLN" "RIX" "DOM" "M19" "GRN" "RNA" "WAR" "M20" "ELD" "THB"
-    "IKO" "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC"})
+    "IKO" "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC" "DMU" "BRO" "ONE"})
 
 
 (defn peripheral-editions

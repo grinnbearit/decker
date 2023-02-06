@@ -1,0 +1,901 @@
+(#:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/2/f2a70628-b1ea-4d41-b6a1-1d1150018ffd.png?1661824314",
+        :collector-number "1",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/285d91c2-6128-4dc3-b573-065ddf8bd54e.png?1661824340",
+        :collector-number "2",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/f/3f8c0338-626b-44cb-b6ce-18879f59a94c.png?1661824362",
+        :collector-number "3",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/7/870b7039-e8b5-4c11-ad12-9d083d1dc235.png?1661824384",
+        :collector-number "4",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/455f0a21-61d7-43b1-9011-f025a2ee1c44.png?1661824406",
+        :collector-number "5",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/716c7757-d27d-4726-a45e-c154844a52c2.png?1661824432",
+        :collector-number "6",
+        :layout "normal",
+        :name "Icy Manipulator",
+        :oracle-text
+        "{1}, {T}: Tap target artifact, creature, or land."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3bb47025-abe1-41c5-aa3f-77e198949f2b.png?1661824450",
+        :collector-number "7",
+        :layout "normal",
+        :name "Wheel of Fortune",
+        :oracle-text
+        "Each player discards their hand, then draws seven cards."}
+ #:card{:type-line "Creature — Djinn",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/c/5c51ee28-bf22-4d2c-bf05-ae9e63046cc0.png?1661824469",
+        :collector-number "8",
+        :layout "normal",
+        :name "Erhnam Djinn",
+        :oracle-text
+        "At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep. (It can't be blocked as long as defending player controls a Forest.)"}
+ #:card{:type-line "Creature — Djinn",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fbb93061-e684-4a8b-b20e-4a8478ab9607.png?1661824493",
+        :collector-number "9",
+        :layout "normal",
+        :name "Erhnam Djinn",
+        :oracle-text
+        "At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep. (It can't be blocked as long as defending player controls a Forest.)"}
+ #:card{:type-line "Creature — Human Barbarian",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5ede4eb3-13c7-4526-9ce4-dc105fb79227.png?1661824521",
+        :collector-number "10",
+        :layout "normal",
+        :name "Balduvian Horde",
+        :oracle-text
+        "When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/852b464e-36d6-4ecf-bc6c-916ef7af1dbb.png?1661824545",
+        :collector-number "11",
+        :layout "normal",
+        :name "Library of Alexandria",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Draw a card. Activate only if you have exactly seven cards in hand."}
+ #:card{:type-line "Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/7222f977-861f-4041-9d3d-37878571be1f.png?1661824571",
+        :collector-number "12",
+        :layout "normal",
+        :name "Vesuvan Doppelganger",
+        :oracle-text
+        "You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/460d70bb-6a88-47c5-a9d5-2b195243fbb1.png?1661824596",
+        :collector-number "13",
+        :layout "normal",
+        :name "Fallen Angel",
+        :oracle-text
+        "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn."}
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/77fd7256-1a5e-4aec-9794-d25b703ddfe1.png?1661824620",
+        :collector-number "14",
+        :layout "normal",
+        :name "Fallen Angel",
+        :oracle-text
+        "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn."}
+ #:card{:type-line "Legendary Creature — Demon",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/840b2bd8-1b82-49ae-8ee6-aa526e8e73e4.png?1661824640",
+        :collector-number "15",
+        :layout "normal",
+        :name "Sol'kanar the Swamp King",
+        :oracle-text
+        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nWhenever a player casts a black spell, you gain 1 life."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3c3fb751-9380-4e40-a835-9d1cf8167bc3.png?1661824665",
+        :collector-number "16",
+        :layout "normal",
+        :name "Mirror Universe",
+        :oracle-text
+        "{T}, Sacrifice Mirror Universe: Exchange life totals with target opponent. Activate only during your upkeep."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/09b4f31e-b27c-4c9a-8629-882e1fe03702.png?1661824689",
+        :collector-number "17",
+        :layout "normal",
+        :name "Balance",
+        :oracle-text
+        "Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a8175b7e-a241-4ee0-a0e2-0ccc8862a79f.png?1661824710",
+        :collector-number "18",
+        :layout "normal",
+        :name "City of Brass",
+        :oracle-text
+        "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c901794d-831e-40e8-9381-919fd1293abd.png?1661824736",
+        :collector-number "19",
+        :layout "normal",
+        :name "City of Brass",
+        :oracle-text
+        "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
+ #:card{:type-line "Legendary Creature — Avatar",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/655843ad-f20d-49df-b1e2-c1edac95f5ea.png?1661824759",
+        :collector-number "20",
+        :layout "normal",
+        :name "Autumn Willow",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)\n{G}: Until end of turn, Autumn Willow can be the target of spells and abilities controlled by target player as though it didn't have shroud."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/86689975-75fd-4251-8033-6f3397f08c9e.png?1661824784",
+        :collector-number "21",
+        :layout "normal",
+        :name "Necropotence",
+        :oracle-text
+        "Skip your draw step.\nWhenever you discard a card, exile that card from your graveyard.\nPay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/41438c27-e483-40a9-bd8c-30216bdcec2d.png?1661824840",
+        :collector-number "22",
+        :layout "normal",
+        :name "Ivory Tower",
+        :oracle-text
+        "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/3/0335bfc8-6a72-41b0-888c-9653c151b411.png?1661824866",
+        :collector-number "23",
+        :layout "normal",
+        :name "Guardian Beast",
+        :oracle-text
+        "As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/a/3ab3b396-7417-4101-8196-f5274a7ca226.png?1661824891",
+        :collector-number "24",
+        :layout "normal",
+        :name "Guardian Beast",
+        :oracle-text
+        "As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
+ #:card{:type-line "Creature — Lhurgoyf",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/6/b6ab82cf-8d39-460d-87b1-7e128e66fae1.png?1661824912",
+        :collector-number "25",
+        :layout "normal",
+        :name "Lhurgoyf",
+        :oracle-text
+        "Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/1/e1fd69a9-9ddf-40b9-a132-ee2c0911b4a9.png?1661824939",
+        :collector-number "26",
+        :layout "normal",
+        :name "Adarkar Wastes",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1afa80b1-9532-4e26-ad38-0d7c0cb42cc2.png?1661824959",
+        :collector-number "27",
+        :layout "normal",
+        :name "Blinking Spirit",
+        :oracle-text
+        "{0}: Return Blinking Spirit to its owner's hand."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/7/17f1f574-65d1-4efe-891e-0a5dd3b736c4.png?1661824979",
+        :collector-number "28",
+        :layout "normal",
+        :name "Zuran Orb",
+        :oracle-text "Sacrifice a land: You gain 2 life."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/c/cc1595cb-9a2e-431f-8078-1184005aa32a.png?1661824997",
+        :collector-number "29",
+        :layout "normal",
+        :name "Deflection",
+        :oracle-text
+        "Change the target of target spell with a single target."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/de4f7489-d3ea-45f7-989c-fecbdfe1fd29.png?1661825022",
+        :collector-number "30",
+        :layout "normal",
+        :name "Deflection",
+        :oracle-text
+        "Change the target of target spell with a single target."}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ceaaf561-f039-4d3c-9cd3-67aad3783a08.png?1661825053",
+        :collector-number "31",
+        :layout "normal",
+        :name "Black Knight",
+        :oracle-text
+        "First strike (This creature deals combat damage before creatures without first strike.)\nProtection from white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything white.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/5/751602ce-4e8b-46e1-a574-0b2474e537aa.png?1661825076",
+        :collector-number "32",
+        :layout "normal",
+        :name "Earthquake",
+        :oracle-text
+        "Earthquake deals X damage to each creature without flying and each player."}
+ #:card{:type-line "Creature — Avatar Incarnation",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/f/cf4867fd-62bb-4106-b4be-1c22bfc83683.png?1661825103",
+        :collector-number "33",
+        :layout "normal",
+        :name "Personal Incarnation",
+        :oracle-text
+        "{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.\nWhen Personal Incarnation dies, its owner loses half their life, rounded up."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/34981c66-0e57-49ee-a7c3-3980f4978e77.png?1661825123",
+        :collector-number "34",
+        :layout "normal",
+        :name "Nether Shadow",
+        :oracle-text
+        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/e/2e880085-170b-4def-a9cf-bdbc8c03235d.png?1661825149",
+        :collector-number "35",
+        :layout "normal",
+        :name "Nether Shadow",
+        :oracle-text
+        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f0b54295-bc1c-4a8b-988e-cb349e86f849.png?1661825174",
+        :collector-number "36",
+        :layout "normal",
+        :name "Recall",
+        :oracle-text
+        "Discard X cards, then return a card from your graveyard to your hand for each card discarded this way. Exile Recall."}
+ #:card{:type-line "Legendary Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8be40722-3005-41b4-abee-39ec129680cc.png?1661825206",
+        :collector-number "37",
+        :layout "normal",
+        :name "Baron Sengir",
+        :oracle-text
+        "Flying\nWhenever a creature dealt damage by Baron Sengir this turn dies, put a +2/+2 counter on Baron Sengir.\n{T}: Regenerate another target Vampire."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/66bd4205-94ad-4f31-ad34-38620f505ea9.png?1661825234",
+        :collector-number "38",
+        :layout "normal",
+        :name "Greater Realm of Preservation",
+        :oracle-text
+        "{1}{W}: The next time a black or red source of your choice would deal damage to you this turn, prevent that damage."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/3/031f0028-0ede-498f-acca-ffd7bdf6f79c.png?1661825261",
+        :collector-number "39",
+        :layout "normal",
+        :name "Enduring Renewal",
+        :oracle-text
+        "Play with your hand revealed.\nIf you would draw a card, reveal the top card of your library instead. If it's a creature card, put it into your graveyard. Otherwise, draw a card.\nWhenever a creature is put into your graveyard from the battlefield, return it to your hand."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae0bb3c9-6f0d-437c-9b22-484ec372e3cb.png?1661825280",
+        :collector-number "40",
+        :layout "normal",
+        :name "Enduring Renewal",
+        :oracle-text
+        "Play with your hand revealed.\nIf you would draw a card, reveal the top card of your library instead. If it's a creature card, put it into your graveyard. Otherwise, draw a card.\nWhenever a creature is put into your graveyard from the battlefield, return it to your hand."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/a/5a76970b-2630-4820-b7e8-dd40f995d844.png?1661825307",
+        :collector-number "41",
+        :layout "normal",
+        :name "Sibilant Spirit",
+        :oracle-text
+        "Flying\nWhenever Sibilant Spirit attacks, defending player may draw a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a829b8ef-4fef-41d5-afcd-099b4ee8f293.png?1661825332",
+        :collector-number "42",
+        :layout "normal",
+        :name "All Hallow's Eve",
+        :oracle-text
+        "Exile All Hallow's Eve with two scream counters on it.\nAt the beginning of your upkeep, if All Hallow's Eve is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from their graveyard to the battlefield."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/c/5cb1f9a2-3f60-48da-b426-813b99343c2b.png?1661825355",
+        :collector-number "43",
+        :layout "normal",
+        :name "Incinerate",
+        :oracle-text
+        "Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/2/e29b0dde-a76a-4546-8fe9-8c1cc7568b03.png?1661825379",
+        :collector-number "44",
+        :layout "normal",
+        :name "Swords to Plowshares",
+        :oracle-text
+        "Exile target creature. Its controller gains life equal to its power."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/c/0ceefad0-c981-457e-90e0-c846ab14cea3.png?1661825407",
+        :collector-number "45",
+        :layout "normal",
+        :name "Swords to Plowshares",
+        :oracle-text
+        "Exile target creature. Its controller gains life equal to its power."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/efcc67c5-fd4e-4566-a8c7-110b14a413e7.png?1661825430",
+        :collector-number "46",
+        :layout "normal",
+        :name "Disenchant",
+        :oracle-text "Destroy target artifact or enchantment."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d65dd077-6e89-44d3-8bd6-18016917da3e.png?1661825460",
+        :collector-number "47",
+        :layout "normal",
+        :name "Blacker Lotus",
+        :oracle-text
+        "{T}: Tear Blacker Lotus into pieces. Add four mana of any one color. Remove the pieces from the game."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/2/d279c002-7895-4289-8da4-49023ca963e4.png?1661825484",
+        :collector-number "48",
+        :layout "normal",
+        :name "Mirror Mirror",
+        :oracle-text
+        "Mirror Mirror enters the battlefield tapped.\n{7}, {T}, Sacrifice Mirror Mirror: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/5266f59d-dba0-4474-8c5a-df61bfa1aa8e.png?1661825505",
+        :collector-number "49",
+        :layout "normal",
+        :name "Squirrel Farm",
+        :oracle-text
+        "{1}{G}: Reveal a card in your hand, covering the artist credit. Target opponent guesses the artist. If they guess wrong, create a 1/1 green Squirrel creature token."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/2/b29d46aa-e06a-45d5-a40d-be09fdd33823.png?1661825538",
+        :collector-number "50",
+        :layout "normal",
+        :name "Squirrel Farm",
+        :oracle-text
+        "{1}{G}: Reveal a card in your hand, covering the artist credit. Target opponent guesses the artist. If they guess wrong, create a 1/1 green Squirrel creature token."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/0/102116ae-fdc6-4801-ac92-520ad8eaad84.png?1661825560",
+        :collector-number "51",
+        :layout "normal",
+        :name "Infernal Spawn of Evil",
+        :oracle-text
+        "Flying, first strike\n{1}{B}, Reveal Infernal Spawn of Evil from your hand, Say \"It's coming!\": Infernal Spawn of Evil deals 1 damage to target opponent or planeswalker. Activate only during your upkeep and only once each turn."}
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/d/bd3b047a-fbfe-4ea0-8b61-afdda7ea9627.png?1661825579",
+        :collector-number "52",
+        :layout "normal",
+        :name "Force of Nature",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/364c03a4-1351-4daa-93cf-cb9a200bceb9.png?1661825598",
+        :collector-number "53",
+        :layout "normal",
+        :name "Shatterstorm",
+        :oracle-text
+        "Destroy all artifacts. They can't be regenerated."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/6520c498-1464-468a-b04e-5633cc6b828f.png?1661825618",
+        :collector-number "54",
+        :layout "normal",
+        :name "Pyroblast",
+        :oracle-text
+        "Choose one —\n• Counter target spell if it's blue.\n• Destroy target permanent if it's blue."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/0/10b23d6a-2aa0-4e00-8434-31a4f3ba0f75.png?1661825645",
+        :collector-number "55",
+        :layout "normal",
+        :name "Pyroblast",
+        :oracle-text
+        "Choose one —\n• Counter target spell if it's blue.\n• Destroy target permanent if it's blue."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/7/c7c85b64-4251-499c-af22-d2874ead8f01.png?1661825676",
+        :collector-number "56",
+        :layout "normal",
+        :name "Dark Banishing",
+        :oracle-text
+        "Destroy target nonblack creature. It can't be regenerated."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3c71caa2-b68d-463c-81a3-b30162927ac9.png?1661825706",
+        :collector-number "57",
+        :layout "normal",
+        :name "Jokulhaups",
+        :oracle-text
+        "Destroy all artifacts, creatures, and lands. They can't be regenerated."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/28a6fc33-93f2-4c01-8a8f-f57ebfc39d26.png?1661825734",
+        :collector-number "58",
+        :layout "normal",
+        :name "Hurricane",
+        :oracle-text
+        "Hurricane deals X damage to each creature with flying and each player."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a587c5d7-a082-4a4d-a5cc-b8989fb05fca.png?1661825768",
+        :collector-number "59",
+        :layout "normal",
+        :name "Hydroblast",
+        :oracle-text
+        "Choose one —\n• Counter target spell if it's red.\n• Destroy target permanent if it's red."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/c/8c91f537-600f-47ed-94c6-6c51b1b33bcb.png?1661825792",
+        :collector-number "60",
+        :layout "normal",
+        :name "Hydroblast",
+        :oracle-text
+        "Choose one —\n• Counter target spell if it's red.\n• Destroy target permanent if it's red."}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/c/7cbd226a-fa1d-4db3-904b-6274edd7c96c.png?1661825815",
+        :collector-number "61",
+        :layout "normal",
+        :name "Order of the White Shield",
+        :oracle-text
+        "Protection from black\n{W}: Order of the White Shield gains first strike until end of turn.\n{W}{W}: Order of the White Shield gets +1/+0 until end of turn."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/50f33c61-81b2-4183-9ef9-78bddad2ee7b.png?1661825842",
+        :collector-number "62",
+        :layout "normal",
+        :name "Brushland",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {G} or {W}. Brushland deals 1 damage to you."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/4/b4caa840-8f68-41c6-abc2-12bfd820b275.png?1661825860",
+        :collector-number "63",
+        :layout "normal",
+        :name "Pox",
+        :oracle-text
+        "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control, then sacrifices a third of the lands they control. Round up each time."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f335c6bb-9821-433f-bc18-8847fd66ff79.png?1661825887",
+        :collector-number "64",
+        :layout "normal",
+        :name "Stormbind",
+        :oracle-text
+        "{2}, Discard a card at random: Stormbind deals 2 damage to any target."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/d/5de4b9e0-a8d3-44d2-8128-3ecb5e54d664.png?1661825909",
+        :collector-number "65",
+        :layout "normal",
+        :name "Pyroclasm",
+        :oracle-text "Pyroclasm deals 2 damage to each creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f9f5f422-f3c7-4a01-bc4f-e521c64cc130.png?1661825931",
+        :collector-number "66",
+        :layout "normal",
+        :name "Pyroclasm",
+        :oracle-text "Pyroclasm deals 2 damage to each creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/beb30cc4-5aaf-47df-8478-ccc3e754f98e.png?1661825960",
+        :collector-number "67",
+        :layout "normal",
+        :name "Drain Life",
+        :oracle-text
+        "Spend only black mana on X.\nDrain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a126e7ec-9691-4477-aead-5c0efe95271a.png?1661825993",
+        :collector-number "68",
+        :layout "normal",
+        :name "Karplusan Forest",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7daafb3-58b9-4a8e-9d1b-79572aeac4d8.png?1661826019",
+        :collector-number "69",
+        :layout "normal",
+        :name "Squandered Resources",
+        :oracle-text
+        "Sacrifice a land: Add one mana of any type the sacrificed land could produce."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/9/798481be-44fb-4bd4-9658-9504c84694f5.png?1661826038",
+        :collector-number "70",
+        :layout "normal",
+        :name "Cadaverous Bloom",
+        :oracle-text
+        "Exile a card from your hand: Add {B}{B} or {G}{G}."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fe42feba-9cd1-41e8-8010-58033d84b361.png?1661826066",
+        :collector-number "71",
+        :layout "normal",
+        :name "Natural Balance",
+        :oracle-text
+        "Each player who controls six or more lands chooses five lands they control and sacrifices the rest. Each player who controls four or fewer lands may search their library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands they control. Then each player who searched their library this way shuffles."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be234a85-1a39-4bf6-b8d3-64f8c8e87193.png?1661826097",
+        :collector-number "72",
+        :layout "normal",
+        :name "Natural Balance",
+        :oracle-text
+        "Each player who controls six or more lands chooses five lands they control and sacrifices the rest. Each player who controls four or fewer lands may search their library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands they control. Then each player who searched their library this way shuffles."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/b/cb5c26aa-b2bd-4151-97ff-e7dbfebecdd6.png?1661826122",
+        :collector-number "73",
+        :layout "normal",
+        :name "Prosperity",
+        :oracle-text "Each player draws X cards."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/521a1917-8bc0-4020-aabd-3b12bc85110a.png?1661826145",
+        :collector-number "74",
+        :layout "normal",
+        :name "Vampiric Tutor",
+        :oracle-text
+        "Search your library for a card, then shuffle and put that card on top. You lose 2 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/ec1b9963-149c-4a54-a46b-c22a92e565f0.png?1661826168",
+        :collector-number "75",
+        :layout "normal",
+        :name "Infernal Contract",
+        :oracle-text
+        "Draw four cards. You lose half your life, rounded up."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae358a3a-f5ad-4dde-9d4f-87dfb43d1ddf.png?1661826187",
+        :collector-number "76",
+        :layout "normal",
+        :name "Meditate",
+        :oracle-text "Draw four cards. You skip your next turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f35fcd4c-68c9-4934-8549-3c9e1b6b3b10.png?1661826219",
+        :collector-number "77",
+        :layout "normal",
+        :name "Meditate",
+        :oracle-text "Draw four cards. You skip your next turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24419005-0599-423e-a9f0-143337ed9031.png?1661826249",
+        :collector-number "78",
+        :layout "normal",
+        :name "Abeyance",
+        :oracle-text
+        "Until end of turn, target player can't cast instant or sorcery spells, and that player can't activate abilities that aren't mana abilities.\nDraw a card."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/3/43987e82-1e24-4462-9f9e-a0cb31ed15ba.png?1661826273",
+        :collector-number "79",
+        :layout "normal",
+        :name "Cursed Scroll",
+        :oracle-text
+        "{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Cursed Scroll deals 2 damage to any target."}
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6b66089-1aec-447a-b239-fe15f8f9c17e.png?1661826299",
+        :collector-number "80",
+        :layout "normal",
+        :name "Crimson Hellkite",
+        :oracle-text
+        "Flying\n{X}, {T}: Crimson Hellkite deals X damage to target creature. Spend only red mana on X."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/3/63abf919-5fdf-40f4-b34b-19142d184be9.png?1661826321",
+        :collector-number "81",
+        :layout "normal",
+        :name "Dissipate",
+        :oracle-text
+        "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8bd3d91c-8213-4902-873a-cc0622ddcfdb.png?1661826344",
+        :collector-number "82",
+        :layout "normal",
+        :name "Dissipate",
+        :oracle-text
+        "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "olep",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a2cf6da8-49a9-431b-b14a-e459daf36743.png?1661826368",
+        :collector-number "83",
+        :layout "normal",
+        :name "Fireball",
+        :oracle-text
+        "This spell costs {1} more to cast for each target beyond the first.\nFireball deals X damage divided evenly, rounded down, among any number of targets."})

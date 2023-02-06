@@ -1,9 +1,9 @@
 (#:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "p22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/6/b677f531-27e3-4bda-9670-6a1927ac307a.png?1643666543",
+        "https://cards.scryfall.io/png/front/b/6/b677f531-27e3-4bda-9670-6a1927ac307a.png?1655488449",
         :collector-number "1",
         :layout "normal",
         :name "Greater Auramancy",
@@ -12,9 +12,9 @@
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "p22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/8/88826cb1-a31b-499f-bcac-e1a3de956db1.png?1643666654",
+        "https://cards.scryfall.io/png/front/8/8/88826cb1-a31b-499f-bcac-e1a3de956db1.png?1655488432",
         :collector-number "2",
         :layout "normal",
         :name "Omniscience",
@@ -25,7 +25,7 @@
         :code "p22",
         :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c532c697-2a66-4c69-a785-59822581b379.png?1651636215",
+        "https://cards.scryfall.io/png/front/c/5/c532c697-2a66-4c69-a785-59822581b379.png?1651636215",
         :collector-number "3",
         :layout "normal",
         :name "Parallel Lives",
@@ -36,7 +36,7 @@
         :code "p22",
         :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/5/3/53745403-f855-42a2-9767-0092c9f1f18b.png?1648675559",
+        "https://cards.scryfall.io/png/front/5/3/53745403-f855-42a2-9767-0092c9f1f18b.png?1660636716",
         :collector-number "4",
         :layout "normal",
         :name "Stranglehold",
@@ -45,11 +45,72 @@
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "p22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/4/1/4133fcbc-de7b-4270-b6c5-8246f290c8cf.png?1643666725",
+        "https://cards.scryfall.io/png/front/2/4/24921817-36fe-4a2d-86e7-d3749bb8da32.png?1660636728",
+        :collector-number "5",
+        :layout "normal",
+        :name "Smothering Tithe",
+        :oracle-text
+        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "p22",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/6/969a8b6d-3186-497f-87ae-68c21d06e2a2.png?1660636733",
+        :collector-number "6",
+        :layout "normal",
+        :name "Training Grounds",
+        :oracle-text
+        "Activated abilities of creatures you control cost up to {2} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "p22",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f9e02314-bb21-48d0-b0c9-2824583b9c6f.png?1662252204",
+        :collector-number "7",
+        :layout "normal",
+        :name "Animate Dead",
+        :oracle-text
+        "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0."}
+ #:card{:type-line "Legendary Enchantment Creature — God",
+        :layout-category :normal,
+        :code "p22",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/8/d8969a3c-46eb-463a-b9e5-aaad912a5f15.png?1662252247",
+        :collector-number "8",
+        :layout "normal",
+        :name "Purphoros, God of the Forge",
+        :oracle-text
+        "Indestructible\nAs long as your devotion to red is less than five, Purphoros isn't a creature.\nWhenever another creature enters the battlefield under your control, Purphoros deals 2 damage to each opponent.\n{2}{R}: Creatures you control get +1/+0 until end of turn."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "p22",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/4133fcbc-de7b-4270-b6c5-8246f290c8cf.png?1659095209",
         :collector-number "9",
         :layout "normal",
         :name "No Mercy",
         :oracle-text
-        "Whenever a creature deals damage to you, destroy it."})
+        "Whenever a creature deals damage to you, destroy it."}
+ #:card{:code "p22",
+        :collector-number "10",
+        :name "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/3/8/38b45fa7-ccbc-4fdc-9ba5-117f7671d056.png?1673182729",
+          :type-line "Legendary Enchantment",
+          :oracle-text
+          "When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc."}
+         {:png
+          "https://cards.scryfall.io/png/back/3/8/38b45fa7-ccbc-4fdc-9ba5-117f7671d056.png?1673182729",
+          :type-line "Legendary Land",
+          :oracle-text
+          "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control."}]})

@@ -1,31 +1,31 @@
 (#:card{:type-line "Instant",
         :layout-category :normal,
         :code "pw22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/0/b0e9b20a-fcc7-4506-995e-be80199c1202.png?1639713041",
+        "https://cards.scryfall.io/png/front/b/0/b0e9b20a-fcc7-4506-995e-be80199c1202.png?1667639284",
         :collector-number "1",
         :layout "normal",
         :name "Consider",
         :oracle-text
-        "Look at the top card of your library. You may put that card into your graveyard.\nDraw a card."}
+        "Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDraw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pw22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/8/3/83e3dff5-4ffc-49e3-9b40-b9c6e1c864ef.png?1639713023",
+        "https://cards.scryfall.io/png/front/8/3/83e3dff5-4ffc-49e3-9b40-b9c6e1c864ef.png?1667639286",
         :collector-number "2",
         :layout "normal",
         :name "Fateful Absence",
         :oracle-text
-        "Destroy target creature or planeswalker. Its controller investigates. (They create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Destroy target creature or planeswalker. Its controller investigates. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pw22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3c5734c-b32f-419e-82e6-f8d45b7201b7.png?1639713043",
+        "https://cards.scryfall.io/png/front/b/3/b3c5734c-b32f-419e-82e6-f8d45b7201b7.png?1667639289",
         :collector-number "3",
         :layout "normal",
         :name "Atsushi, the Blazing Sky",
@@ -36,9 +36,31 @@
         :code "pw22",
         :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/0/1/01ba455b-9cd4-4ba2-9bbf-d83b84dcc891.png?1646351035",
+        "https://cards.scryfall.io/png/front/0/1/01ba455b-9cd4-4ba2-9bbf-d83b84dcc891.png?1674333487",
         :collector-number "4",
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste.\nEquip {1}"})
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pw22",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/212b39d9-1090-4fec-ab1a-62bb8330eaa2.png?1673778016",
+        :collector-number "5",
+        :layout "normal",
+        :name "Dismember",
+        :oracle-text
+        "({B/P} can be paid with either {B} or 2 life.)\nTarget creature gets -5/-5 until end of turn."}
+ #:card{:type-line "Artifact Creature — Phyrexian Horror",
+        :layout-category :normal,
+        :code "pw22",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/aeb5eb6f-adb1-4535-abf0-d4791151bab3.png?1673777986",
+        :collector-number "6",
+        :layout "normal",
+        :name "Psychosis Crawler",
+        :oracle-text
+        "Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.\nWhenever you draw a card, each opponent loses 1 life."})

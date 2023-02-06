@@ -1,9 +1,9 @@
 (#:card{:type-line "Instant",
         :layout-category :normal,
         :code "gdy",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/3/6/36c71043-1c11-4377-ab33-41d19927143a.png?1650506251",
+        "https://cards.scryfall.io/png/front/3/6/36c71043-1c11-4377-ab33-41d19927143a.png?1674312520",
         :collector-number "1",
         :layout "normal",
         :name "Power Word Kill",
@@ -12,9 +12,9 @@
  #:card{:type-line "Creature — Kor Spirit",
         :layout-category :normal,
         :code "gdy",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/95be5b75-5cef-45e2-8a51-1418e302f13b.png?1650506255",
+        "https://cards.scryfall.io/png/front/9/5/95be5b75-5cef-45e2-8a51-1418e302f13b.png?1659095110",
         :collector-number "2",
         :layout "normal",
         :name "Skyclave Apparition",
@@ -23,11 +23,77 @@
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "gdy",
-        :highres? false,
+        :highres? true,
         :png
-        "https://c1.scryfall.com/file/scryfall-cards/png/front/d/f/dfc831bf-be32-42e4-b266-285b685abf90.png?1650506259",
+        "https://cards.scryfall.io/png/front/d/f/dfc831bf-be32-42e4-b266-285b685abf90.png?1659095142",
         :collector-number "3",
         :layout "normal",
         :name "All-Seeing Arbiter",
         :oracle-text
-        "Flying\nWhenever All-Seeing Arbiter enters the battlefield or attacks, draw two cards, then discard a card.\nWhenever you discard a card, target creature an opponent controls gets -X/-0 until your next turn, where X is the number of different mana values among cards in your graveyard."})
+        "Flying\nWhenever All-Seeing Arbiter enters the battlefield or attacks, draw two cards, then discard a card.\nWhenever you discard a card, target creature an opponent controls gets -X/-0 until your next turn, where X is the number of different mana values among cards in your graveyard."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/d/5d02afc8-0192-4e7d-9d10-60a4434ed8db.png?1674312532",
+        :collector-number "4",
+        :layout "normal",
+        :name "Touch the Spirit Realm",
+        :oracle-text
+        "When Touch the Spirit Realm enters the battlefield, exile up to one target artifact or creature until Touch the Spirit Realm leaves the battlefield.\nChannel — {1}{W}, Discard Touch the Spirit Realm: Exile target artifact or creature. Return it to the battlefield under its owner's control at the beginning of the next end step."}
+ #:card{:type-line "Creature — Rhino Warrior",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d70fc472-a4b4-426e-ab86-87d1a7e52623.png?1674337796",
+        :collector-number "5",
+        :layout "normal",
+        :name "Workshop Warchief",
+        :oracle-text
+        "Trample\nWhen Workshop Warchief enters the battlefield, you gain 3 life.\nWhen Workshop Warchief dies, create a 4/4 green Rhino Warrior creature token.\nBlitz {4}{G}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+ #:card{:type-line "Creature — Dragon Hydra",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/beadc5fe-1c55-4707-a3c8-2ba318cc8846.png?1674337803",
+        :collector-number "6",
+        :layout "normal",
+        :name "Shivan Devastator",
+        :oracle-text
+        "Flying, haste\nShivan Devastator enters the battlefield with X +1/+1 counters on it."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29c63c32-ec2d-49fa-9c81-ab9e1abc8494.png?1674268267",
+        :collector-number "7",
+        :layout "normal",
+        :name "Recruitment Officer",
+        :oracle-text
+        "{3}{W}: Look at the top four cards of your library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+ #:card{:type-line "Legendary Creature — Nightmare",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/c/bcad78f4-2e16-4817-8ede-b8d1fd3945f3.png?1674268321",
+        :collector-number "8",
+        :layout "normal",
+        :name "Braids, Arisen Nightmare",
+        :oracle-text
+        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
+ #:card{:type-line "Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "gdy",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/538c4a9d-5733-4abd-a7a1-1514c8d33100.png?1665157524",
+        :collector-number "9",
+        :layout "normal",
+        :name "Surge Engine",
+        :oracle-text
+        "Defender\n{U}: Surge Engine loses defender and gains \"This creature can't be blocked.\"\n{2}{U}: Surge Engine becomes blue and has base power and toughness 5/4. Activate only if Surge Engine doesn't have defender.\n{4}{U}{U}: Draw three cards. Activate only if Surge Engine is blue and only once."})

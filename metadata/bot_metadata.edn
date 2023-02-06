@@ -1,0 +1,501 @@
+(#:card{:code "bot",
+        :collector-number "1",
+        :name "Prowl, Stoic Strategist // Prowl, Pursuit Vehicle",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/0/f0a3dc50-a5c4-4073-8fec-2f68544bc2a1.png?1674092742",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{W} (You may cast this card converted for {2}{W}.)\nWhenever Prowl attacks, exile up to one other target tapped creature or Vehicle. For as long as that card remains exiled, its owner may play it.\nWhenever a player plays a card exiled with Prowl, you draw a card and convert Prowl."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/0/f0a3dc50-a5c4-4073-8fec-2f68544bc2a1.png?1674092742",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nWhenever another creature or Vehicle enters the battlefield under your control, put a +1/+1 counter on Prowl. If this is the second time this ability has resolved this turn, convert Prowl."}]}
+ #:card{:code "bot",
+        :collector-number "2",
+        :name "Ratchet, Field Medic // Ratchet, Rescue Racer",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/c/2/c23a2d6b-43c2-4756-94c7-207cc344f0a7.png?1674092758",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{W} (You may cast this card converted for {1}{W}.)\nLifelink\nWhenever you gain life, you may convert Ratchet. When you do, return target artifact card with mana value less than or equal to the amount of life you gained this turn from your graveyard to the battlefield tapped."}
+         {:png
+          "https://cards.scryfall.io/png/back/c/2/c23a2d6b-43c2-4756-94c7-207cc344f0a7.png?1674092758",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nLifelink\nWhenever one or more nontoken artifacts you control are put into a graveyard from the battlefield, convert Ratchet. This ability triggers only once each turn."}]}
+ #:card{:code "bot",
+        :collector-number "3",
+        :name "Jetfire, Ingenious Scientist // Jetfire, Air Guardian",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/b/6bf61883-2343-4a9f-9a34-99326a8827ad.png?1674092775",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {3}{U} (You may cast this card converted for {3}{U}.)\nFlying\nRemove one or more +1/+1 counters from among artifacts you control: Target player adds that much {C}. This mana can't be spent to cast nonartifact spells. Convert Jetfire."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/b/6bf61883-2343-4a9f-9a34-99326a8827ad.png?1674092775",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying\n{U}{U}{U}: Convert Jetfire, then adapt 3. (If it has no +1/+1 counters on it, put three +1/+1 counters on it.)"}]}
+ #:card{:code "bot",
+        :collector-number "4",
+        :name
+        "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/d/2/d20738d2-a159-4e3e-be7a-561a121bd447.png?1674092791",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {3}{B} (You may cast this card converted for {3}{B}.)\nAt the beginning of your end step, target opponent loses life equal to the life that player lost this turn. If no life is lost this way, convert Blitzwing."}
+         {:png
+          "https://cards.scryfall.io/png/back/d/2/d20738d2-a159-4e3e-be7a-561a121bd447.png?1674092791",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nAt the beginning of combat on your turn, choose flying or indestructible at random. Blitzwing gains that ability until end of turn.\nWhenever Blitzwing deals combat damage to a player, convert it."}]}
+ #:card{:code "bot",
+        :collector-number "5",
+        :name "Starscream, Power Hungry // Starscream, Seeker Leader",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/2/8234ea77-9ed6-4f3e-acc2-f52fb7003ed2.png?1674092806",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{B} (You may cast this card converted for {2}{B}.)\nFlying\nWhenever you draw a card, if you're the monarch, target opponent loses 2 life.\nWhenever one or more creatures deal combat damage to you, convert Starscream."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/2/8234ea77-9ed6-4f3e-acc2-f52fb7003ed2.png?1674092806",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying, menace, haste\nWhenever Starscream deals combat damage to a player, if there is no monarch, that player becomes the monarch.\nWhenever you become the monarch, convert Starscream."}]}
+ #:card{:code "bot",
+        :collector-number "6",
+        :name "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.png?1674092821",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{R} (You may cast this card converted for {2}{R}.)\nDouble strike, haste\nAt the beginning of each opponent's upkeep, you may have that player gain control of Slicer until end of turn. If you do, untap Slicer, goad it, and it can't be sacrificed this turn. If you don't, convert it."}
+         {:png
+          "https://cards.scryfall.io/png/back/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.png?1674092821",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFirst strike, haste\nWhenever Slicer deals combat damage to a player, convert it at end of combat."}]}
+ #:card{:code "bot",
+        :collector-number "7",
+        :name "Arcee, Sharpshooter // Arcee, Acrobatic Coupe",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/1/21462db4-7739-4853-845f-0c2aa38fd2a6.png?1674092837",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {R}{W} (You may cast this card converted for {R}{W}.)\nFirst strike\n{1}, Remove one or more +1/+1 counters from Arcee: It deals that much damage to target creature. Convert Arcee."}
+         {:png
+          "https://cards.scryfall.io/png/back/2/1/21462db4-7739-4853-845f-0c2aa38fd2a6.png?1674092837",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nWhenever you cast a spell that targets one or more creatures or Vehicles you control, put that many +1/+1 counters on Arcee. Convert Arcee."}]}
+ #:card{:code "bot",
+        :collector-number "8",
+        :name "Blaster, Combat DJ // Blaster, Morale Booster",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/b/2/b2f8d457-ca4d-4b7d-83ed-17c2ba11ec0e.png?1674092853",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{R}{G} (You may cast this card converted for {1}{R}{G}.)\nOther nontoken artifact creatures and Vehicles you control have modular 1. (They enter the battlefield with an additional +1/+1 counter on them. When they die, you may put their +1/+1 counters on target artifact creature.)\nWhenever you put one or more +1/+1 counters on Blaster, convert it."}
+         {:png
+          "https://cards.scryfall.io/png/back/b/2/b2f8d457-ca4d-4b7d-83ed-17c2ba11ec0e.png?1674092853",
+          :type-line "Legendary Artifact",
+          :oracle-text
+          "Modular 3\n{X}, {T}: Move X +1/+1 counters from Blaster onto another target artifact. That artifact gains haste until end of turn. If Blaster has no +1/+1 counters on it, convert it. Activate only as a sorcery."}]}
+ #:card{:code "bot",
+        :collector-number "9",
+        :name
+        "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/d/2d3bb50a-2892-4e28-aa70-ab8d0fcdcc73.png?1674092869",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {5}{U}{B} (You may cast this card converted for {5}{U}{B}.)\nFlying\nWhenever Cyclonus deals combat damage to a player, it connives. Then if Cyclonus's power is 5 or greater, convert it. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/2/d/2d3bb50a-2892-4e28-aa70-ab8d0fcdcc73.png?1674092869",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying\nWhenever Cyclonus deals combat damage to a player, convert it. If you do, there is an additional beginning phase after this phase. (The beginning phase includes the untap, upkeep, and draw steps.)"}]}
+ #:card{:code "bot",
+        :collector-number "10",
+        :name
+        "Flamewar, Brash Veteran // Flamewar, Streetwise Operative",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/7/876d9732-9201-4327-8748-7c87ec55453f.png?1674092884",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {B}{R} (You may cast this card converted for {B}{R}.)\nSacrifice another artifact: Put a +1/+1 counter on Flamewar and convert it. Activate only as a sorcery.\n{1}, Discard your hand: Put all exiled cards you own with intel counters on them into your hand."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/7/876d9732-9201-4327-8748-7c87ec55453f.png?1674092884",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nMenace, deathtouch\nWhenever Flamewar deals combat damage to a player, exile that many cards from the top of your library face down. Put an intel counter on each of them. Convert Flamewar."}]}
+ #:card{:code "bot",
+        :collector-number "11",
+        :name "Goldbug, Humanity's Ally // Goldbug, Scrappy Scout",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/e/8e4a8db9-ef57-4ea0-952c-1e5d343fb5d9.png?1674092900",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {W}{U} (You may cast this card converted for {W}{U}.)\nPrevent all combat damage that would be dealt to attacking Humans you control.\nWhenever you cast your second spell each turn, convert Goldbug."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/e/8e4a8db9-ef57-4ea0-952c-1e5d343fb5d9.png?1674092900",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nHuman spells you control can't be countered.\nWhenever Goldbug and at least one Human attack, draw a card and convert Goldbug."}]}
+ #:card{:code "bot",
+        :collector-number "12",
+        :name "Megatron, Tyrant // Megatron, Destructive Force",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/a/c/ac6ded62-7bf2-476f-ad8e-020da6327c6b.png?1674092916",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{R}{W}{B} (You may cast this card converted for {1}{R}{W}{B}.)\nYour opponents can't cast spells during combat.\nAt the beginning of your postcombat main phase, you may convert Megatron. If you do, add {C} for each 1 life your opponents have lost this turn."}
+         {:png
+          "https://cards.scryfall.io/png/back/a/c/ac6ded62-7bf2-476f-ad8e-020da6327c6b.png?1674092916",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nWhenever Megatron attacks, you may sacrifice another artifact. When you do, Megatron deals damage equal to the sacrificed artifact's mana value to target creature. If excess damage would be dealt to that creature this way, instead that damage is dealt to that creature's controller and you convert Megatron."}]}
+ #:card{:code "bot",
+        :collector-number "13",
+        :name "Optimus Prime, Hero // Optimus Prime, Autobot Leader",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/0/f04ed2cc-aae1-400b-9cc5-5d4e3e3dd714.png?1674092931",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{U}{R}{W} (You may cast this card converted for {2}{U}{R}{W}.)\nAt the beginning of each end step, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)\nWhen Optimus Prime dies, return it to the battlefield converted under its owner's control."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/0/f04ed2cc-aae1-400b-9cc5-5d4e3e3dd714.png?1674092931",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nTrample\nWhenever you attack, bolster 2. The chosen creature gains trample until end of turn. When that creature deals combat damage to a player this turn, convert Optimus Prime."}]}
+ #:card{:code "bot",
+        :collector-number "14",
+        :name "Soundwave, Sonic Spy // Soundwave, Superior Captain",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/7/8733cd6f-37e1-4e3a-bb25-7a238f04657e.png?1674092946",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{W}{U}{B} (You may cast this card converted for {2}{W}{U}{B}.)\nWhenever one or more creature tokens you control deal combat damage to a player, exile target instant or sorcery card with mana value equal to the damage dealt from their graveyard. Copy it. You may cast the copy without paying its mana cost. If you do, convert Soundwave."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/7/8733cd6f-37e1-4e3a-bb25-7a238f04657e.png?1674092946",
+          :type-line "Legendary Artifact",
+          :oracle-text
+          "Whenever you cast a spell with an odd mana value, convert Soundwave. If you do, create Ravage, a legendary 3/3 black Robot artifact creature token with menace and deathtouch.\nWhenever you cast a spell with an even mana value, convert Soundwave. If you do, create Laserbeak, a legendary 2/2 blue Robot artifact creature token with flying and hexproof."}]}
+ #:card{:code "bot",
+        :collector-number "15",
+        :name
+        "Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/8/687695ad-d212-4da4-a326-ce9876afdda2.png?1674092963",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{R}{G}{W} (You may cast this card converted for {2}{R}{G}{W}.)\nWard {2}\nWhenever Ultra Magnus attacks, you may put an artifact creature card from your hand onto the battlefield tapped and attacking. If you do, convert Ultra Magnus at end of combat."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/8/687695ad-d212-4da4-a326-ce9876afdda2.png?1674092963",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nHaste\nFormidable — Whenever Ultra Magnus attacks, attacking creatures you control gain indestructible until end of turn. If those creatures have total power 8 or greater, convert Ultra Magnus."}]}
+ #:card{:code "bot",
+        :collector-number "16",
+        :name "Prowl, Stoic Strategist // Prowl, Pursuit Vehicle",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/7/7/770dea30-cef4-476a-beec-7a7fa967d07b.png?1674092979",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{W} (You may cast this card converted for {2}{W}.)\nWhenever Prowl attacks, exile up to one other target tapped creature or Vehicle. For as long as that card remains exiled, its owner may play it.\nWhenever a player plays a card exiled with Prowl, you draw a card and convert Prowl."}
+         {:png
+          "https://cards.scryfall.io/png/back/7/7/770dea30-cef4-476a-beec-7a7fa967d07b.png?1674092979",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nWhenever another creature or Vehicle enters the battlefield under your control, put a +1/+1 counter on Prowl. If this is the second time this ability has resolved this turn, convert Prowl."}]}
+ #:card{:code "bot",
+        :collector-number "17",
+        :name "Ratchet, Field Medic // Ratchet, Rescue Racer",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/1/619e0c3a-14aa-43dc-bc55-dc97e3d7ccb4.png?1674092995",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{W} (You may cast this card converted for {1}{W}.)\nLifelink\nWhenever you gain life, you may convert Ratchet. When you do, return target artifact card with mana value less than or equal to the amount of life you gained this turn from your graveyard to the battlefield tapped."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/1/619e0c3a-14aa-43dc-bc55-dc97e3d7ccb4.png?1674092995",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nLifelink\nWhenever one or more nontoken artifacts you control are put into a graveyard from the battlefield, convert Ratchet. This ability triggers only once each turn."}]}
+ #:card{:code "bot",
+        :collector-number "18",
+        :name "Jetfire, Ingenious Scientist // Jetfire, Air Guardian",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/4/f4362cd5-5b6a-457f-8d73-71dff9f76335.png?1674093012",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {3}{U} (You may cast this card converted for {3}{U}.)\nFlying\nRemove one or more +1/+1 counters from among artifacts you control: Target player adds that much {C}. This mana can't be spent to cast nonartifact spells. Convert Jetfire."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/4/f4362cd5-5b6a-457f-8d73-71dff9f76335.png?1674093012",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying\n{U}{U}{U}: Convert Jetfire, then adapt 3. (If it has no +1/+1 counters on it, put three +1/+1 counters on it.)"}]}
+ #:card{:code "bot",
+        :collector-number "19",
+        :name
+        "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/3/e/3ea597a5-0057-4328-9f6e-a446cde91ece.png?1674093031",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {3}{B} (You may cast this card converted for {3}{B}.)\nAt the beginning of your end step, target opponent loses life equal to the life that player lost this turn. If no life is lost this way, convert Blitzwing."}
+         {:png
+          "https://cards.scryfall.io/png/back/3/e/3ea597a5-0057-4328-9f6e-a446cde91ece.png?1674093031",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nAt the beginning of combat on your turn, choose flying or indestructible at random. Blitzwing gains that ability until end of turn.\nWhenever Blitzwing deals combat damage to a player, convert it."}]}
+ #:card{:code "bot",
+        :collector-number "20",
+        :name "Starscream, Power Hungry // Starscream, Seeker Leader",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/9/0/90fa398b-f2f7-474f-a840-244238a67c31.png?1674093053",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{B} (You may cast this card converted for {2}{B}.)\nFlying\nWhenever you draw a card, if you're the monarch, target opponent loses 2 life.\nWhenever one or more creatures deal combat damage to you, convert Starscream."}
+         {:png
+          "https://cards.scryfall.io/png/back/9/0/90fa398b-f2f7-474f-a840-244238a67c31.png?1674093053",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying, menace, haste\nWhenever Starscream deals combat damage to a player, if there is no monarch, that player becomes the monarch.\nWhenever you become the monarch, convert Starscream."}]}
+ #:card{:code "bot",
+        :collector-number "21",
+        :name "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/a/3/a35108d8-f6c5-4474-9049-64fd7e3b1310.png?1674093072",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{R} (You may cast this card converted for {2}{R}.)\nDouble strike, haste\nAt the beginning of each opponent's upkeep, you may have that player gain control of Slicer until end of turn. If you do, untap Slicer, goad it, and it can't be sacrificed this turn. If you don't, convert it."}
+         {:png
+          "https://cards.scryfall.io/png/back/a/3/a35108d8-f6c5-4474-9049-64fd7e3b1310.png?1674093072",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFirst strike, haste\nWhenever Slicer deals combat damage to a player, convert it at end of combat."}]}
+ #:card{:code "bot",
+        :collector-number "22",
+        :name "Blaster, Combat DJ // Blaster, Morale Booster",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/5/a/5aacffa9-ee64-4451-9519-10c5f3e5aa86.png?1674093090",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{R}{G} (You may cast this card converted for {1}{R}{G}.)\nOther nontoken artifact creatures and Vehicles you control have modular 1. (They enter the battlefield with an additional +1/+1 counter on them. When they die, you may put their +1/+1 counters on target artifact creature.)\nWhenever you put one or more +1/+1 counters on Blaster, convert it."}
+         {:png
+          "https://cards.scryfall.io/png/back/5/a/5aacffa9-ee64-4451-9519-10c5f3e5aa86.png?1674093090",
+          :type-line "Legendary Artifact",
+          :oracle-text
+          "Modular 3\n{X}, {T}: Move X +1/+1 counters from Blaster onto another target artifact. That artifact gains haste until end of turn. If Blaster has no +1/+1 counters on it, convert it. Activate only as a sorcery."}]}
+ #:card{:code "bot",
+        :collector-number "23",
+        :name
+        "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/e/7/e703b74f-9105-42b3-b38c-8f38da840f0c.png?1674093107",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {5}{U}{B} (You may cast this card converted for {5}{U}{B}.)\nFlying\nWhenever Cyclonus deals combat damage to a player, it connives. Then if Cyclonus's power is 5 or greater, convert it. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/e/7/e703b74f-9105-42b3-b38c-8f38da840f0c.png?1674093107",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nFlying\nWhenever Cyclonus deals combat damage to a player, convert it. If you do, there is an additional beginning phase after this phase. (The beginning phase includes the untap, upkeep, and draw steps.)"}]}
+ #:card{:code "bot",
+        :collector-number "24",
+        :name
+        "Flamewar, Brash Veteran // Flamewar, Streetwise Operative",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/9/292e1d00-435e-404b-b10e-0fae965651e9.png?1674093124",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {B}{R} (You may cast this card converted for {B}{R}.)\nSacrifice another artifact: Put a +1/+1 counter on Flamewar and convert it. Activate only as a sorcery.\n{1}, Discard your hand: Put all exiled cards you own with intel counters on them into your hand."}
+         {:png
+          "https://cards.scryfall.io/png/back/2/9/292e1d00-435e-404b-b10e-0fae965651e9.png?1674093124",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nMenace, deathtouch\nWhenever Flamewar deals combat damage to a player, exile that many cards from the top of your library face down. Put an intel counter on each of them. Convert Flamewar."}]}
+ #:card{:code "bot",
+        :collector-number "25",
+        :name "Goldbug, Humanity's Ally // Goldbug, Scrappy Scout",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/7/67a29ad8-2cca-4dab-ac71-d3b0b2489d79.png?1674093142",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {W}{U} (You may cast this card converted for {W}{U}.)\nPrevent all combat damage that would be dealt to attacking Humans you control.\nWhenever you cast your second spell each turn, convert Goldbug."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/7/67a29ad8-2cca-4dab-ac71-d3b0b2489d79.png?1674093142",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nHuman spells you control can't be countered.\nWhenever Goldbug and at least one Human attack, draw a card and convert Goldbug."}]}
+ #:card{:code "bot",
+        :collector-number "26",
+        :name "Megatron, Tyrant // Megatron, Destructive Force",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/1/9/19385c88-9af3-4931-8dfc-6e51a5c5f816.png?1674093160",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {1}{R}{W}{B} (You may cast this card converted for {1}{R}{W}{B}.)\nYour opponents can't cast spells during combat.\nAt the beginning of your postcombat main phase, you may convert Megatron. If you do, add {C} for each 1 life your opponents have lost this turn."}
+         {:png
+          "https://cards.scryfall.io/png/back/1/9/19385c88-9af3-4931-8dfc-6e51a5c5f816.png?1674093160",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nWhenever Megatron attacks, you may sacrifice another artifact. When you do, Megatron deals damage equal to the sacrificed artifact's mana value to target creature. If excess damage would be dealt to that creature this way, instead that damage is dealt to that creature's controller and you convert Megatron."}]}
+ #:card{:code "bot",
+        :collector-number "27",
+        :name "Optimus Prime, Hero // Optimus Prime, Autobot Leader",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/f/8fc5a3d7-4d5f-4e02-9d00-b9cf5e5cd269.png?1674093177",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{U}{R}{W} (You may cast this card converted for {2}{U}{R}{W}.)\nAt the beginning of each end step, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)\nWhen Optimus Prime dies, return it to the battlefield converted under its owner's control."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/f/8fc5a3d7-4d5f-4e02-9d00-b9cf5e5cd269.png?1674093177",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nTrample\nWhenever you attack, bolster 2. The chosen creature gains trample until end of turn. When that creature deals combat damage to a player this turn, convert Optimus Prime."}]}
+ #:card{:code "bot",
+        :collector-number "28",
+        :name "Soundwave, Sonic Spy // Soundwave, Superior Captain",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/3/c/3c24f9cb-2451-4651-826b-a1cd645af502.png?1674093193",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{W}{U}{B} (You may cast this card converted for {2}{W}{U}{B}.)\nWhenever one or more creature tokens you control deal combat damage to a player, exile target instant or sorcery card with mana value equal to the damage dealt from their graveyard. Copy it. You may cast the copy without paying its mana cost. If you do, convert Soundwave."}
+         {:png
+          "https://cards.scryfall.io/png/back/3/c/3c24f9cb-2451-4651-826b-a1cd645af502.png?1674093193",
+          :type-line "Legendary Artifact",
+          :oracle-text
+          "Whenever you cast a spell with an odd mana value, convert Soundwave. If you do, create Ravage, a legendary 3/3 black Robot artifact creature token with menace and deathtouch.\nWhenever you cast a spell with an even mana value, convert Soundwave. If you do, create Laserbeak, a legendary 2/2 blue Robot artifact creature token with flying and hexproof."}]}
+ #:card{:code "bot",
+        :collector-number "29",
+        :name
+        "Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/7/3/73ac68c0-0830-4343-863b-adde0f1b8b61.png?1674093210",
+          :type-line "Legendary Artifact Creature — Robot",
+          :oracle-text
+          "More Than Meets the Eye {2}{R}{G}{W} (You may cast this card converted for {2}{R}{G}{W}.)\nWard {2}\nWhenever Ultra Magnus attacks, you may put an artifact creature card from your hand onto the battlefield tapped and attacking. If you do, convert Ultra Magnus at end of combat."}
+         {:png
+          "https://cards.scryfall.io/png/back/7/3/73ac68c0-0830-4343-863b-adde0f1b8b61.png?1674093210",
+          :type-line "Legendary Artifact — Vehicle",
+          :oracle-text
+          "Living metal (As long as it's your turn, this Vehicle is also a creature.)\nHaste\nFormidable — Whenever Ultra Magnus attacks, attacking creatures you control gain indestructible until end of turn. If those creatures have total power 8 or greater, convert Ultra Magnus."}]})

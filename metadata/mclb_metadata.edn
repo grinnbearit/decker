@@ -1,0 +1,51 @@
+(#:card{:code "mclb",
+        :collector-number "1",
+        :name "Roll for Initiative // Roll for Initiative (cont'd)",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/d/1/d1628a06-753c-423a-8eea-e29667dd95f7.png?1664728738",
+          :type-line "Card",
+          :oracle-text
+          "2+ players | 1+ packs | 5 minutes | d20\nOBJECTIVE:\nAs you enter the room, the terrible dragon opens its eyes and lets out a roar. Everybody... roll for initiative! Roll a d20 and modify the result with some _Magic_ cards to get the highest initiative!\nGET READY:\nOpen a booster and remove all cards without _Magic_ card backs. Use an additional booster for groups of five players or more. Shuffle, then deal the same number of cards to each player. If there are extra cards after dealing, set them aside. Each player then rolls a d20 to determine their *initiative*. In case of a tie, the tied players roll again. The player with the lowest starting initiative goes first.\nLET'S PLAY:\nOn each player's turn, they play a card to modify a player's initiative (see reverse side for card effects). Cards with effects that will be counted at the end of the game should be placed in front of the target player. All other cards go into the discard pile."}
+         {:png
+          "https://cards.scryfall.io/png/back/d/1/d1628a06-753c-423a-8eea-e29667dd95f7.png?1664728738",
+          :type-line nil,
+          :oracle-text
+          "Play continues until all players are out of cards.\n*White Card*: At the end of the game, increase a player's roll by 2.\n*Blue Card*: Reroll another player's die, but use the new result only if it's lower.\n*Black Card*: At the end of the game, decrease a player's roll by 2.\n*Red Card*: Reroll another player's die. They must use the new result.\n*Green Card*: Reroll your own die, but use the new result only if it's higher.\n*Colorless Card*: Each player may reroll their die. if they do, they must use the new result.\n*Multicolored Card*: Apply the effects of each of the card's colors. Each effect can target a different player.\n*Any Card Played Face Down*: At the end of the game, increase or decrease a player's die roll by 1.\nTO WIN:\nOnce everyone is out of cards, check to see who has the highest roll. That player wins initiative!"}]}
+ #:card{:code "mclb",
+        :collector-number "2",
+        :name "Mimic Match // Mimic Match (cont'd)",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/9/d/9de46c01-f2d9-44d4-af72-242b6283ec30.png?1664728761",
+          :type-line "Card",
+          :oracle-text
+          "2-4 players | 2+ packs | 10 minutes\nOBJECTIVE: Match and collect the most treasure chests before someone uncovers the mimics hiding amongst the loot!\nGET READY: Open one booster per player and remove any lands and cards without _Magic_ card backs, and then shuffle them together. Then put *two lands* back into the deck (to represent the mimics) and shuffle. Deal 16 cards face down in a *4x4 grid*. Randomly determine who goes first.\nLET'S PLAY:\nOn your turn, secretly look at *two cards* from the grid. If they share a *color* or *mana value*, you may reveal them, announce what matches and take those cards, then take another turn."}
+         {:png
+          "https://cards.scryfall.io/png/back/9/d/9de46c01-f2d9-44d4-af72-242b6283ec30.png?1664728761",
+          :type-line nil,
+          :oracle-text
+          "Otherwise, leave them in place, and the next player takes their turn.\nNOTE: Colorless cards can be matched with other colorless cards, but mimics can only be matched with each other.\nAfter a match has been made, replace the empty spaces with two new cards from the deck, face down.\nThe game ends when a player reveals the two mimics, uncovering them!\nTO WIN:\nAt the end of the game, each player scores 1 point for every card they collected. The player who uncovered the mimics by matching the two lands scores an additional 2 points. If there is a tie, the player who uncovered the mimics decides who wins!"}]}
+ #:card{:code "mclb",
+        :collector-number "3",
+        :name "Mini-Master // Mini-Master (cont'd)",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/9/1/910959f2-db4e-4cee-9f3a-bed04d34d6f6.png?1664729142",
+          :type-line "Card",
+          :oracle-text
+          "2 players | 2 packs. 10 minutes | Basic Lands\nOBJECTIVE:\nPlay a quick game of Magic using only the cards in a single pack. You may also know this game as Pack Wars!\nGET READY:\nEach player opens a pack and sets aside any cards without Magic card backs, trying not to look at the rest of the cards. Then they add three of each basic land (Plains, Island, Swamp, Mountain, and Forest) to their ppack and shuffle. This becomes the player's deck.\nLET'S PLAY:\nRandomly determine who goes first, then play a game of Magic! There are many variants of Mini-Master. The following are modified rules you can add to your game:"}
+         {:png
+          "https://cards.scryfall.io/png/back/9/1/910959f2-db4e-4cee-9f3a-bed04d34d6f6.png?1664729142",
+          :type-line "Card",
+          :oracle-text
+          "If you have two or more copies of any basic land, you can tap other lands as though they were lands of that type. This can help you pay costs with lots of mana symbols in them.\nAfter the first game, add another pack to your deck, look at the contents, then cut cards until you have 30. Do this again for game three!\nNot feeling your deck? Replace the whole thing with a new pack between games!\nTO WIN:\nThe first player to win two games wins the match."}]})

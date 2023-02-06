@@ -1,0 +1,85 @@
+(#:card{:code "ph19",
+        :collector-number "1",
+        :name "Collectigull // Only the Best",
+        :layout "adventure",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e5a037c-86b7-40f6-aa6e-74bc0b80e65e.png?1619720341",
+        :faces
+        [{:type-line "Creature — Bird",
+          :oracle-text
+          "Flying, protection from common\nWhenever Collectigull attacks, reveal the top card of your library. If it's a Booster Fun card, you may put it into your hand."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "Return target Booster Fun card from your graveyard to your hand."}]}
+ #:card{:type-line "Legendary Creature — Merfolk Rogue",
+        :layout-category :normal,
+        :code "ph19",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/5/05c4e808-8d87-4d25-b893-d6e56b4c98e9.png?1619720364",
+        :collector-number "2",
+        :layout "normal",
+        :name "Keeper of the Secret Lair",
+        :oracle-text
+        "Flash\nYou may cast Secret Lair spells as though they had flash.\nSecret Lair spells you cast cost {1} less to cast."}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "ph19",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29fc560d-8ba3-4e6c-99df-08d034025131.png?1619720389",
+        :collector-number "3",
+        :layout "saga",
+        :name "War of the Spark",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player may put a planeswalker or Zombie card from War of the Spark from their hand or graveyard onto the battlefield.\nII — Sacrifice any number of creatures and/or planeswalkers. Each opponent sacrifices that many creatures and/or planeswalkers.\nIII — Exile up to one target Bolas. Proliferate three times."}
+ #:card{:code "ph19",
+        :collector-number "4",
+        :name "Champions of Archery // Join the Group",
+        :layout "adventure",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4ae9da8c-0189-4474-ae3c-aca3fae6bea3.png?1619720422",
+        :faces
+        [{:type-line "Legendary Creature — Human Archer",
+          :oracle-text
+          "Reach\nCommanders you control get +X/+0, where X is the number of Commanders you control."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "You may put a legendary creature card from your hand into the command zone. It's also your commander."}]}
+ #:card{:type-line "Legendary Snow Creature — Elk",
+        :layout-category :normal,
+        :code "ph19",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7e57d2f-141f-461a-8f5a-4cec3020442e.png?1625868476",
+        :collector-number "5",
+        :layout "normal",
+        :name "Myntasha, Honored One",
+        :oracle-text
+        "As an additional cost to cast this spell, you may open a sealed Magic booster pack and put the cards on the bottom of your booster pile in a random order.\nSpells you cast have booster cascade. (It's like cascade, but use your booster pile rather than your library.)"}
+ #:card{:type-line "Legendary Creature — Phoenix",
+        :layout-category :normal,
+        :code "ph19",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/6799b986-0c07-4082-8b5c-f28bddc42ee9.png?1621566262",
+        :collector-number "6",
+        :layout "normal",
+        :name "The Cinematic Phoenix",
+        :oracle-text
+        "Flying, haste, protection from red\n{1}, {T}: Return target legendary creature card from your graveyard to the battlefield.\nTap six untapped creatures you control: Return The Cinematic Phoenix from your graveyard to the battlefield. If you tapped six legendary creatures this way, you win the game."}
+ #:card{:type-line "Legendary Land — Mountain",
+        :layout-category :normal,
+        :code "ph19",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/7/3729066c-4f63-47ca-8e2d-41c8bf8eb7c4.png?1636719398",
+        :collector-number "7",
+        :layout "normal",
+        :name "Fabled Path of Searo Point",
+        :oracle-text
+        "{W}{U}{B}{R}{G}, {T}: Creatures you control gain landwalk until end of turn."})

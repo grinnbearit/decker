@@ -1,0 +1,46 @@
+(#:card{:type-line "Card",
+        :layout-category :normal,
+        :code "mmid",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae3c3401-5dff-431a-8973-307da500c378.png?1675465740",
+        :collector-number "1",
+        :layout "token",
+        :name "Booster Blitz",
+        :oracle-text
+        "2 players | 2 packs | 10 minutes\nOBJECTIVE:\nBest your opponent in a series of fast Magic games using only the cards in a single pack!\nGET READY:\nEach player opens a pack and makes four face-down piles of three cards each using the Magic cards inside. Players make their piles with the goal of winning a series of Magic games with these modified rules:\nPlayers start at 5 life, have infinite mana, and cannot lose by drawing from an empty library.\nLET'S PLAY:\nRandomly determine who goes first. Each player chooses which pile their opponent will use for each round. Then both players draw all three of their cards and play a game of Magic. When a player loses a game, they get to go first in the next game.\nTO WIN:\nThe first player to win two games wins the match."}
+ #:card{:code "mmid",
+        :collector-number "2",
+        :name "Day Vs. Night // Day vs. Night (cont'd)",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/e/3/e3cb0f04-d6fa-4dc3-8351-9dd9075583bc.png?1675594877",
+          :type-line "Card",
+          :oracle-text
+          "2 players | 2 packs | 5 minutes\nOBJECTIVE:\nBecome a defender of the day or a monster of the night in this rock-paper-scissors-style game.\nGET READY:\nRandomly determine who will use the power of **Day** and who will use the power of **Night**. Each player opens a booster and sets aside any cards without Magic card backs.\nLET'S PLAY:\nPlayers look at their hands, pick three cards, and then place their picked cards in a face down row in front of their opponent's row. Players reveal the pairs of cards from Day player's left to right simultaneously. Winning cards are decided as follows:\n• Red beats green\n• Green beats blue\n• Blue beats red\n• White is always a winning card for the Day player, but it's always a losing card for the Night player\n• Black is always a winning card for the Night player, but it's always a losing card for the Day player."}
+         {:png
+          "https://cards.scryfall.io/png/back/e/3/e3cb0f04-d6fa-4dc3-8351-9dd9075583bc.png?1675594877",
+          :type-line nil,
+          :oracle-text
+          "• Paired red, blue, or green cards result in a tie\n• A winning white card vs. a winning black card results in a tie\n• A losing white card vs. a losing black card results in a tie\n• A multicolored card is a single color of its owner's choice, declared after it's revealed\nWhen a colorless card is revealed (lands are colorless), its owner immediately replaces it with a card from their hand before declaring the winner. Discard the colorless card afterward. If two colorless cards are paired, players reveal their replacement card simultaneously. If two multicolored cards are paired, players declare their chosen color simultaneously.\nAfter all pairs are revealed, each player sets aside their winning cards into their own pile and returns all of their losing and tie cards to their hand.\nPlay **two more rounds**. But for the third round, players lay down **six cards**. If a player has fewer than six cards for the third round, play with the same number of cards as the player with the least, discarding the extras.\nTO WIN:\nThe player with the most winning cards after three rounds wins!"}]}
+ #:card{:code "mmid",
+        :collector-number "3",
+        :name
+        "Into the Story: Horror Edition // Into the Story (cont'd)",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/3/9/39fabb62-1644-4dc5-bb99-dc3508bd6681.png?1675594803",
+          :type-line "Card",
+          :oracle-text
+          "1-6 players | 1+ packs | 10 minutes\nOBJECTIVE:\nTell the best horror story you can, using the cards in your booster as inspiration.\nGET READY:\nOpen a booster for each player and remove any ad, token, and art cards. Then sort the cards into separate piles for double-faced cards (DFCs), single-sided creature and planeswalker cards, land cards, and all other noncreature cards. Shuffle the piles and place each of them face down.\nLET'S PLAY:\nGo through the beats of the story below in order, revealing a card from the top of the specified pile or taking the specified action. Tell a story as you go. After a player tells a bit of the story for a beat, it's the next player's turn for the next story beat. If there are no cards of the requested type, players can make something up.\n**Introduction**\n• Setting: a land\n• The characters: three creatures/planeswalkers\n• Why the characters are at the location: a noncreature card"}
+         {:png
+          "https://cards.scryfall.io/png/back/3/9/39fabb62-1644-4dc5-bb99-dc3508bd6681.png?1675594803",
+          :type-line nil,
+          :oracle-text
+          "• The monster the characters face: a DFC card\n**Action**\n• The characters make a critical mistake: a noncreature card\n• The first to die: choose one of the three characters\n• How the monster kills the first character: a noncreature card\n• The hero: choose one of the two remaining characters\n• Describe the monster's weakness/secret/motivation and how the hero discovered it: a noncreature card of creature/planeswalker card\n**Resolution**\n• Confronting the monster: a noncreature card\n• The lone survivor: choose one of the two characters\n• Ending: Create this yourself! How did the second character die? Did the monster survive? Was it all worth it?\nTO WIN:\nAfter the story's been told, assign the following awards by popular vote to players: Scariest, Funniest, and Most Exciting. Feel free to invent your own awards as well. In the case of a tied vote for the winner of an award, randomly determine its winner."}]})

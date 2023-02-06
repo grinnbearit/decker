@@ -1,0 +1,519 @@
+(#:card{:type-line "Token Creature — Goat",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/c/5ce4f2b0-d63e-4f65-8261-ae61a8c9f591.png?1675455733",
+        :collector-number "1",
+        :layout "token",
+        :name "Goat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Knight",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/50633bba-9402-4d8c-a277-c370f25bd01f.png?1675455742",
+        :collector-number "2",
+        :layout "token",
+        :name "Knight",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Pegasus",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dd1b0ed9-a4c0-4c58-978a-918ca266c699.png?1675455751",
+        :collector-number "3",
+        :layout "token",
+        :name "Pegasus",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Rabbit",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/2/22ca55e0-d269-4178-bc90-920a12066e4f.png?1675455763",
+        :collector-number "4",
+        :layout "token",
+        :name "Rabbit",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/5/b5000cf8-2104-4d85-95df-29efa92256f6.png?1675455772",
+        :collector-number "5",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Faerie Dragon",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/f/6f1eb498-8496-4234-8e87-78dc3f647534.png?1675455783",
+        :collector-number "6",
+        :layout "token",
+        :name "Faerie Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Demon",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d744d755-ac09-4511-8664-5ff973e92fc5.png?1675455791",
+        :collector-number "7",
+        :layout "token",
+        :name "Demon",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Skeleton",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/f/cf4c245f-af2f-46a7-81f3-670a04940901.png?1675455799",
+        :collector-number "8",
+        :layout "token",
+        :name "Skeleton",
+        :oracle-text
+        "Menace (This creature can't be blocked except by two or more creatures.)"}
+ #:card{:type-line "Token Legendary Creature — Hamster",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0d0475e9-68ae-4553-a5ef-650091e04967.png?1675455807",
+        :collector-number "9",
+        :layout "token",
+        :name "Boo",
+        :oracle-text "Trample, haste"}
+ #:card{:type-line "Token Creature — Devil",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/9/895df6af-6799-4ec6-b8f4-912b06f30ed2.png?1675455814",
+        :collector-number "10",
+        :layout "token",
+        :name "Devil",
+        :oracle-text
+        "When this creature dies, it deals 1 damage to any target."}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e32b97de-9cbb-40a2-ba3b-54e861023df0.png?1675455822",
+        :collector-number "11",
+        :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Boar",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/f/afb796a0-4eb0-4fc5-bf84-92a71bec4466.png?1675455830",
+        :collector-number "12",
+        :layout "token",
+        :name "Boar",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Ox",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/6655f22c-963f-42d6-b45c-8ea5fb256785.png?1675455839",
+        :collector-number "13",
+        :layout "token",
+        :name "Ox",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Saproling",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/7/f7cbc9fc-42d2-4d1a-b6c0-29a35cfd1588.png?1675455847",
+        :collector-number "14",
+        :layout "token",
+        :name "Saproling",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Squirrel",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/8/380330b4-2d01-4042-97ac-41d9c60c982d.png?1675455855",
+        :collector-number "15",
+        :layout "token",
+        :name "Squirrel",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/f/0f5715cf-fbf6-4b13-af91-525edc7706ea.png?1675455862",
+        :collector-number "16",
+        :layout "token",
+        :name "Construct",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/770b988d-4f31-4746-8c23-4ed8d9a6b393.png?1675455871",
+        :collector-number "17",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Legendary Artifact",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/f/7f0fe7c9-b0ab-4d48-94d0-99e7bee0c0de.png?1675455879",
+        :collector-number "18",
+        :layout "token",
+        :name "Volo's Journal",
+        :oracle-text
+        "Hexproof\nWhenever you cast a creature spell, note one of its creature types that hasn't been noted for this artifact."}
+ #:card{:type-line "Token",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/51d7dc49-7116-489b-a719-7b293a513cdc.png?1675455887",
+        :collector-number "19",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:code "tclb",
+        :collector-number "20",
+        :name "The Initiative // Undercity",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1675455903",
+          :type-line "Card",
+          :oracle-text
+          "Whenever one or more creatures a player controls deal combat damage to you, that player takes the initiative.\nWhenever you take the initiative and at the beginning of your upkeep, venture into Undercity. (If you're in a dungeon, advance to the next room. If you're not, enter Undercity. You can take the initiative even if you already have it.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1675455903",
+          :type-line "Dungeon — Undercity",
+          :oracle-text
+          "You can't enter this dungeon unless you \"venture into Undercity.\"\nSecret Entrance — Search your library for a basic land card, reveal it, put it into your hand, then shuffle (Leads to: Forge, Lost Well)\nForge — Put two +1/+1 counters on target creature. (Leads to: Trap!, Arena)\nLost Well — Scry 2. (Leads to: Arena, Stash)\nTrap! — Target player loses 5 life. (Leads to: Archives)\nArena — Goad target creature. (Leads to: Archives, Catacombs)\nStash — Create a Treasure token. (Leads to: Catacombs)\nArchives — Draw a card. (Leads to: Throne of the Dead Three)\nCatacombs — Create a 4/1 black Skeleton creature token with menace. (Leads to: Throne of the Dead Three)\nThrone of the Dead Three — Reveal the top ten cards of your library. Put a creature card from among them onto the battlefield with three +1/+1 counters on it. It gains hexproof until your next turn. Then shuffle."}]}
+ #:card{:type-line "Token Creature — Eldrazi Horror",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/60abe28a-342e-49d0-80f6-6b3ce041372b.png?1675455912",
+        :collector-number "21",
+        :layout "token",
+        :name "Eldrazi Horror",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6bde9bf-fffc-4b86-9698-d5620b21d6b8.png?1675455920",
+        :collector-number "22",
+        :layout "token",
+        :name "Shapeshifter",
+        :oracle-text "Changeling"}
+ #:card{:type-line "Token Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd65e932-8ed6-424b-958f-d8edad2aa2f4.png?1675455927",
+        :collector-number "23",
+        :layout "token",
+        :name "Shapeshifter",
+        :oracle-text "Changeling"}
+ #:card{:type-line "Token Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/1186b536-e6c8-433d-a906-b29f334d619c.png?1675455935",
+        :collector-number "24",
+        :layout "token",
+        :name "Shapeshifter",
+        :oracle-text "Changeling (This token is every creature type.)"}
+ #:card{:type-line "Token Creature — Angel Warrior",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a2db6fe1-b6ec-43ca-933f-dbab4cd08064.png?1675455942",
+        :collector-number "25",
+        :layout "token",
+        :name "Angel Warrior",
+        :oracle-text "Flying, vigilance"}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/4/64dad439-cae3-4f65-b6fb-c737321d322c.png?1675455950",
+        :collector-number "26",
+        :layout "token",
+        :name "Human",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Kor Warrior",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/2138b304-4dc0-48bb-a043-6246abafef53.png?1675455958",
+        :collector-number "27",
+        :layout "token",
+        :name "Kor Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ce94fb42-cde4-4637-b938-13f17793bf1f.png?1675455965",
+        :collector-number "28",
+        :layout "token",
+        :name "Shapeshifter",
+        :oracle-text "Changeling (This token is every creature type.)"}
+ #:card{:type-line "Token Creature — Squid",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/4/743688fa-ca30-4a4b-92ec-6708af8692db.png?1675455973",
+        :collector-number "29",
+        :layout "token",
+        :name "Squid",
+        :oracle-text
+        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)"}
+ #:card{:type-line "Token Creature — Wizard",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/5/c53eb7d1-9c36-4184-b411-ebe65aa64230.png?1675455982",
+        :collector-number "30",
+        :layout "token",
+        :name "Wizard",
+        :oracle-text
+        "{1}, Sacrifice this creature: Counter target noncreature spell unless its controller pays {1}."}
+ #:card{:type-line "Token Creature — Horror",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1ddf9fb5-473f-44a2-98bd-93b4f7478d4f.png?1675455990",
+        :collector-number "31",
+        :layout "token",
+        :name "Horror",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/8/883ac854-ee35-418a-9d4e-c30ba2a5ade8.png?1675455997",
+        :collector-number "32",
+        :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c87386f2-5e90-4efd-a5d7-4716220d6ab7.png?1675456004",
+        :collector-number "33",
+        :layout "token",
+        :name "Dragon",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1db51576-a755-45de-b37b-f16b27e8f3a1.png?1675456012",
+        :collector-number "34",
+        :layout "token",
+        :name "Goblin",
+        :oracle-text
+        "Creatures you control attack each combat if able."}
+ #:card{:type-line "Token Creature — Kobold",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3c9bfd0a-9a31-4191-a615-a747cbca2015.png?1675456020",
+        :collector-number "35",
+        :layout "token",
+        :name "Kobolds of Kher Keep",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Ogre",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e3d725a8-daff-4458-aab0-06803ae33be3.png?1675456027",
+        :collector-number "36",
+        :layout "token",
+        :name "Ogre",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Pirate",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/2/42248cea-29e8-4ebe-ad64-e87e216b55d6.png?1675456036",
+        :collector-number "37",
+        :layout "token",
+        :name "Pirate",
+        :oracle-text
+        "This creature can't block.\nCreatures you control attack each combat if able."}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/01e095bd-091c-442f-aa21-0826c40acb6c.png?1675456043",
+        :collector-number "38",
+        :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Centaur",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/c/dcd41697-6fe6-423c-a04a-035a3d4f8fd2.png?1675456051",
+        :collector-number "39",
+        :layout "token",
+        :name "Centaur",
+        :oracle-text "Protection from black"}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3ca5cf3c-18f8-430a-a20f-2226d9cac387.png?1675456060",
+        :collector-number "40",
+        :layout "token",
+        :name "Insect",
+        :oracle-text "Flying, deathtouch"}
+ #:card{:type-line "Token Creature — Phyrexian Beast",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/65f64d14-c203-4401-a379-c6227d1cbac2.png?1675456067",
+        :collector-number "41",
+        :layout "token",
+        :name "Phyrexian Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spider",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1dab34a7-0d18-4a6c-ac40-3b9901ff841b.png?1675456075",
+        :collector-number "42",
+        :layout "token",
+        :name "Spider",
+        :oracle-text "Reach"}
+ #:card{:type-line "Token Creature — Wolf",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/1/81605b8d-cf1d-49dc-aebb-a857d6796a77.png?1675456083",
+        :collector-number "43",
+        :layout "token",
+        :name "Wolf",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Wurm",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/54afe5d9-a6b6-46a2-89e9-470ad9e44a06.png?1675456091",
+        :collector-number "44",
+        :layout "token",
+        :name "Wurm",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Inkling",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b57d024-2ff6-467f-bb4e-37270be60104.png?1675456099",
+        :collector-number "45",
+        :layout "token",
+        :name "Inkling",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Satyr",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/831fbc86-e328-4c26-a8b2-35feb24f6430.png?1675456108",
+        :collector-number "46",
+        :layout "token",
+        :name "Satyr",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/2/d25234a6-cb8d-479a-90f5-9d1a1084277b.png?1675456115",
+        :collector-number "47",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Gold",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/19b15a8a-58bd-4b7e-9b7f-e143c90f35d7.png?1675456124",
+        :collector-number "48",
+        :layout "token",
+        :name "Gold",
+        :oracle-text
+        "Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Emblem — Rowan",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b2f81ee-f258-40c4-abc6-0c80421b0837.png?1675456131",
+        :collector-number "49",
+        :layout "emblem",
+        :name "Rowan Kenrith Emblem",
+        :oracle-text
+        "Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy."}
+ #:card{:type-line "Emblem — Will",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3de08752-9fc4-4e6b-b30b-2d9d33a1e37b.png?1675456139",
+        :collector-number "50",
+        :layout "emblem",
+        :name "Will Kenrith Emblem",
+        :oracle-text
+        "Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy."})
