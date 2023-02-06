@@ -195,4 +195,12 @@
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
   (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"})
-  (write-decks! EDITION-CARDS EDDEX "2021_arena_starter_kit" :newest "AFR" :oldest "ZNR"))
+  (write-decks! EDITION-CARDS EDDEX "2021_arena_starter_kit" :newest "AFR" :oldest "ZNR")
+  (write-decks! EDITION-CARDS EDDEX "MID" :oldest "MIC" :include #{"MIC"})
+  (write-decks! EDITION-CARDS EDDEX "Q06" :oldest "GTC")
+  (write-decks! EDITION-CARDS EDDEX "VOW" :oldest "MID" :include #{"VOC"})
+  (write-decks! EDITION-CARDS EDDEX "NEO" :oldest "NEC" :include #{"NEC"})
+  (write-decks! EDITION-CARDS EDDEX "Q07" :oldest "ZNR")
+  (write-decks! EDITION-CARDS EDDEX "SNC" :oldest "NCC" :include #{"NCC"})
+  (write-decks! EDITION-CARDS EDDEX "2022_starter_kit" :newest "SNC" :oldest "MID")
+  (write-decks! EDITION-CARDS EDDEX "CLB"))
