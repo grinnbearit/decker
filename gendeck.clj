@@ -195,6 +195,9 @@
   (write-decks! EDITION-CARDS EDDEX "RIX" :oldest "XLN")
   (write-decks! EDITION-CARDS EDDEX "DDU")
   (write-decks! EDITION-CARDS EDDEX "challenger" :newest "RIX" :oldest "KLD")
+  (write-decks! EDITION-CARDS EDDEX "DOM")
+  (write-decks! EDITION-CARDS EDDEX "CM2")
+  (write-decks! EDITION-CARDS EDDEX "GS1")
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
   (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"})
