@@ -198,6 +198,11 @@
   (write-decks! EDITION-CARDS EDDEX "DOM")
   (write-decks! EDITION-CARDS EDDEX "CM2")
   (write-decks! EDITION-CARDS EDDEX "GS1")
+  (write-decks! EDITION-CARDS EDDEX "M19")
+  (write-decks! EDITION-CARDS EDDEX "C18")
+  (write-decks! EDITION-CARDS EDDEX "GRN")
+  (write-decks! EDITION-CARDS EDDEX "GK1" :oldest "GRN" :include #{"GK1"})
+
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
   (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"})
