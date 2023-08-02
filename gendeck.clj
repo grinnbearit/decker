@@ -3,6 +3,7 @@
             [decker.codex :as dx]
             [decker.core :as dc]
             [decker.tts :as dt]
+            [decker.layout :as dl]
             [clojure.set :as set]))
 
 
@@ -49,6 +50,21 @@
       (->> (dc/card-list->deck eddex cardex card-list)
            (dt/deck->tts-deck)
            (dt/write-tts-deck!)))))
+
+
+(defn write-layouts!
+  "writes all decks in the layout format in the passed edition, assumes no issues"
+  [edition-cards eddex edition & {:keys [newest oldest ignore include]}]
+  (let [cardex (dx/gen-cardex edition-cards
+                              :newest (or newest edition)
+                              :oldest (or oldest edition)
+                              :ignore (-> (de/peripheral-editions EDDEX)
+                                          (set/union ignore)
+                                          (set/difference include)
+                                          (disj edition)))]
+    (doseq [card-list (dc/!read-card-lists edition)]
+      (->> (dc/card-list->deck eddex cardex card-list)
+           (dl/write-layout!)))))
 
 
 (comment

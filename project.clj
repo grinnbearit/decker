@@ -6,6 +6,7 @@
                  [enlive "1.1.6"]
                  [clj-http "3.12.3"]
                  [cheshire "5.10.2"]
-                 [sanitize-filename "0.1.0"]]
+                 [sanitize-filename "0.1.0"]
+                 [org.clojure/data.csv "1.0.1"]]
   :repl-options {:init-ns decker.core}
   :profiles {:dev {:dependencies [[midje "1.10.5"]]}})
