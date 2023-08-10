@@ -222,6 +222,9 @@
   (write-decks! EDITION-CARDS EDDEX "SK1" :newest "GNT" :oldest "XLN" :include #{"GK1" "GNT"})
   (write-decks! EDITION-CARDS EDDEX "RNA")
   (write-decks! EDITION-CARDS EDDEX "GK2" :newest "GK2" :oldest "RNA" :include #{"GK2"})
+  (write-decks! EDITION-CARDS EDDEX "Q02" :newest "GK2" :oldest "XLN")
+  (write-decks! EDITION-CARDS EDDEX "WAR")
+  (write-decks! EDITION-CARDS EDDEX "M20" :oldest "GRN")
 
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
