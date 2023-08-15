@@ -239,4 +239,7 @@
   (write-decks! EDITION-CARDS EDDEX "2022_starter_kit" :newest "SNC" :oldest "MID")
   (write-decks! EDITION-CARDS EDDEX "CLB")
   (write-decks! EDITION-CARDS EDDEX "DMU" :oldest "DMC" :include #{"DMC"})
-  (write-decks! EDITION-CARDS EDDEX "40K"))
+  (write-decks! EDITION-CARDS EDDEX "40K")
+  (write-decks! EDITION-CARDS EDDEX "GN3")
+  (write-decks! EDITION-CARDS EDDEX "Q08" :newest "GN3" :oldest "RTR")
+  (write-decks! EDITION-CARDS EDDEX "BRO" :oldest "BRC" :include #{"BRC"}))
