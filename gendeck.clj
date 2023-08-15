@@ -244,4 +244,5 @@
   (write-decks! EDITION-CARDS EDDEX "Q08" :newest "GN3" :oldest "RTR")
   (write-decks! EDITION-CARDS EDDEX "BRO" :oldest "BRC" :include #{"BRC"})
   (write-decks! EDITION-CARDS EDDEX "J22")
-  (write-decks! EDITION-CARDS EDDEX "SCD"))
+  (write-decks! EDITION-CARDS EDDEX "SCD")
+  (write-decks! EDITION-CARDS EDDEX "ONE" :oldest "ONC" :include #{"ONC"}))
