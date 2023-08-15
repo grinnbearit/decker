@@ -227,10 +227,13 @@
   (write-decks! EDITION-CARDS EDDEX "M20" :oldest "GRN")
   (write-decks! EDITION-CARDS EDDEX "C19")
   (write-decks! EDITION-CARDS EDDEX "ELD" :oldest "GRN")
-  (write-decks! EDITION-CARDS EDDEX "Q03" :newest "ELD" :oldest "GNR")
+  (write-decks! EDITION-CARDS EDDEX "Q03" :newest "ELD" :oldest "GRN")
   (write-decks! EDITION-CARDS EDDEX "GN2" :oldest "M20")
   (write-decks! EDITION-CARDS EDDEX "THB")
   (write-decks! EDITION-CARDS EDDEX "UND")
+  (write-decks! EDITION-CARDS EDDEX "Q04" :newest "THB" :oldest "GRN")
+  (write-decks! EDITION-CARDS EDDEX "C20" :newest "IKO" :oldest "C20" :include #{"C20"})
+  (write-decks! EDITION-CARDS EDDEX "M21" :oldest "ELD")
 
   ;; time skip
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
