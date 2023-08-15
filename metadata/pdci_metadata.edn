@@ -1,0 +1,859 @@
+(#:card{:type-line "Creature — Elf Scout",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/de62160b-3a29-48ed-9dfc-fd1464147f35.png?1677543129",
+        :collector-number "1",
+        :layout "normal",
+        :name "Wood Elves",
+        :oracle-text
+        "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/61b4e09b-f2c7-4469-8bde-8d9ce1887b63.png?1677543135",
+        :collector-number "2",
+        :layout "normal",
+        :name "Icatian Javelineers",
+        :oracle-text
+        "Icatian Javelineers enters the battlefield with a javelin counter on it.\n{T}, Remove a javelin counter from Icatian Javelineers: It deals 1 damage to any target."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d377a7b9-5c25-4017-84a8-ae368eceba50.png?1677543138",
+        :collector-number "3",
+        :layout "normal",
+        :name "Fiery Temper",
+        :oracle-text
+        "Fiery Temper deals 3 damage to any target.\nMadness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/0/40eb66bd-4276-4475-b725-a45c535d03bf.png?1677543164",
+        :collector-number "4",
+        :layout "normal",
+        :name "Boomerang",
+        :oracle-text "Return target permanent to its owner's hand."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/8/387adc65-5d18-4291-85b1-f49f556781c7.png?1677543168",
+        :collector-number "5",
+        :layout "normal",
+        :name "Calciderm",
+        :oracle-text
+        "Shroud (This creature can't be the target of spells or abilities.)\nVanishing 4 (This creature enters the battlefield with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)"}
+ #:card{:type-line "Creature — Wurm",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ce03bef4-c438-498e-a02f-86f199ae73e9.png?1677543172",
+        :collector-number "6",
+        :layout "normal",
+        :name "Reckless Wurm",
+        :oracle-text
+        "Trample\nMadness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+ #:card{:type-line "Creature — Zombie Wizard",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b17c6589-69ec-46a1-be2d-0fb7c07a7f68.png?1677543176",
+        :collector-number "7",
+        :layout "normal",
+        :name "Yixlid Jailer",
+        :oracle-text "Cards in graveyards lose all abilities."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/0/70d94a4d-e14a-46ee-978f-7d6164ea990f.png?1677543180",
+        :collector-number "8",
+        :layout "normal",
+        :name "Zoetic Cavern",
+        :oracle-text
+        "{T}: Add {C}.\nMorph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"}
+ #:card{:type-line "Creature — Elf Druid",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/3412a5a9-f3dd-4f23-b588-d3b7fd3a382e.png?1677543184",
+        :collector-number "9",
+        :layout "normal",
+        :name "Llanowar Elves",
+        :oracle-text "{T}: Add {G}."}
+ #:card{:type-line "Creature — Goblin",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e4d0f23d-1ae5-4ba6-8c05-e98ca250f365.png?1677543189",
+        :collector-number "10",
+        :layout "normal",
+        :name "Mogg Fanatic",
+        :oracle-text
+        "Sacrifice Mogg Fanatic: It deals 1 damage to any target."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/679d884f-4511-4267-89b9-9d350255ef32.png?1677543194",
+        :collector-number "11",
+        :layout "normal",
+        :name "Mind Stone",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice Mind Stone: Draw a card."}
+ #:card{:type-line "Creature — Treefolk Warrior",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/a/bad809d0-82a5-4bb0-bef2-465205879a8d.png?1677543199",
+        :collector-number "12",
+        :layout "normal",
+        :name "Dauntless Dourbark",
+        :oracle-text
+        "Dauntless Dourbark's power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.\nDauntless Dourbark has trample as long as you control another Treefolk."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6a4ed5b-56fc-4d5c-a378-68406667310d.png?1677543220",
+        :collector-number "13",
+        :layout "normal",
+        :name "Lava Axe",
+        :oracle-text
+        "Lava Axe deals 5 damage to target player or planeswalker."}
+ #:card{:type-line "Creature — Kithkin Soldier",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4ab6fde4-a8e0-4bbf-b382-ec0602333e76.png?1677543224",
+        :collector-number "14",
+        :layout "normal",
+        :name "Cenn's Tactician",
+        :oracle-text
+        "{W}, {T}: Put a +1/+1 counter on target Soldier creature.\nEach creature you control with a +1/+1 counter on it can block an additional creature each combat."}
+ #:card{:type-line "Creature — Faerie Rogue",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/a/6a99dcbf-67c5-40ca-be8d-e5d6eae8a7cd.png?1677543229",
+        :collector-number "15",
+        :layout "normal",
+        :name "Oona's Blackguard",
+        :oracle-text
+        "Flying\nEach other Rogue creature you control enters the battlefield with an additional +1/+1 counter on it.\nWhenever a creature you control with a +1/+1 counter on it deals combat damage to a player, that player discards a card."}
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c0a22595-6d0a-4f17-9965-1f8eb39122b2.png?1677543233",
+        :collector-number "16",
+        :layout "normal",
+        :name "Gravedigger",
+        :oracle-text
+        "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand."}
+ #:card{:type-line "Creature — Goblin Warrior",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/7/a7aef473-2c55-494a-ba9a-4a14fad02ba8.png?1677543238",
+        :collector-number "17",
+        :layout "normal",
+        :name "Boggart Ram-Gang",
+        :oracle-text
+        "Haste\nWither (This deals damage to creatures in the form of -1/-1 counters.)"}
+ #:card{:type-line "Creature — Elf Knight",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3ebcadf9-65ec-4835-9472-921c3dde96d2.png?1677543243",
+        :collector-number "18",
+        :layout "normal",
+        :name "Wilt-Leaf Cavaliers",
+        :oracle-text "Vigilance"}
+ #:card{:type-line "Creature — Dwarf Shaman",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6cc79d2-97b4-4e18-9124-650c520a4bd1.png?1677543247",
+        :collector-number "19",
+        :layout "normal",
+        :name "Duergar Hedge-Mage",
+        :oracle-text
+        "When Duergar Hedge-Mage enters the battlefield, if you control two or more Mountains, you may destroy target artifact.\nWhen Duergar Hedge-Mage enters the battlefield, if you control two or more Plains, you may destroy target enchantment."}
+ #:card{:type-line "Creature — Merfolk Wizard",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c879bd30-2209-4409-9e4d-3d65565ceddf.png?1677543251",
+        :collector-number "20",
+        :layout "normal",
+        :name "Selkie Hedge-Mage",
+        :oracle-text
+        "When Selkie Hedge-Mage enters the battlefield, if you control two or more Forests, you may gain 3 life.\nWhen Selkie Hedge-Mage enters the battlefield, if you control two or more Islands, you may return target tapped creature to its owner's hand."}
+ #:card{:type-line "Creature — Lizard",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/310038c2-685e-4f1b-b91f-7a5ad2b0646f.png?1677543265",
+        :collector-number "21",
+        :layout "normal",
+        :name "Sprouting Thrinax",
+        :oracle-text
+        "When Sprouting Thrinax dies, create three 1/1 green Saproling creature tokens."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fb3a2bb2-3ba7-4486-84c9-3aab85c368e1.png?1677543270",
+        :collector-number "22",
+        :layout "normal",
+        :name "Woolly Thoctar",
+        :oracle-text ""}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/30233158-01b4-4f14-b7d2-d0377273f6c3.png?1677543084",
+        :collector-number "24",
+        :layout "normal",
+        :name "Path to Exile",
+        :oracle-text
+        "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a485fc8d-a7a0-444f-b4b3-aa0c9964ec53.png?1677543089",
+        :collector-number "25",
+        :layout "normal",
+        :name "Hellspark Elemental",
+        :oracle-text
+        "Trample, haste\nAt the beginning of the end step, sacrifice Hellspark Elemental.\nUnearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+ #:card{:type-line "Creature — Cat Warrior",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/eba9449b-d1f2-4322-a5d4-b8935f270fff.png?1677543093",
+        :collector-number "26",
+        :layout "normal",
+        :name "Marisi's Twinclaws",
+        :oracle-text "Double strike"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/c/cc4c8807-77e1-4519-9281-5a312af88ad8.png?1677543098",
+        :collector-number "27",
+        :layout "normal",
+        :name "Slave of Bolas",
+        :oracle-text
+        "Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step."}
+ #:card{:type-line "Creature — Fungus",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/b/4bb53920-2511-4467-b287-79b562d3c24c.png?1677543426",
+        :collector-number "28",
+        :layout "normal",
+        :name "Mycoid Shepherd",
+        :oracle-text
+        "Whenever Mycoid Shepherd or another creature you control with power 5 or greater dies, you may gain 5 life."}
+ #:card{:type-line "Creature — Elf Shaman",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a7dcba8-416e-4908-8969-bf5511a117e8.png?1677543430",
+        :collector-number "29",
+        :layout "normal",
+        :name "Naya Sojourners",
+        :oracle-text
+        "When you cycle Naya Sojourners or it dies, you may put a +1/+1 counter on target creature.\nCycling {2}{G} ({2}{G}, Discard this card: Draw a card.)"}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/c/2c1468fc-52ba-4d21-bb39-d2d42f6cd50c.png?1677543103",
+        :collector-number "30",
+        :layout "normal",
+        :name "Mind Control",
+        :oracle-text
+        "Enchant creature\nYou control enchanted creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/2482d1ef-29f4-42ad-b384-07072cd3f71e.png?1677543109",
+        :collector-number "31",
+        :layout "normal",
+        :name "Rise from the Grave",
+        :oracle-text
+        "Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types."}
+ #:card{:type-line "Creature — Kor Soldier",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e826b53c-5a6d-452f-bb57-2c4fd798f06d.png?1677543113",
+        :collector-number "32",
+        :layout "normal",
+        :name "Kor Duelist",
+        :oracle-text
+        "As long as Kor Duelist is equipped, it has double strike. (It deals both first-strike and regular combat damage.)"}
+ #:card{:type-line "Creature — Vampire Shaman",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/600c7386-dad1-43d0-9862-5e6750a5bb92.png?1677543118",
+        :collector-number "33",
+        :layout "normal",
+        :name "Vampire Nighthawk",
+        :oracle-text "Flying, deathtouch, lifelink"}
+ #:card{:type-line "Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e45e4c8f-bb6c-471d-b14f-cc90869f341a.png?1677543444",
+        :collector-number "34",
+        :layout "normal",
+        :name "Nissa's Chosen",
+        :oracle-text
+        "If Nissa's Chosen would die, put it on the bottom of its owner's library instead."}
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/01967a0c-bd2c-4dba-9c62-e6f955c017e3.png?1677543448",
+        :collector-number "35",
+        :layout "normal",
+        :name "Emeria Angel",
+        :oracle-text
+        "Flying\nLandfall — Whenever a land enters the battlefield under your control, you may create a 1/1 white Bird creature token with flying."}
+ #:card{:type-line "Creature — Kor Soldier",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8d1e1127-a8f3-4a07-bba5-a44166cb7abc.png?1677543810",
+        :collector-number "36",
+        :layout "normal",
+        :name "Kor Firewalker",
+        :oracle-text
+        "Protection from red\nWhenever a player casts a red spell, you may gain 1 life."}
+ #:card{:type-line "Creature — Beast",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/2/e2c621ad-7109-4e07-b0cf-49fc243bc175.png?1677543814",
+        :collector-number "37",
+        :layout "normal",
+        :name "Leatherback Baloth",
+        :oracle-text ""}
+ #:card{:type-line "Creature — Human Soldier Ally",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/099718e6-9896-4d5e-8edb-3bc9a15c81ec.png?1677543503",
+        :collector-number "38",
+        :layout "normal",
+        :name "Hada Freeblade",
+        :oracle-text
+        "Whenever Hada Freeblade or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Hada Freeblade."}
+ #:card{:type-line "Creature — Vampire Shaman",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/28f11e26-6904-4add-99ed-db306598bd3b.png?1677543463",
+        :collector-number "39",
+        :layout "normal",
+        :name "Kalastria Highborn",
+        :oracle-text
+        "Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e0a72c31-6df0-4b88-b04c-324b03872aff.png?1677543818",
+        :collector-number "40",
+        :layout "normal",
+        :name "Syphon Mind",
+        :oracle-text
+        "Each other player discards a card. You draw a card for each card discarded this way."}
+ #:card{:type-line "Plane — Zendikar",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/6/76e5383d-ac12-4abc-aa30-15e99ded2d6f.png?1677544167",
+        :collector-number "41",
+        :layout "planar",
+        :name "Tazeem",
+        :oracle-text
+        "Creatures can't block.\nWhenever chaos ensues, draw a card for each land you control."}
+ #:card{:type-line "Plane — Luvion",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/f/fffcbc4e-c6dc-4808-b262-f7c453e74dd8.png?1677544171",
+        :collector-number "42",
+        :layout "planar",
+        :name "Celestine Reef",
+        :oracle-text
+        "Creatures without flying or islandwalk can't attack.\nWhenever chaos ensues, until a player planeswalks, you can't lose the game and your opponents can't win the game."}
+ #:card{:type-line "Plane — Pyrulea",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a2e697bc-68e0-49c1-be40-1d52831deb8c.png?1677544183",
+        :collector-number "43",
+        :layout "planar",
+        :name "Horizon Boughs",
+        :oracle-text
+        "All permanents untap during each player's untap step.\nWhenever chaos ensues, you may search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Plane — Karsus",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/50a879a4-622f-4589-a10a-ad2db8219486.png?1677544179",
+        :collector-number "44",
+        :layout "planar",
+        :name "Mirrored Depths",
+        :oracle-text
+        "Whenever a player casts a spell, that player flips a coin. If the player loses the flip, counter that spell.\nWhenever chaos ensues, target player reveals the top card of their library. If it's a nonland card, you may cast it without paying its mana cost."}
+ #:card{:type-line "Plane — Kinshala",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/5/b50fd15a-544f-4561-9313-139239ec75a0.png?1677544175",
+        :collector-number "45",
+        :layout "planar",
+        :name "Tember City",
+        :oracle-text
+        "Whenever a player taps a land for mana, Tember City deals 1 damage to that player.\nWhenever chaos ensues, each other player sacrifices a nonland permanent."}
+ #:card{:type-line "Creature — Eldrazi",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/ef1e41e0-d78c-40b2-97f6-767318329711.png?1677543822",
+        :collector-number "46",
+        :layout "normal",
+        :name "Pathrazer of Ulamog",
+        :oracle-text
+        "Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents.)\nPathrazer of Ulamog can't be blocked except by three or more creatures."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d0f1c170-03d1-42a7-91e4-0ac537af1328.png?1677543826",
+        :collector-number "47",
+        :layout "normal",
+        :name "Curse of Wizardry",
+        :oracle-text
+        "As Curse of Wizardry enters the battlefield, choose a color.\nWhenever a player casts a spell of the chosen color, that player loses 1 life."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/c/7c7eeca0-a4cf-455f-888c-57571cf3555d.png?1677543522",
+        :collector-number "48",
+        :layout "normal",
+        :name "Staggershock",
+        :oracle-text
+        "Staggershock deals 2 damage to any target.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)"}
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8b5e6882-4c37-4c47-92c4-4083c66e9019.png?1677543527",
+        :collector-number "49",
+        :layout "normal",
+        :name "Deathless Angel",
+        :oracle-text
+        "Flying\n{W}{W}: Target creature gains indestructible until end of turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/303195f3-07ac-4eed-ab27-bf7c4b5378a3.png?1677543830",
+        :collector-number "50",
+        :layout "normal",
+        :name "Fling",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to any target."}
+ #:card{:type-line "Creature — Elf Scout Ranger",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e63c5f75-e975-4355-bdac-4124a132ae13.png?1677543834",
+        :collector-number "51",
+        :layout "normal",
+        :name "Sylvan Ranger",
+        :oracle-text
+        "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Creature — Specter",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0e348e20-f0bd-482f-b7de-475fa05753a4.png?1677544374",
+        :collector-number "52",
+        :layout "normal",
+        :name "Liliana's Specter",
+        :oracle-text
+        "Flying\nWhen Liliana's Specter enters the battlefield, each opponent discards a card."}
+ #:card{:type-line "Creature — Ooze",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/f/3f8060a3-ba74-404c-9050-0e9f7128209f.png?1677544345",
+        :collector-number "53",
+        :layout "normal",
+        :name "Mitotic Slime",
+        :oracle-text
+        "When Mitotic Slime dies, create two 2/2 green Ooze creature tokens. They have \"When this creature dies, create two 1/1 green Ooze creature tokens.\""}
+ #:card{:type-line "Scheme",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/3/438cab33-ffb1-4fba-8c2a-2c91fd39b9a2.png?1677544412",
+        :collector-number "54",
+        :layout "scheme",
+        :name "Plots That Span Centuries",
+        :oracle-text
+        "When you set this scheme in motion, the next time you would set a scheme in motion, set three schemes in motion instead."}
+ #:card{:type-line "Scheme",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/f/9fdda372-05b0-47ca-ac74-713037bcac17.png?1677544416",
+        :collector-number "55",
+        :layout "scheme",
+        :name "Perhaps You've Met My Cohort",
+        :oracle-text
+        "When you set this scheme in motion, search your library for a planeswalker card, put it onto the battlefield, then shuffle your library."}
+ #:card{:type-line "Ongoing Scheme",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9badcc58-0281-499c-9e1f-5d894761ca61.png?1677544420",
+        :collector-number "56",
+        :layout "scheme",
+        :name "Your Inescapable Doom",
+        :oracle-text
+        "(An ongoing scheme remains face up.)\nAt the beginning of your end step, put a doom counter on this scheme, then this scheme deals damage equal to the number of doom counters on it to the opponent with the highest life total among your opponents. If two or more players are tied for highest life total, you choose one."}
+ #:card{:type-line "Scheme",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/4/14e5d253-e075-4df4-98af-4ae43c000634.png?1677544425",
+        :collector-number "57",
+        :layout "scheme",
+        :name "Drench the Soil in Their Blood",
+        :oracle-text
+        "When you set this scheme in motion, after this main phase, there is an additional combat phase followed by an additional main phase. Creatures you control gain vigilance until end of turn."}
+ #:card{:type-line "Ongoing Scheme",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fee17785-2a29-4998-a34e-b738de955d53.png?1677544429",
+        :collector-number "58",
+        :layout "scheme",
+        :name "Imprison This Insolent Wretch",
+        :oracle-text
+        "(An ongoing scheme remains face up until it's abandoned.)\nWhen you set this scheme in motion, choose an opponent.\nPermanents the chosen player controls don't untap during their untap step.\nWhen the chosen player is attacked or becomes the target of a spell or ability, abandon this scheme."}
+ #:card{:type-line "Creature — Phyrexian Insect Horror",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/6/568d7e97-ae65-47e8-b53d-1bc367738c78.png?1677543838",
+        :collector-number "59",
+        :layout "normal",
+        :name "Plague Stinger",
+        :oracle-text
+        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/6/1630b54b-b580-4d64-8926-72df69065a9b.png?1677543842",
+        :collector-number "60",
+        :layout "normal",
+        :name "Golem's Heart",
+        :oracle-text
+        "Whenever a player casts an artifact spell, you may gain 1 life."}
+ #:card{:type-line "Artifact Creature — Construct",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/4669327f-268f-43c2-ad57-555a02baa6a1.png?1677543658",
+        :collector-number "61",
+        :layout "normal",
+        :name "Memnite",
+        :oracle-text ""}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/d/bd03c292-821f-41fd-b582-db71b40b9804.png?1677543646",
+        :collector-number "62",
+        :layout "normal",
+        :name "Tempered Steel",
+        :oracle-text "Artifact creatures you control get +2/+2."}
+ #:card{:type-line "Creature — Phyrexian Zombie",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/6/56cb6d16-506e-4902-b0d8-883651a624f5.png?1677543846",
+        :collector-number "63",
+        :layout "normal",
+        :name "Skinrender",
+        :oracle-text
+        "When Skinrender enters the battlefield, put three -1/-1 counters on target creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8a4c6e74-bb8d-406d-9fb0-ac879108db81.png?1677543891",
+        :collector-number "64",
+        :layout "normal",
+        :name "Master's Call",
+        :oracle-text
+        "Create two 1/1 colorless Myr artifact creature tokens."}
+ #:card{:type-line "Artifact Creature — Phyrexian Myr",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e068a398-74f3-4e41-b077-aa1963a5986b.png?1677543895",
+        :collector-number "65",
+        :layout "normal",
+        :name "Plague Myr",
+        :oracle-text
+        "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{T}: Add {C}."}
+ #:card{:type-line "Artifact Creature — Pest",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/5312358c-128f-4bcb-b121-1f7441ae7bc7.png?1677543900",
+        :collector-number "66",
+        :layout "normal",
+        :name "Signal Pest",
+        :oracle-text
+        "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nSignal Pest can't be blocked except by creatures with flying or reach."}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c97874a8-e048-4433-8831-54dc67980902.png?1677543682",
+        :collector-number "67",
+        :layout "normal",
+        :name "Treasure Mage",
+        :oracle-text
+        "When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dd88131a-2811-4a1f-bb9a-c82e12c1493b.png?1677543674",
+        :collector-number "68",
+        :layout "normal",
+        :name "Black Sun's Zenith",
+        :oracle-text
+        "Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner's library."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/a/ca9d200b-1384-4eb9-8efb-94dc5fa106ed.png?1677543904",
+        :collector-number "69",
+        :layout "normal",
+        :name "Fling",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to any target."}
+ #:card{:type-line "Creature — Elf Scout Ranger",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0ddeb538-f706-44a8-8f36-0c73a8870f35.png?1677543908",
+        :collector-number "70",
+        :layout "normal",
+        :name "Sylvan Ranger",
+        :oracle-text
+        "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Artifact Creature — Phyrexian Imp",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/19dbd2db-ab33-4171-ae51-aa66c79b97b2.png?1677543912",
+        :collector-number "71",
+        :layout "normal",
+        :name "Vault Skirge",
+        :oracle-text
+        "({B/P} can be paid with either {B} or 2 life.)\nFlying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)"}
+ #:card{:type-line "Creature — Phyrexian Human Artificer",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/9/69f66142-fda7-461b-a876-d055c9d4febf.png?1677543917",
+        :collector-number "72",
+        :layout "normal",
+        :name "Maul Splicer",
+        :oracle-text
+        "When Maul Splicer enters the battlefield, create two 3/3 colorless Phyrexian Golem artifact creature tokens.\nGolem creatures you control have trample."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/9/d9185aa3-e0af-477f-951d-be4f9d3b0c9c.png?1677543921",
+        :collector-number "73",
+        :layout "normal",
+        :name "Shrine of Burning Rage",
+        :oracle-text
+        "At the beginning of your upkeep or whenever you cast a red spell, put a charge counter on Shrine of Burning Rage.\n{3}, {T}, Sacrifice Shrine of Burning Rage: It deals damage equal to the number of charge counters on it to any target."}
+ #:card{:type-line "Creature — Phyrexian Human Cleric",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e05862a2-dd14-4607-a0db-ae0533551cb9.png?1677543706",
+        :collector-number "74",
+        :layout "normal",
+        :name "Priest of Urabrask",
+        :oracle-text
+        "When Priest of Urabrask enters the battlefield, add {R}{R}{R}."}
+ #:card{:type-line "Artifact Creature — Myr",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/a/ea58b15c-8648-42f9-a7ec-25b17697bb8c.png?1677543716",
+        :collector-number "75",
+        :layout "normal",
+        :name "Myr Superion",
+        :oracle-text
+        "Spend only mana produced by creatures to cast this spell."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ceb5d4c4-d6b5-4d28-8ed7-e367c6201f24.png?1677543926",
+        :collector-number "76",
+        :layout "normal",
+        :name "Tormented Soul",
+        :oracle-text
+        "Tormented Soul can't block and can't be blocked."}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/5/c568b80e-8c1b-416f-b47d-100086549fd8.png?1677543930",
+        :collector-number "77",
+        :layout "normal",
+        :name "Auramancer",
+        :oracle-text
+        "When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a2de620b-1358-483e-8b59-53206b1d3936.png?1677543934",
+        :collector-number "78",
+        :layout "normal",
+        :name "Circle of Flame",
+        :oracle-text
+        "Whenever a creature without flying attacks you or a planeswalker you control, Circle of Flame deals 1 damage to that creature."}
+ #:card{:type-line "Creature — Human Berserker",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8af30f24-0b2a-4d18-a8d2-2edc2687bdf6.png?1677543737",
+        :collector-number "79",
+        :layout "normal",
+        :name "Stormblood Berserker",
+        :oracle-text
+        "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)\nMenace (This creature can't be blocked except by two or more creatures.)"}
+ #:card{:type-line "Creature — Treefolk",
+        :layout-category :normal,
+        :code "pdci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/678c11d1-567e-4153-b828-a4f18fc7bd58.png?1677543744",
+        :collector-number "80",
+        :layout "normal",
+        :name "Dungrove Elder",
+        :oracle-text
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nDungrove Elder's power and toughness are each equal to the number of Forests you control."})

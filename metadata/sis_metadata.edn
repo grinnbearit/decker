@@ -1,0 +1,863 @@
+(#:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a1756e7-9f59-4aae-b268-dc4d9ca85714.png?1679614599",
+        :collector-number "1",
+        :layout "normal",
+        :name "Angel of Flight Alabaster",
+        :oracle-text
+        "Flying\nAt the beginning of your upkeep, return target Spirit card from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d705f8aa-d653-44ee-8516-031f0359c9eb.png?1679614609",
+        :collector-number "2",
+        :layout "normal",
+        :name "Avacyn, Angel of Hope",
+        :oracle-text
+        "Flying, vigilance, indestructible\nOther permanents you control have indestructible."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/71465b9b-c0c6-4cc2-b596-e25e541ae03b.png?1679614618",
+        :collector-number "3",
+        :layout "normal",
+        :name "Bonds of Faith",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b1bb947a-ead8-4bed-a91b-bdae5fd750c5.png?1679614627",
+        :collector-number "4",
+        :layout "normal",
+        :name "Divine Reckoning",
+        :oracle-text
+        "Each player chooses a creature they control. Destroy the rest.\nFlashback {5}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/2/32f2065f-1aff-4d6c-af4b-2c2cfb2e0595.png?1679614637",
+        :collector-number "5",
+        :layout "normal",
+        :name "Doomed Traveler",
+        :oracle-text
+        "When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c9f40d0b-9432-4e91-ac93-8264ce9e2e7c.png?1679614646",
+        :collector-number "6",
+        :layout "normal",
+        :name "Elder Cathar",
+        :oracle-text
+        "When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/0/005f90cb-3fed-443a-8ba6-f42e060787d2.png?1679614655",
+        :collector-number "7",
+        :layout "normal",
+        :name "Feeling of Dread",
+        :oracle-text
+        "Tap up to two target creatures.\nFlashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f4fd5931-82e2-4ec6-a2f8-97e9fa1d0333.png?1679614663",
+        :collector-number "8",
+        :layout "normal",
+        :name "Fiend Hunter",
+        :oracle-text
+        "When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f11908e8-8c85-4eb7-b29d-b97712be42ee.png?1679614672",
+        :collector-number "9",
+        :layout "normal",
+        :name "Lingering Souls",
+        :oracle-text
+        "Create two 1/1 white Spirit creature tokens with flying.\nFlashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cdb4f1a2-391b-48f5-ac27-da5cf1865d3b.png?1679614680",
+        :collector-number "10",
+        :layout "normal",
+        :name "Rally the Peasants",
+        :oracle-text
+        "Creatures you control get +2/+0 until end of turn.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Angel",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/ddcb90f4-82c0-412c-9e90-9fffc8c5df10.png?1679614689",
+        :collector-number "11",
+        :layout "normal",
+        :name "Requiem Angel",
+        :oracle-text
+        "Flying\nWhenever another non-Spirit creature you control dies, create a 1/1 white Spirit creature token with flying."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a1b1ddd5-bcd6-437e-a713-c3e3873bd5a4.png?1679614697",
+        :collector-number "12",
+        :layout "normal",
+        :name "Séance",
+        :oracle-text
+        "At the beginning of each upkeep, you may exile target creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a Spirit in addition to its other types. Exile it at the beginning of the next end step."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a1b630df-b04d-4973-b743-d1bdd9f1040a.png?1679614706",
+        :collector-number "13",
+        :layout "normal",
+        :name "Battleground Geist",
+        :oracle-text
+        "Flying\nOther Spirit creatures you control get +1/+0."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/2/42daf30b-bb58-4572-b94d-162d854b52c3.png?1679614716",
+        :collector-number "14",
+        :layout "normal",
+        :name "Cackling Counterpart",
+        :oracle-text
+        "Create a token that's a copy of target creature you control.\nFlashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/4/94753dae-b483-4bcb-bf00-6cb154e6d844.png?1679614724",
+        :collector-number "15",
+        :layout "normal",
+        :name "Forbidden Alchemy",
+        :oracle-text
+        "Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.\nFlashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f917afb6-992d-4eb1-bf7e-8fe4af56c9bd.png?1679614732",
+        :collector-number "16",
+        :layout "normal",
+        :name "Havengul Runebinder",
+        :oracle-text
+        "{2}{U}, {T}, Exile a creature card from your graveyard: Create a 2/2 black Zombie creature token, then put a +1/+1 counter on each Zombie creature you control."}
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f0b2a762-486a-474b-8abc-6a10fced63f5.png?1679614741",
+        :collector-number "17",
+        :layout "normal",
+        :name "Invisible Stalker",
+        :oracle-text
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nInvisible Stalker can't be blocked."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/a/ba4a12df-fb8c-4609-9607-fe0f071bb579.png?1679614749",
+        :collector-number "18",
+        :layout "normal",
+        :name "Mist Raven",
+        :oracle-text
+        "Flying\nWhen Mist Raven enters the battlefield, return target creature to its owner's hand."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/6/0689e9a6-b435-4a38-b913-3a2b1aeedafd.png?1679614758",
+        :collector-number "19",
+        :layout "normal",
+        :name "Murder of Crows",
+        :oracle-text
+        "Flying\nWhenever another creature dies, you may draw a card. If you do, discard a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/416d25bb-278f-45cc-8d96-5c4044ef5e54.png?1679614767",
+        :collector-number "20",
+        :layout "normal",
+        :name "Mystic Retrieval",
+        :oracle-text
+        "Return target instant or sorcery card from your graveyard to your hand.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Rogue",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9bb7870f-361b-4782-bdb1-78410dc3c745.png?1679614777",
+        :collector-number "21",
+        :layout "normal",
+        :name "Selhoff Occultist",
+        :oracle-text
+        "Whenever Selhoff Occultist or another creature dies, target player mills a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d734d01c-c439-41ed-83ca-06a7d4856d08.png?1679614785",
+        :collector-number "22",
+        :layout "normal",
+        :name "Silent Departure",
+        :oracle-text
+        "Return target creature to its owner's hand.\nFlashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/6/96791b5f-88d1-4455-95cb-73d529977b1c.png?1679614793",
+        :collector-number "23",
+        :layout "normal",
+        :name "Snapcaster Mage",
+        :oracle-text
+        "Flash\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Homunculus",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24e39028-a930-4751-91e9-0e91fa7f91ec.png?1679614802",
+        :collector-number "24",
+        :layout "normal",
+        :name "Stitcher's Apprentice",
+        :oracle-text
+        "{1}{U}, {T}: Create a 2/2 blue Homunculus creature token, then sacrifice a creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/eb261013-4a72-4e15-8dc6-685419a0b4d7.png?1679614811",
+        :collector-number "25",
+        :layout "normal",
+        :name "Barter in Blood",
+        :oracle-text "Each player sacrifices two creatures."}
+ #:card{:type-line "Creature — Vampire",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/a/ca641db4-d122-4c2b-b918-d583ffdf1dc7.png?1679614820",
+        :collector-number "26",
+        :layout "normal",
+        :name "Bloodflow Connoisseur",
+        :oracle-text
+        "Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur."}
+ #:card{:code "sis",
+        :collector-number "27",
+        :name "Bloodline Keeper // Lord of Lineage",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/5/25f42544-79d1-48d1-884b-de3c0ccfce79.png?1679614837",
+          :type-line "Creature — Vampire",
+          :oracle-text
+          "Flying\n{T}: Create a 2/2 black Vampire creature token with flying.\n{B}: Transform Bloodline Keeper. Activate only if you control five or more Vampires."}
+         {:png
+          "https://cards.scryfall.io/png/back/2/5/25f42544-79d1-48d1-884b-de3c0ccfce79.png?1679614837",
+          :type-line "Creature — Vampire",
+          :oracle-text
+          "Flying\nOther Vampire creatures you control get +2/+2.\n{T}: Create a 2/2 black Vampire creature token with flying."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/83a489cd-6394-44df-b721-35ef1cce0746.png?1679614846",
+        :collector-number "28",
+        :layout "normal",
+        :name "Bump in the Night",
+        :oracle-text
+        "Target opponent loses 3 life.\nFlashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/6/8/68ddf467-23e0-40a1-922f-0531cb471301.png?1679614855",
+        :collector-number "29",
+        :layout "normal",
+        :name "Falkenrath Noble",
+        :oracle-text
+        "Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life."}
+ #:card{:type-line "Creature — Zombie",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/daeb80aa-2d3a-4aec-a682-1eb5af565c05.png?1679614864",
+        :collector-number "30",
+        :layout "normal",
+        :name "Ghoulraiser",
+        :oracle-text
+        "When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Demon",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f01a8af1-b893-4503-93c1-b4d18c8ae0b9.png?1679614873",
+        :collector-number "31",
+        :layout "normal",
+        :name "Griselbrand",
+        :oracle-text "Flying, lifelink\nPay 7 life: Draw seven cards."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7a92c40d-1b69-43d8-a956-806aa70d8ea4.png?1679614881",
+        :collector-number "32",
+        :layout "normal",
+        :name "Increasing Ambition",
+        :oracle-text
+        "Search your library for a card and put that card into your hand. If this spell was cast from a graveyard, instead search your library for two cards and put those cards into your hand. Then shuffle.\nFlashback {7}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/8/88339400-ccd8-433e-a010-ea09d660ef14.png?1679614889",
+        :collector-number "33",
+        :layout "normal",
+        :name "Sever the Bloodline",
+        :oracle-text
+        "Exile target creature and all other creatures with the same name as that creature.\nFlashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/2/02e4faab-c26b-4d76-b747-8dc3f6b2fe9a.png?1679614898",
+        :collector-number "34",
+        :layout "normal",
+        :name "Skirsdag High Priest",
+        :oracle-text
+        "Morbid — {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate only if a creature died this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a39417c1-776e-4a75-aa6a-4b36c2115a13.png?1679614907",
+        :collector-number "35",
+        :layout "normal",
+        :name "Tragic Slip",
+        :oracle-text
+        "Target creature gets -1/-1 until end of turn.\nMorbid — That creature gets -13/-13 until end of turn instead if a creature died this turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/84325b23-ab76-46af-8df5-9d645bc0263c.png?1679614915",
+        :collector-number "36",
+        :layout "normal",
+        :name "Unburial Rites",
+        :oracle-text
+        "Return target creature card from your graveyard to the battlefield.\nFlashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b442d62-f161-47b6-94c4-33c8a82d0192.png?1679614924",
+        :collector-number "37",
+        :layout "normal",
+        :name "Balefire Dragon",
+        :oracle-text
+        "Flying\nWhenever Balefire Dragon deals combat damage to a player, it deals that much damage to each creature that player controls."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/31a4fdc1-f69e-4306-bb0c-08d72fc3cf48.png?1679614933",
+        :collector-number "38",
+        :layout "normal",
+        :name "Brimstone Volley",
+        :oracle-text
+        "Brimstone Volley deals 3 damage to any target.\nMorbid — Brimstone Volley deals 5 damage instead if a creature died this turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f0593b38-da64-4593-967f-f9d94ebcb841.png?1679614943",
+        :collector-number "39",
+        :layout "normal",
+        :name "Devil's Play",
+        :oracle-text
+        "Devil's Play deals X damage to any target.\nFlashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/4/0415df8a-078f-4c12-84e5-b9af7b3e7739.png?1679614953",
+        :collector-number "40",
+        :layout "normal",
+        :name "Faithless Looting",
+        :oracle-text
+        "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/46b6169e-ed56-4211-ba86-5929523066cd.png?1679614965",
+        :collector-number "41",
+        :layout "normal",
+        :name "Forge Devil",
+        :oracle-text
+        "When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you."}
+ #:card{:code "sis",
+        :collector-number "42",
+        :name "Kruin Outlaw // Terror of Kruin Pass",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/d/8d722e19-9aaf-4b47-b175-28f0d5c587a1.png?1679614987",
+          :type-line "Creature — Human Rogue Werewolf",
+          :oracle-text
+          "First strike\nAt the beginning of each upkeep, if no spells were cast last turn, transform Kruin Outlaw."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/d/8d722e19-9aaf-4b47-b175-28f0d5c587a1.png?1679614987",
+          :type-line "Creature — Werewolf",
+          :oracle-text
+          "Double strike\nWerewolves you control have menace. (They can't be blocked except by two or more creatures.)\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Terror of Kruin Pass."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f3faa0d0-e5cf-4ef5-b1d5-518a6a9a8c67.png?1679614997",
+        :collector-number "43",
+        :layout "normal",
+        :name "Past in Flames",
+        :oracle-text
+        "Each instant and sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a8cb915f-0750-4ec7-9b93-648cee5a6ca0.png?1679615007",
+        :collector-number "44",
+        :layout "normal",
+        :name "Skirsdag Cultist",
+        :oracle-text
+        "{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to any target."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/2/b28188bb-7fa8-438d-a87f-e66fd4abde70.png?1679615017",
+        :collector-number "45",
+        :layout "normal",
+        :name "Traitorous Blood",
+        :oracle-text
+        "Gain control of target creature until end of turn. Untap it. It gains trample and haste until end of turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a1b63bd4-e250-41d0-a428-10d862b855df.png?1679615026",
+        :collector-number "46",
+        :layout "normal",
+        :name "Vampiric Fury",
+        :oracle-text
+        "Vampire creatures you control get +2/+0 and gain first strike until end of turn."}
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/c/5c61128d-7032-48ab-a6b2-7070ef1f52e0.png?1679615034",
+        :collector-number "47",
+        :layout "normal",
+        :name "Zealous Conscripts",
+        :oracle-text
+        "Haste\nWhen Zealous Conscripts enters the battlefield, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn."}
+ #:card{:type-line "Creature — Human Monk",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/5/15e79eb8-2c34-4c8f-a3f2-b6e55efb11ac.png?1680180387",
+        :collector-number "48",
+        :layout "normal",
+        :name "Avacyn's Pilgrim",
+        :oracle-text "{T}: Add {W}."}
+ #:card{:code "sis",
+        :collector-number "49",
+        :name "Garruk Relentless // Garruk, the Veil-Cursed",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/c/3/c340ad6b-aa09-4d12-a947-33b29b875158.png?1679615062",
+          :type-line "Legendary Planeswalker — Garruk",
+          :oracle-text
+          "When Garruk Relentless has two or fewer loyalty counters on him, transform him.\n0: Garruk Relentless deals 3 damage to target creature. That creature deals damage equal to its power to him.\n0: Create a 2/2 green Wolf creature token."}
+         {:png
+          "https://cards.scryfall.io/png/back/c/3/c340ad6b-aa09-4d12-a947-33b29b875158.png?1679615062",
+          :type-line "Legendary Planeswalker — Garruk",
+          :oracle-text
+          "+1: Create a 1/1 black Wolf creature token with deathtouch.\n−1: Sacrifice a creature. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.\n−3: Creatures you control gain trample and get +X/+X until end of turn, where X is the number of creature cards in your graveyard."}]}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/340a6d2e-77f1-47e6-8312-5b657c53a328.png?1679615071",
+        :collector-number "50",
+        :layout "normal",
+        :name "Gnaw to the Bone",
+        :oracle-text
+        "You gain 2 life for each creature card in your graveyard.\nFlashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29dcc6ad-3f7d-41d3-9a94-de4b63620763.png?1679615080",
+        :collector-number "51",
+        :layout "normal",
+        :name "Gutter Grime",
+        :oracle-text
+        "Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then create a green Ooze creature token with \"This creature's power and toughness are each equal to the number of slime counters on Gutter Grime.\""}
+ #:card{:type-line "Creature — Elemental",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/8/483c81c7-ce5e-4bde-9ebb-aa317e9fa18b.png?1679615088",
+        :collector-number "52",
+        :layout "normal",
+        :name "Hollowhenge Scavenger",
+        :oracle-text
+        "Morbid — When Hollowhenge Scavenger enters the battlefield, if a creature died this turn, you gain 5 life."}
+ #:card{:code "sis",
+        :collector-number "53",
+        :name "Mayor of Avabruck // Howlpack Alpha",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/a/f/af4bf1fc-19fe-4300-9842-9828178c419a.png?1679615107",
+          :type-line "Creature — Human Advisor Werewolf",
+          :oracle-text
+          "Other Human creatures you control get +1/+1.\nAt the beginning of each upkeep, if no spells were cast last turn, transform Mayor of Avabruck."}
+         {:png
+          "https://cards.scryfall.io/png/back/a/f/af4bf1fc-19fe-4300-9842-9828178c419a.png?1679615107",
+          :type-line "Creature — Werewolf",
+          :oracle-text
+          "Each other creature you control that's a Werewolf or a Wolf gets +1/+1.\nAt the beginning of your end step, create a 2/2 green Wolf creature token.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack Alpha."}]}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/efcabe01-4740-4a62-83d5-528547403caa.png?1679615116",
+        :collector-number "54",
+        :layout "normal",
+        :name "Moonmist",
+        :oracle-text
+        "Transform all Humans. Prevent all combat damage that would be dealt this turn by creatures other than Werewolves and Wolves. (Only double-faced cards can be transformed.)"}
+ #:card{:type-line "Creature — Human Druid",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/5/f5aa1b95-833b-4b64-82a9-2dd3e70d9dba.png?1679615125",
+        :collector-number "55",
+        :layout "normal",
+        :name "Somberwald Sage",
+        :oracle-text
+        "{T}: Add three mana of any one color. Spend this mana only to cast creature spells."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/7/97858ce1-bfb3-4307-a0d5-b2139fa09b8b.png?1679615133",
+        :collector-number "56",
+        :layout "normal",
+        :name "Spider Spawning",
+        :oracle-text
+        "Create a 1/2 green Spider creature token with reach for each creature card in your graveyard.\nFlashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/c/0c025a21-1014-45af-b74c-54e2ccdeca56.png?1679615142",
+        :collector-number "57",
+        :layout "normal",
+        :name "Travel Preparations",
+        :oracle-text
+        "Put a +1/+1 counter on each of up to two target creatures.\nFlashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/0/00c08222-4c57-4bd4-9ec7-d4efae8e76bb.png?1679615150",
+        :collector-number "58",
+        :layout "normal",
+        :name "Young Wolf",
+        :oracle-text
+        "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)"}
+ #:card{:type-line "Creature — Zombie Soldier",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/a/fa028284-0860-48b7-8f5a-ea1bdd202371.png?1679615159",
+        :collector-number "59",
+        :layout "normal",
+        :name "Diregraf Captain",
+        :oracle-text
+        "Deathtouch\nOther Zombie creatures you control get +1/+1.\nWhenever another Zombie you control dies, target opponent loses 1 life."}
+ #:card{:type-line "Creature — Spirit Soldier",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/7/3775ac37-048d-4d02-8c7e-b2b7c4ce7d2c.png?1679615169",
+        :collector-number "60",
+        :layout "normal",
+        :name "Drogskol Captain",
+        :oracle-text
+        "Flying\nOther Spirit creatures you control get +1/+1 and have hexproof. (They can't be the targets of spells or abilities your opponents control.)"}
+ #:card{:type-line "Creature — Vampire Noble",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/8/781edc39-5a35-4f70-86aa-f9992766a6fb.png?1679615177",
+        :collector-number "61",
+        :layout "normal",
+        :name "Falkenrath Aristocrat",
+        :oracle-text
+        "Flying, haste\nSacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat."}
+ #:card{:type-line "Legendary Creature — Spirit Cleric",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/2/42eac2d9-3f41-47f9-a3ae-7cfdcd4c945c.png?1679615185",
+        :collector-number "62",
+        :layout "normal",
+        :name "Geist of Saint Traft",
+        :oracle-text
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nWhenever Geist of Saint Traft attacks, create a 4/4 white Angel creature token with flying that's tapped and attacking. Exile that token at end of combat."}
+ #:card{:type-line "Creature — Zombie Wizard",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/0/203931a1-5716-4d21-949c-53ac96390bdc.png?1679615194",
+        :collector-number "63",
+        :layout "normal",
+        :name "Havengul Lich",
+        :oracle-text
+        "{1}: You may cast target creature card in a graveyard this turn. When you cast it this turn, Havengul Lich gains all activated abilities of that card until end of turn."}
+ #:card{:code "sis",
+        :collector-number "64",
+        :name "Huntmaster of the Fells // Ravager of the Fells",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/c/6c37fcdc-6187-4ed1-908a-74e2f9e188bf.png?1679615210",
+          :type-line "Creature — Human Werewolf",
+          :oracle-text
+          "Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, create a 2/2 green Wolf creature token and you gain 2 life.\nAt the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/c/6c37fcdc-6187-4ed1-908a-74e2f9e188bf.png?1679615210",
+          :type-line "Creature — Werewolf",
+          :oracle-text
+          "Trample\nWhenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent or planeswalker and 2 damage to up to one target creature that player or that planeswalker's controller controls.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells."}]}
+ #:card{:type-line "Creature — Wolf",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/53f70a6e-0f5c-4420-938d-d84e0c88e352.png?1679615219",
+        :collector-number "65",
+        :layout "normal",
+        :name "Immerwolf",
+        :oracle-text
+        "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)\nEach other creature you control that's a Wolf or a Werewolf gets +1/+1.\nNon-Human Werewolves you control can't transform."}
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/5/35a641eb-215e-4c94-a22d-a13a8a2cd55b.png?1679615228",
+        :collector-number "66",
+        :layout "normal",
+        :name "Sigarda, Host of Herons",
+        :oracle-text
+        "Flying, hexproof\nSpells and abilities your opponents control can't cause you to sacrifice permanents."}
+ #:card{:type-line "Creature — Vampire Soldier",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/513d14b4-d5d6-4c9b-8023-98c2cc3fe5ac.png?1680180499",
+        :collector-number "67",
+        :layout "normal",
+        :name "Stromkirk Captain",
+        :oracle-text
+        "First strike\nOther Vampire creatures you control get +1/+1 and have first strike."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/219dd7c5-0d8f-46a2-9181-3ed30d489397.png?1679615245",
+        :collector-number "68",
+        :layout "normal",
+        :name "Avacyn's Collar",
+        :oracle-text
+        "Equipped creature gets +1/+0 and has vigilance.\nWhenever equipped creature dies, if it was a Human, create a 1/1 white Spirit creature token with flying.\nEquip {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b1dda53-d35a-4180-b0ee-967033757eca.png?1679615253",
+        :collector-number "69",
+        :layout "normal",
+        :name "Blazing Torch",
+        :oracle-text
+        "Equipped creature can't be blocked by Vampires or Zombies.\nEquipped creature has \"{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target.\"\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f03ca255-4819-41e6-be02-7ab9ad9e8791.png?1679615262",
+        :collector-number "70",
+        :layout "normal",
+        :name "Butcher's Cleaver",
+        :oracle-text
+        "Equipped creature gets +3/+0.\nAs long as equipped creature is a Human, it has lifelink.\nEquip {3}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/ecb67499-545b-4f07-ab7e-77021372038a.png?1679615270",
+        :collector-number "71",
+        :layout "normal",
+        :name "Demonmail Hauberk",
+        :oracle-text
+        "Equipped creature gets +4/+2.\nEquip—Sacrifice a creature."}
+ #:card{:type-line "Artifact Creature — Juggernaut",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/f/bf677bbf-605b-4e81-80a3-a0a86bd8d9c7.png?1679615279",
+        :collector-number "72",
+        :layout "normal",
+        :name "Galvanic Juggernaut",
+        :oracle-text
+        "Galvanic Juggernaut attacks each combat if able.\nGalvanic Juggernaut doesn't untap during your untap step.\nWhenever another creature dies, untap Galvanic Juggernaut."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/4/c48e6f92-86ad-4b86-a410-9694757e240b.png?1679615288",
+        :collector-number "73",
+        :layout "normal",
+        :name "Traveler's Amulet",
+        :oracle-text
+        "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9bb703bc-4030-4d83-9f24-ea7ebe01d6aa.png?1679615298",
+        :collector-number "74",
+        :layout "normal",
+        :name "Vessel of Endless Rest",
+        :oracle-text
+        "When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.\n{T}: Add one mana of any color."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d4ecd0b6-7e0a-42c3-9996-a4ab292b983b.png?1679615306",
+        :collector-number "75",
+        :layout "normal",
+        :name "Evolving Wilds",
+        :oracle-text
+        "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "sis",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dd4c9a60-6cb9-4487-897b-28a370cb9ed7.png?1679615315",
+        :collector-number "76",
+        :layout "normal",
+        :name "Haunted Fengraf",
+        :oracle-text
+        "{T}: Add {C}.\n{3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand."})

@@ -1,9 +1,9 @@
 (#:card{:type-line "Token Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/7/47965362-8d74-41a1-a41e-96c6d36cf8d3.png?1667887874",
+        "https://cards.scryfall.io/png/front/4/7/47965362-8d74-41a1-a41e-96c6d36cf8d3.png?1681393021",
         :collector-number "T1",
         :layout "token",
         :name "Construct",
@@ -11,9 +11,9 @@
  #:card{:type-line "Token Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/5/c57e9113-d59c-42ac-b873-9064bb454e03.png?1667887891",
+        "https://cards.scryfall.io/png/front/c/5/c57e9113-d59c-42ac-b873-9064bb454e03.png?1681219311",
         :collector-number "T2",
         :layout "token",
         :name "Construct",
@@ -201,7 +201,7 @@
         :png
         "https://cards.scryfall.io/png/front/d/4/d4f99a7d-7446-4389-88a7-b884ff8f4fe1.png?1675621757",
         :collector-number "34p",
-        :layout "normal",
+        :layout "prototype",
         :name "Autonomous Assembler",
         :oracle-text
         "Prototype {1}{W} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nVigilance\n{1}, {T}: Put a +1/+1 counter on target Assembly-Worker you control."}
@@ -212,7 +212,7 @@
         :png
         "https://cards.scryfall.io/png/front/c/6/c6e664bc-7088-43ec-816f-449c37a81b44.png?1675621604",
         :collector-number "34s",
-        :layout "normal",
+        :layout "prototype",
         :name "Autonomous Assembler",
         :oracle-text
         "Prototype {1}{W} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nVigilance\n{1}, {T}: Put a +1/+1 counter on target Assembly-Worker you control."}
@@ -245,7 +245,7 @@
         :png
         "https://cards.scryfall.io/png/front/3/4/34a89318-edc8-462d-977c-d480c3ca6ba3.png?1675621717",
         :collector-number "38p",
-        :layout "normal",
+        :layout "prototype",
         :name "Steel Seraph",
         :oracle-text
         "Prototype {1}{W}{W} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nFlying\nAt the beginning of combat on your turn, target creature you control gains your choice of flying, vigilance, or lifelink until end of turn."}
@@ -256,7 +256,7 @@
         :png
         "https://cards.scryfall.io/png/front/3/c/3c365c74-e61c-4b6e-8262-fc58f60d23b4.png?1675621572",
         :collector-number "38s",
-        :layout "normal",
+        :layout "prototype",
         :name "Steel Seraph",
         :oracle-text
         "Prototype {1}{W}{W} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nFlying\nAt the beginning of combat on your turn, target creature you control gains your choice of flying, vigilance, or lifelink until end of turn."}
@@ -443,7 +443,7 @@
         :png
         "https://cards.scryfall.io/png/front/3/c/3c094ce7-683c-4ef5-8ac3-c930386da78f.png?1675621553",
         :collector-number "75p",
-        :layout "normal",
+        :layout "prototype",
         :name "Arcane Proxy",
         :oracle-text
         "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen Arcane Proxy enters the battlefield, if you cast it, exile target instant or sorcery card with mana value less than or equal to Arcane Proxy's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
@@ -454,7 +454,7 @@
         :png
         "https://cards.scryfall.io/png/front/8/b/8b9b1f6c-2c72-4cbb-ac96-20b486e20ea5.png?1675621434",
         :collector-number "75s",
-        :layout "normal",
+        :layout "prototype",
         :name "Arcane Proxy",
         :oracle-text
         "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen Arcane Proxy enters the battlefield, if you cast it, exile target instant or sorcery card with mana value less than or equal to Arcane Proxy's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
@@ -666,7 +666,7 @@
         :layout "normal",
         :name "Hostile Negotiations",
         :oracle-text
-        "Exile the top three cards of your library in a face-down pile, then exile the next top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
+        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -677,7 +677,7 @@
         :layout "normal",
         :name "Hostile Negotiations",
         :oracle-text
-        "Exile the top three cards of your library in a face-down pile, then exile the next top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
+        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "pbro",
@@ -729,7 +729,7 @@
         :png
         "https://cards.scryfall.io/png/front/4/3/431024b1-c1da-49c4-bc43-7a1b283676b6.png?1675621335",
         :collector-number "121p",
-        :layout "normal",
+        :layout "prototype",
         :name "Phyrexian Fleshgorger",
         :oracle-text
         "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to Phyrexian Fleshgorger's power."}
@@ -740,7 +740,7 @@
         :png
         "https://cards.scryfall.io/png/front/a/6/a66b963d-1a01-46b4-bd68-8081489341ac.png?1675621235",
         :collector-number "121s",
-        :layout "normal",
+        :layout "prototype",
         :name "Phyrexian Fleshgorger",
         :oracle-text
         "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to Phyrexian Fleshgorger's power."}
@@ -815,7 +815,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/3/c3ae5d5e-167a-4165-8a3f-37665750635d.png?1675621256",
+        "https://cards.scryfall.io/png/front/c/3/c3ae5d5e-167a-4165-8a3f-37665750635d.png?1680180417",
         :collector-number "130p",
         :layout "normal",
         :name "Draconic Destiny",
@@ -826,7 +826,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/5/d57eb08d-3587-4042-8e9a-0ec6fc93fcb7.png?1675621169",
+        "https://cards.scryfall.io/png/front/d/5/d57eb08d-3587-4042-8e9a-0ec6fc93fcb7.png?1680180467",
         :collector-number "130s",
         :layout "normal",
         :name "Draconic Destiny",
@@ -969,17 +969,6 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/8/48cfb428-86ea-47a0-a8fc-4ab08211efd3.png?1675621128",
-        :collector-number "163ap",
-        :layout "meld",
-        :name "Phyrexian Dragon Engine",
-        :oracle-text
-        "Double strike\nWhen Phyrexian Dragon Engine enters the battlefield from your graveyard, you may discard your hand. If you do, draw three cards.\nUnearth {3}{R}{R}\n(Melds with Mishra, Claimed by Gix.)"}
- #:card{:type-line "Artifact Creature — Phyrexian Dragon",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
         "https://cards.scryfall.io/png/front/5/3/534b042b-1b86-4fc9-be3c-0d0f8c46d881.png?1675621056",
         :collector-number "163as",
         :layout "meld",
@@ -991,18 +980,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/6/b6b27dc2-f8b5-40c6-803b-c7c51c2dabaa.png?1675621110",
-        :collector-number "163bp",
-        :layout "meld",
-        :name "Mishra, Lost to Phyrexia",
-        :oracle-text
-        "Whenever Mishra, Lost to Phyrexia enters the battlefield or attacks, choose three —\n• Target opponent discards two cards.\n• Mishra deals 3 damage to any target.\n• Destroy target artifact or planeswalker.\n• Creatures you control gain menace and trample until end of turn.\n• Creatures you don't control get -1/-1 until end of turn.\n• Create two tapped Powerstone tokens."}
- #:card{:type-line "Legendary Artifact Creature — Phyrexian Artificer",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
-        "https://cards.scryfall.io/png/front/7/5/75544351-dbb0-46d3-bddd-627c40753e8d.png?1675621040",
+        "https://cards.scryfall.io/png/front/7/5/75544351-dbb0-46d3-bddd-627c40753e8d.png?1681403313",
         :collector-number "163bs",
         :layout "meld",
         :name "Mishra, Lost to Phyrexia",
@@ -1015,7 +993,7 @@
         :png
         "https://cards.scryfall.io/png/front/2/0/20c76db5-4d24-4eb5-b356-f544b6866008.png?1675621093",
         :collector-number "165p",
-        :layout "normal",
+        :layout "prototype",
         :name "Skitterbeam Battalion",
         :oracle-text
         "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen Skitterbeam Battalion enters the battlefield, if you cast it, create two tokens that are copies of it."}
@@ -1026,7 +1004,7 @@
         :png
         "https://cards.scryfall.io/png/front/7/3/733ec128-4f64-4ba0-9cd7-89c15418dcbb.png?1675621024",
         :collector-number "165s",
-        :layout "normal",
+        :layout "prototype",
         :name "Skitterbeam Battalion",
         :oracle-text
         "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen Skitterbeam Battalion enters the battlefield, if you cast it, create two tokens that are copies of it."}
@@ -1145,17 +1123,6 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/6/467b3103-86d8-41c3-9654-111318b8ed13.png?1675620981",
-        :collector-number "193p",
-        :layout "meld",
-        :name "Titania, Voice of Gaea",
-        :oracle-text
-        "Reach\nWhenever one or more land cards are put into your graveyard from anywhere, you gain 2 life.\nAt the beginning of your upkeep, if there are four or more land cards in your graveyard and you both own and control Titania, Voice of Gaea and a land named Argoth, Sanctum of Nature, exile them, then meld them into Titania, Gaea Incarnate."}
- #:card{:type-line "Legendary Creature — Elemental",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
         "https://cards.scryfall.io/png/front/d/9/d9815e4d-729d-4cfe-ab54-12c58bc3099e.png?1675620927",
         :collector-number "193s",
         :layout "meld",
@@ -1213,7 +1180,7 @@
         :png
         "https://cards.scryfall.io/png/front/4/b/4bd6895c-9f61-4a35-be99-45fd58c7edb3.png?1675620927",
         :collector-number "203p",
-        :layout "normal",
+        :layout "prototype",
         :name "Rootwire Amalgam",
         :oracle-text
         "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice Rootwire Amalgam: Create an X/X colorless Golem artifact creature token, where X is three times Rootwire Amalgam's power. It gains haste until end of turn. Activate only as a sorcery."}
@@ -1224,7 +1191,7 @@
         :png
         "https://cards.scryfall.io/png/front/e/a/ead0bbe2-5262-437c-8e27-fd6a25f49a2e.png?1675620881",
         :collector-number "203s",
-        :layout "normal",
+        :layout "prototype",
         :name "Rootwire Amalgam",
         :oracle-text
         "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice Rootwire Amalgam: Create an X/X colorless Golem artifact creature token, where X is three times Rootwire Amalgam's power. It gains haste until end of turn. Activate only as a sorcery."}
@@ -1338,17 +1305,6 @@
         :name "Legions to Ashes",
         :oracle-text
         "Exile target nonland permanent an opponent controls and all tokens that player controls with the same name as that permanent."}
- #:card{:type-line "Legendary Creature — Phyrexian Human Artificer",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
-        "https://cards.scryfall.io/png/front/6/b/6b5881ca-f6cd-4d24-b85f-d63275b7e368.png?1675620824",
-        :collector-number "216p",
-        :layout "meld",
-        :name "Mishra, Claimed by Gix",
-        :oracle-text
-        "Whenever you attack, each opponent loses X life and you gain X life, where X is the number of attacking creatures. If Mishra, Claimed by Gix and a creature named Phyrexian Dragon Engine are attacking, and you both own and control them, exile them, then meld them into Mishra, Lost to Phyrexia. It enters the battlefield tapped and attacking."}
  #:card{:type-line "Legendary Creature — Phyrexian Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -1497,17 +1453,6 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/7/9704f0ae-febd-4c9e-81fd-d94d779219c7.png?1675620709",
-        :collector-number "225p",
-        :layout "meld",
-        :name "Urza, Lord Protector",
-        :oracle-text
-        "Artifact, instant, and sorcery spells you cast cost {1} less to cast.\n{7}: If you both own and control Urza, Lord Protector and an artifact named The Mightstone and Weakstone, exile them, then meld them into Urza, Planeswalker. Activate only as a sorcery."}
- #:card{:type-line "Legendary Creature — Human Artificer",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
         "https://cards.scryfall.io/png/front/6/0/600259ab-2bb7-4e09-b957-b07dbd37a521.png?1675620681",
         :collector-number "225s",
         :layout "meld",
@@ -1629,17 +1574,6 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/c/9cba18b5-9042-431f-a013-46761529fb95.png?1675620599",
-        :collector-number "238ap",
-        :layout "meld",
-        :name "The Mightstone and Weakstone",
-        :oracle-text
-        "When The Mightstone and Weakstone enters the battlefield, choose one —\n• Draw two cards.\n• Target creature gets -5/-5 until end of turn.\n{T}: Add {C}{C}. This mana can't be spent to cast nonartifact spells.\n(Melds with Urza, Lord Protector.)"}
- #:card{:type-line "Legendary Artifact — Powerstone",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
         "https://cards.scryfall.io/png/front/b/c/bc8cfad0-78e8-4a8b-b8cb-cd4a5eeade24.png?1675620574",
         :collector-number "238as",
         :layout "meld",
@@ -1651,18 +1585,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/9/79db740b-96f1-4d74-a19d-0cb6853464e6.png?1675620579",
-        :collector-number "238bp",
-        :layout "meld",
-        :name "Urza, Planeswalker",
-        :oracle-text
-        "You may activate the loyalty abilities of Urza, Planeswalker twice each turn rather than only once.\n+2: Artifact, instant, and sorcery spells you cast this turn cost {2} less to cast. You gain 2 life.\n+1: Draw two cards, then discard a card.\n0: Create two 1/1 colorless Soldier artifact creature tokens.\n−3: Exile target nonland permanent.\n−10: Artifacts and planeswalkers you control gain indestructible until end of turn. Destroy all nonland permanents."}
- #:card{:type-line "Legendary Planeswalker — Urza",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
-        "https://cards.scryfall.io/png/front/7/e/7e44b30f-aed6-47af-8b6c-0669c644e46f.png?1675620558",
+        "https://cards.scryfall.io/png/front/7/e/7e44b30f-aed6-47af-8b6c-0669c644e46f.png?1681403321",
         :collector-number "238bs",
         :layout "meld",
         :name "Urza, Planeswalker",
@@ -1761,17 +1684,6 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/9/b932a67a-e660-4cbd-af35-8c3952c4b677.png?1675620489",
-        :collector-number "256ap",
-        :layout "meld",
-        :name "Argoth, Sanctum of Nature",
-        :oracle-text
-        "Argoth, Sanctum of Nature enters the battlefield tapped unless you control a legendary green creature.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Create a 2/2 green Bear creature token, then mill three cards. Activate only as a sorcery.\n(Melds with Titania, Voice of Gaea.)"}
- #:card{:type-line "Land",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
         "https://cards.scryfall.io/png/front/7/9/79a840ed-91cf-45ea-bad2-757856e88544.png?1675620476",
         :collector-number "256as",
         :layout "meld",
@@ -1783,18 +1695,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/e/0e6d8455-1cf0-4979-9566-0bebf46a1f7c.png?1675620469",
-        :collector-number "256bp",
-        :layout "meld",
-        :name "Titania, Gaea Incarnate",
-        :oracle-text
-        "Vigilance, reach, trample, haste\nTitania, Gaea Incarnate's power and toughness are each equal to the number of lands you control.\nWhen Titania enters the battlefield, return all land cards from your graveyard to the battlefield tapped.\n{3}{G}: Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land."}
- #:card{:type-line "Legendary Creature — Elemental Avatar",
-        :layout-category :normal,
-        :code "pbro",
-        :highres? true,
-        :png
-        "https://cards.scryfall.io/png/front/1/7/171eb68a-bce4-4518-a4d4-9ec90e92aa0b.png?1675620457",
+        "https://cards.scryfall.io/png/front/1/7/171eb68a-bce4-4518-a4d4-9ec90e92aa0b.png?1681403328",
         :collector-number "256bs",
         :layout "meld",
         :name "Titania, Gaea Incarnate",

@@ -49,8 +49,8 @@
                          :highres? (scryfall-card :highres_image)}]
     (case (:layout scryfall-card)
 
-      ("normal" "token" "emblem" "planar" "leveler" "scheme"
-       "vanguard" "host" "augment" "saga" "class" "meld")
+      ("normal" "token" "emblem" "planar" "leveler" "scheme" "vanguard"
+       "host" "augment" "saga" "class" "meld" "mutate" "prototype")
       (assoc base-card
              :card/layout-category :normal
              :card/png (get-in scryfall-card [:image_uris :png])
@@ -142,7 +142,7 @@
     "10E" "LRW" "MOR" "SHM" "EVE" "ALA" "CON" "ARB" "M10" "ZEN" "WWK" "ROE" "M11" "SOM" "MBS" "NPH" "M12"
     "ISD" "DKA" "AVR" "M13" "RTR" "GTC" "DGM" "M14" "THS" "BNG" "JOU" "M15" "KTK" "FRF" "DTK" "ORI" "BFZ"
     "OGW" "SOI" "EMN" "KLD" "AER" "AKH" "HOU" "XLN" "RIX" "DOM" "M19" "GRN" "RNA" "WAR" "M20" "ELD" "THB"
-    "IKO" "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC" "DMU" "BRO" "ONE"})
+    "IKO" "M21" "ZNR" "KHM" "STX" "AFR" "MID" "VOW" "NEO" "SNC" "DMU" "BRO" "ONE" "MOM" "WOE"})
 
 
 (defn peripheral-editions
