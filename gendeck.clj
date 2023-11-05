@@ -234,8 +234,12 @@
   (write-decks! EDITION-CARDS EDDEX "Q04" :newest "THB" :oldest "GRN")
   (write-decks! EDITION-CARDS EDDEX "C20" :newest "IKO" :oldest "C20" :include #{"C20"})
   (write-decks! EDITION-CARDS EDDEX "M21" :oldest "ELD")
-
-  ;; time skip
+  (write-decks! EDITION-CARDS EDDEX "JMP" :oldest "M21")
+  (write-decks! EDITION-CARDS EDDEX "ZNR" :oldest "ZNC" :include #{"ZNC"})
+  (write-decks! EDITION-CARDS EDDEX "CMR")
+  (write-decks! EDITION-CARDS EDDEX "KHM" :oldest "KHC" :include #{"KHC"})
+  (write-decks! EDITION-CARDS EDDEX "Q05" :newest "KHM" :oldest "ELD")
+  (write-decks! EDITION-CARDS EDDEX "C21" :oldest "STX" :include #{"C21"})
   (write-decks! EDITION-CARDS EDDEX "AFR" :oldest "AFC" :include #{"AFC"})
   (write-decks! EDITION-CARDS EDDEX "TAFR" :oldest "TAFR" :include #{"TAFR"})
   (write-decks! EDITION-CARDS EDDEX "2021_arena_starter_kit" :newest "AFR" :oldest "ZNR")
@@ -254,4 +258,5 @@
   (write-decks! EDITION-CARDS EDDEX "BRO" :oldest "BRC" :include #{"BRC"})
   (write-decks! EDITION-CARDS EDDEX "J22")
   (write-decks! EDITION-CARDS EDDEX "SCD")
-  (write-decks! EDITION-CARDS EDDEX "ONE" :oldest "ONC" :include #{"ONC"}))
+  (write-decks! EDITION-CARDS EDDEX "ONE" :oldest "ONC" :include #{"ONC"})
+  (!test-decks EDITION-CARDS EDDEX "MOM" :oldest "MOC" :include #{"MOC"}))

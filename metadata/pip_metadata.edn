@@ -1,0 +1,538 @@
+(#:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.png?1698392825",
+        :collector-number "1",
+        :layout "normal",
+        :name "Caesar, Legion's Emperor",
+        :oracle-text
+        "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar, Legion's Emperor deals damage equal to the number of creature tokens you control to target opponent."}
+ #:card{:type-line "Legendary Creature — Dog",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.png?1697738635",
+        :collector-number "2",
+        :layout "normal",
+        :name "Dogmeat, Ever Loyal",
+        :oracle-text
+        "When Dogmeat enters the battlefield, mill five cards, then return an Aura or Equipment card from your graveyard to your hand.\nWhenever a creature you control that's enchanted or equipped attacks, create a Junk token. (It's an artifact with \"{T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\")"}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/5/95af426d-a8af-4314-9ad0-ac61935e8e8e.png?1697726466",
+        :collector-number "3",
+        :layout "normal",
+        :name "Dr. Madison Li",
+        :oracle-text
+        "Whenever you cast an artifact spell, you get {E} (an energy counter).\n{T}, Pay {E}: Target creature gets +1/+0 and gains trample and haste until end of turn.\n{T}, Pay {E}{E}{E}: Draw a card.\n{T}, Pay {E}{E}{E}{E}{E}: Return target artifact card from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Insect Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d6d6944-a364-41c2-b824-7a1bf6ad0d1e.png?1697725397",
+        :collector-number "4",
+        :layout "normal",
+        :name "The Wise Mothman",
+        :oracle-text
+        "Flying\nWhenever The Wise Mothman enters the battlefield or attacks, each player gets a rad counter.\nWhenever one or more nonland cards are milled, put a +1/+1 counter on each of up to X target creatures, where X is the number of nonland cards milled this way."}
+ #:card{:type-line "Legendary Artifact Creature — Human",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23eb3cf7-c90d-4bfa-b125-4fbcb5614468.png?1697726857",
+        :collector-number "7",
+        :layout "normal",
+        :name "Mr. House, President and CEO",
+        :oracle-text
+        "Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token.\n{4}, {T}: Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability."}
+ #:card{:type-line "Creature — Human Citizen",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a45346ac-54a9-4fda-bde7-92ff75ac34f7.png?1697727088",
+        :collector-number "16",
+        :layout "normal",
+        :name "Gary Clone",
+        :oracle-text
+        "Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)\nWhenever Gary Clone attacks, each creature you control named Gary Clone gets +1/+0 until end of turn."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/8/687133cb-3754-475c-9e21-b6a33aa58bb0.png?1697738597",
+        :collector-number "17",
+        :layout "normal",
+        :name "Idolized",
+        :oracle-text
+        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks alone, it gets +X/+X until end of turn, where X is the number of nonland permanents you control.\""}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/7/47058eaa-348d-4bbb-8df5-b931eba067f3.png?1697726792",
+        :collector-number "18",
+        :layout "normal",
+        :name "Overencumbered",
+        :oracle-text
+        "Enchant opponent\nWhen Overencumbered enters the battlefield, enchanted opponent creates a Clue token, a Food token, and a Junk token.\nAt the beginning of combat on enchanted opponent's turn, that player may pay {1} for each artifact they control. If they don't, creatures can't attack this combat."}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/c/fc513659-ea88-4d04-82bd-5bb2e740d957.png?1697738620",
+        :collector-number "28",
+        :layout "saga",
+        :name "Vault 101: Birthday Party",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Soldier creature token and a Food token. (A Food token is an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nII, III — You may put an Aura or Equipment card from your hand or graveyard onto the battlefield. If an Equipment is put onto the battlefield this way, you may attach it to a creature you control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d778cdec-8fc7-4174-bae1-4c8e8ccdfab3.png?1697738518",
+        :collector-number "37",
+        :layout "normal",
+        :name "Radstorm",
+        :oracle-text
+        "Storm (When you cast this spell, copy it for each spell cast before it this turn.)\nProliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
+ #:card{:type-line "Creature — Zombie Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fbdef99d-6ce9-495d-a55b-e6ba799d3da7.png?1697738589",
+        :collector-number "44",
+        :layout "normal",
+        :name "Feral Ghoul",
+        :oracle-text
+        "Menace\nWhenever another creature you control dies, put a +1/+1 counter on Feral Ghoul.\nWhen Feral Ghoul dies, each opponent gets a number of rad counters equal to its power."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/512df222-0db0-4b24-9372-d0c01b181b91.png?1697738574",
+        :collector-number "50",
+        :layout "normal",
+        :name "V.A.T.S.",
+        :oracle-text
+        "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nChoose any number of target creatures with equal toughness. Destroy the chosen creatures."}
+ #:card{:type-line "Creature — Lizard Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/a/ca4c8b04-66af-4cb3-8003-9088d8344b20.png?1697727454",
+        :collector-number "91",
+        :layout "normal",
+        :name "Alpha Deathclaw",
+        :oracle-text
+        "Menace, trample\nWhen Alpha Deathclaw enters the battlefield or becomes monstrous, destroy target permanent.\n{5}{B}{G}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)"}
+ #:card{:type-line "Legendary Artifact Creature — Robot Dog",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/dae95822-d4a9-4698-bd11-c504414fc160.png?1697727274",
+        :collector-number "117",
+        :layout "normal",
+        :name "Rex, Cyber-Hound",
+        :oracle-text
+        "Whenever Rex, Cyber-Hound deals combat damage to a player, they mill two cards and you get {E}{E} (two energy counters).\nPay {E}{E}: Choose target creature card in a graveyard. Exile it with a brain counter on it. Activate only as a sorcery.\nRex has all activated abilities of all cards in exile with brain counters on them."}
+ #:card{:type-line "Artifact — Bobblehead",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e6546c0d-6be2-4ced-9d7c-4269df8dea76.png?1697727883",
+        :collector-number "134",
+        :layout "normal",
+        :name "Intelligence Bobblehead",
+        :oracle-text
+        "{T}: Add one mana of any color.\n{5}, {T}: Draw X cards, where X is the number of Bobbleheads you control."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/0/405df7c7-0e37-499e-9826-6bf9f5db7a40.png?1697738549",
+        :collector-number "137",
+        :layout "normal",
+        :name "Nuka-Cola Vending Machine",
+        :oracle-text
+        "{1}, {T}: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e8f2b6d4-8f08-4ac9-a7d9-03a539681804.png?1697726287",
+        :collector-number "164",
+        :layout "normal",
+        :name "Caesar, Legion's Emperor",
+        :oracle-text
+        "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar, Legion's Emperor deals damage equal to the number of creature tokens you control to target opponent."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/5/952cb8cb-633c-468f-8ef5-54ff91ddfb22.png?1697729075",
+        :collector-number "259",
+        :layout "normal",
+        :name "Command Tower",
+        :oracle-text
+        "{T}: Add one mana of any color in your commander's color identity."}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c3f33598-1344-4365-9067-17a7379de894.png?1697891624",
+        :collector-number "317",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/d/ad6be912-4d77-45d2-b653-7fbbee6a881a.png?1697891632",
+        :collector-number "318",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a5b0a88d-7049-4206-8085-4a68ab0bfd81.png?1697729460",
+        :collector-number "319",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/4/040ed422-663a-4b6c-bdcd-09092f1c9004.png?1697729435",
+        :collector-number "320",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/237204ad-ab8a-496f-a093-48d00417350b.png?1697729709",
+        :collector-number "321",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/09af769d-a051-40d4-b203-7ec818c367ca.png?1697729719",
+        :collector-number "322",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/85f5bbab-7bf0-48d4-8138-d64f84f4d769.png?1697729353",
+        :collector-number "323",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d5691d3-751a-41dd-b2a3-c766c8973bfe.png?1697729372",
+        :collector-number "324",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be13351c-ca20-410c-8959-bbaa59816002.png?1697729504",
+        :collector-number "325",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/a/3a1e5ef3-790d-4f45-a264-157448bab2e8.png?1697729531",
+        :collector-number "326",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7b9eebec-e93d-4b23-b28a-534d00ae0765.png?1697727702",
+        :collector-number "327",
+        :layout "normal",
+        :name "Idolized",
+        :oracle-text
+        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks alone, it gets +X/+X until end of turn, where X is the number of nonland permanents you control.\""}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/bed00d6f-dfcd-4a60-bb8f-8e95944548fa.png?1697728562",
+        :collector-number "329",
+        :layout "normal",
+        :name "Radstorm",
+        :oracle-text
+        "Storm (When you cast this spell, copy it for each spell cast before it this turn.)\nProliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/5/35303f4b-4114-443e-ab9c-74813becdf63.png?1697728462",
+        :collector-number "333",
+        :layout "normal",
+        :name "V.A.T.S.",
+        :oracle-text
+        "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nChoose any number of target creatures with equal toughness. Destroy the chosen creatures."}
+ #:card{:type-line "Creature — Lizard Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/e/1e2dc5b0-ac26-4829-9716-f213eda5df30.png?1697728642",
+        :collector-number "336",
+        :layout "normal",
+        :name "Alpha Deathclaw",
+        :oracle-text
+        "Menace, trample\nWhen Alpha Deathclaw enters the battlefield or becomes monstrous, destroy target permanent.\n{5}{B}{G}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)"}
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/db77f53a-3960-4015-a809-b387a906be35.png?1697726324",
+        :collector-number "339",
+        :layout "normal",
+        :name "Caesar, Legion's Emperor",
+        :oracle-text
+        "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar, Legion's Emperor deals damage equal to the number of creature tokens you control to target opponent."}
+ #:card{:type-line "Legendary Creature — Dog",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/ecda442d-cee3-4c92-b84b-bc6851d2c046.png?1697726338",
+        :collector-number "340",
+        :layout "normal",
+        :name "Dogmeat, Ever Loyal",
+        :oracle-text
+        "When Dogmeat enters the battlefield, mill five cards, then return an Aura or Equipment card from your graveyard to your hand.\nWhenever a creature you control that's enchanted or equipped attacks, create a Junk token. (It's an artifact with \"{T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\")"}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3e356527-66a6-4d71-bc59-0c3bdde3d14c.png?1697726593",
+        :collector-number "341",
+        :layout "normal",
+        :name "Dr. Madison Li",
+        :oracle-text
+        "Whenever you cast an artifact spell, you get {E} (an energy counter).\n{T}, Pay {E}: Target creature gets +1/+0 and gains trample and haste until end of turn.\n{T}, Pay {E}{E}{E}: Draw a card.\n{T}, Pay {E}{E}{E}{E}{E}: Return target artifact card from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Insect Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a44f6097-a513-44a5-aaa4-92ac2fa800c0.png?1697725502",
+        :collector-number "343",
+        :layout "normal",
+        :name "The Wise Mothman",
+        :oracle-text
+        "Flying\nWhenever The Wise Mothman enters the battlefield or attacks, each player gets a rad counter.\nWhenever one or more nonland cards are milled, put a +1/+1 counter on each of up to X target creatures, where X is the number of nonland cards milled this way."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7a30b502-569b-49fc-9a9e-96fdeaab6ad6.png?1697729294",
+        :collector-number "356",
+        :layout "normal",
+        :name "Arcane Signet",
+        :oracle-text
+        "{T}: Add one mana of any color in your commander's color identity."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/f/2f314ca8-19fa-4cc9-9d23-c280de3b79bc.png?1697729186",
+        :collector-number "357",
+        :layout "normal",
+        :name "Crucible of Worlds",
+        :oracle-text "You may play lands from your graveyard."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/9/794663d5-b397-4775-9921-30184bc36aa9.png?1697728978",
+        :collector-number "358",
+        :layout "normal",
+        :name "Nuka-Cola Vending Machine",
+        :oracle-text
+        "{1}, {T}: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nWhenever you sacrifice a Food, create a tapped Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/f/af88e4e8-b694-4ec0-8885-701ea30bf84c.png?1697729251",
+        :collector-number "359",
+        :layout "normal",
+        :name "Sol Ring",
+        :oracle-text "{T}: Add {C}{C}."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f460bca4-dfe0-4645-8feb-0b715ed3bd0e.png?1697729150",
+        :collector-number "360",
+        :layout "normal",
+        :name "Command Tower",
+        :oracle-text
+        "{T}: Add one mana of any color in your commander's color identity."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e4d51c18-4b7d-4948-96bc-12c8ab3d0bd0.png?1697729216",
+        :collector-number "361",
+        :layout "normal",
+        :name "Wasteland",
+        :oracle-text
+        "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/c/1c6ab676-2437-4927-8f30-dd234298f190.png?1697728741",
+        :collector-number "367",
+        :layout "normal",
+        :name "Overencumbered",
+        :oracle-text
+        "Enchant opponent\nWhen Overencumbered enters the battlefield, enchanted opponent creates a Clue token, a Food token, and a Junk token.\nAt the beginning of combat on enchanted opponent's turn, that player may pay {1} for each artifact they control. If they don't, creatures can't attack this combat."}
+ #:card{:type-line "Creature — Zombie Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c3431ac9-006d-4f19-b933-fcd1dc375ede.png?1697728155",
+        :collector-number "381",
+        :layout "normal",
+        :name "Feral Ghoul",
+        :oracle-text
+        "Menace\nWhenever another creature you control dies, put a +1/+1 counter on Feral Ghoul.\nWhen Feral Ghoul dies, each opponent gets a number of rad counters equal to its power."}
+ #:card{:type-line "Legendary Artifact Creature — Human",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/ac318a61-40c5-4772-b8a6-6843dfb62ef4.png?1697728821",
+        :collector-number "421",
+        :layout "normal",
+        :name "Mr. House, President and CEO",
+        :oracle-text
+        "Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact creature token. If you rolled 6 or higher, instead create that token and a Treasure token.\n{4}, {T}: Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability."}
+ #:card{:type-line "Legendary Artifact Creature — Robot Dog",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a4068c6-b95e-4959-9f3c-d43a7f048f85.png?1697728185",
+        :collector-number "427",
+        :layout "normal",
+        :name "Rex, Cyber-Hound",
+        :oracle-text
+        "Whenever Rex, Cyber-Hound deals combat damage to a player, they mill two cards and you get {E}{E} (two energy counters).\nPay {E}{E}: Choose target creature card in a graveyard. Exile it with a brain counter on it. Activate only as a sorcery.\nRex has all activated abilities of all cards in exile with brain counters on them."}
+ #:card{:type-line "Artifact — Bobblehead",
+        :layout-category :normal,
+        :code "pip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/114600bd-4bf5-4eeb-bb9d-25bfb8a54adc.png?1697728042",
+        :collector-number "1061",
+        :layout "normal",
+        :name "Intelligence Bobblehead",
+        :oracle-text
+        "{T}: Add one mana of any color.\n{5}, {T}: Draw X cards, where X is the number of Bobbleheads you control."}
+ #:card{:type-line "Legendary Creature — Dog",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/2/12956bf2-cea1-40b9-8229-2746fc952755.png?1697726058",
+        :collector-number "1065",
+        :layout "normal",
+        :name "Dogmeat, Ever Loyal",
+        :oracle-text
+        "When Dogmeat enters the battlefield, mill five cards, then return an Aura or Equipment card from your graveyard to your hand.\nWhenever a creature you control that's enchanted or equipped attacks, create a Junk token. (It's an artifact with \"{T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\")"}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/833fe154-fe11-4bef-8194-812cccacd4fb.png?1697726547",
+        :collector-number "1066",
+        :layout "normal",
+        :name "Dr. Madison Li",
+        :oracle-text
+        "Whenever you cast an artifact spell, you get {E} (an energy counter).\n{T}, Pay {E}: Target creature gets +1/+0 and gains trample and haste until end of turn.\n{T}, Pay {E}{E}{E}: Draw a card.\n{T}, Pay {E}{E}{E}{E}{E}: Return target artifact card from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Insect Mutant",
+        :layout-category :normal,
+        :code "pip",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/28686dda-64b0-4ffe-b71a-58e7f901c4eb.png?1697725599",
+        :collector-number "1067",
+        :layout "normal",
+        :name "The Wise Mothman",
+        :oracle-text
+        "Flying\nWhenever The Wise Mothman enters the battlefield or attacks, each player gets a rad counter.\nWhenever one or more nonland cards are milled, put a +1/+1 counter on each of up to X target creatures, where X is the number of nonland cards milled this way."})

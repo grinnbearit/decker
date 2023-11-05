@@ -1,9 +1,316 @@
-(#:card{:type-line "Creature — Phoenix",
+(#:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0eea32dc-dbac-47a9-97b2-311413f1de9d.png?1695422104",
+        :collector-number "31",
+        :layout "normal",
+        :name "Tomik, Distinguished Advokist",
+        :oracle-text
+        "Flying\nLands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.\nYour opponents can't play land cards from graveyards."}
+ #:card{:type-line "Legendary Creature — Homunculus",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/9/79b2c547-0d9e-4fd7-a399-347ad908c70b.png?1695422127",
+        :collector-number "44",
+        :layout "normal",
+        :name "Fblthp, the Lost",
+        :oracle-text
+        "When Fblthp, the Lost enters the battlefield, draw a card. If it entered from your library or was cast from your library, draw two cards instead.\nWhen Fblthp becomes the target of a spell, shuffle Fblthp into its owner's library."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/7/17919445-5b72-4014-9a05-8df4f8d5e80e.png?1695422145",
+        :collector-number "83",
+        :layout "normal",
+        :name "Massacre Girl",
+        :oracle-text
+        "Menace\nWhen Massacre Girl enters the battlefield, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn."}
+ #:card{:type-line "Legendary Creature — Goblin Warrior",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/d/7d00007d-6878-44e9-ab0d-396c25655e56.png?1695422158",
+        :collector-number "114",
+        :layout "normal",
+        :name "Krenko, Mob Boss",
+        :oracle-text
+        "{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d69a3e0-6a2e-475a-964e-0affed1c017d.png?1695422036",
+        :collector-number "133",
+        :layout "normal",
+        :name "Birds of Paradise",
+        :oracle-text "Flying\n{T}: Add one mana of any color."}
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f129569e-b14e-435f-bdb6-138ca67eb922.png?1695422574",
+        :collector-number "164",
+        :layout "normal",
+        :name "Aurelia, Exemplar of Justice",
+        :oracle-text
+        "Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, choose up to one target creature you control. Until end of turn, that creature gets +2/+0, gains trample if it's red, and gains vigilance if it's white."}
+ #:card{:type-line "Legendary Creature — Dragon Wizard",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7be6bedd-8d38-4bd9-aa93-29f88a7f0126.png?1695422219",
+        :collector-number "207",
+        :layout "normal",
+        :name "Niv-Mizzet, Parun",
+        :oracle-text
+        "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet, Parun deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card."}
+ #:card{:type-line "Land — Swamp Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/0994aef4-b341-45f4-8881-523565a5956e.png?1695422241",
+        :collector-number "273",
+        :layout "normal",
+        :name "Blood Crypt",
+        :oracle-text
+        "({T}: Add {B} or {R}.)\nAs Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Island",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9b35c030-029d-4286-ab79-0165c8688c6c.png?1695422264",
+        :collector-number "275",
+        :layout "normal",
+        :name "Breeding Pool",
+        :oracle-text
+        "({T}: Add {G} or {U}.)\nAs Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Plains Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/e/9e26f6ad-c1b8-4ec6-a179-e86ce09824c1.png?1695422282",
+        :collector-number "277",
+        :layout "normal",
+        :name "Godless Shrine",
+        :oracle-text
+        "({T}: Add {W} or {B}.)\nAs Godless Shrine enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Plains Island",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd70adab-39db-4cc9-ae37-a342f9109bec.png?1695422300",
+        :collector-number "280",
+        :layout "normal",
+        :name "Hallowed Fountain",
+        :oracle-text
+        "({T}: Add {W} or {U}.)\nAs Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Swamp Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4a297ec1-0a7c-4f67-936b-d9227767e989.png?1695422318",
+        :collector-number "283",
+        :layout "normal",
+        :name "Overgrown Tomb",
+        :oracle-text
+        "({T}: Add {B} or {G}.)\nAs Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/8076a8c3-7c6c-4636-b5d8-9b09ee95f92c.png?1695422331",
+        :collector-number "285",
+        :layout "normal",
+        :name "Sacred Foundry",
+        :oracle-text
+        "({T}: Add {R} or {W}.)\nAs Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/66d618f4-443c-4a6c-8cbd-5d4ea96b2cd4.png?1695422366",
+        :collector-number "288",
+        :layout "normal",
+        :name "Steam Vents",
+        :oracle-text
+        "({T}: Add {U} or {R}.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/7/872301b2-b6e7-4972-a479-66a7e304c1d3.png?1695422419",
+        :collector-number "289",
+        :layout "normal",
+        :name "Stomping Ground",
+        :oracle-text
+        "({T}: Add {R} or {G}.)\nAs Stomping Ground enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18d2e383-d380-4d18-8aad-bd8ea093a16c.png?1695422470",
+        :collector-number "290",
+        :layout "normal",
+        :name "Temple Garden",
+        :oracle-text
+        "({T}: Add {G} or {W}.)\nAs Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e86eb36-f4cc-4a75-b43a-4dee463a3b33.png?1695422495",
+        :collector-number "291",
+        :layout "normal",
+        :name "Watery Grave",
+        :oracle-text
+        "({T}: Add {U} or {B}.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Swamp Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/2/82c28b20-ee3c-4a0b-af5b-bc2730087e82.png?1695424174",
+        :collector-number "292",
+        :layout "normal",
+        :name "Blood Crypt",
+        :oracle-text
+        "({T}: Add {B} or {R}.)\nAs Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Island",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/cebd6adc-cfb1-4cbb-abf5-9f2913c81898.png?1695424188",
+        :collector-number "293",
+        :layout "normal",
+        :name "Breeding Pool",
+        :oracle-text
+        "({T}: Add {G} or {U}.)\nAs Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Plains Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/55bcad78-7927-4540-a162-51a549e4aba8.png?1695424201",
+        :collector-number "294",
+        :layout "normal",
+        :name "Godless Shrine",
+        :oracle-text
+        "({T}: Add {W} or {B}.)\nAs Godless Shrine enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Plains Island",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/184aa475-ef9f-4510-b724-3fdcfa99f2c2.png?1695424216",
+        :collector-number "295",
+        :layout "normal",
+        :name "Hallowed Fountain",
+        :oracle-text
+        "({T}: Add {W} or {U}.)\nAs Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Swamp Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/a/9a9c01c5-6bca-47ff-91a9-c20f301b2a96.png?1695424233",
+        :collector-number "296",
+        :layout "normal",
+        :name "Overgrown Tomb",
+        :oracle-text
+        "({T}: Add {B} or {G}.)\nAs Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0dd6d927-f149-43b8-9f50-14492db09bec.png?1695424249",
+        :collector-number "297",
+        :layout "normal",
+        :name "Sacred Foundry",
+        :oracle-text
+        "({T}: Add {R} or {W}.)\nAs Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/9/4923062a-91d3-4132-b97c-42139d330d44.png?1695424288",
+        :collector-number "298",
+        :layout "normal",
+        :name "Steam Vents",
+        :oracle-text
+        "({T}: Add {U} or {R}.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d3677117-9b65-4a63-ad84-a633c1ab81fe.png?1695424306",
+        :collector-number "299",
+        :layout "normal",
+        :name "Stomping Ground",
+        :oracle-text
+        "({T}: Add {R} or {G}.)\nAs Stomping Ground enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1aa28b92-6e79-4907-af6b-e153eb60f567.png?1695424336",
+        :collector-number "300",
+        :layout "normal",
+        :name "Temple Garden",
+        :oracle-text
+        "({T}: Add {G} or {W}.)\nAs Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8dcc3080-966d-497e-82c9-a7311630abd2.png?1695424366",
+        :collector-number "301",
+        :layout "normal",
+        :name "Watery Grave",
+        :oracle-text
+        "({T}: Add {U} or {B}.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/aca50272-f6e3-4e8f-b789-31968c554624.png?1695422565",
+        :collector-number "328",
+        :layout "normal",
+        :name "Massacre Girl",
+        :oracle-text
+        "Menace\nWhen Massacre Girl enters the battlefield, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn."}
+ #:card{:type-line "Creature — Phoenix",
         :layout-category :normal,
         :code "rvr",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/e/2/e24601e9-1987-4b21-b917-7172e51bd33a.png?1691490431",
+        "https://cards.scryfall.io/png/front/e/2/e24601e9-1987-4b21-b917-7172e51bd33a.png?1695574530",
         :collector-number "331",
         :layout "normal",
         :name "Arclight Phoenix",
@@ -12,22 +319,229 @@
  #:card{:type-line "Legendary Creature — Goblin Warrior",
         :layout-category :normal,
         :code "rvr",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/6/e6cc97d2-6ad7-45fc-8766-d7297f911057.png?1691256210",
+        "https://cards.scryfall.io/png/front/e/6/e6cc97d2-6ad7-45fc-8766-d7297f911057.png?1695423702",
         :collector-number "335",
         :layout "normal",
         :name "Krenko, Mob Boss",
         :oracle-text
         "{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/9/4910cd53-87dc-4365-9a42-80dd1f77881f.png?1697476104",
+        :collector-number "344",
+        :layout "normal",
+        :name "Birds of Paradise",
+        :oracle-text "Flying\n{T}: Add one mana of any color."}
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/f/6fe3f3a0-46c4-4f91-b8ad-e72fa65558b2.png?1695423745",
+        :collector-number "356",
+        :layout "normal",
+        :name "Aurelia, Exemplar of Justice",
+        :oracle-text
+        "Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, choose up to one target creature you control. Until end of turn, that creature gets +2/+0, gains trample if it's red, and gains vigilance if it's white."}
+ #:card{:type-line "Legendary Creature — Dragon Wizard",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d71e0e3c-2d23-4c1a-a6b5-a6bd2e8267fa.png?1695423766",
+        :collector-number "376",
+        :layout "normal",
+        :name "Niv-Mizzet, Parun",
+        :oracle-text
+        "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet, Parun deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card."}
+ #:card{:type-line "Land — Swamp Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/a/0a4abd89-28d2-4458-81d7-4f3b43fd0184.png?1695423886",
+        :collector-number "397",
+        :layout "normal",
+        :name "Blood Crypt",
+        :oracle-text
+        "({T}: Add {B} or {R}.)\nAs Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Island",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f920e32c-8a4b-4152-be3a-02810f3e5f13.png?1695423902",
+        :collector-number "399",
+        :layout "normal",
+        :name "Breeding Pool",
+        :oracle-text
+        "({T}: Add {G} or {U}.)\nAs Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Plains Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f34831d4-1624-4c95-a08b-baa1e0978742.png?1695423918",
+        :collector-number "401",
+        :layout "normal",
+        :name "Godless Shrine",
+        :oracle-text
+        "({T}: Add {W} or {B}.)\nAs Godless Shrine enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "rvr",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/3/438fb324-2c51-4763-a32a-6e315e9f769c.png?1691256134",
+        "https://cards.scryfall.io/png/front/4/3/438fb324-2c51-4763-a32a-6e315e9f769c.png?1695423928",
         :collector-number "404",
         :layout "normal",
         :name "Hallowed Fountain",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nAs Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."})
+        "({T}: Add {W} or {U}.)\nAs Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Swamp Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/5/15c1114f-5f7c-4ecf-8aac-e48853df008b.png?1695423947",
+        :collector-number "407",
+        :layout "normal",
+        :name "Overgrown Tomb",
+        :oracle-text
+        "({T}: Add {B} or {G}.)\nAs Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a9eb59ea-bddd-4d5f-96e8-0c1f0ce84c11.png?1695423971",
+        :collector-number "409",
+        :layout "normal",
+        :name "Sacred Foundry",
+        :oracle-text
+        "({T}: Add {R} or {W}.)\nAs Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Mountain",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/5575e0ad-a2f5-4e56-bf45-100001d2bdca.png?1695423988",
+        :collector-number "412",
+        :layout "normal",
+        :name "Steam Vents",
+        :oracle-text
+        "({T}: Add {U} or {R}.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Mountain Forest",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/c/cc3390a5-cb7c-40d1-85a7-80a56ba88d53.png?1695424013",
+        :collector-number "413",
+        :layout "normal",
+        :name "Stomping Ground",
+        :oracle-text
+        "({T}: Add {R} or {G}.)\nAs Stomping Ground enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Forest Plains",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/25f1e1bc-b32e-473b-9c6f-4fbe6f657bbf.png?1695424037",
+        :collector-number "414",
+        :layout "normal",
+        :name "Temple Garden",
+        :oracle-text
+        "({T}: Add {G} or {W}.)\nAs Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Land — Island Swamp",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/ef7f4762-4283-4368-948b-e60a29e78a0c.png?1695424055",
+        :collector-number "415",
+        :layout "normal",
+        :name "Watery Grave",
+        :oracle-text
+        "({T}: Add {U} or {B}.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/a/ba14c6fa-0776-4743-96d7-095d83e98670.png?1695424079",
+        :collector-number "417",
+        :layout "normal",
+        :name "Tomik, Distinguished Advokist",
+        :oracle-text
+        "Flying\nLands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.\nYour opponents can't play land cards from graveyards."}
+ #:card{:type-line "Legendary Creature — Homunculus",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/597a8a8f-84ff-4041-9c99-938454a47951.png?1695424103",
+        :collector-number "420",
+        :layout "normal",
+        :name "Fblthp, the Lost",
+        :oracle-text
+        "When Fblthp, the Lost enters the battlefield, draw a card. If it entered from your library or was cast from your library, draw two cards instead.\nWhen Fblthp becomes the target of a spell, shuffle Fblthp into its owner's library."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/4/64cb40e2-437c-42be-949a-f3d203f3229b.png?1696070531",
+        :collector-number "425",
+        :layout "normal",
+        :name "Massacre Girl",
+        :oracle-text
+        "Menace\nWhen Massacre Girl enters the battlefield, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn."}
+ #:card{:type-line "Legendary Creature — Goblin Warrior",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/8056ff64-1bd3-46ae-a0aa-c22305c2b654.png?1695424135",
+        :collector-number "430",
+        :layout "normal",
+        :name "Krenko, Mob Boss",
+        :oracle-text
+        "{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/c/9ca8c7a0-d7c5-414f-8ca9-80e3daf49a5e.png?1695424155",
+        :collector-number "432",
+        :layout "normal",
+        :name "Birds of Paradise",
+        :oracle-text "Flying\n{T}: Add one mana of any color."}
+ #:card{:type-line "Legendary Planeswalker — Ral",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/9/49f219db-b6e2-48bf-a316-b57736e09ae9.png?1695761681",
+        :collector-number "445",
+        :layout "normal",
+        :name "Ral Zarek",
+        :oracle-text
+        "+1: Tap target permanent, then untap another target permanent.\n−2: Ral Zarek deals 3 damage to any target.\n−7: Flip five coins. Take an extra turn after this one for each coin that comes up heads."}
+ #:card{:type-line "Legendary Creature — Dragon Wizard",
+        :layout-category :normal,
+        :code "rvr",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4aecb119-b2da-456e-9ddd-49e8de02d21c.png?1697143882",
+        :collector-number "467",
+        :layout "normal",
+        :name "Niv-Mizzet, the Firemind",
+        :oracle-text
+        "Flying\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.\n{T}: Draw a card."})

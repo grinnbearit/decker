@@ -1,39 +1,235 @@
-(#:card{:type-line "Token Creature — Human",
+(#:card{:type-line "Token",
         :layout-category :normal,
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/9/d9ed2bb3-93b9-43a3-8b4a-97dc746f3d2b.png?1690556167",
+        "https://cards.scryfall.io/png/front/8/c/8cd96dce-0cc4-4417-bec1-863b2c44f844.png?1696546791",
+        :collector-number "1",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Alien",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/2/92520769-1e59-45d0-bfe9-cbaf80a4591e.png?1696547113",
+        :collector-number "2",
+        :layout "token",
+        :name "Alien",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Alien Rhino",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/8/68243f3e-c311-47cf-b1f4-583625919a2c.png?1696547723",
+        :collector-number "3",
+        :layout "token",
+        :name "Alien Rhino",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Horse",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e29c393-6d89-481d-8f33-19c61c46621a.png?1696547202",
+        :collector-number "4",
+        :layout "token",
+        :name "Horse",
+        :oracle-text
+        "Doctors you control have horsemanship. (They can't be blocked except by creatures with horsemanship.)"}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/9/d9ed2bb3-93b9-43a3-8b4a-97dc746f3d2b.png?1696546576",
         :collector-number "5",
-        :layout "normal",
+        :layout "token",
         :name "Human",
         :oracle-text "Doctor spells you cast cost {1} less to cast."}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/abaff2e5-32b2-404b-a4a9-2612062f6499.png?1696547359",
+        :collector-number "6",
+        :layout "token",
+        :name "Human",
+        :oracle-text
+        "Ward 2 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2.)"}
+ #:card{:type-line "Token Creature — Human Noble",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4d1bb221-bf45-4ce2-b38e-b121859235ad.png?1696547649",
+        :collector-number "7",
+        :layout "token",
+        :name "Human Noble",
+        :oracle-text
+        "Vanishing 3\nPrevent all damage that would be dealt to this creature."}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/3/93c2a3ff-a2f6-40c1-a246-0041c6145fc0.png?1696546926",
+        :collector-number "8",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/41567b9a-80cf-44fc-9c82-5a5f95014428.png?1696625023",
+        :collector-number "9",
+        :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Fish",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/297fc694-08f6-4477-b898-60ec641a0757.png?1696547039",
+        :collector-number "10",
+        :layout "token",
+        :name "Fish",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Alien Angel",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/6/b65e872a-ba16-4df2-9214-60019fd6456a.png?1697475733",
+        :collector-number "11",
+        :layout "token",
+        :name "Alien Angel",
+        :oracle-text
+        "First strike, vigilance\nWhenever an opponent casts a creature spell, this permanent isn't a creature until end of turn."}
  #:card{:type-line "Token Artifact Creature — Dalek",
         :layout-category :normal,
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/1/f176f6ec-1ff8-4cd4-b7a6-b95830532f6a.png?1689902180",
+        "https://cards.scryfall.io/png/front/f/1/f176f6ec-1ff8-4cd4-b7a6-b95830532f6a.png?1696625378",
         :collector-number "12",
         :layout "token",
         :name "Dalek",
         :oracle-text "Menace"}
+ #:card{:type-line "Token Creature — Human Rogue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/a/3a8b8e1c-ea36-4b5a-91a0-a15d109cc25a.png?1696625230",
+        :collector-number "13",
+        :layout "token",
+        :name "Human Rogue",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Alien Warrior",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/6155e7ce-3e8c-4bb3-941d-dac686d4eb57.png?1696546993",
+        :collector-number "14",
+        :layout "token",
+        :name "Alien Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Enchantment — Aura",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7a4c1206-c36f-4fb4-9014-e8a822c97085.png?1696601466",
+        :collector-number "15",
+        :layout "token",
+        :name "Mark of the Rani",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded."}
+ #:card{:type-line "Token Creature — Alien Salamander",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/db45133d-ce37-42b4-b068-fbcc8be0e907.png?1696625268",
+        :collector-number "16",
+        :layout "token",
+        :name "Alien Salamander",
+        :oracle-text "Islandwalk"}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/a/5aaf1eac-279f-4264-93f6-9058a6a83d0a.png?1696546841",
+        :collector-number "17",
+        :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Mutant",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/f/6fa61fa5-f0ca-4933-ac57-9db95f891889.png?1696625301",
+        :collector-number "18",
+        :layout "token",
+        :name "Mutant",
+        :oracle-text "Deathtouch"}
  #:card{:type-line "Token Creature — Alien Insect",
         :layout-category :normal,
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/0/609bcaff-c903-40ce-9b3e-bb7b07bb9125.png?1689901816",
+        "https://cards.scryfall.io/png/front/6/0/609bcaff-c903-40ce-9b3e-bb7b07bb9125.png?1696625166",
         :collector-number "19",
         :layout "token",
         :name "Alien Insect",
         :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Dinosaur",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/9/890d9d05-3be1-467c-9b6f-a2fd9f907657.png?1696547736",
+        :collector-number "20",
+        :layout "token",
+        :name "Dinosaur",
+        :oracle-text "Flying, haste"}
  #:card{:type-line "Token Artifact — Clue",
         :layout-category :normal,
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/2/a2c5cf37-da4d-481f-a7d6-975a05798201.png?1689901748",
+        "https://cards.scryfall.io/png/front/0/0/008f776f-c7ce-47ed-bc04-2ab9f9bcd8ae.png?1696625109",
+        :collector-number "21",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0de94d6e-2c7c-46d8-897d-4f0e56cc583b.png?1696546667",
+        :collector-number "22",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a2c5cf37-da4d-481f-a7d6-975a05798201.png?1696546594",
         :collector-number "23",
         :layout "token",
         :name "Clue",
@@ -43,7 +239,7 @@
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/b/9bc273b8-05bb-4c8f-92b1-c178d4bbadb0.png?1690552234",
+        "https://cards.scryfall.io/png/front/9/b/9bc273b8-05bb-4c8f-92b1-c178d4bbadb0.png?1696625075",
         :collector-number "24",
         :layout "token",
         :name "Cyberman",
@@ -52,9 +248,9 @@
  #:card{:type-line "Token Artifact — Food",
         :layout-category :normal,
         :code "twho",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/8/883a8ba9-6a3c-4f3b-876e-ec47a08dbb8a.png?1690556524",
+        "https://cards.scryfall.io/png/front/8/8/883a8ba9-6a3c-4f3b-876e-ec47a08dbb8a.png?1696625047",
         :collector-number "25",
         :layout "token",
         :name "Food",
@@ -65,8 +261,19 @@
         :code "twho",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/2/b2a31a8f-5576-4ab7-bc3b-778a252d4c10.png?1689901700",
+        "https://cards.scryfall.io/png/front/b/2/b2a31a8f-5576-4ab7-bc3b-778a252d4c10.png?1696546603",
         :collector-number "26",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/c/dc1660fd-ef35-4b95-b901-af3dda687f08.png?1696546763",
+        :collector-number "27",
         :layout "token",
         :name "Food",
         :oracle-text
@@ -81,4 +288,383 @@
         :layout "token",
         :name "Treasure",
         :oracle-text
-        "{T}, Sacrifice this artifact: Add one mana of any color."})
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f40ce40c-0744-4976-9855-b7a7b08fdac4.png?1696546714",
+        :collector-number "29",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/4/64159e56-a781-416d-a071-41a7b0c8263b.png?1696546690",
+        :collector-number "30",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/77825935-2f71-4bd1-8ec7-9e8be26853c0.png?1696601544",
+        :collector-number "31",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Creature — Human Alien Shapeshifter",
+        :layout-category :normal,
+        :code "twho",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3b3d0482-c747-4eca-947b-9af1a2cc9b29.png?1696547580",
+        :collector-number "32",
+        :layout "token",
+        :name "Osgood, Operation Double",
+        :oracle-text
+        "{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact.\nParadox — Whenever you cast a spell from anywhere other than your hand, investigate.\n(This token's mana cost is {2}{U}{U}.)"}
+ #:card{:type-line "Token",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/7/87d9dfbb-1bd8-4e7b-9945-498fde093d6c.png?1697824320",
+        :collector-number "33",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Alien",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/c/2ce150eb-7d3d-4882-8e1a-2eafe9d9b356.png?1697824283",
+        :collector-number "34",
+        :layout "token",
+        :name "Alien",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Alien Rhino",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/2/b28cb34f-04c3-4cb8-9d4c-90c98b11bfe3.png?1697824553",
+        :collector-number "35",
+        :layout "token",
+        :name "Alien Rhino",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Horse",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/dea25527-2c98-4c6b-ac1c-cabf69fda851.png?1697824540",
+        :collector-number "36",
+        :layout "token",
+        :name "Horse",
+        :oracle-text
+        "Doctors you control have horsemanship. (They can't be blocked except by creatures with horsemanship.)"}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/30fe939f-c680-403f-a5be-0f0cca020ef2.png?1697824527",
+        :collector-number "37",
+        :layout "token",
+        :name "Human",
+        :oracle-text "Doctor spells you cast cost {1} less to cast."}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/65b58706-9140-4908-b613-702e607b7d8b.png?1697824517",
+        :collector-number "38",
+        :layout "token",
+        :name "Human",
+        :oracle-text
+        "Ward 2 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2.)"}
+ #:card{:type-line "Token Creature — Human Noble",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/2/1207efdc-c416-4918-80d9-8b18905eaa90.png?1697824504",
+        :collector-number "39",
+        :layout "token",
+        :name "Human Noble",
+        :oracle-text
+        "Vanishing 3\nPrevent all damage that would be dealt to this creature."}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29c10957-0b04-4a7b-879f-76d70f023818.png?1697824496",
+        :collector-number "40",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/b/1b566e0d-5680-4b06-8360-b722beedef2e.png?1697824484",
+        :collector-number "41",
+        :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Fish",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/779b2dbe-70d9-4690-b05e-e828197f3afa.png?1697824470",
+        :collector-number "42",
+        :layout "token",
+        :name "Fish",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Alien Angel",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/9/d928b9e7-2b21-4fd3-bb33-d69c0e91b415.png?1697824462",
+        :collector-number "43",
+        :layout "token",
+        :name "Alien Angel",
+        :oracle-text
+        "First strike, vigilance\nWhenever an opponent casts a creature spell, this permanent isn't a creature until end of turn."}
+ #:card{:type-line "Token Artifact Creature — Dalek",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/f/8fde90b3-cd39-4ac5-b326-9ecc3d7d0d04.png?1697824450",
+        :collector-number "44",
+        :layout "token",
+        :name "Dalek",
+        :oracle-text "Menace"}
+ #:card{:type-line "Token Creature — Human Rogue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/7/578a760b-26c7-4cbb-892a-7d8f2a92ece3.png?1697824440",
+        :collector-number "45",
+        :layout "token",
+        :name "Human Rogue",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Alien Warrior",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/aba581b6-1866-4f5c-9785-98a14ec84ebc.png?1697824431",
+        :collector-number "46",
+        :layout "token",
+        :name "Alien Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Enchantment — Aura",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/da780e8b-55a9-4fbe-b37f-b7b9043f9cdf.png?1697824419",
+        :collector-number "47",
+        :layout "token",
+        :name "Mark of the Rani",
+        :oracle-text
+        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded."}
+ #:card{:type-line "Token Creature — Alien Salamander",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/248f247c-edb7-438a-b004-be3d4fcd3d3f.png?1697824410",
+        :collector-number "48",
+        :layout "token",
+        :name "Alien Salamander",
+        :oracle-text "Islandwalk"}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/3/0375ff38-d2db-4866-a979-3fe94b286405.png?1697824391",
+        :collector-number "49",
+        :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Mutant",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/2/b2e4fa4c-b68c-406c-80af-97257518a884.png?1697824722",
+        :collector-number "50",
+        :layout "token",
+        :name "Mutant",
+        :oracle-text "Deathtouch"}
+ #:card{:type-line "Token Creature — Alien Insect",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c832e03c-111a-409e-a88c-6edbb528a239.png?1697824714",
+        :collector-number "51",
+        :layout "token",
+        :name "Alien Insect",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Dinosaur",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/3406b2d4-d227-4b03-801f-38230161c708.png?1697824702",
+        :collector-number "52",
+        :layout "token",
+        :name "Dinosaur",
+        :oracle-text "Flying, haste"}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/a/0ad1e6e0-c2e6-4a03-9ee0-a3643801e7c8.png?1697824694",
+        :collector-number "53",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7aa00d7c-359c-4c80-9d71-f9e39e87829b.png?1697824685",
+        :collector-number "54",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/1145be5c-62f5-43ef-8dea-3a1e85ad9b72.png?1697824677",
+        :collector-number "55",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Artifact Creature — Cyberman",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/9/392db1d2-9d75-4d19-88e0-9b0ffdc88541.png?1697824660",
+        :collector-number "56",
+        :layout "token",
+        :name "Cyberman",
+        :oracle-text
+        "(You can cover a face-down creature that has become a Cyberman with this reminder card. It's a 2/2 Cyberman artifact creature.)"}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b7db322-83fb-49ae-bb03-509d516adc12.png?1697824651",
+        :collector-number "57",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e36bd92-5cec-46a5-9ab3-ce4c81574770.png?1697824642",
+        :collector-number "58",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be99852d-54f7-42bd-b2a2-e123302650eb.png?1697824634",
+        :collector-number "59",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/4656467d-947e-43cd-81cb-19ebd504d156.png?1697824621",
+        :collector-number "60",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/e/9e7db254-48c7-4870-b060-70050908abff.png?1697824613",
+        :collector-number "61",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3e1e7e9c-cd70-40a6-a0cd-8dbd5db23d06.png?1697824600",
+        :collector-number "62",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd31e197-a322-4310-95a9-67f806f904a6.png?1697824583",
+        :collector-number "63",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Creature — Human Alien Shapeshifter",
+        :layout-category :normal,
+        :code "twho",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e7c9567-4e2a-4537-b391-5ce509f34382.png?1697824566",
+        :collector-number "64",
+        :layout "token",
+        :name "Osgood, Operation Double",
+        :oracle-text
+        "{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact.\nParadox — Whenever you cast a spell from anywhere other than your hand, investigate.\n(This token's mana cost is {2}{U}{U}.)"})

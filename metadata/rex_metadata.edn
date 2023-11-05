@@ -1,0 +1,527 @@
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1d06f729-990b-4c2c-ad2a-c17449117f75.png?1698988731",
+        :collector-number "1",
+        :layout "normal",
+        :name "Don't Move",
+        :oracle-text
+        "Destroy all tapped creatures. Until your next turn, whenever a creature becomes tapped, destroy it."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/6/b6011e4b-a8a7-4cad-a276-c1022b45edc3.png?1698988734",
+        :collector-number "2",
+        :layout "normal",
+        :name "Cresting Mosasaurus",
+        :oracle-text
+        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen Cresting Mosasaurus enters the battlefield, if you cast it, return each non-Dinosaur creature to its owner's hand."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f4f0c479-5fd1-45c2-af3f-15b6e5811b0f.png?1698988736",
+        :collector-number "3",
+        :layout "normal",
+        :name "Spitting Dilophosaurus",
+        :oracle-text
+        "Whenever Spitting Dilophosaurus enters the battlefield or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/2/e2c5c161-49c5-404d-bd8e-86e634222232.png?1698988738",
+        :collector-number "4",
+        :layout "normal",
+        :name "Hunting Velociraptor",
+        :oracle-text
+        "First strike\nDinosaur spells you cast have prowl {2}{R}. (You may cast a spell for its prowl cost if you dealt combat damage to a player this turn with a creature with any of its creature types.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/72137cda-ab1b-4bb7-9190-66a954c36e1e.png?1698988740",
+        :collector-number "5",
+        :layout "normal",
+        :name "Life Finds a Way",
+        :oracle-text
+        "Whenever a nontoken creature with power 4 or greater enters the battlefield under your control, populate. (Create a token that's a copy of a creature token you control.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/5/f571ef55-50dd-4624-aa42-fea5a0303033.png?1698988745",
+        :collector-number "6",
+        :layout "normal",
+        :name "Savage Order",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature with power 4 or greater.\nSearch your library for a Dinosaur creature card, put it onto the battlefield, then shuffle. It gains indestructible until your next turn."}
+ #:card{:code "rex",
+        :collector-number "7",
+        :name "Welcome to . . . // Jurassic Park",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/d/6d84e2d4-38bf-4d46-99a6-37c2dda66b16.png?1698988748",
+          :type-line "Enchantment — Saga",
+          :oracle-text
+          "(As this Saga enters and after your draw step, add a lore counter.)\nI — For each opponent, up to one target noncreature artifact they control becomes a 0/4 Wall artifact creature with defender for as long as you control this Saga.\nII — Create a 3/3 green Dinosaur creature token with trample. It gains haste until end of turn.\nIII — Destroy all Walls. Exile this Saga, then return it to the battlefield transformed under your control."}
+         {:png
+          "https://cards.scryfall.io/png/back/6/d/6d84e2d4-38bf-4d46-99a6-37c2dda66b16.png?1698988748",
+          :type-line "Legendary Land",
+          :oracle-text
+          "(Transforms from Welcome to ....)\nEach Dinosaur card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\n{T}: Add {G} for each Dinosaur you control."}]}
+ #:card{:type-line "Legendary Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/a/0a764ec9-6a30-4df3-91b4-c64fd8e32fa0.png?1698988752",
+        :collector-number "8",
+        :layout "normal",
+        :name "Blue, Loyal Raptor",
+        :oracle-text
+        "Partner with Owen Grady, Raptor Trainer (When this creature enters the battlefield, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters the battlefield with a counter of that kind on it."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/800871ee-7394-4a31-98a7-4b92860208a1.png?1698988753",
+        :collector-number "9",
+        :layout "normal",
+        :name "Compy Swarm",
+        :oracle-text
+        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of Compy Swarm."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/4/c40b25d7-73c9-4f30-a707-5afb08185a8d.png?1698988755",
+        :collector-number "10",
+        :layout "normal",
+        :name "Ellie and Alan, Paleontologists",
+        :oracle-text
+        "{T}, Exile a creature card from your graveyard: Discover X, where X is the mana value of the exiled card. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae30b824-9586-413b-b925-ce6f915bf7e5.png?1698988759",
+        :collector-number "11",
+        :layout "normal",
+        :name "Grim Giganotosaurus",
+        :oracle-text
+        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen Grim Giganotosaurus becomes monstrous, destroy all artifacts and creatures other than Grim Giganotosaurus."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b67d302-ddaa-4627-adc8-86bb665f69ad.png?1698988761",
+        :collector-number "12",
+        :layout "normal",
+        :name "Henry Wu, InGen Geneticist",
+        :oracle-text
+        "Henry Wu, InGen Geneticist and other Human creatures you control have exploit. (When a creature with exploit enters the battlefield, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/4/b4a0402e-e39b-4008-b654-189b4a5e03a3.png?1698988761",
+        :collector-number "13",
+        :layout "normal",
+        :name "Ian Malcolm, Chaotician",
+        :oracle-text
+        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, Chaotician, and mana of any type can be spent to cast it."}
+ #:card{:type-line "Legendary Creature — Dinosaur Mutant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/25e6ebfb-8f0b-44f0-a911-103ade41c6bc.png?1698988767",
+        :collector-number "14",
+        :layout "normal",
+        :name "Indominus Rex, Alpha",
+        :oracle-text
+        "As Indominus Rex, Alpha enters the battlefield, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters the battlefield, draw a card for each counter on it."}
+ #:card{:type-line "Legendary Creature — Dinosaur Mutant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/8/3826e2af-c134-4dc1-98b5-574b1bda9a98.png?1698988768",
+        :collector-number "15",
+        :layout "normal",
+        :name "Indoraptor, the Perfect Hybrid",
+        :oracle-text
+        "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor, the Perfect Hybrid is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature."}
+ #:card{:type-line "Legendary Creature — Human Soldier Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a85a1e4c-af02-4072-872f-956fa74f8aa6.png?1698988768",
+        :collector-number "16",
+        :layout "normal",
+        :name "Owen Grady, Raptor Trainer",
+        :oracle-text
+        "Partner with Blue, Loyal Raptor\n{T}: Put your choice of a menace, trample, reach, or haste counter on target Dinosaur. Activate only as a sorcery."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c3e8dd5a-d52d-481d-b48c-1392462beb33.png?1698988775",
+        :collector-number "17",
+        :layout "normal",
+        :name "Permission Denied",
+        :oracle-text
+        "Counter target noncreature spell. Your opponents can't cast noncreature spells this turn."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2be38927-637b-4dce-b228-83ce4f50c4a4.png?1698988775",
+        :collector-number "18",
+        :layout "normal",
+        :name "Ravenous Tyrannosaurus",
+        :oracle-text
+        "Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)\nWhenever Ravenous Tyrannosaurus attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/3/43aa5d97-7483-4f90-998d-70732a7ae1dc.png?1698993174",
+        :collector-number "19",
+        :layout "normal",
+        :name "Swooping Pteranodon",
+        :oracle-text
+        "Flying, haste\nWhenever Swooping Pteranodon or another Dinosaur with flying enters the battlefield under your control, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ceb287d3-cb8e-4ff2-8082-c0bd59c59b45.png?1698988782",
+        :collector-number "20",
+        :layout "normal",
+        :name "Dino DNA",
+        :oracle-text
+        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with Dino DNA, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."}
+ #:card{:code "rex",
+        :collector-number "21",
+        :name "Plains // Plains",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/6/6/6620b5f4-b1e5-4d1b-bbf2-c6ad9c8284c5.png?1698992840",
+          :type-line "Basic Land — Plains",
+          :oracle-text "({T}: Add {W}.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/6/6/6620b5f4-b1e5-4d1b-bbf2-c6ad9c8284c5.png?1698992840",
+          :type-line "Basic Land — Plains",
+          :oracle-text "({T}: Add {W}.)"}]}
+ #:card{:code "rex",
+        :collector-number "22",
+        :name "Island // Island",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/7/6/76c343f5-6955-4ba2-a435-36d55182d1dd.png?1698992855",
+          :type-line "Basic Land — Island",
+          :oracle-text "({T}: Add {U}.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/7/6/76c343f5-6955-4ba2-a435-36d55182d1dd.png?1698992855",
+          :type-line "Basic Land — Island",
+          :oracle-text "({T}: Add {U}.)"}]}
+ #:card{:code "rex",
+        :collector-number "23",
+        :name "Swamp // Swamp",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/4/843b35ec-7b59-4a22-8fee-2e876a02306b.png?1698992870",
+          :type-line "Basic Land — Swamp",
+          :oracle-text "({T}: Add {B}.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/8/4/843b35ec-7b59-4a22-8fee-2e876a02306b.png?1698992870",
+          :type-line "Basic Land — Swamp",
+          :oracle-text "({T}: Add {B}.)"}]}
+ #:card{:code "rex",
+        :collector-number "24",
+        :name "Mountain // Mountain",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/a/a/aae84079-b65b-4132-86fb-e82503bb6c7b.png?1698992885",
+          :type-line "Basic Land — Mountain",
+          :oracle-text "({T}: Add {R}.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/a/a/aae84079-b65b-4132-86fb-e82503bb6c7b.png?1698992885",
+          :type-line "Basic Land — Mountain",
+          :oracle-text "({T}: Add {R}.)"}]}
+ #:card{:code "rex",
+        :collector-number "25",
+        :name "Forest // Forest",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/7/e/7e703632-5ed0-4509-a12b-594269f865f1.png?1698992898",
+          :type-line "Basic Land — Forest",
+          :oracle-text "({T}: Add {G}.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/7/e/7e703632-5ed0-4509-a12b-594269f865f1.png?1698992898",
+          :type-line "Basic Land — Forest",
+          :oracle-text "({T}: Add {G}.)"}]}
+ #:card{:code "rex",
+        :collector-number "26",
+        :name "Command Tower // Command Tower",
+        :layout "reversible_card",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/b/f/bffbe9ec-edbc-43ed-a3bf-60635e7e625c.png?1698992913",
+          :type-line "Land",
+          :oracle-text
+          "{T}: Add one mana of any color in your commander's color identity."}
+         {:png
+          "https://cards.scryfall.io/png/back/b/f/bffbe9ec-edbc-43ed-a3bf-60635e7e625c.png?1698992913",
+          :type-line "Land",
+          :oracle-text
+          "{T}: Add one mana of any color in your commander's color identity."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/ebcadd5b-bc0a-4a0b-b04f-7f49e50373b2.png?1698988782",
+        :collector-number "27",
+        :layout "normal",
+        :name "Don't Move",
+        :oracle-text
+        "Destroy all tapped creatures. Until your next turn, whenever a creature becomes tapped, destroy it."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4de4a3a6-f50d-4fea-80a4-5615266189f1.png?1698988784",
+        :collector-number "28",
+        :layout "normal",
+        :name "Cresting Mosasaurus",
+        :oracle-text
+        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen Cresting Mosasaurus enters the battlefield, if you cast it, return each non-Dinosaur creature to its owner's hand."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd062615-648f-4cc7-9373-520f3f6a90e3.png?1698992401",
+        :collector-number "29",
+        :layout "normal",
+        :name "Spitting Dilophosaurus",
+        :oracle-text
+        "Whenever Spitting Dilophosaurus enters the battlefield or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/419ef4a1-20d2-4770-99a5-7673518d0b86.png?1698988788",
+        :collector-number "30",
+        :layout "normal",
+        :name "Hunting Velociraptor",
+        :oracle-text
+        "First strike\nDinosaur spells you cast have prowl {2}{R}. (You may cast a spell for its prowl cost if you dealt combat damage to a player this turn with a creature with any of its creature types.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/d/5d095694-9016-4b1b-81d0-ffa1fc7662a3.png?1698988789",
+        :collector-number "31",
+        :layout "normal",
+        :name "Life Finds a Way",
+        :oracle-text
+        "Whenever a nontoken creature with power 4 or greater enters the battlefield under your control, populate. (Create a token that's a copy of a creature token you control.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e01e2ded-f3ed-41c2-b200-6573d2c15611.png?1698988793",
+        :collector-number "32",
+        :layout "normal",
+        :name "Savage Order",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature with power 4 or greater.\nSearch your library for a Dinosaur creature card, put it onto the battlefield, then shuffle. It gains indestructible until your next turn."}
+ #:card{:type-line "Legendary Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f197b176-8fa0-451b-a981-a7a942890296.png?1698988796",
+        :collector-number "33",
+        :layout "normal",
+        :name "Blue, Loyal Raptor",
+        :oracle-text
+        "Partner with Owen Grady, Raptor Trainer (When this creature enters the battlefield, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters the battlefield with a counter of that kind on it."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/801b3fc9-722d-497a-a1ae-c3a158d5ca64.png?1698988797",
+        :collector-number "34",
+        :layout "normal",
+        :name "Compy Swarm",
+        :oracle-text
+        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of Compy Swarm."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a4c6aac8-2852-4948-9be1-b458f646f6c6.png?1698988801",
+        :collector-number "35",
+        :layout "normal",
+        :name "Ellie and Alan, Paleontologists",
+        :oracle-text
+        "{T}, Exile a creature card from your graveyard: Discover X, where X is the mana value of the exiled card. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/0/00d7d3e5-ae59-497b-a376-8a553f2020eb.png?1698988803",
+        :collector-number "36",
+        :layout "normal",
+        :name "Grim Giganotosaurus",
+        :oracle-text
+        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen Grim Giganotosaurus becomes monstrous, destroy all artifacts and creatures other than Grim Giganotosaurus."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/4/c4150d37-36f2-49ba-8830-0bfa1d4df6e3.png?1698988805",
+        :collector-number "37",
+        :layout "normal",
+        :name "Henry Wu, InGen Geneticist",
+        :oracle-text
+        "Henry Wu, InGen Geneticist and other Human creatures you control have exploit. (When a creature with exploit enters the battlefield, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
+ #:card{:type-line "Legendary Creature — Human Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/311b5a21-544c-4096-87cd-17e5a8c4b0fc.png?1698991006",
+        :collector-number "38",
+        :layout "normal",
+        :name "Ian Malcolm, Chaotician",
+        :oracle-text
+        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, Chaotician, and mana of any type can be spent to cast it."}
+ #:card{:type-line "Legendary Creature — Dinosaur Mutant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/9113178d-7e2e-4248-a338-f3b5f0bad301.png?1698991013",
+        :collector-number "39",
+        :layout "normal",
+        :name "Indominus Rex, Alpha",
+        :oracle-text
+        "As Indominus Rex, Alpha enters the battlefield, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters the battlefield, draw a card for each counter on it."}
+ #:card{:type-line "Legendary Creature — Dinosaur Mutant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/194406d0-7065-4c28-9771-52c179ce4d94.png?1698988809",
+        :collector-number "40",
+        :layout "normal",
+        :name "Indoraptor, the Perfect Hybrid",
+        :oracle-text
+        "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor, the Perfect Hybrid is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature."}
+ #:card{:type-line "Legendary Creature — Human Soldier Scientist",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d69d3be4-3ab2-426e-90a0-848acf7c2cdb.png?1698988811",
+        :collector-number "41",
+        :layout "normal",
+        :name "Owen Grady, Raptor Trainer",
+        :oracle-text
+        "Partner with Blue, Loyal Raptor\n{T}: Put your choice of a menace, trample, reach, or haste counter on target Dinosaur. Activate only as a sorcery."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/678ad86d-6b2b-4e66-a535-9fc696cfa4ab.png?1698988812",
+        :collector-number "42",
+        :layout "normal",
+        :name "Permission Denied",
+        :oracle-text
+        "Counter target noncreature spell. Your opponents can't cast noncreature spells this turn."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/4/64d141ed-31ed-4d05-9338-8bb7ff05d382.png?1698991017",
+        :collector-number "43",
+        :layout "normal",
+        :name "Ravenous Tyrannosaurus",
+        :oracle-text
+        "Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)\nWhenever Ravenous Tyrannosaurus attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
+ #:card{:type-line "Creature — Dinosaur",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/33e9046c-6b87-429a-ac67-43b166469265.png?1698993183",
+        :collector-number "44",
+        :layout "normal",
+        :name "Swooping Pteranodon",
+        :oracle-text
+        "Flying, haste\nWhenever Swooping Pteranodon or another Dinosaur with flying enters the battlefield under your control, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "rex",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/5/f5f192d0-6265-41a7-8d95-4cbe48d1657f.png?1698988818",
+        :collector-number "45",
+        :layout "normal",
+        :name "Dino DNA",
+        :oracle-text
+        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with Dino DNA, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."})
