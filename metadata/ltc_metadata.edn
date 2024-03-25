@@ -1400,7 +1400,7 @@
         :code "ltc",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/5/e/5e5cade0-de63-402e-8397-eabb74730494.png?1686964927",
+        "https://cards.scryfall.io/png/front/5/e/5e5cade0-de63-402e-8397-eabb74730494.png?1709431651",
         :collector-number "128",
         :layout "normal",
         :name "Windswift Slice",
@@ -2058,7 +2058,7 @@
         :layout "normal",
         :name "Consider",
         :oracle-text
-        "Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDraw a card."}
+        "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ltc",
@@ -2743,7 +2743,7 @@
         :layout "normal",
         :name "Hornet Queen",
         :oracle-text
-        "Flying\nDeathtouch\nWhen Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch."}
+        "Flying, deathtouch\nWhen Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ltc",
@@ -2941,7 +2941,7 @@
         :layout "normal",
         :name "Hostage Taker",
         :oracle-text
-        "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast it."}
+        "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ltc",
@@ -3531,7 +3531,7 @@
         :layout "normal",
         :name "Path of Ancestry",
         :oracle-text
-        "Path of Ancestry enters the battlefield tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Path of Ancestry enters the battlefield tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
@@ -3619,7 +3619,7 @@
         :layout "normal",
         :name "Secluded Courtyard",
         :oracle-text
-        "As Secluded Courtyard enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type."}
+        "As Secluded Courtyard enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature source of the chosen type."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
@@ -4145,6 +4145,17 @@
         :name "The Great Henge",
         :oracle-text
         "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\n{T}: Add {G}{G}. You gain 2 life.\nWhenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/190ab58b-88cc-4baf-a843-d1b2710c14a8.png?1701085312",
+        :collector-number "378z",
+        :layout "normal",
+        :name "The Great Henge",
+        :oracle-text
+        "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\n{T}: Add {G}{G}. You gain 2 life.\nWhenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ltc",
@@ -4152,6 +4163,17 @@
         :png
         "https://cards.scryfall.io/png/front/7/e/7e17b533-d45a-44a1-aa56-eaf18ff4bb71.png?1687425492",
         :collector-number "379",
+        :layout "normal",
+        :name "Cloudstone Curio",
+        :oracle-text
+        "Whenever a nonartifact permanent enters the battlefield under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/7/5770803f-e3bb-45eb-8859-0ff4d9255b2b.png?1701084460",
+        :collector-number "379z",
         :layout "normal",
         :name "Cloudstone Curio",
         :oracle-text
@@ -4167,6 +4189,17 @@
         :name "Ensnaring Bridge",
         :oracle-text
         "Creatures with power greater than the number of cards in your hand can't attack."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/5/f/5f24a880-09bf-4a75-a367-23be13dbf4ed.png?1701084491",
+        :collector-number "380z",
+        :layout "normal",
+        :name "Ensnaring Bridge",
+        :oracle-text
+        "Creatures with power greater than the number of cards in your hand can't attack."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "ltc",
@@ -4174,6 +4207,17 @@
         :png
         "https://cards.scryfall.io/png/front/7/d/7d9df3ce-25f9-426c-a113-6aea53ddf619.png?1687438132",
         :collector-number "381",
+        :layout "normal",
+        :name "The Ozolith",
+        :oracle-text
+        "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.\nAt the beginning of combat on your turn, if The Ozolith has counters on it, you may move all counters from The Ozolith onto target creature."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/f/1fac900d-c40d-4f33-9ae5-45e31e5ce66c.png?1701085444",
+        :collector-number "381z",
         :layout "normal",
         :name "The Ozolith",
         :oracle-text
@@ -4189,6 +4233,17 @@
         :name "Rings of Brighthearth",
         :oracle-text
         "Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/e/ee977d30-f37d-4879-be52-c57d50922465.png?1701084893",
+        :collector-number "382z",
+        :layout "normal",
+        :name "Rings of Brighthearth",
+        :oracle-text
+        "Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "ltc",
@@ -4196,6 +4251,17 @@
         :png
         "https://cards.scryfall.io/png/front/b/1/b1a74aab-dcf2-426d-9cc5-9ef771d8227a.png?1687425626",
         :collector-number "383",
+        :layout "normal",
+        :name "Shadowspear",
+        :oracle-text
+        "Equipped creature gets +1/+1 and has trample and lifelink.\n{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.\nEquip {2}"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/9/a/9adf5196-41e9-401c-8ccf-abfad0350f87.png?1701085146",
+        :collector-number "383z",
         :layout "normal",
         :name "Shadowspear",
         :oracle-text
@@ -4211,6 +4277,17 @@
         :name "Sword of Hearth and Home",
         :oracle-text
         "Equipped creature gets +2/+2 and has protection from green and from white.\nWhenever equipped creature deals combat damage to a player, exile up to one target creature you own, then search your library for a basic land card. Put both cards onto the battlefield under your control, then shuffle.\nEquip {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/5/3543a80e-251b-498a-bf5e-ee2a2e9166e2.png?1701085231",
+        :collector-number "384z",
+        :layout "normal",
+        :name "Sword of Hearth and Home",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from green and from white.\nWhenever equipped creature deals combat damage to a player, exile up to one target creature you own, then search your library for a basic land card. Put both cards onto the battlefield under your control, then shuffle.\nEquip {2}"}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "ltc",
@@ -4222,6 +4299,17 @@
         :name "Sword of the Animist",
         :oracle-text
         "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/85ff8012-5d11-43bf-9f77-5d0179dc775e.png?1701085268",
+        :collector-number "385z",
+        :layout "normal",
+        :name "Sword of the Animist",
+        :oracle-text
+        "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ltc",
@@ -4229,6 +4317,16 @@
         :png
         "https://cards.scryfall.io/png/front/2/e/2e697bd7-53a3-4703-b7f4-ac680436967f.png?1687425708",
         :collector-number "386",
+        :layout "normal",
+        :name "Thorn of Amethyst",
+        :oracle-text "Noncreature spells cost {1} more to cast."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/0/008a3241-df86-4d80-88f9-912b0363d030.png?1701085486",
+        :collector-number "386z",
         :layout "normal",
         :name "Thorn of Amethyst",
         :oracle-text "Noncreature spells cost {1} more to cast."}
@@ -4246,10 +4344,32 @@
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/09721698-35a4-48a2-8896-fe036a642345.png?1701084498",
+        :collector-number "387z",
+        :layout "normal",
+        :name "Ancient Tomb",
+        :oracle-text
+        "{T}: Add {C}{C}. Ancient Tomb deals 2 damage to you."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/b/d/bd77173d-1399-49e7-b0c8-696c7c2c01e0.png?1687892355",
         :collector-number "388",
+        :layout "normal",
+        :name "Bojuka Bog",
+        :oracle-text
+        "Bojuka Bog enters the battlefield tapped.\nWhen Bojuka Bog enters the battlefield, exile target player's graveyard.\n{T}: Add {B}."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/6/2/621ce7c8-50dd-4487-b1fd-ffe476992ecc.png?1701084506",
+        :collector-number "388z",
         :layout "normal",
         :name "Bojuka Bog",
         :oracle-text
@@ -4261,6 +4381,17 @@
         :png
         "https://cards.scryfall.io/png/front/8/4/841802b9-adc5-455e-8a8c-2d34c2766d54.png?1687425479",
         :collector-number "389",
+        :layout "normal",
+        :name "Boseiju, Who Shelters All",
+        :oracle-text
+        "Boseiju, Who Shelters All enters the battlefield tapped.\n{T}, Pay 2 life: Add {C}. If that mana is spent on an instant or sorcery spell, that spell can't be countered."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18402090-02af-4dc3-94ed-633a03848ab2.png?1701084531",
+        :collector-number "389z",
         :layout "normal",
         :name "Boseiju, Who Shelters All",
         :oracle-text
@@ -4278,10 +4409,31 @@
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/8015de93-6d51-425e-9a72-b745db37e8c1.png?1701084537",
+        :collector-number "390z",
+        :layout "normal",
+        :name "Cabal Coffers",
+        :oracle-text "{2}, {T}: Add {B} for each Swamp you control."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/d/6/d64a3ece-0da3-4228-af98-d8b06bdbe187.png?1687425486",
         :collector-number "391",
+        :layout "normal",
+        :name "Castle Ardenvale",
+        :oracle-text
+        "Castle Ardenvale enters the battlefield tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/ebaa3b73-abb5-4ad4-a4c7-4b9f358db2c6.png?1701084553",
+        :collector-number "391z",
         :layout "normal",
         :name "Castle Ardenvale",
         :oracle-text
@@ -4302,7 +4454,7 @@
         :code "ltc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/a/6a150673-8c52-4b56-9b81-c54cfcfc091b.png?1695447771",
+        "https://cards.scryfall.io/png/front/6/a/6a150673-8c52-4b56-9b81-c54cfcfc091b.png?1701084560",
         :collector-number "392z",
         :layout "normal",
         :name "Cavern of Souls",
@@ -4318,6 +4470,16 @@
         :layout "normal",
         :name "Deserted Temple",
         :oracle-text "{T}: Add {C}.\n{1}, {T}: Untap target land."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/196f121f-bd78-4455-855a-a2dd47314c1e.png?1701084582",
+        :collector-number "393z",
+        :layout "normal",
+        :name "Deserted Temple",
+        :oracle-text "{T}: Add {C}.\n{1}, {T}: Untap target land."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "ltc",
@@ -4325,6 +4487,17 @@
         :png
         "https://cards.scryfall.io/png/front/3/0/302603c5-ced4-4ad9-801f-be5eb75096cd.png?1687925642",
         :collector-number "394",
+        :layout "normal",
+        :name "Gemstone Caverns",
+        :oracle-text
+        "If Gemstone Caverns is in your opening hand and you're not the starting player, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.\n{T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/b/c/bcfba3c1-b17b-4c09-94af-eb14bf2c1f77.png?1701084595",
+        :collector-number "394z",
         :layout "normal",
         :name "Gemstone Caverns",
         :oracle-text
@@ -4343,10 +4516,32 @@
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23fcc3e5-b8c6-4425-a5c3-5de877302496.png?1701084601",
+        :collector-number "395z",
+        :layout "normal",
+        :name "Homeward Path",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Each player gains control of all creatures they own."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/0/8/08864c71-df77-4e9c-8088-f48e744352f6.png?1687425578",
         :collector-number "396",
+        :layout "normal",
+        :name "Horizon Canopy",
+        :oracle-text
+        "{T}, Pay 1 life: Add {G} or {W}.\n{1}, {T}, Sacrifice Horizon Canopy: Draw a card."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/0/70fbe9e9-5b7c-4c70-8854-4b6b051f8bb7.png?1701084606",
+        :collector-number "396z",
         :layout "normal",
         :name "Horizon Canopy",
         :oracle-text
@@ -4365,10 +4560,32 @@
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/71403ce4-e5ac-4e99-b26d-a51456df5cac.png?1701084627",
+        :collector-number "397z",
+        :layout "normal",
+        :name "Karakas",
+        :oracle-text
+        "{T}: Add {W}.\n{T}: Return target legendary creature to its owner's hand."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/8/a/8afc20a5-635d-4cc4-bce9-b6c2cd970ae5.png?1687425587",
         :collector-number "398",
+        :layout "normal",
+        :name "Kor Haven",
+        :oracle-text
+        "{T}: Add {C}.\n{1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/61f13afc-a10d-4c17-8bcc-434778ff34ab.png?1701084656",
+        :collector-number "398z",
         :layout "normal",
         :name "Kor Haven",
         :oracle-text
@@ -4384,6 +4601,17 @@
         :name "Minamo, School at Water's Edge",
         :oracle-text
         "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cdaf61a9-02da-48fd-a38b-13ecc326c40c.png?1701084434",
+        :collector-number "399z",
+        :layout "normal",
+        :name "Minamo, School at Water's Edge",
+        :oracle-text
+        "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent."}
  #:card{:type-line "Snow Land",
         :layout-category :normal,
         :code "ltc",
@@ -4395,6 +4623,17 @@
         :name "Mouth of Ronom",
         :oracle-text
         "{T}: Add {C}.\n{4}{S}, {T}, Sacrifice Mouth of Ronom: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow source.)"}
+ #:card{:type-line "Snow Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/c/fc82f708-49a7-44de-9b14-e17b67daaa1d.png?1701084719",
+        :collector-number "400z",
+        :layout "normal",
+        :name "Mouth of Ronom",
+        :oracle-text
+        "{T}: Add {C}.\n{4}{S}, {T}, Sacrifice Mouth of Ronom: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow source.)"}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "ltc",
@@ -4402,6 +4641,17 @@
         :png
         "https://cards.scryfall.io/png/front/8/4/84065219-b902-41fa-9a5a-7312e5103b78.png?1687425643",
         :collector-number "401",
+        :layout "normal",
+        :name "Oboro, Palace in the Clouds",
+        :oracle-text
+        "{T}: Add {U}.\n{1}: Return Oboro, Palace in the Clouds to its owner's hand."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a585ce22-7ca5-428c-81da-735e2be49b9d.png?1701084762",
+        :collector-number "401z",
         :layout "normal",
         :name "Oboro, Palace in the Clouds",
         :oracle-text
@@ -4420,10 +4670,32 @@
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/3629730d-4a68-426d-a7e4-6e3873028fab.png?1701084798",
+        :collector-number "402z",
+        :layout "normal",
+        :name "Pillar of the Paruns",
+        :oracle-text
+        "{T}: Add one mana of any color. Spend this mana only to cast a multicolored spell."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/0/b/0bd6e6aa-c0b2-4ab1-9165-6cba8b93da13.png?1687425632",
         :collector-number "403",
+        :layout "normal",
+        :name "Reflecting Pool",
+        :oracle-text
+        "{T}: Add one mana of any type that a land you control could produce."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/e/4e849eb2-273e-4de6-bac4-404d4eb91aee.png?1701084856",
+        :collector-number "403z",
         :layout "normal",
         :name "Reflecting Pool",
         :oracle-text
@@ -4442,10 +4714,32 @@
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/856c3adc-9fdf-4dd2-85a0-28da47f320fb.png?1701085184",
+        :collector-number "404z",
+        :layout "normal",
+        :name "Shinka, the Bloodsoaked Keep",
+        :oracle-text
+        "{T}: Add {R}.\n{R}, {T}: Target legendary creature gains first strike until end of turn."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/c/c/cc4be3ef-547e-41bb-855f-9c779f434919.png?1687425712",
         :collector-number "405",
+        :layout "normal",
+        :name "Urborg, Tomb of Yawgmoth",
+        :oracle-text
+        "Each land is a Swamp in addition to its other land types."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/ab819ad1-36b0-443b-a9fa-2a57665284d2.png?1701085518",
+        :collector-number "405z",
         :layout "normal",
         :name "Urborg, Tomb of Yawgmoth",
         :oracle-text
@@ -4461,13 +4755,35 @@
         :name "Wasteland",
         :oracle-text
         "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/ab0c7b95-f496-42bd-9cad-9f244a9f59d4.png?1701085556",
+        :collector-number "406z",
+        :layout "normal",
+        :name "Wasteland",
+        :oracle-text
+        "{T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "ltc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/4/940f07ab-f30d-4a40-bf3d-d2c05b49c305.png?1687551639",
+        "https://cards.scryfall.io/png/front/9/4/940f07ab-f30d-4a40-bf3d-d2c05b49c305.png?1701085806",
         :collector-number "407",
+        :layout "normal",
+        :name "Yavimaya, Cradle of Growth",
+        :oracle-text
+        "Each land is a Forest in addition to its other land types."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "ltc",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e4a5b982-ce4c-48e1-b1d6-a18012370298.png?1701085588",
+        :collector-number "407z",
         :layout "normal",
         :name "Yavimaya, Cradle of Growth",
         :oracle-text
@@ -5598,7 +5914,7 @@
         :layout "normal",
         :name "Gandalf of the Secret Fire",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell from your hand during an opponent's turn, exile that card with three time counters on it instead of putting it into your graveyard as it resolves. Then if the exiled card doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, play it without paying its mana cost.)"}
+        "Whenever you cast an instant or sorcery spell from your hand during an opponent's turn, exile that card with three time counters on it instead of putting it into your graveyard as it resolves. Then if the exiled card doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, you may play it without paying its mana cost.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ltc",
@@ -5681,7 +5997,7 @@
         :code "ltc",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/0/2/029ff21a-b175-4e81-8712-4dae185ad790.png?1695502127",
+        "https://cards.scryfall.io/png/front/0/2/029ff21a-b175-4e81-8712-4dae185ad790.png?1704455395",
         :collector-number "515",
         :layout "normal",
         :name "Kenrith, the Returned King",
@@ -5835,7 +6151,7 @@
         :code "ltc",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/9/5/95862130-8eaf-47ab-bbf2-62c3d19f8f92.png?1695420041",
+        "https://cards.scryfall.io/png/front/9/5/95862130-8eaf-47ab-bbf2-62c3d19f8f92.png?1701105726",
         :collector-number "529",
         :layout "normal",
         :name "Seasons Past",
@@ -6082,7 +6398,7 @@
         :layout "normal",
         :name "Gandalf of the Secret Fire",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell from your hand during an opponent's turn, exile that card with three time counters on it instead of putting it into your graveyard as it resolves. Then if the exiled card doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, play it without paying its mana cost.)"}
+        "Whenever you cast an instant or sorcery spell from your hand during an opponent's turn, exile that card with three time counters on it instead of putting it into your graveyard as it resolves. Then if the exiled card doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, you may play it without paying its mana cost.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ltc",

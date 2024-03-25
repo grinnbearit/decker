@@ -1,16 +1,4 @@
-(#:edition{:date #inst "2024-03-08T00:00:00.000-00:00",
-           :code "PIP",
-           :name "Fallout"}
- #:edition{:date #inst "2024-03-08T00:00:00.000-00:00",
-           :code "TPIP",
-           :name "Fallout Tokens"}
- #:edition{:date #inst "2024-03-01T00:00:00.000-00:00",
-           :code "RVR",
-           :name "Ravnica Remastered"}
- #:edition{:date #inst "2024-01-01T00:00:00.000-00:00",
-           :code "PW24",
-           :name "Wizards Play Network 2024"}
- #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
+(#:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
            :code "SPG",
            :name "Special Guests"}
  #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
@@ -23,14 +11,23 @@
            :code "TREX",
            :name "Jurassic World Collection Tokens"}
  #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
+           :code "PLCI",
+           :name "The Lost Caverns of Ixalan Promos"}
+ #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
            :code "TLCI",
-           :name "Lost Caverns of Ixalan Tokens"}
+           :name "The Lost Caverns of Ixalan Tokens"}
+ #:edition{:date #inst "2023-12-05T00:00:00.000-00:00",
+           :code "YLCI",
+           :name "Alchemy: Ixalan"}
+ #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
+           :code "ALCI",
+           :name "The Lost Caverns of Ixalan Art Series"}
  #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
            :code "LCC",
-           :name "Lost Caverns of Ixalan Commander"}
+           :name "The Lost Caverns of Ixalan Commander"}
  #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
            :code "TLCC",
-           :name "Lost Caverns of Ixalan Commander Tokens"}
+           :name "The Lost Caverns of Ixalan Commander Tokens"}
  #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
            :code "SLCI",
            :name "The Lost Caverns of Ixalan Substitute Cards"}
@@ -56,14 +53,14 @@
            :code "YWOE",
            :name "Alchemy: Wilds of Eldraine"}
  #:edition{:date #inst "2023-09-08T00:00:00.000-00:00",
-           :code "AWOE",
-           :name "Wilds of Eldraine Art Series"}
- #:edition{:date #inst "2023-09-08T00:00:00.000-00:00",
            :code "WOC",
            :name "Wilds of Eldraine Commander"}
  #:edition{:date #inst "2023-09-08T00:00:00.000-00:00",
            :code "TWOC",
            :name "Wilds of Eldraine Commander Tokens"}
+ #:edition{:date #inst "2023-09-08T00:00:00.000-00:00",
+           :code "AWOE",
+           :name "Wilds of Eldraine Art Series"}
  #:edition{:date #inst "2023-08-04T00:00:00.000-00:00",
            :code "CMM",
            :name "Commander Masters"}
@@ -73,6 +70,9 @@
  #:edition{:date #inst "2023-08-04T00:00:00.000-00:00",
            :code "ACMM",
            :name "Commander Masters Art Series"}
+ #:edition{:date #inst "2023-08-01T00:00:00.000-00:00",
+           :code "PH22",
+           :name "2022 Heroes of the Realm"}
  #:edition{:date #inst "2023-07-18T00:00:00.000-00:00",
            :code "HA7",
            :name "Historic Anthology 7"}
@@ -106,6 +106,9 @@
  #:edition{:date #inst "2023-05-12T00:00:00.000-00:00",
            :code "MAT",
            :name "March of the Machine: The Aftermath"}
+ #:edition{:date #inst "2023-11-17T00:00:00.000-00:00",
+           :code "PMAT",
+           :name "March of the Machine: The Aftermath Promos"}
  #:edition{:date #inst "2023-04-21T00:00:00.000-00:00",
            :code "MOM",
            :name "March of the Machine"}
@@ -131,11 +134,11 @@
            :code "TMOC",
            :name "March of the Machine Commander Tokens"}
  #:edition{:date #inst "2023-04-21T00:00:00.000-00:00",
-           :code "AMOM",
-           :name "March of the Machine Art Series"}
- #:edition{:date #inst "2023-04-21T00:00:00.000-00:00",
            :code "SMOM",
            :name "March of the Machine Substitute Cards"}
+ #:edition{:date #inst "2023-04-21T00:00:00.000-00:00",
+           :code "AMOM",
+           :name "March of the Machine Art Series"}
  #:edition{:date #inst "2023-03-21T00:00:00.000-00:00",
            :code "SIS",
            :name "Shadows of the Past"}
@@ -164,14 +167,14 @@
            :code "TONC",
            :name "Phyrexia: All Will Be One Commander Tokens"}
  #:edition{:date #inst "2023-02-03T00:00:00.000-00:00",
-           :code "MONE",
-           :name "Phyrexia: All Will Be One Minigames"}
+           :code "FONE",
+           :name "Phyrexia: All Will Be One Jumpstart Front Cards"}
  #:edition{:date #inst "2023-02-03T00:00:00.000-00:00",
            :code "AONE",
            :name "Phyrexia: All Will Be One Art Series"}
  #:edition{:date #inst "2023-02-03T00:00:00.000-00:00",
-           :code "FONE",
-           :name "Phyrexia: All Will Be One Jumpstart Front Cards"}
+           :code "MONE",
+           :name "Phyrexia: All Will Be One Minigames"}
  #:edition{:date #inst "2023-01-13T00:00:00.000-00:00",
            :code "DMR",
            :name "Dominaria Remastered"}
@@ -182,11 +185,11 @@
            :code "PR23",
            :name "Regional Championship Qualifiers 2023"}
  #:edition{:date #inst "2023-01-01T00:00:00.000-00:00",
-           :code "P23",
-           :name "Judge Gift Cards 2023"}
- #:edition{:date #inst "2023-01-01T00:00:00.000-00:00",
            :code "PW23",
            :name "Wizards Play Network 2023"}
+ #:edition{:date #inst "2023-01-01T00:00:00.000-00:00",
+           :code "P23",
+           :name "Judge Gift Cards 2023"}
  #:edition{:date #inst "2022-12-13T00:00:00.000-00:00",
            :code "EA2",
            :name "Explorer Anthology 2"}
@@ -222,7 +225,10 @@
            :name "30th Anniversary Misc Promos"}
  #:edition{:date #inst "2022-11-26T00:00:00.000-00:00",
            :code "PEWK",
-           :name "Eternal Weekend 2022"}
+           :name "Eternal Weekend"}
+ #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
+           :code "FBRO",
+           :name "The Brothers' War Jumpstart Front Cards"}
  #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
            :code "BRO",
            :name "The Brothers' War"}
@@ -254,17 +260,14 @@
            :code "PTBRO",
            :name "The Brothers' War Southeast Asia Tokens"}
  #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
-           :code "ABRO",
-           :name "The Brothers' War Art Series"}
+           :code "SBRO",
+           :name "The Brothers' War Substitute Cards"}
  #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
            :code "MBRO",
            :name "The Brothers' War Minigames"}
  #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
-           :code "SBRO",
-           :name "The Brothers' War Substitute Cards"}
- #:edition{:date #inst "2022-11-18T00:00:00.000-00:00",
-           :code "FBRO",
-           :name "The Brothers' War Jumpstart Front Cards"}
+           :code "ABRO",
+           :name "The Brothers' War Art Series"}
  #:edition{:date #inst "2022-10-14T00:00:00.000-00:00",
            :code "GN3",
            :name "Game Night: Free-for-All"}
@@ -305,29 +308,29 @@
            :code "PTDMU",
            :name "Dominaria United Southeast Asia Tokens"}
  #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
-           :code "DMC",
-           :name "Dominaria United Commander"}
- #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
-           :code "TDMC",
-           :name "Dominaria United Commander Tokens"}
- #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
-           :code "MDMU",
-           :name "Dominaria United Minigames"}
- #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
            :code "ADMU",
            :name "Dominaria United Art Series"}
  #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
            :code "FDMU",
            :name "Dominaria United Jumpstart Front Cards"}
+ #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
+           :code "MDMU",
+           :name "Dominaria United Minigames"}
+ #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
+           :code "DMC",
+           :name "Dominaria United Commander"}
+ #:edition{:date #inst "2022-09-09T00:00:00.000-00:00",
+           :code "TDMC",
+           :name "Dominaria United Commander Tokens"}
  #:edition{:date #inst "2022-08-01T00:00:00.000-00:00",
            :code "PH21",
            :name "2021 Heroes of the Realm"}
  #:edition{:date #inst "2022-07-28T00:00:00.000-00:00",
-           :code "HA6",
-           :name "Historic Anthology 6"}
- #:edition{:date #inst "2022-07-28T00:00:00.000-00:00",
            :code "EA1",
            :name "Explorer Anthology 1"}
+ #:edition{:date #inst "2022-07-28T00:00:00.000-00:00",
+           :code "HA6",
+           :name "Historic Anthology 6"}
  #:edition{:date #inst "2022-07-09T00:00:00.000-00:00",
            :code "SCH",
            :name "Store Championships"}
@@ -500,6 +503,9 @@
  #:edition{:date #inst "2021-08-26T00:00:00.000-00:00",
            :code "J21",
            :name "Jumpstart: Historic Horizons"}
+ #:edition{:date #inst "2021-08-20T00:00:00.000-00:00",
+           :code "CMB2",
+           :name "Mystery Booster Playtest Cards 2021"}
  #:edition{:date #inst "2021-08-01T00:00:00.000-00:00",
            :code "PH20",
            :name "2020 Heroes of the Realm"}
@@ -513,6 +519,9 @@
            :code "TAFR",
            :name "Adventures in the Forgotten Realms Tokens"}
  #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
+           :code "AAFR",
+           :name "Adventures in the Forgotten Realms Art Series"}
+ #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
            :code "AFC",
            :name "Forgotten Realms Commander"}
  #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
@@ -522,14 +531,14 @@
            :code "OAFC",
            :name "Forgotten Realms Commander Display Commanders"}
  #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
-           :code "AAFR",
-           :name "Adventures in the Forgotten Realms Art Series"}
- #:edition{:date #inst "2021-07-23T00:00:00.000-00:00",
            :code "MAFR",
            :name "Adventures in the Forgotten Realms Minigames"}
  #:edition{:date #inst "2021-06-22T00:00:00.000-00:00",
            :code "PLG21",
            :name "Love Your LGS 2021"}
+ #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
+           :code "PW21",
+           :name "Wizards Play Network 2021"}
  #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
            :code "MH2",
            :name "Modern Horizons 2"}
@@ -548,9 +557,6 @@
  #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
            :code "H1R",
            :name "Modern Horizons 1 Timeshifts"}
- #:edition{:date #inst "2021-06-18T00:00:00.000-00:00",
-           :code "PW21",
-           :name "Wizards Play Network 2021"}
  #:edition{:date #inst "2021-05-27T00:00:00.000-00:00",
            :code "HA5",
            :name "Historic Anthology 5"}
@@ -587,6 +593,9 @@
  #:edition{:date #inst "2021-03-19T00:00:00.000-00:00",
            :code "TSR",
            :name "Time Spiral Remastered"}
+ #:edition{:date #inst "2023-09-08T00:00:00.000-00:00",
+           :code "PTSR",
+           :name "Time Spiral Remastered Promos"}
  #:edition{:date #inst "2021-03-19T00:00:00.000-00:00",
            :code "TTSR",
            :name "Time Spiral Remastered Tokens"}
@@ -609,14 +618,14 @@
            :code "SKHM",
            :name "Kaldheim Substitute Cards"}
  #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
+           :code "AKHM",
+           :name "Kaldheim Art Series"}
+ #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
            :code "KHC",
            :name "Kaldheim Commander"}
  #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
            :code "TKHC",
            :name "Kaldheim Commander Tokens"}
- #:edition{:date #inst "2021-02-05T00:00:00.000-00:00",
-           :code "AKHM",
-           :name "Kaldheim Art Series"}
  #:edition{:date #inst "2021-01-25T00:00:00.000-00:00",
            :code "PL21",
            :name "Year of the Ox 2021"}
@@ -630,16 +639,19 @@
            :code "CMR",
            :name "Commander Legends"}
  #:edition{:date #inst "2020-11-20T00:00:00.000-00:00",
+           :code "PCMR",
+           :name "Commander Legends Promos"}
+ #:edition{:date #inst "2020-11-20T00:00:00.000-00:00",
            :code "TCMR",
            :name "Commander Legends Tokens"}
  #:edition{:date #inst "2020-11-12T00:00:00.000-00:00",
            :code "KLR",
            :name "Kaladesh Remastered"}
  #:edition{:date #inst "2020-09-26T00:00:00.000-00:00",
-           :code "PLIST",
+           :code "PLST",
            :name "The List"}
  #:edition{:date #inst "2022-10-07T00:00:00.000-00:00",
-           :code "UPLIST",
+           :code "ULST",
            :name "The List (Unfinity Foil Edition)"}
  #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
            :code "ZNR",
@@ -654,6 +666,9 @@
            :code "TZNR",
            :name "Zendikar Rising Tokens"}
  #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
+           :code "SZNR",
+           :name "Zendikar Rising Substitute Cards"}
+ #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
            :code "ZNC",
            :name "Zendikar Rising Commander"}
  #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
@@ -665,9 +680,6 @@
  #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
            :code "AZNR",
            :name "Zendikar Rising Art Series"}
- #:edition{:date #inst "2020-09-25T00:00:00.000-00:00",
-           :code "SZNR",
-           :name "Zendikar Rising Substitute Cards"}
  #:edition{:date #inst "2020-08-13T00:00:00.000-00:00",
            :code "ANB",
            :name "Arena Beginner Set"}
@@ -755,22 +767,12 @@
  #:edition{:date #inst "2019-12-02T00:00:00.000-00:00",
            :code "SLD",
            :name "Secret Lair Drop"}
- #:edition{:date #inst "2023-08-14T00:00:00.000-00:00",
-           :code "PAGL",
-           :name
-           "Angels: They're Just Like Us but Cooler and with Wings"}
- #:edition{:date #inst "2023-05-08T00:00:00.000-00:00",
-           :code "PCTB",
-           :name "From Cute to Brute"}
  #:edition{:date #inst "2023-02-17T00:00:00.000-00:00",
            :code "SLP",
            :name "Secret Lair Showdown"}
  #:edition{:date #inst "2022-11-01T00:00:00.000-00:00",
            :code "SLC",
            :name "Secret Lair 30th Anniversary Countdown Kit"}
- #:edition{:date #inst "2022-04-22T00:00:00.000-00:00",
-           :code "PHED",
-           :name "Heads I Win, Tails You Lose"}
  #:edition{:date #inst "2022-03-03T00:00:00.000-00:00",
            :code "SLX",
            :name "Universes Within"}
@@ -786,15 +788,6 @@
  #:edition{:date #inst "2019-11-15T00:00:00.000-00:00",
            :code "TGN2",
            :name "Game Night 2019 Tokens"}
- #:edition{:date #inst "2019-11-07T00:00:00.000-00:00",
-           :code "MB1",
-           :name "Mystery Booster"}
- #:edition{:date #inst "2021-08-20T00:00:00.000-00:00",
-           :code "CMB2",
-           :name "Mystery Booster Playtest Cards 2021"}
- #:edition{:date #inst "2020-03-08T00:00:00.000-00:00",
-           :code "FMB1",
-           :name "Mystery Booster Retail Edition Foils"}
  #:edition{:date #inst "2019-11-07T00:00:00.000-00:00",
            :code "CMB1",
            :name "Mystery Booster Playtest Cards 2019"}
@@ -970,6 +963,12 @@
            :code "SS1",
            :name "Signature Spellbook: Jace"}
  #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+           :code "CM2",
+           :name "Commander Anthology Volume II"}
+ #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
+           :code "TCM2",
+           :name "Commander Anthology Volume II Tokens"}
+ #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
            :code "BBD",
            :name "Battlebond"}
  #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
@@ -978,12 +977,6 @@
  #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
            :code "TBBD",
            :name "Battlebond Tokens"}
- #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
-           :code "CM2",
-           :name "Commander Anthology Volume II"}
- #:edition{:date #inst "2018-06-08T00:00:00.000-00:00",
-           :code "TCM2",
-           :name "Commander Anthology Volume II Tokens"}
  #:edition{:date #inst "2018-04-27T00:00:00.000-00:00",
            :code "DOM",
            :name "Dominaria"}
@@ -1036,11 +1029,11 @@
            :code "TUST",
            :name "Unstable Tokens"}
  #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
-           :code "V17",
-           :name "From the Vault: Transform"}
- #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
            :code "E02",
            :name "Explorers of Ixalan"}
+ #:edition{:date #inst "2017-11-24T00:00:00.000-00:00",
+           :code "V17",
+           :name "From the Vault: Transform"}
  #:edition{:date #inst "2017-11-17T00:00:00.000-00:00",
            :code "IMA",
            :name "Iconic Masters"}
@@ -1249,11 +1242,11 @@
            :code "L16",
            :name "League Tokens 2016"}
  #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
-           :code "J16",
-           :name "Judge Gift Cards 2016"}
- #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
            :code "F16",
            :name "Friday Night Magic 2016"}
+ #:edition{:date #inst "2016-01-01T00:00:00.000-00:00",
+           :code "J16",
+           :name "Judge Gift Cards 2016"}
  #:edition{:date #inst "2015-11-18T00:00:00.000-00:00",
            :code "PZ1",
            :name "Legendary Cube Prize Pack"}
@@ -1345,11 +1338,11 @@
            :code "L15",
            :name "League Tokens 2015"}
  #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
-           :code "J15",
-           :name "Judge Gift Cards 2015"}
- #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
            :code "F15",
            :name "Friday Night Magic 2015"}
+ #:edition{:date #inst "2015-01-01T00:00:00.000-00:00",
+           :code "J15",
+           :name "Judge Gift Cards 2015"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
            :code "GVL",
            :name "Duel Decks Anthology: Garruk vs. Liliana"}
@@ -1357,11 +1350,11 @@
            :code "TGVL",
            :name "Duel Decks Anthology: Garruk vs. Liliana Tokens"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
-           :code "EVG",
-           :name "Duel Decks Anthology: Elves vs. Goblins"}
+           :code "JVC",
+           :name "Duel Decks Anthology: Jace vs. Chandra"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
-           :code "TEVG",
-           :name "Duel Decks Anthology: Elves vs. Goblins Tokens"}
+           :code "TJVC",
+           :name "Duel Decks Anthology: Jace vs. Chandra Tokens"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
            :code "DVD",
            :name "Duel Decks Anthology: Divine vs. Demonic"}
@@ -1369,11 +1362,11 @@
            :code "TDVD",
            :name "Duel Decks Anthology: Divine vs. Demonic Tokens"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
-           :code "JVC",
-           :name "Duel Decks Anthology: Jace vs. Chandra"}
+           :code "EVG",
+           :name "Duel Decks Anthology: Elves vs. Goblins"}
  #:edition{:date #inst "2014-12-05T00:00:00.000-00:00",
-           :code "TJVC",
-           :name "Duel Decks Anthology: Jace vs. Chandra Tokens"}
+           :code "TEVG",
+           :name "Duel Decks Anthology: Elves vs. Goblins Tokens"}
  #:edition{:date #inst "2014-11-07T00:00:00.000-00:00",
            :code "C14",
            :name "Commander 2014"}
@@ -1648,11 +1641,11 @@
            :code "L12",
            :name "League Tokens 2012"}
  #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
-           :code "F12",
-           :name "Friday Night Magic 2012"}
- #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
            :code "J12",
            :name "Judge Gift Cards 2012"}
+ #:edition{:date #inst "2012-01-01T00:00:00.000-00:00",
+           :code "F12",
+           :name "Friday Night Magic 2012"}
  #:edition{:date #inst "2011-11-18T00:00:00.000-00:00",
            :code "PD3",
            :name "Premium Deck Series: Graveborn"}
@@ -1735,11 +1728,11 @@
            :code "OLGC",
            :name "Legacy Championship"}
  #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
-           :code "G11",
-           :name "Judge Gift Cards 2011"}
- #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
            :code "F11",
            :name "Friday Night Magic 2011"}
+ #:edition{:date #inst "2011-01-01T00:00:00.000-00:00",
+           :code "G11",
+           :name "Judge Gift Cards 2011"}
  #:edition{:date #inst "2010-11-19T00:00:00.000-00:00",
            :code "PD2",
            :name "Premium Deck Series: Fire and Lightning"}
@@ -1810,14 +1803,14 @@
            :code "PDP10",
            :name "Duels of the Planeswalkers 2010 Promos"}
  #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
+           :code "G10",
+           :name "Judge Gift Cards 2010"}
+ #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
            :code "P10",
            :name "Magic Player Rewards 2010"}
  #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
            :code "F10",
            :name "Friday Night Magic 2010"}
- #:edition{:date #inst "2010-01-01T00:00:00.000-00:00",
-           :code "G10",
-           :name "Judge Gift Cards 2010"}
  #:edition{:date #inst "2009-11-20T00:00:00.000-00:00",
            :code "H09",
            :name "Premium Deck Series: Slivers"}
@@ -1954,14 +1947,14 @@
            :code "TMOR",
            :name "Morningtide Tokens"}
  #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
-           :code "P08",
-           :name "Magic Player Rewards 2008"}
+           :code "G08",
+           :name "Judge Gift Cards 2008"}
  #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
            :code "F08",
            :name "Friday Night Magic 2008"}
  #:edition{:date #inst "2008-01-01T00:00:00.000-00:00",
-           :code "G08",
-           :name "Judge Gift Cards 2008"}
+           :code "P08",
+           :name "Magic Player Rewards 2008"}
  #:edition{:date #inst "2007-11-16T00:00:00.000-00:00",
            :code "DD1",
            :name "Duel Decks: Elves vs. Goblins"}
@@ -2011,14 +2004,14 @@
            :code "PRES",
            :name "Resale Promos"}
  #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
+           :code "F07",
+           :name "Friday Night Magic 2007"}
+ #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
            :code "P07",
            :name "Magic Player Rewards 2007"}
  #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
            :code "G07",
            :name "Judge Gift Cards 2007"}
- #:edition{:date #inst "2007-01-01T00:00:00.000-00:00",
-           :code "F07",
-           :name "Friday Night Magic 2007"}
  #:edition{:date #inst "2006-12-31T00:00:00.000-00:00",
            :code "HHO",
            :name "Happy Holidays"}
@@ -2062,17 +2055,17 @@
            :code "PJAS",
            :name "Junior APAC Series"}
  #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
-           :code "PHUK",
-           :name "Hachette UK"}
+           :code "F06",
+           :name "Friday Night Magic 2006"}
  #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
            :code "G06",
            :name "Judge Gift Cards 2006"}
  #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
+           :code "PHUK",
+           :name "Hachette UK"}
+ #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
            :code "P06",
            :name "Magic Player Rewards 2006"}
- #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
-           :code "F06",
-           :name "Friday Night Magic 2006"}
  #:edition{:date #inst "2006-01-01T00:00:00.000-00:00",
            :code "PDCI",
            :name "DCI Promos"}
@@ -2110,14 +2103,14 @@
            :code "PJSE",
            :name "Junior Series Europe"}
  #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
-           :code "P05",
-           :name "Magic Player Rewards 2005"}
+           :code "G05",
+           :name "Judge Gift Cards 2005"}
  #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
            :code "F05",
            :name "Friday Night Magic 2005"}
  #:edition{:date #inst "2005-01-01T00:00:00.000-00:00",
-           :code "G05",
-           :name "Judge Gift Cards 2005"}
+           :code "P05",
+           :name "Magic Player Rewards 2005"}
  #:edition{:date #inst "2004-11-19T00:00:00.000-00:00",
            :code "UNH",
            :name "Unhinged"}
@@ -2142,7 +2135,7 @@
  #:edition{:date #inst "2004-02-06T00:00:00.000-00:00",
            :code "DST",
            :name "Darksteel"}
- #:edition{:date #inst "2004-06-04T00:00:00.000-00:00",
+ #:edition{:date #inst "2004-02-06T00:00:00.000-00:00",
            :code "PDST",
            :name "Darksteel Promos"}
  #:edition{:date #inst "2004-01-01T00:00:00.000-00:00",
@@ -2197,15 +2190,15 @@
            :code "F03",
            :name "Friday Night Magic 2003"}
  #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
-           :code "P03",
-           :name "Magic Player Rewards 2003"}
- #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
            :code "OVNT",
            :name "Vintage Championship"}
+ #:edition{:date #inst "2003-01-01T00:00:00.000-00:00",
+           :code "P03",
+           :name "Magic Player Rewards 2003"}
  #:edition{:date #inst "2002-10-07T00:00:00.000-00:00",
            :code "ONS",
            :name "Onslaught"}
- #:edition{:date #inst "2003-02-03T00:00:00.000-00:00",
+ #:edition{:date #inst "2002-09-28T00:00:00.000-00:00",
            :code "PONS",
            :name "Onslaught Promos"}
  #:edition{:date #inst "2002-08-14T00:00:00.000-00:00",
@@ -2224,11 +2217,11 @@
            :code "PAL02",
            :name "Arena League 2002"}
  #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
-           :code "F02",
-           :name "Friday Night Magic 2002"}
- #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
            :code "G02",
            :name "Judge Gift Cards 2002"}
+ #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
+           :code "F02",
+           :name "Friday Night Magic 2002"}
  #:edition{:date #inst "2002-01-01T00:00:00.000-00:00",
            :code "PR2",
            :name "Magic Player Rewards 2002"}
@@ -2254,14 +2247,14 @@
            :code "PAL01",
            :name "Arena League 2001"}
  #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
-           :code "G01",
-           :name "Judge Gift Cards 2001"}
- #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
            :code "F01",
            :name "Friday Night Magic 2001"}
  #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
            :code "MPR",
            :name "Magic Player Rewards 2001"}
+ #:edition{:date #inst "2001-01-01T00:00:00.000-00:00",
+           :code "G01",
+           :name "Judge Gift Cards 2001"}
  #:edition{:date #inst "2000-10-02T00:00:00.000-00:00",
            :code "INV",
            :name "Invasion"}
@@ -2440,11 +2433,11 @@
            :code "PARL",
            :name "Arena League 1996"}
  #:edition{:date #inst "1996-07-01T00:00:00.000-00:00",
-           :code "PLGM",
-           :name "DCI Legend Membership"}
- #:edition{:date #inst "1996-07-01T00:00:00.000-00:00",
            :code "RQS",
            :name "Rivals Quick Start Set"}
+ #:edition{:date #inst "1996-07-01T00:00:00.000-00:00",
+           :code "PLGM",
+           :name "DCI Legend Membership"}
  #:edition{:date #inst "1996-06-10T00:00:00.000-00:00",
            :code "ALL",
            :name "Alliances"}

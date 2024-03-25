@@ -694,7 +694,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/9/5946463a-2240-4376-b6f5-fd6e3a9cc51c.png?1699043684",
+        "https://cards.scryfall.io/png/front/5/9/5946463a-2240-4376-b6f5-fd6e3a9cc51c.png?1699576505",
         :collector-number "59",
         :layout "normal",
         :name "Hurl into History",
@@ -1214,7 +1214,7 @@
         :layout "normal",
         :name "Defossilize",
         :oracle-text
-        "Return target creature card from your graveyard to the battlefield. That creature explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.)"}
+        "Return target creature card from your graveyard to the battlefield. That creature explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard. Then repeat this process.)"}
  #:card{:type-line "Creature — Vampire Spirit",
         :layout-category :normal,
         :code "lci",
@@ -1429,7 +1429,7 @@
         :layout "normal",
         :name "Stalactite Stalker",
         :oracle-text
-        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker.\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
+        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
  #:card{:type-line "Creature — Spirit Horror",
         :layout-category :normal,
         :code "lci",
@@ -1768,10 +1768,21 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/f/7f9c1a82-695b-4df2-8e51-2d71a62e7baf.png?1699044284",
+        "https://cards.scryfall.io/png/front/7/f/7f9c1a82-695b-4df2-8e51-2d71a62e7baf.png?1701690520",
         :collector-number "150",
         :layout "normal",
         :name "Geological Appraiser",
+        :oracle-text
+        "When Geological Appraiser enters the battlefield, if you cast it, discover 3. (Exile cards from the top of your library until you exile a nonland card with mana value 3 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
+ #:card{:type-line "Creature — Human Artificer",
+        :layout-category :normal,
+        :code "lci",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/71dec77b-e790-48b8-8c13-91305d9f97ce.png?1710340333",
+        :collector-number "A-150e",
+        :layout "normal",
+        :name "A-Geological Appraiser",
         :oracle-text
         "When Geological Appraiser enters the battlefield, if you cast it, discover 3. (Exile cards from the top of your library until you exile a nonland card with mana value 3 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
  #:card{:type-line "Creature — Goblin Pirate",
@@ -2606,7 +2617,7 @@
         :layout "normal",
         :name "Amalia Benavides Aguirre",
         :oracle-text
-        "Ward—Pay 3 life.\nWhenever you gain life, Amalia Benavides Aguirre explores. Then, destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
+        "Ward—Pay 3 life.\nWhenever you gain life, Amalia Benavides Aguirre explores. Then destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Legendary Creature — Spirit God",
         :layout-category :normal,
         :code "lci",
@@ -2645,7 +2656,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/4/1454af8c-bce9-47d3-890f-283e2fea2cf2.png?1699044529",
+        "https://cards.scryfall.io/png/front/1/4/1454af8c-bce9-47d3-890f-283e2fea2cf2.png?1700056774",
         :collector-number "225",
         :layout "normal",
         :name "The Belligerent",
@@ -2740,12 +2751,12 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/f/7/f7a41343-7cdb-49aa-a9d1-7460195355d8.png?1699044555",
+          "https://cards.scryfall.io/png/front/f/7/f7a41343-7cdb-49aa-a9d1-7460195355d8.png?1699561966",
           :type-line "Artifact",
           :oracle-text
           "When Master's Guide-Mural enters the battlefield, create a 4/4 white and blue Golem artifact creature token.\nCraft with artifact {4}{W}{W}{U} ({4}{W}{W}{U}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)"}
          {:png
-          "https://cards.scryfall.io/png/back/f/7/f7a41343-7cdb-49aa-a9d1-7460195355d8.png?1699044555",
+          "https://cards.scryfall.io/png/back/f/7/f7a41343-7cdb-49aa-a9d1-7460195355d8.png?1699561966",
           :type-line "Artifact",
           :oracle-text
           "{T}: Create a 4/4 white and blue Golem artifact creature token. Activate only if Master's Manufactory or another artifact entered the battlefield under your control this turn."}]}
@@ -2798,7 +2809,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/3/4382fa49-9e34-45b3-8495-4916dcd995ec.png?1699044570",
+        "https://cards.scryfall.io/png/front/4/3/4382fa49-9e34-45b3-8495-4916dcd995ec.png?1701346165",
         :collector-number "238",
         :layout "normal",
         :name "Quintorius Kand",
@@ -2897,7 +2908,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/a/5a96d8ae-200a-40be-95a8-72b53638a090.png?1699044592",
+        "https://cards.scryfall.io/png/front/5/a/5a96d8ae-200a-40be-95a8-72b53638a090.png?1700056789",
         :collector-number "247",
         :layout "normal",
         :name "Careening Mine Cart",
@@ -2930,7 +2941,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/0/10e1030e-2b95-4807-9111-e495a2fc8813.png?1699044600",
+        "https://cards.scryfall.io/png/front/1/0/10e1030e-2b95-4807-9111-e495a2fc8813.png?1699387300",
         :collector-number "250",
         :layout "normal",
         :name "Compass Gnome",
@@ -3024,7 +3035,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/2/32fd8b7c-baf3-4d3d-be6f-044a917b11a0.png?1699044623",
+        "https://cards.scryfall.io/png/front/3/2/32fd8b7c-baf3-4d3d-be6f-044a917b11a0.png?1701115816",
         :collector-number "258",
         :layout "normal",
         :name "Roaming Throne",
@@ -3046,7 +3057,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/f/afcb2a90-d4c0-4c83-8ee7-2ac3a23b4402.png?1699049902",
+        "https://cards.scryfall.io/png/front/a/f/afcb2a90-d4c0-4c83-8ee7-2ac3a23b4402.png?1699392494",
         :collector-number "260",
         :layout "normal",
         :name "Scampering Surveyor",
@@ -3163,7 +3174,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/a/3aad15a2-8a1b-4460-9b06-e85863081878.png?1699044666",
+        "https://cards.scryfall.io/png/front/3/a/3aad15a2-8a1b-4460-9b06-e85863081878.png?1706884128",
         :collector-number "269",
         :layout "normal",
         :name "Cavern of Souls",
@@ -3499,7 +3510,7 @@
         :layout "normal",
         :name "Amalia Benavides Aguirre",
         :oracle-text
-        "Ward—Pay 3 life.\nWhenever you gain life, Amalia Benavides Aguirre explores. Then, destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
+        "Ward—Pay 3 life.\nWhenever you gain life, Amalia Benavides Aguirre explores. Then destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "lci",
@@ -3582,7 +3593,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/d/3dfc085d-4c11-416c-ae00-d41d32f32bb4.png?1699044778",
+        "https://cards.scryfall.io/png/front/3/d/3dfc085d-4c11-416c-ae00-d41d32f32bb4.png?1701346204",
         :collector-number "307",
         :layout "normal",
         :name "Quintorius Kand",
@@ -3668,12 +3679,12 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/e/8/e87dff94-71ed-469e-a10e-3ddfbd4a8bec.png?1699044808",
+          "https://cards.scryfall.io/png/front/e/8/e87dff94-71ed-469e-a10e-3ddfbd4a8bec.png?1699518736",
           :type-line "Legendary Creature — God",
           :oracle-text
           "Vigilance\nIf one or more creature tokens would be created under your control, three times that many of those tokens are created instead.\nWhen Ojer Taq dies, return it to the battlefield tapped and transformed under its owner's control."}
          {:png
-          "https://cards.scryfall.io/png/back/e/8/e87dff94-71ed-469e-a10e-3ddfbd4a8bec.png?1699044808",
+          "https://cards.scryfall.io/png/back/e/8/e87dff94-71ed-469e-a10e-3ddfbd4a8bec.png?1699518736",
           :type-line "Land",
           :oracle-text
           "(Transforms from Ojer Taq, Deepest Foundation.)\n{T}: Add {W}.\n{2}{W}, {T}: Transform Temple of Civilization. Activate only if you attacked with three or more creatures this turn and only as a sorcery."}]}
@@ -3737,12 +3748,12 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/d/6/d6ed63e0-d6f1-455a-b29c-e2c91dcfcc6e.png?1699044831",
+          "https://cards.scryfall.io/png/front/d/6/d6ed63e0-d6f1-455a-b29c-e2c91dcfcc6e.png?1699518693",
           :type-line "Legendary Creature — God",
           :oracle-text
           "Trample\nWhenever Ojer Kaslem deals combat damage to a player, reveal that many cards from the top of your library. You may put a creature card and/or a land card from among them onto the battlefield. Put the rest on the bottom in a random order.\nWhen Ojer Kaslem dies, return it to the battlefield tapped and transformed under its owner's control."}
          {:png
-          "https://cards.scryfall.io/png/back/d/6/d6ed63e0-d6f1-455a-b29c-e2c91dcfcc6e.png?1699044831",
+          "https://cards.scryfall.io/png/back/d/6/d6ed63e0-d6f1-455a-b29c-e2c91dcfcc6e.png?1699518693",
           :type-line "Land",
           :oracle-text
           "(Transforms from Ojer Kaslem, Deepest Growth.)\n{T}: Add {G}.\n{2}{G}, {T}: Transform Temple of Cultivation. Activate only if you control ten or more permanents and only as a sorcery."}]}
@@ -3806,7 +3817,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/5/35957bfb-c75f-4181-9726-19956992a6e6.png?1699044851",
+        "https://cards.scryfall.io/png/front/3/5/35957bfb-c75f-4181-9726-19956992a6e6.png?1702642726",
         :collector-number "324",
         :layout "normal",
         :name "Trumpeting Carnosaur",
@@ -3938,7 +3949,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/8/48c5b98d-73cd-4b69-9933-4867da6e8389.png?1699044885",
+        "https://cards.scryfall.io/png/front/4/8/48c5b98d-73cd-4b69-9933-4867da6e8389.png?1700657181",
         :collector-number "336",
         :layout "normal",
         :name "Bloodletter of Aclazotz",
@@ -4025,7 +4036,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/4/e435c3bf-2b64-4db4-b9a2-322095b566bf.png?1699044905",
+        "https://cards.scryfall.io/png/front/e/4/e435c3bf-2b64-4db4-b9a2-322095b566bf.png?1702642716",
         :collector-number "343",
         :layout "normal",
         :name "Wail of the Forgotten",
@@ -4047,7 +4058,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/d/1d842f91-a04c-4b11-8ac9-0c0536b82d03.png?1699044912",
+        "https://cards.scryfall.io/png/front/1/d/1d842f91-a04c-4b11-8ac9-0c0536b82d03.png?1702642697",
         :collector-number "345",
         :layout "normal",
         :name "Cavern of Souls",
@@ -4124,7 +4135,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/3/03c80368-0fe6-481a-bee0-7d9f65afb233.png?1699044935",
+        "https://cards.scryfall.io/png/front/0/3/03c80368-0fe6-481a-bee0-7d9f65afb233.png?1701346215",
         :collector-number "352",
         :layout "normal",
         :name "Quintorius Kand",
@@ -4357,7 +4368,7 @@
         :layout "normal",
         :name "Stalactite Stalker",
         :oracle-text
-        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker.\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
+        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
  #:card{:code "lci",
         :collector-number "371",
         :name "Tarrian's Journal // The Tomb of Aclazotz",
@@ -4566,12 +4577,12 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/5/e/5e03b08d-f0f1-40e8-af48-1622430bab38.png?1699045065",
+          "https://cards.scryfall.io/png/front/5/e/5e03b08d-f0f1-40e8-af48-1622430bab38.png?1699267763",
           :type-line "Legendary Artifact",
           :oracle-text
           "{T}: Draw a card, then discard a card.\n{4}, {T}: Transform Matzalantli, the Great Door. Activate only if there are four or more permanent types among cards in your graveyard. (Artifact, battle, creature, enchantment, land, and planeswalker are permanent types.)"}
          {:png
-          "https://cards.scryfall.io/png/back/5/e/5e03b08d-f0f1-40e8-af48-1622430bab38.png?1699045065",
+          "https://cards.scryfall.io/png/back/5/e/5e03b08d-f0f1-40e8-af48-1622430bab38.png?1699267763",
           :type-line "Legendary Land",
           :oracle-text
           "(Transforms from Matzalantli.)\nFathomless descent — {T}: Add X mana of any one color, where X is the number of permanent cards in your graveyard."}]}
@@ -4741,7 +4752,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/e/cee66a2c-0684-4324-82fc-60c13a55602e.png?1699045112",
+        "https://cards.scryfall.io/png/front/c/e/cee66a2c-0684-4324-82fc-60c13a55602e.png?1700503027",
         :collector-number "403",
         :layout "normal",
         :name "Jadelight Spelunker",
@@ -4763,7 +4774,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/4/24643b00-9062-42bd-9ecd-f6990ddbca91.png?1699045118",
+        "https://cards.scryfall.io/png/front/2/4/24643b00-9062-42bd-9ecd-f6990ddbca91.png?1702742034",
         :collector-number "405",
         :layout "normal",
         :name "Spyglass Siren",
@@ -4774,7 +4785,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/4/444190a9-5ad7-4132-aae4-247ad3d9ea01.png?1699045121",
+        "https://cards.scryfall.io/png/front/4/4/444190a9-5ad7-4132-aae4-247ad3d9ea01.png?1702742021",
         :collector-number "406",
         :layout "normal",
         :name "Deep-Cavern Bat",
@@ -4785,7 +4796,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/f/9fb48483-5990-46cf-b200-032500c4a6b3.png?1699045122",
+        "https://cards.scryfall.io/png/front/9/f/9fb48483-5990-46cf-b200-032500c4a6b3.png?1702742028",
         :collector-number "407",
         :layout "normal",
         :name "Geological Appraiser",
@@ -4796,7 +4807,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/f/9f338f13-eac2-4088-a33c-cb389fbe967a.png?1699045126",
+        "https://cards.scryfall.io/png/front/9/f/9f338f13-eac2-4088-a33c-cb389fbe967a.png?1702742016",
         :collector-number "408",
         :layout "normal",
         :name "Cenote Scout",
@@ -4829,7 +4840,7 @@
         :code "lci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/c/fcc626a1-cfb0-4e1f-80fc-7c1ff07ee424.png?1699045134",
+        "https://cards.scryfall.io/png/front/f/c/fcc626a1-cfb0-4e1f-80fc-7c1ff07ee424.png?1708040081",
         :collector-number "410b",
         :layout "normal",
         :name "Cavern of Souls",
