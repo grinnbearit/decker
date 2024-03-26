@@ -258,5 +258,6 @@
   (write-decks! EDITION-CARDS EDDEX "BRO" :oldest "BRC" :include #{"BRC"})
   (write-decks! EDITION-CARDS EDDEX "J22")
   (write-decks! EDITION-CARDS EDDEX "SCD")
-  (write-decks! EDITION-CARDS EDDEX "ONE" :oldest "ONC" :include #{"ONC"})
-  (!test-decks EDITION-CARDS EDDEX "MOM" :oldest "MOC" :include #{"MOC"}))
+  (write-decks! EDITION-CARDS EDDEX "ONE" :newest "ONE" :oldest "ONC" :include #{"ONC"})
+  (write-decks! EDITION-CARDS EDDEX "MOM" :newest "MOM" :oldest "MOC" :include #{"MOC"})
+  (!test-decks EDITION-CARDS EDDEX "LTR" :newest "LTR" :oldest "FLTR" :include #{"LTC"}))
