@@ -1,20 +1,229 @@
-(#:card{:type-line "Token Artifact — Junk",
+(#:card{:type-line "Token",
         :layout-category :normal,
         :code "tpip",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/2/62c4a6f6-6425-4c0c-b35a-880fcab42aad.png?1697726673",
+        "https://cards.scryfall.io/png/front/7/8/78c43047-87f6-4382-874e-02e9628647bd.png?1711949144",
+        :collector-number "1",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Human Knight",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/546bda77-e3a8-4f2a-ba9c-94fb0b9ff183.png?1708710090",
+        :collector-number "2",
+        :layout "token",
+        :name "Human Knight",
+        :oracle-text
+        "This creature gets +2/+2 as long as an artifact entered the battlefield under your control this turn."}
+ #:card{:type-line "Token Creature — Human Soldier",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/3/737741e7-b2b2-4c41-ab7c-4eeaf9f37b71.png?1708696956",
+        :collector-number "3",
+        :layout "token",
+        :name "Human Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/f/af191656-5e62-440f-b63a-705cfed314e7.png?1708711055",
+        :collector-number "4",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Warrior",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a263a442-8ca6-4c69-a841-4a590ff2e729.png?1708716474",
+        :collector-number "5",
+        :layout "token",
+        :name "Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Alien",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd66f10d-6fc4-4510-818c-96d29b425052.png?1708696919",
+        :collector-number "6",
+        :layout "token",
+        :name "Alien",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie Mutant",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/a/ba45bc9c-8257-43f8-9ba1-116b9fea90f4.png?1708711508",
+        :collector-number "7",
+        :layout "token",
+        :name "Zombie Mutant",
+        :oracle-text ""}
+ #:card{:type-line "Token Enchantment — Aura",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/2/02789d01-f939-4515-a6e4-db6aff36f893.png?1708696638",
+        :collector-number "8",
+        :layout "token",
+        :name "Settlement",
+        :oracle-text
+        "Enchant Land\nEnchanted land has \"{T}: Add one mana of any color.\""}
+ #:card{:type-line "Token Creature — Squirrel",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f90bb066-79fd-48cd-ab5a-eaed71139b4e.png?1708711084",
+        :collector-number "9",
+        :layout "token",
+        :name "Squirrel",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/a/aae7bdfe-fe14-4a18-b2b0-16e9175a0441.png?1708696587",
+        :collector-number "10",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text "Haste"}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/65ff5544-bdf8-43a3-a74d-4a2b7d79245a.png?1708696670",
+        :collector-number "11",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7bc2a0ab-7f64-4f82-b6db-d84194b5d417.png?1708711291",
+        :collector-number "12",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/8/b8a004f0-b216-41cc-904f-91eea562d485.png?1708711303",
+        :collector-number "13",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/5/e5d0801a-9565-419f-bb0b-23547c9dd59d.png?1708711318",
+        :collector-number "14",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact — Junk",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/2/62c4a6f6-6425-4c0c-b35a-880fcab42aad.png?1707358305",
         :collector-number "15",
         :layout "token",
         :name "Junk",
         :oracle-text
         "{T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery."}
+ #:card{:type-line "Token Artifact Creature — Robot",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/6/76cde21f-2f01-4560-972b-7ecd6740d6de.png?1708711656",
+        :collector-number "16",
+        :layout "token",
+        :name "Robot",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/efaadec8-5bf7-4b53-b83e-33d17dc0ed74.png?1708711346",
+        :collector-number "17",
+        :layout "token",
+        :name "Thopter",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/f/cf0d0741-028f-481b-8982-55f36304c343.png?1708711393",
+        :collector-number "18",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1d74d012-66ca-4a0c-9e90-e31e96730d4d.png?1708711412",
+        :collector-number "19",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Token Artifact — Equipment",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/d/ad073c87-42f2-45f0-9613-2cdbd0abf719.png?1708711704",
+        :collector-number "20",
+        :layout "token",
+        :name "Wasteland Survival Guide",
+        :oracle-text
+        "Equipped creature gets +1/+1 for each quest counter among permanents you control.\nEquip {1}"}
  #:card{:type-line "Card",
         :layout-category :normal,
         :code "tpip",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/8/0886657d-afb0-4f1f-9af7-960724793077.png?1697725762",
+        "https://cards.scryfall.io/png/front/2/a/2a794202-875f-4397-a8de-9722c8d78448.png?1708711465",
+        :collector-number "21",
+        :layout "token",
+        :name "Energy Reserve",
+        :oracle-text "(Place your energy counters in this area.)"}
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tpip",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/8/0886657d-afb0-4f1f-9af7-960724793077.png?1707358335",
         :collector-number "22",
         :layout "token",
         :name "Radiation",

@@ -1,0 +1,330 @@
+(#:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a27ecc9b-1c6b-4ba9-8614-924bce2d98b7.png?1709527646",
+        :collector-number "1",
+        :layout "normal",
+        :name "Scrutiny of the Guildpact",
+        :oracle-text
+        "When Scrutiny of the Guildpact enters, you may choose a creature card in your hand. If you do, that card perpetually incorporates {W} and gains \"When you cast this spell, create a 2/2 white and blue Detective creature token.\"\nMulticolored creatures you control get +1/+1."}
+ #:card{:type-line "Creature — Elephant Detective",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/4/14211720-b724-451e-9b49-949a5f9e962a.png?1709528342",
+        :collector-number "2",
+        :layout "normal",
+        :name "Sleuth Instructor",
+        :oracle-text
+        "Disguise {1}{W}\nWhenever Sleuth Instructor or another permanent you control is turned face up, seek a non-Elephant creature card with mana value 3 or less and cloak it. This ability triggers only once."}
+ #:card{:type-line "Artifact Creature — Bird",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/3/0331d326-36b3-47fd-b6bd-c87a241f1995.png?1711780258",
+        :collector-number "3",
+        :layout "normal",
+        :name "Spotlight Falcon",
+        :oracle-text
+        "As an additional cost to cast this spell, you may collect evidence 5.\nFlying\nWhen Spotlight Falcon enters, if evidence was collected, conjure a card named Spotlight Falcon into your hand."}
+ #:card{:type-line "Enchantment — Case",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/ebf67000-a68a-4305-a6f7-9ed75bbddf9b.png?1709528904",
+        :collector-number "4",
+        :layout "case",
+        :name "Case of the Lost Witness",
+        :oracle-text
+        "When this Case enters, conjure four cards named Fblthp, the Lost into your library, then shuffle. Draw a card.\nTo solve — You control a legendary Homunculus.\nSolved — You may look at the top card of your library any time and you may play lands and cast spells from the top of your library."}
+ #:card{:type-line "Creature — Vedalken Artificer",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/f/2f1cde8b-e73e-4cca-973c-93f3936e70e0.png?1710461549",
+        :collector-number "5",
+        :layout "normal",
+        :name "Emporium Thopterist",
+        :oracle-text
+        "Thopters you control get +2/+0.\nAt the beginning of your upkeep, conjure a card named Ornithopter into your hand."}
+ #:card{:type-line "Creature — Sphinx Detective",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/01e84fa1-17d2-4068-96a6-0bed3c1e8fb1.png?1709528463",
+        :collector-number "6",
+        :layout "normal",
+        :name "Excogitator Sphinx",
+        :oracle-text
+        "Flying\nWhenever one or more creatures you control deal combat damage to a player, investigate.\n{1}, Sacrifice a Clue: Seek an instant or sorcery card."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/72d958b7-8596-409b-bf3c-de0ca613c48e.png?1709527634",
+        :collector-number "7",
+        :layout "normal",
+        :name "Mapping the Maze",
+        :oracle-text
+        "Choose an instant or sorcery card in your hand or graveyard. That card perpetually incorporates {U} and gains \"When you cast this spell, draw a card.\" Then return a multicolored instant or sorcery card from your graveyard to your hand."}
+ #:card{:type-line "Artifact — Clue",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/7/2744ac79-7543-464f-a4ac-7627276a8b89.png?1710446686",
+        :collector-number "8",
+        :layout "normal",
+        :name "Ominous Lockbox",
+        :oracle-text
+        "As Ominous Lockbox enters, secretly choose a number between 1 and 20.\nWhen an opponent casts a spell with mana value equal to the chosen number, sacrifice Ominous Lockbox. If you do, copy that spell, and you may choose new targets for the copy.\n{2}, Sacrifice Ominous Lockbox: Draw a card."}
+ #:card{:type-line "Creature — Imp",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7b2d29d6-1f2c-451c-a00b-73c1776849a5.png?1709528606",
+        :collector-number "9",
+        :layout "normal",
+        :name "Cackling Observer",
+        :oracle-text
+        "Flying\nWhen Cackling Observer enters, target opponent reveals each nonland card in their hand. You choose one of those cards and exile it.\nWhen Cackling Observer leaves the battlefield, the exiled card's owner seeks a nonland card with lesser mana value than the exiled card."}
+ #:card{:type-line "Creature — Horror",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4f8da1cd-8773-4907-bf64-1d34bd4c3325.png?1710954322",
+        :collector-number "10",
+        :layout "normal",
+        :name "Lurking Spinecrawler",
+        :oracle-text
+        "When Lurking Spinecrawler enters, you may choose a nonland card in your hand. If you do, that card perpetually incorporates {1}{B} and gains \"When you cast this spell, each opponent sacrifices a creature. Each opponent who can't discards a card.\"\nWhenever you cast a multicolored spell, for each of that spell's colors, each opponent loses 1 life and you gain 1 life."}
+ #:card{:type-line "Creature — Crocodile",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/2/020857bc-f016-4d91-aa2d-2f84d7f2c905.png?1709528564",
+        :collector-number "11",
+        :layout "normal",
+        :name "Perforator Crocodile",
+        :oracle-text
+        "When Perforator Crocodile enters, for each creature your opponents control, conjure a card named Stab Wound onto the battlefield attached to that creature.\nCycling {1}{B}"}
+ #:card{:type-line "Creature — Rat",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/6010d06b-33b6-4631-9b3f-192d8c6b96e7.png?1710340313",
+        :collector-number "12",
+        :layout "normal",
+        :name "Snarlfang Vermin",
+        :oracle-text
+        "Whenever Snarlfang Vermin deals combat damage to a creature, if that creature is still on the battlefield, suspect that creature. It perpetually gains this ability.\nWhenever a suspected creature an opponent controls dies while Snarlfang Vermin is in your graveyard, that opponent loses 1 life."}
+ #:card{:type-line "Enchantment — Case",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/7/277801e8-f464-4712-bf71-586330af1a62.png?1709527820",
+        :collector-number "13",
+        :layout "case",
+        :name "Case of the Market Melee",
+        :oracle-text
+        "When this Case enters, it deals 1 damage to any target.\nDamage isn't removed from creatures during cleanup steps.\nTo solve — Three or more creatures are damaged.\nSolved — Whenever you attack with one or more creatures, this Case deals that much damage divided as you choose among any number of targets."}
+ #:card{:type-line "Creature — Goblin Artificer",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cdb9c966-4752-4c9a-b37a-fbe972a5bee1.png?1709528643",
+        :collector-number "14",
+        :layout "normal",
+        :name "Concert Kaboomist",
+        :oracle-text
+        "Trample\nWhen Concert Kaboomist enters or is turned face up, it deals X damage to target opponent, where X is the number of noncreature spells you've cast since the beginning of your last turn.\nDisguise {R}"}
+ #:card{:type-line "Creature — Goblin Rogue Wizard",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/f/8f4e750e-481f-487f-b89b-3a1a6ba0e3bb.png?1710203760",
+        :collector-number "15",
+        :layout "normal",
+        :name "Construction Arsonist",
+        :oracle-text
+        "When Construction Arsonist enters, you may choose an instant or sorcery card in your hand. If you do, that card perpetually incorporates {R} and gains \"When you cast this spell, it deals 2 damage to each opponent.\"\nWhenever you cast a multicolored spell, Construction Arsonist gets +1/+1 until end of turn for each of that spell's colors."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/e/1e6dcb06-c660-4821-aa21-bc33ff7ac4f2.png?1709527970",
+        :collector-number "16",
+        :layout "normal",
+        :name "Shove Aside",
+        :oracle-text
+        "If you aren't the starting player, you may cast Shove Aside as though it had flash.\nShove Aside deals 3 damage to target creature or planeswalker."}
+ #:card{:type-line "Creature — Plant Rhino",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/461aa394-6632-424a-b5bd-f724048da3b9.png?1710790695",
+        :collector-number "17",
+        :layout "normal",
+        :name "Guildpact Greenwalker",
+        :oracle-text
+        "When Guildpact Greenwalker enters, you may choose a creature card in your hand. If you do, that card perpetually incorporates {1}{G} and gets +4/+4.\nMulticolored creatures you control have ward {2}."}
+ #:card{:type-line "Creature — Bear Lizard Mutant",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/8/980b1e19-6427-44ae-81d9-ec7df875bbab.png?1709650742",
+        :collector-number "18",
+        :layout "normal",
+        :name "Rampaging Ursaguana",
+        :oracle-text
+        "Trample, ward {2}, haste\nRampaging Ursaguana gets +2/+2 for each time this creature attacked this game.\nDisguise {2}{G}{G}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/84d0bf8f-cb2d-4909-a140-2556e0c79ab0.png?1709723607",
+        :collector-number "19",
+        :layout "normal",
+        :name "Relics of the Rubblebelt",
+        :oracle-text
+        "Draft a card from Relics of the Rubblebelt's spellbook twice, then put one of those cards onto the battlefield tapped."}
+ #:card{:type-line "Creature — Dryad",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f1ca1221-e6d7-46b9-a1ba-8bc5969c6765.png?1709528730",
+        :collector-number "20",
+        :layout "normal",
+        :name "Sproutwatch Dryad",
+        :oracle-text
+        "At the beginning of each combat, Sproutwatch Dryad gains flying until end of turn if a creature you control or a card in your hand has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/6/76ea4245-ca1a-45c2-a393-fe3f2c7bd2e7.png?1709528767",
+        :collector-number "21",
+        :layout "normal",
+        :name "Woodland Investigation",
+        :oracle-text
+        "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. It perpetually becomes a Clue artifact in addition to its other types and gains \"{2}, Sacrifice this permanent: Draw a card.\""}
+ #:card{:type-line "Legendary Creature — Elf Cleric",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/a/fa288e07-2fa4-4cf4-8bdd-d92a66827382.png?1709723625",
+        :collector-number "22",
+        :layout "normal",
+        :name "Emmara, Voice of the Conclave",
+        :oracle-text
+        "Convoke\nWhen Emmara, Voice of the Conclave enters, draft a card from Emmara, Voice of the Conclave's spellbook."}
+ #:card{:type-line "Legendary Creature — Elf Shaman",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/2/32e5ddf3-d132-408e-a082-6a3fcf19bfc8.png?1709528951",
+        :collector-number "23",
+        :layout "normal",
+        :name "Furgul, Quag Nurturer",
+        :oracle-text
+        "At the beginning of your end step, conjure a card named Slimy Dualleech onto the battlefield if you control no Leeches. Otherwise, put a +1/+1 counter on each Leech you control.\n{T}, Sacrifice a creature: Add an amount of {G} equal to the sacrificed creature's power."}
+ #:card{:type-line "Creature — Lizard Wizard",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/310ff920-31a7-4534-a356-18ff1495de88.png?1718137043",
+        :collector-number "24",
+        :layout "normal",
+        :name "Izzet Polarizer",
+        :oracle-text
+        "When Izzet Polarizer dies, conjure a card named Ionize or a card named Electrolyze into your hand. (Your choice is not revealed to other players.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/5/1537d789-536c-4da4-81e0-45628dc17aa2.png?1709527847",
+        :collector-number "25",
+        :layout "normal",
+        :name "Juggle the Performance",
+        :oracle-text
+        "Each player discards their hand, then conjures a duplicate of each of seven random cards from the library of the player to their right into their hand. The duplicates perpetually gain \"Mana of any type can be spent to cast this spell.\""}
+ #:card{:type-line "Legendary Creature — Human Mutant",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/d/7db0acbc-1208-4c03-a9d9-2a480a228ef4.png?1710883627",
+        :collector-number "26",
+        :layout "normal",
+        :name "Roalesk, Prime Specimen",
+        :oracle-text
+        "Flying\nWhenever Roalesk, Prime Specimen or another permanent you control is turned face up, you may pay {X}. If you do, if X is 1 or more, conjure a duplicate of a random creature card with mana value X into your hand. Cloak it. It gains \"{G/U}: Turn this creature face up\" for as long as it remains face down.\nDisguise {G}{U}"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/5/d534958b-8264-4b7e-a5fd-1b5c082289a1.png?1709528290",
+        :collector-number "27",
+        :layout "normal",
+        :name "Scour the Scene",
+        :oracle-text
+        "When Scour the Scene enters, create a 2/2 white and blue Detective creature token.\nWhenever you sacrifice an artifact, choose a creature card in your hand or a creature you control. It perpetually gets +1/+0."}
+ #:card{:type-line "Legendary Creature — Human Soldier",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7b838cfc-e8fd-4258-aa5f-afbde461c37c.png?1709751477",
+        :collector-number "28",
+        :layout "normal",
+        :name "Tajic, Legion's Valor",
+        :oracle-text
+        "Indestructible, haste\nAt the beginning of combat on your turn, put a +1/+1 counter on Tajic, Legion's Valor. Then conjure a card with mana value equal to the number of +1/+1 counters on it from Tajic, Legion's Valor's spellbook onto the battlefield. It gains haste until end of turn and attacks this combat if able."}
+ #:card{:type-line "Creature — Human Wizard",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/2/82023dae-2457-4abb-8899-b980412cb2cc.png?1709527934",
+        :collector-number "29",
+        :layout "normal",
+        :name "Thought-String Analyst",
+        :oracle-text
+        "At the beginning of your upkeep, exile the top card of target opponent's library face down. You lose life equal to its mana value. You may look at and play that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
+ #:card{:type-line "Legendary Creature — Spirit Cleric",
+        :layout-category :normal,
+        :code "ymkm",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4aadbe15-8d91-4c61-bdee-5341a1794335.png?1709528852",
+        :collector-number "30",
+        :layout "normal",
+        :name "Veko, Death's Doorkeeper",
+        :oracle-text
+        "Extort\n{T}, Sacrifice a non-Spirit creature: Return target creature card from your graveyard to your hand. It perpetually becomes a Spirit, has base power and toughness 1/1, and gains \"You may pay {W/B} rather than pay this spell's mana cost.\" Activate only as a sorcery."})

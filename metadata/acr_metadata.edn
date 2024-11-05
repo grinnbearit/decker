@@ -1,0 +1,3375 @@
+(#:card{:type-line "Legendary Creature — God Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/a/fa1b63ce-47d3-4633-9062-3fecd810e85f.png?1721423572",
+        :collector-number "1",
+        :layout "normal",
+        :name "The Capitoline Triad",
+        :oracle-text
+        "Those Who Came Before — This spell costs {1} less to cast for each historic card in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nExile any number of historic cards from your graveyard with total mana value 30 or greater: You get an emblem with \"Creatures you control have base power and toughness 9/9.\""}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b60f18e-4709-4b91-a342-74eb3fca71e1.png?1721423580",
+        :collector-number "2",
+        :layout "normal",
+        :name "Caduceus, Staff of Hermes",
+        :oracle-text
+        "Equipped creature has lifelink.\nAs long as you have 30 or more life, equipped creature gets +5/+5 and has indestructible and \"Prevent all damage that would be dealt to this creature.\"\nEquip {W}{W}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/5554433e-0dee-4960-a58c-c4a24e01a989.png?1721423587",
+        :collector-number "3",
+        :layout "normal",
+        :name "Distract the Guards",
+        :oracle-text
+        "Freerunning {1}{W} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nCreate three 1/1 white Human Rogue creature tokens."}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/85a8c84b-7d6c-4068-97b1-bc5dec46732c.png?1721423595",
+        :collector-number "4",
+        :layout "saga",
+        :name "Fall of the First Civilization",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You and target opponent each draw two cards.\nII — Exile target artifact an opponent controls.\nIII — Each player chooses three nonland permanents they control. Destroy all other nonland permanents."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/46e791f0-297b-46bf-acd5-f62458009d76.png?1721423601",
+        :collector-number "5",
+        :layout "normal",
+        :name "Haystack",
+        :oracle-text
+        "{2}, {T}: Target creature you control phases out. (Treat it and anything attached to it as though they don't exist until your next turn.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/1/e17eca56-f658-410f-b505-8cbc87d4f253.png?1721423609",
+        :collector-number "6",
+        :layout "normal",
+        :name "Hookblade",
+        :oracle-text
+        "When Hookblade enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/2/2278d97e-791a-4843-a385-65bac79bde7a.png?1721423616",
+        :collector-number "7",
+        :layout "normal",
+        :name "Layla Hassan",
+        :oracle-text
+        "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Bird Scout",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/6/5671a03d-0858-41e7-976c-60825c29af04.png?1721423622",
+        :collector-number "8",
+        :layout "normal",
+        :name "Senu, Keen-Eyed Protector",
+        :oracle-text
+        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+ #:card{:type-line "Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a300b5af-9223-4e97-9d33-a9226bd900f3.png?1721423629",
+        :collector-number "9",
+        :layout "normal",
+        :name "Tax Collector",
+        :oracle-text
+        "When Tax Collector enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d5a1bec-9128-4c5e-98c3-317424f892d1.png?1721423636",
+        :collector-number "10",
+        :layout "normal",
+        :name "Templar Knight",
+        :oracle-text
+        "Vigilance\n{W}, Tap five untapped attacking creatures you control named Templar Knight: Search your library for a legendary artifact card, put it onto the battlefield, then shuffle.\nA deck can have any number of cards named Templar Knight."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fe034544-e13f-45fc-ae43-83d0f399ed33.png?1721423643",
+        :collector-number "11",
+        :layout "normal",
+        :name "What Must Be Done",
+        :oracle-text
+        "Choose one —\n• Let the World Burn — Destroy all artifacts and creatures.\n• Release Juno — Return target historic permanent card from your graveyard to the battlefield. It enters with two additional +1/+1 counters on it if it's a creature. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a9ebdd18-7f07-417c-8f30-470c1f14dfae.png?1721423650",
+        :collector-number "12",
+        :layout "normal",
+        :name "Assassin Gauntlet",
+        :oracle-text
+        "When Assassin Gauntlet enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/d/2d6b1b2f-903c-438c-baba-a3b3e60b1d4f.png?1721423658",
+        :collector-number "13",
+        :layout "saga",
+        :name "Ballad of the Black Flag",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Mill three cards. You may put a historic card from among them into your hand. (Artifacts, legendaries, and Sagas are historic.)\nIV — Historic spells you cast this turn cost {2} less to cast."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f321777f-399b-4f80-9baf-da6a0aaa325a.png?1721423665",
+        :collector-number "14",
+        :layout "normal",
+        :name "Become Anonymous",
+        :oracle-text
+        "Exile target nontoken creature you own and the top two cards of your library in a face-down pile, shuffle that pile, then cloak those cards. They enter tapped. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b10fa72b-6742-4b65-8654-ac70b6240e38.png?1721423673",
+        :collector-number "15",
+        :layout "normal",
+        :name "Crystal Skull, Isu Spyglass",
+        :oracle-text
+        "You may look at the top card of your library any time.\nYou may play historic lands and cast historic spells from the top of your library. (Artifacts, legendaries, and Sagas are historic.)\n{T}: Add {U}."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3ddd3561-0143-40b7-81bc-640a978b8b15.png?1721423680",
+        :collector-number "16",
+        :layout "normal",
+        :name "Desynchronization",
+        :oracle-text
+        "Return each nonland permanent that's not historic to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/5197e8d6-cbfe-4469-95e1-f17eeb4715f1.png?1721423688",
+        :collector-number "17",
+        :layout "normal",
+        :name "Eagle Vision",
+        :oracle-text
+        "Freerunning {1}{U} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nDraw three cards."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/ec676a8f-612d-4ef4-a370-6208407a86af.png?1721423696",
+        :collector-number "18",
+        :layout "normal",
+        :name "Escape Detection",
+        :oracle-text
+        "Freerunning—Return a blue creature you control to its owner's hand. (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nReturn target creature to its owner's hand.\nDraw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/2/62f1ff84-d363-4aa2-b884-e9640cf62537.png?1721423704",
+        :collector-number "19",
+        :layout "normal",
+        :name "Evie Frye",
+        :oracle-text
+        "Partner with Jacob Frye (When this creature enters, target player may put Jacob into their hand from their library, then shuffle.)\n{1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn."}
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/283d04a5-3639-42de-b940-ffa7e609e527.png?1721423712",
+        :collector-number "20",
+        :layout "normal",
+        :name "Leonardo da Vinci",
+        :oracle-text
+        "{3}{U}{U}: Until end of turn, Thopters you control have base power and toughness X/X, where X is the number of cards in your hand.\n{2}{U}, {T}: Draw a card, then discard a card. If the discarded card was an artifact card, exile it from your graveyard. If you do, create a token that's a copy of it, except it's a 0/2 Thopter artifact creature with flying in addition to its other types."}
+ #:card{:type-line "Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be1e598a-840c-4166-88a6-92a8b9958536.png?1721423720",
+        :collector-number "21",
+        :layout "normal",
+        :name "Loyal Inventor",
+        :oracle-text
+        "Vigilance\nWhen Loyal Inventor enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3ce4e330-d878-48f3-b9fe-3158d69f2da2.png?1721423727",
+        :collector-number "22",
+        :layout "normal",
+        :name "Assassin Initiate",
+        :oracle-text
+        "{1}: Assassin Initiate gains your choice of flying, deathtouch, or lifelink until end of turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d4bcd9c9-5957-48ee-9c12-f659c5fd07d0.png?1721423735",
+        :collector-number "23",
+        :layout "normal",
+        :name "Chain Assassination",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nDestroy target creature. If another creature died this turn, draw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c9523cd1-c3cf-4745-af09-77c1a83ac86f.png?1721423743",
+        :collector-number "24",
+        :layout "normal",
+        :name "Desmond Miles",
+        :oracle-text
+        "Menace\nDesmond Miles gets +1/+0 for each other Assassin you control and each Assassin card in your graveyard.\nWhenever Desmond Miles deals combat damage to a player, surveil X, where X is the amount of damage it dealt to that player."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/dae9ee75-30b8-4e24-af8b-031c816d3221.png?1721423751",
+        :collector-number "25",
+        :layout "normal",
+        :name "Ezio Auditore da Firenze",
+        :oracle-text
+        "Menace\nAssassin spells you cast have freerunning {B}{B}. (You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/e/7ea6cde3-a4e6-4052-aca3-4d209be15db3.png?1721423759",
+        :collector-number "26",
+        :layout "normal",
+        :name "Hemlock Vial",
+        :oracle-text
+        "When Hemlock Vial enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice Hemlock Vial: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23422e75-e1c7-484b-aa1f-155ef9a998ec.png?1721423767",
+        :collector-number "27",
+        :layout "normal",
+        :name "Jacob Frye",
+        :oracle-text
+        "Partner with Evie Frye (When this creature enters, target player may put Evie into their hand from their library, then shuffle.)\nWhenever one or more Assassins you control deal combat damage to a player, exile up to one target Assassin card or card with freerunning from your graveyard. If you do, copy it. You may cast the copy."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/45abc0a4-ae33-470f-9a39-2dd776dd6adb.png?1721423775",
+        :collector-number "28",
+        :layout "normal",
+        :name "Petty Larceny",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nLook at the top two cards of target opponent's library and exile those cards face down. You may play those cards for as long as they remain exiled, and mana of any type can be spent to cast them. Create a Treasure token."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/ec5ec61b-5393-422b-b021-46b80bb42ac4.png?1721423782",
+        :collector-number "29",
+        :layout "normal",
+        :name "Phantom Blade",
+        :oracle-text
+        "When Phantom Blade enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/a/9a2b1b20-e5fd-4ccb-8529-12dbde0e0811.png?1721423790",
+        :collector-number "30",
+        :layout "normal",
+        :name "Restart Sequence",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nReturn target creature card from your graveyard to the battlefield."}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/d/ed77def5-ac92-4907-805d-261cae0db357.png?1721423798",
+        :collector-number "31",
+        :layout "saga",
+        :name "The Revelations of Ezio",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target tapped creature an opponent controls.\nII — Whenever an Assassin you control attacks this turn, put a +1/+1 counter on it.\nIII — Return target Assassin creature card from your graveyard to the battlefield with an additional +1/+1 counter on it."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/eb17e6aa-8be5-40ea-a627-783c478c8eda.png?1721423805",
+        :collector-number "32",
+        :layout "normal",
+        :name "Roshan, Hidden Magister",
+        :oracle-text
+        "Other creatures you control are Assassins in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\nFace-down creatures you control have menace.\nWhenever a permanent you control is turned face up, you draw a card and you lose 1 life."}
+ #:card{:type-line "Legendary Creature — Human Berserker",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e81b94b2-4052-4686-a788-9baf0fa0f81a.png?1721423813",
+        :collector-number "33",
+        :layout "normal",
+        :name "Alexios, Deimos of Kosmos",
+        :oracle-text
+        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/1/e188fe5a-92ac-4c1c-a9a4-2dd5912cc14e.png?1721423821",
+        :collector-number "34",
+        :layout "normal",
+        :name "Hidden Footblade",
+        :oracle-text
+        "Flash\nWhen Hidden Footblade enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3e2e91f0-3a4e-4388-9460-6756f758316b.png?1721423829",
+        :collector-number "35",
+        :layout "normal",
+        :name "Monastery Raid",
+        :oracle-text
+        "Freerunning {X}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nExile the top two cards of your library. If this spell's freerunning cost was paid, exile the top X cards of your library instead. You may play the exiled cards until the end of your next turn."}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/4/14da80cd-d0b8-4094-bfe7-28811d655f8b.png?1721423838",
+        :collector-number "36",
+        :layout "saga",
+        :name "Origin of the Hidden Ones",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Origin of the Hidden Ones deals 4 damage to any target.\nII — Create two 1/1 black Assassin creature tokens with menace.\nIII — Whenever an Assassin you control attacks this turn, create a 1/1 black Assassin creature token with menace that's tapped and attacking."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e4ad338e-88ee-4919-aec4-320071a7cfb5.png?1721423845",
+        :collector-number "37",
+        :layout "normal",
+        :name "Overpowering Attack",
+        :oracle-text
+        "Freerunning {2}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nUntap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase."}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/6/160d6ce7-2452-41a2-aa70-41e1b8045c54.png?1721423853",
+        :collector-number "38",
+        :layout "normal",
+        :name "The Spear of Leonidas",
+        :oracle-text
+        "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}"}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/e/2efbcea0-53ba-444d-b2e0-6d184f945f92.png?1721423861",
+        :collector-number "39",
+        :layout "saga",
+        :name "The Aesir Escape Valhalla",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter.)\nI — Exile a permanent card from your graveyard. You gain life equal to its mana value.\nII — Put a number of +1/+1 counters on target creature you control equal to the mana value of the exiled card.\nIII — Return The Aesir Escape Valhalla and the exiled card to their owner's hand."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/db3b4f73-e241-4d60-a877-25327092c291.png?1721423869",
+        :collector-number "40",
+        :layout "normal",
+        :name "Aveline de Grandpré",
+        :oracle-text
+        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, put that many +1/+1 counters on that creature.\nDisguise {B}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/a/ca2765df-edff-4607-843c-8528d5d4fce9.png?1721423877",
+        :collector-number "41",
+        :layout "normal",
+        :name "Hunter's Bow",
+        :oracle-text
+        "When Hunter's Bow enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
+ #:card{:type-line "Creature — Human Archer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d37a14c4-5398-491b-8b37-8c4eeff3054f.png?1721423885",
+        :collector-number "42",
+        :layout "normal",
+        :name "Palazzo Archers",
+        :oracle-text
+        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, Palazzo Archers deals damage equal to its power to that creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/0/b0f10999-c7c2-462e-bd75-e3710f7a3364.png?1721423893",
+        :collector-number "43",
+        :layout "normal",
+        :name "Viewpoint Synchronization",
+        :oracle-text
+        "Freerunning {2}{G} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nSearch your library for up to three basic land cards and reveal them. Put two of them onto the battlefield tapped and the other into your hand, then shuffle."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/914efc24-5c3a-4d22-9d77-fce337a08d4d.png?1721423900",
+        :collector-number "44",
+        :layout "normal",
+        :name "Adéwalé, Breaker of Chains",
+        :oracle-text
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/5/358026de-ab7c-4a17-8cac-cfbee391b127.png?1721423908",
+        :collector-number "45",
+        :layout "normal",
+        :name "Altaïr Ibn-La'Ahad",
+        :oracle-text
+        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/7/c7187506-4af3-47e9-bad0-4ce8c78ccc10.png?1721423915",
+        :collector-number "46",
+        :layout "normal",
+        :name "Arbaaz Mir",
+        :oracle-text
+        "Whenever Arbaaz Mir or another nontoken historic permanent you control enters, Arbaaz Mir deals 1 damage to each opponent and you gain 1 life. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/41142b10-a493-499a-9fc5-043eeca5d1ee.png?1721423930",
+        :collector-number "47",
+        :layout "normal",
+        :name "Arno Dorian",
+        :oracle-text
+        "Deathtouch\nOther Assassins you control get +2/+0.\nDisguise {B}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/0/80bd1928-18ec-4f55-acd8-9a62f9869fff.png?1721423937",
+        :collector-number "48",
+        :layout "normal",
+        :name "Aya of Alexandria",
+        :oracle-text
+        "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/8/f8aa19c1-4e87-4f42-814c-490e75565f6e.png?1721423945",
+        :collector-number "49",
+        :layout "normal",
+        :name "Basim Ibn Ishaq",
+        :oracle-text
+        "Whenever you cast a historic spell, draw a card. Basim Ibn Ishaq can't be blocked this turn. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic.)\nWhenever Basim Ibn Ishaq deals combat damage to a player, put a +1/+1 counter on it."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e4510e9-dc3f-4403-ae52-348d2a3eef84.png?1721423953",
+        :collector-number "50",
+        :layout "normal",
+        :name "Bayek of Siwa",
+        :oracle-text
+        "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e942730-712a-42b2-8683-a18702d685f6.png?1721423961",
+        :collector-number "51",
+        :layout "normal",
+        :name "Bleeding Effect",
+        :oracle-text
+        "At the beginning of combat on your turn, creatures you control gain flying until end of turn if a creature card in your graveyard has flying. The same is true for first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance."}
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/6/769bbbb3-37e9-47ec-9cee-db63672275e6.png?1721423968",
+        :collector-number "52",
+        :layout "normal",
+        :name "Cleopatra, Exiled Pharaoh",
+        :oracle-text
+        "Allies — At the beginning of your end step, put a +1/+1 counter on each of up to two other target legendary creatures.\nBetrayal — Whenever a legendary creature with counters on it dies, draw a card for each counter on it. You lose 2 life."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/4/9472be1e-388c-45fe-a18d-35b2cb12dc5f.png?1721423976",
+        :collector-number "53",
+        :layout "normal",
+        :name "Edward Kenway",
+        :oracle-text
+        "At the beginning of your end step, create a Treasure token for each tapped Assassin, Pirate, and/or Vehicle you control.\nWhenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/8/88667198-3bec-413c-b41e-de96abc8db7b.png?1721423992",
+        :collector-number "54",
+        :layout "normal",
+        :name "Eivor, Wolf-Kissed",
+        :oracle-text
+        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+ #:card{:type-line "Legendary Creature — Human",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/3351cae2-87be-4438-ba58-f4f4aff2416c.png?1721423999",
+        :collector-number "55",
+        :layout "normal",
+        :name "Ezio, Brash Novice",
+        :oracle-text
+        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+ #:card{:type-line "Legendary Creature — God Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/c/7c44cc99-eb71-4be3-89f2-74473f2717d3.png?1721424007",
+        :collector-number "56",
+        :layout "normal",
+        :name "Havi, the All-Father",
+        :oracle-text
+        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Knight",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/3/73468f53-7de5-4a64-8f83-c0376f1d1f3f.png?1721424015",
+        :collector-number "57",
+        :layout "normal",
+        :name "Haytham Kenway",
+        :oracle-text
+        "Protection from Assassins\nOther Knights you control get +2/+2 and have protection from Assassins.\nWhen Haytham Kenway enters, for each opponent, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield."}
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/3/63056bb9-e825-418a-a8ff-692980aa65fe.png?1721424023",
+        :collector-number "58",
+        :layout "normal",
+        :name "Jackdaw",
+        :oracle-text
+        "Whenever Jackdaw deals combat damage to a player, you may discard your hand. If you do, draw a card for each artifact you control.\nCrew 3"}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/1/e127a40c-90c8-4c2d-aff4-daab1c56a4c5.png?1721424041",
+        :collector-number "59",
+        :layout "normal",
+        :name "Kassandra, Eagle Bearer",
+        :oracle-text
+        "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/d/9dd6c700-f961-484a-8fe2-57107f5b7717.png?1721424049",
+        :collector-number "60",
+        :layout "normal",
+        :name "Lydia Frye",
+        :oracle-text
+        "Lydia Frye can't be blocked by creatures with power 3 or greater.\nAt the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/116bf8c6-8488-4eff-b350-b3ea821353b1.png?1721424058",
+        :collector-number "61",
+        :layout "normal",
+        :name "Mary Read and Anne Bonny",
+        :oracle-text
+        "Haste\n{T}: Draw a card, then discard a card.\nWhenever you discard an Island, Pirate, or Vehicle card, create a tapped Treasure token."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b16a212-602c-4839-9e34-fc5c5b0388f0.png?1721424066",
+        :collector-number "62",
+        :layout "normal",
+        :name "Ratonhnhaké꞉ton",
+        :oracle-text
+        "As long as Ratonhnhaké꞉ton hasn't dealt damage yet, it has hexproof and can't be blocked.\nWhenever Ratonhnhaké꞉ton deals combat damage to a player, create a 1/1 black Assassin creature token with menace. When you do, return target Equipment card from your graveyard to the battlefield, then attach it to that token."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/8/085568e5-d622-45ff-9a31-52eaa513ff31.png?1721424083",
+        :collector-number "63",
+        :layout "normal",
+        :name "Shao Jun",
+        :oracle-text
+        "Leap Strike — During your turn, Shao Jun has flying and first strike.\nRope Dart — Tap two untapped artifacts you control: Shao Jun deals 1 damage to each opponent."}
+ #:card{:type-line "Legendary Creature — Human Assassin Scientist",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/9/d90080ea-062b-4b92-89e7-b6dcb2c70a8c.png?1721424091",
+        :collector-number "64",
+        :layout "normal",
+        :name "Shaun & Rebecca, Agents",
+        :oracle-text
+        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+ #:card{:type-line "Legendary Creature — Human Knight Rogue",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/2/42ca7f13-df00-4904-a7be-44f94272bfee.png?1721424099",
+        :collector-number "65",
+        :layout "normal",
+        :name "Shay Cormac",
+        :oracle-text
+        "{1}: Permanents your opponents control lose hexproof, indestructible, protection, shroud, and ward until end of turn.\nWhenever a creature an opponent controls becomes the target of a spell or ability you control, put a bounty counter on that creature.\nWhenever a creature with a bounty counter on it dies, put two +1/+1 counters on Shay Cormac."}
+ #:card{:type-line "Legendary Creature — Human Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/25ceade9-f12a-4724-b198-312fb4b1210b.png?1721424116",
+        :collector-number "66",
+        :layout "normal",
+        :name "Sigurd, Jarl of Ravensthorpe",
+        :oracle-text
+        "Vigilance, trample, lifelink\nBoast — {1}: Put a lore counter on target Saga you control or remove one from it. (Activate only if this creature attacked this turn and only once each turn.)\nWhenever you put a lore counter on a Saga you control, put a +1/+1 counter on up to one other target creature."}
+ #:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f9266244-e8bc-47f8-a440-55d208b961df.png?1721424134",
+        :collector-number "67",
+        :layout "normal",
+        :name "Sokrates, Athenian Teacher",
+        :oracle-text
+        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/3/b3d878fc-cc21-407f-b3cc-95bf2d717a80.png?1721424160",
+        :collector-number "68",
+        :layout "normal",
+        :name "Adrestia",
+        :oracle-text
+        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Adrestia attacks, if an Assassin crewed it this turn, draw a card. Adrestia becomes an Assassin in addition to its other types until end of turn.\nCrew 1"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/d/ad574010-01ee-4bbc-87c5-4b04338b6ef6.png?1721424168",
+        :collector-number "69",
+        :layout "normal",
+        :name "The Animus",
+        :oracle-text
+        "At the beginning of your end step, exile up to one target legendary creature card from a graveyard with a memory counter on it.\n{T}: Until your next turn, target legendary creature you control becomes a copy of target creature card in exile with a memory counter on it. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/7/17dd0b7f-bd26-4a46-a7a1-bc65138d54ed.png?1721424175",
+        :collector-number "70",
+        :layout "normal",
+        :name "Apple of Eden, Isu Relic",
+        :oracle-text
+        "{T}, Pay 4 life, Sacrifice Apple of Eden: Look at target opponent's hand and exile those cards face down. You may play those cards this turn, and mana of any type can be spent to cast them. Until end of turn, whenever you play a land or cast a spell this way, its owner draws a card. At the beginning of the next end step, return the exiled cards to their owner's hand. Activate only as a sorcery."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8a6439a6-288d-427e-b14b-a99e8ef8c5cd.png?1721424191",
+        :collector-number "71",
+        :layout "normal",
+        :name "Brotherhood Regalia",
+        :oracle-text
+        "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/6/26dbf574-3193-413e-a982-4b9d27dafaf5.png?1721424198",
+        :collector-number "72",
+        :layout "normal",
+        :name "Excalibur, Sword of Eden",
+        :oracle-text
+        "This spell costs {X} less to cast, where X is the total mana value of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)\nEquipped creature gets +10/+0 and has vigilance.\nEquip legendary creature {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/0/a07a488f-cb64-4f4c-9c2e-6cdb5d563f13.png?1721424206",
+        :collector-number "73",
+        :layout "normal",
+        :name "Hidden Blade",
+        :oracle-text
+        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/df09fc8c-e008-427b-b007-ceec9a4aa4ab.png?1721424213",
+        :collector-number "74",
+        :layout "normal",
+        :name "Mjölnir, Storm Hammer",
+        :oracle-text
+        "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/3/4330d8ce-3b82-4297-ad5f-c63b54b6665a.png?1721424221",
+        :collector-number "75",
+        :layout "normal",
+        :name "Smoke Bomb",
+        :oracle-text
+        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice Smoke Bomb. When you do, target creature you control can't be blocked this turn."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/31ce94a9-d6f4-432d-9447-e6d1446c393b.png?1721424229",
+        :collector-number "76",
+        :layout "normal",
+        :name "Staff of Eden, Vault's Key",
+        :oracle-text
+        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+ #:card{:type-line "Artifact Creature — Wall",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/1/d19115bf-562c-4bef-967d-52ec1e54c82e.png?1721424237",
+        :collector-number "77",
+        :layout "normal",
+        :name "Towering Viewpoint",
+        :oracle-text
+        "Defender, reach\nLeap of Faith — {3}: Target creature gains flying until end of turn."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/2/f240a9ef-06cd-4c48-ba97-fea1e55f20e2.png?1721424245",
+        :collector-number "78",
+        :layout "normal",
+        :name "Yggdrasil, Rebirth Engine",
+        :oracle-text
+        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4d197866-7633-493c-80dd-ec3a09165934.png?1721424262",
+        :collector-number "79",
+        :layout "normal",
+        :name "Abstergo Entertainment",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{3}, {T}, Exile Abstergo Entertainment: Return up to one target historic card from your graveyard to your hand, then exile all graveyards. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/535f43c4-8926-4981-967d-f681f98e07d9.png?1721424269",
+        :collector-number "80",
+        :layout "normal",
+        :name "Brotherhood Headquarters",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast an Assassin spell or a spell that has freerunning, or to activate an ability of an Assassin source."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e4ed445-7b35-4090-9d0e-92532b07c8c7.png?1721424283",
+        :collector-number "81",
+        :layout "normal",
+        :name "Path to Exile",
+        :oracle-text
+        "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/2/f203ce7d-a079-44b8-bfda-4c63ec79b82d.png?1721424299",
+        :collector-number "82",
+        :layout "normal",
+        :name "Reconnaissance",
+        :oracle-text
+        "{0}: Remove target attacking creature you control from combat and untap it. (If you activate during end of combat, the creature will untap after it deals combat damage.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/8/98040e14-8182-4a94-9322-bbd967dc4dfe.png?1721424317",
+        :collector-number "83",
+        :layout "normal",
+        :name "Rest in Peace",
+        :oracle-text
+        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/b/1bdc8ac7-a9aa-4323-84c9-fa0cade02bd1.png?1721424325",
+        :collector-number "84",
+        :layout "normal",
+        :name "Coastal Piracy",
+        :oracle-text
+        "Whenever a creature you control deals combat damage to an opponent, you may draw a card."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/c/4c7c9072-d14c-442c-a386-bfdc0cbe110d.png?1721424333",
+        :collector-number "85",
+        :layout "normal",
+        :name "Propaganda",
+        :oracle-text
+        "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/3/7385611f-d26f-4a6e-b141-adcf3dbfc438.png?1721424342",
+        :collector-number "86",
+        :layout "normal",
+        :name "Temporal Trespass",
+        :oracle-text
+        "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTake an extra turn after this one. Exile Temporal Trespass."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9bac8176-d0db-4397-820d-acbdd3264377.png?1721424350",
+        :collector-number "87",
+        :layout "normal",
+        :name "Black Market Connections",
+        :oracle-text
+        "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It has every creature type.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/a/fa3cbcbb-d865-42df-88e1-0c9bd24b5c79.png?1721424377",
+        :collector-number "88",
+        :layout "normal",
+        :name "Conspiracy",
+        :oracle-text
+        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/512263f7-975a-4107-b58f-6c8ec85e375e.png?1721424385",
+        :collector-number "89",
+        :layout "normal",
+        :name "Cover of Darkness",
+        :oracle-text
+        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e6949e85-2db2-43a7-93bd-485c7b196298.png?1721424393",
+        :collector-number "90",
+        :layout "normal",
+        :name "Fatal Push",
+        :oracle-text
+        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4f95ad5d-d0c7-4a65-9e46-1d33abbf77aa.png?1721424401",
+        :collector-number "91",
+        :layout "normal",
+        :name "Go for the Throat",
+        :oracle-text "Destroy target nonartifact creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/86d73f4c-0bbd-4616-81a6-102db6cd7db9.png?1721424410",
+        :collector-number "92",
+        :layout "normal",
+        :name "Murder",
+        :oracle-text "Destroy target creature."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/b/0b18205d-cce3-4aef-90bd-06cfb4d8387f.png?1721424418",
+        :collector-number "93",
+        :layout "normal",
+        :name "Royal Assassin",
+        :oracle-text "{T}: Destroy target tapped creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/55aaab05-db3b-4317-ae32-553c76f6bade.png?1721424428",
+        :collector-number "94",
+        :layout "normal",
+        :name "Cathartic Reunion",
+        :oracle-text
+        "As an additional cost to cast this spell, discard two cards.\nDraw three cards."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/def90432-6d13-4d28-aa27-f75dd26456bb.png?1721424436",
+        :collector-number "95",
+        :layout "normal",
+        :name "Assassin's Trophy",
+        :oracle-text
+        "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/11de7338-243a-40e2-84e3-c31240840768.png?1721424454",
+        :collector-number "96",
+        :layout "normal",
+        :name "Mortify",
+        :oracle-text "Destroy target creature or enchantment."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4d80d4e1-8883-4951-8081-a444ab26c5d7.png?1721424462",
+        :collector-number "97",
+        :layout "normal",
+        :name "Reconstruct History",
+        :oracle-text
+        "Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.\nExile Reconstruct History."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6c38679-5563-4390-ba1f-804731953206.png?1721424471",
+        :collector-number "98",
+        :layout "normal",
+        :name "Terminate",
+        :oracle-text
+        "Destroy target creature. It can't be regenerated."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/dfb6176a-3938-4c59-b485-8751969358ad.png?1721424479",
+        :collector-number "99",
+        :layout "normal",
+        :name "Sword of Feast and Famine",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/b/1b4b10aa-47ff-4897-b56a-00c8b19a2d34.png?1721424487",
+        :collector-number "100",
+        :layout "normal",
+        :name "Sword of Light and Shadow",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from white and from black.\nWhenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.\nEquip {2}"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/66ad5a57-7296-43cb-b477-826e65d37222.png?1721424496",
+        :collector-number "101",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/4578c984-afb6-4532-b5be-093ed4ecb8b9.png?1721424506",
+        :collector-number "102",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a22426c4-914a-4e0b-a28a-b8573b63e320.png?1721424517",
+        :collector-number "103",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/7/a76f785d-1972-4bd6-8a43-848d51068712.png?1721424527",
+        :collector-number "104",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/1/c163a697-01ee-4a55-814f-b0ba79be3a7f.png?1721424536",
+        :collector-number "105",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/07a6df7a-a080-4aef-9a76-5b08bbc4e762.png?1721424544",
+        :collector-number "106",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a534ae1-4e6f-43ae-a8ad-89e306f11f21.png?1721424554",
+        :collector-number "107",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d0a55d99-d668-4621-bb14-f7df210adbe4.png?1721424563",
+        :collector-number "108",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/8/b8a081ef-a2d4-4989-8b06-721f8b2c9798.png?1721424573",
+        :collector-number "109",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/650e47f3-476f-4b32-b892-c1a01335d0fe.png?1721424583",
+        :collector-number "110",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/d/bd5b2ce3-3cf0-47dd-9b76-940ae7eb8498.png?1721424592",
+        :collector-number "111",
+        :layout "normal",
+        :name "Sunbaked Canyon",
+        :oracle-text
+        "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3e73be68-aec6-4033-9cdd-bc473d7db93a.png?1721424603",
+        :collector-number "112",
+        :layout "normal",
+        :name "Fiery Islet",
+        :oracle-text
+        "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice Fiery Islet: Draw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/7/f7b4c94f-a38a-461c-9bb8-aadc587a1ae6.png?1724104602",
+        :collector-number "113",
+        :layout "normal",
+        :name "Ezio Auditore da Firenze",
+        :oracle-text
+        "Menace\nAssassin spells you cast have freerunning {B}{B}. (You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/ab4b80c5-fe04-4e5e-9637-b745c2c8956b.png?1721424627",
+        :collector-number "114",
+        :layout "normal",
+        :name "Nurturing Peatland",
+        :oracle-text
+        "{T}, Pay 1 life: Add {B} or {G}.\n{1}, {T}, Sacrifice Nurturing Peatland: Draw a card."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0de40ccf-5db9-4e4f-b61b-8fc4454209ae.png?1721424639",
+        :collector-number "115",
+        :layout "normal",
+        :name "Silent Clearing",
+        :oracle-text
+        "{T}, Pay 1 life: Add {W} or {B}.\n{1}, {T}, Sacrifice Silent Clearing: Draw a card."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/6631b9b3-57fb-45d0-94fc-7d07556c8f7f.png?1721424651",
+        :collector-number "116",
+        :layout "normal",
+        :name "Waterlogged Grove",
+        :oracle-text
+        "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice Waterlogged Grove: Draw a card."}
+ #:card{:type-line "Legendary Creature — God Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/e/2e0f02da-62b2-424a-9f1d-6b6b387c15cd.png?1721424664",
+        :collector-number "117",
+        :layout "normal",
+        :name "The Capitoline Triad",
+        :oracle-text
+        "Those Who Came Before — This spell costs {1} less to cast for each historic card in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nExile any number of historic cards from your graveyard with total mana value 30 or greater: You get an emblem with \"Creatures you control have base power and toughness 9/9.\""}
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bba0ca29-99a7-4cfd-8e16-e32ccaa5ee1e.png?1721424675",
+        :collector-number "118",
+        :layout "normal",
+        :name "Leonardo da Vinci",
+        :oracle-text
+        "{3}{U}{U}: Until end of turn, Thopters you control have base power and toughness X/X, where X is the number of cards in your hand.\n{2}{U}, {T}: Draw a card, then discard a card. If the discarded card was an artifact card, exile it from your graveyard. If you do, create a token that's a copy of it, except it's a 0/2 Thopter artifact creature with flying in addition to its other types."}
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/c/2c7f82c4-7223-4dae-b037-aac96a32212f.png?1727740529",
+        :collector-number "118z",
+        :layout "normal",
+        :name "Leonardo da Vinci",
+        :oracle-text
+        "{3}{U}{U}: Until end of turn, Thopters you control have base power and toughness X/X, where X is the number of cards in your hand.\n{2}{U}, {T}: Draw a card, then discard a card. If the discarded card was an artifact card, exile it from your graveyard. If you do, create a token that's a copy of it, except it's a 0/2 Thopter artifact creature with flying in addition to its other types."}
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/52adcfc1-d8eb-4753-b6fd-a093b6d23637.png?1721424685",
+        :collector-number "119",
+        :layout "normal",
+        :name "Cleopatra, Exiled Pharaoh",
+        :oracle-text
+        "Allies — At the beginning of your end step, put a +1/+1 counter on each of up to two other target legendary creatures.\nBetrayal — Whenever a legendary creature with counters on it dies, draw a card for each counter on it. You lose 2 life."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f44a19dd-2ead-4712-928e-008a75c64fe2.png?1729947383",
+        :collector-number "120",
+        :layout "normal",
+        :name "Mary Read and Anne Bonny",
+        :oracle-text
+        "Haste\n{T}: Draw a card, then discard a card.\nWhenever you discard an Island, Pirate, or Vehicle card, create a tapped Treasure token."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4ab4bfe8-c213-4cff-80fd-824b8f2c6f8f.png?1719477692",
+        :collector-number "120z",
+        :layout "normal",
+        :name "Mary Read and Anne Bonny",
+        :oracle-text
+        "Haste\n{T}: Draw a card, then discard a card.\nWhenever you discard an Island, Pirate, or Vehicle card, create a tapped Treasure token."}
+ #:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/0/a0b107dc-387e-4c92-a273-6cb44a485caa.png?1718771031",
+        :collector-number "121",
+        :layout "normal",
+        :name "Sokrates, Athenian Teacher",
+        :oracle-text
+        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/d/2d9b2ac8-5bb6-4d40-abd5-e885e1e1fa7b.png?1721424707",
+        :collector-number "122",
+        :layout "normal",
+        :name "Apple of Eden, Isu Relic",
+        :oracle-text
+        "{T}, Pay 4 life, Sacrifice Apple of Eden: Look at target opponent's hand and exile those cards face down. You may play those cards this turn, and mana of any type can be spent to cast them. Until end of turn, whenever you play a land or cast a spell this way, its owner draws a card. At the beginning of the next end step, return the exiled cards to their owner's hand. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/8/780e0225-e272-4a25-a32b-085c4b950597.png?1721424725",
+        :collector-number "123",
+        :layout "normal",
+        :name "Staff of Eden, Vault's Key",
+        :oracle-text
+        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/b/4ba4c892-fe7e-4d0c-bce4-724eb4744831.png?1721424744",
+        :collector-number "124",
+        :layout "normal",
+        :name "Sword of Feast and Famine",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/7/e7736bed-b0db-435d-86b3-fa860dbf55f0.png?1721424754",
+        :collector-number "125",
+        :layout "normal",
+        :name "Sword of Light and Shadow",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from white and from black.\nWhenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.\nEquip {2}"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/5/c563a0e0-0f9b-450d-8840-728429b9f4d6.png?1721424763",
+        :collector-number "126",
+        :layout "normal",
+        :name "Yggdrasil, Rebirth Engine",
+        :oracle-text
+        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/597080d9-72a2-4da8-bcd5-53ac01da8503.png?1721424771",
+        :collector-number "127",
+        :layout "normal",
+        :name "Layla Hassan",
+        :oracle-text
+        "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Bird Scout",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/4/94f9ff05-8a97-425e-b556-cc658630c869.png?1721424777",
+        :collector-number "128",
+        :layout "normal",
+        :name "Senu, Keen-Eyed Protector",
+        :oracle-text
+        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a8fb3313-b171-4264-81b7-8c043ddcacda.png?1721424779",
+        :collector-number "129",
+        :layout "normal",
+        :name "Evie Frye",
+        :oracle-text
+        "Partner with Jacob Frye (When this creature enters, target player may put Jacob into their hand from their library, then shuffle.)\n{1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/31006604-83cf-4d8d-bf68-bc2ebb2fb5a0.png?1721424786",
+        :collector-number "130",
+        :layout "normal",
+        :name "Desmond Miles",
+        :oracle-text
+        "Menace\nDesmond Miles gets +1/+0 for each other Assassin you control and each Assassin card in your graveyard.\nWhenever Desmond Miles deals combat damage to a player, surveil X, where X is the amount of damage it dealt to that player."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/07ce00ad-acb5-4418-9ea1-50eaf2273242.png?1721424786",
+        :collector-number "131",
+        :layout "normal",
+        :name "Ezio Auditore da Firenze",
+        :oracle-text
+        "Menace\nAssassin spells you cast have freerunning {B}{B}. (You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24dd5f46-2a61-4553-8469-fd69cccec9d8.png?1721424793",
+        :collector-number "132",
+        :layout "normal",
+        :name "Jacob Frye",
+        :oracle-text
+        "Partner with Evie Frye (When this creature enters, target player may put Evie into their hand from their library, then shuffle.)\nWhenever one or more Assassins you control deal combat damage to a player, exile up to one target Assassin card or card with freerunning from your graveyard. If you do, copy it. You may cast the copy."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/8/f8ca1f92-2b5c-4d16-be17-6ba450b43ea3.png?1721424795",
+        :collector-number "133",
+        :layout "normal",
+        :name "Roshan, Hidden Magister",
+        :oracle-text
+        "Other creatures you control are Assassins in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\nFace-down creatures you control have menace.\nWhenever a permanent you control is turned face up, you draw a card and you lose 1 life."}
+ #:card{:type-line "Legendary Creature — Human Berserker",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/ab907c09-56c0-40ed-aebd-63b64c7e1c2e.png?1721424804",
+        :collector-number "134",
+        :layout "normal",
+        :name "Alexios, Deimos of Kosmos",
+        :oracle-text
+        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1dba9494-1443-4043-8cb9-3b3f18cd6676.png?1721424807",
+        :collector-number "135",
+        :layout "normal",
+        :name "Aveline de Grandpré",
+        :oracle-text
+        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, put that many +1/+1 counters on that creature.\nDisguise {B}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/2/c2e0ee24-94fc-4042-b3cf-a5a8a2432ba4.png?1721424812",
+        :collector-number "136",
+        :layout "normal",
+        :name "Adéwalé, Breaker of Chains",
+        :oracle-text
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a96abfdf-21fa-46dc-9632-37add4c10c2a.png?1721424815",
+        :collector-number "137",
+        :layout "normal",
+        :name "Altaïr Ibn-La'Ahad",
+        :oracle-text
+        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/458bf178-a2d8-4f7d-afed-48a7e2bbf246.png?1721424821",
+        :collector-number "138",
+        :layout "normal",
+        :name "Arbaaz Mir",
+        :oracle-text
+        "Whenever Arbaaz Mir or another nontoken historic permanent you control enters, Arbaaz Mir deals 1 damage to each opponent and you gain 1 life. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/60a97041-4c09-46f2-b979-e4f63c676fb4.png?1721424824",
+        :collector-number "139",
+        :layout "normal",
+        :name "Arno Dorian",
+        :oracle-text
+        "Deathtouch\nOther Assassins you control get +2/+0.\nDisguise {B}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/720096c1-cbbc-4a2f-b585-899c3b87032c.png?1721424832",
+        :collector-number "140",
+        :layout "normal",
+        :name "Aya of Alexandria",
+        :oracle-text
+        "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0e74cc38-108d-46d4-9d4b-43ed5653982a.png?1721424833",
+        :collector-number "141",
+        :layout "normal",
+        :name "Basim Ibn Ishaq",
+        :oracle-text
+        "Whenever you cast a historic spell, draw a card. Basim Ibn Ishaq can't be blocked this turn. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic.)\nWhenever Basim Ibn Ishaq deals combat damage to a player, put a +1/+1 counter on it."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a9d27847-42d8-442d-9c3d-7e58f7d1ec5b.png?1721424843",
+        :collector-number "142",
+        :layout "normal",
+        :name "Bayek of Siwa",
+        :oracle-text
+        "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/181f4713-6167-4a79-8584-30cb87e6f92b.png?1721424844",
+        :collector-number "143",
+        :layout "normal",
+        :name "Edward Kenway",
+        :oracle-text
+        "At the beginning of your end step, create a Treasure token for each tapped Assassin, Pirate, and/or Vehicle you control.\nWhenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24f45655-c9c9-4adc-a263-106dcca97c69.png?1721424854",
+        :collector-number "144",
+        :layout "normal",
+        :name "Eivor, Wolf-Kissed",
+        :oracle-text
+        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+ #:card{:type-line "Legendary Creature — Human",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c3f4e32b-9252-42a9-a259-cd9a68cb3f4a.png?1721424854",
+        :collector-number "145",
+        :layout "normal",
+        :name "Ezio, Brash Novice",
+        :oracle-text
+        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+ #:card{:type-line "Legendary Creature — God Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4ffdd5a9-bc4f-48de-b87b-8087241f6d41.png?1721424865",
+        :collector-number "146",
+        :layout "normal",
+        :name "Havi, the All-Father",
+        :oracle-text
+        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Knight",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23aa895d-659f-49cb-82af-fd8fa491004f.png?1721424872",
+        :collector-number "147",
+        :layout "normal",
+        :name "Haytham Kenway",
+        :oracle-text
+        "Protection from Assassins\nOther Knights you control get +2/+2 and have protection from Assassins.\nWhen Haytham Kenway enters, for each opponent, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7016d0a-0352-4955-86af-949cf6ba6a3f.png?1721424877",
+        :collector-number "148",
+        :layout "normal",
+        :name "Kassandra, Eagle Bearer",
+        :oracle-text
+        "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/910570c8-c868-4513-8b27-22268d0cff68.png?1721424882",
+        :collector-number "149",
+        :layout "normal",
+        :name "Lydia Frye",
+        :oracle-text
+        "Lydia Frye can't be blocked by creatures with power 3 or greater.\nAt the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4f0e1e27-9a74-4151-8902-aacd12897946.png?1721424888",
+        :collector-number "150",
+        :layout "normal",
+        :name "Ratonhnhaké꞉ton",
+        :oracle-text
+        "As long as Ratonhnhaké꞉ton hasn't dealt damage yet, it has hexproof and can't be blocked.\nWhenever Ratonhnhaké꞉ton deals combat damage to a player, create a 1/1 black Assassin creature token with menace. When you do, return target Equipment card from your graveyard to the battlefield, then attach it to that token."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/3/9313f099-7f76-4b3e-af6a-f62b13cad7b8.png?1721424893",
+        :collector-number "151",
+        :layout "normal",
+        :name "Shao Jun",
+        :oracle-text
+        "Leap Strike — During your turn, Shao Jun has flying and first strike.\nRope Dart — Tap two untapped artifacts you control: Shao Jun deals 1 damage to each opponent."}
+ #:card{:type-line "Legendary Creature — Human Assassin Scientist",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/5395d40f-75ae-4198-bb8a-c91265bcf824.png?1721424899",
+        :collector-number "152",
+        :layout "normal",
+        :name "Shaun & Rebecca, Agents",
+        :oracle-text
+        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+ #:card{:type-line "Legendary Creature — Human Knight Rogue",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/f/bf3012ba-1537-4f54-bb4a-65b909b87e59.png?1721424902",
+        :collector-number "153",
+        :layout "normal",
+        :name "Shay Cormac",
+        :oracle-text
+        "{1}: Permanents your opponents control lose hexproof, indestructible, protection, shroud, and ward until end of turn.\nWhenever a creature an opponent controls becomes the target of a spell or ability you control, put a bounty counter on that creature.\nWhenever a creature with a bounty counter on it dies, put two +1/+1 counters on Shay Cormac."}
+ #:card{:type-line "Legendary Creature — Human Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/7769bc61-cde4-4033-9bbe-e01bc9574261.png?1721424909",
+        :collector-number "154",
+        :layout "normal",
+        :name "Sigurd, Jarl of Ravensthorpe",
+        :oracle-text
+        "Vigilance, trample, lifelink\nBoast — {1}: Put a lore counter on target Saga you control or remove one from it. (Activate only if this creature attacked this turn and only once each turn.)\nWhenever you put a lore counter on a Saga you control, put a +1/+1 counter on up to one other target creature."}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/a/badfc613-88d9-4a81-a525-1ef74f3ac420.png?1729215192",
+        :collector-number "155",
+        :layout "normal",
+        :name "Caduceus, Staff of Hermes",
+        :oracle-text
+        "Equipped creature has lifelink.\nAs long as you have 30 or more life, equipped creature gets +5/+5 and has indestructible and \"Prevent all damage that would be dealt to this creature.\"\nEquip {W}{W}"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/f/7f9bf9e0-cb43-411c-a955-dc8e2f331e2d.png?1721424921",
+        :collector-number "156",
+        :layout "normal",
+        :name "Rest in Peace",
+        :oracle-text
+        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8a5f9cb4-a912-4117-97c8-ffe3f5c88eed.png?1721424924",
+        :collector-number "157",
+        :layout "normal",
+        :name "What Must Be Done",
+        :oracle-text
+        "Choose one —\n• Let the World Burn — Destroy all artifacts and creatures.\n• Release Juno — Return target historic permanent card from your graveyard to the battlefield. It enters with two additional +1/+1 counters on it if it's a creature. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/0/1068ed8a-a062-4249-802d-6f4070992de0.png?1721424932",
+        :collector-number "158",
+        :layout "normal",
+        :name "Crystal Skull, Isu Spyglass",
+        :oracle-text
+        "You may look at the top card of your library any time.\nYou may play historic lands and cast historic spells from the top of your library. (Artifacts, legendaries, and Sagas are historic.)\n{T}: Add {U}."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/5096632a-a156-4aa5-9b09-f222939ab574.png?1721424935",
+        :collector-number "159",
+        :layout "normal",
+        :name "Desynchronization",
+        :oracle-text
+        "Return each nonland permanent that's not historic to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6edb50b3-27dd-4d1b-b811-8a2ea5bead1f.png?1721424944",
+        :collector-number "160",
+        :layout "normal",
+        :name "Temporal Trespass",
+        :oracle-text
+        "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTake an extra turn after this one. Exile Temporal Trespass."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/318f8ec3-0613-448d-87d2-0bcc9e95da64.png?1721424945",
+        :collector-number "161",
+        :layout "normal",
+        :name "Black Market Connections",
+        :oracle-text
+        "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It has every creature type.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4a6aeb38-811c-4b5b-8bdd-876f41211035.png?1721424954",
+        :collector-number "162",
+        :layout "normal",
+        :name "Conspiracy",
+        :oracle-text
+        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a40c2274-250c-4aa1-8c28-7d963d31435f.png?1721424955",
+        :collector-number "163",
+        :layout "normal",
+        :name "Cover of Darkness",
+        :oracle-text
+        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae86188f-dcee-4d19-b5b0-e0d18df4f081.png?1721424965",
+        :collector-number "164",
+        :layout "normal",
+        :name "Royal Assassin",
+        :oracle-text "{T}: Destroy target tapped creature."}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8b729699-efb7-4769-a166-29aaadef335b.png?1721424966",
+        :collector-number "165",
+        :layout "normal",
+        :name "The Spear of Leonidas",
+        :oracle-text
+        "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b4c0e5f-3437-4fae-ab9f-36a36a086e88.png?1721424977",
+        :collector-number "166",
+        :layout "normal",
+        :name "Assassin's Trophy",
+        :oracle-text
+        "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle."}
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/55196729-4a74-49b9-acd0-07b8f2d632bb.png?1721424977",
+        :collector-number "167",
+        :layout "normal",
+        :name "Jackdaw",
+        :oracle-text
+        "Whenever Jackdaw deals combat damage to a player, you may discard your hand. If you do, draw a card for each artifact you control.\nCrew 3"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/330dfd52-5e11-4df3-b2e6-7160c940e4cb.png?1721424988",
+        :collector-number "168",
+        :layout "normal",
+        :name "The Animus",
+        :oracle-text
+        "At the beginning of your end step, exile up to one target legendary creature card from a graveyard with a memory counter on it.\n{T}: Until your next turn, target legendary creature you control becomes a copy of target creature card in exile with a memory counter on it. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/e/ae9f36b1-9f73-490e-87df-c17434113dfd.png?1721808008",
+        :collector-number "169",
+        :layout "normal",
+        :name "Excalibur, Sword of Eden",
+        :oracle-text
+        "This spell costs {X} less to cast, where X is the total mana value of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)\nEquipped creature gets +10/+0 and has vigilance.\nEquip legendary creature {2}"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/f/3f43e214-2e20-4168-abff-e5abefc5b009.png?1721425000",
+        :collector-number "170",
+        :layout "normal",
+        :name "Mjölnir, Storm Hammer",
+        :oracle-text
+        "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}"}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/6/760d9a05-e0b9-4c26-b994-6b0eaf0af90e.png?1721425005",
+        :collector-number "171",
+        :layout "normal",
+        :name "Abstergo Entertainment",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{3}, {T}, Exile Abstergo Entertainment: Return up to one target historic card from your graveyard to your hand, then exile all graveyards. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — God Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4fa62c7e-7f03-42c0-b761-1fdeb3c9e4ee.png?1721425011",
+        :collector-number "172",
+        :layout "normal",
+        :name "The Capitoline Triad",
+        :oracle-text
+        "Those Who Came Before — This spell costs {1} less to cast for each historic card in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nExile any number of historic cards from your graveyard with total mana value 30 or greater: You get an emblem with \"Creatures you control have base power and toughness 9/9.\""}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/a/6a42db7f-b1f3-4588-9ff5-4f4bc3f53ee4.png?1721425016",
+        :collector-number "173",
+        :layout "normal",
+        :name "Caduceus, Staff of Hermes",
+        :oracle-text
+        "Equipped creature has lifelink.\nAs long as you have 30 or more life, equipped creature gets +5/+5 and has indestructible and \"Prevent all damage that would be dealt to this creature.\"\nEquip {W}{W}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/2/2285f6e4-99bd-4f61-9788-0107c119753e.png?1721425021",
+        :collector-number "174",
+        :layout "normal",
+        :name "Distract the Guards",
+        :oracle-text
+        "Freerunning {1}{W} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nCreate three 1/1 white Human Rogue creature tokens."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/5/c5fffb8d-e639-4863-84a1-37cd330a3226.png?1721425026",
+        :collector-number "175",
+        :layout "normal",
+        :name "Haystack",
+        :oracle-text
+        "{2}, {T}: Target creature you control phases out. (Treat it and anything attached to it as though they don't exist until your next turn.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/52b283b1-a3df-48f8-b1e6-a97a1aa1dcc6.png?1721425033",
+        :collector-number "176",
+        :layout "normal",
+        :name "Hookblade",
+        :oracle-text
+        "When Hookblade enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/67367ca8-0a23-4192-bca5-08dbd655f0ba.png?1721425037",
+        :collector-number "177",
+        :layout "normal",
+        :name "Layla Hassan",
+        :oracle-text
+        "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/f/5f532fa8-9a97-4d9d-b6aa-f9d356721459.png?1721425044",
+        :collector-number "178",
+        :layout "normal",
+        :name "Path to Exile",
+        :oracle-text
+        "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d0e9c27c-d73a-4c8e-a396-4348a2695edb.png?1721425047",
+        :collector-number "179",
+        :layout "normal",
+        :name "Reconnaissance",
+        :oracle-text
+        "{0}: Remove target attacking creature you control from combat and untap it. (If you activate during end of combat, the creature will untap after it deals combat damage.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/6/9648392a-78a2-4ae5-a218-cfd2bcd9bc5d.png?1721425054",
+        :collector-number "180",
+        :layout "normal",
+        :name "Rest in Peace",
+        :oracle-text
+        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+ #:card{:type-line "Legendary Creature — Bird Scout",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/c/eca84e5a-4ce8-47fa-98b8-9d2dc65dd6c8.png?1721425057",
+        :collector-number "181",
+        :layout "normal",
+        :name "Senu, Keen-Eyed Protector",
+        :oracle-text
+        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+ #:card{:type-line "Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/2/825615d2-2bb9-486e-8a05-4244b7ba66c3.png?1721425066",
+        :collector-number "182",
+        :layout "normal",
+        :name "Tax Collector",
+        :oracle-text
+        "When Tax Collector enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
+ #:card{:type-line "Creature — Human Knight",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/4107fda1-ed94-4920-95c9-329d243fdc01.png?1721425068",
+        :collector-number "183",
+        :layout "normal",
+        :name "Templar Knight",
+        :oracle-text
+        "Vigilance\n{W}, Tap five untapped attacking creatures you control named Templar Knight: Search your library for a legendary artifact card, put it onto the battlefield, then shuffle.\nA deck can have any number of cards named Templar Knight."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/f/3f9cdb95-d110-4cc8-bfb0-665539fb4712.png?1721425078",
+        :collector-number "184",
+        :layout "normal",
+        :name "What Must Be Done",
+        :oracle-text
+        "Choose one —\n• Let the World Burn — Destroy all artifacts and creatures.\n• Release Juno — Return target historic permanent card from your graveyard to the battlefield. It enters with two additional +1/+1 counters on it if it's a creature. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/bede0e73-35ae-42f2-af1d-db1a346743ad.png?1721425085",
+        :collector-number "185",
+        :layout "normal",
+        :name "Assassin Gauntlet",
+        :oracle-text
+        "When Assassin Gauntlet enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/f/9f4c9ebe-996a-44ae-9f97-46f0e8096da4.png?1721425089",
+        :collector-number "186",
+        :layout "normal",
+        :name "Become Anonymous",
+        :oracle-text
+        "Exile target nontoken creature you own and the top two cards of your library in a face-down pile, shuffle that pile, then cloak those cards. They enter tapped. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/72c07fa3-a823-420a-b9c5-72f0b9766bb4.png?1721425097",
+        :collector-number "187",
+        :layout "normal",
+        :name "Coastal Piracy",
+        :oracle-text
+        "Whenever a creature you control deals combat damage to an opponent, you may draw a card."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be26a459-2595-44ed-a875-1163942b3656.png?1721425099",
+        :collector-number "188",
+        :layout "normal",
+        :name "Crystal Skull, Isu Spyglass",
+        :oracle-text
+        "You may look at the top card of your library any time.\nYou may play historic lands and cast historic spells from the top of your library. (Artifacts, legendaries, and Sagas are historic.)\n{T}: Add {U}."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/d/adeb049f-6d05-47c5-9f6c-e0f1547e3638.png?1721425107",
+        :collector-number "189",
+        :layout "normal",
+        :name "Desynchronization",
+        :oracle-text
+        "Return each nonland permanent that's not historic to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/21ab7020-bd24-4c43-9c7c-5a283d6f650d.png?1721425109",
+        :collector-number "190",
+        :layout "normal",
+        :name "Eagle Vision",
+        :oracle-text
+        "Freerunning {1}{U} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nDraw three cards."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/726bf33c-1555-4056-9544-e7477659726b.png?1721425119",
+        :collector-number "191",
+        :layout "normal",
+        :name "Escape Detection",
+        :oracle-text
+        "Freerunning—Return a blue creature you control to its owner's hand. (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nReturn target creature to its owner's hand.\nDraw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f34d942a-8f41-49fb-982e-152001855ee0.png?1721425120",
+        :collector-number "192",
+        :layout "normal",
+        :name "Evie Frye",
+        :oracle-text
+        "Partner with Jacob Frye (When this creature enters, target player may put Jacob into their hand from their library, then shuffle.)\n{1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn."}
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a3f8996b-bb80-4722-9b47-3b54472155e0.png?1721425130",
+        :collector-number "193",
+        :layout "normal",
+        :name "Leonardo da Vinci",
+        :oracle-text
+        "{3}{U}{U}: Until end of turn, Thopters you control have base power and toughness X/X, where X is the number of cards in your hand.\n{2}{U}, {T}: Draw a card, then discard a card. If the discarded card was an artifact card, exile it from your graveyard. If you do, create a token that's a copy of it, except it's a 0/2 Thopter artifact creature with flying in addition to its other types."}
+ #:card{:type-line "Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/317cb518-1b76-4402-93b5-01c971a5dc55.png?1721425131",
+        :collector-number "194",
+        :layout "normal",
+        :name "Loyal Inventor",
+        :oracle-text
+        "Vigilance\nWhen Loyal Inventor enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/2/923c8a2b-dbba-423d-8f86-7c5ec184bfcf.png?1721425143",
+        :collector-number "195",
+        :layout "normal",
+        :name "Propaganda",
+        :oracle-text
+        "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/9/39c42842-d844-4b3b-bef3-dc7da7d2efb8.png?1721425143",
+        :collector-number "196",
+        :layout "normal",
+        :name "Temporal Trespass",
+        :oracle-text
+        "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTake an extra turn after this one. Exile Temporal Trespass."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/653745b0-4e3b-4147-8b48-16560e706055.png?1721425153",
+        :collector-number "197",
+        :layout "normal",
+        :name "Assassin Initiate",
+        :oracle-text
+        "{1}: Assassin Initiate gains your choice of flying, deathtouch, or lifelink until end of turn."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/86c3514a-5e57-44b5-867d-cbfb66a90dfb.png?1721425154",
+        :collector-number "198",
+        :layout "normal",
+        :name "Black Market Connections",
+        :oracle-text
+        "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It has every creature type.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fb11374a-183c-454a-882b-cbc2059dba26.png?1721425162",
+        :collector-number "199",
+        :layout "normal",
+        :name "Chain Assassination",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nDestroy target creature. If another creature died this turn, draw a card."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/454aa2e5-fc90-4338-a319-010d4d706ae7.png?1721425173",
+        :collector-number "200",
+        :layout "normal",
+        :name "Conspiracy",
+        :oracle-text
+        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/9/e90bbc98-f3ae-4963-910d-f5c8d9a0ba72.png?1721425184",
+        :collector-number "201",
+        :layout "normal",
+        :name "Cover of Darkness",
+        :oracle-text
+        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a3c1e9c6-a9ec-4aca-a80d-9a00b05c1218.png?1721425191",
+        :collector-number "202",
+        :layout "normal",
+        :name "Desmond Miles",
+        :oracle-text
+        "Menace\nDesmond Miles gets +1/+0 for each other Assassin you control and each Assassin card in your graveyard.\nWhenever Desmond Miles deals combat damage to a player, surveil X, where X is the amount of damage it dealt to that player."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/a/5a5184ac-f73a-4fdc-a531-0f577892997a.png?1721425196",
+        :collector-number "203",
+        :layout "normal",
+        :name "Ezio Auditore da Firenze",
+        :oracle-text
+        "Menace\nAssassin spells you cast have freerunning {B}{B}. (You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/841fefda-5da3-455e-9f11-1ef5c97c1b0d.png?1721425201",
+        :collector-number "204",
+        :layout "normal",
+        :name "Fatal Push",
+        :oracle-text
+        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fbeed2f0-f42a-4f1f-a9a3-12140f4842f6.png?1721425206",
+        :collector-number "205",
+        :layout "normal",
+        :name "Go for the Throat",
+        :oracle-text "Destroy target nonartifact creature."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/181fb6b8-7c74-42f7-82f2-33503c1f910a.png?1721425211",
+        :collector-number "206",
+        :layout "normal",
+        :name "Hemlock Vial",
+        :oracle-text
+        "When Hemlock Vial enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice Hemlock Vial: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/3666fafa-54b5-495e-8168-c579fd901b58.png?1721425221",
+        :collector-number "207",
+        :layout "normal",
+        :name "Jacob Frye",
+        :oracle-text
+        "Partner with Evie Frye (When this creature enters, target player may put Evie into their hand from their library, then shuffle.)\nWhenever one or more Assassins you control deal combat damage to a player, exile up to one target Assassin card or card with freerunning from your graveyard. If you do, copy it. You may cast the copy."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/5/95e18830-3668-4c23-96aa-d241f79adbd5.png?1721425232",
+        :collector-number "208",
+        :layout "normal",
+        :name "Murder",
+        :oracle-text "Destroy target creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/9/99ec58f0-494d-46bb-a49e-265a6d852244.png?1721425233",
+        :collector-number "209",
+        :layout "normal",
+        :name "Petty Larceny",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nLook at the top two cards of target opponent's library and exile those cards face down. You may play those cards for as long as they remain exiled, and mana of any type can be spent to cast them. Create a Treasure token."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/e/9e5b5257-f171-4bd5-80db-f5a627fd337d.png?1721425243",
+        :collector-number "210",
+        :layout "normal",
+        :name "Phantom Blade",
+        :oracle-text
+        "When Phantom Blade enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/2/02d6e71c-e401-4e5b-a4b9-d67c21bd1b7c.png?1721425252",
+        :collector-number "211",
+        :layout "normal",
+        :name "Restart Sequence",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nReturn target creature card from your graveyard to the battlefield."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f94ddae3-192e-4b88-836b-b0e3defd2e99.png?1721425257",
+        :collector-number "212",
+        :layout "normal",
+        :name "Roshan, Hidden Magister",
+        :oracle-text
+        "Other creatures you control are Assassins in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\nFace-down creatures you control have menace.\nWhenever a permanent you control is turned face up, you draw a card and you lose 1 life."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c319a380-974a-486f-9b1e-495383c58d82.png?1721425263",
+        :collector-number "213",
+        :layout "normal",
+        :name "Royal Assassin",
+        :oracle-text "{T}: Destroy target tapped creature."}
+ #:card{:type-line "Legendary Creature — Human Berserker",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d00d6fad-24c7-47dc-8feb-de58c8e51c33.png?1721425273",
+        :collector-number "214",
+        :layout "normal",
+        :name "Alexios, Deimos of Kosmos",
+        :oracle-text
+        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/6/16abb80e-12ef-48a2-855e-c237c10a3f92.png?1721425278",
+        :collector-number "215",
+        :layout "normal",
+        :name "Cathartic Reunion",
+        :oracle-text
+        "As an additional cost to cast this spell, discard two cards.\nDraw three cards."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c014fb8d-748d-4a58-9065-17937fd4a9f2.png?1721425284",
+        :collector-number "216",
+        :layout "normal",
+        :name "Hidden Footblade",
+        :oracle-text
+        "Flash\nWhen Hidden Footblade enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/30933821-a64e-4c15-a7aa-e13cb89f46f5.png?1721425288",
+        :collector-number "217",
+        :layout "normal",
+        :name "Monastery Raid",
+        :oracle-text
+        "Freerunning {X}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nExile the top two cards of your library. If this spell's freerunning cost was paid, exile the top X cards of your library instead. You may play the exiled cards until the end of your next turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/6/b62be00b-b6cb-47df-aa60-7c77c2f15fd3.png?1721425299",
+        :collector-number "218",
+        :layout "normal",
+        :name "Overpowering Attack",
+        :oracle-text
+        "Freerunning {2}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nUntap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase."}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4a71cfd0-0e24-4ae4-9a7e-a5ab5fea46c8.png?1721425303",
+        :collector-number "219",
+        :layout "normal",
+        :name "The Spear of Leonidas",
+        :oracle-text
+        "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/7/a7f97fbc-2abd-4496-a29e-4cecac1440c1.png?1721425308",
+        :collector-number "220",
+        :layout "normal",
+        :name "Aveline de Grandpré",
+        :oracle-text
+        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, put that many +1/+1 counters on that creature.\nDisguise {B}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/ac1cc216-14b3-4870-8162-18c646f958f4.png?1721425313",
+        :collector-number "221",
+        :layout "normal",
+        :name "Hunter's Bow",
+        :oracle-text
+        "When Hunter's Bow enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
+ #:card{:type-line "Creature — Human Archer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/6/262c036d-4c44-48e7-a6df-f54442d93386.png?1721425319",
+        :collector-number "222",
+        :layout "normal",
+        :name "Palazzo Archers",
+        :oracle-text
+        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, Palazzo Archers deals damage equal to its power to that creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/a/eaa22038-6b13-422c-a07c-41e233b7405b.png?1721425322",
+        :collector-number "223",
+        :layout "normal",
+        :name "Viewpoint Synchronization",
+        :oracle-text
+        "Freerunning {2}{G} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nSearch your library for up to three basic land cards and reveal them. Put two of them onto the battlefield tapped and the other into your hand, then shuffle."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5eb23cf5-f046-4310-853b-e5995693f2dd.png?1721425329",
+        :collector-number "224",
+        :layout "normal",
+        :name "Adéwalé, Breaker of Chains",
+        :oracle-text
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7ba4aba6-6ed8-46cc-89eb-ce546940e250.png?1721425333",
+        :collector-number "225",
+        :layout "normal",
+        :name "Altaïr Ibn-La'Ahad",
+        :oracle-text
+        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/c/0c92faf6-1fbb-4e5e-93d8-22da66886f33.png?1721425340",
+        :collector-number "226",
+        :layout "normal",
+        :name "Arbaaz Mir",
+        :oracle-text
+        "Whenever Arbaaz Mir or another nontoken historic permanent you control enters, Arbaaz Mir deals 1 damage to each opponent and you gain 1 life. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b11bdd4a-861c-4df4-a34b-f1a49a8e74fa.png?1721425343",
+        :collector-number "227",
+        :layout "normal",
+        :name "Arno Dorian",
+        :oracle-text
+        "Deathtouch\nOther Assassins you control get +2/+0.\nDisguise {B}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d66da05e-b3a7-4557-a7c3-97051ba24cab.png?1721425351",
+        :collector-number "228",
+        :layout "normal",
+        :name "Assassin's Trophy",
+        :oracle-text
+        "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/1/d1f8afbe-1c29-4b23-9832-5656ac60acea.png?1721425353",
+        :collector-number "229",
+        :layout "normal",
+        :name "Aya of Alexandria",
+        :oracle-text
+        "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/2146945f-efdc-4612-a341-acadb4bb36f2.png?1721425361",
+        :collector-number "230",
+        :layout "normal",
+        :name "Basim Ibn Ishaq",
+        :oracle-text
+        "Whenever you cast a historic spell, draw a card. Basim Ibn Ishaq can't be blocked this turn. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic.)\nWhenever Basim Ibn Ishaq deals combat damage to a player, put a +1/+1 counter on it."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/8/381497ac-653e-4c98-be03-2192d42885f5.png?1721425363",
+        :collector-number "231",
+        :layout "normal",
+        :name "Bayek of Siwa",
+        :oracle-text
+        "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/2/829debdc-862d-4277-9c87-1e5966e4837d.png?1721425371",
+        :collector-number "232",
+        :layout "normal",
+        :name "Bleeding Effect",
+        :oracle-text
+        "At the beginning of combat on your turn, creatures you control gain flying until end of turn if a creature card in your graveyard has flying. The same is true for first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance."}
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6ef2b03a-0956-4086-85cf-c32cce09d6ef.png?1721425372",
+        :collector-number "233",
+        :layout "normal",
+        :name "Cleopatra, Exiled Pharaoh",
+        :oracle-text
+        "Allies — At the beginning of your end step, put a +1/+1 counter on each of up to two other target legendary creatures.\nBetrayal — Whenever a legendary creature with counters on it dies, draw a card for each counter on it. You lose 2 life."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/da0ce737-8066-444b-ae33-c84713305b1a.png?1721425380",
+        :collector-number "234",
+        :layout "normal",
+        :name "Edward Kenway",
+        :oracle-text
+        "At the beginning of your end step, create a Treasure token for each tapped Assassin, Pirate, and/or Vehicle you control.\nWhenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/a/cad1af4d-9643-46da-a91b-e85d56829c43.png?1721425382",
+        :collector-number "235",
+        :layout "normal",
+        :name "Eivor, Wolf-Kissed",
+        :oracle-text
+        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+ #:card{:type-line "Legendary Creature — Human",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a5e48432-2e3a-4673-aa08-1d1d4ed2f472.png?1721425391",
+        :collector-number "236",
+        :layout "normal",
+        :name "Ezio, Brash Novice",
+        :oracle-text
+        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+ #:card{:type-line "Legendary Creature — God Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c99b18c2-3732-4e3c-a553-d2cb833f5eb5.png?1721425392",
+        :collector-number "237",
+        :layout "normal",
+        :name "Havi, the All-Father",
+        :oracle-text
+        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Knight",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bba72b7f-7dd2-47cf-a0fc-d14662878db8.png?1721425402",
+        :collector-number "238",
+        :layout "normal",
+        :name "Haytham Kenway",
+        :oracle-text
+        "Protection from Assassins\nOther Knights you control get +2/+2 and have protection from Assassins.\nWhen Haytham Kenway enters, for each opponent, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield."}
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e4e1b9a-ac75-441c-bfdc-2dd7fc07d2c2.png?1721425402",
+        :collector-number "239",
+        :layout "normal",
+        :name "Jackdaw",
+        :oracle-text
+        "Whenever Jackdaw deals combat damage to a player, you may discard your hand. If you do, draw a card for each artifact you control.\nCrew 3"}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c803e701-61d5-4f13-a0c4-78f00af1a4ea.png?1721425412",
+        :collector-number "240",
+        :layout "normal",
+        :name "Kassandra, Eagle Bearer",
+        :oracle-text
+        "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/8/88081ed8-0416-4c1b-bd59-5bf9fdc3cc5f.png?1721425412",
+        :collector-number "241",
+        :layout "normal",
+        :name "Lydia Frye",
+        :oracle-text
+        "Lydia Frye can't be blocked by creatures with power 3 or greater.\nAt the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/7/f7b07542-b347-43ca-8203-cbf648d5426c.png?1721425422",
+        :collector-number "242",
+        :layout "normal",
+        :name "Mary Read and Anne Bonny",
+        :oracle-text
+        "Haste\n{T}: Draw a card, then discard a card.\nWhenever you discard an Island, Pirate, or Vehicle card, create a tapped Treasure token."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/9/c96eb5dd-e846-433d-9cad-15c309c1ab75.png?1721425423",
+        :collector-number "243",
+        :layout "normal",
+        :name "Mortify",
+        :oracle-text "Destroy target creature or enchantment."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/6133c3ab-9552-4b02-8c07-4128773a78b9.png?1721425433",
+        :collector-number "244",
+        :layout "normal",
+        :name "Ratonhnhaké꞉ton",
+        :oracle-text
+        "As long as Ratonhnhaké꞉ton hasn't dealt damage yet, it has hexproof and can't be blocked.\nWhenever Ratonhnhaké꞉ton deals combat damage to a player, create a 1/1 black Assassin creature token with menace. When you do, return target Equipment card from your graveyard to the battlefield, then attach it to that token."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/2/62d341e9-4d06-48fe-b668-3bd883c1bbe8.png?1721425433",
+        :collector-number "245",
+        :layout "normal",
+        :name "Reconstruct History",
+        :oracle-text
+        "Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.\nExile Reconstruct History."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d4f07870-359c-4f7a-8287-b5f59b7dc72b.png?1721425443",
+        :collector-number "246",
+        :layout "normal",
+        :name "Shao Jun",
+        :oracle-text
+        "Leap Strike — During your turn, Shao Jun has flying and first strike.\nRope Dart — Tap two untapped artifacts you control: Shao Jun deals 1 damage to each opponent."}
+ #:card{:type-line "Legendary Creature — Human Assassin Scientist",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a375bfc8-9272-4421-96cb-80bd8759db47.png?1721425443",
+        :collector-number "247",
+        :layout "normal",
+        :name "Shaun & Rebecca, Agents",
+        :oracle-text
+        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+ #:card{:type-line "Legendary Creature — Human Knight Rogue",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/2/3293c01a-5b3d-4405-979c-726c0a6b0e97.png?1721425453",
+        :collector-number "248",
+        :layout "normal",
+        :name "Shay Cormac",
+        :oracle-text
+        "{1}: Permanents your opponents control lose hexproof, indestructible, protection, shroud, and ward until end of turn.\nWhenever a creature an opponent controls becomes the target of a spell or ability you control, put a bounty counter on that creature.\nWhenever a creature with a bounty counter on it dies, put two +1/+1 counters on Shay Cormac."}
+ #:card{:type-line "Legendary Creature — Human Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/ac5c62a9-65b7-4ad8-a276-568c2a3d8cff.png?1721425453",
+        :collector-number "249",
+        :layout "normal",
+        :name "Sigurd, Jarl of Ravensthorpe",
+        :oracle-text
+        "Vigilance, trample, lifelink\nBoast — {1}: Put a lore counter on target Saga you control or remove one from it. (Activate only if this creature attacked this turn and only once each turn.)\nWhenever you put a lore counter on a Saga you control, put a +1/+1 counter on up to one other target creature."}
+ #:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3b54844c-f757-426c-8d4b-5636673cb87a.png?1721425463",
+        :collector-number "250",
+        :layout "normal",
+        :name "Sokrates, Athenian Teacher",
+        :oracle-text
+        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4d640f44-7521-4e36-ba27-cb1c94507d0e.png?1721425464",
+        :collector-number "251",
+        :layout "normal",
+        :name "Terminate",
+        :oracle-text
+        "Destroy target creature. It can't be regenerated."}
+ #:card{:type-line "Legendary Artifact — Vehicle",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f42de1eb-0d5a-406d-ab09-2913d59b9788.png?1721425475",
+        :collector-number "252",
+        :layout "normal",
+        :name "Adrestia",
+        :oracle-text
+        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Adrestia attacks, if an Assassin crewed it this turn, draw a card. Adrestia becomes an Assassin in addition to its other types until end of turn.\nCrew 1"}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/1/81a84bf5-bb15-4a6e-b4c7-7218967b33f2.png?1721425475",
+        :collector-number "253",
+        :layout "normal",
+        :name "The Animus",
+        :oracle-text
+        "At the beginning of your end step, exile up to one target legendary creature card from a graveyard with a memory counter on it.\n{T}: Until your next turn, target legendary creature you control becomes a copy of target creature card in exile with a memory counter on it. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/f/cf0f7995-1817-46e9-93ba-6f10051d3865.png?1721425484",
+        :collector-number "254",
+        :layout "normal",
+        :name "Apple of Eden, Isu Relic",
+        :oracle-text
+        "{T}, Pay 4 life, Sacrifice Apple of Eden: Look at target opponent's hand and exile those cards face down. You may play those cards this turn, and mana of any type can be spent to cast them. Until end of turn, whenever you play a land or cast a spell this way, its owner draws a card. At the beginning of the next end step, return the exiled cards to their owner's hand. Activate only as a sorcery."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1d2e512d-0aa2-4a1e-82cc-8ed60129bf5e.png?1721425485",
+        :collector-number "255",
+        :layout "normal",
+        :name "Brotherhood Regalia",
+        :oracle-text
+        "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/e/4e357b2d-a3c1-490e-a37c-cdf42abcfa60.png?1721425495",
+        :collector-number "256",
+        :layout "normal",
+        :name "Excalibur, Sword of Eden",
+        :oracle-text
+        "This spell costs {X} less to cast, where X is the total mana value of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)\nEquipped creature gets +10/+0 and has vigilance.\nEquip legendary creature {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/5/c5986796-08a5-4bbb-992e-5fb8cdf2864a.png?1721425496",
+        :collector-number "257",
+        :layout "normal",
+        :name "Hidden Blade",
+        :oracle-text
+        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
+ #:card{:type-line "Legendary Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/a/aaeb2f71-f973-4565-9c24-dab21da80b14.png?1721425505",
+        :collector-number "258",
+        :layout "normal",
+        :name "Mjölnir, Storm Hammer",
+        :oracle-text
+        "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/d/fd57bdd4-9b93-4a0c-8c80-46bc02af9a3c.png?1721425506",
+        :collector-number "259",
+        :layout "normal",
+        :name "Smoke Bomb",
+        :oracle-text
+        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice Smoke Bomb. When you do, target creature you control can't be blocked this turn."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/a/6a63c09d-2898-4ebb-b88e-b5962d427abc.png?1721425516",
+        :collector-number "260",
+        :layout "normal",
+        :name "Staff of Eden, Vault's Key",
+        :oracle-text
+        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/7/47c187b0-f196-4180-bbe0-d7f470974880.png?1721425516",
+        :collector-number "261",
+        :layout "normal",
+        :name "Sword of Feast and Famine",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}"}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0ef2d91d-97fc-4523-8471-511e6376ce64.png?1721425525",
+        :collector-number "262",
+        :layout "normal",
+        :name "Sword of Light and Shadow",
+        :oracle-text
+        "Equipped creature gets +2/+2 and has protection from white and from black.\nWhenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.\nEquip {2}"}
+ #:card{:type-line "Artifact Creature — Wall",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/6/c6e84b05-15fe-4335-a5fd-a26d1905f313.png?1721425526",
+        :collector-number "263",
+        :layout "normal",
+        :name "Towering Viewpoint",
+        :oracle-text
+        "Defender, reach\nLeap of Faith — {3}: Target creature gains flying until end of turn."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5ef1c0fa-590b-437e-992c-811577e14e58.png?1721425535",
+        :collector-number "264",
+        :layout "normal",
+        :name "Yggdrasil, Rebirth Engine",
+        :oracle-text
+        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+ #:card{:type-line "Legendary Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e9f47d4-44fc-4278-8cc8-8914e9a9e565.png?1721425537",
+        :collector-number "265",
+        :layout "normal",
+        :name "Abstergo Entertainment",
+        :oracle-text
+        "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{3}, {T}, Exile Abstergo Entertainment: Return up to one target historic card from your graveyard to your hand, then exile all graveyards. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/280e43b4-2208-4df0-a8b2-380cfd22dde5.png?1721425545",
+        :collector-number "266",
+        :layout "normal",
+        :name "Brotherhood Headquarters",
+        :oracle-text
+        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast an Assassin spell or a spell that has freerunning, or to activate an ability of an Assassin source."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/8/282a9380-01a1-4fc6-bcd4-2c8543a75eba.png?1721425548",
+        :collector-number "267",
+        :layout "normal",
+        :name "Ezio Auditore da Firenze",
+        :oracle-text
+        "Menace\nAssassin spells you cast have freerunning {B}{B}. (You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/f/9f92d7b6-58c8-485c-86ff-d63f1d3dd481.png?1721425555",
+        :collector-number "268",
+        :layout "normal",
+        :name "Altaïr Ibn-La'Ahad",
+        :oracle-text
+        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+ #:card{:type-line "Legendary Creature — Human Assassin Pirate",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/861f4e4d-e3ed-483f-b9af-2f4072524742.png?1721425558",
+        :collector-number "269",
+        :layout "normal",
+        :name "Edward Kenway",
+        :oracle-text
+        "At the beginning of your end step, create a Treasure token for each tapped Assassin, Pirate, and/or Vehicle you control.\nWhenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/0/00fcb189-1a34-4bf5-8bde-3846eec88172.png?1721425564",
+        :collector-number "270",
+        :layout "normal",
+        :name "Eivor, Wolf-Kissed",
+        :oracle-text
+        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/f/1f053676-de35-4465-b3b2-ce6050055e85.png?1721425569",
+        :collector-number "271",
+        :layout "normal",
+        :name "Kassandra, Eagle Bearer",
+        :oracle-text
+        "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card."}
+ #:card{:type-line "Legendary Creature — Human Noble",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/2/c2036b2e-89d6-448a-bfcb-50b2247ee17a.png?1719477689",
+        :collector-number "272",
+        :layout "normal",
+        :name "Cleopatra, Exiled Pharaoh",
+        :oracle-text
+        "Allies — At the beginning of your end step, put a +1/+1 counter on each of up to two other target legendary creatures.\nBetrayal — Whenever a legendary creature with counters on it dies, draw a card for each counter on it. You lose 2 life."}
+ #:card{:type-line "Legendary Creature — Human Advisor",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23a5db83-0098-4e2b-bf23-146e88b9cca9.png?1722994035",
+        :collector-number "273",
+        :layout "normal",
+        :name "Sokrates, Athenian Teacher",
+        :oracle-text
+        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+ #:card{:type-line "Legendary Creature — Human Assassin Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/2/4242961d-87e8-4dd2-bdea-5d765a5cf136.png?1721425575",
+        :collector-number "274",
+        :layout "normal",
+        :name "Eivor, Battle-Ready",
+        :oracle-text
+        "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor, Battle-Ready attacks, it deals damage equal to the number of Equipment you control to each opponent."}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bbdc8019-9b5e-4d9a-a09b-2a14f41ddfe1.png?1721425581",
+        :collector-number "275",
+        :layout "normal",
+        :name "Ezio, Blade of Vengeance",
+        :oracle-text
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever an Assassin you control deals combat damage to a player, draw a card."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/2/d2cf2cd1-f7b3-4a23-a23a-6eb0af5451cf.png?1721425586",
+        :collector-number "276",
+        :layout "normal",
+        :name "Battlefield Improvisation",
+        :oracle-text
+        "Target creature gets +2/+2 until end of turn. If that creature is attacking, you may attach any number of Equipment you control to it."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fe06e87f-8915-4fc2-81fd-168a371dc407.png?1721425591",
+        :collector-number "277",
+        :layout "normal",
+        :name "Detained by Legionnaires",
+        :oracle-text
+        "Enchant creature\nEnchanted creature can't attack or block."}
+ #:card{:type-line "Creature — Wall",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/1/c11c9e60-fc14-48fe-bca9-b74f82301835.png?1721425597",
+        :collector-number "278",
+        :layout "normal",
+        :name "Escarpment Fortress",
+        :oracle-text
+        "Defender (This creature can't attack.)\nReach (This creature can block creatures with flying.)\nOther creatures you control get +1/+0.\nWhenever you attack with two or more creatures, draw a card."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/d/fda99319-9312-42c4-adc0-77b49768d014.png?1721425601",
+        :collector-number "279",
+        :layout "normal",
+        :name "Keen-Eyed Raven",
+        :oracle-text
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Keen-Eyed Raven enters, put a +1/+1 counter on another target creature you control."}
+ #:card{:type-line "Creature — Human Artificer",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/301310b3-c031-4fd3-a47e-9645b6177329.png?1721425607",
+        :collector-number "280",
+        :layout "normal",
+        :name "Settlement Blacksmith",
+        :oracle-text
+        "When Settlement Blacksmith enters, if you control an Equipment, draw a card."}
+ #:card{:type-line "Creature — Wall",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/ef45be55-42d7-475c-b405-78e856530277.png?1721425612",
+        :collector-number "281",
+        :layout "normal",
+        :name "Assassin Den",
+        :oracle-text
+        "Defender (This creature can't attack.)\n{3}{U}: Put a +1/+1 counter on target creature you control. It can't be blocked this turn. Activate only as a sorcery."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/0157325c-b064-4c0a-9b5d-ecdf0ed15d9c.png?1721425618",
+        :collector-number "282",
+        :layout "normal",
+        :name "Brotherhood Spy",
+        :oracle-text
+        "At the beginning of combat on your turn, if you control a legendary Assassin, Brotherhood Spy gets +1/+0 until end of turn and can't be blocked this turn."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/5/551d1f1e-8bc0-4196-8998-0aa7db23b388.png?1721425622",
+        :collector-number "283",
+        :layout "normal",
+        :name "Hookblade Veteran",
+        :oracle-text
+        "During your turn, Hookblade Veteran has flying. (It can't be blocked except by creatures with flying or reach.)"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/60ad4bd6-c6a5-420f-8491-7696f9850a05.png?1721425627",
+        :collector-number "284",
+        :layout "normal",
+        :name "Tranquilize",
+        :oracle-text
+        "Tap target creature an opponent controls and put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/91ef922e-81b4-47e6-bd37-8ec0cb29700a.png?1721425632",
+        :collector-number "285",
+        :layout "normal",
+        :name "Brotherhood Ambushers",
+        :oracle-text
+        "Freerunning {3}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)"}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b79ee23-d917-48f3-b014-d513f1c5ff54.png?1721425638",
+        :collector-number "286",
+        :layout "normal",
+        :name "Brotherhood Patriarch",
+        :oracle-text
+        "When Brotherhood Patriarch dies, each opponent loses 2 life and you gain 2 life."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/b/1bb19a35-7224-4fe2-a0c0-17b93d2837ad.png?1721425643",
+        :collector-number "287",
+        :layout "normal",
+        :name "Merciless Harlequin",
+        :oracle-text
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhen Merciless Harlequin enters, you draw a card and you lose 1 life."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e3efb96a-a722-493a-be0e-a64583f8c3df.png?1721425648",
+        :collector-number "288",
+        :layout "normal",
+        :name "Poison-Blade Mentor",
+        :oracle-text
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever Poison-Blade Mentor attacks, another target Assassin you control gains deathtouch until end of turn."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/59fcbf2a-46d5-4371-b4eb-a8dbebe18dcc.png?1721425658",
+        :collector-number "289",
+        :layout "normal",
+        :name "Headsplitter",
+        :oracle-text
+        "When Headsplitter enters, create a 1/1 black Assassin creature token with menace, then attach Headsplitter to it.\nEquipped creature gets +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+ #:card{:type-line "Creature — Minotaur",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/ddc770fd-d513-420b-94f8-f2d28d8ed8d1.png?1721425662",
+        :collector-number "290",
+        :layout "normal",
+        :name "Labyrinth Adversary",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you attack, you may pay {1}{R}. When you do, target creature can't block this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e34a45ab-793e-4198-8327-e13287e0b74c.png?1721425669",
+        :collector-number "291",
+        :layout "normal",
+        :name "Misthios's Fury",
+        :oracle-text
+        "Misthios's Fury deals 3 damage to target creature. If you control an Equipment, Misthios's Fury also deals 2 damage to that creature's controller."}
+ #:card{:type-line "Creature — Human Soldier",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b16fba05-25d7-4495-a9f6-cec6b3aabbbd.png?1721425672",
+        :collector-number "292",
+        :layout "normal",
+        :name "Spartan Veteran",
+        :oracle-text
+        "During your turn, Spartan Veteran has first strike. (It deals combat damage before creatures without first strike.)\n{2}: Spartan Veteran gets +1/+0 until end of turn."}
+ #:card{:type-line "Legendary Creature — Giant God Warrior",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be38985c-f7a9-4885-9035-09390b4b754a.png?1721425679",
+        :collector-number "293",
+        :layout "normal",
+        :name "Surtr, Fiery Jötun",
+        :oracle-text
+        "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you cast a historic spell, Surtr, Fiery Jötun deals 3 damage to any target. (Artifacts, legendaries, and Sagas are historic.)"}
+ #:card{:type-line "Legendary Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/8/f8ead24c-dd4a-40cd-839e-de08017a7c29.png?1721425683",
+        :collector-number "294",
+        :layout "normal",
+        :name "Achilles Davenport",
+        :oracle-text
+        "Freerunning {U}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nMenace (This creature can't be blocked except by two or more creatures.)\nOther Assassins you control get +1/+1."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/4/7426f3dc-385b-42ea-85cb-853e6035ca6f.png?1721425690",
+        :collector-number "295",
+        :layout "normal",
+        :name "Auditore Ambush",
+        :oracle-text
+        "Choose one or both —\n• Return target creature to its owner's hand.\n• Target player searches their library and/or graveyard for a card named Ezio, Blade of Vengeance, reveals it, and puts it into their hand. If they search their library this way, they shuffle."}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/8/58766566-6e19-4f74-bfce-5a61429ffaa9.png?1721425695",
+        :collector-number "296",
+        :layout "normal",
+        :name "Bureau Headmaster",
+        :oracle-text
+        "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/01de51d1-bbea-407c-b19e-dfef7fce1510.png?1721425700",
+        :collector-number "297",
+        :layout "normal",
+        :name "Raven Clan War-Axe",
+        :oracle-text
+        "When Raven Clan War-Axe enters, you may search your library and/or graveyard for a card named Eivor, Battle-Ready, reveal it, and put it into your hand. If you search your library this way, shuffle.\nEquipped creature gets +2/+0 and has trample.\nEquip {2}"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/50aef0eb-5b11-49e8-b2b2-a9e0422f6e65.png?1721425708",
+        :collector-number "298",
+        :layout "normal",
+        :name "Rooftop Bypass",
+        :oracle-text
+        "Whenever one or more nontoken creatures you control deal combat damage to a player, create a 1/1 black Assassin creature token with menace. (It can't be blocked except by two or more creatures.)"}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/ac703b47-398c-42cd-8d30-99c398cf734e.png?1721425711",
+        :collector-number "299",
+        :layout "normal",
+        :name "Hired Blade",
+        :oracle-text
+        "Flash (You may cast this spell any time you could cast an instant.)"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/6/16e66e29-ef63-4faa-b60f-8a128800e093.png?1721425718",
+        :collector-number "300",
+        :layout "normal",
+        :name "Stone Quarry",
+        :oracle-text
+        "Stone Quarry enters tapped.\n{T}: Add {R} or {W}."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/8/78f04f32-f672-443a-86c0-63f5f4747c67.png?1721425721",
+        :collector-number "301",
+        :layout "normal",
+        :name "Submerged Boneyard",
+        :oracle-text
+        "Submerged Boneyard enters tapped.\n{T}: Add {U} or {B}."}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dd3df51a-d173-44c8-9630-4652630cc544.png?1721425729",
+        :collector-number "302",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/8/68dbf10c-a813-4f76-9066-b3cdd9cfd5d4.png?1721425730",
+        :collector-number "303",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/36aaa8d9-4b03-4dd2-9b3c-d8b3bf19da73.png?1721425739",
+        :collector-number "304",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/4/b469d5fa-89c2-4e5e-9c1d-c3edb80f7b59.png?1721425740",
+        :collector-number "305",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Creature — Human Assassin",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/7/b7d9cde9-8937-4861-8eec-17a94e1602c7.png?1721425751",
+        :collector-number "306",
+        :layout "normal",
+        :name "Royal Assassin",
+        :oracle-text "{T}: Destroy target tapped creature."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "acr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f4e2d197-48bf-4df1-bcd3-caf07339e383.png?1726933689",
+        :collector-number "307",
+        :layout "normal",
+        :name "Hidden Blade",
+        :oracle-text
+        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"})

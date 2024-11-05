@@ -1,0 +1,355 @@
+(#:card{:type-line "Creature — Salamander Drake",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/1/d1fb3393-8ba7-400a-adf7-7c42e002e701.png?1677542128",
+        :collector-number "2019-1",
+        :layout "normal",
+        :name "Pteramander",
+        :oracle-text
+        "Flying\n{7}{U}: Adapt 4. This ability costs {1} less to activate for each instant and sorcery card in your graveyard. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)"}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b6c985c-5d13-40e4-9205-e96adbd173b0.png?1677542138",
+        :collector-number "2019-2",
+        :layout "normal",
+        :name "Experimental Frenzy",
+        :oracle-text
+        "You may look at the top card of your library any time.\nYou may play lands and cast spells from the top of your library.\nYou can't play lands or cast spells from your hand.\n{3}{R}: Destroy Experimental Frenzy."}
+ #:card{:type-line "Legendary Planeswalker — Vraska",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/2/12650e40-e62a-4777-b97c-2b5600208188.png?1677542143",
+        :collector-number "2019-3",
+        :layout "normal",
+        :name "Vraska, Golgari Queen",
+        :oracle-text
+        "+2: You may sacrifice another permanent. If you do, you gain 1 life and draw a card.\n−3: Destroy target nonland permanent with mana value 3 or less.\n−9: You get an emblem with \"Whenever a creature you control deals combat damage to a player, that player loses the game.\""}
+ #:card{:type-line "Legendary Planeswalker — Narset",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/5/b519e716-063a-4fba-8831-90aa5a5069e8.png?1677542180",
+        :collector-number "2020-1",
+        :layout "normal",
+        :name "Narset, Parter of Veils",
+        :oracle-text
+        "Each opponent can't draw more than one card each turn.\n−2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+ #:card{:type-line "Legendary Planeswalker — Nissa",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/83b22428-6ea9-4416-a589-c46aa626a2fb.png?1677542186",
+        :collector-number "2020-2",
+        :layout "normal",
+        :name "Nissa, Who Shakes the World",
+        :oracle-text
+        "Whenever you tap a Forest for mana, add an additional {G}.\n+1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.\n−8: You get an emblem with \"Lands you control have indestructible.\" Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Legendary Planeswalker — Liliana",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/4677d071-ee53-4be9-88d5-14fafcb59c17.png?1677542150",
+        :collector-number "2020-3",
+        :layout "normal",
+        :name "Liliana, Dreadhorde General",
+        :oracle-text
+        "Whenever a creature you control dies, draw a card.\n+1: Create a 2/2 black Zombie creature token.\n−4: Each player sacrifices two creatures.\n−9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/e/1e312cc9-5ad2-4436-9334-bcbbcaca914e.png?1677542158",
+        :collector-number "2020-4",
+        :layout "normal",
+        :name "Mystical Dispute",
+        :oracle-text
+        "This spell costs {2} less to cast if it targets a blue spell.\nCounter target spell unless its controller pays {3}."}
+ #:card{:code "pwcs",
+        :collector-number "2020-5",
+        :name "Fae of Wishes // Granted",
+        :layout "adventure",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/3402d3c7-125a-4ca7-8bf7-865cbed43692.png?1677542165",
+        :faces
+        [{:type-line "Creature — Faerie Wizard",
+          :oracle-text
+          "Flying\n{1}{U}, Discard two cards: Return Fae of Wishes to its owner's hand."}
+         {:type-line "Sorcery — Adventure",
+          :oracle-text
+          "You may reveal a noncreature card you own from outside the game and put it into your hand."}]}
+ #:card{:type-line "Legendary Planeswalker — Elspeth",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/5/d532baf8-4761-4aab-8cb2-42b53b54c1ff.png?1677542173",
+        :collector-number "2020-6",
+        :layout "normal",
+        :name "Elspeth, Sun's Nemesis",
+        :oracle-text
+        "−1: Up to two target creatures you control each get +2/+1 until end of turn.\n−2: Create two 1/1 white Human Soldier creature tokens.\n−3: You gain 5 life.\nEscape—{4}{W}{W}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
+ #:card{:type-line "Legendary Planeswalker — Basri",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/5288bdcf-c374-457a-901e-ea829dae4c89.png?1677542193",
+        :collector-number "2021-1",
+        :layout "normal",
+        :name "Basri Ket",
+        :oracle-text
+        "+1: Put a +1/+1 counter on up to one target creature. It gains indestructible until end of turn.\n−2: Whenever one or more nontoken creatures attack this turn, create that many 1/1 white Soldier creature tokens that are tapped and attacking.\n−6: You get an emblem with \"At the beginning of combat on your turn, create a 1/1 white Soldier creature token, then put a +1/+1 counter on each creature you control.\""}
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/9/89e70bca-6f90-4930-adf6-cac9a88b071d.png?1717762702",
+        :collector-number "2021-2",
+        :layout "normal",
+        :name "Seasoned Hallowblade",
+        :oracle-text
+        "Discard a card: Tap Seasoned Hallowblade. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"}
+ #:card{:type-line "Legendary Creature — Vampire Cleric",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/a/aaaf7d5b-417e-4eaa-9c4a-97aaa5832198.png?1677542208",
+        :collector-number "2021-3",
+        :layout "normal",
+        :name "Vito, Thorn of the Dusk Rose",
+        :oracle-text
+        "Whenever you gain life, target opponent loses that much life.\n{3}{B}{B}: Creatures you control gain lifelink until end of turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/257144fc-a052-42c2-9709-3a17994b498f.png?1677542215",
+        :collector-number "2021-4",
+        :layout "normal",
+        :name "Saw It Coming",
+        :oracle-text
+        "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)"}
+ #:card{:type-line "Legendary Planeswalker — Kaya",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/9/99dd00c7-0f9c-48d2-8b47-a0a05dbf8176.png?1677542228",
+        :collector-number "2021-5",
+        :layout "normal",
+        :name "Kaya the Inexorable",
+        :oracle-text
+        "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n−3: Exile target nonland permanent.\n−7: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\""}
+ #:card{:type-line "Snow Land",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f447b55a-8998-46dd-b10c-4545bbcb97c2.png?1687648720",
+        :collector-number "2021-6",
+        :layout "normal",
+        :name "Faceless Haven",
+        :oracle-text
+        "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)"}
+ #:card{:type-line "Legendary Planeswalker — Bahamut",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/d/5d185697-ebfd-4909-a734-9e1bd52e64e0.png?1677542269",
+        :collector-number "2022-1",
+        :layout "normal",
+        :name "Grand Master of Flowers",
+        :oracle-text
+        "As long as Grand Master of Flowers has seven or more loyalty counters on him, he's a 7/7 Dragon God creature with flying and indestructible.\n+1: Target creature without first strike, double strike, or vigilance can't attack or block until your next turn.\n+1: Search your library and/or graveyard for a card named Monk of the Open Hand, reveal it, and put it into your hand. If you search your library this way, shuffle."}
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/dbf114d3-6e29-4143-8041-a01f1ab316e8.png?1677542276",
+        :collector-number "2022-2",
+        :layout "normal",
+        :name "Adult Gold Dragon",
+        :oracle-text "Flying, lifelink, haste"}
+ #:card{:type-line "Legendary Creature — Human Elf Rogue",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/d/ed30b866-cc93-48a6-9f70-4c855783f7bc.png?1677542247",
+        :collector-number "2022-3",
+        :layout "normal",
+        :name "Krydle of Baldur's Gate",
+        :oracle-text
+        "Whenever Krydle of Baldur's Gate deals combat damage to a player, that player loses 1 life and mills a card, then you gain 1 life and scry 1.\nWhenever you attack, you may pay {2}. If you do, target creature can't be blocked this turn."}
+ #:card{:type-line "Legendary Planeswalker",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e0602c9-ee32-4aa1-a6e7-3b92e3d90152.png?1677542318",
+        :collector-number "2022-4",
+        :layout "normal",
+        :name "The Wandering Emperor",
+        :oracle-text
+        "Flash\nAs long as The Wandering Emperor entered this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/713b65b8-12f9-4803-8a93-254afb13e735.png?1677542324",
+        :collector-number "2022-5",
+        :layout "normal",
+        :name "Farewell",
+        :oracle-text
+        "Choose one or more —\n• Exile all artifacts.\n• Exile all creatures.\n• Exile all enchantments.\n• Exile all graveyards."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/33cffd0d-d20c-40aa-9b4b-a79c4963a9bf.png?1677688936",
+        :collector-number "2022-6",
+        :layout "normal",
+        :name "Banishing Slash",
+        :oracle-text
+        "Destroy up to one target artifact, enchantment, or tapped creature. Then if you control an artifact and an enchantment, create a 2/2 white Samurai creature token with vigilance."}
+ #:card{:type-line "Legendary Planeswalker — Elspeth",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/df93ab68-3560-4482-9b86-1c8aa7ec2be6.png?1679328169",
+        :collector-number "2023-1",
+        :layout "normal",
+        :name "Elspeth Resplendent",
+        :oracle-text
+        "+1: Choose up to one target creature. Put a +1/+1 counter and a counter from among flying, first strike, lifelink, or vigilance on it.\n−3: Look at the top seven cards of your library. You may put a permanent card with mana value 3 or less from among them onto the battlefield with a shield counter on it. Put the rest on the bottom of your library in a random order.\n−7: Create five 3/3 white Angel creature tokens with flying."}
+ #:card{:type-line "Legendary Creature — Angel",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/6/06eda212-933c-484e-bbf6-611472a168ea.png?1680218599",
+        :collector-number "2023-2",
+        :layout "normal",
+        :name "Giada, Font of Hope",
+        :oracle-text
+        "Flying, vigilance\nEach other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.\n{T}: Add {W}. Spend this mana only to cast an Angel spell."}
+ #:card{:type-line "Legendary Planeswalker — Liliana",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18ba425e-a529-4080-9dcf-5246ffae0747.png?1692048547",
+        :collector-number "2023-3",
+        :layout "normal",
+        :name "Liliana of the Veil",
+        :oracle-text
+        "+1: Each player discards a card.\n−2: Target player sacrifices a creature.\n−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice."}
+ #:card{:type-line "Legendary Creature — Nightmare",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7741b03-c16a-426c-8847-622b5fc1236f.png?1692049114",
+        :collector-number "2023-4",
+        :layout "normal",
+        :name "Braids, Arisen Nightmare",
+        :oracle-text
+        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
+ #:card{:type-line "Creature — Phyrexian Horror",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23f6dc4b-7e33-4d66-84bd-37e9931cd7a1.png?1693867160",
+        :collector-number "2023-5",
+        :layout "normal",
+        :name "Phyrexian Rager",
+        :oracle-text
+        "When Phyrexian Rager enters, you draw a card and you lose 1 life."}
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8d6b454b-8866-413a-b4bf-14de56ac01c4.png?1714415118",
+        :collector-number "2024-01",
+        :layout "normal",
+        :name "Realm-Scorcher Hellkite",
+        :oracle-text
+        "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nFlying, haste\nWhen Realm-Scorcher Hellkite enters, if it was bargained, add four mana in any combination of colors.\n{1}{R}: Realm-Scorcher Hellkite deals 1 damage to any target."}
+ #:card{:type-line "Legendary Creature — Human Scout",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/d/5dd5b018-bb3e-4333-a9c7-dac134b99b8c.png?1720314010",
+        :collector-number "2024-02",
+        :layout "normal",
+        :name "Ruby, Daring Tracker",
+        :oracle-text
+        "Haste\nWhenever Ruby, Daring Tracker attacks while you control a creature with power 4 or greater, Ruby gets +2/+2 until end of turn.\n{T}: Add {R} or {G}."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f3c3bbb1-8feb-4859-a1f5-77a17328b2ba.png?1721856333",
+        :collector-number "2024-03",
+        :layout "normal",
+        :name "Glimpse the Core",
+        :oracle-text
+        "Choose one —\n• Search your library for a basic Forest card, put that card onto the battlefield tapped, then shuffle.\n• Return target Cave card from your graveyard to the battlefield tapped."}
+ #:card{:type-line "Legendary Creature — Human Artificer",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/836a1a87-8c49-415e-8b7c-550469c24328.png?1721856434",
+        :collector-number "2024-05",
+        :layout "normal",
+        :name "Saheeli, the Sun's Brilliance",
+        :oracle-text
+        "{U}{R}, {T}: Create a token that's a copy of another target creature or artifact you control, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step."}
+ #:card{:type-line "Legendary Planeswalker — Kaya",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/6/f65f4a68-cb4d-4a0a-8786-c2a6af91bb1e.png?1729042650",
+        :collector-number "2024-06",
+        :layout "normal",
+        :name "Kaya, Spirits' Justice",
+        :oracle-text
+        "Whenever one or more creatures you control and/or creature cards in your graveyard are put into exile, you may choose a creature card from among them. Until end of turn, target token you control becomes a copy of it, except it has flying.\n+2: Surveil 2, then exile a card from a graveyard.\n+1: Create a 1/1 white and black Spirit creature token with flying.\n−2: Exile target creature you control. For each other player, exile up to one target creature that player controls."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pwcs",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a3c271fd-4aee-4e5b-bda0-1abe168799f4.png?1729042874",
+        :collector-number "2026-07",
+        :layout "normal",
+        :name "Lightning Helix",
+        :oracle-text
+        "Lightning Helix deals 3 damage to any target and you gain 3 life."})

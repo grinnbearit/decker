@@ -1,0 +1,418 @@
+(#:card{:type-line "Token",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/db388be3-ff31-4415-bc4b-de62f7223b1f.png?1721161180",
+        :collector-number "1",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Eldrazi",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/6/5658b0e1-2c8e-4901-a478-f2a50ced40af.png?1721426872",
+        :collector-number "2",
+        :layout "token",
+        :name "Eldrazi",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/2/72328455-560b-4ead-98bb-3c71b1e8baac.png?1721426913",
+        :collector-number "3",
+        :layout "token",
+        :name "Bird",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/c/6c6c62a5-dd1d-4d37-a2da-6e4e6b5bec40.png?1721426949",
+        :collector-number "4",
+        :layout "token",
+        :name "Elemental",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Goat",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/8/3805aa7a-6384-45e0-868c-01265822c078.png?1721426987",
+        :collector-number "5",
+        :layout "token",
+        :name "Goat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Human",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/602f3817-fde4-4982-822d-0a2953561118.png?1721427027",
+        :collector-number "6",
+        :layout "token",
+        :name "Human",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Human Soldier",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/8/48703f7a-98af-4cf1-9782-4f344eeb2066.png?1721427050",
+        :collector-number "7",
+        :layout "token",
+        :name "Human Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/0/10da848f-7f50-4bc4-b13e-a58acf3516e8.png?1721427112",
+        :collector-number "8",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e981782-d6ca-4d84-a69c-7571df51e9f3.png?1721427142",
+        :collector-number "9",
+        :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Mouse Soldier",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e3d40cb6-e227-40bc-9f6f-baa67e4edcec.png?1721427177",
+        :collector-number "10",
+        :layout "token",
+        :name "Steelburr Champion",
+        :oracle-text
+        "Vigilance\nWhenever an opponent casts a noncreature spell, put a +1/+1 counter on this creature. (This token's mana cost is {2}{W}.)"}
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e0796ccd-b8ba-49c9-b76b-4fce55c242dc.png?1721427206",
+        :collector-number "11",
+        :layout "token",
+        :name "Bird",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Faerie",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/5/7561a5dd-56a3-41ee-a342-f7088930df0b.png?1721427235",
+        :collector-number "12",
+        :layout "token",
+        :name "Faerie",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Illusion",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/3/13374c5a-d39d-40c8-b9eb-c283dbad2cb9.png?1721427259",
+        :collector-number "13",
+        :layout "token",
+        :name "Illusion",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Octopus",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/f/9fc10475-5eaf-47ea-a45c-3948a632f365.png?1721427277",
+        :collector-number "14",
+        :layout "token",
+        :name "Octopus",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Shapeshifter",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0e0f1e76-ccc0-4643-b4f2-c8e3042230ee.png?1721427307",
+        :collector-number "15",
+        :layout "token",
+        :name "Shapeshifter",
+        :oracle-text "Changeling (This token is every creature type.)"}
+ #:card{:type-line "Token Creature — Shark",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f9424ef2-d271-4929-83e0-12775420bac3.png?1721427369",
+        :collector-number "16",
+        :layout "token",
+        :name "Shark",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Squid",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/c/2c7e1ec8-ee84-4806-bd89-defd79902e41.png?1721427398",
+        :collector-number "17",
+        :layout "token",
+        :name "Squid",
+        :oracle-text
+        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)"}
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d4498fac-e345-4cea-8d7e-7e0759600f33.png?1725674275",
+        :collector-number "18",
+        :layout "token",
+        :name "Storm Crow",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Rat",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d32015d8-9441-4ba6-a59d-a2b6d9f0979c.png?1721427440",
+        :collector-number "19",
+        :layout "token",
+        :name "Rat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Lizard Rogue",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/917f0578-eb06-4317-9279-70f5e1eff5b2.png?1721427498",
+        :collector-number "20",
+        :layout "token",
+        :name "Agate Instigator",
+        :oracle-text
+        "Whenever another creature you control enters, this creature deals 1 damage to each opponent.\n(This token's mana cost is {1}{R}.)"}
+ #:card{:type-line "Token Creature — Goblin",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/1/3186f5e2-8078-4fa3-b61e-866c2d4c495d.png?1721427528",
+        :collector-number "21",
+        :layout "token",
+        :name "Goblin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Hamster",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/711274ae-1a4e-491c-aa71-b2d29c890578.png?1721427571",
+        :collector-number "22",
+        :layout "token",
+        :name "Hamster",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Raccoon Rogue",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/b/9b338247-1f5c-43b7-a66d-ddee01426917.png?1721427646",
+        :collector-number "23",
+        :layout "token",
+        :name "Prosperous Bandit",
+        :oracle-text
+        "First strike\nWhenever this creature deals combat damage to a player, create that many tapped Treasure tokens.\n(This token's mana cost is {2}{R}.)"}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/9/d93d0098-2147-4e84-af15-91dec8b98d21.png?1721427669",
+        :collector-number "24",
+        :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Beast",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/df60cd9d-44f3-41d3-8ed3-b511bdee3fc6.png?1721427709",
+        :collector-number "25",
+        :layout "token",
+        :name "Beast",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Cat",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/21450a75-26ec-4344-bebc-d55c2cf3fc1c.png?1721427725",
+        :collector-number "26",
+        :layout "token",
+        :name "Cat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Elephant",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f0a8841d-1d2d-429f-a14d-bb2251dbf898.png?1721427744",
+        :collector-number "27",
+        :layout "token",
+        :name "Elephant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Frog Lizard",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/8/48c184d8-159a-47e3-8107-c7e7c5788e1d.png?1721427762",
+        :collector-number "28",
+        :layout "token",
+        :name "Frog Lizard",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Raccoon",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/f/af257e8b-9bed-4c6b-9510-11fe950fa80e.png?1721427818",
+        :collector-number "29",
+        :layout "token",
+        :name "Raccoon",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Saproling",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/590abe94-9c71-4429-b1b5-8b5de877de03.png?1721427861",
+        :collector-number "30",
+        :layout "token",
+        :name "Saproling",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spider",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/5/858dec67-4839-45ce-91c9-85709b392c07.png?1721427890",
+        :collector-number "31",
+        :layout "token",
+        :name "Spider",
+        :oracle-text "Reach"}
+ #:card{:type-line "Token Creature — Wolf",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/7/e7fcf482-2241-4263-acf8-3c34a498bfd5.png?1721427912",
+        :collector-number "32",
+        :layout "token",
+        :name "Wolf",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Citizen",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/a/fa605271-03c0-401b-a470-4301898c2124.png?1721427940",
+        :collector-number "33",
+        :layout "token",
+        :name "Citizen",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Pest",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b613822-b9c2-439e-9533-a91bed12b5e9.png?1721428033",
+        :collector-number "34",
+        :layout "token",
+        :name "Pest",
+        :oracle-text "When this creature dies, you gain 1 life."}
+ #:card{:type-line "Token Creature — Wolf",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/61ea0e0e-13cf-4de3-80bf-89e66fa9b200.png?1721428070",
+        :collector-number "35",
+        :layout "token",
+        :name "Wolf",
+        :oracle-text
+        "When this creature dies, put a loyalty counter on each Garruk you control."}
+ #:card{:type-line "Token Artifact — Blood",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f90d1006-e8f9-4f62-b58b-6e711129e992.png?1721428107",
+        :collector-number "36",
+        :layout "token",
+        :name "Blood",
+        :oracle-text
+        "{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/5117d654-dabb-4f97-b3d7-b6e1e3157758.png?1721428139",
+        :collector-number "37",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact Creature — Phyrexian Golem",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/46161339-7173-4265-9691-106be5536b2d.png?1721428192",
+        :collector-number "38",
+        :layout "token",
+        :name "Phyrexian Golem",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/b/0bb68ae3-e74c-416f-a393-c42ad3f0312e.png?1721428230",
+        :collector-number "39",
+        :layout "token",
+        :name "Thopter",
+        :oracle-text "Flying"}
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/30758c2e-fc01-4037-838c-bdabe8a4e5a3.png?1721428739",
+        :collector-number "40",
+        :layout "token",
+        :name "City's Blessing",
+        :oracle-text ""}
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tblc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7afb0ba4-9a1b-4cd5-8d0f-2f697c6d3ab1.png?1721428757",
+        :collector-number "41",
+        :layout "normal",
+        :name "Poison Counter",
+        :oracle-text
+        "(A player with ten or more poison counters loses the game.)"})

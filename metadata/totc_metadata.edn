@@ -1,0 +1,501 @@
+(#:card{:type-line "Token Creature — Eldrazi",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/3/43110337-7361-4f6b-9c7f-5f4ea97b9486.png?1712319435",
+        :collector-number "1",
+        :layout "token",
+        :name "Eldrazi",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Eldrazi Scion",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/2/2213bedb-1a83-4fd1-bea3-55b8956d6ecf.png?1712319467",
+        :collector-number "2",
+        :layout "token",
+        :name "Eldrazi Scion",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b1b0c498-b457-4865-96da-a69647179456.png?1712319499",
+        :collector-number "3",
+        :layout "token",
+        :name "Angel",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Bird Illusion",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/5/95970f74-0f28-4d81-9fbd-cb49f5d5eebc.png?1712319532",
+        :collector-number "4",
+        :layout "token",
+        :name "Bird Illusion",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Drake",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f1966e5e-8414-4dc9-b212-7eb348848687.png?1712319555",
+        :collector-number "5",
+        :layout "token",
+        :name "Drake",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Shark",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18d590bd-1fa6-4a38-9297-6601b1b704d5.png?1712319572",
+        :collector-number "6",
+        :layout "token",
+        :name "Shark",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Assassin",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/a/3a0d35d2-1e30-4aba-abf5-4ac2707c9ea3.png?1712319589",
+        :collector-number "7",
+        :layout "token",
+        :name "Assassin",
+        :oracle-text "Deathtouch, haste"}
+ #:card{:type-line "Token Creature — Rat",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/2/52e48215-9771-4722-8cbc-347ac816fb43.png?1712319605",
+        :collector-number "8",
+        :layout "token",
+        :name "Rat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Rogue",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/245c0d1e-7bf5-4115-b018-cbeaccdfaf77.png?1712319623",
+        :collector-number "9",
+        :layout "token",
+        :name "Rogue",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/b/0b0205bb-2020-447a-a1ee-345d3f67e6a5.png?1712319647",
+        :collector-number "10",
+        :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Dragon",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/9/69f1224c-d2cb-49ce-a998-587d75176b6f.png?1712319705",
+        :collector-number "11",
+        :layout "token",
+        :name "Dragon",
+        :oracle-text
+        "Flying\n{R}: This creature gets +1/+0 until end of turn."}
+ #:card{:type-line "Token Creature — Dragon Egg",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/1/215da6c9-3e43-4ce5-b6bc-b53b920f73f5.png?1712319735",
+        :collector-number "12",
+        :layout "token",
+        :name "Dragon Egg",
+        :oracle-text
+        "Defender\nWhen this creature dies, create a 2/2 red Dragon creature token with flying and \"{R}: This creature gets +1/+0 until end of turn.\""}
+ #:card{:type-line "Token Creature — Dragon Elemental",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a59cf525-c9b6-4dc1-9f98-199436fb90f4.png?1712319778",
+        :collector-number "13",
+        :layout "token",
+        :name "Dragon Elemental",
+        :oracle-text
+        "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/5411b47d-a7b5-491a-a13b-a2b8bacaa419.png?1712319795",
+        :collector-number "14",
+        :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Ape",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/07b28aff-eb3d-4e8c-8837-e32b482d10a0.png?1712319813",
+        :collector-number "15",
+        :layout "token",
+        :name "Ape",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Boar",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/c/7cbd1416-dbcc-45fc-8837-3e2c50647ebc.png?1712319835",
+        :collector-number "16",
+        :layout "token",
+        :name "Boar",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a15220f0-ae87-42c8-9dbc-f386a0f03789.png?1712319858",
+        :collector-number "17",
+        :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8bbc680c-31c4-48bc-b55f-c5651d823e87.png?1712319871",
+        :collector-number "18",
+        :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Plant",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29ab531f-8dce-43a2-af8d-584f02982375.png?1712319889",
+        :collector-number "19",
+        :layout "token",
+        :name "Plant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Plant Warrior",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e8d52626-dc94-4897-9c4a-3e1988fb5e11.png?1712319941",
+        :collector-number "20",
+        :layout "token",
+        :name "Plant Warrior",
+        :oracle-text "Reach"}
+ #:card{:type-line "Token Creature — Elemental",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/448c05fc-8327-4c2a-aec2-fa08e297002d.png?1712319964",
+        :collector-number "21",
+        :layout "token",
+        :name "Elemental",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Inkling",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/a/2af2f485-ee1c-468f-9854-a9529c38ec55.png?1712319997",
+        :collector-number "22",
+        :layout "token",
+        :name "Inkling",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Sand Warrior",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f3e51b4d-3859-48c2-a409-0fc096a6d484.png?1712320029",
+        :collector-number "23",
+        :layout "token",
+        :name "Sand Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact — Blood",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24bd6040-0e3f-40fa-98e5-531e82af1b59.png?1712320077",
+        :collector-number "24",
+        :layout "token",
+        :name "Blood",
+        :oracle-text
+        "{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/600d5d22-62a0-49c9-b050-90a2566e8caf.png?1712320125",
+        :collector-number "25",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact Creature — Soldier",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/7/27ba03b0-feac-4d9c-9877-59c5fe18b230.png?1712320183",
+        :collector-number "26",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bbac8690-2b00-4afe-8a2d-8e10c34843fc.png?1712320220",
+        :collector-number "27",
+        :layout "token",
+        :name "Thopter",
+        :oracle-text "Flying"}
+ #:card{:type-line "Creature",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d4c95eac-9f21-408a-8f60-f5cba79b6a8f.png?1712320239",
+        :collector-number "28",
+        :layout "token",
+        :name "Manifest",
+        :oracle-text
+        "(You can cover a face-down manifested creature with this reminder card.\nA manifested creature card can be turned face up any time for its mana cost. A face-down card can also be turned face up for its morph cost.)"}
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "totc",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/7/97793b27-54d1-4870-9a86-680741ca8730.png?1712320267",
+        :collector-number "29",
+        :layout "token",
+        :name "The Monarch",
+        :oracle-text
+        "At the beginning of your end step, draw a card.\nWhenever a creature deals combat damage to you, its controller becomes the monarch."}
+ #:card{:code "totc",
+        :collector-number "30",
+        :name "Bounty: Eriana, Wrecking Ball // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/a/c/acd27632-4c28-4dc3-90ad-b94fe176b91a.png?1712319002",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if you committed a crime this turn, collect your reward. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+         {:png
+          "https://cards.scryfall.io/png/back/a/c/acd27632-4c28-4dc3-90ad-b94fe176b91a.png?1712319002",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "31",
+        :name "Bounty: Frankie The Fang // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/c/d/cd756281-c63f-44cf-88b5-e5d461195acd.png?1712319074",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if the player with the most life or tied for most life as the turn began was dealt combat damage this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/c/d/cd756281-c63f-44cf-88b5-e5d461195acd.png?1712319074",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "32",
+        :name "Bounty: Gorra Tash and Silas // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/4/1/415c0799-2ab4-4f88-be9b-d47c07d7a44b.png?1712396684",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if all opponents were dealt combat damage this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/4/1/415c0799-2ab4-4f88-be9b-d47c07d7a44b.png?1712396684",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "33",
+        :name "Bounty: Lord Fajjal // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/5/e/5e54793b-a5e4-4391-8bbb-509a99e08bcb.png?1712319237",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if a land card was put into your graveyard from anywhere this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/5/e/5e54793b-a5e4-4391-8bbb-509a99e08bcb.png?1712319237",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "34",
+        :name "Bounty: Lyssa, Sterling Collector // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/7/f7a095ac-8316-4824-bad5-0b74a58dd2e9.png?1712319254",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if the player with the most cards in hand or tied for most cards as the turn began was dealt combat damage this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/7/f7a095ac-8316-4824-bad5-0b74a58dd2e9.png?1712319254",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "35",
+        :name "Bounty: Miron Tillas Jr. // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/0/f/0fd5b9c3-9c18-446d-9d81-7a3a90d7bbee.png?1712319301",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if the nearest opponent to your left as the turn began was dealt combat damage this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/0/f/0fd5b9c3-9c18-446d-9d81-7a3a90d7bbee.png?1712319301",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "36",
+        :name "Bounty: The Outsider // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/9/2/92d36a9a-c39c-41e6-9f31-4fcb5e820bd9.png?1712319285",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if you cast a spell from anywhere other than your hand this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/9/2/92d36a9a-c39c-41e6-9f31-4fcb5e820bd9.png?1712319285",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "37",
+        :name "Bounty: Paq, Fleeting Filcher // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/e/fe1ca7a3-025f-4ab4-9764-c0b11e010f97.png?1712396708",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if there are four or more card types among cards in your graveyard, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/e/fe1ca7a3-025f-4ab4-9764-c0b11e010f97.png?1712396708",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "38",
+        :name "Bounty: Rissa \"Blades\" Lee // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/1/f/1fbba46a-e9f1-43d7-820f-7c9c43244aa5.png?1712396718",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if you cast an instant or sorcery spell this turn while you had two or more instant and/or sorcery cards in your graveyard, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/1/f/1fbba46a-e9f1-43d7-820f-7c9c43244aa5.png?1712396718",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "39",
+        :name "Bounty: Sleepy Sovka // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/5/9/590120cd-b072-4480-9652-f9dec7de4065.png?1712319352",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if you cast no spells this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/5/9/590120cd-b072-4480-9652-f9dec7de4065.png?1712319352",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "40",
+        :name "Bounty: Squeakers the Sly // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/2/5/25a24ce6-ad4d-46f7-9705-42318d1f41ff.png?1712396727",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if a legendary creature you controlled attacked alone this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/2/5/25a24ce6-ad4d-46f7-9705-42318d1f41ff.png?1712396727",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]}
+ #:card{:code "totc",
+        :collector-number "41",
+        :name "Bounty: Vara Beth Hannifer // Wanted!",
+        :layout "double_faced_token",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/4/c/4c6cd098-5a40-4031-af21-8746165ae442.png?1712319384",
+          :type-line "Card",
+          :oracle-text
+          "At the beginning of your end step, if the nearest opponent to your right as the turn began was dealt combat damage this turn, collect your reward."}
+         {:png
+          "https://cards.scryfall.io/png/back/4/c/4c6cd098-5a40-4031-af21-8746165ae442.png?1712319384",
+          :type-line "Card",
+          :oracle-text
+          "Before the game, shuffle at least 6 unique bounty cards into a face-down pile.\nAs the starting player's third turn begins, reveal the top bounty card.\nClaim the revealed bounty during your turn and collect your reward!\nAs each turn begins, if no bounty is being offered, reveal the next one. If the pile is empty, shuffle all claimed bounties and restock\nIf the bounty went unclaimed last turn, increase its reward to the next level.\nRewards\n1 — Create a Treasure token\n2 — Create two Treasure tokens\n3 — Create two Treasure tokens *or* draw a card\n4 — (Max) Create two Treasure tokens *and* draw a card."}]})

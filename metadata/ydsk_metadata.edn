@@ -1,0 +1,337 @@
+(#:card{:type-line "Legendary Creature — Illusion Beast",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d31a8561-84a0-49a2-9e05-d6bd72b35385.png?1729019054",
+        :collector-number "1",
+        :layout "normal",
+        :name "Ethrimik, Imagined Fiend",
+        :oracle-text
+        "When Ethrimik enters, if you control no other creatures, manifest dread.\nOther creatures you control get +1/+1.\nAs long as you control another creature, Ethrimik can't attack or block."}
+ #:card{:type-line "Creature — Human Survivor",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/0/a07628cc-7f1a-4566-b611-076e96314710.png?1729019419",
+        :collector-number "2",
+        :layout "normal",
+        :name "Improvising Aerialist",
+        :oracle-text
+        "Survival — At the beginning of your second main phase, if Improvising Aerialist is tapped, Improvising Aerialist and the top creature card in your library without flying perpetually gain flying."}
+ #:card{:type-line "Creature — Human Cleric",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/6/2698f14a-fbf6-4dd8-bc5b-eedf69a98d84.png?1729020678",
+        :collector-number "3",
+        :layout "normal",
+        :name "Mothlight Processionist",
+        :oracle-text
+        "Enchantment spells you cast have convoke.\nEerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, conjure a card named Mothlight Processionist into your hand. Discard that card at the beginning of the next end step."}
+ #:card{:code "ydsk",
+        :collector-number "4",
+        :name "Solitary Study // Endless Corridor",
+        :layout "split",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/e/7/e737bb37-b53e-4b15-9d59-9683dc25bd11.png?1729009878",
+        :faces
+        [{:type-line "Enchantment — Room",
+          :oracle-text "Creatures you control get +1/+0."}
+         {:type-line "Enchantment — Room",
+          :oracle-text
+          "When you unlock this door, conjure a duplicate of this card into your hand. When you do, target creature you control gains first strike until end of turn."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d3cf68c1-d137-4a10-b20a-d3e08744ff33.png?1729009852",
+        :collector-number "5",
+        :layout "normal",
+        :name "Housemeld",
+        :oracle-text
+        "Exile target creature. The exiled card perpetually becomes an enchantment. Then put it onto the battlefield under your control. (It loses all other card types.)"}
+ #:card{:type-line "Enchantment Creature — Fish Illusion",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/e/8eeb02d2-cf6d-4896-94e9-73fe93683aa0.png?1729009859",
+        :collector-number "6",
+        :layout "normal",
+        :name "Lurker in the Deep",
+        :oracle-text
+        "Impending 4—{2}{U}{U}\nWhenever Lurker in the Deep enters or attacks, seek a nonland card.\nWhenever you seek one or more cards during your turn, conjure a duplicate of each of those cards into your hand, then manifest those duplicates."}
+ #:card{:type-line "Enchantment Creature — Nightmare",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a563a1fb-3621-4bc9-b8cb-2bf7df1c7d60.png?1729010148",
+        :collector-number "7",
+        :layout "normal",
+        :name "Fear of Ridicule",
+        :oracle-text
+        "Enchantment creatures you control have menace.\nWhenever one or more enchantment creatures you control deal combat damage to a player, exile a random creature card from that player's library. Create a token that's a copy of that card, except it's a 1/1 enchantment creature."}
+ #:card{:type-line "Creature — Human Survivor",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/a/da7bc58f-fdcb-47ce-a147-55bedceba7f3.png?1729019064",
+        :collector-number "8",
+        :layout "normal",
+        :name "Glimmer Hoarder",
+        :oracle-text
+        "Survival - At the beginning of your second main phase, if Glimmer Hoarder is tapped, you lose 1 life and draft a card from Glimmer Hoarder's spellbook. That card perpetually becomes an enchantment in addition to its other types."}
+ #:card{:type-line "Creature — Demon",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/54f49839-d413-46d6-bb52-0c9bdce2cb46.png?1729019397",
+        :collector-number "9",
+        :layout "normal",
+        :name "Razor Demon",
+        :oracle-text
+        "When you cast this spell, target opponent drafts a card from Razor Demon's spellbook. They may cast that card without paying its mana cost.\nFlying\nWard—Discard a card."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7c99b00-ccc2-44ed-8f02-85a8ac477bac.png?1729066828",
+        :collector-number "10",
+        :layout "normal",
+        :name "Replicating Terror",
+        :oracle-text
+        "Each opponent sacrifices a nontoken creature. For each creature sacrificed this way, conjure a duplicate of it into your graveyard."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/5/e559c627-6fa2-41fc-adbd-64c06e06cccf.png?1729976485",
+        :collector-number "11",
+        :layout "normal",
+        :name "Welcome the Darkness",
+        :oracle-text
+        "X can't be 0.\nDraw X cards. Create an X/X black Demon creature token with flying. Your life total becomes X. You can't gain life for the rest of the game."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/0/7058e778-23ad-4e9c-a5c6-8c5f63811d11.png?1729010860",
+        :collector-number "12",
+        :layout "normal",
+        :name "Anguished Recollection",
+        :oracle-text
+        "Discard a card. If you do, seek two cards that don't share a card type with the discarded card."}
+ #:card{:code "ydsk",
+        :collector-number "13",
+        :name "Crude Abattoir // Unsavory Kitchen",
+        :layout "split",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5b8a677c-fa8a-4fbc-b957-7e6915169734.png?1729019074",
+        :faces
+        [{:type-line "Enchantment — Room",
+          :oracle-text
+          "When you unlock this door, this Room deals 2 damage to target creature."}
+         {:type-line "Enchantment — Room",
+          :oracle-text
+          "Whenever a source you control deals noncombat damage to a creature, choose a creature card in your hand. It perpetually gets +2/+0 and gains haste."}]}
+ #:card{:type-line "Enchantment Creature — Raccoon Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/f/8f34e050-5549-4088-ae81-b8f33bb0c6fd.png?1729011093",
+        :collector-number "14",
+        :layout "normal",
+        :name "Eager Flameguide",
+        :oracle-text
+        "When Eager Flameguide enters, add {C}{C}{C}. Spend this mana only to cast creature spells.\nWhen Eager Flameguide dies, exile the top two cards of your library. Until the end of your next turn, you may cast creature spells from among the exiled cards."}
+ #:card{:type-line "Enchantment Creature — Squirrel Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/461a7f23-ad51-4706-80b5-60d2bb40881f.png?1729011286",
+        :collector-number "15",
+        :layout "normal",
+        :name "Chittering Illuminator",
+        :oracle-text
+        "As long as Chittering Illuminator is at the top of your library, you may look at it any time and you may cast it.\nAs long as the top card of your library is a creature card, you may look at it any time and you may cast it."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/8/b82d4119-cc28-4e46-bd74-ba1b131d9d59.png?1729019410",
+        :collector-number "16",
+        :layout "normal",
+        :name "Harrowing Swarm",
+        :oracle-text
+        "Manifest dread. Then each face-down creature you control gains \"This permanent costs {2} less to turn face up\" and \"When this permanent is turned face up, if it's a creature, put a +1/+1 counter on it.\""}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/ace1acd8-acd0-434b-9724-488622822310.png?1729011726",
+        :collector-number "17",
+        :layout "normal",
+        :name "Verdant Dread",
+        :oracle-text
+        "Whenever Verdant Dread or another permanent you control named Verdant Dread enters, manifest dread.\n{3}{G}{G}: Conjure a card named Verdant Dread onto the battlefield. Activate only as a sorcery."}
+ #:card{:type-line "Creature — Human Survivor",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/5/e5526853-9c4e-40ba-829b-f611c4c4aeba.png?1729011871",
+        :collector-number "18",
+        :layout "normal",
+        :name "Wary Zone Guard",
+        :oracle-text
+        "Wary Zone Guard enters tapped.\nSurvival — At the beginning of your second main phase, if Wary Zone Guard is tapped, return up to one target land card from your graveyard to the battlefield. Wary Zone Guard perpetually gets +1/+1."}
+ #:card{:type-line "Legendary Creature — Human Survivor",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d0f6f30f-82f7-4f29-a3fd-467cc8ff8b6b.png?1729012047",
+        :collector-number "19",
+        :layout "normal",
+        :name "Effie, Fast Learner",
+        :oracle-text
+        "Enlist\nSurvival — At the beginning of your second main phase, if Effie is tapped, put a +1/+1 counter on each tapped creature you control. Then seek a Survivor card with mana value less than or equal to the number of tapped creatures you control."}
+ #:card{:type-line "Enchantment Creature — Otter Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/5/7500c174-c4c5-4bcd-82bf-f705ebe68812.png?1729932173",
+        :collector-number "20",
+        :layout "normal",
+        :name "Enduring Friendship",
+        :oracle-text
+        "Double team\nWhenever you cast an instant or sorcery spell, creatures you control that are Otters and/or enchantments get +1/+1 until end of turn.\nWhen Enduring Friendship dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)"}
+ #:card{:type-line "Enchantment Creature — Nightmare",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d6da2a3a-2f1d-47de-8f60-77b6d9661b01.png?1729012531",
+        :collector-number "21",
+        :layout "normal",
+        :name "Fear of Change",
+        :oracle-text
+        "When this creature enters or dies, exile another creature you control. If you do, conjure a duplicate of a random creature card with mana value X onto the battlefield, where X is 2 plus the exiled creature's mana value."}
+ #:card{:type-line "Enchantment Creature — Lizard Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/9/49711f3a-2903-4075-b11d-bc77700ab6f2.png?1729013018",
+        :collector-number "22",
+        :layout "normal",
+        :name "Gilded Ambusher",
+        :oracle-text
+        "Whenever Gilded Ambusher attacks, you may sacrifice another nonland permanent. When you do, each opponent exiles a nonland, nontoken permanent they control and a random nonland card from their library, then Gilded Ambusher deals damage to them equal to the total mana value of the cards exiled this way."}
+ #:card{:type-line "Enchantment Creature — Bat Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/4/d48b7d48-b6c4-4d67-973c-d43e619f05e3.png?1729013130",
+        :collector-number "23",
+        :layout "normal",
+        :name "Golden Sidekick",
+        :oracle-text
+        "Flying, lifelink\nWhenever you gain life, a random creature card in your hand perpetually gets +X/+X, where X is the amount of life you gained."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/d/bd041854-3c52-4ce4-bb0d-d1c82aae81fc.png?1729015572",
+        :collector-number "24",
+        :layout "normal",
+        :name "Mangled Soulrager",
+        :oracle-text
+        "Flying\nWhen Mangled Soulrager enters, switch the power and toughness of each creature on the battlefield. You get a twelve-time boon with \"Whenever a creature you control enters, switch its power and toughness.\"\nCycling {1}{U}"}
+ #:card{:type-line "Enchantment Creature — Rat Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/c/7c441b04-fac8-4ac7-848b-967a96d66244.png?1729015682",
+        :collector-number "25",
+        :layout "normal",
+        :name "Mischievous Lookout",
+        :oracle-text
+        "Once during each of your turns, you may cast a noncreature, non-Aura permanent spell from your graveyard. If you do, it perpetually becomes a 2/1 Rat creature in addition to its other types."}
+ #:card{:type-line "Creature — Spirit",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/186f6b5e-254b-4413-9ad3-7bb5bf4c9e87.png?1729015732",
+        :collector-number "26",
+        :layout "normal",
+        :name "Polterheist",
+        :oracle-text
+        "Ward—Pay 2 life.\nWhenever Polterheist attacks, heist target opponent's library."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dd4a1f01-9a75-4781-9ab2-506a2f7b445e.png?1729015987",
+        :collector-number "27",
+        :layout "normal",
+        :name "Unnatural Summons",
+        :oracle-text
+        "If you weren't the starting player, this spell costs {1} less to cast.\nManifest dread.\nRebound"}
+ #:card{:type-line "Enchantment Creature — Mouse Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/2/c2343a08-6e40-4333-a181-b289f1436fb0.png?1729016518",
+        :collector-number "28",
+        :layout "normal",
+        :name "Valiant Emberkin",
+        :oracle-text
+        "Haste\nWhenever Valiant Emberkin enters or attacks, target creature you control perpetually gets +1/+0.\nIf a creature you control becoming the target of a spell or ability causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+ #:card{:type-line "Enchantment Creature — Bird Glimmer",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/1/6151380b-8204-4725-9621-b962951ec62a.png?1729016641",
+        :collector-number "29",
+        :layout "normal",
+        :name "Wingbright Thief",
+        :oracle-text
+        "Flying\nWhen Wingbright Thief enters, target opponent reveals each nonland card in their hand. You choose one of them. That card perpetually gains \"When you cast this spell, each opponent draws a card and gains 3 life.\""}
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "ydsk",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/9/09077cc6-44b9-432c-8869-08bfac1e181d.png?1729016634",
+        :collector-number "30",
+        :layout "normal",
+        :name "Soul Shredder",
+        :oracle-text
+        "Haste\nWhenever one or more other creatures die, Soul Shredder perpetually gets +1/+1. This ability also triggers if Soul Shredder is in your graveyard.\nCrew 1\n{1}, Sacrifice two creatures: Return Soul Shredder from your graveyard to the battlefield. Activate only as a sorcery."})

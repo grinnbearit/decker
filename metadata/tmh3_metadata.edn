@@ -1,0 +1,440 @@
+(#:card{:type-line "Token",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/450bfe1d-a51b-4e45-a0f4-fc72ed94caa4.png?1717189937",
+        :collector-number "1",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Eldrazi Spawn",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/6/0645cf05-4660-4a6e-b789-7e0f6b7660c0.png?1717189950",
+        :collector-number "2",
+        :layout "token",
+        :name "Eldrazi Spawn",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:type-line "Token Creature — Angel",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/f/8fe9d826-2642-4dc8-9dfd-0526394d43ac.png?1717189965",
+        :collector-number "3",
+        :layout "token",
+        :name "Angel",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Cat",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/4/74bacab2-a4c6-4ba5-a208-6bd09ae4cf9f.png?1717190002",
+        :collector-number "4",
+        :layout "token",
+        :name "Cat",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Cat Warrior",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ce5c5bcf-1fdd-4d73-a92b-223292da00ca.png?1717190066",
+        :collector-number "5",
+        :layout "token",
+        :name "Cat Warrior",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Fox",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/3/d31d906e-e5c2-48ad-b7b0-f740ea4447ff.png?1717190096",
+        :collector-number "6",
+        :layout "token",
+        :name "Fox",
+        :oracle-text "Vigilance"}
+ #:card{:type-line "Token Creature — Soldier",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/1/e17648a0-f680-429d-8dda-2b0c14f3d80a.png?1717190149",
+        :collector-number "7",
+        :layout "token",
+        :name "Soldier",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/0/a0aa2f5e-9809-4e97-b9b2-9c9a322a8e21.png?1717189919",
+        :collector-number "8",
+        :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Bird",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/7/e7222593-5ade-4512-bfee-6126d4d0cc19.png?1717190162",
+        :collector-number "9",
+        :layout "token",
+        :name "Bird",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Fish",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e081becb-40f1-4151-aea3-5a9a9bd672c6.png?1717190246",
+        :collector-number "10",
+        :layout "token",
+        :name "Fish",
+        :oracle-text
+        "When this creature dies, create a 6/6 blue Whale creature token with \"When this creature dies, create a 9/9 blue Kraken creature token.\""}
+ #:card{:type-line "Token Creature — Kraken",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/1/9155825a-6449-4b36-aa14-4c227075ed51.png?1717190252",
+        :collector-number "11",
+        :layout "token",
+        :name "Kraken",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Moonfolk",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/0/10136b4b-ccc1-48ce-bc8c-295660464cf7.png?1717190365",
+        :collector-number "12",
+        :layout "token",
+        :name "Moonfolk",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact Creature — Thopter",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/0/e0a7adb3-8e66-4e63-95f2-1a5f5827b676.png?1717190386",
+        :collector-number "13",
+        :layout "token",
+        :name "Thopter",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Creature — Whale",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/1/51b8f3b4-d0f3-4f2f-8e6f-7da1e852dac1.png?1717190400",
+        :collector-number "14",
+        :layout "token",
+        :name "Whale",
+        :oracle-text
+        "When this creature dies, create a 9/9 blue Kraken creature token."}
+ #:card{:type-line "Token Creature — Zombie Snake Druid",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6ef58164-4155-4e5b-8c16-f16f2ab65baa.png?1717826474",
+        :collector-number "15",
+        :layout "token",
+        :name "Fanatic of Rhonas",
+        :oracle-text
+        "{T}: Add {G}.\nFerocious — {T}: Add {G}{G}{G}{G}. Activate only if you control a creature with power 4 or greater."}
+ #:card{:type-line "Token Creature — Phyrexian Germ",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5ec719dc-6b07-4b1d-a79c-84ebced33422.png?1717190751",
+        :collector-number "16",
+        :layout "token",
+        :name "Phyrexian Germ",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Phyrexian Wurm",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a7800c9-6808-4f33-87ad-50ad8c79f2d7.png?1717826477",
+        :collector-number "17",
+        :layout "token",
+        :name "Phyrexian Wurm",
+        :oracle-text "Deathtouch"}
+ #:card{:type-line "Token Artifact Creature — Phyrexian Wurm",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/4/1482ab42-875c-46fc-aa0b-b18154488985.png?1717826480",
+        :collector-number "18",
+        :layout "token",
+        :name "Phyrexian Wurm",
+        :oracle-text "Lifelink"}
+ #:card{:type-line "Token Creature — Rat",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/3/f3054ecd-0f8a-439d-ab7c-129d5aa0ccb2.png?1717826483",
+        :collector-number "19",
+        :layout "token",
+        :name "Rat",
+        :oracle-text "Lifelink"}
+ #:card{:type-line "Token Creature — Snake",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/b/8b9be7c2-efe5-4d37-a43e-ddcd50a77aa9.png?1717826485",
+        :collector-number "20",
+        :layout "token",
+        :name "Snake",
+        :oracle-text "Deathtouch"}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/0/909387e1-dc33-446c-825f-07c915ad73ee.png?1717191020",
+        :collector-number "21",
+        :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Zombie Army",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/505a3bc6-deab-410e-a58e-e3b5f0f21e3d.png?1717191051",
+        :collector-number "22",
+        :layout "token",
+        :name "Zombie Army",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Gremlin",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1af08a84-4a57-4c94-a290-31d93f79db83.png?1717191747",
+        :collector-number "23",
+        :layout "token",
+        :name "Gremlin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Weird",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/33b63bd0-0b61-4a87-928f-95fc6b5a3150.png?1720687920",
+        :collector-number "24",
+        :layout "token",
+        :name "Spellgorger Weird",
+        :oracle-text
+        "Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.\n(This token's mana cost is {2}{R}.)"}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/5/059e9d51-c7bf-41c0-a6f0-c0bbc6d3b434.png?1717191895",
+        :collector-number "25",
+        :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Plant",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/0/b0d3a058-3e25-4bb9-895b-ad2285c50bca.png?1717191911",
+        :collector-number "26",
+        :layout "token",
+        :name "Plant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/5/a5bc4cb0-60d4-4c8f-a420-8bfe635154cd.png?1717191936",
+        :collector-number "27",
+        :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Spirit",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/f/ef77c8eb-aa24-46d5-8036-6651c7602383.png?1717191953",
+        :collector-number "28",
+        :layout "token",
+        :name "Spirit",
+        :oracle-text "Flying"}
+ #:card{:type-line "Token Artifact — Blood",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/3364c1cf-e036-4ba2-a8ae-20e995610311.png?1717191968",
+        :collector-number "29",
+        :layout "token",
+        :name "Blood",
+        :oracle-text
+        "{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Clue",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e604b9ca-6c5a-459e-b509-955c3428530a.png?1717191994",
+        :collector-number "30",
+        :layout "token",
+        :name "Clue",
+        :oracle-text "{2}, Sacrifice this artifact: Draw a card."}
+ #:card{:type-line "Token Artifact — Food",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/4/14fe0b7c-2d73-4c21-98ca-ee3a7d7f20c8.png?1717192010",
+        :collector-number "31",
+        :layout "token",
+        :name "Food",
+        :oracle-text
+        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+ #:card{:type-line "Token Artifact Creature — Phyrexian Golem",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/e/4ee5119d-f76c-44c7-bf82-34aabb4d2e69.png?1717192026",
+        :collector-number "32",
+        :layout "token",
+        :name "Phyrexian Golem",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact Creature — Servo",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/3/23165814-3eb8-4d94-b9c8-ecc798afe7a0.png?1717192207",
+        :collector-number "33",
+        :layout "token",
+        :name "Servo",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/1141c3fe-1adf-48ab-ac05-079b081788cc.png?1717192227",
+        :collector-number "34",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."}
+ #:card{:type-line "Emblem",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c88e2bea-9c95-447e-bc9d-7d7f8ea40567.png?1717192398",
+        :collector-number "35",
+        :layout "emblem",
+        :name "Tamiyo, Seasoned Scholar",
+        :oracle-text "You have no maximum hand size."}
+ #:card{:type-line "Card",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/c/1c516212-ad39-4396-8e05-ae57f100309f.png?1717192446",
+        :collector-number "36",
+        :layout "token",
+        :name "Energy Reserve",
+        :oracle-text "(Place your energy counters in this area.)"}
+ #:card{:type-line "Token",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8a016157-6f3f-4fb2-b962-1f548d378545.png?1717192494",
+        :collector-number "37",
+        :layout "token",
+        :name "Copy",
+        :oracle-text
+        "(This token can be used to represent a token that's a copy of a permanent.)"}
+ #:card{:type-line "Token Creature — Eldrazi Spawn",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/3/e32795e1-5548-43ef-8cd6-c605a19ef708.png?1717192505",
+        :collector-number "38",
+        :layout "token",
+        :name "Eldrazi Spawn",
+        :oracle-text "Sacrifice this creature: Add {C}."}
+ #:card{:type-line "Token Creature — Zombie",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/c/4c923eed-3d09-4b38-a884-513700aebca3.png?1717192515",
+        :collector-number "39",
+        :layout "token",
+        :name "Zombie",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Gremlin",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/25b1dfdc-09cf-4b87-a6c1-a78ba51e1133.png?1717189843",
+        :collector-number "40",
+        :layout "token",
+        :name "Gremlin",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Plant",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/0/909f85b2-0d7b-42ac-a0b7-402e20cedab4.png?1717192537",
+        :collector-number "42",
+        :layout "token",
+        :name "Plant",
+        :oracle-text ""}
+ #:card{:type-line "Token Creature — Insect",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/e/8e85e215-29d0-4ff6-9e42-9ce84b5280cf.png?1717192552",
+        :collector-number "43",
+        :layout "token",
+        :name "Insect",
+        :oracle-text ""}
+ #:card{:type-line "Token Artifact — Treasure",
+        :layout-category :normal,
+        :code "tmh3",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/9/79a7e037-9f56-4a77-a09e-caeafbb86d7c.png?1716925782",
+        :collector-number "45",
+        :layout "token",
+        :name "Treasure",
+        :oracle-text
+        "{T}, Sacrifice this artifact: Add one mana of any color."})

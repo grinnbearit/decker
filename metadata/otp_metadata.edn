@@ -1,0 +1,886 @@
+(#:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/b/fbd897e0-0f6b-4a35-9f33-a16d85ddfad8.png?1712353389",
+        :collector-number "1",
+        :layout "normal",
+        :name "Fell the Mighty",
+        :oracle-text
+        "Destroy all creatures with power greater than target creature's power."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/2/92270719-352d-426f-b498-fbeaf8fd087b.png?1712353389",
+        :collector-number "2",
+        :layout "normal",
+        :name "Fierce Retribution",
+        :oracle-text
+        "Cleave {5}{W} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDestroy target [attacking] creature."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/442bb671-8b23-4e3b-bf39-18152a68887e.png?1712353397",
+        :collector-number "3",
+        :layout "normal",
+        :name "Journey to Nowhere",
+        :oracle-text
+        "When Journey to Nowhere enters, exile target creature.\nWhen Journey to Nowhere leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/f/5f48b1fe-175a-40bb-be21-84b5c768403e.png?1712353398",
+        :collector-number "4",
+        :layout "normal",
+        :name "Leyline Binding",
+        :oracle-text
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/1995fed6-992f-4333-afa6-63d61cfdfa00.png?1712353406",
+        :collector-number "5",
+        :layout "normal",
+        :name "Pariah",
+        :oracle-text
+        "Enchant creature\nAll damage that would be dealt to you is dealt to enchanted creature instead."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/a/aa112736-7596-448a-be2f-0798acb3b2ee.png?1712859024",
+        :collector-number "6",
+        :layout "normal",
+        :name "Path to Exile",
+        :oracle-text
+        "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Instant — Trap",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/defa687c-a064-4a7b-afa2-3c3ecdb5e13f.png?1712353415",
+        :collector-number "7",
+        :layout "normal",
+        :name "Archive Trap",
+        :oracle-text
+        "If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.\nTarget opponent mills thirteen cards."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/44fe86de-c131-41b2-a06a-827b4d374a6d.png?1712353415",
+        :collector-number "8",
+        :layout "normal",
+        :name "Archmage's Charm",
+        :oracle-text
+        "Choose one —\n• Counter target spell.\n• Target player draws two cards.\n• Gain control of target nonland permanent with mana value 1 or less."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/4/e473db8a-ee0e-4753-aaab-76eda5808075.png?1712353423",
+        :collector-number "9",
+        :layout "normal",
+        :name "Commandeer",
+        :oracle-text
+        "You may exile two blue cards from your hand rather than pay this spell's mana cost.\nGain control of target noncreature spell. You may choose new targets for it. (If that spell is an artifact, enchantment, or planeswalker, the permanent enters under your control.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/2/d2bcfba6-fbd8-487c-8a89-2327c3d07870.png?1712353424",
+        :collector-number "10",
+        :layout "normal",
+        :name "Essence Capture",
+        :oracle-text
+        "Counter target creature spell. Put a +1/+1 counter on up to one target creature you control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/c/4c7f0ea5-a142-4157-b85d-ec49dd79adf6.png?1712353431",
+        :collector-number "11",
+        :layout "normal",
+        :name "Mana Drain",
+        :oracle-text
+        "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value."}
+ #:card{:type-line "Instant — Trap",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/d/4ddb33dd-a92a-4f71-bcb3-56678ef5e45d.png?1712353434",
+        :collector-number "12",
+        :layout "normal",
+        :name "Mindbreak Trap",
+        :oracle-text
+        "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/8/88941ed3-1cae-47ce-8ccb-938c5d0e767f.png?1712353439",
+        :collector-number "13",
+        :layout "normal",
+        :name "Repulse",
+        :oracle-text
+        "Return target creature to its owner's hand.\nDraw a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/0/d06a1a70-aa26-4178-8486-e0a25c907cdb.png?1712353444",
+        :collector-number "14",
+        :layout "normal",
+        :name "Heartless Pillage",
+        :oracle-text
+        "Target opponent discards two cards.\nRaid — If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/41137be4-cfc2-40dc-873a-b9a63d0d8ea6.png?1712353448",
+        :collector-number "15",
+        :layout "normal",
+        :name "Imp's Mischief",
+        :oracle-text
+        "Change the target of target spell with a single target. You lose life equal to that spell's mana value."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/c/6c776ca4-4950-4a27-8ce2-fbe534579d62.png?1712353452",
+        :collector-number "16",
+        :layout "normal",
+        :name "Murder",
+        :oracle-text "Destroy target creature."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0d16af8d-4967-4244-8622-c6fa03ac739b.png?1712353456",
+        :collector-number "17",
+        :layout "normal",
+        :name "Overwhelming Forces",
+        :oracle-text
+        "Destroy all creatures target opponent controls. Draw a card for each creature destroyed this way."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/609c34f9-9f53-4773-a02b-517209024fc2.png?1712353461",
+        :collector-number "18",
+        :layout "normal",
+        :name "Reanimate",
+        :oracle-text
+        "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/11cc603a-5d60-4959-a03f-e3dfbee4606b.png?1712353465",
+        :collector-number "19",
+        :layout "normal",
+        :name "Surgical Extraction",
+        :oracle-text
+        "({B/P} can be paid with either {B} or 2 life.)\nChoose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e85d5db-ced3-406d-90d2-e506a9332468.png?1712353469",
+        :collector-number "20",
+        :layout "normal",
+        :name "Thoughtseize",
+        :oracle-text
+        "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/b/cbaaa9e0-e5d4-4ae1-8082-cc018eb1fe39.png?1712353473",
+        :collector-number "21",
+        :layout "normal",
+        :name "Collective Defiance",
+        :oracle-text
+        "Escalate {1} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• Target player discards all the cards in their hand, then draws that many cards.\n• Collective Defiance deals 4 damage to target creature.\n• Collective Defiance deals 3 damage to target opponent or planeswalker."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/7/d7cdccd8-13c0-49ab-9fc9-554e7897e782.png?1712353479",
+        :collector-number "22",
+        :layout "normal",
+        :name "Crackle with Power",
+        :oracle-text
+        "Crackle with Power deals five times X damage to each of up to X targets."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/d/6d550bc9-2cb5-4947-a48d-2c92b5c72541.png?1712353482",
+        :collector-number "23",
+        :layout "normal",
+        :name "Electrodominance",
+        :oracle-text
+        "Electrodominance deals X damage to any target. You may cast a spell with mana value X or less from your hand without paying its mana cost."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/c/1cddae19-eb96-475c-9800-17ac57df4c0a.png?1712353488",
+        :collector-number "24",
+        :layout "normal",
+        :name "Fling",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to any target."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18cb625b-a41f-4f3b-8f56-257a3795aa8f.png?1712353490",
+        :collector-number "25",
+        :layout "normal",
+        :name "Indomitable Creativity",
+        :oracle-text
+        "Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/f/9f3261b6-4f5c-4cf0-a396-1d9397603602.png?1712353496",
+        :collector-number "26",
+        :layout "normal",
+        :name "Skewer the Critics",
+        :oracle-text
+        "Spectacle {R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nSkewer the Critics deals 3 damage to any target."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/7/170a06cd-501e-43c8-98e0-63ebd61cc0aa.png?1713221826",
+        :collector-number "27",
+        :layout "normal",
+        :name "Skullcrack",
+        :oracle-text
+        "Players can't gain life this turn. Damage can't be prevented this turn. Skullcrack deals 3 damage to target player or planeswalker."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/f/4f362332-3682-4638-bc8b-6984f48e3464.png?1712353505",
+        :collector-number "28",
+        :layout "normal",
+        :name "Clear Shot",
+        :oracle-text
+        "Target creature you control gets +1/+1 until end of turn. It deals damage equal to its power to target creature you don't control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d98d6a5-36a0-441f-ac64-9d02b2dbb773.png?1712353508",
+        :collector-number "29",
+        :layout "normal",
+        :name "Force of Vigor",
+        :oracle-text
+        "If it's not your turn, you may exile a green card from your hand rather than pay this spell's mana cost.\nDestroy up to two target artifacts and/or enchantments."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/8407c498-b972-49fe-b30a-a864c39ddc7a.png?1712353514",
+        :collector-number "30",
+        :layout "normal",
+        :name "Pest Infestation",
+        :oracle-text
+        "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this creature dies, you gain 1 life.\""}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/4416de3b-ba68-44a9-843b-26743813c661.png?1712353516",
+        :collector-number "31",
+        :layout "normal",
+        :name "Primal Command",
+        :oracle-text
+        "Choose two —\n• Target player gains 7 life.\n• Put target noncreature permanent on top of its owner's library.\n• Target player shuffles their graveyard into their library.\n• Search your library for a creature card, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/1/d11a1ac4-b025-4bc7-a00f-5de04acefbf8.png?1712353523",
+        :collector-number "32",
+        :layout "normal",
+        :name "Primal Might",
+        :oracle-text
+        "Target creature you control gets +X/+X until end of turn. Then it fights up to one target creature you don't control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/e/8eb4b155-ddde-465d-bd2e-3b7eb32bc052.png?1712353525",
+        :collector-number "33",
+        :layout "normal",
+        :name "Thornado",
+        :oracle-text
+        "Destroy target creature with flying.\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/84f71a16-915d-4b8e-8c39-cc46bcaa9de9.png?1713541398",
+        :collector-number "34",
+        :layout "normal",
+        :name "Abrupt Decay",
+        :oracle-text
+        "This spell can't be countered.\nDestroy target nonland permanent with mana value 3 or less."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c03cc4a3-a526-4811-871e-290ae5bbe424.png?1712353533",
+        :collector-number "35",
+        :layout "normal",
+        :name "Anguished Unmaking",
+        :oracle-text
+        "Exile target nonland permanent. You lose 3 life."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/5/f55e5aca-b6fe-4b2f-9943-568f4d1704ca.png?1712353541",
+        :collector-number "36",
+        :layout "normal",
+        :name "Back for More",
+        :oracle-text
+        "Return target creature card from your graveyard to the battlefield. When you do, it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/2473bb43-4de4-402a-884b-42fd9fcadd7d.png?1712353542",
+        :collector-number "37",
+        :layout "normal",
+        :name "Bedevil",
+        :oracle-text
+        "Destroy target artifact, creature, or planeswalker."}
+ #:card{:type-line "Enchantment — Aura",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/0/507073ca-4f97-4fcb-b570-233f096bf0fd.png?1712353549",
+        :collector-number "38",
+        :layout "normal",
+        :name "Buried in the Garden",
+        :oracle-text
+        "Enchant land\nWhen Buried in the Garden enters, exile target nonland permanent you don't control until Buried in the Garden leaves the battlefield.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
+ #:card{:code "otp",
+        :collector-number "39",
+        :name "Crime // Punishment",
+        :layout "split",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ce4bc5b7-233c-4076-8268-7f9bd346ec55.png?1713769156",
+        :faces
+        [{:type-line "Sorcery",
+          :oracle-text
+          "Put target creature or enchantment card from an opponent's graveyard onto the battlefield under your control."}
+         {:type-line "Sorcery",
+          :oracle-text
+          "Destroy each artifact, creature, and enchantment with mana value X."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/3/539e00a6-6cb0-4960-8a45-52d70b575f5a.png?1712353558",
+        :collector-number "40",
+        :layout "normal",
+        :name "Cruel Ultimatum",
+        :oracle-text
+        "Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/6/a6166dde-22d8-4fd1-93f9-c4e7762ae2a0.png?1712353560",
+        :collector-number "41",
+        :layout "normal",
+        :name "Decimate",
+        :oracle-text
+        "Destroy target artifact, target creature, target enchantment, and target land. (You can't cast this spell unless you have legal choices for all its targets.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/54ee0802-62c1-46ac-907e-82ace59fbddb.png?1712353566",
+        :collector-number "42",
+        :layout "normal",
+        :name "Decisive Denial",
+        :oracle-text
+        "Choose one —\n• Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)\n• Counter target noncreature spell unless its controller pays {3}."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bb049418-44db-4f98-9d53-385c5cd0f5cc.png?1713846612",
+        :collector-number "43",
+        :layout "normal",
+        :name "Detention Sphere",
+        :oracle-text
+        "When Detention Sphere enters, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.\nWhen Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/0/70afd040-59a8-491e-bd2a-92a12cda96dd.png?1712353575",
+        :collector-number "44",
+        :layout "normal",
+        :name "Endless Detour",
+        :oracle-text
+        "The owner of target spell, nonland permanent, or card in a graveyard puts it on the top or bottom of their library."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/d/bd1db186-dd74-4e05-905c-34321fb3d641.png?1712353578",
+        :collector-number "45",
+        :layout "normal",
+        :name "Fractured Identity",
+        :oracle-text
+        "Exile target nonland permanent. Each player other than its controller creates a token that's a copy of it."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/860f4304-38f1-4c2f-a122-2590619522fd.png?1712353583",
+        :collector-number "46",
+        :layout "normal",
+        :name "Hindering Light",
+        :oracle-text
+        "Counter target spell that targets you or a permanent you control.\nDraw a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/454bb7c2-cb7b-4601-9f50-2d24e3ffe1c1.png?1712353587",
+        :collector-number "47",
+        :layout "normal",
+        :name "Humiliate",
+        :oracle-text
+        "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Put a +1/+1 counter on a creature you control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/4448d31e-faf4-4281-af48-4f638b939a62.png?1712353591",
+        :collector-number "48",
+        :layout "normal",
+        :name "Hypothesizzle",
+        :oracle-text
+        "Draw two cards. Then you may discard a nonland card. When you do, Hypothesizzle deals 4 damage to target creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/8/98c75555-8fe0-4902-a2c7-b807d95b71ab.png?1712353595",
+        :collector-number "49",
+        :layout "normal",
+        :name "Ionize",
+        :oracle-text
+        "Counter target spell. Ionize deals 2 damage to that spell's controller."}
+ #:card{:type-line "Legendary Planeswalker — Oko",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/659e8760-c7a8-445d-bfef-7cd445ea67c3.png?1712353600",
+        :collector-number "50",
+        :layout "normal",
+        :name "Oko, Thief of Crowns",
+        :oracle-text
+        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/eb214fdf-edb1-49ab-8f98-dea62475f2fc.png?1712353604",
+        :collector-number "51",
+        :layout "normal",
+        :name "Outlaws' Merriment",
+        :oracle-text
+        "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics.\n• 3/1 Human Warrior with trample and haste.\n• 2/1 Human Cleric with lifelink and haste.\n• 1/2 Human Rogue with haste and \"When this creature enters, it deals 1 damage to any target.\""}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/1/f1ec2b59-fbc5-464c-916c-b1accf29867d.png?1712353609",
+        :collector-number "52",
+        :layout "normal",
+        :name "Ride Down",
+        :oracle-text
+        "Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/b/4b05cacb-1f62-46ca-90a0-202d4adcff2c.png?1712353613",
+        :collector-number "53",
+        :layout "normal",
+        :name "Savage Smash",
+        :oracle-text
+        "Target creature you control gets +2/+2 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/07fb25f7-1fb7-4c2a-abb8-adfb24860bce.png?1712353618",
+        :collector-number "54",
+        :layout "normal",
+        :name "Siphon Insight",
+        :oracle-text
+        "Look at the top two cards of target opponent's library. Exile one of them face down and put the other on the bottom of that library. You may play the exiled card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.\nFlashback {1}{U}{B}"}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/b/ebccedbd-558c-419d-a18f-8751afd937b2.png?1712353622",
+        :collector-number "55",
+        :layout "normal",
+        :name "Terminal Agony",
+        :oracle-text
+        "Destroy target creature.\nMadness {B}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e61f8b36-6ad2-4295-bd1d-7f9e90b23190.png?1712353627",
+        :collector-number "56",
+        :layout "normal",
+        :name "Tyrant's Scorn",
+        :oracle-text
+        "Choose one —\n• Destroy target creature with mana value 3 or less.\n• Return target creature to its owner's hand."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/c/fc4b1507-7daa-4728-b79e-a9423dae6c57.png?1712353630",
+        :collector-number "57",
+        :layout "normal",
+        :name "Vanishing Verse",
+        :oracle-text "Exile target monocolored permanent."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/6/66126f16-3d22-4d93-86c8-1800f1cfd22e.png?1712353635",
+        :collector-number "58",
+        :layout "normal",
+        :name "Villainous Wealth",
+        :oracle-text
+        "Target opponent exiles the top X cards of their library. You may cast any number of spells with mana value X or less from among them without paying their mana costs."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/598f6fd1-51a3-4bb3-9696-911cd45367f9.png?1712353639",
+        :collector-number "59",
+        :layout "normal",
+        :name "Void Rend",
+        :oracle-text
+        "This spell can't be countered.\nDestroy target nonland permanent."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/2/f21cca5c-dc1e-4e7c-9dab-218165f42b90.png?1712353644",
+        :collector-number "60",
+        :layout "normal",
+        :name "Voidslime",
+        :oracle-text
+        "Counter target spell, activated ability, or triggered ability. (Mana abilities can't be targeted.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fe584bf8-cb71-42b5-b5c0-dea3fec79c9d.png?1712353648",
+        :collector-number "61",
+        :layout "normal",
+        :name "Contagion Engine",
+        :oracle-text
+        "When Contagion Engine enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/5/f5914135-d927-4d95-a4cd-85c871adaeee.png?1712353652",
+        :collector-number "62",
+        :layout "normal",
+        :name "Grindstone",
+        :oracle-text
+        "{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/65b007d5-d9da-4342-ba7e-4b5d8d79912b.png?1712353656",
+        :collector-number "63",
+        :layout "normal",
+        :name "Mindslaver",
+        :oracle-text
+        "{4}, {T}, Sacrifice Mindslaver: You control target player during that player's next turn. (You see all cards that player could see and make all decisions for the player.)"}
+ #:card{:type-line "Artifact — Vehicle",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/5447a777-769d-4773-ab64-31c67e310e15.png?1712353660",
+        :collector-number "64",
+        :layout "normal",
+        :name "Unlicensed Hearse",
+        :oracle-text
+        "{T}: Exile up to two target cards from a single graveyard.\nUnlicensed Hearse's power and toughness are each equal to the number of cards exiled with it.\nCrew 2"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/18d24d9a-a49e-4ce8-9158-03fe4cea39e2.png?1712353665",
+        :collector-number "65",
+        :layout "normal",
+        :name "Dust Bowl",
+        :oracle-text
+        "{T}: Add {C}.\n{3}, {T}, Sacrifice a land: Destroy target nonbasic land."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/d/6d17cd3c-40a7-4df8-8687-c0eb94637c80.png?1712353669",
+        :collector-number "66",
+        :layout "normal",
+        :name "Leyline Binding",
+        :oracle-text
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/3/33ebd4c1-e7ea-4708-8b7c-c47ca6b63c22.png?1712353673",
+        :collector-number "67",
+        :layout "normal",
+        :name "Mana Drain",
+        :oracle-text
+        "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value."}
+ #:card{:type-line "Instant — Trap",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/8/9857225a-3525-4e42-852c-6d2f7400e931.png?1712353677",
+        :collector-number "68",
+        :layout "normal",
+        :name "Mindbreak Trap",
+        :oracle-text
+        "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/0/b0870c73-bc83-44ac-a194-7455fcacadf0.png?1712353681",
+        :collector-number "69",
+        :layout "normal",
+        :name "Overwhelming Forces",
+        :oracle-text
+        "Destroy all creatures target opponent controls. Draw a card for each creature destroyed this way."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1d1aebf2-dd21-48b4-868f-f8fb164dcaae.png?1712353686",
+        :collector-number "70",
+        :layout "normal",
+        :name "Thoughtseize",
+        :oracle-text
+        "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/4/f4a887d8-4afa-4551-9db2-dd90b95a68c0.png?1712353689",
+        :collector-number "71",
+        :layout "normal",
+        :name "Crackle with Power",
+        :oracle-text
+        "Crackle with Power deals five times X damage to each of up to X targets."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f0e2cc8c-9e2f-479b-9c47-ad3fd04d40f7.png?1712353694",
+        :collector-number "72",
+        :layout "normal",
+        :name "Indomitable Creativity",
+        :oracle-text
+        "Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c342bffb-3dcf-4f5a-9432-ff8f8e4cb26f.png?1712353698",
+        :collector-number "73",
+        :layout "normal",
+        :name "Force of Vigor",
+        :oracle-text
+        "If it's not your turn, you may exile a green card from your hand rather than pay this spell's mana cost.\nDestroy up to two target artifacts and/or enchantments."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/1/117a70ac-ae6e-43ff-b210-c264bb8f11d2.png?1712353702",
+        :collector-number "74",
+        :layout "normal",
+        :name "Anguished Unmaking",
+        :oracle-text
+        "Exile target nonland permanent. You lose 3 life."}
+ #:card{:code "otp",
+        :collector-number "75",
+        :name "Crime // Punishment",
+        :layout "split",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/3/0/301f6df1-1b97-4a63-8043-8b97147b200b.png?1713769159",
+        :faces
+        [{:type-line "Sorcery",
+          :oracle-text
+          "Put target creature or enchantment card from an opponent's graveyard onto the battlefield under your control."}
+         {:type-line "Sorcery",
+          :oracle-text
+          "Destroy each artifact, creature, and enchantment with mana value X."}]}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/1/c127a3c8-be41-4135-8de6-c6331f4b880b.png?1712353710",
+        :collector-number "76",
+        :layout "normal",
+        :name "Fractured Identity",
+        :oracle-text
+        "Exile target nonland permanent. Each player other than its controller creates a token that's a copy of it."}
+ #:card{:type-line "Legendary Planeswalker — Oko",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/1/016b0750-d48d-4b6e-ac9c-a7904371a914.png?1712353714",
+        :collector-number "77",
+        :layout "normal",
+        :name "Oko, Thief of Crowns",
+        :oracle-text
+        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e8125bcb-b110-4705-b77d-0548aaac4c91.png?1712353717",
+        :collector-number "78",
+        :layout "normal",
+        :name "Contagion Engine",
+        :oracle-text
+        "When Contagion Engine enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/8/183b321b-2214-42ba-a50a-54c15e3e8b77.png?1712353722",
+        :collector-number "79",
+        :layout "normal",
+        :name "Grindstone",
+        :oracle-text
+        "{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process."}
+ #:card{:type-line "Legendary Artifact",
+        :layout-category :normal,
+        :code "otp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8d6ecfd9-f126-411f-a7cb-99479302aa79.png?1712353724",
+        :collector-number "80",
+        :layout "normal",
+        :name "Mindslaver",
+        :oracle-text
+        "{4}, {T}, Sacrifice Mindslaver: You control target player during that player's next turn. (You see all cards that player could see and make all decisions for the player.)"})
