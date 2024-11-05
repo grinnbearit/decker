@@ -50,7 +50,7 @@
     (case (:layout scryfall-card)
 
       ("normal" "token" "emblem" "planar" "leveler" "scheme" "vanguard"
-       "host" "augment" "saga" "class" "meld" "mutate" "prototype")
+       "host" "augment" "saga" "class" "meld" "mutate" "prototype" "case")
       (assoc base-card
              :card/layout-category :normal
              :card/png (get-in scryfall-card [:image_uris :png])
