@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Millicent, Restless Revenant",
         :oracle-text
-        "This spell costs {1} less to cast for each Spirit you control.\nFlying\nWhenever Millicent, Restless Revenant or another nontoken Spirit you control dies or deals combat damage to a player, create a 1/1 white Spirit creature token with flying."}
+        "Affinity for Spirits (This spell costs {1} less to cast for each Spirit you control.)\nFlying\nWhenever Millicent or another nontoken Spirit you control dies or deals combat damage to a player, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Legendary Creature — Vampire Noble",
         :layout-category :normal,
         :code "voc",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Timothar, Baron of Bats",
         :oracle-text
-        "Ward—Discard a card.\nWhenever another nontoken Vampire you control dies, you may pay {1} and exile it. If you do, create a 1/1 black Bat creature token with flying. It gains \"When this creature deals combat damage to a player, sacrifice it and return the exiled card to the battlefield tapped.\""}
+        "Ward—Discard a card.\nWhenever another nontoken Vampire you control dies, you may pay {1} and exile it. If you do, create a 1/1 black Bat creature token with flying. It gains \"When this token deals combat damage to a player, sacrifice it and return the exiled card to the battlefield tapped.\""}
  #:card{:type-line "Creature — Spirit Soldier",
         :layout-category :normal,
         :code "voc",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Rhoda, Geist Avenger",
         :oracle-text
-        "Partner with Timin, Youthful Geist (When this creature enters the battlefield, target player may put Timin into their hand from their library, then shuffle.)\nVigilance\nWhenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, put a +1/+1 counter on Rhoda, Geist Avenger."}
+        "Partner with Timin, Youthful Geist (When this creature enters, target player may put Timin into their hand from their library, then shuffle.)\nVigilance\nWhenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, put a +1/+1 counter on Rhoda."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Ethereal Investigator",
         :oracle-text
-        "Flying\nWhen Ethereal Investigator enters the battlefield, investigate X times, where X is the number of opponents you have. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying."}
+        "Flying\nWhen this creature enters, investigate X times, where X is the number of opponents you have. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Spectral Arcanist",
         :oracle-text
-        "Flying\nWhen Spectral Arcanist enters the battlefield, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
+        "Flying\nWhen this creature enters, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Timin, Youthful Geist",
         :oracle-text
-        "Partner with Rhoda, Geist Avenger (When this creature enters the battlefield, target player may put Rhoda into their hand from their library, then shuffle.)\nFlying\nAt the beginning of each combat, tap up to one target creature."}
+        "Partner with Rhoda, Geist Avenger (When this creature enters, target player may put Rhoda into their hand from their library, then shuffle.)\nFlying\nAt the beginning of each combat, tap up to one target creature."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Crossway Troublemakers",
         :oracle-text
-        "Attacking Vampires you control have deathtouch and lifelink.\nWhenever a Vampire you control dies, you may pay 2 life. If you do, draw a card."}
+        "Attacking Vampires you control have deathtouch and lifelink. (Any amount of damage they deal to a creature is enough to destroy it. Damage dealt by those creatures also causes their controller to gain that much life.)\nWhenever a Vampire you control dies, you may pay 2 life. If you do, draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Glass-Cast Heart",
         :oracle-text
-        "Whenever one or more Vampires you control attack, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\n{B}, {T}, Pay 1 life: Create a 1/1 white and black Vampire creature token with lifelink.\n{B}{B}, {T}, Sacrifice Glass-Cast Heart and thirteen Blood tokens: Each opponent loses 13 life and you gain 13 life."}
+        "Whenever one or more Vampires you control attack, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\n{B}, {T}, Pay 1 life: Create a 1/1 white and black Vampire creature token with lifelink.\n{B}{B}, {T}, Sacrifice this artifact and thirteen Blood tokens: Each opponent loses 13 life and you gain 13 life."}
  #:card{:type-line "Legendary Creature — Vampire Rogue",
         :layout-category :normal,
         :code "voc",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Kamber, the Plunderer",
         :oracle-text
-        "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
+        "Partner with Laurine, the Diversion (When this creature enters, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Shadowgrange Archfiend",
         :oracle-text
-        "When Shadowgrange Archfiend enters the battlefield, each opponent sacrifices a creature with the greatest power among creatures they control. You gain life equal to the greatest power among creatures sacrificed this way.\nMadness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+        "When this creature enters, each opponent sacrifices a creature with the greatest power among creatures they control. You gain life equal to the greatest power among creatures sacrificed this way.\nMadness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "voc",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Arterial Alchemy",
         :oracle-text
-        "When Arterial Alchemy enters the battlefield, create a Blood token for each opponent you have. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nBlood tokens you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0\" and equip {2}."}
+        "When this enchantment enters, create a Blood token for each opponent you have. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\nBlood tokens you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0\" and equip {2}."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -272,7 +272,7 @@
         :layout "normal",
         :name "Laurine, the Diversion",
         :oracle-text
-        "Partner with Kamber, the Plunderer (When this creature enters the battlefield, target player may put Kamber into their hand from their library, then shuffle.)\nFirst strike\n{2}, Sacrifice an artifact or creature: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
+        "Partner with Kamber, the Plunderer (When this creature enters, target player may put Kamber into their hand from their library, then shuffle.)\nFirst strike\n{2}, Sacrifice an artifact or creature: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
  #:card{:type-line "Creature — Vampire Soldier",
         :layout-category :normal,
         :code "voc",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Markov Enforcer",
         :oracle-text
-        "Whenever Markov Enforcer or another Vampire enters the battlefield under your control, Markov Enforcer fights up to one target creature an opponent controls.\nWhenever a creature dealt damage by Markov Enforcer this turn dies, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever this creature or another Vampire you control enters, this creature fights up to one target creature an opponent controls.\nWhenever a creature dealt damage by this creature this turn dies, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -294,7 +294,7 @@
         :layout "normal",
         :name "Midnight Arsonist",
         :oracle-text
-        "When Midnight Arsonist enters the battlefield, destroy up to X target artifacts without mana abilities, where X is the number of Vampires you control."}
+        "When this creature enters, destroy up to X target artifacts without mana abilities, where X is the number of Vampires you control."}
  #:card{:type-line "Creature — Vampire Noble",
         :layout-category :normal,
         :code "voc",
@@ -305,7 +305,7 @@
         :layout "normal",
         :name "Scion of Opulence",
         :oracle-text
-        "Whenever Scion of Opulence or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn."}
+        "Whenever this creature or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\n{R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "voc",
@@ -316,7 +316,7 @@
         :layout "normal",
         :name "Disorder in the Court",
         :oracle-text
-        "Exile X target creatures, then investigate X times. Return the exiled cards to the battlefield tapped under their owners' control at the beginning of the next end step. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Exile X target creatures, then investigate X times. Return the exiled cards to the battlefield tapped under their owners' control at the beginning of the next end step. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -338,7 +338,7 @@
         :layout "normal",
         :name "Breathkeeper Seraph",
         :oracle-text
-        "Flying, soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Breathkeeper Seraph is paired with another creature, each of those creatures has \"When this creature dies, you may return it to the battlefield under its owner's control at the beginning of your next upkeep.\""}
+        "Flying, soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Breathkeeper Seraph is paired with another creature, each of those creatures has \"When this creature dies, you may return it to the battlefield under its owner's control at the beginning of your next upkeep.\""}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -349,7 +349,7 @@
         :layout "normal",
         :name "Wedding Ring",
         :oracle-text
-        "When Wedding Ring enters the battlefield, if it was cast, target opponent creates a token that's a copy of it.\nWhenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.\nWhenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life."}
+        "When this artifact enters, if it was cast, target opponent creates a token that's a copy of it.\nWhenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.\nWhenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "voc",
@@ -360,7 +360,7 @@
         :layout "normal",
         :name "Imperious Mindbreaker",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Imperious Mindbreaker is paired with another creature, each of those creatures has \"Whenever this creature attacks, each opponent mills cards equal to its toughness.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Imperious Mindbreaker is paired with another creature, each of those creatures has \"Whenever this creature attacks, each opponent mills cards equal to its toughness.\""}
  #:card{:type-line "Creature — Spider Horror",
         :layout-category :normal,
         :code "voc",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Doom Weaver",
         :oracle-text
-        "Reach\nSoulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Doom Weaver is paired with another creature, each of those creatures has \"When this creature dies, draw cards equal to its power.\""}
+        "Reach\nSoulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Doom Weaver is paired with another creature, each of those creatures has \"When this creature dies, draw cards equal to its power.\""}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "voc",
@@ -382,7 +382,7 @@
         :layout "normal",
         :name "Mirage Phalanx",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Mirage Phalanx is paired with another creature, each of those creatures has \"At the beginning of combat on your turn, create a token that's a copy of this creature, except it has haste and loses soulbond. Exile it at end of combat.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Mirage Phalanx is paired with another creature, each of those creatures has \"At the beginning of combat on your turn, create a token that's a copy of this creature, except it has haste and loses soulbond. Exile it at end of combat.\""}
  #:card{:type-line "Creature — Wolf",
         :layout-category :normal,
         :code "voc",
@@ -404,7 +404,7 @@
         :layout "normal",
         :name "Thundering Mightmare",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Thundering Mightmare is paired with another creature, each of those creatures has \"Whenever an opponent casts a spell, put a +1/+1 counter on this creature.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Thundering Mightmare is paired with another creature, each of those creatures has \"Whenever an opponent casts a spell, put a +1/+1 counter on this creature.\""}
  #:card{:type-line "Legendary Creature — Nightmare Horror",
         :layout-category :normal,
         :code "voc",
@@ -415,7 +415,7 @@
         :layout "normal",
         :name "Umbris, Fear Manifest",
         :oracle-text
-        "Umbris, Fear Manifest gets +1/+1 for each card your opponents own in exile.\nWhenever Umbris or another Nightmare or Horror enters the battlefield under your control, target opponent exiles cards from the top of their library until they exile a land card."}
+        "Umbris gets +1/+1 for each card your opponents own in exile.\nWhenever Umbris or another Nightmare or Horror you control enters, target opponent exiles cards from the top of their library until they exile a land card."}
  #:card{:type-line "Legendary Creature — Spirit Soldier",
         :layout-category :normal,
         :code "voc",
@@ -426,7 +426,7 @@
         :layout "normal",
         :name "Millicent, Restless Revenant",
         :oracle-text
-        "This spell costs {1} less to cast for each Spirit you control.\nFlying\nWhenever Millicent, Restless Revenant or another nontoken Spirit you control dies or deals combat damage to a player, create a 1/1 white Spirit creature token with flying."}
+        "Affinity for Spirits (This spell costs {1} less to cast for each Spirit you control.)\nFlying\nWhenever Millicent or another nontoken Spirit you control dies or deals combat damage to a player, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Legendary Creature — Vampire Noble",
         :layout-category :normal,
         :code "voc",
@@ -459,7 +459,7 @@
         :layout "normal",
         :name "Timothar, Baron of Bats",
         :oracle-text
-        "Ward—Discard a card.\nWhenever another nontoken Vampire you control dies, you may pay {1} and exile it. If you do, create a 1/1 black Bat creature token with flying. It gains \"When this creature deals combat damage to a player, sacrifice it and return the exiled card to the battlefield tapped.\""}
+        "Ward—Discard a card.\nWhenever another nontoken Vampire you control dies, you may pay {1} and exile it. If you do, create a 1/1 black Bat creature token with flying. It gains \"When this token deals combat damage to a player, sacrifice it and return the exiled card to the battlefield tapped.\""}
  #:card{:type-line "Creature — Spirit Soldier",
         :layout-category :normal,
         :code "voc",
@@ -503,7 +503,7 @@
         :layout "normal",
         :name "Rhoda, Geist Avenger",
         :oracle-text
-        "Partner with Timin, Youthful Geist (When this creature enters the battlefield, target player may put Timin into their hand from their library, then shuffle.)\nVigilance\nWhenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, put a +1/+1 counter on Rhoda, Geist Avenger."}
+        "Partner with Timin, Youthful Geist (When this creature enters, target player may put Timin into their hand from their library, then shuffle.)\nVigilance\nWhenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, put a +1/+1 counter on Rhoda."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -547,7 +547,7 @@
         :layout "normal",
         :name "Ethereal Investigator",
         :oracle-text
-        "Flying\nWhen Ethereal Investigator enters the battlefield, investigate X times, where X is the number of opponents you have. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying."}
+        "Flying\nWhen this creature enters, investigate X times, where X is the number of opponents you have. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -580,7 +580,7 @@
         :layout "normal",
         :name "Spectral Arcanist",
         :oracle-text
-        "Flying\nWhen Spectral Arcanist enters the battlefield, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
+        "Flying\nWhen this creature enters, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -591,7 +591,7 @@
         :layout "normal",
         :name "Timin, Youthful Geist",
         :oracle-text
-        "Partner with Rhoda, Geist Avenger (When this creature enters the battlefield, target player may put Rhoda into their hand from their library, then shuffle.)\nFlying\nAt the beginning of each combat, tap up to one target creature."}
+        "Partner with Rhoda, Geist Avenger (When this creature enters, target player may put Rhoda into their hand from their library, then shuffle.)\nFlying\nAt the beginning of each combat, tap up to one target creature."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Crossway Troublemakers",
         :oracle-text
-        "Attacking Vampires you control have deathtouch and lifelink.\nWhenever a Vampire you control dies, you may pay 2 life. If you do, draw a card."}
+        "Attacking Vampires you control have deathtouch and lifelink. (Any amount of damage they deal to a creature is enough to destroy it. Damage dealt by those creatures also causes their controller to gain that much life.)\nWhenever a Vampire you control dies, you may pay 2 life. If you do, draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -613,7 +613,7 @@
         :layout "normal",
         :name "Glass-Cast Heart",
         :oracle-text
-        "Whenever one or more Vampires you control attack, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\n{B}, {T}, Pay 1 life: Create a 1/1 white and black Vampire creature token with lifelink.\n{B}{B}, {T}, Sacrifice Glass-Cast Heart and thirteen Blood tokens: Each opponent loses 13 life and you gain 13 life."}
+        "Whenever one or more Vampires you control attack, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\n{B}, {T}, Pay 1 life: Create a 1/1 white and black Vampire creature token with lifelink.\n{B}{B}, {T}, Sacrifice this artifact and thirteen Blood tokens: Each opponent loses 13 life and you gain 13 life."}
  #:card{:type-line "Legendary Creature — Vampire Rogue",
         :layout-category :normal,
         :code "voc",
@@ -624,7 +624,7 @@
         :layout "normal",
         :name "Kamber, the Plunderer",
         :oracle-text
-        "Partner with Laurine, the Diversion (When this creature enters the battlefield, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
+        "Partner with Laurine, the Diversion (When this creature enters, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -657,7 +657,7 @@
         :layout "normal",
         :name "Shadowgrange Archfiend",
         :oracle-text
-        "When Shadowgrange Archfiend enters the battlefield, each opponent sacrifices a creature with the greatest power among creatures they control. You gain life equal to the greatest power among creatures sacrificed this way.\nMadness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+        "When this creature enters, each opponent sacrifices a creature with the greatest power among creatures they control. You gain life equal to the greatest power among creatures sacrificed this way.\nMadness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "voc",
@@ -668,7 +668,7 @@
         :layout "normal",
         :name "Arterial Alchemy",
         :oracle-text
-        "When Arterial Alchemy enters the battlefield, create a Blood token for each opponent you have. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nBlood tokens you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0\" and equip {2}."}
+        "When this enchantment enters, create a Blood token for each opponent you have. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")\nBlood tokens you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0\" and equip {2}."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -690,7 +690,7 @@
         :layout "normal",
         :name "Laurine, the Diversion",
         :oracle-text
-        "Partner with Kamber, the Plunderer (When this creature enters the battlefield, target player may put Kamber into their hand from their library, then shuffle.)\nFirst strike\n{2}, Sacrifice an artifact or creature: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
+        "Partner with Kamber, the Plunderer (When this creature enters, target player may put Kamber into their hand from their library, then shuffle.)\nFirst strike\n{2}, Sacrifice an artifact or creature: Goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
  #:card{:type-line "Creature — Vampire Soldier",
         :layout-category :normal,
         :code "voc",
@@ -701,7 +701,7 @@
         :layout "normal",
         :name "Markov Enforcer",
         :oracle-text
-        "Whenever Markov Enforcer or another Vampire enters the battlefield under your control, Markov Enforcer fights up to one target creature an opponent controls.\nWhenever a creature dealt damage by Markov Enforcer this turn dies, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever this creature or another Vampire you control enters, this creature fights up to one target creature an opponent controls.\nWhenever a creature dealt damage by this creature this turn dies, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -712,7 +712,7 @@
         :layout "normal",
         :name "Midnight Arsonist",
         :oracle-text
-        "When Midnight Arsonist enters the battlefield, destroy up to X target artifacts without mana abilities, where X is the number of Vampires you control."}
+        "When this creature enters, destroy up to X target artifacts without mana abilities, where X is the number of Vampires you control."}
  #:card{:type-line "Creature — Vampire Noble",
         :layout-category :normal,
         :code "voc",
@@ -723,7 +723,7 @@
         :layout "normal",
         :name "Scion of Opulence",
         :oracle-text
-        "Whenever Scion of Opulence or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\n{R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn."}
+        "Whenever this creature or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\n{R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "voc",
@@ -734,7 +734,7 @@
         :layout "normal",
         :name "Disorder in the Court",
         :oracle-text
-        "Exile X target creatures, then investigate X times. Return the exiled cards to the battlefield tapped under their owners' control at the beginning of the next end step. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Exile X target creatures, then investigate X times. Return the exiled cards to the battlefield tapped under their owners' control at the beginning of the next end step. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -756,7 +756,7 @@
         :layout "normal",
         :name "Breathkeeper Seraph",
         :oracle-text
-        "Flying, soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Breathkeeper Seraph is paired with another creature, each of those creatures has \"When this creature dies, you may return it to the battlefield under its owner's control at the beginning of your next upkeep.\""}
+        "Flying, soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Breathkeeper Seraph is paired with another creature, each of those creatures has \"When this creature dies, you may return it to the battlefield under its owner's control at the beginning of your next upkeep.\""}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -767,7 +767,7 @@
         :layout "normal",
         :name "Wedding Ring",
         :oracle-text
-        "When Wedding Ring enters the battlefield, if it was cast, target opponent creates a token that's a copy of it.\nWhenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.\nWhenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life."}
+        "When this artifact enters, if it was cast, target opponent creates a token that's a copy of it.\nWhenever an opponent who controls an artifact named Wedding Ring draws a card during their turn, you draw a card.\nWhenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "voc",
@@ -778,7 +778,7 @@
         :layout "normal",
         :name "Imperious Mindbreaker",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Imperious Mindbreaker is paired with another creature, each of those creatures has \"Whenever this creature attacks, each opponent mills cards equal to its toughness.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Imperious Mindbreaker is paired with another creature, each of those creatures has \"Whenever this creature attacks, each opponent mills cards equal to its toughness.\""}
  #:card{:type-line "Creature — Spider Horror",
         :layout-category :normal,
         :code "voc",
@@ -789,7 +789,7 @@
         :layout "normal",
         :name "Doom Weaver",
         :oracle-text
-        "Reach\nSoulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Doom Weaver is paired with another creature, each of those creatures has \"When this creature dies, draw cards equal to its power.\""}
+        "Reach\nSoulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Doom Weaver is paired with another creature, each of those creatures has \"When this creature dies, draw cards equal to its power.\""}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "voc",
@@ -800,7 +800,7 @@
         :layout "normal",
         :name "Mirage Phalanx",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Mirage Phalanx is paired with another creature, each of those creatures has \"At the beginning of combat on your turn, create a token that's a copy of this creature, except it has haste and loses soulbond. Exile it at end of combat.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Mirage Phalanx is paired with another creature, each of those creatures has \"At the beginning of combat on your turn, create a token that's a copy of this creature, except it has haste and loses soulbond. Exile it at end of combat.\""}
  #:card{:type-line "Creature — Wolf",
         :layout-category :normal,
         :code "voc",
@@ -822,7 +822,7 @@
         :layout "normal",
         :name "Thundering Mightmare",
         :oracle-text
-        "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)\nAs long as Thundering Mightmare is paired with another creature, each of those creatures has \"Whenever an opponent casts a spell, put a +1/+1 counter on this creature.\""}
+        "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Thundering Mightmare is paired with another creature, each of those creatures has \"Whenever an opponent casts a spell, put a +1/+1 counter on this creature.\""}
  #:card{:type-line "Legendary Creature — Nightmare Horror",
         :layout-category :normal,
         :code "voc",
@@ -833,7 +833,7 @@
         :layout "normal",
         :name "Umbris, Fear Manifest",
         :oracle-text
-        "Umbris, Fear Manifest gets +1/+1 for each card your opponents own in exile.\nWhenever Umbris or another Nightmare or Horror enters the battlefield under your control, target opponent exiles cards from the top of their library until they exile a land card."}
+        "Umbris gets +1/+1 for each card your opponents own in exile.\nWhenever Umbris or another Nightmare or Horror you control enters, target opponent exiles cards from the top of their library until they exile a land card."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "voc",
@@ -866,7 +866,7 @@
         :layout "normal",
         :name "Boreas Charger",
         :oracle-text
-        "Flying\nWhen Boreas Charger leaves the battlefield, choose an opponent who controls more lands than you. Search your library for a number of Plains cards equal to the difference, reveal those cards, put one of them onto the battlefield tapped and the rest into your hand, then shuffle."}
+        "Flying\nWhen this creature leaves the battlefield, choose an opponent who controls more lands than you. Search your library for a number of Plains cards equal to the difference, reveal those cards, put one of them onto the battlefield tapped and the rest into your hand, then shuffle."}
  #:card{:type-line "Creature — Spirit Cleric",
         :layout-category :normal,
         :code "voc",
@@ -877,7 +877,7 @@
         :layout "normal",
         :name "Bygone Bishop",
         :oracle-text
-        "Flying\nWhenever you cast a creature spell with mana value 3 or less, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying\nWhenever you cast a creature spell with mana value 3 or less, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "voc",
@@ -899,7 +899,7 @@
         :layout "normal",
         :name "Custodi Soulbinders",
         :oracle-text
-        "Custodi Soulbinders enters the battlefield with X +1/+1 counters on it, where X is the number of other creatures on the battlefield.\n{2}{W}, Remove a +1/+1 counter from Custodi Soulbinders: Create a 1/1 white Spirit creature token with flying."}
+        "This creature enters with X +1/+1 counters on it, where X is the number of other creatures on the battlefield.\n{2}{W}, Remove a +1/+1 counter from this creature: Create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Creature — Spirit Cleric",
         :layout-category :normal,
         :code "voc",
@@ -910,7 +910,7 @@
         :layout "normal",
         :name "Custodi Squire",
         :oracle-text
-        "Flying\nWill of the council — When Custodi Squire enters the battlefield, starting with you, each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand."}
+        "Flying\nWill of the council — When this creature enters, starting with you, each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "voc",
@@ -965,7 +965,7 @@
         :layout "normal",
         :name "Hallowed Spiritkeeper",
         :oracle-text
-        "Vigilance\nWhen Hallowed Spiritkeeper dies, create X 1/1 white Spirit creature tokens with flying, where X is the number of creature cards in your graveyard."}
+        "Vigilance\nWhen this creature dies, create X 1/1 white Spirit creature tokens with flying, where X is the number of creature cards in your graveyard."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -976,7 +976,7 @@
         :layout "normal",
         :name "Hanged Executioner",
         :oracle-text
-        "Flying\nWhen Hanged Executioner enters the battlefield, create a 1/1 white Spirit creature token with flying.\n{3}{W}, Exile Hanged Executioner: Exile target creature."}
+        "Flying\nWhen this creature enters, create a 1/1 white Spirit creature token with flying.\n{3}{W}, Exile this creature: Exile target creature."}
  #:card{:type-line "Creature — Angel Spirit",
         :layout-category :normal,
         :code "voc",
@@ -987,7 +987,7 @@
         :layout "normal",
         :name "Karmic Guide",
         :oracle-text
-        "Flying, protection from black\nEcho {3}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Karmic Guide enters the battlefield, return target creature card from your graveyard to the battlefield."}
+        "Flying, protection from black\nEcho {3}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen this creature enters, return target creature card from your graveyard to the battlefield."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -1009,7 +1009,7 @@
         :layout "normal",
         :name "Knight of the White Orchid",
         :oracle-text
-        "First strike\nWhen Knight of the White Orchid enters the battlefield, if an opponent controls more lands than you, you may search your library for a Plains card, put it onto the battlefield, then shuffle."}
+        "First strike\nWhen this creature enters, if an opponent controls more lands than you, you may search your library for a Plains card, put it onto the battlefield, then shuffle."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "voc",
@@ -1020,7 +1020,7 @@
         :layout "normal",
         :name "Mentor of the Meek",
         :oracle-text
-        "Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card."}
+        "Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card."}
  #:card{:type-line "Creature — Shapeshifter",
         :layout-category :normal,
         :code "voc",
@@ -1053,7 +1053,7 @@
         :layout "normal",
         :name "Promise of Bunrei",
         :oracle-text
-        "When a creature you control dies, sacrifice Promise of Bunrei. If you do, create four 1/1 colorless Spirit creature tokens."}
+        "When a creature you control dies, sacrifice this enchantment. If you do, create four 1/1 colorless Spirit creature tokens."}
  #:card{:type-line "Creature — Spirit Cleric",
         :layout-category :normal,
         :code "voc",
@@ -1064,7 +1064,7 @@
         :layout "normal",
         :name "Remorseful Cleric",
         :oracle-text
-        "Flying\nSacrifice Remorseful Cleric: Exile target player's graveyard."}
+        "Flying\nSacrifice this creature: Exile target player's graveyard."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -1097,7 +1097,7 @@
         :layout "normal",
         :name "Twilight Drover",
         :oracle-text
-        "Whenever a creature token leaves the battlefield, put a +1/+1 counter on Twilight Drover.\n{2}{W}, Remove a +1/+1 counter from Twilight Drover: Create two 1/1 white Spirit creature tokens with flying."}
+        "Whenever a creature token leaves the battlefield, put a +1/+1 counter on this creature.\n{2}{W}, Remove a +1/+1 counter from this creature: Create two 1/1 white Spirit creature tokens with flying."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -1152,7 +1152,7 @@
         :layout "normal",
         :name "Ghostly Pilferer",
         :oracle-text
-        "Whenever Ghostly Pilferer becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: Ghostly Pilferer can't be blocked this turn."}
+        "Whenever this creature becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: This creature can't be blocked this turn."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "voc",
@@ -1185,7 +1185,7 @@
         :layout "normal",
         :name "Midnight Clock",
         :oracle-text
-        "{T}: Add {U}.\n{2}{U}: Put an hour counter on Midnight Clock.\nAt the beginning of each upkeep, put an hour counter on Midnight Clock.\nWhen the twelfth hour counter is put on Midnight Clock, shuffle your hand and graveyard into your library, then draw seven cards. Exile Midnight Clock."}
+        "{T}: Add {U}.\n{2}{U}: Put an hour counter on this artifact.\nAt the beginning of each upkeep, put an hour counter on this artifact.\nWhen the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -1196,7 +1196,7 @@
         :layout "normal",
         :name "Nebelgast Herald",
         :oracle-text
-        "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nWhenever Nebelgast Herald or another Spirit enters the battlefield under your control, tap target creature an opponent controls."}
+        "Flash\nFlying\nWhenever this creature or another Spirit you control enters, tap target creature an opponent controls."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
@@ -1207,7 +1207,7 @@
         :layout "normal",
         :name "Rattlechains",
         :oracle-text
-        "Flash\nFlying\nWhen Rattlechains enters the battlefield, target Spirit gains hexproof until end of turn.\nYou may cast Spirit spells as though they had flash."}
+        "Flash\nFlying\nWhen this creature enters, target Spirit gains hexproof until end of turn.\nYou may cast Spirit spells as though they had flash."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "voc",
@@ -1229,13 +1229,13 @@
         :layout "normal",
         :name "Shacklegeist",
         :oracle-text
-        "Flying\nShacklegeist can block only creatures with flying.\nTap two untapped Spirits you control: Tap target creature you don't control."}
+        "Flying\nThis creature can block only creatures with flying.\nTap two untapped Spirits you control: Tap target creature you don't control."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "voc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/e/bea64c04-6cd0-49e9-b4ba-1b50aab0a490.png?1641602124",
+        "https://cards.scryfall.io/png/front/b/e/bea64c04-6cd0-49e9-b4ba-1b50aab0a490.png?1677542230",
         :collector-number "113",
         :layout "normal",
         :name "Sire of the Storm",
@@ -1293,7 +1293,7 @@
         :layout "normal",
         :name "Anowon, the Ruin Sage",
         :oracle-text
-        "At the beginning of your upkeep, each player sacrifices a non-Vampire creature."}
+        "At the beginning of your upkeep, each player sacrifices a non-Vampire creature of their choice."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -1304,7 +1304,7 @@
         :layout "normal",
         :name "Blood Artist",
         :oracle-text
-        "Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life."}
+        "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life."}
  #:card{:type-line "Creature — Vampire Wizard",
         :layout-category :normal,
         :code "voc",
@@ -1315,7 +1315,7 @@
         :layout "normal",
         :name "Bloodline Necromancer",
         :oracle-text
-        "Lifelink\nWhen Bloodline Necromancer enters the battlefield, you may return target Vampire or Wizard creature card from your graveyard to the battlefield."}
+        "Lifelink\nWhen this creature enters, you may return target Vampire or Wizard creature card from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Vampire Warrior",
         :layout-category :normal,
         :code "voc",
@@ -1326,7 +1326,7 @@
         :layout "normal",
         :name "Bloodlord of Vaasgoth",
         :oracle-text
-        "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)\nFlying\nWhenever you cast a Vampire creature spell, it gains bloodthirst 3."}
+        "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters with three +1/+1 counters on it.)\nFlying\nWhenever you cast a Vampire creature spell, it gains bloodthirst 3."}
  #:card{:type-line "Creature — Vampire Wizard",
         :layout-category :normal,
         :code "voc",
@@ -1337,7 +1337,7 @@
         :layout "normal",
         :name "Bloodtracker",
         :oracle-text
-        "Flying\n{B}, Pay 2 life: Put a +1/+1 counter on Bloodtracker.\nWhen Bloodtracker leaves the battlefield, draw a card for each +1/+1 counter on it."}
+        "Flying\n{B}, Pay 2 life: Put a +1/+1 counter on this creature.\nWhen this creature leaves the battlefield, draw a card for each +1/+1 counter on it."}
  #:card{:type-line "Creature — Vampire Warrior",
         :layout-category :normal,
         :code "voc",
@@ -1348,7 +1348,7 @@
         :layout "normal",
         :name "Butcher of Malakir",
         :oracle-text
-        "Flying\nWhenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature."}
+        "Flying\nWhenever this creature or another creature you control dies, each opponent sacrifices a creature of their choice."}
  #:card{:type-line "Creature — Vampire Knight",
         :layout-category :normal,
         :code "voc",
@@ -1359,7 +1359,7 @@
         :layout "normal",
         :name "Champion of Dusk",
         :oracle-text
-        "When Champion of Dusk enters the battlefield, you draw X cards and you lose X life, where X is the number of Vampires you control."}
+        "When this creature enters, you draw X cards and you lose X life, where X is the number of Vampires you control."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -1370,7 +1370,7 @@
         :layout "normal",
         :name "Cordial Vampire",
         :oracle-text
-        "Whenever Cordial Vampire or another creature dies, put a +1/+1 counter on each Vampire you control."}
+        "Whenever this creature or another creature dies, put a +1/+1 counter on each Vampire you control."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -1391,7 +1391,7 @@
         :layout "normal",
         :name "Dark Impostor",
         :oracle-text
-        "{4}{B}{B}: Exile target creature and put a +1/+1 counter on Dark Impostor.\nDark Impostor has all activated abilities of all creature cards exiled with it."}
+        "{4}{B}{B}: Exile target creature and put a +1/+1 counter on this creature.\nThis creature has all activated abilities of all creature cards exiled with it."}
  #:card{:type-line "Creature — Vampire Noble",
         :layout-category :normal,
         :code "voc",
@@ -1402,7 +1402,7 @@
         :layout "normal",
         :name "Falkenrath Noble",
         :oracle-text
-        "Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life."}
+        "Flying\nWhenever this creature or another creature dies, target player loses 1 life and you gain 1 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -1435,7 +1435,7 @@
         :layout "normal",
         :name "Malakir Bloodwitch",
         :oracle-text
-        "Flying, protection from white\nWhen Malakir Bloodwitch enters the battlefield, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way."}
+        "Flying, protection from white\nWhen this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -1467,7 +1467,7 @@
         :layout "normal",
         :name "Nirkana Revenant",
         :oracle-text
-        "Whenever you tap a Swamp for mana, add an additional {B}.\n{B}: Nirkana Revenant gets +1/+1 until end of turn."}
+        "Whenever you tap a Swamp for mana, add an additional {B}.\n{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Creature — Vampire Shaman",
         :layout-category :normal,
         :code "voc",
@@ -1478,7 +1478,7 @@
         :layout "normal",
         :name "Patron of the Vein",
         :oracle-text
-        "Flying\nWhen Patron of the Vein enters the battlefield, destroy target creature an opponent controls.\nWhenever a creature an opponent controls dies, exile it and put a +1/+1 counter on each Vampire you control."}
+        "Flying\nWhen this creature enters, destroy target creature an opponent controls.\nWhenever a creature an opponent controls dies, exile it and put a +1/+1 counter on each Vampire you control."}
  #:card{:type-line "Creature — Vampire Knight",
         :layout-category :normal,
         :code "voc",
@@ -1532,7 +1532,8 @@
         :collector-number "140",
         :layout "normal",
         :name "Vampire Nighthawk",
-        :oracle-text "Flying, deathtouch, lifelink"}
+        :oracle-text
+        "Flying\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)"}
  #:card{:type-line "Creature — Vampire Berserker",
         :layout-category :normal,
         :code "voc",
@@ -1543,7 +1544,7 @@
         :layout "normal",
         :name "Anje's Ravager",
         :oracle-text
-        "Anje's Ravager attacks each combat if able.\nWhenever Anje's Ravager attacks, discard your hand, then draw three cards.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+        "This creature attacks each combat if able.\nWhenever this creature attacks, discard your hand, then draw three cards.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -1587,7 +1588,7 @@
         :layout "normal",
         :name "Crimson Honor Guard",
         :oracle-text
-        "Trample\nAt the beginning of each player's end step, Crimson Honor Guard deals 4 damage to that player unless they control a commander."}
+        "Trample\nAt the beginning of each player's end step, this creature deals 4 damage to that player unless they control a commander."}
  #:card{:type-line "Creature — Vampire Berserker",
         :layout-category :normal,
         :code "voc",
@@ -1620,7 +1621,7 @@
         :layout "normal",
         :name "Molten Echoes",
         :oracle-text
-        "As Molten Echoes enters the battlefield, choose a creature type.\nWhenever a nontoken creature of the chosen type enters the battlefield under your control, create a token that's a copy of that creature. That token gains haste. Exile it at the beginning of the next end step."}
+        "As this enchantment enters, choose a creature type.\nWhenever a nontoken creature you control of the chosen type enters, create a token that's a copy of that creature. That token gains haste. Exile it at the beginning of the next end step."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "voc",
@@ -1653,7 +1654,7 @@
         :layout "normal",
         :name "Stromkirk Occultist",
         :oracle-text
-        "Trample\nWhenever Stromkirk Occultist deals combat damage to a player, exile the top card of your library. Until end of turn, you may play that card.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
+        "Trample\nWhenever this creature deals combat damage to a player, exile the top card of your library. Until end of turn, you may play that card.\nMadness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "voc",
@@ -1664,7 +1665,7 @@
         :layout "normal",
         :name "Vandalblast",
         :oracle-text
-        "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")"}
+        "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")"}
  #:card{:type-line "Legendary Planeswalker — Dovin",
         :layout-category :normal,
         :code "voc",
@@ -1675,7 +1676,7 @@
         :layout "normal",
         :name "Dovin, Grand Arbiter",
         :oracle-text
-        "+1: Until end of turn, whenever a creature you control deals combat damage to a player, put a loyalty counter on Dovin, Grand Arbiter.\n−1: Create a 1/1 colorless Thopter artifact creature token with flying. You gain 1 life.\n−7: Look at the top ten cards of your library. Put three of them into your hand and the rest on the bottom of your library in a random order."}
+        "+1: Until end of turn, whenever a creature you control deals combat damage to a player, put a loyalty counter on Dovin.\n−1: Create a 1/1 colorless Thopter artifact creature token with flying. You gain 1 life.\n−7: Look at the top ten cards of your library. Put three of them into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Creature — Spirit Soldier",
         :layout-category :normal,
         :code "voc",
@@ -1730,7 +1731,7 @@
         :layout "normal",
         :name "Vampiric Dragon",
         :oracle-text
-        "Flying\nWhenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 counter on Vampiric Dragon.\n{1}{R}: Vampiric Dragon deals 1 damage to target creature."}
+        "Flying\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.\n{1}{R}: This creature deals 1 damage to target creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1752,7 +1753,7 @@
         :layout "normal",
         :name "Azorius Locket",
         :oracle-text
-        "{T}: Add {W} or {U}.\n{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice Azorius Locket: Draw two cards."}
+        "{T}: Add {W} or {U}.\n{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice this artifact: Draw two cards."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1772,8 +1773,7 @@
         :collector-number "162",
         :layout "normal",
         :name "Charcoal Diamond",
-        :oracle-text
-        "Charcoal Diamond enters the battlefield tapped.\n{T}: Add {B}."}
+        :oracle-text "This artifact enters tapped.\n{T}: Add {B}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1784,7 +1784,7 @@
         :layout "normal",
         :name "Commander's Sphere",
         :oracle-text
-        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice Commander's Sphere: Draw a card."}
+        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1794,8 +1794,7 @@
         :collector-number "164",
         :layout "normal",
         :name "Fire Diamond",
-        :oracle-text
-        "Fire Diamond enters the battlefield tapped.\n{T}: Add {R}."}
+        :oracle-text "This artifact enters tapped.\n{T}: Add {R}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1805,8 +1804,7 @@
         :collector-number "165",
         :layout "normal",
         :name "Marble Diamond",
-        :oracle-text
-        "Marble Diamond enters the battlefield tapped.\n{T}: Add {W}."}
+        :oracle-text "This artifact enters tapped.\n{T}: Add {W}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1826,8 +1824,7 @@
         :collector-number "167",
         :layout "normal",
         :name "Sky Diamond",
-        :oracle-text
-        "Sky Diamond enters the battlefield tapped.\n{T}: Add {U}."}
+        :oracle-text "This artifact enters tapped.\n{T}: Add {U}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1848,7 +1845,7 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "voc",
@@ -1859,7 +1856,7 @@
         :layout "normal",
         :name "Unstable Obelisk",
         :oracle-text
-        "{T}: Add {C}.\n{7}, {T}, Sacrifice Unstable Obelisk: Destroy target permanent."}
+        "{T}: Add {C}.\n{7}, {T}, Sacrifice this artifact: Destroy target permanent."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1870,7 +1867,7 @@
         :layout "normal",
         :name "Azorius Chancery",
         :oracle-text
-        "Azorius Chancery enters the battlefield tapped.\nWhen Azorius Chancery enters the battlefield, return a land you control to its owner's hand.\n{T}: Add {W}{U}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1903,7 +1900,7 @@
         :layout "normal",
         :name "Foreboding Ruins",
         :oracle-text
-        "As Foreboding Ruins enters the battlefield, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters the battlefield tapped.\n{T}: Add {B} or {R}."}
+        "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1925,7 +1922,7 @@
         :layout "normal",
         :name "Myriad Landscape",
         :oracle-text
-        "Myriad Landscape enters the battlefield tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle."}
+        "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1936,7 +1933,7 @@
         :layout "normal",
         :name "Path of Ancestry",
         :oracle-text
-        "Path of Ancestry enters the battlefield tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1947,7 +1944,7 @@
         :layout "normal",
         :name "Port Town",
         :oracle-text
-        "As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.\n{T}: Add {W} or {U}."}
+        "As this land enters, you may reveal a Plains or Island card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "voc",
@@ -1958,7 +1955,7 @@
         :layout "normal",
         :name "Prairie Stream",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nPrairie Stream enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -1969,7 +1966,7 @@
         :layout "normal",
         :name "Rakdos Carnarium",
         :oracle-text
-        "Rakdos Carnarium enters the battlefield tapped.\nWhen Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.\n{T}: Add {B}{R}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {B}{R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -2000,7 +1997,7 @@
         :layout "normal",
         :name "Smoldering Marsh",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nSmoldering Marsh enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -2022,7 +2019,7 @@
         :layout "normal",
         :name "Temple of Enlightenment",
         :oracle-text
-        "Temple of Enlightenment enters the battlefield tapped.\nWhen Temple of Enlightenment enters the battlefield, scry 1.\n{T}: Add {W} or {U}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -2033,7 +2030,7 @@
         :layout "normal",
         :name "Temple of Malice",
         :oracle-text
-        "Temple of Malice enters the battlefield tapped.\nWhen Temple of Malice enters the battlefield, scry 1.\n{T}: Add {B} or {R}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "voc",
@@ -2055,4 +2052,4 @@
         :layout "normal",
         :name "Unclaimed Territory",
         :oracle-text
-        "As Unclaimed Territory enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type."})
+        "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type."})

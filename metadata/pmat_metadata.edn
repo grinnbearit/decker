@@ -3,12 +3,12 @@
         :code "pmat",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/6/067eed30-8551-42b3-899a-03ffa71c5f11.png?1710201511",
+        "https://cards.scryfall.io/png/front/0/6/067eed30-8551-42b3-899a-03ffa71c5f11.png?1712946525",
         :collector-number "4p",
         :layout "normal",
         :name "Metropolis Reformer",
         :oracle-text
-        "Flying, vigilance\nYou have hexproof.\nWhenever Metropolis Reformer is dealt damage, you gain that much life."}
+        "Flying, vigilance\nYou have hexproof.\nWhenever this creature is dealt damage, you gain that much life."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "pmat",
@@ -20,23 +20,34 @@
         :name "Tazri, Stalwart Survivor",
         :oracle-text
         "Each creature you control has \"{T}: Add one mana of any of this creature's colors. Spend this mana only to activate an ability of a creature. Activate only if this creature has another activated ability.\"\n{W}{U}{B}{R}{G}, {T}: Mill five cards. Put all creature cards with activated abilities that aren't mana abilities from among the milled cards into your hand."}
+ #:card{:type-line "Enchantment",
+        :layout-category :normal,
+        :code "pmat",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/9/9/997b1945-abd1-4a0b-8f85-960ae889a242.png?1713049467",
+        :collector-number "9p",
+        :layout "normal",
+        :name "Training Grounds",
+        :oracle-text
+        "Activated abilities of creatures you control cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
  #:card{:type-line "Legendary Creature — Elf Scout",
         :layout-category :normal,
         :code "pmat",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/1/a1c75484-8bd1-49cf-8261-0e420ca89bca.png?1710201678",
+        "https://cards.scryfall.io/png/front/a/1/a1c75484-8bd1-49cf-8261-0e420ca89bca.png?1712946554",
         :collector-number "22p",
         :layout "normal",
         :name "Nissa, Resurgent Animist",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control, add one mana of any color. Then if this is the second time this ability has resolved this turn, reveal cards from the top of your library until you reveal an Elf or Elemental card. Put that card into your hand and the rest on the bottom of your library in a random order."}
+        "Landfall — Whenever a land you control enters, add one mana of any color. Then if this is the second time this ability has resolved this turn, reveal cards from the top of your library until you reveal an Elf or Elemental card. Put that card into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pmat",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/a/ba8fa461-4e9f-4c60-a89b-0bb7ef82ac8b.png?1710201538",
+        "https://cards.scryfall.io/png/front/b/a/ba8fa461-4e9f-4c60-a89b-0bb7ef82ac8b.png?1712946546",
         :collector-number "23p",
         :layout "normal",
         :name "Open the Way",
@@ -47,12 +58,12 @@
         :code "pmat",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/d/fd348b96-2555-4f8e-8e4d-fa8a80b48bc9.png?1710504532",
+        "https://cards.scryfall.io/png/front/f/d/fd348b96-2555-4f8e-8e4d-fa8a80b48bc9.png?1712946536",
         :collector-number "34p",
         :layout "normal",
         :name "The Kenriths' Royal Funeral",
         :oracle-text
-        "When The Kenriths' Royal Funeral enters the battlefield, exile up to two target legendary creature cards from your graveyard. You draw X cards and you lose X life, where X is the greatest mana value among cards exiled this way.\nLegendary spells you cast cost {1} less to cast for each card exiled with The Kenriths' Royal Funeral."}
+        "When The Kenriths' Royal Funeral enters, exile up to two target legendary creature cards from your graveyard. You draw X cards and you lose X life, where X is the greatest mana value among cards exiled this way.\nLegendary spells you cast cost {1} less to cast for each card exiled with The Kenriths' Royal Funeral."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pmat",
@@ -69,9 +80,9 @@
         :code "pmat",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/5/2/524ad98a-0cd1-49d4-b347-c5b87caceef8.png?1707764667",
-        :collector-number "50",
+        "https://cards.scryfall.io/png/front/5/2/524ad98a-0cd1-49d4-b347-c5b87caceef8.png?1717780662",
+        :collector-number "50p",
         :layout "normal",
         :name "Drannith Ruins",
         :oracle-text
-        "{T}: Add {C}.\n{2}, {T}: Put two +1/+1 counters on target non-Human creature that entered the battlefield this turn."})
+        "{T}: Add {C}.\n{2}, {T}: Put two +1/+1 counters on target non-Human creature that entered this turn."})

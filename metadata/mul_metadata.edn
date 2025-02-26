@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Anafenza, Kin-Tree Spirit",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield under your control, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
+        "Whenever another nontoken creature you control enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Daxos, Blessed by the Sun",
         :oracle-text
-        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life."}
+        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters or dies, you gain 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Emry, Lurker of the Loch",
         :oracle-text
-        "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
+        "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Inga Rune-Eyes",
         :oracle-text
-        "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
+        "When Inga Rune-Eyes enters, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Ayara, First of Locthwain",
         :oracle-text
-        "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
+        "Whenever Ayara or another black creature you control enters, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "mul",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Sheoldred, Whispering One",
         :oracle-text
-        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature."}
+        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature of their choice."}
  #:card{:type-line "Legendary Creature — Phyrexian Dragon Skeleton",
         :layout-category :normal,
         :code "mul",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Skithiryx, the Blight Dragon",
         :oracle-text
-        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx, the Blight Dragon gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
+        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -216,7 +216,7 @@
         :layout "normal",
         :name "Captain Lannery Storm",
         :oracle-text
-        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
+        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "mul",
@@ -227,7 +227,7 @@
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mul",
@@ -238,7 +238,7 @@
         :layout "normal",
         :name "Squee, the Immortal",
         :oracle-text
-        "You may cast Squee, the Immortal from your graveyard or from exile."}
+        "You may cast this card from your graveyard or from exile."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -249,7 +249,7 @@
         :layout "normal",
         :name "Urabrask the Hidden",
         :oracle-text
-        "Creatures you control have haste.\nCreatures your opponents control enter the battlefield tapped."}
+        "Creatures you control have haste.\nCreatures your opponents control enter tapped."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -260,7 +260,7 @@
         :layout "normal",
         :name "Valduk, Keeper of the Flame",
         :oracle-text
-        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
+        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Goblin Ally",
         :layout-category :normal,
         :code "mul",
@@ -271,7 +271,7 @@
         :layout "normal",
         :name "Zada, Hedron Grinder",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
+        "Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -282,7 +282,7 @@
         :layout "normal",
         :name "Fynn, the Fangbearer",
         :oracle-text
-        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Legendary Creature — Bear",
         :layout-category :normal,
         :code "mul",
@@ -293,18 +293,18 @@
         :layout "normal",
         :name "Goreclaw, Terror of Qal Sisma",
         :oracle-text
-        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
+        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/9/1998356b-4eb3-43a7-8534-10eb212c7f2a.png?1682347317",
+        "https://cards.scryfall.io/png/front/1/9/1998356b-4eb3-43a7-8534-10eb212c7f2a.png?1723415361",
         :collector-number "28",
         :layout "normal",
         :name "Renata, Called to the Hunt",
         :oracle-text
-        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it."}
+        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters with an additional +1/+1 counter on it."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -348,7 +348,7 @@
         :layout "normal",
         :name "Arixmethes, Slumbering Isle",
         :oracle-text
-        "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
+        "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
  #:card{:type-line "Legendary Creature — Phyrexian Angel Horror",
         :layout-category :normal,
         :code "mul",
@@ -370,7 +370,7 @@
         :layout "normal",
         :name "Atris, Oracle of Half-Truths",
         :oracle-text
-        "Menace\nWhen Atris, Oracle of Half-Truths enters the battlefield, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
+        "Menace\nWhen Atris enters, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mul",
@@ -381,7 +381,7 @@
         :layout "normal",
         :name "Aurelia, the Warleader",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
+        "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
  #:card{:type-line "Legendary Artifact Creature — Phyrexian Artificer",
         :layout-category :normal,
         :code "mul",
@@ -403,7 +403,7 @@
         :layout "normal",
         :name "Dina, Soul Steeper",
         :oracle-text
-        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina, Soul Steeper gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
+        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
  #:card{:type-line "Legendary Creature — Phyrexian Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -414,7 +414,7 @@
         :layout "normal",
         :name "Ezuri, Claw of Progress",
         :oracle-text
-        "Whenever a creature with power 2 or less enters the battlefield under your control, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
+        "Whenever a creature you control with power 2 or less enters, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
  #:card{:type-line "Legendary Creature — Minotaur Cleric",
         :layout-category :normal,
         :code "mul",
@@ -447,7 +447,7 @@
         :layout "normal",
         :name "Grimgrin, Corpse-Born",
         :oracle-text
-        "Grimgrin, Corpse-Born enters the battlefield tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
+        "Grimgrin enters tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
  #:card{:type-line "Legendary Creature — Demon Kraken",
         :layout-category :normal,
         :code "mul",
@@ -458,8 +458,8 @@
         :layout "normal",
         :name "Gyruda, Doom of Depths",
         :oracle-text
-        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
- #:card{:type-line "Legendary Creature — Naga Druid",
+        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
+ #:card{:type-line "Legendary Creature — Snake Druid",
         :layout-category :normal,
         :code "mul",
         :highres? true,
@@ -469,7 +469,7 @@
         :layout "normal",
         :name "Imoti, Celebrant of Bounty",
         :oracle-text
-        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
+        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
  #:card{:type-line "Legendary Creature — Elemental Elk",
         :layout-category :normal,
         :code "mul",
@@ -491,7 +491,7 @@
         :layout "normal",
         :name "Judith, the Scourge Diva",
         :oracle-text
-        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target."}
+        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -502,13 +502,13 @@
         :layout "normal",
         :name "Juri, Master of the Revue",
         :oracle-text
-        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri, Master of the Revue.\nWhen Juri dies, it deals damage equal to its power to any target."}
+        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri.\nWhen Juri dies, it deals damage equal to its power to any target."}
  #:card{:type-line "Legendary Creature — Cat Beast",
         :layout-category :normal,
         :code "mul",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/9/e9c296d0-ad8d-4139-97c4-e36c4af3d3c9.png?1682347470",
+        "https://cards.scryfall.io/png/front/e/9/e9c296d0-ad8d-4139-97c4-e36c4af3d3c9.png?1721780176",
         :collector-number "47",
         :layout "normal",
         :name "Kaheera, the Orphanguard",
@@ -524,7 +524,7 @@
         :layout "normal",
         :name "Keruga, the Macrosage",
         :oracle-text
-        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga, the Macrosage enters the battlefield, draw a card for each other permanent you control with mana value 3 or greater."}
+        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga enters, draw a card for each other permanent you control with mana value 3 or greater."}
  #:card{:type-line "Legendary Creature — Elder Giant",
         :layout-category :normal,
         :code "mul",
@@ -535,7 +535,7 @@
         :layout "normal",
         :name "Kroxa, Titan of Death's Hunger",
         :oracle-text
-        "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
+        "When Kroxa enters, sacrifice it unless it escaped.\nWhenever Kroxa enters or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
  #:card{:type-line "Legendary Creature — Unicorn",
         :layout-category :normal,
         :code "mul",
@@ -552,7 +552,7 @@
         :code "mul",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/b/4b32771b-d89f-46b1-8c70-95a4f058ef05.png?1682347487",
+        "https://cards.scryfall.io/png/front/4/b/4b32771b-d89f-46b1-8c70-95a4f058ef05.png?1721853465",
         :collector-number "51",
         :layout "normal",
         :name "Lurrus of the Dream-Den",
@@ -568,7 +568,7 @@
         :layout "normal",
         :name "Lutri, the Spellchaser",
         :oracle-text
-        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
+        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mul",
@@ -579,7 +579,7 @@
         :layout "normal",
         :name "Niv-Mizzet Reborn",
         :oracle-text
-        "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
+        "Flying\nWhen Niv-Mizzet enters, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Creature — Hellion Horror",
         :layout-category :normal,
         :code "mul",
@@ -601,7 +601,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -634,7 +634,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -645,7 +645,7 @@
         :layout "normal",
         :name "Shanna, Sisay's Legacy",
         :oracle-text
-        "Shanna, Sisay's Legacy can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
+        "Shanna can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
  #:card{:type-line "Legendary Creature — Human Monk",
         :layout-category :normal,
         :code "mul",
@@ -656,13 +656,13 @@
         :layout "normal",
         :name "Taigam, Ojutai Master",
         :oracle-text
-        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam, Ojutai Master attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
+        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mul",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/c/3c48a7da-0d01-439f-8cfb-22af30cffbba.png?1682200891",
+        "https://cards.scryfall.io/png/front/3/c/3c48a7da-0d01-439f-8cfb-22af30cffbba.png?1729215172",
         :collector-number "61",
         :layout "normal",
         :name "Teysa Karlov",
@@ -678,7 +678,7 @@
         :layout "normal",
         :name "Umori, the Collector",
         :oracle-text
-        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori, the Collector enters the battlefield, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
+        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori enters, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
  #:card{:type-line "Legendary Creature — Elemental Horror",
         :layout-category :normal,
         :code "mul",
@@ -689,7 +689,7 @@
         :layout "normal",
         :name "Yarok, the Desecrated",
         :oracle-text
-        "Deathtouch, lifelink\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Deathtouch, lifelink\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Legendary Creature — Bird Serpent",
         :layout-category :normal,
         :code "mul",
@@ -700,7 +700,7 @@
         :layout "normal",
         :name "Yorion, Sky Nomad",
         :oracle-text
-        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
+        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Elemental Fox",
         :layout-category :normal,
         :code "mul",
@@ -722,7 +722,7 @@
         :layout "normal",
         :name "Anafenza, Kin-Tree Spirit",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield under your control, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
+        "Whenever another nontoken creature you control enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -733,7 +733,7 @@
         :layout "normal",
         :name "Daxos, Blessed by the Sun",
         :oracle-text
-        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life."}
+        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters or dies, you gain 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -810,7 +810,7 @@
         :layout "normal",
         :name "Emry, Lurker of the Loch",
         :oracle-text
-        "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
+        "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -821,7 +821,7 @@
         :layout "normal",
         :name "Inga Rune-Eyes",
         :oracle-text
-        "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
+        "When Inga Rune-Eyes enters, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -854,7 +854,7 @@
         :layout "normal",
         :name "Ayara, First of Locthwain",
         :oracle-text
-        "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
+        "Whenever Ayara or another black creature you control enters, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "mul",
@@ -887,7 +887,7 @@
         :layout "normal",
         :name "Sheoldred, Whispering One",
         :oracle-text
-        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature."}
+        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature of their choice."}
  #:card{:type-line "Legendary Creature — Phyrexian Dragon Skeleton",
         :layout-category :normal,
         :code "mul",
@@ -898,7 +898,7 @@
         :layout "normal",
         :name "Skithiryx, the Blight Dragon",
         :oracle-text
-        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx, the Blight Dragon gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
+        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -930,7 +930,7 @@
         :layout "normal",
         :name "Captain Lannery Storm",
         :oracle-text
-        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
+        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "mul",
@@ -941,7 +941,7 @@
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mul",
@@ -952,7 +952,7 @@
         :layout "normal",
         :name "Squee, the Immortal",
         :oracle-text
-        "You may cast Squee, the Immortal from your graveyard or from exile."}
+        "You may cast this card from your graveyard or from exile."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -963,7 +963,7 @@
         :layout "normal",
         :name "Urabrask the Hidden",
         :oracle-text
-        "Creatures you control have haste.\nCreatures your opponents control enter the battlefield tapped."}
+        "Creatures you control have haste.\nCreatures your opponents control enter tapped."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -974,7 +974,7 @@
         :layout "normal",
         :name "Valduk, Keeper of the Flame",
         :oracle-text
-        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
+        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Goblin Ally",
         :layout-category :normal,
         :code "mul",
@@ -985,7 +985,7 @@
         :layout "normal",
         :name "Zada, Hedron Grinder",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
+        "Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -996,7 +996,7 @@
         :layout "normal",
         :name "Fynn, the Fangbearer",
         :oracle-text
-        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Legendary Creature — Bear",
         :layout-category :normal,
         :code "mul",
@@ -1007,7 +1007,7 @@
         :layout "normal",
         :name "Goreclaw, Terror of Qal Sisma",
         :oracle-text
-        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
+        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -1018,7 +1018,7 @@
         :layout "normal",
         :name "Renata, Called to the Hunt",
         :oracle-text
-        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it."}
+        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters with an additional +1/+1 counter on it."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1062,7 +1062,7 @@
         :layout "normal",
         :name "Arixmethes, Slumbering Isle",
         :oracle-text
-        "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
+        "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
  #:card{:type-line "Legendary Creature — Phyrexian Angel Horror",
         :layout-category :normal,
         :code "mul",
@@ -1084,7 +1084,7 @@
         :layout "normal",
         :name "Atris, Oracle of Half-Truths",
         :oracle-text
-        "Menace\nWhen Atris, Oracle of Half-Truths enters the battlefield, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
+        "Menace\nWhen Atris enters, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mul",
@@ -1095,7 +1095,7 @@
         :layout "normal",
         :name "Aurelia, the Warleader",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
+        "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
  #:card{:type-line "Legendary Artifact Creature — Phyrexian Artificer",
         :layout-category :normal,
         :code "mul",
@@ -1117,7 +1117,7 @@
         :layout "normal",
         :name "Dina, Soul Steeper",
         :oracle-text
-        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina, Soul Steeper gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
+        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
  #:card{:type-line "Legendary Creature — Phyrexian Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -1128,7 +1128,7 @@
         :layout "normal",
         :name "Ezuri, Claw of Progress",
         :oracle-text
-        "Whenever a creature with power 2 or less enters the battlefield under your control, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
+        "Whenever a creature you control with power 2 or less enters, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
  #:card{:type-line "Legendary Creature — Minotaur Cleric",
         :layout-category :normal,
         :code "mul",
@@ -1161,7 +1161,7 @@
         :layout "normal",
         :name "Grimgrin, Corpse-Born",
         :oracle-text
-        "Grimgrin, Corpse-Born enters the battlefield tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
+        "Grimgrin enters tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
  #:card{:type-line "Legendary Creature — Demon Kraken",
         :layout-category :normal,
         :code "mul",
@@ -1172,8 +1172,8 @@
         :layout "normal",
         :name "Gyruda, Doom of Depths",
         :oracle-text
-        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
- #:card{:type-line "Legendary Creature — Naga Druid",
+        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
+ #:card{:type-line "Legendary Creature — Snake Druid",
         :layout-category :normal,
         :code "mul",
         :highres? true,
@@ -1183,7 +1183,7 @@
         :layout "normal",
         :name "Imoti, Celebrant of Bounty",
         :oracle-text
-        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
+        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
  #:card{:type-line "Legendary Creature — Elemental Elk",
         :layout-category :normal,
         :code "mul",
@@ -1205,7 +1205,7 @@
         :layout "normal",
         :name "Judith, the Scourge Diva",
         :oracle-text
-        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target."}
+        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -1216,7 +1216,7 @@
         :layout "normal",
         :name "Juri, Master of the Revue",
         :oracle-text
-        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri, Master of the Revue.\nWhen Juri dies, it deals damage equal to its power to any target."}
+        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri.\nWhen Juri dies, it deals damage equal to its power to any target."}
  #:card{:type-line "Legendary Creature — Cat Beast",
         :layout-category :normal,
         :code "mul",
@@ -1238,7 +1238,7 @@
         :layout "normal",
         :name "Keruga, the Macrosage",
         :oracle-text
-        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga, the Macrosage enters the battlefield, draw a card for each other permanent you control with mana value 3 or greater."}
+        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga enters, draw a card for each other permanent you control with mana value 3 or greater."}
  #:card{:type-line "Legendary Creature — Elder Giant",
         :layout-category :normal,
         :code "mul",
@@ -1249,7 +1249,7 @@
         :layout "normal",
         :name "Kroxa, Titan of Death's Hunger",
         :oracle-text
-        "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
+        "When Kroxa enters, sacrifice it unless it escaped.\nWhenever Kroxa enters or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
  #:card{:type-line "Legendary Creature — Unicorn",
         :layout-category :normal,
         :code "mul",
@@ -1282,7 +1282,7 @@
         :layout "normal",
         :name "Lutri, the Spellchaser",
         :oracle-text
-        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
+        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mul",
@@ -1293,7 +1293,7 @@
         :layout "normal",
         :name "Niv-Mizzet Reborn",
         :oracle-text
-        "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
+        "Flying\nWhen Niv-Mizzet enters, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Creature — Hellion Horror",
         :layout-category :normal,
         :code "mul",
@@ -1315,7 +1315,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -1326,7 +1326,7 @@
         :layout "normal",
         :name "A-Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord enters the battlefield or becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha, Coalition Warlord enters or becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -1359,7 +1359,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -1370,7 +1370,7 @@
         :layout "normal",
         :name "Shanna, Sisay's Legacy",
         :oracle-text
-        "Shanna, Sisay's Legacy can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
+        "Shanna can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
  #:card{:type-line "Legendary Creature — Human Monk",
         :layout-category :normal,
         :code "mul",
@@ -1381,7 +1381,7 @@
         :layout "normal",
         :name "Taigam, Ojutai Master",
         :oracle-text
-        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam, Ojutai Master attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
+        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mul",
@@ -1403,18 +1403,18 @@
         :layout "normal",
         :name "Umori, the Collector",
         :oracle-text
-        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori, the Collector enters the battlefield, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
+        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori enters, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
  #:card{:type-line "Legendary Creature — Elemental Horror",
         :layout-category :normal,
         :code "mul",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/c/9cd3d727-ab8c-4e73-b99f-eed2cffbca51.png?1687551803",
+        "https://cards.scryfall.io/png/front/9/c/9cd3d727-ab8c-4e73-b99f-eed2cffbca51.png?1731591191",
         :collector-number "128",
         :layout "normal",
         :name "Yarok, the Desecrated",
         :oracle-text
-        "Deathtouch, lifelink\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Deathtouch, lifelink\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Legendary Creature — Bird Serpent",
         :layout-category :normal,
         :code "mul",
@@ -1425,7 +1425,7 @@
         :layout "normal",
         :name "Yorion, Sky Nomad",
         :oracle-text
-        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
+        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Elemental Fox",
         :layout-category :normal,
         :code "mul",
@@ -1447,7 +1447,7 @@
         :layout "normal",
         :name "Anafenza, Kin-Tree Spirit",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield under your control, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
+        "Whenever another nontoken creature you control enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
  #:card{:type-line "Legendary Creature — Spirit Soldier",
         :layout-category :normal,
         :code "mul",
@@ -1458,7 +1458,7 @@
         :layout "normal",
         :name "Anafenza, Kin-Tree Spirit",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield under your control, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
+        "Whenever another nontoken creature you control enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -1469,7 +1469,7 @@
         :layout "normal",
         :name "Daxos, Blessed by the Sun",
         :oracle-text
-        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life."}
+        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters or dies, you gain 1 life."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -1480,7 +1480,7 @@
         :layout "normal",
         :name "Daxos, Blessed by the Sun",
         :oracle-text
-        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life."}
+        "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters or dies, you gain 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1623,7 +1623,7 @@
         :layout "normal",
         :name "Emry, Lurker of the Loch",
         :oracle-text
-        "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
+        "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:type-line "Legendary Creature — Merfolk Wizard",
         :layout-category :normal,
         :code "mul",
@@ -1634,7 +1634,7 @@
         :layout "normal",
         :name "Emry, Lurker of the Loch",
         :oracle-text
-        "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
+        "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -1645,7 +1645,7 @@
         :layout "normal",
         :name "Inga Rune-Eyes",
         :oracle-text
-        "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
+        "When Inga Rune-Eyes enters, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -1656,7 +1656,7 @@
         :layout "normal",
         :name "Inga Rune-Eyes",
         :oracle-text
-        "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
+        "When Inga Rune-Eyes enters, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1711,7 +1711,7 @@
         :layout "normal",
         :name "Ayara, First of Locthwain",
         :oracle-text
-        "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
+        "Whenever Ayara or another black creature you control enters, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "mul",
@@ -1722,7 +1722,7 @@
         :layout "normal",
         :name "Ayara, First of Locthwain",
         :oracle-text
-        "Whenever Ayara, First of Locthwain or another black creature enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
+        "Whenever Ayara or another black creature you control enters, each opponent loses 1 life and you gain 1 life.\n{T}, Sacrifice another black creature: Draw a card."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "mul",
@@ -1777,7 +1777,7 @@
         :layout "normal",
         :name "Sheoldred, Whispering One",
         :oracle-text
-        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature."}
+        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature of their choice."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1788,7 +1788,7 @@
         :layout "normal",
         :name "Sheoldred, Whispering One",
         :oracle-text
-        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature."}
+        "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature of their choice."}
  #:card{:type-line "Legendary Creature — Phyrexian Dragon Skeleton",
         :layout-category :normal,
         :code "mul",
@@ -1799,7 +1799,7 @@
         :layout "normal",
         :name "Skithiryx, the Blight Dragon",
         :oracle-text
-        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx, the Blight Dragon gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
+        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
  #:card{:type-line "Legendary Creature — Phyrexian Dragon Skeleton",
         :layout-category :normal,
         :code "mul",
@@ -1810,7 +1810,7 @@
         :layout "normal",
         :name "Skithiryx, the Blight Dragon",
         :oracle-text
-        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx, the Blight Dragon gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
+        "Flying\nInfect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)\n{B}: Skithiryx gains haste until end of turn.\n{B}{B}: Regenerate Skithiryx."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -1863,7 +1863,7 @@
         :layout "normal",
         :name "Captain Lannery Storm",
         :oracle-text
-        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
+        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
  #:card{:type-line "Legendary Creature — Human Pirate",
         :layout-category :normal,
         :code "mul",
@@ -1874,7 +1874,7 @@
         :layout "normal",
         :name "Captain Lannery Storm",
         :oracle-text
-        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
+        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "mul",
@@ -1885,7 +1885,7 @@
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "mul",
@@ -1896,7 +1896,7 @@
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mul",
@@ -1907,7 +1907,7 @@
         :layout "normal",
         :name "Squee, the Immortal",
         :oracle-text
-        "You may cast Squee, the Immortal from your graveyard or from exile."}
+        "You may cast this card from your graveyard or from exile."}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mul",
@@ -1918,7 +1918,7 @@
         :layout "normal",
         :name "Squee, the Immortal",
         :oracle-text
-        "You may cast Squee, the Immortal from your graveyard or from exile."}
+        "You may cast this card from your graveyard or from exile."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1929,7 +1929,7 @@
         :layout "normal",
         :name "Urabrask the Hidden",
         :oracle-text
-        "Creatures you control have haste.\nCreatures your opponents control enter the battlefield tapped."}
+        "Creatures you control have haste.\nCreatures your opponents control enter tapped."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -1940,7 +1940,7 @@
         :layout "normal",
         :name "Urabrask the Hidden",
         :oracle-text
-        "Creatures you control have haste.\nCreatures your opponents control enter the battlefield tapped."}
+        "Creatures you control have haste.\nCreatures your opponents control enter tapped."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -1951,7 +1951,7 @@
         :layout "normal",
         :name "Valduk, Keeper of the Flame",
         :oracle-text
-        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
+        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -1962,7 +1962,7 @@
         :layout "normal",
         :name "Valduk, Keeper of the Flame",
         :oracle-text
-        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
+        "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Goblin Ally",
         :layout-category :normal,
         :code "mul",
@@ -1973,7 +1973,7 @@
         :layout "normal",
         :name "Zada, Hedron Grinder",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
+        "Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
  #:card{:type-line "Legendary Creature — Goblin Ally",
         :layout-category :normal,
         :code "mul",
@@ -1984,7 +1984,7 @@
         :layout "normal",
         :name "Zada, Hedron Grinder",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
+        "Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -1995,7 +1995,7 @@
         :layout "normal",
         :name "Fynn, the Fangbearer",
         :oracle-text
-        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2006,7 +2006,7 @@
         :layout "normal",
         :name "Fynn, the Fangbearer",
         :oracle-text
-        "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Legendary Creature — Bear",
         :layout-category :normal,
         :code "mul",
@@ -2017,7 +2017,7 @@
         :layout "normal",
         :name "Goreclaw, Terror of Qal Sisma",
         :oracle-text
-        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
+        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
  #:card{:type-line "Legendary Creature — Bear",
         :layout-category :normal,
         :code "mul",
@@ -2028,7 +2028,7 @@
         :layout "normal",
         :name "Goreclaw, Terror of Qal Sisma",
         :oracle-text
-        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
+        "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -2039,7 +2039,7 @@
         :layout "normal",
         :name "Renata, Called to the Hunt",
         :oracle-text
-        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it."}
+        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters with an additional +1/+1 counter on it."}
  #:card{:type-line "Legendary Enchantment Creature — Demigod",
         :layout-category :normal,
         :code "mul",
@@ -2050,7 +2050,7 @@
         :layout "normal",
         :name "Renata, Called to the Hunt",
         :oracle-text
-        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it."}
+        "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters with an additional +1/+1 counter on it."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "mul",
@@ -2127,7 +2127,7 @@
         :layout "normal",
         :name "Arixmethes, Slumbering Isle",
         :oracle-text
-        "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
+        "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
  #:card{:type-line "Legendary Creature — Kraken",
         :layout-category :normal,
         :code "mul",
@@ -2138,7 +2138,7 @@
         :layout "normal",
         :name "Arixmethes, Slumbering Isle",
         :oracle-text
-        "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
+        "Arixmethes enters tapped with five slumber counters on it.\nAs long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)\nWhenever you cast a spell, you may remove a slumber counter from Arixmethes.\n{T}: Add {G}{U}."}
  #:card{:type-line "Legendary Creature — Phyrexian Angel Horror",
         :layout-category :normal,
         :code "mul",
@@ -2171,7 +2171,7 @@
         :layout "normal",
         :name "Atris, Oracle of Half-Truths",
         :oracle-text
-        "Menace\nWhen Atris, Oracle of Half-Truths enters the battlefield, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
+        "Menace\nWhen Atris enters, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mul",
@@ -2182,7 +2182,7 @@
         :layout "normal",
         :name "Atris, Oracle of Half-Truths",
         :oracle-text
-        "Menace\nWhen Atris, Oracle of Half-Truths enters the battlefield, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
+        "Menace\nWhen Atris enters, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mul",
@@ -2193,7 +2193,7 @@
         :layout "normal",
         :name "Aurelia, the Warleader",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
+        "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mul",
@@ -2204,7 +2204,7 @@
         :layout "normal",
         :name "Aurelia, the Warleader",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
+        "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."}
  #:card{:type-line "Legendary Artifact Creature — Phyrexian Artificer",
         :layout-category :normal,
         :code "mul",
@@ -2237,7 +2237,7 @@
         :layout "normal",
         :name "Dina, Soul Steeper",
         :oracle-text
-        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina, Soul Steeper gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
+        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
  #:card{:type-line "Legendary Creature — Dryad Druid",
         :layout-category :normal,
         :code "mul",
@@ -2248,7 +2248,7 @@
         :layout "normal",
         :name "Dina, Soul Steeper",
         :oracle-text
-        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina, Soul Steeper gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
+        "Whenever you gain life, each opponent loses 1 life.\n{1}, Sacrifice another creature: Dina gets +X/+0 until end of turn, where X is the sacrificed creature's power."}
  #:card{:type-line "Legendary Creature — Phyrexian Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2259,7 +2259,7 @@
         :layout "normal",
         :name "Ezuri, Claw of Progress",
         :oracle-text
-        "Whenever a creature with power 2 or less enters the battlefield under your control, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
+        "Whenever a creature you control with power 2 or less enters, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
  #:card{:type-line "Legendary Creature — Phyrexian Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2270,7 +2270,7 @@
         :layout "normal",
         :name "Ezuri, Claw of Progress",
         :oracle-text
-        "Whenever a creature with power 2 or less enters the battlefield under your control, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
+        "Whenever a creature you control with power 2 or less enters, you get an experience counter.\nAt the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have."}
  #:card{:type-line "Legendary Creature — Minotaur Cleric",
         :layout-category :normal,
         :code "mul",
@@ -2325,7 +2325,7 @@
         :layout "normal",
         :name "Grimgrin, Corpse-Born",
         :oracle-text
-        "Grimgrin, Corpse-Born enters the battlefield tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
+        "Grimgrin enters tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
  #:card{:type-line "Legendary Creature — Zombie Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2336,7 +2336,7 @@
         :layout "normal",
         :name "Grimgrin, Corpse-Born",
         :oracle-text
-        "Grimgrin, Corpse-Born enters the battlefield tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
+        "Grimgrin enters tapped and doesn't untap during your untap step.\nSacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.\nWhenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin."}
  #:card{:type-line "Legendary Creature — Demon Kraken",
         :layout-category :normal,
         :code "mul",
@@ -2347,7 +2347,7 @@
         :layout "normal",
         :name "Gyruda, Doom of Depths",
         :oracle-text
-        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
+        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
  #:card{:type-line "Legendary Creature — Demon Kraken",
         :layout-category :normal,
         :code "mul",
@@ -2358,8 +2358,8 @@
         :layout "normal",
         :name "Gyruda, Doom of Depths",
         :oracle-text
-        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
- #:card{:type-line "Legendary Creature — Naga Druid",
+        "Companion — Your starting deck contains only cards with even mana values. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control."}
+ #:card{:type-line "Legendary Creature — Snake Druid",
         :layout-category :normal,
         :code "mul",
         :highres? true,
@@ -2369,8 +2369,8 @@
         :layout "normal",
         :name "Imoti, Celebrant of Bounty",
         :oracle-text
-        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
- #:card{:type-line "Legendary Creature — Naga Druid",
+        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
+ #:card{:type-line "Legendary Creature — Snake Druid",
         :layout-category :normal,
         :code "mul",
         :highres? true,
@@ -2380,7 +2380,7 @@
         :layout "normal",
         :name "Imoti, Celebrant of Bounty",
         :oracle-text
-        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
+        "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nSpells you cast with mana value 6 or greater have cascade."}
  #:card{:type-line "Legendary Creature — Elemental Elk",
         :layout-category :normal,
         :code "mul",
@@ -2413,7 +2413,7 @@
         :layout "normal",
         :name "Judith, the Scourge Diva",
         :oracle-text
-        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target."}
+        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -2424,7 +2424,7 @@
         :layout "normal",
         :name "Judith, the Scourge Diva",
         :oracle-text
-        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target."}
+        "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -2435,7 +2435,7 @@
         :layout "normal",
         :name "Juri, Master of the Revue",
         :oracle-text
-        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri, Master of the Revue.\nWhen Juri dies, it deals damage equal to its power to any target."}
+        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri.\nWhen Juri dies, it deals damage equal to its power to any target."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mul",
@@ -2446,7 +2446,7 @@
         :layout "normal",
         :name "Juri, Master of the Revue",
         :oracle-text
-        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri, Master of the Revue.\nWhen Juri dies, it deals damage equal to its power to any target."}
+        "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri.\nWhen Juri dies, it deals damage equal to its power to any target."}
  #:card{:type-line "Legendary Creature — Cat Beast",
         :layout-category :normal,
         :code "mul",
@@ -2479,7 +2479,7 @@
         :layout "normal",
         :name "Keruga, the Macrosage",
         :oracle-text
-        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga, the Macrosage enters the battlefield, draw a card for each other permanent you control with mana value 3 or greater."}
+        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga enters, draw a card for each other permanent you control with mana value 3 or greater."}
  #:card{:type-line "Legendary Creature — Dinosaur Hippo",
         :layout-category :normal,
         :code "mul",
@@ -2490,7 +2490,7 @@
         :layout "normal",
         :name "Keruga, the Macrosage",
         :oracle-text
-        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga, the Macrosage enters the battlefield, draw a card for each other permanent you control with mana value 3 or greater."}
+        "Companion — Your starting deck contains only cards with mana value 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nWhen Keruga enters, draw a card for each other permanent you control with mana value 3 or greater."}
  #:card{:type-line "Legendary Creature — Elder Giant",
         :layout-category :normal,
         :code "mul",
@@ -2501,7 +2501,7 @@
         :layout "normal",
         :name "Kroxa, Titan of Death's Hunger",
         :oracle-text
-        "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
+        "When Kroxa enters, sacrifice it unless it escaped.\nWhenever Kroxa enters or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
  #:card{:type-line "Legendary Creature — Elder Giant",
         :layout-category :normal,
         :code "mul",
@@ -2512,7 +2512,7 @@
         :layout "normal",
         :name "Kroxa, Titan of Death's Hunger",
         :oracle-text
-        "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
+        "When Kroxa enters, sacrifice it unless it escaped.\nWhenever Kroxa enters or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)"}
  #:card{:type-line "Legendary Creature — Unicorn",
         :layout-category :normal,
         :code "mul",
@@ -2567,7 +2567,7 @@
         :layout "normal",
         :name "Lutri, the Spellchaser",
         :oracle-text
-        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
+        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Elemental Otter",
         :layout-category :normal,
         :code "mul",
@@ -2578,7 +2578,7 @@
         :layout "normal",
         :name "Lutri, the Spellchaser",
         :oracle-text
-        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
+        "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlash\nWhen Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mul",
@@ -2589,7 +2589,7 @@
         :layout "normal",
         :name "Niv-Mizzet Reborn",
         :oracle-text
-        "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
+        "Flying\nWhen Niv-Mizzet enters, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mul",
@@ -2600,7 +2600,7 @@
         :layout "normal",
         :name "Niv-Mizzet Reborn",
         :oracle-text
-        "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
+        "Flying\nWhen Niv-Mizzet enters, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Creature — Hellion Horror",
         :layout-category :normal,
         :code "mul",
@@ -2633,7 +2633,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Elf Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2644,7 +2644,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -2699,7 +2699,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "mul",
@@ -2710,7 +2710,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2721,7 +2721,7 @@
         :layout "normal",
         :name "Shanna, Sisay's Legacy",
         :oracle-text
-        "Shanna, Sisay's Legacy can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
+        "Shanna can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "mul",
@@ -2732,7 +2732,7 @@
         :layout "normal",
         :name "Shanna, Sisay's Legacy",
         :oracle-text
-        "Shanna, Sisay's Legacy can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
+        "Shanna can't be the target of abilities your opponents control.\nShanna gets +1/+1 for each creature you control."}
  #:card{:type-line "Legendary Creature — Human Monk",
         :layout-category :normal,
         :code "mul",
@@ -2743,7 +2743,7 @@
         :layout "normal",
         :name "Taigam, Ojutai Master",
         :oracle-text
-        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam, Ojutai Master attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
+        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
  #:card{:type-line "Legendary Creature — Human Monk",
         :layout-category :normal,
         :code "mul",
@@ -2754,7 +2754,7 @@
         :layout "normal",
         :name "Taigam, Ojutai Master",
         :oracle-text
-        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam, Ojutai Master attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
+        "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)"}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mul",
@@ -2787,7 +2787,7 @@
         :layout "normal",
         :name "Umori, the Collector",
         :oracle-text
-        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori, the Collector enters the battlefield, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
+        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori enters, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
  #:card{:type-line "Legendary Creature — Ooze",
         :layout-category :normal,
         :code "mul",
@@ -2798,7 +2798,7 @@
         :layout "normal",
         :name "Umori, the Collector",
         :oracle-text
-        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori, the Collector enters the battlefield, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
+        "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nAs Umori enters, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast."}
  #:card{:type-line "Legendary Creature — Elemental Horror",
         :layout-category :normal,
         :code "mul",
@@ -2809,7 +2809,7 @@
         :layout "normal",
         :name "Yarok, the Desecrated",
         :oracle-text
-        "Deathtouch, lifelink\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Deathtouch, lifelink\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Legendary Creature — Elemental Horror",
         :layout-category :normal,
         :code "mul",
@@ -2820,7 +2820,7 @@
         :layout "normal",
         :name "Yarok, the Desecrated",
         :oracle-text
-        "Deathtouch, lifelink\nIf a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Deathtouch, lifelink\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Legendary Creature — Bird Serpent",
         :layout-category :normal,
         :code "mul",
@@ -2831,7 +2831,7 @@
         :layout "normal",
         :name "Yorion, Sky Nomad",
         :oracle-text
-        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
+        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Bird Serpent",
         :layout-category :normal,
         :code "mul",
@@ -2842,7 +2842,7 @@
         :layout "normal",
         :name "Yorion, Sky Nomad",
         :oracle-text
-        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
+        "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)\nFlying\nWhen Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Elemental Fox",
         :layout-category :normal,
         :code "mul",

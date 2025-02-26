@@ -101,12 +101,12 @@
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/0/d06db963-9574-4e49-83e7-84e931ff7a28.png?1728254904",
+        "https://cards.scryfall.io/png/front/d/0/d06db963-9574-4e49-83e7-84e931ff7a28.png?1731051727",
         :collector-number "MG01",
         :layout "normal",
         :name "Minnea, Planar Tourist",
         :oracle-text
-        "As Minnea, Planar Tourist enters the battlefield, choose a plane.\nSpells from the chosen planes cost {W}, {U}, {B}, {R}, or {G} less to cast. (They're from the chosen plane if it's clear beyond doubt from the name, art, flavor text, or whatever extensive research you've done and can show that they're from that plane.)"}
+        "As Minnea, Planar Tourist enters the battlefield, choose a plane.\nSpells from the chosen plane cost {W}, {U}, {B}, {R}, or {G} less to cast. (They're from the chosen plane if it's clear beyond doubt from the name, art, flavor text, or whatever extensive research you've done and can show that they're from that plane.)"}
  #:card{:type-line "Legendary Creature — Azra Wizard",
         :layout-category :normal,
         :code "da1",
@@ -122,23 +122,35 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/a/0/a0af46f8-5abf-4436-9bb4-906ad44420d6.png?1736282297",
         :collector-number "MZ01",
         :layout "normal",
         :name "The Unknown Wizard",
         :oracle-text
-        "Eminence — As long as The Unknown Wizard is in the command zone or on the battlefield, other playtest cards you cast cost {1} less to cast.\nWhenever The Unknown Wizard enters or attacks. look at the top ten cards of your library. You may put a legendary playtest card from among them onto the battlefield. Put the rest on the bottom in a random order."}
- #:card{:type-line "Plane — Chicago",
+        "Eminence — As long as The Unknown Wizard is in the command zone or on the battlefield, other playtest cards you cast cost {1} less to cast.\nWhenever The Unknown Wizard enters or attacks, look at the top ten cards of your library. You may put a legendary playtest card from among them onto the battlefield. Put the rest on the bottom in a random order."}
+ #:card{:type-line "Plane — MagicCon",
         :layout-category :normal,
         :code "da1",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/0/c0f4f36f-fc99-46cb-b396-ece99c799b03.png?1726962834",
+        "https://cards.scryfall.io/png/front/7/b/7b6d6753-3086-41d9-9384-33e05f14feed.png?1740344029",
         :collector-number "PLA001",
         :layout "planar",
-        :name "City Hall",
+        :name "Artist Alley",
         :oracle-text
-        "When you planeswalk here, you become the Monarch.\nWhenever Chaos ensues, each player may create two tapped treasure tokens. Each player who does can't attack you on their next turn."}
+        "Whenever you planeswalk here and at the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\nWhenever Chaos ensues, exile the top six cards of your library. An opponent or player outside the game chooses a nonland card with their favorite art. Then you may cast that spell without paying its mana cost."}
+ #:card{:type-line "Plane — MagicCon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/4122eda0-f33e-41bd-84f2-15b3a797d108.png?1740343858",
+        :collector-number "PLA001a",
+        :layout "planar",
+        :name "Artist Alley",
+        :oracle-text
+        "Whenever you planeswalk here and at the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\nWhenever Chaos ensues, exile the top six cards of your library. An opponent or player outside the game chooses a nonland card with their favorite art. Then you may cast that spell without paying its mana cost."}
  #:card{:type-line "Legendary Artifact Creature — Food Horse",
         :layout-category :normal,
         :code "da1",
@@ -232,12 +244,12 @@
         :code "da1",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/c/9/c9c6c852-cb3f-4f12-9f5b-037704d507d7.png?1727741009",
+        "https://cards.scryfall.io/png/front/c/9/c9c6c852-cb3f-4f12-9f5b-037704d507d7.png?1734083870",
         :collector-number "RL01b",
         :layout "normal",
         :name "The Magical City, New",
         :oracle-text
-        "The The Magical City, New enters the battlefield tapped.\n{T}: Add {W}, {U}, or {R}. When this mana is spent to cast a legendary spell, put a +1/+1 counter on this land.\n{4}: The Magical City, New becomes a 1/1 white, blue, and red Human Artist creature until end of turn.\nThe Magical City, New can be your Commander. (Commander tax still applies.)"}
+        "The Magical City, New enters the battlefield tapped.\n{T}: Add {W}, {U}, or {R}. When this mana is spent to cast a legendary spell, put a +1/+1 counter on this land.\n{4}: The Magical City, New becomes a 1/1 white, blue, and red Human Artist creature until end of turn.\nThe Magical City, New can be your Commander. (Commander tax still applies.)"}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "da1",
@@ -418,7 +430,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/4/7/4797eced-1a1d-4f13-bb0c-3666aaa10eb7.png?1736520677",
         :collector-number "CR02",
         :layout "normal",
         :name "Fear of Going 0-2 Drop",
@@ -457,17 +470,28 @@
         :name "Delphia, Undecided",
         :oracle-text
         "Spells you cast cost {3} less to cast if they were originally printed in the following expansions or associated commander decks, depending on who won the Unknown event on February 18th, 2023:\nMirran Victory — Mirrodin, Darksteel, Fifth Dawn, and Scars of Mirrodin.\nPhyrexian Victory — Mirrodin Besieged, New Phyrexia, All Will be One, and March of the Machine."}
- #:card{:type-line "Phenomenon",
+ #:card{:type-line "Plane — Chicago",
+        :layout-category :normal,
+        :code "da1",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/2/a29cc013-ff0e-49e9-8cbf-93d19fea11b2.png?1740342367",
+        :collector-number "PLA002",
+        :layout "planar",
+        :name "The Bean",
+        :oracle-text
+        "Whenever you planeswalk here, each player chooses a creature they control and creates a token copy of it. It's a reflection in addition to its other types, and its power and toughness are inverted.\nWhenever Chaos ensues, create a token that's a copy of a creature you control. It's a reflection in addition to its other types, and its power and toughness are inverted."}
+ #:card{:type-line "Plane — Chicago",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/6/76fa548a-8c93-458f-b0e2-bc1074359ae2.png?1726952273",
-        :collector-number "PLA002",
+        "https://cards.scryfall.io/png/front/6/1/61aa1c16-3491-4549-983d-448aecaebb8a.png?1740342697",
+        :collector-number "PLA002a",
         :layout "planar",
-        :name "Pin Trading",
+        :name "The Bean",
         :oracle-text
-        "When you encounter this, draw a card for each pin you are wearing and each Pin token attached to creatures you control. (This includes pins on your backpack.) (Then planeswalk away from this phenomenon.)"}
+        "Whenever you planeswalk here, each player chooses a creature they control and creates a token copy of it. It's a reflection in addition to its other types, and its power and toughness are inverted.\nWhenever Chaos ensues, create a token that's a copy of a creature you control. It's a reflection in addition to its other types, and its power and toughness are inverted."}
  #:card{:type-line "Artifact Creature — Goblin Wizard",
         :layout-category :normal,
         :code "da1",
@@ -516,7 +540,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/5/4/544949ec-1065-46f9-a10e-3e9976ba75d9.png?1736520720",
         :collector-number "RB02",
         :layout "normal",
         :name "Seer of the Bright Side",
@@ -691,7 +716,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/2/6/26263231-f4ad-44ff-8922-15391d09e70f.png?1736520745",
         :collector-number "RZ02c",
         :layout "normal",
         :name "The Chaos Keeper",
@@ -701,7 +727,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/1/f/1fac203c-a015-45b4-a59d-bf6ac55304c4.png?1736520788",
         :collector-number "RZ02d",
         :layout "normal",
         :name "The Multiplayer Nitpickers",
@@ -1052,17 +1079,28 @@
         :name "Gen, Confider of Ages",
         :oracle-text
         "Gen gets +1/+1 for each different year of release among other nontoken permanents you control. (For example, if a card was released in 1993, that's one year of release. Specific editions matter.)\nWhenever Gen attacks, if its power is 30 or greater, you win the game."}
- #:card{:type-line "Plane — Chicago",
+ #:card{:type-line "Plane — MagicCon",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/1/f167ffc1-8957-4c3d-ba7a-7ad86360a51e.png?1727365652",
+        "https://cards.scryfall.io/png/front/c/c/ccabc553-7d67-4e58-81df-c7b825c8e41e.png?1740344381",
         :collector-number "PLA003",
         :layout "planar",
-        :name "Shy Town",
+        :name "Black Lotus Lounge",
         :oracle-text
-        "Whenever you planeswalk here and whenever chaos ensues, for each opponent, put a shy counter on up to one target creature they control. That creature becomes a Coward in addition to its other types.\nAt the beginning of your upkeep, create a 2/2 red Warrior creature token with haste and \"Cowards can't block Warriors.\""}
+        "When you planeswalk here and at the beginning of your upkeep, create a Black Lotus artifact token.\nWhenever Chaos ensues, each player draws a card for each artifact token they control."}
+ #:card{:type-line "Plane — MagicCon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0ee28cd1-b50d-4de5-8d07-0e22cd9b011b.png?1740343901",
+        :collector-number "PLA003a",
+        :layout "planar",
+        :name "Black Lotus Lounge",
+        :oracle-text
+        "When you planeswalk here and at the beginning of your upkeep, create a Black Lotus artifact token.\nWhenever Chaos ensues, each player draws a card for each artifact token they control."}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "da1",
@@ -1219,9 +1257,9 @@
  #:card{:type-line "Legendary Creature — Bird",
         :layout-category :normal,
         :code "da1",
-        :highres? true,
+        :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/1/5/15e6523d-e80a-4ae3-9373-7eef3d5ead7a.png?1730224166",
+        "https://cards.scryfall.io/png/front/1/5/15e6523d-e80a-4ae3-9373-7eef3d5ead7a.png?1732284702",
         :collector-number "RG03f",
         :layout "normal",
         :name "The Paradise Bird",
@@ -1231,7 +1269,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/b/7ba815c0-a1c7-42c2-b1f8-a999f68704c5.png?1736520809",
         :collector-number "RR03",
         :layout "normal",
         :name "The Wiley Speedster",
@@ -1263,7 +1302,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/b/4/b4de2229-185c-4f54-a9e3-9947c41606e5.png?1736520751",
         :collector-number "RU03c",
         :layout "normal",
         :name "The Covert Blue Mage",
@@ -1273,7 +1313,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/9/8/98c90956-2564-4e53-9f13-85ae8094481d.png?1736520716",
         :collector-number "RU03d",
         :layout "normal",
         :name "Second Stage of Magic Design",
@@ -1349,7 +1390,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/e/d/ed44e75e-195d-4bb1-a986-4440dc44f362.png?1736520791",
         :collector-number "RW03g",
         :layout "normal",
         :name "The Tokenator",
@@ -1359,7 +1401,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/d/a/da71d59c-a548-4b6a-bb6d-3c5948ddb3c4.png?1736520722",
         :collector-number "RW03h",
         :layout "normal",
         :name "Sixth Stage of Magic Design",
@@ -1402,7 +1445,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/e/8/e846cdb2-936d-4b47-af1f-68df7dd22868.png?1736282282",
         :collector-number "RZ03d",
         :layout "normal",
         :name "The Caffeinated Runner",
@@ -1412,7 +1456,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/2/9/293c4bc6-7b58-4e2c-b7d3-5ce0900fdfb1.png?1736520793",
         :collector-number "RZ03e",
         :layout "normal",
         :name "The Weekly Princess",
@@ -1422,7 +1467,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e808d82-e6c8-47a9-ac44-266e7227e7b7.png?1736520785",
         :collector-number "RZ03f",
         :layout "normal",
         :name "The Milling Runner",
@@ -1432,7 +1478,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/8/0/8065cac3-0e0a-4172-8221-1c4441e052d8.png?1736520753",
         :collector-number "RZ03g",
         :layout "normal",
         :name "The Fifth Alias",
@@ -1442,7 +1489,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/a/7a3d703c-4964-4a31-bb77-5fa57e3e938c.png?1736520724",
         :collector-number "RZ03h",
         :layout "normal",
         :name "The Actualizer",
@@ -1584,7 +1632,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/3/6/361cf5a6-11de-4729-a504-b67fce772fcd.png?1736520689",
         :collector-number "CG04",
         :layout "normal",
         :name "Fear of Unsleeved Decks",
@@ -1617,12 +1666,12 @@
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/b/4bdd3f2a-42a6-40a4-98ef-ecbac05d20b7.png?1726916439",
+        "https://cards.scryfall.io/png/front/4/b/4bdd3f2a-42a6-40a4-98ef-ecbac05d20b7.png?1734079554",
         :collector-number "CR04b",
         :layout "normal",
         :name "Believe in the Cleave",
         :oracle-text
-        "Believe in the Cleave costs {1} less to cast for each attacking creature you control.\nTarget creature gets +1/+1 and gains double strike until end of turn."}
+        "Believe in the Cleave costs {1} less to cast for each attacking creature you control.\nTarget creature gets +1/+1 and gains double strike and trample until end of turn."}
  #:card{:type-line "Artifact Creature — Phyrexian Cleric",
         :layout-category :normal,
         :code "da1",
@@ -1678,27 +1727,39 @@
         :name "Wistful Puppeteer",
         :oracle-text
         "When Wistful Puppeteer enters the battlefield, create an Animated Role attached to up to one target noncreature artifact you control. (Enchanted permanent is a 4/4 artifact creature.)\nWhenever one or more artifact creatures you control deal combat damage to an opponent, draw a card."}
- #:card{:type-line "Plane — MagicCon",
+ #:card{:type-line "Plane — Chicago",
+        :layout-category :normal,
+        :code "da1",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c0f4f36f-fc99-46cb-b396-ece99c799b03.png?1737724300",
+        :collector-number "PLA004",
+        :layout "planar",
+        :name "City Hall",
+        :oracle-text
+        "When you planeswalk here, you become the Monarch.\nWhenever Chaos ensues, each player may create two tapped treasure tokens. Each player who does can't attack you on their next turn."}
+ #:card{:type-line "Plane — Chicago",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/b/7b6d6753-3086-41d9-9384-33e05f14feed.png?1727296420",
-        :collector-number "PLA004",
+        "https://cards.scryfall.io/png/front/7/2/72d646af-0572-49fb-bb40-2390f40ed709.png?1740342700",
+        :collector-number "PLA004a",
         :layout "planar",
-        :name "Artist Alley",
+        :name "City Hall",
         :oracle-text
-        "Whenever you planeswalk here and at the beginning of your upkeep, exile the top card of your library. You may play that card this turn.\nWhenever chaos ensues, exile the top six cards of your library. An opponent chooses a nonland card with their favorite art. Then you may cast that spell without paying its mana cost."}
+        "When you planeswalk here, you become the Monarch.\nWhenever Chaos ensues, each player may create two tapped treasure tokens. Each player who does can't attack you on their next turn."}
  #:card{:type-line "Legendary Creature — Slug Gamer",
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/1/3/13aee090-abba-4385-bb28-553583779100.png?1736520754",
         :collector-number "RB04",
         :layout "normal",
         :name "The Gunky Runner",
         :oracle-text
-        "Ew-minance — When The Gunky Runner enters and at the beginning of the first upkeep in a game where it's your commander, shuffle three Gunk cards into each opponents library. (Gunk is a colorless sorcery card with no mana cost and cycling {4}.)\nWhenever an opponent loses life, they shuffle that many Gunk cards into their library.\nReady to run (You can have two commanders if both have ready to run.)"}
+        "Ew-minance — When The Gunky Runner enters and at the beginning of the first upkeep in a game where it's your commander, shuffle three Gunk cards into each opponent's library. (Gunk is a colorless sorcery card with no mana cost and cycling {4}.)\nWhenever an opponent loses life, they shuffle that many Gunk cards into their library.\nReady to run (You can have two commanders if both have ready to run.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "da1",
@@ -1802,7 +1863,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/9/795d0a56-d0d3-4b68-9f1f-c706067e9de3.png?1736520644",
         :collector-number "RR04c",
         :layout "normal",
         :name "At Least It's a Dry Heat",
@@ -1812,7 +1874,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/5/f/5f9b509c-009e-4f5f-84b4-d139cf6a655d.png?1736520807",
         :collector-number "RR04d",
         :layout "normal",
         :name "The Wheeling Runner",
@@ -1843,9 +1906,9 @@
  #:card{:type-line "Legendary Creature — Bird",
         :layout-category :normal,
         :code "da1",
-        :highres? true,
+        :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/1/2/12fadadf-f8a1-40c0-a99d-87b76cec63f4.png?1730225708",
+        "https://cards.scryfall.io/png/front/1/2/12fadadf-f8a1-40c0-a99d-87b76cec63f4.png?1732285235",
         :collector-number "RU04c",
         :layout "normal",
         :name "The Fearsome Flock",
@@ -2053,7 +2116,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/0/8/08c5e454-4ba9-4c01-a95a-ef44e3d629d7.png?1736520725",
         :collector-number "RZ04m",
         :layout "normal",
         :name "The Bus Runner",
@@ -2063,7 +2127,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8d79f105-357c-4651-bbce-ab03ac6988e5.png?1736520782",
         :collector-number "RZ04n",
         :layout "normal",
         :name "The Majestic Duo",
@@ -2073,7 +2138,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/8/6/8676fec9-8300-4f1d-9477-5504ae734a05.png?1732285266",
         :collector-number "RZ04o",
         :layout "normal",
         :name "Fifth Stage of Magic Design",
@@ -2150,12 +2216,12 @@
         :code "da1",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/f/8/f8c91499-57df-43b3-a250-1573d65cdfa4.png?1730217081",
+        "https://cards.scryfall.io/png/front/f/8/f8c91499-57df-43b3-a250-1573d65cdfa4.png?1731051692",
         :collector-number "MZ05",
         :layout "normal",
         :name "The Horizon Seeker",
         :oracle-text
-        "Horsemanship\nThe Horizon Seeker gets +1/+1 for each different named keyword and ability word among permanents control and instant or sorcery cards in your graveyard. (For example, flying, landfall, and scry count. Flavor words, like \"Magical Tinkering\", or game terms like \"enchant creature\" and \"mana\" do not.)"}
+        "Horsemanship\nThe Horizon Seeker gets +1/+1 for each different named keyword and ability word among permanents you control and instant or sorcery cards in your graveyard. (For example, flying, landfall, and scry count. Flavor words, like \"Magical Tinkering\", or game terms like \"enchant creature\" and \"mana\" do not.)"}
  #:card{:type-line "Legendary Creature — Shapeshifter",
         :layout-category :normal,
         :code "da1",
@@ -2167,17 +2233,28 @@
         :name "The Convincing General",
         :oracle-text
         "Changeling (This card is every creature type.)\nAs the game begins, if this creature is your commander, choose two creature types. For the rest of the game, treat those two types like they're the same among your creatures and creature cards everywhere.\n{3}, {T}: Choose a creature type. Draw a card for each creature you control of that type."}
- #:card{:type-line "Plane — Chicago",
+ #:card{:type-line "Plane — MagicCon",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/8/a8e8faaf-a266-47f9-8c64-40feb3524820.png?1726962845",
+        "https://cards.scryfall.io/png/front/3/0/3066067c-b107-48fc-a9c2-52905c2c9bd4.png?1740344430",
         :collector-number "PLA005",
         :layout "planar",
-        :name "Sky Deck",
+        :name "Pin Collector's Booth",
         :oracle-text
-        "Whenever you planeswalk here, at the beginning of your upkeep, or whenever chaos ensues, put a glass counter on up to one target nonland permanent.\nWhen you planeswalk away from here, destroy all permanents with glass counters on them."}
+        "Whenever you attack, create a Pin token attached to target attacking creature you control. It's an Pin Aura enchantment with enchant creature and \"Enchanted creature gets +1/+1.\"\nWhenever Chaos ensues, each opponent loses X life, where X is the total number of pins attached to you and creatures you control. (This includes pins on your backpack.)"}
+ #:card{:type-line "Plane — MagicCon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/6/864746af-2a6c-49d8-953d-6e2dfa9e2c2a.png?1740343928",
+        :collector-number "PLA005a",
+        :layout "planar",
+        :name "Pin Collector's Booth",
+        :oracle-text
+        "Whenever you attack, create a Pin token attached to target attacking creature you control. It's an Pin Aura enchantment with enchant creature and \"Enchanted creature gets +1/+1.\"\nWhenever Chaos ensues, each opponent loses X life, where X is the total number of pins attached to you and creatures you control. (This includes pins on your backpack.)"}
  #:card{:type-line "Artifact Creature — Dragon",
         :layout-category :normal,
         :code "da1",
@@ -2194,12 +2271,12 @@
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/a/4a44bec7-23ec-464f-8e98-f90b06068cdf.png?1727741205",
+        "https://cards.scryfall.io/png/front/4/a/4a44bec7-23ec-464f-8e98-f90b06068cdf.png?1730998098",
         :collector-number "RA05b",
         :layout "normal",
         :name "Oilskelion",
         :oracle-text
-        "Oil Sunburst (This enters the battlefield with an oil counter on it for each color of mana spent to cast it)\nRemove an oil counter from Oilskelion: Oilskelion deals 1 damage to any target."}
+        "Oil Sunburst (This enters the battlefield with an oil counter on it for each color of mana spent to cast it.)\nRemove an oil counter from Oilskelion: Oilskelion deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "da1",
@@ -2259,7 +2336,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/4/3/435905eb-3ae4-4f06-98bf-16c9fc79bee2.png?1732285271",
         :collector-number "RG05b",
         :layout "normal",
         :name "Oozeavite",
@@ -2291,7 +2369,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/4/7461dba5-8546-436c-a0d2-84dd6cb2aa19.png?1736520839",
         :collector-number "RU05a",
         :layout "normal",
         :name "The Cosplayzer",
@@ -2301,7 +2380,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/3/5/354f9932-4c1e-4a90-bfdf-0dd02be45fed.png?1736520749",
         :collector-number "RU05b",
         :layout "normal",
         :name "The Countering Runner",
@@ -2332,9 +2412,9 @@
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "da1",
-        :highres? true,
+        :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/5/b/5bd9ca12-c7e6-4637-aa21-3e1ea4414a90.png?1730247924",
+        "https://cards.scryfall.io/png/front/5/b/5bd9ca12-c7e6-4637-aa21-3e1ea4414a90.png?1732285292",
         :collector-number "RW05c",
         :layout "normal",
         :name "The Sixth Seraph",
@@ -2344,7 +2424,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/8/2/82bff268-8ae2-433d-8cc8-77099bfac8b8.png?1736520778",
         :collector-number "RW05d",
         :layout "normal",
         :name "The Keeper of Four Scythes",
@@ -2354,7 +2435,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/1/716299e3-5032-4fda-8e66-02ebe376ae9c.png?1736520712",
         :collector-number "RW05e",
         :layout "normal",
         :name "Hosting Season",
@@ -2364,7 +2446,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3b425deb-7d82-45e3-917a-5119319d2380.png?1732285323",
         :collector-number "RW05f",
         :layout "normal",
         :name "Third Stage of Magic Design",
@@ -2429,7 +2512,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/0/a/0ad63f85-7ec7-4921-9984-f0a38f3b2bdb.png?1736520776",
         :collector-number "RZ05f",
         :layout "normal",
         :name "The Judge of Height",
@@ -2439,7 +2523,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/9/8/988aa1a1-05ea-4952-8234-aa612f38b1ae.png?1736520815",
         :collector-number "RZ05g",
         :layout "normal",
         :name "The Zonian Brawler",
@@ -2555,17 +2640,17 @@
         :name "Sojourner's Enforcermite",
         :oracle-text
         "Affinity for Affinity (This card costs {1} less to cast for each permanent you control with affinity.)\nAffinitycycling {2} ({2}, Discard this card: Search your library for a card with affinity, reveal it, put it into your hand, then shuffle.)"}
- #:card{:type-line "Plane — MagicCon",
+ #:card{:type-line "Phenomenon",
         :layout-category :normal,
         :code "da1",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/c/ccabc553-7d67-4e58-81df-c7b825c8e41e.png?1726966768",
+        "https://cards.scryfall.io/png/front/7/6/76fa548a-8c93-458f-b0e2-bc1074359ae2.png?1737724312",
         :collector-number "PLA006",
         :layout "planar",
-        :name "Black Lotus Lounge",
+        :name "Pin Trading",
         :oracle-text
-        "When you planeswalk here and at the beginning of your upkeep, create a Black Lotus artifact token.\nWhenever chaos ensues, each player draws a card for each artifact token they control."}
+        "When you encounter this, draw a card for each pin you are wearing and each Pin token attached to creatures you control. (This includes pins on your backpack.) (Then planeswalk away from this phenomenon.)"}
  #:card{:type-line "Artifact Creature — Angel Demon",
         :layout-category :normal,
         :code "da1",
@@ -2603,7 +2688,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/7/3/732e594a-4efa-4683-a0de-515f59dfe694.png?1732285346",
         :collector-number "RA06d",
         :layout "normal",
         :name "Sharp Eraser",
@@ -2635,7 +2721,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/2/2/22258f18-cc68-4091-95b0-e377ae39c5d2.png?1736520686",
         :collector-number "RC06b",
         :layout "normal",
         :name "Fear of the Unknown",
@@ -2678,7 +2765,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/4/a/4a374f23-0f4c-4be2-adec-8e3956efc035.png?1736520789",
         :collector-number "RR06b",
         :layout "normal",
         :name "The Powerful Dragon",
@@ -2699,7 +2787,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/f/9/f935c4c4-daf7-4861-bd95-c6a05afe6fab.png?1736520756",
         :collector-number "RW06b",
         :layout "normal",
         :name "The Highland Runner",
@@ -2709,7 +2798,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/8/a/8aaddcc9-2c6d-4baf-a91e-a68a07709218.png?1736520747",
         :collector-number "RZ06",
         :layout "normal",
         :name "The Cobra King",
@@ -2752,7 +2842,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/1/6/16bb3915-1715-45f0-b134-899ba291daa3.png?1732285408",
         :collector-number "RZ06d",
         :layout "normal",
         :name "Seventh Stage of Magic Design",
@@ -2813,17 +2904,17 @@
         :name "Unclaimed Tanadon",
         :oracle-text
         "If you're on the Mirran team, this card costs {1} less to cast.\nIf you're on the Phyrexian team, the colored mana symbols in Unclaimed Tanadon's mana cost are Phyrexian mana. (You can pay them either with {G} or 2 life.)"}
- #:card{:type-line "Plane — MagicCon",
+ #:card{:type-line "Plane — Chicago",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/0/3066067c-b107-48fc-a9c2-52905c2c9bd4.png?1726958760",
+        "https://cards.scryfall.io/png/front/f/1/f167ffc1-8957-4c3d-ba7a-7ad86360a51e.png?1737724316",
         :collector-number "PLA007",
         :layout "planar",
-        :name "Pin Collector's Booth",
+        :name "Shy Town",
         :oracle-text
-        "Whenever you attack, create a Pin token attached to target attacking creature you control. It's an enchantment Pin Aura with \"Enchanted creature gets +1/+1.\"\nWhenever chaos ensues, each opponent loses X life, where X is the total number of pins attached to you and creatures you control. (This includes pins on your backpack.)"}
+        "Whenever you planeswalk here and whenever chaos ensues, for each opponent, put a shy counter on up to one target creature they control. That creature becomes a Coward in addition to its other types.\nAt the beginning of your upkeep, create a 2/2 red Warrior creature token with haste and \"Cowards can't block Warriors.\""}
  #:card{:type-line "Artifact Creature — Phyrexian Myr",
         :layout-category :normal,
         :code "da1",
@@ -2900,7 +2991,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/b/0/b08dca7b-dad5-41c7-b6f9-635203a5d5c5.png?1732285414",
         :collector-number "RU07b",
         :layout "normal",
         :name "Fourth Stage of Magic Design",
@@ -2941,14 +3033,14 @@
  #:card{:type-line "Plane — Chicago",
         :layout-category :normal,
         :code "da1",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/8/6814e217-4907-4fe2-90b8-a6cd6e5c4e19.png?1726966787",
+        "https://cards.scryfall.io/png/front/a/8/a8e8faaf-a266-47f9-8c64-40feb3524820.png?1737724320",
         :collector-number "PLA008",
         :layout "planar",
-        :name "The Windy City",
+        :name "Sky Deck",
         :oracle-text
-        "When you planeswalk here, at the beginning of your upkeep, or whenever chaos ensues, put a flying counter on target creature you control without flying.\nWhen you planeswalk away, exile all creatures with flying until the beginning of the next end step."}
+        "Whenever you planeswalk here, at the beginning of your upkeep, or whenever chaos ensues, put a glass counter on up to one target nonland permanent.\nWhen you planeswalk away from here, destroy all permanents with glass counters on them."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "da1",
@@ -3063,12 +3155,23 @@
         :code "da1",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/a/2/a29cc013-ff0e-49e9-8cbf-93d19fea11b2.png?1726966778",
+        "https://cards.scryfall.io/png/front/6/8/6814e217-4907-4fe2-90b8-a6cd6e5c4e19.png?1740342374",
         :collector-number "PLA009",
         :layout "planar",
-        :name "The Bean",
+        :name "The Windy City",
         :oracle-text
-        "Whenever you planeswalk here, each player chooses a creature they control and creates a token copy of it. It's a reflection in addition to its other types, and its power and toughness are inverted.\nWhenever Chaos ensues, create a token that's a copy of a creature you control. It's a reflection in addition to its other types, and its power and toughness are inverted."}
+        "When you planeswalk here, at the beginning of your upkeep, or whenever chaos ensues, put a flying counter on target creature you control without flying.\nWhenever chaos ensues, exile target creature with flying. For as long as it remains exiled, its owner may cast it by paying {2} rather than paying its mana cost.\nWhen you planeswalk away, exile all creatures with flying until the beginning of the next end step."}
+ #:card{:type-line "Plane — Chicago",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/a/6a88e7e7-a6f9-4ef2-b817-710546d3e8be.png?1740383059",
+        :collector-number "PLA009a",
+        :layout "planar",
+        :name "The Windy City",
+        :oracle-text
+        "When you planeswalk here, at the beginning of your upkeep, or whenever chaos ensues, put a flying counter on target creature you control without flying.\nWhenever chaos ensues, exile target creature with flying. For as long as it remains exiled, its owner may cast it by paying {2} rather than paying its mana cost.\nWhen you planeswalk away, exile all creatures with flying until the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Goblin Wizard",
         :layout-category :normal,
         :code "da1",
@@ -3085,7 +3188,7 @@
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/e/6ef1a378-0aa6-474c-ad92-26f62efd04fe.png?1726958788",
+        "https://cards.scryfall.io/png/front/6/e/6ef1a378-0aa6-474c-ad92-26f62efd04fe.png?1737666859",
         :collector-number "PLA010",
         :layout "planar",
         :name "Unknown Event",
@@ -3172,12 +3275,24 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e4b2cff-9fa2-40f4-9b8d-94d537b97c80.png?1736520667",
         :collector-number "CW11",
         :layout "normal",
         :name "Drive to Work",
         :oracle-text
         "Exile target creature or Vehicle. At the beginning of the next end step, return that card to the battlefield under its owner's control. Then you may share a story or fun fact about that card. If you do, you gain 3 life."}
+ #:card{:type-line "Plane — Amsterdam",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/0/6080747e-7d56-404d-a08c-e6a35af60698.png?1740442609",
+        :collector-number "PLA011",
+        :layout "planar",
+        :name "Bicycle Rack",
+        :oracle-text
+        "Cards in each player's hand have cycling {2}.\nChaos: Until end of turn, creatures you control have \"This creature gets +1/+1 for each card you've discarded this turn.\""}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "da1",
@@ -3325,7 +3440,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3b809a71-2c5b-4f3f-bd60-cc47d006099d.png?1736520714",
         :collector-number "CB12",
         :layout "normal",
         :name "Mark Ritual",
@@ -3364,6 +3480,17 @@
         :name "Taught by Serra",
         :oracle-text
         "Commander enchantment (This aura enchants a commander creature, and remains attached to the creature as it moves between any face-up zones. You can cast it on a Commander in your command zone.)\nWhen you cast Taught by Serra, draw a card.\nEnchanted creature has flying and vigilance."}
+ #:card{:type-line "Plane — Clamhattan",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/1/b1440f8e-49cc-4f62-b80c-33c89d709dc6.png?1740341905",
+        :collector-number "PLA012",
+        :layout "planar",
+        :name "Clamilton Estate",
+        :oracle-text
+        "If a wordy permanent entering the battlefield would cause an ability of that permanent or another wordy permanent to trigger, that ability triggers an additional time. (A permanent is wordy if it has four or more lines of rules text.)\nWhenever Chaos ensues, exile cards from the top of your library until you exile a wordy nonland card, Put that card into your hand. Put each card not cast this way on the bottom of your library in a random order."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "da1",
@@ -3401,10 +3528,11 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/9/6/96eb8807-7a8d-4388-8f3e-068f032e78a9.png?1732285434",
         :collector-number "RG12b",
         :layout "normal",
-        :name "Clean, Fair Magic",
+        :name "Clear, Fair Magic",
         :oracle-text
         "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nDestroy target artifact, enchantment, token, emblem, day/night tracker, monarch, initiative, dungeon, city's blessing, Attraction, Contraption, plane, scheme, vanguard, bounty, conspiracy, elite creature, or Magic: The Gathering Online avatar."}
  #:card{:type-line "Sorcery",
@@ -3433,7 +3561,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29f75d69-de91-4a59-8c6e-5968136c26d0.png?1736520819",
         :collector-number "RZ12b",
         :layout "normal",
         :name "Zimone's Homework",
@@ -3516,6 +3645,17 @@
         :name "More of That Strange Oil...",
         :oracle-text
         "Choose one —\n• It's Probably Nothing — Proliferate. Draw a card.\n• That Could Actually Be Dangerous — Counter target creature, artifact, or planeswalker spell. Scry 1."}
+ #:card{:type-line "Plane — Blind Eternities",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3ec0f146-e732-4524-b8f2-4220367fb528.png?1740342001",
+        :collector-number "PLA013",
+        :layout "planar",
+        :name "Event Horizon",
+        :oracle-text
+        "Nonbasic lands are Wastes.\nWhenever you tap a permanent for {C}, add an additional {C}.\nWhenever chaos ensues, choose one —\n• Draw four cards.\n• Destroy target permanent.\n• You may return target creature card from your graveyard to the battlefield."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "da1",
@@ -3531,7 +3671,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/0/6/0657e5e3-d452-4d53-b22f-b582fe299a21.png?1732285460",
         :collector-number "RB13",
         :layout "normal",
         :name "The Archenemy's Charm",
@@ -3588,7 +3729,7 @@
         :highres? true,
         :layout-category :split,
         :png
-        "https://cards.scryfall.io/png/front/3/7/3720b2d8-5f2b-4e42-ab8b-cd04147323c7.png?1727365963",
+        "https://cards.scryfall.io/png/front/3/7/3720b2d8-5f2b-4e42-ab8b-cd04147323c7.png?1733491261",
         :faces
         [{:type-line "Instant",
           :oracle-text
@@ -3629,11 +3770,23 @@
         :name "Taught by Bruce Tarl",
         :oracle-text
         "Commander enchantment (This aura enchants a commander creature, and remains attached to the creature as it moves between any face-up zones. You can cast it on a Commander in your command zone.)\nWhen you cast Taught by Taught by Bruce Tarl, draw a card.\nEnchanted creature has double strike and protection from Oxen."}
+ #:card{:type-line "Plane — Eldraine",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/9/598d7f8d-fd60-40ff-8d56-2e38ca446b82.png?1740343298",
+        :collector-number "PLA014",
+        :layout "planar",
+        :name "The Food Court",
+        :oracle-text
+        "Artifacts are Foods in addition to their other types (They have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nSacrifice three Foods: Add {W}{U}{B}{R}{G}. Activate only once each turn and only during your turn.\nChaos: You become the Monarch. If you are already the Monarch, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/0/e/0e715a0c-98db-40bd-b6fe-ed8b366bc772.png?1736520562",
         :collector-number "RB14",
         :layout "normal",
         :name "Another Night in Vegas",
@@ -3661,17 +3814,17 @@
         :name "Tax Sweeper",
         :oracle-text
         "Creatures get -X/-X until end of turn, where X is your highest commander tax among your commanders. (For example, if you've cast your one commander from your command zone twice, creatures get -4/-4 until end of turn.)"}
- #:card{:type-line "Plane — Blind Eternities",
+ #:card{:type-line "Plane — Thunder Junction",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/e/3ec0f146-e732-4524-b8f2-4220367fb528.png?1726952229",
+        "https://cards.scryfall.io/png/front/5/7/57e2826a-7d0f-4227-981f-161587a70830.png?1740341913",
         :collector-number "PLA015",
         :layout "planar",
-        :name "Event Horizon",
+        :name "High Noon At Thunder Junction",
         :oracle-text
-        "Nonbasic lands are Wastes.\nWhenever you tap a permanent for {C}, add an additional {C}.\nWhenever chaos ensues, choose one —\n• Draw four cards.\n• Destroy target permanent.\n• You may return target creature card from your graveyard to the battlefield."}
+        "Whenever a player draws their second card each turn, any of their opponents may say \"DRAW!\". The first opponent to do so clashes with that player. The player that wins the clash creates two 1/1 black Assassin creature tokens. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)\nWhenever Chaos ensues, draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "da1",
@@ -3711,7 +3864,8 @@
         :layout-category :normal,
         :code "da1",
         :highres? false,
-        :png "https://errors.scryfall.com/soon.jpg",
+        :png
+        "https://cards.scryfall.io/png/front/a/1/a17d88b2-0fe1-4d8b-938d-a0fc8a04590e.png?1736520680",
         :collector-number "RZ15b",
         :layout "normal",
         :name "First Stage of Magic Design",
@@ -3750,6 +3904,17 @@
         :name "Theros Charm",
         :oracle-text
         "Choose one —\n• Idyllic Tutor (Search for an enchantment.)\n• Revoke Existence (Exile an artifact or enchantment.)\n• Reprisal (Destroy a creature with power 4 or greater. It can't be regenerated.)"}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/2/22cfcc84-3709-4e1c-8100-b6d7d4e226b8.png?1737724806",
+        :collector-number "PLA016",
+        :layout "planar",
+        :name "Mad Labs",
+        :oracle-text
+        "When you encounter this phenomenon, starting with the next player in turn order, that player chooses a permanent type. The next player chooses a number between 1 and 10. The next player chooses a keyword counter. Then reveal and resolve the following ability with those words. (don't reveal the second ability before the words have been chosen!)\nEach player creates a token that's a copy of a [permanent] and puts [number] +1/+1 counters on it. If it's not a creature, it becomes a 0/0 creature in addition to its other types. It enters with [keyword] counter."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "da1",
@@ -3783,24 +3948,57 @@
         :name "Ransack, the Lab",
         :oracle-text
         "Spell commander (This card can be your commander. In Limited, it can partner like other monocolored legends.)\nLook at the top three cards of your library. Put one of them into your hand and the rest into your graveyard."}
- #:card{:type-line "Plane — Amsterdam",
+ #:card{:type-line "Plane — Universia Beyondia",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/8/c84ebff2-2040-4e6b-a4e1-a604d773ab0b.png?1727365742",
+        "https://cards.scryfall.io/png/front/f/7/f7d4a7fe-df1d-46de-8509-f021f2edd0ca.png?1740341922",
+        :collector-number "PLA017",
+        :layout "planar",
+        :name "Multiversal High Council",
+        :oracle-text
+        "Universes Beyond spells you cast cost {1} less to cast.\nEach creature gets +1/+1 for each different Universe among permanents its controller controls. (Magic: The Gathering and D&D each count as a universe.)\nWhenever Chaos ensues, for each universe, return up to one target card from that Universe from your graveyard to your hand."}
+ #:card{:type-line "Plane — Ixalan",
+        :layout-category :normal,
+        :code "da1",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/e/de1a9f98-bbfc-4ae7-b919-a5f652825138.png?1737724830",
         :collector-number "PLA018",
         :layout "planar",
-        :name "Stroopwafel Cafe",
+        :name "Oteclán",
         :oracle-text
-        "Players may look at the top card of their library at any time and may play cards from the top of their library.\nThe top card of each player's library is a Food artifact. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\" Activate this ability from the top of the library.)\nChaos: You may sacrifice a Food. If you do, draw a card, gain three life and each opponent loses 3 life."}
+        "When you planeswalk to Oteclán and at the beginning of your upkeep, chaos ensues.\nWhenever chaos ensues, discover 3. (Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/f/d/fd836214-3995-4912-a527-4ddfa975bb91.png?1737724850",
+        :collector-number "PLA019",
+        :layout "planar",
+        :name "Probability Flux",
+        :oracle-text
+        "Until your next turn, if a player would roll one or more dice, instead they roll that many dice plus one and ignore one."}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/d/2d65e2d8-bab3-4e4f-9cd7-f11ff3aa87a5.png?1740341929",
+        :collector-number "PLA020",
+        :layout "planar",
+        :name "Royal Booster",
+        :oracle-text
+        "When you encounter this phenomenon, open a Magic: The Gathering booster pack and shuffle it without looking at its contents. Those cards become the booster deck. You become the monarch. For the rest of the game, at the beginning of the monarch's end step, that player draws a card from the booster deck. They may spend mana of any type to cast those cards. (Then Planeswalk away from this phenomenon.)"}
  #:card{:type-line "Plane — Foldaria",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/1/31a2845c-9fc8-4d77-9ce0-a402eac46533.png?1726952222",
-        :collector-number "PLA019",
+        "https://cards.scryfall.io/png/front/3/1/31a2845c-9fc8-4d77-9ce0-a402eac46533.png?1737721337",
+        :collector-number "PLA021",
         :layout "planar",
         :name "Shrinking Plane",
         :oracle-text
@@ -3810,34 +4008,34 @@
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/8/e88001d1-339d-4143-8ff5-ff09ef4adfb5.png?1727776153",
-        :collector-number "PLA020",
+        "https://cards.scryfall.io/png/front/c/8/c84ebff2-2040-4e6b-a4e1-a604d773ab0b.png?1737721362",
+        :collector-number "PLA022",
         :layout "planar",
-        :name "Windmill Farm",
+        :name "Stroopwafel Cafe",
         :oracle-text
-        "When you planeswalk here and at the beginning of your upkeep, create a Tulip Petal artifact token that has \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nChaos: Spin this plane until the arrow lands on a permanent. If the plane rotated at least 360 degrees during the spin, create a token that's a copy of that permanent."}
- #:card{:type-line "Phenomenon",
+        "Players may look at the top card of their library at any time and may play cards from the top of their library.\nThe top card of each player's library is a Food artifact. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\" Activate this ability from the top of the library.)\nChaos: You may sacrifice a Food. If you do, draw a card, gain three life and each opponent loses 3 life."}
+ #:card{:type-line "Plane — Thunder Junction",
         :layout-category :normal,
         :code "da1",
-        :highres? true,
+        :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/2/d/2d65e2d8-bab3-4e4f-9cd7-f11ff3aa87a5.png?1727365621",
+        "https://cards.scryfall.io/png/front/6/9/6955d29c-0891-44ab-9c6f-2e2abc5729ff.png?1737724877",
         :collector-number "PLA023",
         :layout "planar",
-        :name "Royal Booster",
+        :name "Tarnation",
         :oracle-text
-        "When you encounter this phenomenon, open a Magic: The Gathering booster pack and shuffle it without looking at its contents. Those cards become the booster deck. You become the monarch. For the rest of the game, at the beginning of the monarch's end step, that player draws a card from the booster deck. They may spend mana of any type to cast those cards."}
+        "Whenever a player commits a crime, they may draw a card. (Targeting opponents, anything they control, and/or cards in their graveyard is a crime.)\nWhenever chaos ensues, Tarnation deals 1 damage to any target."}
  #:card{:type-line "Plane — Amsterdam",
         :layout-category :normal,
         :code "da1",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/0/6080747e-7d56-404d-a08c-e6a35af60698.png?1726952191",
+        "https://cards.scryfall.io/png/front/e/8/e88001d1-339d-4143-8ff5-ff09ef4adfb5.png?1737721395",
         :collector-number "PLA024",
         :layout "planar",
-        :name "Bicycle Rack",
+        :name "Windmill Farm",
         :oracle-text
-        "Cards in each player's hand have cycling {2}.\nChaos: Until end of turn, creatures you control have \"This creature gets +1/+1 for each card you've discarded this turn.\""}
+        "When you planeswalk here and at the beginning of your upkeep, create a Tulip Petal artifact token that has \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nChaos: Spin this plane until the arrow lands on a permanent. If the plane rotated at least 360 degrees during the spin, create a token that's a copy of that permanent."}
  #:card{:type-line "Legendary Creature — Dragon Dog",
         :layout-category :normal,
         :code "da1",
@@ -3849,6 +4047,61 @@
         :name "The Dogronmaster",
         :oracle-text
         "Flying\nWhenever The Dogronmaster or another Dragon or Dog enters the battlefield under your control, create a token that's a copy of the card Armadillo Cloak and attach it to that creature."}
+ #:card{:type-line "Plane — Hell",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/4/847b7b50-9262-4c35-be7a-00e9d2fb581e.png?1740341604",
+        :collector-number "PLA025",
+        :layout "planar",
+        :name "Asmoranomardicadaistinaculdacar's Kitchen",
+        :oracle-text
+        "Whenever you planeswalk here and whenever a creature enters under your control, create a Food token.\nWhenever you gain life, target opponent loses that much life.\nWhenever Chaos ensues, you may sacrifice any number of artifacts or creatures. Draw that many cards and lose that much life."}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/1/c1fd6112-f71c-4f3d-979a-9a1178132338.png?1740341631",
+        :collector-number "PLA026",
+        :layout "planar",
+        :name "Circus of the Sun",
+        :oracle-text
+        "Whenever you planeswalk here or at the beginning of your upkeep, create two 1/1 red performer creature tokens with flying and haste.\nWhenever one or more creatures you control with flying deal combat damage to a player, you may return it to your hand. If you do, draw cards equal to its power.\nWhenever Chaos ensues, put a flying counter on up to one target creature. It becomes a Performer in addition to its other types."}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/6/46e49a31-3023-4fe7-8928-38658d71462b.png?1740341660",
+        :collector-number "PLA027",
+        :layout "planar",
+        :name "Elvish Impersonation Contest",
+        :oracle-text
+        "Whenever you planeswalk here and at the beginning of your upkeep, create an Elvish Impersonators token. (It's a {3}{G} Elf creature with \"As this creature enters, roll a six-sided die twice. Its base power becomes the first result and its base toughness becomes the second result.\").\nThank you very much—Whenever Chaos ensues, target Elvish Impersonators becomes a 6/6. Its controller creates a Treasure token."}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a422e17c-f0a3-48f4-ad55-1b78adc2ecf8.png?1740341951",
+        :collector-number "PLA028",
+        :layout "planar",
+        :name "High and Dry Black Market",
+        :oracle-text
+        "Whenever you planeswalk here, starting with you, each player chooses up to 5 ♦ worth of modes and may choose the same mode more than once. (Then Planeswalk away from this phenomenon.)\n♦ — Create a Treasure Token.\n♦ ♦ — Draw a card.\n♦ ♦ ♦ — Create a 3/2 colorless Shapeshifter creature token with Changeling."}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/b/bb4c608e-07d2-4fd8-b291-5c102afca5f6.png?1740341673",
+        :collector-number "PLA029",
+        :layout "planar",
+        :name "Jalira's Show",
+        :oracle-text
+        "Whenever you attack, create a 1/1 red Performer creature token with flying.\nWhenever you planeswalker here or chaos ensues, destroy up to one target creature. When you do, its controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield, then puts the rest on the bottom of their library in a random order."}
  #:card{:type-line "Legendary Artifact Creature — Golem",
         :layout-category :normal,
         :code "da1",
@@ -3860,6 +4113,28 @@
         :name "Phila, Unsealed",
         :oracle-text
         "If the Mirrans won the Unknown event on February 17th, 2023, Phila, Unsealed is also a Rebel with \"You can't get poison counters,\" and has \"{W}{U}{B}{R}{G}: Exile target artifact.\"\nIf the Phyrexians won that event, Phila is also a Phyrexian with \"Other Phyrexians you control get +1/+1 and gain Toxic 1.\""}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/9/894be3e2-455f-4f9b-a2a4-6dfeaf7402d2.png?1740341692",
+        :collector-number "PLA030",
+        :layout "planar",
+        :name "Mojave Desert",
+        :oracle-text
+        "Whenever you planeswalk here, each player searches their library for up to two basic land or Desert cards and puts them onto the battlefield tapped, then shuffles their library. If a Desert entered the battlefield under a player's control this way, they create a 1/1 black Snake creature token with deathtouch.\nWhenever Chaos ensues, create X 1/1 black Snake creature token with deathtouch, where X is 1 plus the number of nonbasic land types among lands that player controls."}
+ #:card{:type-line "Plane — Duskmourn",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/44f6daf9-e3fa-474e-a6af-356c619f8d22.png?1740341694",
+        :collector-number "PLA031",
+        :layout "planar",
+        :name "No Way Out (Playtest)",
+        :oracle-text
+        "No Way Out enters with three dread counters.\nYou can never leave — If a player would planeswalk while this plane has dread counters, chaos ensues instead.\nWhenever you roll the planar die, manifest dread. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)\nWhenever Chaos ensures each player may turn a face-down permanent they control face-up. Remove a dread counter from this plane."}
  #:card{:type-line "Legendary Artifact Creature — Rebel",
         :layout-category :normal,
         :code "da1",
@@ -3871,6 +4146,39 @@
         :name "The Rebellious Intelligence",
         :oracle-text
         "At the beginning of your upkeep, put a random card from outside the game into your hand. (In Commander sealed, that's everything you didn't play with. In any other commander game, find a way to select a random Magic card.)\n{T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs."}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/2/d248f19c-6fe5-4e42-ab77-81c41bacebbb.png?1740341701",
+        :collector-number "PLA032",
+        :layout "planar",
+        :name "Omenpath Instability",
+        :oracle-text
+        "When you encounter this phenomenon, each player creates an Entropy enchantment token with \"Sacrifice this enchantment: Chaos ensues. Activate only as a sorcery\" and an Omenpath enchantment token with \"Sacrifice this enchantment: Planeswalk. Activate only as a sorcery.\" (Then Planeswalk away from this phenomenon.)"}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/e/ee17ba4a-18b0-46a0-adad-c5db51b0367d.png?1740341713",
+        :collector-number "PLA033",
+        :layout "planar",
+        :name "Preston's Stage",
+        :oracle-text
+        "Whenever a player performs a magic trick, they create a Hat token. (You perform a magic trick when you cast an instant or spell with flash, or turn a face-down creature face-up. Hat tokens are artifact tokens with \"{1}, {T}, Sacrifice this artifact: Create a 1/1 white Rabbit creature token.\")\nWhenever Chaos ensues, until your next turn, creature cards in your hand have flash."}
+ #:card{:type-line "Plane — Duskmourn",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/8/7810d18b-32be-485c-95df-8aabf89e57e7.png?1740341778",
+        :collector-number "PLA034",
+        :layout "planar",
+        :name "Pursued by Something",
+        :oracle-text
+        "At the beginning of your second main phase, if you control a tapped creature, manifest dread. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)\nWhenever Chaos ensues, exile target creature. If it's an instant or sorcery, cast it without paying its mana cost. Otherwise put it onto the battlefield under its owner's control."}
  #:card{:type-line "Legendary Creature — Lhurgoyf Wizard",
         :layout-category :normal,
         :code "da1",
@@ -3882,6 +4190,17 @@
         :name "The Duke of Midrange",
         :oracle-text
         "When The Duke of Midrange enters the battlefield, choose one of Thoughtseize, Lightning Bolt, or Abrupt Decay. Cast a copy of the chosen card.\nThe Duke of Midrange's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1."}
+ #:card{:type-line "Plane — Ixalan",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/07252eb1-084c-4ecf-b015-dd00a6ea44ef.png?1740341784",
+        :collector-number "PLA035",
+        :layout "planar",
+        :name "Raiders' Allegiance",
+        :oracle-text
+        "Raid — At the beginning of your second main phase, for each player dealt combat damage this turn, you get a point counter and create a 2/2 black Pirate creature token with menace.\nWhenever you planeswalk away from here, each player with the most point counters or tied for the most point counters creates three Treasure tokens and draws three cards. Then remove all point counters from each player.\nWhenever Chaos ensues, proliferate for each Pirate you control."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "da1",
@@ -3893,6 +4212,39 @@
         :name "The Asker of More Mana",
         :oracle-text
         "Any time a player would pay a mana cost for anything, it costs {1} more mana to activate. (This includes casting spells, activating abilities, turning face-down creatures face up, paying for Ghostly Prison, the weird ability on Quenchable Fire, etc.)"}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/9/e9e3a5b4-0ffb-42b1-9ba0-2e959577afd7.png?1740341792",
+        :collector-number "PLA036",
+        :layout "planar",
+        :name "Team-Up!",
+        :oracle-text
+        "Whenever you encounter this Phenomenon, for the rest of the game, each player wins the game if the players to their left and right are eliminated. (Multiple players can win the game this way.)"}
+ #:card{:type-line "Plane — Las Vegas",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/3/0381e7be-c75f-4ac9-ad21-1f10a904c771.png?1740341798",
+        :collector-number "PLA037",
+        :layout "planar",
+        :name "The Sphere",
+        :oracle-text
+        "Whenever a creature you control becomes blocked, round both its power and toughness up to the nearest 5. (A creature with 5 power would round up to 5.).\nWhenever Chaos ensues, Amass Fans 5. (Put five +1/+1 counters on an Army you control. It's also a Fan. If you don't control an army, create a 0/0 red Fan Army creature token first.)"}
+ #:card{:type-line "Plane — Bloomburrow",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/c/3c94c2c8-46fc-49da-a37b-460e7464aa08.png?1740341806",
+        :collector-number "PLA038",
+        :layout "planar",
+        :name "Welcome to Valley",
+        :oracle-text
+        "Whenever you cast an animal spell, draw a card. (Animals are any non-human creature types that are animals in real life.)\nWhenever Chaos ensues, create a token that's a copy of target creature you control, except it's a 1/1."}
  #:card{:type-line "Legendary Creature — Crab Human",
         :layout-category :normal,
         :code "da1",
@@ -3904,6 +4256,50 @@
         :name "The Crab Queen",
         :oracle-text
         "Whenever The Crab Queen attacks, create a token that's a copy of one of the following at random: Skitter Eel; Skittering Crustacean; Ruin Crab; Charix, the Raging Isle; Scuttletide; or Heartstone."}
+ #:card{:type-line "Plane",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/77abe064-5185-434f-9364-8fb0854c0d31.png?1740342708",
+        :collector-number "PLA039",
+        :layout "planar",
+        :name "Game Knights Live",
+        :oracle-text
+        "Whenever a player casts their commander or attacks with their commander, they may say \"Only one may stand.\" If they do, that commander becomes a Knight in addition to its other types until a player planeswalks away from Game Knights Live.\nKnights you control have double strike and trample.\nWhenever chaos ensues, commanders you control can't be blocked this turn and gain \"Whenever this creature deals combat damage to a player, draw a card\" until end of turn."}
+ #:card{:type-line "Plane — Avishkar",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/8/f8a197a4-1e89-4772-8851-73dd2ffbf329.png?1740342712",
+        :collector-number "PLA040",
+        :layout "planar",
+        :name "Ghirapur Grand Prix",
+        :oracle-text
+        "When you planeswalk here, all players start their engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)\nAt the beginning of your end step, put X+1/+1 counters on target creature you control, where X is your speed.\nWhen you planeswalk away from Ghirapur Grand Prix, each player with the highest speed among players creates three Treasure tokens."}
+ #:card{:type-line "Plane — Foundations",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/7/67156703-f6e2-4804-8cb0-57d7a98845b4.png?1740342674",
+        :collector-number "PLA041",
+        :layout "planar",
+        :name "New Player's Journey",
+        :oracle-text
+        "When you planeswalk here, each player may search their library for a basic land card, put it into their hand, then shuffle.\nWhenever you play a card from Foundations or a core set (including Alpha!), draw a card. Whenever chaos ensues, you gain life equal to the number of years you've played Magic, rounded up. Then planeswalk."}
+ #:card{:type-line "Plane — Innistrad",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/8/68762271-fffe-4a7f-9c8f-c8add913617e.png?1740411683",
+        :collector-number "PLA042",
+        :layout "planar",
+        :name "Sorin's Remastered Manor",
+        :oracle-text
+        "When you planeswalk here and at the beginning your upkeep, put a spooky counter on target creature you control.\nSpooky creatures you control have +1/+1 and menace. (A creature is spooky if it has a spooky counter or it could be a horror movie monster.)\nA Murder at Markov Manor - Whenever chaos ensues, target spooky creature you control bites target opponent or creature an opponent controls. (The creature deals damage equal to its power to the creature your opponent controls. You gain that much life.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "da1",
@@ -3915,6 +4311,50 @@
         :name "The Fish Brewer",
         :oracle-text
         "When The Fish Brewer enters the battlefield or attacks, create a 1/1 Fish creature token that's all colors.\nIf another permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, tap any number of Fish you control. That ability triggers an additional time for each Fish tapped this way."}
+ #:card{:type-line "Phenome-nom",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/e/be58024c-de44-492c-9266-783d89181d8c.png?1740411602",
+        :collector-number "PLA043",
+        :layout "planar",
+        :name "That's Enough Slices",
+        :oracle-text
+        "When you encounter this phenome-nom, each player creates a Pizza token. If that player has the least life or is tied for the least life, they create two Pizza tokens instead. Then planeswalk away from this phenome-nom. (A Pizza token is a Food artifact with \"{02}, {oT}, Sacrifice this token: You gain 6 life.\")"}
+ #:card{:type-line "Plane — MagicCon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/e/8ea684de-c544-444c-ab5c-5b86b0b0fc71.png?1740411586",
+        :collector-number "PLA044",
+        :layout "planar",
+        :name "The Command Zone",
+        :oracle-text
+        "When you planeswalk here, each player who controls their commander draws a card. Other players may put their commander from the command zone onto the battlefield.\nIf an ability of your commander would trigger during your turn, that ability triggers an additional time.\nWhenever chaos ensues, the number of times each commander has been cast from the command zone becomes 0. (This resets commander tax.)"}
+ #:card{:type-line "Plane — MagicCon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/f/8f3d801a-d021-40bf-8c88-adb0cc431756.png?1740411580",
+        :collector-number "PLA045",
+        :layout "planar",
+        :name "The Pro Tour",
+        :oracle-text
+        "Draft—When you planeswalk here, each player opens a booster pack, drafts a card, and exiles it face down. Each player may play the card they drafted for as long as it remains exiled. Players may spend any type of mana to cast spells this way.\nStandard—Whenever chaos ensues, each player draws cards equal to the number of differently named Standard-legal cards they control. (Basic lands count. Tokens don't.)"}
+ #:card{:type-line "Phenomenon",
+        :layout-category :normal,
+        :code "da1",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c0cf1c34-0e8f-4a1f-90aa-f827b48b81d3.png?1740411573",
+        :collector-number "PLA046",
+        :layout "planar",
+        :name "Year-End Review",
+        :oracle-text
+        "Each player may choose a nontoken creature they own on the battlefield, reveal a creature card from their hand, or choose a creature card in their graveyard. Those cards become promoted to commander. Each player may put their new commander into the com- mand zone. Then planeswalk away from this phenom- enon. (All original commanders are still commanders.)"}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "da1",
@@ -3953,7 +4393,7 @@
         :code "da1",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/a/8/a8bf5779-a23f-4e0b-8654-be94a749a54d.png?1730216465",
+        "https://cards.scryfall.io/png/front/a/8/a8bf5779-a23f-4e0b-8654-be94a749a54d.png?1732285490",
         :collector-number "RG59a",
         :layout "normal",
         :name "The Bear Force Pilot Runner",

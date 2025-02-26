@@ -3,12 +3,23 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/8/e83b1b87-01d5-4624-8a2b-4b771e13e59c.png?1673306290",
+        "https://cards.scryfall.io/png/front/e/8/e83b1b87-01d5-4624-8a2b-4b771e13e59c.png?1686553669",
         :collector-number "1",
         :layout "normal",
         :name "Karn, Living Legacy",
         :oracle-text
         "+1: Create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")\n−1: Pay any amount of mana. Look at that many cards from the top of your library, then put one of those cards into your hand and the rest on the bottom of your library in a random order.\n−7: You get an emblem with \"Tap an untapped artifact you control: This emblem deals 1 damage to any target.\""}
+ #:card{:type-line "Legendary Planeswalker — Karn",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/c/0c96e084-88b9-4390-bca2-5d1b7a459abc.png?1706800355",
+        :collector-number "A-1",
+        :layout "normal",
+        :name "A-Karn, Living Legacy",
+        :oracle-text
+        "+1: Create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")\n0: Pay any amount of mana. Look at that many cards from the top of your library, then put one of those cards into your hand and the rest on the bottom of your library in a random order.\n−6: You get an emblem with \"Tap an untapped artifact you control: This emblem deals 1 damage to any target.\""}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -19,7 +30,7 @@
         :layout "normal",
         :name "Anointed Peacekeeper",
         :oracle-text
-        "Vigilance\nAs Anointed Peacekeeper enters the battlefield, look at an opponent's hand, then choose any card name.\nSpells your opponents cast with the chosen name cost {2} more to cast.\nActivated abilities of sources with the chosen name cost {2} more to activate unless they're mana abilities."}
+        "Vigilance\nAs this creature enters, look at an opponent's hand, then choose any card name.\nSpells your opponents cast with the chosen name cost {2} more to cast.\nActivated abilities of sources with the chosen name cost {2} more to activate unless they're mana abilities."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "dmu",
@@ -30,7 +41,7 @@
         :layout "normal",
         :name "Archangel of Wrath",
         :oracle-text
-        "Kicker {B} and/or {R} (You may pay an additional {B} and/or {R} as you cast this spell.)\nFlying, lifelink\nWhen Archangel of Wrath enters the battlefield, if it was kicked, it deals 2 damage to any target.\nWhen Archangel of Wrath enters the battlefield, if it was kicked twice, it deals 2 damage to any target."}
+        "Kicker {B} and/or {R} (You may pay an additional {B} and/or {R} as you cast this spell.)\nFlying, lifelink\nWhen this creature enters, if it was kicked, it deals 2 damage to any target.\nWhen this creature enters, if it was kicked twice, it deals 2 damage to any target."}
  #:card{:type-line "Creature — Orc Knight",
         :layout-category :normal,
         :code "dmu",
@@ -41,7 +52,7 @@
         :layout "normal",
         :name "Argivian Cavalier",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhen Argivian Cavalier enters the battlefield, create a 1/1 white Soldier creature token."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhen this creature enters, create a 1/1 white Soldier creature token."}
  #:card{:type-line "Creature — Human Kor Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -52,7 +63,7 @@
         :layout "normal",
         :name "Argivian Phalanx",
         :oracle-text
-        "This spell costs {1} less to cast for each creature you control.\nVigilance"}
+        "Affinity for creatures (This spell costs {1} less to cast for each creature you control.)\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -85,7 +96,7 @@
         :layout "normal",
         :name "Benalish Sleeper",
         :oracle-text
-        "Kicker {B} (You may pay an additional {B} as you cast this spell.)\nWhen Benalish Sleeper enters the battlefield, if it was kicked, each player sacrifices a creature."}
+        "Kicker {B} (You may pay an additional {B} as you cast this spell.)\nWhen this creature enters, if it was kicked, each player sacrifices a creature of their choice."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -117,7 +128,7 @@
         :layout "normal",
         :name "Citizen's Arrest",
         :oracle-text
-        "When Citizen's Arrest enters the battlefield, exile target creature or planeswalker an opponent controls until Citizen's Arrest leaves the battlefield."}
+        "When this enchantment enters, exile target creature or planeswalker an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -128,7 +139,7 @@
         :layout "normal",
         :name "Cleaving Skyrider",
         :oracle-text
-        "Flash\nKicker {2}{R} (You may pay an additional {2}{R} as you cast this spell.)\nFlying\nWhen Cleaving Skyrider enters the battlefield, if it was kicked, it deals X damage to any target, where X is the number of attacking creatures."}
+        "Flash\nKicker {2}{R} (You may pay an additional {2}{R} as you cast this spell.)\nFlying\nWhen this creature enters, if it was kicked, it deals X damage to any target, where X is the number of attacking creatures."}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "dmu",
@@ -160,7 +171,7 @@
         :layout "normal",
         :name "Danitha, Benalia's Hope",
         :oracle-text
-        "First strike, vigilance, lifelink\nWhen Danitha, Benalia's Hope enters the battlefield, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
+        "First strike, vigilance, lifelink\nWhen Danitha enters, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
  #:card{:type-line "Creature — Phyrexian Human",
         :layout-category :normal,
         :code "dmu",
@@ -193,7 +204,7 @@
         :layout "normal",
         :name "Griffin Protector",
         :oracle-text
-        "Flying\nWhenever another creature enters the battlefield under your control, Griffin Protector gets +1/+1 until end of turn."}
+        "Flying\nWhenever another creature you control enters, this creature gets +1/+1 until end of turn."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -204,7 +215,7 @@
         :layout "normal",
         :name "Guardian of New Benalia",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhenever Guardian of New Benalia enlists a creature, scry 2.\nDiscard a card: Guardian of New Benalia gains indestructible until end of turn. Tap it."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhenever this creature enlists a creature, scry 2.\nDiscard a card: This creature gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -237,7 +248,7 @@
         :layout "normal",
         :name "Juniper Order Rootweaver",
         :oracle-text
-        "Kicker {G} (You may pay an additional {G} as you cast this spell.)\nWhen Juniper Order Rootweaver enters the battlefield, if it was kicked, put a +1/+1 counter on target creature you control."}
+        "Kicker {G} (You may pay an additional {G} as you cast this spell.)\nWhen this creature enters, if it was kicked, put a +1/+1 counter on target creature you control."}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -248,7 +259,7 @@
         :layout "normal",
         :name "Knight of Dawn's Light",
         :oracle-text
-        "First strike\nIf you would gain life, you gain that much life plus 1 instead.\n{1}{W}: Knight of Dawn's Light gets +1/+1 until end of turn."}
+        "First strike\nIf you would gain life, you gain that much life plus 1 instead.\n{1}{W}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "dmu",
@@ -259,7 +270,7 @@
         :layout "normal",
         :name "Leyline Binding",
         :oracle-text
-        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters the battlefield, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
@@ -281,7 +292,7 @@
         :layout "normal",
         :name "Mesa Cavalier",
         :oracle-text
-        "Flying\nWhen Mesa Cavalier enters the battlefield, you gain 2 life."}
+        "Flying\nWhen this creature enters, you gain 2 life."}
  #:card{:type-line "Creature — Phyrexian Human Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -292,7 +303,7 @@
         :layout "normal",
         :name "Phyrexian Missionary",
         :oracle-text
-        "Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)\nLifelink\nWhen Phyrexian Missionary enters the battlefield, if it was kicked, return target creature card from your graveyard to your hand."}
+        "Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)\nLifelink\nWhen this creature enters, if it was kicked, return target creature card from your graveyard to your hand."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "dmu",
@@ -303,7 +314,7 @@
         :layout "normal",
         :name "Prayer of Binding",
         :oracle-text
-        "Flash\nWhen Prayer of Binding enters the battlefield, exile up to one target nonland permanent an opponent controls until Prayer of Binding leaves the battlefield. You gain 2 life."}
+        "Flash\nWhen this enchantment enters, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield. You gain 2 life."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -314,7 +325,7 @@
         :layout "normal",
         :name "Resolute Reinforcements",
         :oracle-text
-        "Flash\nWhen Resolute Reinforcements enters the battlefield, create a 1/1 white Soldier creature token."}
+        "Flash (You may cast this spell any time you could cast an instant.)\nWhen this creature enters, create a 1/1 white Soldier creature token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -336,13 +347,13 @@
         :layout "normal",
         :name "Samite Herbalist",
         :oracle-text
-        "Whenever Samite Herbalist becomes tapped, you gain 1 life and scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Whenever this creature becomes tapped, you gain 1 life and scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/e/ce295f1e-fb31-4275-a5d3-8c6f29afff40.png?1673306571",
+        "https://cards.scryfall.io/png/front/c/e/ce295f1e-fb31-4275-a5d3-8c6f29afff40.png?1739402923",
         :collector-number "32",
         :layout "normal",
         :name "Serra Paragon",
@@ -358,7 +369,7 @@
         :layout "normal",
         :name "Shalai's Acolyte",
         :oracle-text
-        "Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)\nFlying\nIf Shalai's Acolyte was kicked, it enters the battlefield with two +1/+1 counters on it."}
+        "Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)\nFlying\nIf this creature was kicked, it enters with two +1/+1 counters on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -391,7 +402,7 @@
         :layout "normal",
         :name "Temporary Lockdown",
         :oracle-text
-        "When Temporary Lockdown enters the battlefield, exile each nonland permanent with mana value 2 or less until Temporary Lockdown leaves the battlefield."}
+        "When this enchantment enters, exile each nonland permanent with mana value 2 or less until this enchantment leaves the battlefield."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
@@ -413,7 +424,7 @@
         :layout "normal",
         :name "Valiant Veteran",
         :oracle-text
-        "Other Soldiers you control get +1/+1.\n{3}{W}{W}, Exile Valiant Veteran from your graveyard: Put a +1/+1 counter on each Soldier you control."}
+        "Other Soldiers you control get +1/+1.\n{3}{W}{W}, Exile this card from your graveyard: Put a +1/+1 counter on each Soldier you control."}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -424,7 +435,7 @@
         :layout "normal",
         :name "Wingmantle Chaplain",
         :oracle-text
-        "Defender\nWhen Wingmantle Chaplain enters the battlefield, create a 1/1 white Bird creature token with flying for each creature with defender you control.\nWhenever another creature with defender enters the battlefield under your control, create a 1/1 white Bird creature token with flying."}
+        "Defender\nWhen this creature enters, create a 1/1 white Bird creature token with flying for each creature with defender you control.\nWhenever another creature you control with defender enters, create a 1/1 white Bird creature token with flying."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -457,7 +468,7 @@
         :layout "normal",
         :name "Aether Channeler",
         :oracle-text
-        "When Aether Channeler enters the battlefield, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card."}
+        "When this creature enters, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card."}
  #:card{:type-line "Creature — Bird Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -468,7 +479,7 @@
         :layout "normal",
         :name "Battlewing Mystic",
         :oracle-text
-        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nFlying\nWhen Battlewing Mystic enters the battlefield, if it was kicked, discard your hand, then draw two cards."}
+        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nFlying\nWhen this creature enters, if it was kicked, discard your hand, then draw two cards."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "dmu",
@@ -512,7 +523,7 @@
         :layout "normal",
         :name "Djinn of the Fountain",
         :oracle-text
-        "Flying\nWhenever you cast an instant or sorcery spell, choose one —\n• Djinn of the Fountain gets +1/+1 until end of turn.\n• Exile Djinn of the Fountain. Return it to the battlefield under its owner's control at the beginning of the next end step.\n• Scry 1."}
+        "Flying\nWhenever you cast an instant or sorcery spell, choose one —\n• This creature gets +1/+1 until end of turn.\n• Exile this creature. Return it to the battlefield under its owner's control at the beginning of the next end step.\n• Scry 1."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -555,7 +566,7 @@
         :layout "normal",
         :name "Frostfist Strider",
         :oracle-text
-        "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhen Frostfist Strider enters the battlefield, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+        "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhen this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
  #:card{:type-line "Creature — Djinn",
         :layout-category :normal,
         :code "dmu",
@@ -577,7 +588,7 @@
         :layout "normal",
         :name "Haunting Figment",
         :oracle-text
-        "Vigilance\nHaunting Figment can't be blocked as long as you've cast an instant or sorcery spell this turn."}
+        "Vigilance\nThis creature can't be blocked as long as you've cast an instant or sorcery spell this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -588,7 +599,7 @@
         :layout "normal",
         :name "Impede Momentum",
         :oracle-text
-        "Tap target creature and put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nScry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Tap target creature and put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nScry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -621,7 +632,7 @@
         :layout "normal",
         :name "Micromancer",
         :oracle-text
-        "When Micromancer enters the battlefield, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle."}
+        "When this creature enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -642,7 +653,7 @@
         :layout "saga",
         :name "The Phasing of Zhalfir",
         :oracle-text
-        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI, II — Another target nonland permanent phases out. It can't phase in for as long as you control The Phasing of Zhalfir.\nIII — Destroy all creatures. For each creature destroyed this way, its controller creates a 2/2 black Phyrexian creature token."}
+        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI, II — Another target nonland permanent phases out. It can't phase in for as long as you control this Saga.\nIII — Destroy all creatures. For each creature destroyed this way, its controller creates a 2/2 black Phyrexian creature token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -664,7 +675,7 @@
         :layout "normal",
         :name "Pixie Illusionist",
         :oracle-text
-        "Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)\nFlying\nIf Pixie Illusionist was kicked, it enters the battlefield with two +1/+1 counters on it.\n{T}: Target land you control becomes the basic land type of your choice until end of turn."}
+        "Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)\nFlying\nIf this creature was kicked, it enters with two +1/+1 counters on it.\n{T}: Target land you control becomes the basic land type of your choice until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -708,7 +719,7 @@
         :layout "normal",
         :name "Silver Scrutiny",
         :oracle-text
-        "You may cast Silver Scrutiny as though it had flash if X is 3 or less.\nDraw X cards."}
+        "You may cast this spell as though it had flash if X is 3 or less.\nDraw X cards."}
  #:card{:type-line "Creature — Drake",
         :layout-category :normal,
         :code "dmu",
@@ -729,7 +740,7 @@
         :layout "normal",
         :name "Sphinx of Clear Skies",
         :oracle-text
-        "Flying, ward {2}\nDomain — Whenever Sphinx of Clear Skies deals combat damage to a player, reveal the top X cards of your library, where X is the number of basic land types among lands you control. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard. (Piles can be empty.)"}
+        "Flying, ward {2}\nDomain — Whenever this creature deals combat damage to a player, reveal the top X cards of your library, where X is the number of basic land types among lands you control. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard. (Piles can be empty.)"}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "dmu",
@@ -740,7 +751,7 @@
         :layout "normal",
         :name "Talas Lookout",
         :oracle-text
-        "Flying\nWhen Talas Lookout dies, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."}
+        "Flying\nWhen this creature dies, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."}
  #:card{:type-line "Creature — Turtle",
         :layout-category :normal,
         :code "dmu",
@@ -751,7 +762,7 @@
         :layout "normal",
         :name "Tidepool Turtle",
         :oracle-text
-        "{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -806,7 +817,7 @@
         :layout "normal",
         :name "Voda Sea Scavenger",
         :oracle-text
-        "Domain — When Voda Sea Scavenger enters the battlefield, look at the top X cards of your library, where X is the number of basic land types among lands you control. You may put one of those cards on top of your library. Put the rest on the bottom of your library in a random order."}
+        "Domain — When this creature enters, look at the top X cards of your library, where X is the number of basic land types among lands you control. You may put one of those cards on top of your library. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Creature — Merfolk Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -828,7 +839,7 @@
         :layout "normal",
         :name "Vodalian Mindsinger",
         :oracle-text
-        "Kicker {1}{R} and/or {1}{G}\nVodalian Mindsinger enters the battlefield with two +1/+1 counters on it for each time it was kicked.\nWhen Vodalian Mindsinger enters the battlefield, gain control of target creature with power less than Vodalian Mindsinger's power for as long as you control Vodalian Mindsinger."}
+        "Kicker {1}{R} and/or {1}{G}\nThis creature enters with two +1/+1 counters on it for each time it was kicked.\nWhen this creature enters, gain control of target creature with power less than this creature's power for as long as you control this creature."}
  #:card{:type-line "Creature — Merfolk Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -861,7 +872,7 @@
         :layout "normal",
         :name "Balduvian Atrocity",
         :oracle-text
-        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nMenace\nWhen Balduvian Atrocity enters the battlefield, if it was kicked, return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains haste. Sacrifice it at the beginning of the next end step."}
+        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nMenace\nWhen this creature enters, if it was kicked, return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains haste. Sacrifice it at the beginning of the next end step."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -883,7 +894,7 @@
         :layout "normal",
         :name "Battlefly Swarm",
         :oracle-text
-        "Flying\n{B}: Battlefly Swarm gains deathtouch until end of turn."}
+        "Flying\n{B}: This creature gains deathtouch until end of turn."}
  #:card{:type-line "Creature — Phyrexian",
         :layout-category :normal,
         :code "dmu",
@@ -916,7 +927,7 @@
         :layout "normal",
         :name "Braids, Arisen Nightmare",
         :oracle-text
-        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
+        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
@@ -927,7 +938,7 @@
         :layout "saga",
         :name "Braids's Frightful Return",
         :oracle-text
-        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — You may sacrifice a creature. If you do, each opponent discards a card.\nII — Return target creature card from your graveyard to your hand.\nIII — Target opponent may sacrifice a nonland, nontoken permanent. If they don't, they lose 2 life and you draw a card."}
+        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — You may sacrifice a creature. If you do, each opponent discards a card.\nII — Return target creature card from your graveyard to your hand.\nIII — Target opponent may sacrifice a nonland, nontoken permanent of their choice. If they don't, they lose 2 life and you draw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -960,7 +971,7 @@
         :layout "normal",
         :name "Cult Conscript",
         :oracle-text
-        "Cult Conscript enters the battlefield tapped.\n{1}{B}: Return Cult Conscript from your graveyard to the battlefield. Activate only if a non-Skeleton creature died under your control this turn."}
+        "This creature enters tapped.\n{1}{B}: Return this card from your graveyard to the battlefield. Activate only if a non-Skeleton creature died under your control this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1004,7 +1015,7 @@
         :layout "normal",
         :name "Eerie Soultender",
         :oracle-text
-        "When Eerie Soultender enters the battlefield, mill three cards. (To mill a card, put the top card of your library into your graveyard.)\n{4}{B}, Exile Eerie Soultender from your graveyard: Return another target creature card from your graveyard to your hand."}
+        "When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)\n{4}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand."}
  #:card{:type-line "Creature — Human",
         :layout-category :normal,
         :code "dmu",
@@ -1015,7 +1026,7 @@
         :layout "normal",
         :name "Evolved Sleeper",
         :oracle-text
-        "{B}: Evolved Sleeper becomes a Human Cleric with base power and toughness 2/2.\n{1}{B}: If Evolved Sleeper is a Cleric, put a deathtouch counter on it and it becomes a Phyrexian Human Cleric with base power and toughness 3/3.\n{1}{B}{B}: If Evolved Sleeper is a Phyrexian, put a +1/+1 counter on it, then you draw a card and you lose 1 life."}
+        "{B}: This creature becomes a Human Cleric with base power and toughness 2/2.\n{1}{B}: If this creature is a Cleric, put a deathtouch counter on it and it becomes a Phyrexian Human Cleric with base power and toughness 3/3.\n{1}{B}{B}: If this creature is a Phyrexian, put a +1/+1 counter on it, then you draw a card and you lose 1 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1048,7 +1059,7 @@
         :layout "normal",
         :name "Knight of Dusk's Shadow",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\nYour opponents can't gain life.\n{1}{B}: Knight of Dusk's Shadow gets +1/+1 until end of turn."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\nYour opponents can't gain life.\n{1}{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Legendary Planeswalker — Liliana",
         :layout-category :normal,
         :code "dmu",
@@ -1070,7 +1081,7 @@
         :layout "normal",
         :name "Monstrous War-Leech",
         :oracle-text
-        "Kicker {U} (You may pay an additional {U} as you cast this spell.)\nAs Monstrous War-Leech enters the battlefield, if it was kicked, mill four cards. (To mill a card, put the top card of your library into your graveyard.)\nMonstrous War-Leech's power and toughness are each equal to the highest mana value among cards in your graveyard."}
+        "Kicker {U} (You may pay an additional {U} as you cast this spell.)\nAs this creature enters, if it was kicked, mill four cards. (To mill a card, put the top card of your library into your graveyard.)\nMonstrous War-Leech's power and toughness are each equal to the highest mana value among cards in your graveyard."}
  #:card{:type-line "Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "dmu",
@@ -1081,7 +1092,7 @@
         :layout "normal",
         :name "Phyrexian Rager",
         :oracle-text
-        "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life."}
+        "When this creature enters, you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Phyrexian Human",
         :layout-category :normal,
         :code "dmu",
@@ -1092,7 +1103,7 @@
         :layout "normal",
         :name "Phyrexian Vivisector",
         :oracle-text
-        "Whenever a creature you control dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Whenever a creature you control dies, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Phyrexian Horse",
         :layout-category :normal,
         :code "dmu",
@@ -1103,7 +1114,7 @@
         :layout "normal",
         :name "Phyrexian Warhorse",
         :oracle-text
-        "Kicker {W} (You may pay an additional {W} as you cast this spell.)\nWhen Phyrexian Warhorse enters the battlefield, if it was kicked, create a 1/1 white Soldier creature token.\n{1}, Sacrifice another creature: Phyrexian Warhorse gets +2/+1 until end of turn."}
+        "Kicker {W} (You may pay an additional {W} as you cast this spell.)\nWhen this creature enters, if it was kicked, create a 1/1 white Soldier creature token.\n{1}, Sacrifice another creature: This creature gets +2/+1 until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1125,7 +1136,7 @@
         :layout "normal",
         :name "The Raven Man",
         :oracle-text
-        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This creature can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
+        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This token can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "dmu",
@@ -1136,7 +1147,7 @@
         :layout "normal",
         :name "Sengir Connoisseur",
         :oracle-text
-        "Flying\nWhenever one or more other creatures die, put a +1/+1 counter on Sengir Connoisseur. This ability triggers only once each turn."}
+        "Flying\nWhenever one or more other creatures die, put a +1/+1 counter on this creature. This ability triggers only once each turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1191,7 +1202,7 @@
         :layout "normal",
         :name "Splatter Goblin",
         :oracle-text
-        "When Splatter Goblin dies, target creature an opponent controls gets -1/-1 until end of turn."}
+        "When this creature dies, target creature an opponent controls gets -1/-1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "dmu",
@@ -1202,7 +1213,7 @@
         :layout "normal",
         :name "Stronghold Arena",
         :oracle-text
-        "Kicker {G} and/or {W} (You may pay an additional {G} and/or {W} as you cast this spell.)\nWhen Stronghold Arena enters the battlefield, you gain 3 life for each time it was kicked.\nWhenever one or more creatures you control deal combat damage to a player, you may reveal the top card of your library and put it into your hand. If you do, you lose life equal to its mana value."}
+        "Kicker {G} and/or {W} (You may pay an additional {G} and/or {W} as you cast this spell.)\nWhen this enchantment enters, you gain 3 life for each time it was kicked.\nWhenever one or more creatures you control deal combat damage to a player, you may reveal the top card of your library and put it into your hand. If you do, you lose life equal to its mana value."}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "dmu",
@@ -1213,7 +1224,7 @@
         :layout "normal",
         :name "Tattered Apparition",
         :oracle-text
-        "Flying\n{1}{B}: Tattered Apparition gets +1/+1 until end of turn."}
+        "Flying\n{1}{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Creature — Phyrexian Zombie",
         :layout-category :normal,
         :code "dmu",
@@ -1223,8 +1234,7 @@
         :collector-number "112",
         :layout "normal",
         :name "Toxic Abomination",
-        :oracle-text
-        "When Toxic Abomination enters the battlefield, you lose 2 life."}
+        :oracle-text "When this creature enters, you lose 2 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1268,7 +1278,7 @@
         :layout "normal",
         :name "Balduvian Berserker",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhen Balduvian Berserker dies, it deals damage equal to its power to any target."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhen this creature dies, it deals damage equal to its power to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1301,7 +1311,7 @@
         :layout "normal",
         :name "Defiler of Instinct",
         :oracle-text
-        "First strike\nAs an additional cost to cast red permanent spells, you may pay 2 life. Those spells cost {R} less to cast if you paid life this way. This effect reduces only the amount of red mana you pay.\nWhenever you cast a red permanent spell, Defiler of Instinct deals 1 damage to any target."}
+        "First strike\nAs an additional cost to cast red permanent spells, you may pay 2 life. Those spells cost {R} less to cast if you paid life this way. This effect reduces only the amount of red mana you pay.\nWhenever you cast a red permanent spell, this creature deals 1 damage to any target."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "dmu",
@@ -1312,7 +1322,7 @@
         :layout "normal",
         :name "Dragon Whelp",
         :oracle-text
-        "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice this creature at the beginning of the next end step."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
@@ -1323,7 +1333,7 @@
         :layout "saga",
         :name "The Elder Dragon War",
         :oracle-text
-        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — The Elder Dragon War deals 2 damage to each creature and each opponent.\nII — Discard any number of cards, then draw that many cards.\nIII — Create a 4/4 red Dragon creature token with flying."}
+        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — This Saga deals 2 damage to each creature and each opponent.\nII — Discard any number of cards, then draw that many cards.\nIII — Create a 4/4 red Dragon creature token with flying."}
  #:card{:type-line "Creature — Dwarf Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -1334,7 +1344,7 @@
         :layout "normal",
         :name "Electrostatic Infantry",
         :oracle-text
-        "Trample\nWhenever you cast an instant or sorcery spell, put a +1/+1 counter on Electrostatic Infantry."}
+        "Trample\nWhenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1366,7 +1376,7 @@
         :layout "normal",
         :name "Flowstone Kavu",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\n{R}: Flowstone Kavu gets +1/-1 until end of turn."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\n{R}: This creature gets +1/-1 until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1377,7 +1387,7 @@
         :layout "normal",
         :name "Furious Bellow",
         :oracle-text
-        "Target creature gets +3/+0 and gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Target creature gets +3/+0 and gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -1388,7 +1398,7 @@
         :layout "normal",
         :name "Ghitu Amplifier",
         :oracle-text
-        "Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)\nWhen Ghitu Amplifier enters the battlefield, if it was kicked, return target creature an opponent controls to its owner's hand.\nWhenever you cast an instant or sorcery spell, Ghitu Amplifier gets +2/+0 until end of turn."}
+        "Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)\nWhen this creature enters, if it was kicked, return target creature an opponent controls to its owner's hand.\nWhenever you cast an instant or sorcery spell, this creature gets +2/+0 until end of turn."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "dmu",
@@ -1409,7 +1419,7 @@
         :layout "normal",
         :name "Hammerhand",
         :oracle-text
-        "Enchant creature\nWhen Hammerhand enters the battlefield, target creature can't block this turn.\nEnchanted creature gets +1/+1 and has haste."}
+        "Enchant creature\nWhen this Aura enters, target creature can't block this turn.\nEnchanted creature gets +1/+1 and has haste."}
  #:card{:type-line "Creature — Cyclops",
         :layout-category :normal,
         :code "dmu",
@@ -1420,7 +1430,7 @@
         :layout "normal",
         :name "Hurler Cyclops",
         :oracle-text
-        "{1}, Sacrifice another creature: Hurler Cyclops deals 1 damage to any target."}
+        "{1}, Sacrifice another creature: This creature deals 1 damage to any target."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1453,7 +1463,7 @@
         :layout "normal",
         :name "Jaya, Fiery Negotiator",
         :oracle-text
-        "+1: Create a 1/1 red Monk creature token with prowess.\n−1: Exile the top two cards of your library. Choose one of them. You may play that card this turn.\n−2: Choose target creature an opponent controls. Whenever you attack this turn, Jaya, Fiery Negotiator deals damage equal to the number of attacking creatures to that creature.\n−8: You get an emblem with \"Whenever you cast a red instant or sorcery spell, copy it twice. You may choose new targets for the copies.\""}
+        "+1: Create a 1/1 red Monk creature token with prowess.\n−1: Exile the top two cards of your library. Choose one of them. You may play that card this turn.\n−2: Choose target creature an opponent controls. Whenever you attack this turn, Jaya deals damage equal to the number of attacking creatures to that creature.\n−8: You get an emblem with \"Whenever you cast a red instant or sorcery spell, copy it twice. You may choose new targets for the copies.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1464,7 +1474,7 @@
         :layout "normal",
         :name "Jaya's Firenado",
         :oracle-text
-        "Jaya's Firenado deals 5 damage to target creature or planeswalker. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "Jaya's Firenado deals 5 damage to target creature or planeswalker. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Human Shaman",
         :layout-category :normal,
         :code "dmu",
@@ -1475,7 +1485,7 @@
         :layout "normal",
         :name "Keldon Flamesage",
         :oracle-text
-        "Enlist\nWhenever Keldon Flamesage attacks, look at the top X cards of your library, where X is Keldon Flamesage's power. You may exile an instant or sorcery card with mana value X or less from among them. Put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."}
+        "Enlist\nWhenever this creature attacks, look at the top X cards of your library, where X is this creature's power. You may exile an instant or sorcery card with mana value X or less from among them. Put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1486,7 +1496,7 @@
         :layout "normal",
         :name "Keldon Strike Team",
         :oracle-text
-        "Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)\nWhen Keldon Strike Team enters the battlefield, if it was kicked, create two 1/1 white Soldier creature tokens.\nAs long as Keldon Strike Team entered the battlefield this turn, creatures you control have haste."}
+        "Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)\nWhen this creature enters, if it was kicked, create two 1/1 white Soldier creature tokens.\nAs long as this creature entered this turn, creatures you control have haste."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1507,7 +1517,18 @@
         :layout "normal",
         :name "Meria's Outrider",
         :oracle-text
-        "Reach\nDomain — When Meria's Outrider enters the battlefield, it deals damage to each opponent equal to the number of basic land types among lands you control."}
+        "Reach\nDomain — When this creature enters, it deals damage to each opponent equal to the number of basic land types among lands you control."}
+ #:card{:type-line "Creature — Elf Archer",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/9/29bc8e99-bfdc-4ee9-a7f6-61b7d8c1f5e0.png?1705117378",
+        :collector-number "A-138",
+        :layout "normal",
+        :name "A-Meria's Outrider",
+        :oracle-text
+        "Reach\nDomain — When Meria's Outrider enters, it deals damage equal to the number of basic land types among lands you control to any target."}
  #:card{:type-line "Creature — Hellion",
         :layout-category :normal,
         :code "dmu",
@@ -1529,7 +1550,7 @@
         :layout "normal",
         :name "Phoenix Chick",
         :oracle-text
-        "Flying, haste\nPhoenix Chick can't block.\nWhenever you attack with three or more creatures, you may pay {R}{R}. If you do, return Phoenix Chick from your graveyard to the battlefield tapped and attacking with a +1/+1 counter on it."}
+        "Flying, haste\nThis creature can't block.\nWhenever you attack with three or more creatures, you may pay {R}{R}. If you do, return this card from your graveyard to the battlefield tapped and attacking with a +1/+1 counter on it."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1540,7 +1561,18 @@
         :layout "normal",
         :name "Radha's Firebrand",
         :oracle-text
-        "Whenever Radha's Firebrand attacks, target creature defending player controls with power less than Radha's Firebrand's power can't block this turn.\nDomain — {5}{R}: Radha's Firebrand gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn."}
+        "Whenever this creature attacks, target creature defending player controls with power less than this creature's power can't block this turn.\nDomain — {5}{R}: This creature gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn."}
+ #:card{:type-line "Creature — Human Warrior",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/d/3d63d37c-34a3-4b63-a6bf-c0f403a3f709.png?1705117356",
+        :collector-number "A-141",
+        :layout "normal",
+        :name "A-Radha's Firebrand",
+        :oracle-text
+        "Whenever Radha's Firebrand attacks, target creature defending player controls with power less than or equal to Radha's Firebrand's power can't block this turn.\nDomain — {5}{R}: Radha's Firebrand gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn."}
  #:card{:type-line "Creature — Goblin Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1551,18 +1583,18 @@
         :layout "normal",
         :name "Rundvelt Hordemaster",
         :oracle-text
-        "Other Goblins you control get +1/+1.\nWhenever Rundvelt Hordemaster or another Goblin you control dies, exile the top card of your library. If it's a Goblin creature card, you may cast that card until the end of your next turn."}
+        "Other Goblins you control get +1/+1.\nWhenever this creature or another Goblin you control dies, exile the top card of your library. If it's a Goblin creature card, you may cast that card until the end of your next turn."}
  #:card{:type-line "Creature — Dragon Hydra",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/f/1f5d274c-3a03-4f0d-97e8-7eef6508105d.png?1673307496",
+        "https://cards.scryfall.io/png/front/1/f/1f5d274c-3a03-4f0d-97e8-7eef6508105d.png?1739412083",
         :collector-number "143",
         :layout "normal",
         :name "Shivan Devastator",
         :oracle-text
-        "Flying, haste\nShivan Devastator enters the battlefield with X +1/+1 counters on it."}
+        "Flying, haste\nThis creature enters with X +1/+1 counters on it."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1584,7 +1616,18 @@
         :layout "normal",
         :name "Sprouting Goblin",
         :oracle-text
-        "Kicker {G} (You may pay an additional {G} as you cast this spell.)\nWhen Sprouting Goblin enters the battlefield, if it was kicked, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle.\n{R}, {T}, Sacrifice a land: Draw a card."}
+        "Kicker {G} (You may pay an additional {G} as you cast this spell.)\nWhen this creature enters, if it was kicked, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle.\n{R}, {T}, Sacrifice a land: Draw a card."}
+ #:card{:type-line "Creature — Goblin Druid",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/9/89a96429-4352-4dad-82c4-9ef8787573de.png?1705117433",
+        :collector-number "A-145",
+        :layout "normal",
+        :name "A-Sprouting Goblin",
+        :oracle-text
+        "Kicker {G} (You may pay an additional {G} as you cast this spell.)\nWhen Sprouting Goblin enters, if it was kicked, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle.\n{T}, Sacrifice a land: Draw a card."}
  #:card{:type-line "Legendary Creature — Goblin Noble",
         :layout-category :normal,
         :code "dmu",
@@ -1595,7 +1638,7 @@
         :layout "normal",
         :name "Squee, Dubious Monarch",
         :oracle-text
-        "Haste\nWhenever Squee, Dubious Monarch attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast Squee, Dubious Monarch from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
+        "Haste\nWhenever Squee attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast this card from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1623,13 +1666,13 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/c/bc531409-26cb-4c58-ba69-f39dd8aee3d1.png?1673307548",
+        "https://cards.scryfall.io/png/front/b/c/bc531409-26cb-4c58-ba69-f39dd8aee3d1.png?1717202608",
         :collector-number "149",
         :layout "normal",
         :name "Twinferno",
         :oracle-text
-        "Choose one —\n• When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\n• Target creature you control gains double strike until end of turn."}
- #:card{:type-line "Creature — Viashino Warrior",
+        "Choose one —\n• When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\n• Target creature you control gains double strike until end of turn. (It deals both first-strike and regular combat damage.)"}
+ #:card{:type-line "Creature — Lizard Warrior",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
@@ -1639,7 +1682,7 @@
         :layout "normal",
         :name "Viashino Branchrider",
         :oracle-text
-        "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nHaste\nIf Viashino Branchrider was kicked, it enters the battlefield with two +1/+1 counters on it.\n{2}{R}: Viashino Branchrider gets +2/+0 until end of turn."}
+        "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nHaste\nIf this creature was kicked, it enters with two +1/+1 counters on it.\n{2}{R}: This creature gets +2/+0 until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1661,7 +1704,7 @@
         :layout "normal",
         :name "Yavimaya Steelcrusher",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\n{1}, Sacrifice Yavimaya Steelcrusher: Destroy target artifact."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\n{1}, Sacrifice this creature: Destroy target artifact."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
@@ -1672,7 +1715,7 @@
         :layout "saga",
         :name "Yotia Declares War",
         :oracle-text
-        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Create a 0/2 colorless Thopter artifact creature token with flying named Ornithopter.\nII — Tap any number of untapped artifacts you control. When you do, Yotia Declares War deals that much damage to target creature or planeswalker.\nIII — Up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 until end of turn."}
+        "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Create a 0/2 colorless Thopter artifact creature token with flying named Ornithopter.\nII — Tap any number of untapped artifacts you control. When you do, this Saga deals that much damage to target creature or planeswalker.\nIII — Up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 until end of turn."}
  #:card{:type-line "Creature — Elemental Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1705,7 +1748,7 @@
         :layout "normal",
         :name "Bog Badger",
         :oracle-text
-        "Kicker {B} (You may pay an additional {B} as you cast this spell.)\nWhen Bog Badger enters the battlefield, if it was kicked, creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)"}
+        "Kicker {B} (You may pay an additional {B} as you cast this spell.)\nWhen this creature enters, if it was kicked, creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1764,12 +1807,12 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/0/90dc4122-4f7a-4d9f-8427-de36e3e8a913.png?1673307672",
+        "https://cards.scryfall.io/png/front/9/0/90dc4122-4f7a-4d9f-8427-de36e3e8a913.png?1677542066",
         :collector-number "162",
         :layout "normal",
         :name "Elvish Hydromancer",
         :oracle-text
-        "Kicker {3}{U} (You may pay an additional {3}{U} as you cast this spell.)\nWhen Elvish Hydromancer enters the battlefield, if it was kicked, create a token that's a copy of target creature you control."}
+        "Kicker {3}{U} (You may pay an additional {3}{U} as you cast this spell.)\nWhen this creature enters, if it was kicked, create a token that's a copy of target creature you control."}
  #:card{:type-line "Creature — Plant Wall",
         :layout-category :normal,
         :code "dmu",
@@ -1780,7 +1823,7 @@
         :layout "normal",
         :name "Floriferous Vinewall",
         :oracle-text
-        "Defender\nWhen Floriferous Vinewall enters the battlefield, look at the top six cards of your library. You may reveal a land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "Defender\nWhen this creature enters, look at the top six cards of your library. You may reveal a land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1802,13 +1845,13 @@
         :layout "normal",
         :name "Herd Migration",
         :oracle-text
-        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard Herd Migration: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
+        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
  #:card{:type-line "Creature — Turtle",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/c/acd5a635-bcf5-4a05-b00b-bf40322823fe.png?1673307703",
+        "https://cards.scryfall.io/png/front/a/c/acd5a635-bcf5-4a05-b00b-bf40322823fe.png?1683034479",
         :collector-number "166",
         :layout "normal",
         :name "Hexbane Tortoise",
@@ -1835,7 +1878,7 @@
         :layout "normal",
         :name "Linebreaker Baloth",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nLinebreaker Baloth can't be blocked by creatures with power 2 or less."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nThis creature can't be blocked by creatures with power 2 or less."}
  #:card{:type-line "Creature — Spider",
         :layout-category :normal,
         :code "dmu",
@@ -1846,7 +1889,18 @@
         :layout "normal",
         :name "Llanowar Greenwidow",
         :oracle-text
-        "Reach, trample\nDomain — {7}{G}: Return Llanowar Greenwidow from your graveyard to the battlefield tapped. It gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\" This ability costs {1} less to activate for each basic land type among lands you control."}
+        "Reach, trample\nDomain — {7}{G}: Return this card from your graveyard to the battlefield tapped. It gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\" This ability costs {1} less to activate for each basic land type among lands you control."}
+ #:card{:type-line "Creature — Spider",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/833ac211-356b-4679-8205-4277678a13d8.png?1705117510",
+        :collector-number "A-169",
+        :layout "normal",
+        :name "A-Llanowar Greenwidow",
+        :oracle-text
+        "Reach, trample\nDomain — {5}{G}: Return Llanowar Greenwidow from your graveyard to the battlefield tapped with a finality counter on it. This ability costs {1} less to activate for each basic land type among lands you control."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "dmu",
@@ -1858,6 +1912,17 @@
         :name "Llanowar Loamspeaker",
         :oracle-text
         "{T}: Add one mana of any color.\n{T}: Target land you control becomes a 3/3 Elemental creature with haste until end of turn. It's still a land. Activate only as a sorcery."}
+ #:card{:type-line "Creature — Elf Druid",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/c/acf4f164-d441-4604-ad08-2033db89d84b.png?1705117532",
+        :collector-number "A-170",
+        :layout "normal",
+        :name "A-Llanowar Loamspeaker",
+        :oracle-text
+        "{T}: Add one mana of any color.\n{T}: Target land you control becomes a 4/4 Elemental creature with haste until end of turn. It's still a land. Activate only as a sorcery."}
  #:card{:type-line "Creature — Elf Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1868,7 +1933,7 @@
         :layout "normal",
         :name "Llanowar Stalker",
         :oracle-text
-        "Whenever another creature enters the battlefield under your control, Llanowar Stalker gets +1/+0 until end of turn."}
+        "Whenever another creature you control enters, this creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -1878,7 +1943,8 @@
         :collector-number "172",
         :layout "normal",
         :name "Magnigoth Sentry",
-        :oracle-text "Reach"}
+        :oracle-text
+        "Reach (This creature can block creatures with flying.)"}
  #:card{:type-line "Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -1889,7 +1955,7 @@
         :layout "normal",
         :name "Mossbeard Ancient",
         :oracle-text
-        "Trample\nWhen Mossbeard Ancient enters the battlefield, you gain 5 life."}
+        "Trample\nWhen this creature enters, you gain 5 life."}
  #:card{:type-line "Creature — Cat Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -1911,7 +1977,7 @@
         :layout "normal",
         :name "Quirion Beastcaller",
         :oracle-text
-        "Whenever you cast a creature spell, put a +1/+1 counter on Quirion Beastcaller.\nWhen Quirion Beastcaller dies, distribute X +1/+1 counters among any number of target creatures you control, where X is the number of +1/+1 counters on Quirion Beastcaller."}
+        "Whenever you cast a creature spell, put a +1/+1 counter on this creature.\nWhen this creature dies, distribute X +1/+1 counters among any number of target creatures you control, where X is the number of +1/+1 counters on this creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -1923,6 +1989,17 @@
         :name "Scout the Wilderness",
         :oracle-text
         "Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, create two 1/1 white Soldier creature tokens."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b0f8ee9-9db6-4648-97ab-a49a16359c80.png?1705117543",
+        :collector-number "A-176",
+        :layout "normal",
+        :name "A-Scout the Wilderness",
+        :oracle-text
+        "Kicker {W} (You may pay an additional {1}{W} as you cast this spell.)\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, create two 1/1 white Soldier creature tokens."}
  #:card{:type-line "Creature — Ape Shaman",
         :layout-category :normal,
         :code "dmu",
@@ -1955,7 +2032,7 @@
         :layout "normal",
         :name "Snarespinner",
         :oracle-text
-        "Reach\nWhenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn."}
+        "Reach\nWhenever this creature blocks a creature with flying, this creature gets +2/+0 until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -1977,7 +2054,18 @@
         :layout "normal",
         :name "Sunbathing Rootwalla",
         :oracle-text
-        "Domain — {3}{G}: Until end of turn, Sunbathing Rootwalla gets +1/+1 for each basic land type among lands you control. Activate only once each turn."}
+        "Domain — {3}{G}: Until end of turn, this creature gets +1/+1 for each basic land type among lands you control. Activate only once each turn."}
+ #:card{:type-line "Creature — Lizard",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/6/16ef0889-bf28-44c4-b0fd-04bbef15cda5.png?1705117560",
+        :collector-number "A-181",
+        :layout "normal",
+        :name "A-Sunbathing Rootwalla",
+        :oracle-text
+        "Domain — {1}{G}: Until end of turn, Sunbathing Rootwalla gets +1/+1 for each basic land type among lands you control. Activate only once each turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -2032,7 +2120,7 @@
         :layout "normal",
         :name "Urborg Lhurgoyf",
         :oracle-text
-        "Kicker {U} and/or {B} (You may pay an additional {U} and/or {B} as you cast this spell.)\nAs Urborg Lhurgoyf enters the battlefield, mill three cards for each time it was kicked.\nUrborg Lhurgoyf's power is equal to the number of creature cards in your graveyard and its toughness is equal to that number plus 1."}
+        "Kicker {U} and/or {B} (You may pay an additional {U} and/or {B} as you cast this spell.)\nAs this creature enters, mill three cards for each time it was kicked.\nUrborg Lhurgoyf's power is equal to the number of creature cards in your graveyard and its toughness is equal to that number plus 1."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "dmu",
@@ -2043,13 +2131,13 @@
         :layout "normal",
         :name "Vineshaper Prodigy",
         :oracle-text
-        "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nWhen Vineshaper Prodigy enters the battlefield, if it was kicked, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order."}
+        "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nWhen this creature enters, if it was kicked, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/2/e2a54461-1f75-4304-b6d7-635171419456.png?1673307861",
+        "https://cards.scryfall.io/png/front/e/2/e2a54461-1f75-4304-b6d7-635171419456.png?1675812018",
         :collector-number "188",
         :layout "saga",
         :name "The Weatherseed Treaty",
@@ -2076,7 +2164,7 @@
         :layout "normal",
         :name "Yavimaya Iconoclast",
         :oracle-text
-        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nTrample\nWhen Yavimaya Iconoclast enters the battlefield, if it was kicked, it gets +1/+1 and gains haste until end of turn."}
+        "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nTrample\nWhen this creature enters, if it was kicked, it gets +1/+1 and gains haste until end of turn."}
  #:card{:type-line "Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -2120,7 +2208,7 @@
         :layout "normal",
         :name "Astor, Bearer of Blades",
         :oracle-text
-        "When Astor, Bearer of Blades enters the battlefield, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
+        "When Astor enters, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -2153,7 +2241,7 @@
         :layout "normal",
         :name "Bortuk Bonerattle",
         :oracle-text
-        "Domain — When Bortuk Bonerattle enters the battlefield, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
+        "Domain — When Bortuk Bonerattle enters, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
  #:card{:type-line "Legendary Creature — Phyrexian Kor Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -2164,7 +2252,7 @@
         :layout "normal",
         :name "Elas il-Kor, Sadistic Pilgrim",
         :oracle-text
-        "Deathtouch\nWhenever another creature enters the battlefield under your control, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
+        "Deathtouch\nWhenever another creature you control enters, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2175,7 +2263,7 @@
         :layout "normal",
         :name "Ertai Resurrected",
         :oracle-text
-        "Flash\nWhen Ertai Resurrected enters the battlefield, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
+        "Flash\nWhen Ertai Resurrected enters, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
  #:card{:type-line "Legendary Creature — Human Berserker",
         :layout-category :normal,
         :code "dmu",
@@ -2186,7 +2274,7 @@
         :layout "normal",
         :name "Garna, Bloodfist of Keld",
         :oracle-text
-        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna, Bloodfist of Keld deals 1 damage to each opponent."}
+        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna deals 1 damage to each opponent."}
  #:card{:type-line "Legendary Creature — Faerie Rogue",
         :layout-category :normal,
         :code "dmu",
@@ -2197,7 +2285,7 @@
         :layout "normal",
         :name "Ivy, Gleeful Spellthief",
         :oracle-text
-        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, Gleeful Spellthief, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
+        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "dmu",
@@ -2208,7 +2296,7 @@
         :layout "normal",
         :name "Jhoira, Ageless Innovator",
         :oracle-text
-        "{T}: Put two ingenuity counters on Jhoira, Ageless Innovator, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
+        "{T}: Put two ingenuity counters on Jhoira, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2263,6 +2351,17 @@
         :layout "normal",
         :name "Nael, Avizoa Aeronaut",
         :oracle-text
+        "Flying\nDomain — Whenever Nael deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
+ #:card{:type-line "Legendary Creature — Elf Scout",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/2/62ac0052-dd03-4b48-a3a8-15a84fed66d5.png?1705117578",
+        :collector-number "A-207",
+        :layout "normal",
+        :name "A-Nael, Avizoa Aeronaut",
+        :oracle-text
         "Flying\nDomain — Whenever Nael, Avizoa Aeronaut deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
  #:card{:type-line "Legendary Creature — Efreet Wizard",
         :layout-category :normal,
@@ -2274,7 +2373,7 @@
         :layout "normal",
         :name "Najal, the Storm Runner",
         :oracle-text
-        "You may cast sorcery spells as though they had flash.\nWhenever Najal, the Storm Runner attacks, you may pay {2}. If you do, when you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
+        "You may cast sorcery spells as though they had flash.\nWhenever Najal attacks, you may pay {2}. If you do, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -2285,7 +2384,7 @@
         :layout "normal",
         :name "Nemata, Primeval Warden",
         :oracle-text
-        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata, Primeval Warden gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
+        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "dmu",
@@ -2307,7 +2406,18 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+ #:card{:type-line "Legendary Creature — Elf Warrior",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a9209d7f-7a3f-4ffa-bb31-04d2a2b422d2.png?1705943662",
+        :collector-number "A-211",
+        :layout "normal",
+        :name "A-Radha, Coalition Warlord",
+        :oracle-text
+        "Domain — Whenever Radha, Coalition Warlord enters or becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2341,7 +2451,7 @@
         :name "Rith, Liberated Primeval",
         :oracle-text
         "Flying, ward {2}\nOther Dragons you control have ward {2}.\nAt the beginning of your end step, if a creature or planeswalker an opponent controlled was dealt excess damage this turn, create a 4/4 red Dragon creature token with flying."}
- #:card{:type-line "Legendary Creature — Viashino Warlock",
+ #:card{:type-line "Legendary Creature — Lizard Warlock",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
@@ -2362,7 +2472,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "dmu",
@@ -2373,7 +2483,18 @@
         :layout "normal",
         :name "Rulik Mons, Warren Chief",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons, Warren Chief attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
+ #:card{:type-line "Legendary Creature — Goblin",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/0/200fa865-88a4-4f50-9435-4e240fb5fd4f.png?1705117682",
+        :collector-number "A-217",
+        :layout "normal",
+        :name "A-Rulik Mons, Warren Chief",
+        :oracle-text
+        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons, Warren Chief enters or attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -2390,12 +2511,12 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/0/3027347d-5fd3-47cd-83d4-8c834e00794c.png?1673308088",
+        "https://cards.scryfall.io/png/front/3/0/3027347d-5fd3-47cd-83d4-8c834e00794c.png?1739543168",
         :collector-number "219",
         :layout "normal",
         :name "Sol'Kanar the Tainted",
         :oracle-text
-        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar the Tainted deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
+        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
  #:card{:type-line "Legendary Creature — Cat Avatar",
         :layout-category :normal,
         :code "dmu",
@@ -2406,7 +2527,18 @@
         :layout "normal",
         :name "Soul of Windgrace",
         :oracle-text
-        "Whenever Soul of Windgrace enters the battlefield or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
+        "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
+ #:card{:type-line "Legendary Creature — Cat Avatar",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/4/44245ae4-aa37-42d4-872a-08bd1f1ca385.png?1705117704",
+        :collector-number "A-220",
+        :layout "normal",
+        :name "A-Soul of Windgrace",
+        :oracle-text
+        "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{R}, Discard a land card: Draw a card.\n{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2417,7 +2549,7 @@
         :layout "normal",
         :name "Stenn, Paranoid Partisan",
         :oracle-text
-        "As Stenn, Paranoid Partisan enters the battlefield, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
+        "As Stenn enters, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Merfolk Druid",
         :layout-category :normal,
         :code "dmu",
@@ -2428,7 +2560,18 @@
         :layout "normal",
         :name "Tatyova, Steward of Tides",
         :oracle-text
-        "Land creatures you control have flying.\nWhenever a land enters the battlefield under your control, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
+        "Land creatures you control have flying.\nWhenever a land you control enters, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
+ #:card{:type-line "Legendary Creature — Merfolk Druid",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/367b8b17-3881-4bc4-aa2f-0376b614dca7.png?1705117720",
+        :collector-number "A-222",
+        :layout "normal",
+        :name "A-Tatyova, Steward of Tides",
+        :oracle-text
+        "Land creatures you control have flying.\nWhenever a land enters under your control, if you control seven or more lands, up to one target land you control becomes a 4/4 Elemental creature with haste. It's still a land."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -2439,7 +2582,7 @@
         :layout "normal",
         :name "Tori D'Avenant, Fury Rider",
         :oracle-text
-        "Vigilance, trample\nWhenever Tori D'Avenant, Fury Rider attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
+        "Vigilance, trample\nWhenever Tori D'Avenant attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -2461,7 +2604,18 @@
         :layout "normal",
         :name "Uurg, Spawn of Turg",
         :oracle-text
-        "Uurg, Spawn of Turg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
+        "Uurg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
+ #:card{:type-line "Legendary Creature — Frog Beast",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/3/63758c04-6dd9-4461-b227-924c04118a20.png?1705117752",
+        :collector-number "A-225",
+        :layout "normal",
+        :name "A-Uurg, Spawn of Turg",
+        :oracle-text
+        "A-Uurg, Spawn of Turg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 2.\n{1}, Sacrifice a land: You gain 2 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Merfolk Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2472,7 +2626,7 @@
         :layout "normal",
         :name "Vohar, Vodalian Desecrator",
         :oracle-text
-        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar, Vodalian Desecrator: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
+        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Cat Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -2483,7 +2637,18 @@
         :layout "normal",
         :name "Zar Ojanen, Scion of Efrava",
         :oracle-text
-        "Domain — Whenever Zar Ojanen, Scion of Efrava becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
+        "Domain — Whenever Zar Ojanen becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
+ #:card{:type-line "Legendary Creature — Cat Warrior",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/3/7306a895-c78d-4f78-a58e-a818e4c4016c.png?1705117774",
+        :collector-number "A-227",
+        :layout "normal",
+        :name "A-Zar Ojanen, Scion of Efrava",
+        :oracle-text
+        "Domain — Whenever Zar Ojanen, Scion of Efrava enters or becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -2505,7 +2670,7 @@
         :layout "normal",
         :name "Automatic Librarian",
         :oracle-text
-        "When Automatic Librarian enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"}
+        "When this creature enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)"}
  #:card{:type-line "Legendary Artifact — Vehicle",
         :layout-category :normal,
         :code "dmu",
@@ -2538,7 +2703,7 @@
         :layout "normal",
         :name "Inscribed Tablet",
         :oracle-text
-        "{1}, {T}, Sacrifice Inscribed Tablet: Reveal the top five cards of your library. Put a land card from among them into your hand and the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, draw a card."}
+        "{1}, {T}, Sacrifice this artifact: Reveal the top five cards of your library. Put a land card from among them into your hand and the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "dmu",
@@ -2560,18 +2725,18 @@
         :layout "normal",
         :name "Karn's Sylex",
         :oracle-text
-        "Karn's Sylex enters the battlefield tapped.\nPlayers can't pay life to cast spells or to activate abilities that aren't mana abilities.\n{X}, {T}, Exile Karn's Sylex: Destroy each nonland permanent with mana value X or less. Activate only as a sorcery."}
+        "Karn's Sylex enters tapped.\nPlayers can't pay life to cast spells or to activate abilities that aren't mana abilities.\n{X}, {T}, Exile Karn's Sylex: Destroy each nonland permanent with mana value X or less. Activate only as a sorcery."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/3/33eb2032-50af-4fd6-bdc7-7cae2211956c.png?1673308211",
+        "https://cards.scryfall.io/png/front/3/3/33eb2032-50af-4fd6-bdc7-7cae2211956c.png?1677542216",
         :collector-number "235",
         :layout "normal",
         :name "Meteorite",
         :oracle-text
-        "When Meteorite enters the battlefield, it deals 2 damage to any target.\n{T}: Add one mana of any color."}
+        "When this artifact enters, it deals 2 damage to any target.\n{T}: Add one mana of any color."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "dmu",
@@ -2604,7 +2769,7 @@
         :layout "normal",
         :name "Shield-Wall Sentinel",
         :oracle-text
-        "Defender\nWhen Shield-Wall Sentinel enters the battlefield, you may search your library for a creature card with defender, reveal it, put it into your hand, then shuffle."}
+        "Defender\nWhen this creature enters, you may search your library for a creature card with defender, reveal it, put it into your hand, then shuffle."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "dmu",
@@ -2615,7 +2780,7 @@
         :layout "normal",
         :name "Timeless Lotus",
         :oracle-text
-        "Timeless Lotus enters the battlefield tapped.\n{T}: Add {W}{U}{B}{R}{G}."}
+        "Timeless Lotus enters tapped.\n{T}: Add {W}{U}{B}{R}{G}."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "dmu",
@@ -2659,7 +2824,7 @@
         :layout "normal",
         :name "Adarkar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2670,7 +2835,7 @@
         :layout "normal",
         :name "Caves of Koilos",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you."}
  #:card{:type-line "Land — Island Swamp",
         :layout-category :normal,
         :code "dmu",
@@ -2681,7 +2846,7 @@
         :layout "normal",
         :name "Contaminated Aquifer",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nContaminated Aquifer enters the battlefield tapped."}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2692,7 +2857,7 @@
         :layout "normal",
         :name "Crystal Grotto",
         :oracle-text
-        "When Crystal Grotto enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color."}
+        "When this land enters, scry 1.\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color."}
  #:card{:type-line "Land — Swamp Mountain",
         :layout-category :normal,
         :code "dmu",
@@ -2703,7 +2868,7 @@
         :layout "normal",
         :name "Geothermal Bog",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nGeothermal Bog enters the battlefield tapped."}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped."}
  #:card{:type-line "Land — Swamp Forest",
         :layout-category :normal,
         :code "dmu",
@@ -2714,18 +2879,18 @@
         :layout "normal",
         :name "Haunted Mire",
         :oracle-text
-        "({T}: Add {B} or {G}.)\nHaunted Mire enters the battlefield tapped."}
+        "({T}: Add {B} or {G}.)\nThis land enters tapped."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/5/c50ec22c-decb-419f-ae52-78ea1706eb11.png?1673308321",
+        "https://cards.scryfall.io/png/front/c/5/c50ec22c-decb-419f-ae52-78ea1706eb11.png?1677292234",
         :collector-number "249",
         :layout "normal",
         :name "Idyllic Beachfront",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nIdyllic Beachfront enters the battlefield tapped."}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2736,7 +2901,7 @@
         :layout "normal",
         :name "Karplusan Forest",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Land — Island Mountain",
         :layout-category :normal,
         :code "dmu",
@@ -2747,7 +2912,7 @@
         :layout "normal",
         :name "Molten Tributary",
         :oracle-text
-        "({T}: Add {U} or {R}.)\nMolten Tributary enters the battlefield tapped."}
+        "({T}: Add {U} or {R}.)\nThis land enters tapped."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2758,7 +2923,7 @@
         :layout "normal",
         :name "Plaza of Heroes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell.\n{T}: Add one mana of any color among legendary permanents you control.\n{3}, {T}, Exile Plaza of Heroes: Target legendary creature gains hexproof and indestructible until end of turn."}
+        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell.\n{T}: Add one mana of any color among legendary permanents you control.\n{3}, {T}, Exile this land: Target legendary creature gains hexproof and indestructible until end of turn."}
  #:card{:type-line "Land — Forest Plains",
         :layout-category :normal,
         :code "dmu",
@@ -2769,7 +2934,7 @@
         :layout "normal",
         :name "Radiant Grove",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nRadiant Grove enters the battlefield tapped."}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped."}
  #:card{:type-line "Land — Mountain Plains",
         :layout-category :normal,
         :code "dmu",
@@ -2780,7 +2945,7 @@
         :layout "normal",
         :name "Sacred Peaks",
         :oracle-text
-        "({T}: Add {R} or {W}.)\nSacred Peaks enters the battlefield tapped."}
+        "({T}: Add {R} or {W}.)\nThis land enters tapped."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2791,7 +2956,7 @@
         :layout "normal",
         :name "Shivan Reef",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2802,7 +2967,7 @@
         :layout "normal",
         :name "Sulfurous Springs",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land — Plains Swamp",
         :layout-category :normal,
         :code "dmu",
@@ -2813,7 +2978,7 @@
         :layout "normal",
         :name "Sunlit Marsh",
         :oracle-text
-        "({T}: Add {W} or {B}.)\nSunlit Marsh enters the battlefield tapped."}
+        "({T}: Add {W} or {B}.)\nThis land enters tapped."}
  #:card{:type-line "Land — Forest Island",
         :layout-category :normal,
         :code "dmu",
@@ -2824,7 +2989,7 @@
         :layout "normal",
         :name "Tangled Islet",
         :oracle-text
-        "({T}: Add {G} or {U}.)\nTangled Islet enters the battlefield tapped."}
+        "({T}: Add {G} or {U}.)\nThis land enters tapped."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "dmu",
@@ -2835,7 +3000,18 @@
         :layout "normal",
         :name "Thran Portal",
         :oracle-text
-        "Thran Portal enters the battlefield tapped unless you control two or fewer other lands.\nAs Thran Portal enters the battlefield, choose a basic land type.\nThran Portal is the chosen type in addition to its other types.\nMana abilities of Thran Portal cost an additional 1 life to activate."}
+        "This land enters tapped unless you control two or fewer other lands.\nAs this land enters, choose a basic land type.\nThis land is the chosen type in addition to its other types.\nMana abilities of this land cost an additional 1 life to activate."}
+ #:card{:type-line "Land — Gate",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/4/b4505c11-6971-4f9d-af52-8204f4e1323f.png?1705117806",
+        :collector-number "A-259",
+        :layout "normal",
+        :name "A-Thran Portal",
+        :oracle-text
+        "As A-Thran Portal enters, choose a basic land type.\nThran Portal is the chosen type in addition to its other types.\nMana abilities of A-Thran Portal cost an additional 1 life to activate."}
  #:card{:type-line "Land — Mountain Forest",
         :layout-category :normal,
         :code "dmu",
@@ -2846,7 +3022,7 @@
         :layout "normal",
         :name "Wooded Ridgeline",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nWooded Ridgeline enters the battlefield tapped."}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -2857,7 +3033,7 @@
         :layout "normal",
         :name "Yavimaya Coast",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {G} or {U}. This land deals 1 damage to you."}
  #:card{:type-line "Basic Land — Plains",
         :layout-category :normal,
         :code "dmu",
@@ -3068,7 +3244,7 @@
         :layout "normal",
         :name "Serra Redeemer",
         :oracle-text
-        "Flying\nWhenever another creature with power 2 or less enters the battlefield under your control, put two +1/+1 counters on that creature."}
+        "Flying\nWhenever another creature you control with power 2 or less enters, put two +1/+1 counters on that creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -3090,7 +3266,7 @@
         :layout "normal",
         :name "Tyrannical Pitlord",
         :oracle-text
-        "Flying, trample\nAs Tyrannical Pitlord enters the battlefield, choose another creature you control.\nThe chosen creature gets +3/+3 and has flying.\nWhen Tyrannical Pitlord leaves the battlefield, sacrifice the chosen creature."}
+        "Flying, trample\nAs this creature enters, choose another creature you control.\nThe chosen creature gets +3/+3 and has flying.\nWhen this creature leaves the battlefield, sacrifice the chosen creature."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "dmu",
@@ -3101,7 +3277,7 @@
         :layout "normal",
         :name "Ragefire Hellkite",
         :oracle-text
-        "Flying\nWhenever Ragefire Hellkite attacks, you may sacrifice another creature. If you do, Ragefire Hellkite gains double strike until end of turn."}
+        "Flying\nWhenever this creature attacks, you may sacrifice another creature. If you do, this creature gains double strike until end of turn."}
  #:card{:type-line "Creature — Plant Hydra",
         :layout-category :normal,
         :code "dmu",
@@ -3111,6 +3287,17 @@
         :collector-number "286",
         :layout "normal",
         :name "Briar Hydra",
+        :oracle-text
+        "Trample\nDomain — Whenever this creature deals combat damage to a player, put X +1/+1 counters on target creature you control, where X is the number of basic land types among lands you control."}
+ #:card{:type-line "Creature — Plant Hydra",
+        :layout-category :normal,
+        :code "dmu",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/1/71165520-9471-40dd-a45b-2955b006c7d2.png?1705117456",
+        :collector-number "A-286",
+        :layout "normal",
+        :name "A-Briar Hydra",
         :oracle-text
         "Trample\nDomain — Whenever Briar Hydra deals combat damage to a player, put X +1/+1 counters on target creature you control, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Knight",
@@ -3123,7 +3310,7 @@
         :layout "normal",
         :name "Danitha, Benalia's Hope",
         :oracle-text
-        "First strike, vigilance, lifelink\nWhen Danitha, Benalia's Hope enters the battlefield, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
+        "First strike, vigilance, lifelink\nWhen Danitha enters, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
  #:card{:type-line "Legendary Creature — Nightmare",
         :layout-category :normal,
         :code "dmu",
@@ -3134,7 +3321,7 @@
         :layout "normal",
         :name "Braids, Arisen Nightmare",
         :oracle-text
-        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
+        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3145,7 +3332,7 @@
         :layout "normal",
         :name "The Raven Man",
         :oracle-text
-        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This creature can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
+        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This token can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "dmu",
@@ -3167,7 +3354,7 @@
         :layout "normal",
         :name "Squee, Dubious Monarch",
         :oracle-text
-        "Haste\nWhenever Squee, Dubious Monarch attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast Squee, Dubious Monarch from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
+        "Haste\nWhenever Squee attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast this card from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
  #:card{:type-line "Legendary Creature — Phyrexian Human",
         :layout-category :normal,
         :code "dmu",
@@ -3189,7 +3376,7 @@
         :layout "normal",
         :name "Astor, Bearer of Blades",
         :oracle-text
-        "When Astor, Bearer of Blades enters the battlefield, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
+        "When Astor enters, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -3222,7 +3409,7 @@
         :layout "normal",
         :name "Bortuk Bonerattle",
         :oracle-text
-        "Domain — When Bortuk Bonerattle enters the battlefield, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
+        "Domain — When Bortuk Bonerattle enters, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
  #:card{:type-line "Legendary Creature — Phyrexian Kor Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -3233,7 +3420,7 @@
         :layout "normal",
         :name "Elas il-Kor, Sadistic Pilgrim",
         :oracle-text
-        "Deathtouch\nWhenever another creature enters the battlefield under your control, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
+        "Deathtouch\nWhenever another creature you control enters, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3244,7 +3431,7 @@
         :layout "normal",
         :name "Ertai Resurrected",
         :oracle-text
-        "Flash\nWhen Ertai Resurrected enters the battlefield, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
+        "Flash\nWhen Ertai Resurrected enters, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
  #:card{:type-line "Legendary Creature — Human Berserker",
         :layout-category :normal,
         :code "dmu",
@@ -3255,7 +3442,7 @@
         :layout "normal",
         :name "Garna, Bloodfist of Keld",
         :oracle-text
-        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna, Bloodfist of Keld deals 1 damage to each opponent."}
+        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna deals 1 damage to each opponent."}
  #:card{:type-line "Legendary Creature — Faerie Rogue",
         :layout-category :normal,
         :code "dmu",
@@ -3266,7 +3453,7 @@
         :layout "normal",
         :name "Ivy, Gleeful Spellthief",
         :oracle-text
-        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, Gleeful Spellthief, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
+        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "dmu",
@@ -3277,7 +3464,7 @@
         :layout "normal",
         :name "Jhoira, Ageless Innovator",
         :oracle-text
-        "{T}: Put two ingenuity counters on Jhoira, Ageless Innovator, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
+        "{T}: Put two ingenuity counters on Jhoira, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3332,7 +3519,7 @@
         :layout "normal",
         :name "Nael, Avizoa Aeronaut",
         :oracle-text
-        "Flying\nDomain — Whenever Nael, Avizoa Aeronaut deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
+        "Flying\nDomain — Whenever Nael deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
  #:card{:type-line "Legendary Creature — Efreet Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3343,7 +3530,7 @@
         :layout "normal",
         :name "Najal, the Storm Runner",
         :oracle-text
-        "You may cast sorcery spells as though they had flash.\nWhenever Najal, the Storm Runner attacks, you may pay {2}. If you do, when you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
+        "You may cast sorcery spells as though they had flash.\nWhenever Najal attacks, you may pay {2}. If you do, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -3354,7 +3541,7 @@
         :layout "normal",
         :name "Nemata, Primeval Warden",
         :oracle-text
-        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata, Primeval Warden gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
+        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "dmu",
@@ -3376,7 +3563,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3410,7 +3597,7 @@
         :name "Rith, Liberated Primeval",
         :oracle-text
         "Flying, ward {2}\nOther Dragons you control have ward {2}.\nAt the beginning of your end step, if a creature or planeswalker an opponent controlled was dealt excess damage this turn, create a 4/4 red Dragon creature token with flying."}
- #:card{:type-line "Legendary Creature — Viashino Warlock",
+ #:card{:type-line "Legendary Creature — Lizard Warlock",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
@@ -3431,7 +3618,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "dmu",
@@ -3442,7 +3629,7 @@
         :layout "normal",
         :name "Rulik Mons, Warren Chief",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons, Warren Chief attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -3464,7 +3651,7 @@
         :layout "normal",
         :name "Sol'Kanar the Tainted",
         :oracle-text
-        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar the Tainted deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
+        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
  #:card{:type-line "Legendary Creature — Cat Avatar",
         :layout-category :normal,
         :code "dmu",
@@ -3475,7 +3662,7 @@
         :layout "normal",
         :name "Soul of Windgrace",
         :oracle-text
-        "Whenever Soul of Windgrace enters the battlefield or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
+        "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3486,7 +3673,7 @@
         :layout "normal",
         :name "Stenn, Paranoid Partisan",
         :oracle-text
-        "As Stenn, Paranoid Partisan enters the battlefield, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
+        "As Stenn enters, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Merfolk Druid",
         :layout-category :normal,
         :code "dmu",
@@ -3497,7 +3684,7 @@
         :layout "normal",
         :name "Tatyova, Steward of Tides",
         :oracle-text
-        "Land creatures you control have flying.\nWhenever a land enters the battlefield under your control, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
+        "Land creatures you control have flying.\nWhenever a land you control enters, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -3508,7 +3695,7 @@
         :layout "normal",
         :name "Tori D'Avenant, Fury Rider",
         :oracle-text
-        "Vigilance, trample\nWhenever Tori D'Avenant, Fury Rider attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
+        "Vigilance, trample\nWhenever Tori D'Avenant attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -3530,7 +3717,7 @@
         :layout "normal",
         :name "Uurg, Spawn of Turg",
         :oracle-text
-        "Uurg, Spawn of Turg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
+        "Uurg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Merfolk Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3541,7 +3728,7 @@
         :layout "normal",
         :name "Vohar, Vodalian Desecrator",
         :oracle-text
-        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar, Vodalian Desecrator: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
+        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Cat Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -3552,7 +3739,7 @@
         :layout "normal",
         :name "Zar Ojanen, Scion of Efrava",
         :oracle-text
-        "Domain — Whenever Zar Ojanen, Scion of Efrava becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
+        "Domain — Whenever Zar Ojanen becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3574,7 +3761,7 @@
         :layout "normal",
         :name "Danitha, Benalia's Hope",
         :oracle-text
-        "First strike, vigilance, lifelink\nWhen Danitha, Benalia's Hope enters the battlefield, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
+        "First strike, vigilance, lifelink\nWhen Danitha enters, you may put an Aura or Equipment card from your hand or graveyard onto the battlefield attached to Danitha."}
  #:card{:type-line "Legendary Creature — Nightmare",
         :layout-category :normal,
         :code "dmu",
@@ -3585,7 +3772,7 @@
         :layout "normal",
         :name "Braids, Arisen Nightmare",
         :oracle-text
-        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
+        "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3596,7 +3783,7 @@
         :layout "normal",
         :name "The Raven Man",
         :oracle-text
-        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This creature can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
+        "At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and \"This token can't block.\"\n{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Phyrexian Praetor",
         :layout-category :normal,
         :code "dmu",
@@ -3618,7 +3805,7 @@
         :layout "normal",
         :name "Squee, Dubious Monarch",
         :oracle-text
-        "Haste\nWhenever Squee, Dubious Monarch attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast Squee, Dubious Monarch from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
+        "Haste\nWhenever Squee attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nYou may cast this card from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost."}
  #:card{:type-line "Legendary Creature — Phyrexian Human",
         :layout-category :normal,
         :code "dmu",
@@ -3640,7 +3827,7 @@
         :layout "normal",
         :name "Astor, Bearer of Blades",
         :oracle-text
-        "When Astor, Bearer of Blades enters the battlefield, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
+        "When Astor enters, look at the top seven cards of your library. You may reveal an Equipment or Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquipment you control have equip {1}.\nVehicles you control have crew 1."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -3673,7 +3860,7 @@
         :layout "normal",
         :name "Bortuk Bonerattle",
         :oracle-text
-        "Domain — When Bortuk Bonerattle enters the battlefield, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
+        "Domain — When Bortuk Bonerattle enters, if you cast it, choose target creature card in your graveyard. Return that card to the battlefield if its mana value is less than or equal to the number of basic land types among lands you control. Otherwise, put it into your hand."}
  #:card{:type-line "Legendary Creature — Phyrexian Kor Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -3684,7 +3871,7 @@
         :layout "normal",
         :name "Elas il-Kor, Sadistic Pilgrim",
         :oracle-text
-        "Deathtouch\nWhenever another creature enters the battlefield under your control, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
+        "Deathtouch\nWhenever another creature you control enters, you gain 1 life.\nWhenever another creature you control dies, each opponent loses 1 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3695,7 +3882,7 @@
         :layout "normal",
         :name "Ertai Resurrected",
         :oracle-text
-        "Flash\nWhen Ertai Resurrected enters the battlefield, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
+        "Flash\nWhen Ertai Resurrected enters, choose up to one —\n• Counter target spell, activated ability, or triggered ability. Its controller draws a card.\n• Destroy another target creature or planeswalker. Its controller draws a card."}
  #:card{:type-line "Legendary Creature — Human Berserker",
         :layout-category :normal,
         :code "dmu",
@@ -3706,7 +3893,7 @@
         :layout "normal",
         :name "Garna, Bloodfist of Keld",
         :oracle-text
-        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna, Bloodfist of Keld deals 1 damage to each opponent."}
+        "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna deals 1 damage to each opponent."}
  #:card{:type-line "Legendary Creature — Faerie Rogue",
         :layout-category :normal,
         :code "dmu",
@@ -3717,7 +3904,7 @@
         :layout "normal",
         :name "Ivy, Gleeful Spellthief",
         :oracle-text
-        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, Gleeful Spellthief, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
+        "Flying\nWhenever a player casts a spell that targets only a single creature other than Ivy, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)"}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "dmu",
@@ -3728,7 +3915,7 @@
         :layout "normal",
         :name "Jhoira, Ageless Innovator",
         :oracle-text
-        "{T}: Put two ingenuity counters on Jhoira, Ageless Innovator, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
+        "{T}: Put two ingenuity counters on Jhoira, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3783,7 +3970,7 @@
         :layout "normal",
         :name "Nael, Avizoa Aeronaut",
         :oracle-text
-        "Flying\nDomain — Whenever Nael, Avizoa Aeronaut deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
+        "Flying\nDomain — Whenever Nael deals combat damage to a player, look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom in a random order. Then if there are five basic land types among lands you control, draw a card."}
  #:card{:type-line "Legendary Creature — Efreet Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3794,7 +3981,7 @@
         :layout "normal",
         :name "Najal, the Storm Runner",
         :oracle-text
-        "You may cast sorcery spells as though they had flash.\nWhenever Najal, the Storm Runner attacks, you may pay {2}. If you do, when you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
+        "You may cast sorcery spells as though they had flash.\nWhenever Najal attacks, you may pay {2}. If you do, when you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy."}
  #:card{:type-line "Legendary Creature — Treefolk",
         :layout-category :normal,
         :code "dmu",
@@ -3805,7 +3992,7 @@
         :layout "normal",
         :name "Nemata, Primeval Warden",
         :oracle-text
-        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata, Primeval Warden gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
+        "Reach\nIf a creature an opponent controls would die, exile it instead. When you do, create a 1/1 green Saproling creature token.\n{G}, Sacrifice a Saproling: Nemata gets +2/+2 until end of turn.\n{1}{B}, Sacrifice two Saprolings: Draw a card."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "dmu",
@@ -3827,7 +4014,7 @@
         :layout "normal",
         :name "Radha, Coalition Warlord",
         :oracle-text
-        "Domain — Whenever Radha, Coalition Warlord becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
+        "Domain — Whenever Radha becomes tapped, another target creature you control gets +X/+X until end of turn, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3861,7 +4048,7 @@
         :name "Rith, Liberated Primeval",
         :oracle-text
         "Flying, ward {2}\nOther Dragons you control have ward {2}.\nAt the beginning of your end step, if a creature or planeswalker an opponent controlled was dealt excess damage this turn, create a 4/4 red Dragon creature token with flying."}
- #:card{:type-line "Legendary Creature — Viashino Warlock",
+ #:card{:type-line "Legendary Creature — Lizard Warlock",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
@@ -3882,7 +4069,7 @@
         :layout "normal",
         :name "Rona, Sheoldred's Faithful",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast Rona, Sheoldred's Faithful from your graveyard by discarding two cards in addition to paying its other costs."}
+        "Whenever you cast an instant or sorcery spell, each opponent loses 1 life.\nYou may cast this card from your graveyard by discarding two cards in addition to paying its other costs."}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "dmu",
@@ -3893,7 +4080,7 @@
         :layout "normal",
         :name "Rulik Mons, Warren Chief",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons, Warren Chief attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Rulik Mons attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you didn't put a card onto the battlefield this way, create a 1/1 red Goblin creature token."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -3915,7 +4102,7 @@
         :layout "normal",
         :name "Sol'Kanar the Tainted",
         :oracle-text
-        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar the Tainted deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
+        "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control."}
  #:card{:type-line "Legendary Creature — Cat Avatar",
         :layout-category :normal,
         :code "dmu",
@@ -3926,7 +4113,7 @@
         :layout "normal",
         :name "Soul of Windgrace",
         :oracle-text
-        "Whenever Soul of Windgrace enters the battlefield or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
+        "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control.\n{G}, Discard a land card: You gain 3 life.\n{1}{R}, Discard a land card: Draw a card.\n{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3937,7 +4124,7 @@
         :layout "normal",
         :name "Stenn, Paranoid Partisan",
         :oracle-text
-        "As Stenn, Paranoid Partisan enters the battlefield, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
+        "As Stenn enters, choose a card type other than creature or land.\nSpells you cast of the chosen type cost {1} less to cast.\n{1}{W}{U}: Exile Stenn. Return it to the battlefield under its owner's control at the beginning of the next end step."}
  #:card{:type-line "Legendary Creature — Merfolk Druid",
         :layout-category :normal,
         :code "dmu",
@@ -3948,7 +4135,7 @@
         :layout "normal",
         :name "Tatyova, Steward of Tides",
         :oracle-text
-        "Land creatures you control have flying.\nWhenever a land enters the battlefield under your control, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
+        "Land creatures you control have flying.\nWhenever a land you control enters, if you control seven or more lands, up to one target land you control becomes a 3/3 Elemental creature with haste. It's still a land."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -3959,7 +4146,7 @@
         :layout "normal",
         :name "Tori D'Avenant, Fury Rider",
         :oracle-text
-        "Vigilance, trample\nWhenever Tori D'Avenant, Fury Rider attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
+        "Vigilance, trample\nWhenever Tori D'Avenant attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "dmu",
@@ -3981,7 +4168,7 @@
         :layout "normal",
         :name "Uurg, Spawn of Turg",
         :oracle-text
-        "Uurg, Spawn of Turg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
+        "Uurg's power is equal to the number of land cards in your graveyard.\nAt the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{B}{G}, Sacrifice a land: You gain 2 life."}
  #:card{:type-line "Legendary Creature — Phyrexian Merfolk Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -3992,7 +4179,7 @@
         :layout "normal",
         :name "Vohar, Vodalian Desecrator",
         :oracle-text
-        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar, Vodalian Desecrator: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
+        "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Cat Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -4003,7 +4190,7 @@
         :layout "normal",
         :name "Zar Ojanen, Scion of Efrava",
         :oracle-text
-        "Domain — Whenever Zar Ojanen, Scion of Efrava becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
+        "Domain — Whenever Zar Ojanen becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -4080,7 +4267,7 @@
         :layout "normal",
         :name "Jaya, Fiery Negotiator",
         :oracle-text
-        "+1: Create a 1/1 red Monk creature token with prowess.\n−1: Exile the top two cards of your library. Choose one of them. You may play that card this turn.\n−2: Choose target creature an opponent controls. Whenever you attack this turn, Jaya, Fiery Negotiator deals damage equal to the number of attacking creatures to that creature.\n−8: You get an emblem with \"Whenever you cast a red instant or sorcery spell, copy it twice. You may choose new targets for the copies.\""}
+        "+1: Create a 1/1 red Monk creature token with prowess.\n−1: Exile the top two cards of your library. Choose one of them. You may play that card this turn.\n−2: Choose target creature an opponent controls. Whenever you attack this turn, Jaya deals damage equal to the number of attacking creatures to that creature.\n−8: You get an emblem with \"Whenever you cast a red instant or sorcery spell, copy it twice. You may choose new targets for the copies.\""}
  #:card{:type-line "Legendary Planeswalker — Ajani",
         :layout-category :normal,
         :code "dmu",
@@ -4108,67 +4295,67 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/d/ed5764bd-712b-4e6b-b71e-5767d5613b1c.png?1674074571",
+        "https://cards.scryfall.io/png/front/e/d/ed5764bd-712b-4e6b-b71e-5767d5613b1c.png?1682714376",
         :collector-number "377",
         :layout "normal",
         :name "Adarkar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/3/7328a565-966d-4053-b32b-25bdce031d9f.png?1674074579",
+        "https://cards.scryfall.io/png/front/7/3/7328a565-966d-4053-b32b-25bdce031d9f.png?1682714382",
         :collector-number "378",
         :layout "normal",
         :name "Caves of Koilos",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/a/2a83eca4-b6ad-4ec4-91f2-b2a62b32b056.png?1674074589",
+        "https://cards.scryfall.io/png/front/2/a/2a83eca4-b6ad-4ec4-91f2-b2a62b32b056.png?1682714386",
         :collector-number "379",
         :layout "normal",
         :name "Karplusan Forest",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/2/72c11164-e98c-4f09-9840-825bd1f91247.png?1674074596",
+        "https://cards.scryfall.io/png/front/7/2/72c11164-e98c-4f09-9840-825bd1f91247.png?1682714393",
         :collector-number "380",
         :layout "normal",
         :name "Shivan Reef",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/b/0ba5d3e7-afd9-40c5-8ee9-238ba47f0841.png?1674074604",
+        "https://cards.scryfall.io/png/front/0/b/0ba5d3e7-afd9-40c5-8ee9-238ba47f0841.png?1682714402",
         :collector-number "381",
         :layout "normal",
         :name "Sulfurous Springs",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/9/79aa9c09-5eeb-466f-a8f5-9898de6e7c88.png?1674074611",
+        "https://cards.scryfall.io/png/front/7/9/79aa9c09-5eeb-466f-a8f5-9898de6e7c88.png?1682714409",
         :collector-number "382",
         :layout "normal",
         :name "Yavimaya Coast",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {G} or {U}. This land deals 1 damage to you."}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -4179,7 +4366,7 @@
         :layout "normal",
         :name "Anointed Peacekeeper",
         :oracle-text
-        "Vigilance\nAs Anointed Peacekeeper enters the battlefield, look at an opponent's hand, then choose any card name.\nSpells your opponents cast with the chosen name cost {2} more to cast.\nActivated abilities of sources with the chosen name cost {2} more to activate unless they're mana abilities."}
+        "Vigilance\nAs this creature enters, look at an opponent's hand, then choose any card name.\nSpells your opponents cast with the chosen name cost {2} more to cast.\nActivated abilities of sources with the chosen name cost {2} more to activate unless they're mana abilities."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "dmu",
@@ -4190,7 +4377,7 @@
         :layout "normal",
         :name "Archangel of Wrath",
         :oracle-text
-        "Kicker {B} and/or {R} (You may pay an additional {B} and/or {R} as you cast this spell.)\nFlying, lifelink\nWhen Archangel of Wrath enters the battlefield, if it was kicked, it deals 2 damage to any target.\nWhen Archangel of Wrath enters the battlefield, if it was kicked twice, it deals 2 damage to any target."}
+        "Kicker {B} and/or {R} (You may pay an additional {B} and/or {R} as you cast this spell.)\nFlying, lifelink\nWhen this creature enters, if it was kicked, it deals 2 damage to any target.\nWhen this creature enters, if it was kicked twice, it deals 2 damage to any target."}
  #:card{:type-line "Creature — Phyrexian Human",
         :layout-category :normal,
         :code "dmu",
@@ -4212,7 +4399,7 @@
         :layout "normal",
         :name "Guardian of New Benalia",
         :oracle-text
-        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhenever Guardian of New Benalia enlists a creature, scry 2.\nDiscard a card: Guardian of New Benalia gains indestructible until end of turn. Tap it."}
+        "Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)\nWhenever this creature enlists a creature, scry 2.\nDiscard a card: This creature gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "dmu",
@@ -4223,7 +4410,7 @@
         :layout "normal",
         :name "Leyline Binding",
         :oracle-text
-        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters the battlefield, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "dmu",
@@ -4245,7 +4432,7 @@
         :layout "normal",
         :name "Temporary Lockdown",
         :oracle-text
-        "When Temporary Lockdown enters the battlefield, exile each nonland permanent with mana value 2 or less until Temporary Lockdown leaves the battlefield."}
+        "When this enchantment enters, exile each nonland permanent with mana value 2 or less until this enchantment leaves the battlefield."}
  #:card{:type-line "Creature — Kor Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -4256,7 +4443,7 @@
         :layout "normal",
         :name "Valiant Veteran",
         :oracle-text
-        "Other Soldiers you control get +1/+1.\n{3}{W}{W}, Exile Valiant Veteran from your graveyard: Put a +1/+1 counter on each Soldier you control."}
+        "Other Soldiers you control get +1/+1.\n{3}{W}{W}, Exile this card from your graveyard: Put a +1/+1 counter on each Soldier you control."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -4278,7 +4465,7 @@
         :layout "normal",
         :name "Aether Channeler",
         :oracle-text
-        "When Aether Channeler enters the battlefield, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card."}
+        "When this creature enters, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card."}
  #:card{:type-line "Creature — Phyrexian Sphinx",
         :layout-category :normal,
         :code "dmu",
@@ -4311,7 +4498,7 @@
         :layout "normal",
         :name "Silver Scrutiny",
         :oracle-text
-        "You may cast Silver Scrutiny as though it had flash if X is 3 or less.\nDraw X cards."}
+        "You may cast this spell as though it had flash if X is 3 or less.\nDraw X cards."}
  #:card{:type-line "Creature — Sphinx",
         :layout-category :normal,
         :code "dmu",
@@ -4322,7 +4509,7 @@
         :layout "normal",
         :name "Sphinx of Clear Skies",
         :oracle-text
-        "Flying, ward {2}\nDomain — Whenever Sphinx of Clear Skies deals combat damage to a player, reveal the top X cards of your library, where X is the number of basic land types among lands you control. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard. (Piles can be empty.)"}
+        "Flying, ward {2}\nDomain — Whenever this creature deals combat damage to a player, reveal the top X cards of your library, where X is the number of basic land types among lands you control. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard. (Piles can be empty.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "dmu",
@@ -4355,7 +4542,7 @@
         :layout "normal",
         :name "Vodalian Mindsinger",
         :oracle-text
-        "Kicker {1}{R} and/or {1}{G}\nVodalian Mindsinger enters the battlefield with two +1/+1 counters on it for each time it was kicked.\nWhen Vodalian Mindsinger enters the battlefield, gain control of target creature with power less than Vodalian Mindsinger's power for as long as you control Vodalian Mindsinger."}
+        "Kicker {1}{R} and/or {1}{G}\nThis creature enters with two +1/+1 counters on it for each time it was kicked.\nWhen this creature enters, gain control of target creature with power less than this creature's power for as long as you control this creature."}
  #:card{:type-line "Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "dmu",
@@ -4388,7 +4575,7 @@
         :layout "normal",
         :name "Evolved Sleeper",
         :oracle-text
-        "{B}: Evolved Sleeper becomes a Human Cleric with base power and toughness 2/2.\n{1}{B}: If Evolved Sleeper is a Cleric, put a deathtouch counter on it and it becomes a Phyrexian Human Cleric with base power and toughness 3/3.\n{1}{B}{B}: If Evolved Sleeper is a Phyrexian, put a +1/+1 counter on it, then you draw a card and you lose 1 life."}
+        "{B}: This creature becomes a Human Cleric with base power and toughness 2/2.\n{1}{B}: If this creature is a Cleric, put a deathtouch counter on it and it becomes a Phyrexian Human Cleric with base power and toughness 3/3.\n{1}{B}{B}: If this creature is a Phyrexian, put a +1/+1 counter on it, then you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "dmu",
@@ -4410,7 +4597,7 @@
         :layout "normal",
         :name "Stronghold Arena",
         :oracle-text
-        "Kicker {G} and/or {W} (You may pay an additional {G} and/or {W} as you cast this spell.)\nWhen Stronghold Arena enters the battlefield, you gain 3 life for each time it was kicked.\nWhenever one or more creatures you control deal combat damage to a player, you may reveal the top card of your library and put it into your hand. If you do, you lose life equal to its mana value."}
+        "Kicker {G} and/or {W} (You may pay an additional {G} and/or {W} as you cast this spell.)\nWhen this enchantment enters, you gain 3 life for each time it was kicked.\nWhenever one or more creatures you control deal combat damage to a player, you may reveal the top card of your library and put it into your hand. If you do, you lose life equal to its mana value."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -4432,7 +4619,7 @@
         :layout "normal",
         :name "Defiler of Instinct",
         :oracle-text
-        "First strike\nAs an additional cost to cast red permanent spells, you may pay 2 life. Those spells cost {R} less to cast if you paid life this way. This effect reduces only the amount of red mana you pay.\nWhenever you cast a red permanent spell, Defiler of Instinct deals 1 damage to any target."}
+        "First strike\nAs an additional cost to cast red permanent spells, you may pay 2 life. Those spells cost {R} less to cast if you paid life this way. This effect reduces only the amount of red mana you pay.\nWhenever you cast a red permanent spell, this creature deals 1 damage to any target."}
  #:card{:type-line "Creature — Human Shaman",
         :layout-category :normal,
         :code "dmu",
@@ -4443,7 +4630,7 @@
         :layout "normal",
         :name "Keldon Flamesage",
         :oracle-text
-        "Enlist\nWhenever Keldon Flamesage attacks, look at the top X cards of your library, where X is Keldon Flamesage's power. You may exile an instant or sorcery card with mana value X or less from among them. Put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."}
+        "Enlist\nWhenever this creature attacks, look at the top X cards of your library, where X is this creature's power. You may exile an instant or sorcery card with mana value X or less from among them. Put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -4454,7 +4641,7 @@
         :layout "normal",
         :name "Radha's Firebrand",
         :oracle-text
-        "Whenever Radha's Firebrand attacks, target creature defending player controls with power less than Radha's Firebrand's power can't block this turn.\nDomain — {5}{R}: Radha's Firebrand gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn."}
+        "Whenever this creature attacks, target creature defending player controls with power less than this creature's power can't block this turn.\nDomain — {5}{R}: This creature gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn."}
  #:card{:type-line "Creature — Goblin Warrior",
         :layout-category :normal,
         :code "dmu",
@@ -4465,7 +4652,7 @@
         :layout "normal",
         :name "Rundvelt Hordemaster",
         :oracle-text
-        "Other Goblins you control get +1/+1.\nWhenever Rundvelt Hordemaster or another Goblin you control dies, exile the top card of your library. If it's a Goblin creature card, you may cast that card until the end of your next turn."}
+        "Other Goblins you control get +1/+1.\nWhenever this creature or another Goblin you control dies, exile the top card of your library. If it's a Goblin creature card, you may cast that card until the end of your next turn."}
  #:card{:type-line "Creature — Dragon Hydra",
         :layout-category :normal,
         :code "dmu",
@@ -4476,7 +4663,7 @@
         :layout "normal",
         :name "Shivan Devastator",
         :oracle-text
-        "Flying, haste\nShivan Devastator enters the battlefield with X +1/+1 counters on it."}
+        "Flying, haste\nThis creature enters with X +1/+1 counters on it."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -4509,7 +4696,7 @@
         :layout "normal",
         :name "Herd Migration",
         :oracle-text
-        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard Herd Migration: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
+        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "dmu",
@@ -4531,7 +4718,7 @@
         :layout "normal",
         :name "Llanowar Greenwidow",
         :oracle-text
-        "Reach, trample\nDomain — {7}{G}: Return Llanowar Greenwidow from your graveyard to the battlefield tapped. It gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\" This ability costs {1} less to activate for each basic land type among lands you control."}
+        "Reach, trample\nDomain — {7}{G}: Return this card from your graveyard to the battlefield tapped. It gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\" This ability costs {1} less to activate for each basic land type among lands you control."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "dmu",
@@ -4553,7 +4740,7 @@
         :layout "normal",
         :name "Quirion Beastcaller",
         :oracle-text
-        "Whenever you cast a creature spell, put a +1/+1 counter on Quirion Beastcaller.\nWhen Quirion Beastcaller dies, distribute X +1/+1 counters among any number of target creatures you control, where X is the number of +1/+1 counters on Quirion Beastcaller."}
+        "Whenever you cast a creature spell, put a +1/+1 counter on this creature.\nWhen this creature dies, distribute X +1/+1 counters among any number of target creatures you control, where X is the number of +1/+1 counters on this creature."}
  #:card{:type-line "Creature — Ape Shaman",
         :layout-category :normal,
         :code "dmu",
@@ -4586,7 +4773,7 @@
         :layout "normal",
         :name "Urborg Lhurgoyf",
         :oracle-text
-        "Kicker {U} and/or {B} (You may pay an additional {U} and/or {B} as you cast this spell.)\nAs Urborg Lhurgoyf enters the battlefield, mill three cards for each time it was kicked.\nUrborg Lhurgoyf's power is equal to the number of creature cards in your graveyard and its toughness is equal to that number plus 1."}
+        "Kicker {U} and/or {B} (You may pay an additional {U} and/or {B} as you cast this spell.)\nAs this creature enters, mill three cards for each time it was kicked.\nUrborg Lhurgoyf's power is equal to the number of creature cards in your graveyard and its toughness is equal to that number plus 1."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "dmu",
@@ -4597,7 +4784,7 @@
         :layout "normal",
         :name "Plaza of Heroes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell.\n{T}: Add one mana of any color among legendary permanents you control.\n{3}, {T}, Exile Plaza of Heroes: Target legendary creature gains hexproof and indestructible until end of turn."}
+        "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell.\n{T}: Add one mana of any color among legendary permanents you control.\n{3}, {T}, Exile this land: Target legendary creature gains hexproof and indestructible until end of turn."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "dmu",
@@ -4608,7 +4795,7 @@
         :layout "normal",
         :name "Thran Portal",
         :oracle-text
-        "Thran Portal enters the battlefield tapped unless you control two or fewer other lands.\nAs Thran Portal enters the battlefield, choose a basic land type.\nThran Portal is the chosen type in addition to its other types.\nMana abilities of Thran Portal cost an additional 1 life to activate."}
+        "This land enters tapped unless you control two or fewer other lands.\nAs this land enters, choose a basic land type.\nThis land is the chosen type in addition to its other types.\nMana abilities of this land cost an additional 1 life to activate."}
  #:card{:type-line "Creature — Angel Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -4619,7 +4806,7 @@
         :layout "normal",
         :name "Serra Redeemer",
         :oracle-text
-        "Flying\nWhenever another creature with power 2 or less enters the battlefield under your control, put two +1/+1 counters on that creature."}
+        "Flying\nWhenever another creature you control with power 2 or less enters, put two +1/+1 counters on that creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "dmu",
@@ -4641,7 +4828,7 @@
         :layout "normal",
         :name "Tyrannical Pitlord",
         :oracle-text
-        "Flying, trample\nAs Tyrannical Pitlord enters the battlefield, choose another creature you control.\nThe chosen creature gets +3/+3 and has flying.\nWhen Tyrannical Pitlord leaves the battlefield, sacrifice the chosen creature."}
+        "Flying, trample\nAs this creature enters, choose another creature you control.\nThe chosen creature gets +3/+3 and has flying.\nWhen this creature leaves the battlefield, sacrifice the chosen creature."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "dmu",
@@ -4652,7 +4839,7 @@
         :layout "normal",
         :name "Ragefire Hellkite",
         :oracle-text
-        "Flying\nWhenever Ragefire Hellkite attacks, you may sacrifice another creature. If you do, Ragefire Hellkite gains double strike until end of turn."}
+        "Flying\nWhenever this creature attacks, you may sacrifice another creature. If you do, this creature gains double strike until end of turn."}
  #:card{:type-line "Creature — Plant Hydra",
         :layout-category :normal,
         :code "dmu",
@@ -4663,13 +4850,13 @@
         :layout "normal",
         :name "Briar Hydra",
         :oracle-text
-        "Trample\nDomain — Whenever Briar Hydra deals combat damage to a player, put X +1/+1 counters on target creature you control, where X is the number of basic land types among lands you control."}
+        "Trample\nDomain — Whenever this creature deals combat damage to a player, put X +1/+1 counters on target creature you control, where X is the number of basic land types among lands you control."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/d/5d0a1c0d-23cf-472e-a6b3-fd0c3905b4e4.png?1671135817",
+        "https://cards.scryfall.io/png/front/5/d/5d0a1c0d-23cf-472e-a6b3-fd0c3905b4e4.png?1712996934",
         :collector-number "428",
         :layout "normal",
         :name "Llanowar Loamspeaker",
@@ -4685,7 +4872,7 @@
         :layout "normal",
         :name "Herd Migration",
         :oracle-text
-        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard Herd Migration: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
+        "Domain — Create a 3/3 green Beast creature token for each basic land type among lands you control.\n{1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "dmu",
@@ -4696,7 +4883,7 @@
         :layout "normal",
         :name "Resolute Reinforcements",
         :oracle-text
-        "Flash\nWhen Resolute Reinforcements enters the battlefield, create a 1/1 white Soldier creature token."}
+        "Flash (You may cast this spell any time you could cast an instant.)\nWhen this creature enters, create a 1/1 white Soldier creature token."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "dmu",
@@ -4707,7 +4894,7 @@
         :layout "normal",
         :name "Micromancer",
         :oracle-text
-        "When Micromancer enters the battlefield, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle."}
+        "When this creature enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "dmu",
@@ -4745,7 +4932,7 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/d/8df6603a-38c1-4d18-8b84-6211e9a7cc09.png?1675367477",
+        "https://cards.scryfall.io/png/front/8/d/8df6603a-38c1-4d18-8b84-6211e9a7cc09.png?1684919918",
         :collector-number "435",
         :layout "normal",
         :name "Sheoldred, the Apocalypse",
@@ -4756,7 +4943,7 @@
         :code "dmu",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/e/5ee7c1b3-36c3-4f81-a45d-f34331db5b18.png?1674781004",
+        "https://cards.scryfall.io/png/front/5/e/5ee7c1b3-36c3-4f81-a45d-f34331db5b18.png?1682714280",
         :collector-number "436",
         :layout "normal",
         :name "Sheoldred, the Apocalypse",

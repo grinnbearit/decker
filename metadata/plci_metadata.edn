@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Get Lost",
         :oracle-text
-        "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")"}
+        "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "plci",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Get Lost",
         :oracle-text
-        "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")"}
+        "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")"}
  #:card{:type-line "Creature — Cat Warrior",
         :layout-category :normal,
         :code "plci",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Kutzil's Flanker",
         :oracle-text
-        "Flash\nWhen Kutzil's Flanker enters the battlefield, choose one —\n• Put a +1/+1 counter on Kutzil's Flanker for each creature that left the battlefield under your control this turn.\n• You gain 2 life and scry 2.\n• Exile target player's graveyard."}
+        "Flash\nWhen this creature enters, choose one —\n• Put a +1/+1 counter on this creature for each creature that left the battlefield under your control this turn.\n• You gain 2 life and scry 2.\n• Exile target player's graveyard."}
  #:card{:type-line "Creature — Cat Warrior",
         :layout-category :normal,
         :code "plci",
@@ -85,24 +85,7 @@
         :layout "normal",
         :name "Kutzil's Flanker",
         :oracle-text
-        "Flash\nWhen Kutzil's Flanker enters the battlefield, choose one —\n• Put a +1/+1 counter on Kutzil's Flanker for each creature that left the battlefield under your control this turn.\n• You gain 2 life and scry 2.\n• Exile target player's graveyard."}
- #:card{:code "plci",
-        :collector-number "26s",
-        :name "Ojer Taq, Deepest Foundation // Temple of Civilization",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/e/1/e1054d8e-57cb-468e-870d-0082c1964b84.png?1701304498",
-          :type-line "Legendary Creature — God",
-          :oracle-text
-          "Vigilance\nIf one or more creature tokens would be created under your control, three times that many of those tokens are created instead.\nWhen Ojer Taq dies, return it to the battlefield tapped and transformed under its owner's control."}
-         {:png
-          "https://cards.scryfall.io/png/back/e/1/e1054d8e-57cb-468e-870d-0082c1964b84.png?1701304498",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Ojer Taq, Deepest Foundation.)\n{T}: Add {W}.\n{2}{W}, {T}: Transform Temple of Civilization. Activate only if you attacked with three or more creatures this turn and only as a sorcery."}]}
+        "Flash\nWhen this creature enters, choose one —\n• Put a +1/+1 counter on this creature for each creature that left the battlefield under your control this turn.\n• You gain 2 life and scry 2.\n• Exile target player's graveyard."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "plci",
@@ -113,7 +96,7 @@
         :layout "normal",
         :name "Resplendent Angel",
         :oracle-text
-        "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+2 and gains lifelink."}
+        "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, this creature gets +2/+2 and gains lifelink."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "plci",
@@ -124,7 +107,7 @@
         :layout "normal",
         :name "Resplendent Angel",
         :oracle-text
-        "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+2 and gains lifelink."}
+        "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, this creature gets +2/+2 and gains lifelink."}
  #:card{:type-line "Creature — Vampire Cleric",
         :layout-category :normal,
         :code "plci",
@@ -135,7 +118,7 @@
         :layout "normal",
         :name "Sanguine Evangelist",
         :oracle-text
-        "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhen Sanguine Evangelist enters the battlefield or dies, create a 1/1 black Bat creature token with flying."}
+        "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhen this creature enters or dies, create a 1/1 black Bat creature token with flying."}
  #:card{:type-line "Creature — Vampire Cleric",
         :layout-category :normal,
         :code "plci",
@@ -146,41 +129,7 @@
         :layout "normal",
         :name "Sanguine Evangelist",
         :oracle-text
-        "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhen Sanguine Evangelist enters the battlefield or dies, create a 1/1 black Bat creature token with flying."}
- #:card{:code "plci",
-        :collector-number "39s",
-        :name "Thousand Moons Smithy // Barracks of the Thousand",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/4/f/4fd86c9c-c612-4d94-a422-d54207b665b9.png?1701304464",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "When Thousand Moons Smithy enters the battlefield, create a white Gnome Soldier artifact creature token with \"This creature's power and toughness are each equal to the number of artifacts and/or creatures you control.\"\nAt the beginning of your precombat main phase, you may tap five untapped artifacts and/or creatures you control. If you do, transform Thousand Moons Smithy."}
-         {:png
-          "https://cards.scryfall.io/png/back/4/f/4fd86c9c-c612-4d94-a422-d54207b665b9.png?1701304464",
-          :type-line "Legendary Artifact Land",
-          :oracle-text
-          "(Transforms from Thousand Moons Smithy.)\n{T}: Add {W}.\nWhenever you cast an artifact or creature spell using mana produced by Barracks of the Thousand, create a white Gnome Soldier artifact creature token with \"This creature's power and toughness are each equal to the number of artifacts and/or creatures you control.\""}]}
- #:card{:code "plci",
-        :collector-number "41s",
-        :name "Unstable Glyphbridge // Sandswirl Wanderglyph",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/5/7/57781421-e6f5-4da9-b1b4-0716287c9a27.png?1701304448",
-          :type-line "Artifact",
-          :oracle-text
-          "When Unstable Glyphbridge enters the battlefield, if you cast it, for each player, choose a creature with power 2 or less that player controls. Then destroy all creatures except creatures chosen this way.\nCraft with artifact {3}{W}{W} ({3}{W}{W}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/5/7/57781421-e6f5-4da9-b1b4-0716287c9a27.png?1701304448",
-          :type-line "Artifact Creature — Golem",
-          :oracle-text
-          "Flying\nWhenever an opponent casts a spell during their turn, they can't attack you or planeswalkers you control this turn.\nEach opponent who attacked you or a planeswalker you control this turn can't cast spells."}]}
+        "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhen this creature enters or dies, create a 1/1 black Bat creature token with flying."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "plci",
@@ -191,7 +140,7 @@
         :layout "normal",
         :name "Warden of the Inner Sky",
         :oracle-text
-        "As long as Warden of the Inner Sky has three or more counters on it, it has flying and vigilance.\nTap three untapped artifacts and/or creatures you control: Put a +1/+1 counter on Warden of the Inner Sky. Scry 1. Activate only as a sorcery."}
+        "As long as this creature has three or more counters on it, it has flying and vigilance.\nTap three untapped artifacts and/or creatures you control: Put a +1/+1 counter on this creature. Scry 1. Activate only as a sorcery."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "plci",
@@ -202,7 +151,7 @@
         :layout "normal",
         :name "Warden of the Inner Sky",
         :oracle-text
-        "As long as Warden of the Inner Sky has three or more counters on it, it has flying and vigilance.\nTap three untapped artifacts and/or creatures you control: Put a +1/+1 counter on Warden of the Inner Sky. Scry 1. Activate only as a sorcery."}
+        "As long as this creature has three or more counters on it, it has flying and vigilance.\nTap three untapped artifacts and/or creatures you control: Put a +1/+1 counter on this creature. Scry 1. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "plci",
@@ -225,23 +174,6 @@
         :name "Akal Pakal, First Among Equals",
         :oracle-text
         "At the beginning of each player's end step, if an artifact entered the battlefield under your control this turn, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."}
- #:card{:code "plci",
-        :collector-number "47s",
-        :name "Braided Net // Braided Quipu",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/2/3/233f0396-7ca6-4a20-bb32-ebdfa962034d.png?1701304412",
-          :type-line "Artifact",
-          :oracle-text
-          "Braided Net enters the battlefield with three net counters on it.\n{T}, Remove a net counter from Braided Net: Tap another target nonland permanent. Its activated abilities can't be activated for as long as it remains tapped.\nCraft with artifact {1}{U}"}
-         {:png
-          "https://cards.scryfall.io/png/back/2/3/233f0396-7ca6-4a20-bb32-ebdfa962034d.png?1701304412",
-          :type-line "Artifact",
-          :oracle-text
-          "{3}{U}, {T}: Draw a card for each artifact you control, then put Braided Quipu into its owner's library third from the top."}]}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "plci",
@@ -264,40 +196,6 @@
         :name "Deeproot Pilgrimage",
         :oracle-text
         "Whenever one or more nontoken Merfolk you control become tapped, create a 1/1 blue Merfolk creature token with hexproof."}
- #:card{:code "plci",
-        :collector-number "55s",
-        :name "The Enigma Jewel // Locus of Enlightenment",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/2/c/2c6804e1-7abb-4c47-bef4-7ea36ed072b9.png?1701304385",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "The Enigma Jewel enters the battlefield tapped.\n{T}: Add {C}{C}. Spend this mana only to activate abilities.\nCraft with four or more nonlands with activated abilities {8}{U} ({8}{U}, Exile this artifact, Exile the four or more from among other permanents you control and/or cards in your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/2/c/2c6804e1-7abb-4c47-bef4-7ea36ed072b9.png?1701304385",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "Locus of Enlightenment has each activated ability of the exiled cards used to craft it. You may activate each of those abilities only once each turn.\nWhenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy."}]}
- #:card{:code "plci",
-        :collector-number "56s",
-        :name "The Everflowing Well // The Myriad Pools",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/f/7/f7afa710-a71a-4d30-b112-4a5164de6033.png?1701304369",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "When The Everflowing Well enters the battlefield, mill two cards, then draw two cards.\nDescend 8 — At the beginning of your upkeep, if there are eight or more permanent cards in your graveyard, transform The Everflowing Well."}
-         {:png
-          "https://cards.scryfall.io/png/back/f/7/f7afa710-a71a-4d30-b112-4a5164de6033.png?1701304369",
-          :type-line "Legendary Artifact Land",
-          :oracle-text
-          "(Transforms from The Everflowing Well.)\n{T}: Add {U}.\nWhenever you cast a permanent spell using mana produced by The Myriad Pools, up to one other target permanent you control becomes a copy of that spell until end of turn."}]}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "plci",
@@ -308,7 +206,7 @@
         :layout "normal",
         :name "Kitesail Larcenist",
         :oracle-text
-        "Flying, ward {1}\nWhen Kitesail Larcenist enters the battlefield, for each player, choose up to one other target artifact or creature that player controls. For as long as Kitesail Larcenist remains on the battlefield, the chosen permanents become Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color\" and lose all other abilities."}
+        "Flying, ward {1}\nWhen this creature enters, for each player, choose up to one other target artifact or creature that player controls. For as long as this creature remains on the battlefield, the chosen permanents become Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color\" and lose all other abilities."}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "plci",
@@ -319,7 +217,7 @@
         :layout "normal",
         :name "Kitesail Larcenist",
         :oracle-text
-        "Flying, ward {1}\nWhen Kitesail Larcenist enters the battlefield, for each player, choose up to one other target artifact or creature that player controls. For as long as Kitesail Larcenist remains on the battlefield, the chosen permanents become Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color\" and lose all other abilities."}
+        "Flying, ward {1}\nWhen this creature enters, for each player, choose up to one other target artifact or creature that player controls. For as long as this creature remains on the battlefield, the chosen permanents become Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color\" and lose all other abilities."}
  #:card{:type-line "Legendary Creature — Siren Pirate",
         :layout-category :normal,
         :code "plci",
@@ -330,7 +228,7 @@
         :layout "normal",
         :name "Malcolm, Alluring Scoundrel",
         :oracle-text
-        "Flash\nFlying\nWhenever Malcolm, Alluring Scoundrel deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost."}
+        "Flash\nFlying\nWhenever Malcolm deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost."}
  #:card{:type-line "Legendary Creature — Siren Pirate",
         :layout-category :normal,
         :code "plci",
@@ -341,25 +239,7 @@
         :layout "normal",
         :name "Malcolm, Alluring Scoundrel",
         :oracle-text
-        "Flash\nFlying\nWhenever Malcolm, Alluring Scoundrel deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost."}
- #:card{:code "plci",
-        :collector-number "67s",
-        :name
-        "Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/5/e/5e3b41b5-bce3-4ba3-9bed-a705d7c3e5a6.png?1701304331",
-          :type-line "Legendary Creature — God",
-          :oracle-text
-          "Flying\nWhenever you cast an instant spell from your hand, it gains rebound. (Exile it as it resolves. At the beginning of your next upkeep, you may cast it from exile without paying its mana cost.)\nWhen Ojer Pakpatiq dies, return it to the battlefield tapped and transformed under its owner's control with three time counters on it."}
-         {:png
-          "https://cards.scryfall.io/png/back/5/e/5e3b41b5-bce3-4ba3-9bed-a705d7c3e5a6.png?1701304331",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Ojer Pakpatiq, Deepest Epoch.)\n{T}: Add {U}. Remove a time counter from Temple of Cyclical Time.\n{2}{U}, {T}: Transform Temple of Cyclical Time. Activate only if it has no time counters on it and only as a sorcery."}]}
+        "Flash\nFlying\nWhenever Malcolm deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "plci",
@@ -370,7 +250,7 @@
         :layout "normal",
         :name "Subterranean Schooner",
         :oracle-text
-        "Whenever Subterranean Schooner attacks, target creature that crewed it this turn explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nCrew 1"}
+        "Whenever this Vehicle attacks, target creature that crewed it this turn explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nCrew 1"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "plci",
@@ -381,7 +261,7 @@
         :layout "normal",
         :name "Subterranean Schooner",
         :oracle-text
-        "Whenever Subterranean Schooner attacks, target creature that crewed it this turn explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nCrew 1"}
+        "Whenever this Vehicle attacks, target creature that crewed it this turn explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nCrew 1"}
  #:card{:type-line "Creature — Merfolk Wizard",
         :layout-category :normal,
         :code "plci",
@@ -392,7 +272,7 @@
         :layout "normal",
         :name "Tishana's Tidebinder",
         :oracle-text
-        "Flash\nWhen Tishana's Tidebinder enters the battlefield, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as Tishana's Tidebinder remains on the battlefield. (Mana abilities can't be targeted.)"}
+        "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)"}
  #:card{:type-line "Creature — Merfolk Wizard",
         :layout-category :normal,
         :code "plci",
@@ -403,24 +283,7 @@
         :layout "normal",
         :name "Tishana's Tidebinder",
         :oracle-text
-        "Flash\nWhen Tishana's Tidebinder enters the battlefield, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as Tishana's Tidebinder remains on the battlefield. (Mana abilities can't be targeted.)"}
- #:card{:code "plci",
-        :collector-number "88s",
-        :name "Aclazotz, Deepest Betrayal // Temple of the Dead",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/8/8/88764277-a441-4843-83fc-67b350a5b6ef.png?1701304290",
-          :type-line "Legendary Creature — Bat God",
-          :oracle-text
-          "Flying, lifelink\nWhenever Aclazotz attacks, each opponent discards a card. For each opponent who can't, you draw a card.\nWhenever an opponent discards a land card, create a 1/1 black Bat creature token with flying.\nWhen Aclazotz dies, return it to the battlefield tapped and transformed under its owner's control."}
-         {:png
-          "https://cards.scryfall.io/png/back/8/8/88764277-a441-4843-83fc-67b350a5b6ef.png?1701304290",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Aclazotz, Deepest Betrayal.)\n{T}: Add {B}.\n{2}{B}, {T}: Transform Temple of the Dead. Activate only if a player has one or fewer cards in hand and only as a sorcery."}]}
+        "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)"}
  #:card{:type-line "Creature — Vampire Demon",
         :layout-category :normal,
         :code "plci",
@@ -453,7 +316,7 @@
         :layout "normal",
         :name "Bringer of the Last Gift",
         :oracle-text
-        "Flying\nWhen Bringer of the Last Gift enters the battlefield, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield."}
+        "Flying\nWhen this creature enters, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield."}
  #:card{:type-line "Creature — Vampire Demon",
         :layout-category :normal,
         :code "plci",
@@ -464,7 +327,7 @@
         :layout "normal",
         :name "Bringer of the Last Gift",
         :oracle-text
-        "Flying\nWhen Bringer of the Last Gift enters the battlefield, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield."}
+        "Flying\nWhen this creature enters, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "plci",
@@ -475,7 +338,7 @@
         :layout "normal",
         :name "Corpses of the Lost",
         :oracle-text
-        "Skeletons you control get +1/+0 and have haste.\nWhen Corpses of the Lost enters the battlefield, create a 2/2 black Skeleton Pirate creature token.\nAt the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return Corpses of the Lost to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)"}
+        "Skeletons you control get +1/+0 and have haste.\nWhen this enchantment enters, create a 2/2 black Skeleton Pirate creature token.\nAt the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return this enchantment to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "plci",
@@ -486,7 +349,7 @@
         :layout "normal",
         :name "Corpses of the Lost",
         :oracle-text
-        "Skeletons you control get +1/+0 and have haste.\nWhen Corpses of the Lost enters the battlefield, create a 2/2 black Skeleton Pirate creature token.\nAt the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return Corpses of the Lost to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)"}
+        "Skeletons you control get +1/+0 and have haste.\nWhen this enchantment enters, create a 2/2 black Skeleton Pirate creature token.\nAt the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return this enchantment to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)"}
  #:card{:type-line "Creature — Vampire Cleric",
         :layout-category :normal,
         :code "plci",
@@ -497,7 +360,7 @@
         :layout "normal",
         :name "Preacher of the Schism",
         :oracle-text
-        "Deathtouch\nWhenever Preacher of the Schism attacks the player with the most life or tied for most life, create a 1/1 white Vampire creature token with lifelink.\nWhenever Preacher of the Schism attacks while you have the most life or are tied for most life, you draw a card and you lose 1 life."}
+        "Deathtouch\nWhenever this creature attacks the player with the most life or tied for most life, create a 1/1 white Vampire creature token with lifelink.\nWhenever this creature attacks while you have the most life or are tied for most life, you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Vampire Cleric",
         :layout-category :normal,
         :code "plci",
@@ -508,7 +371,7 @@
         :layout "normal",
         :name "Preacher of the Schism",
         :oracle-text
-        "Deathtouch\nWhenever Preacher of the Schism attacks the player with the most life or tied for most life, create a 1/1 white Vampire creature token with lifelink.\nWhenever Preacher of the Schism attacks while you have the most life or are tied for most life, you draw a card and you lose 1 life."}
+        "Deathtouch\nWhenever this creature attacks the player with the most life or tied for most life, create a 1/1 white Vampire creature token with lifelink.\nWhenever this creature attacks while you have the most life or are tied for most life, you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Vampire Knight",
         :layout-category :normal,
         :code "plci",
@@ -519,7 +382,7 @@
         :layout "normal",
         :name "Queen's Bay Paladin",
         :oracle-text
-        "Whenever Queen's Bay Paladin enters the battlefield or attacks, return up to one target Vampire card from your graveyard to the battlefield with a finality counter on it. You lose life equal to its mana value. (If a creature with a finality counter on it would die, exile it instead.)"}
+        "Whenever this creature enters or attacks, return up to one target Vampire card from your graveyard to the battlefield with a finality counter on it. You lose life equal to its mana value. (If a creature with a finality counter on it would die, exile it instead.)"}
  #:card{:type-line "Creature — Vampire Knight",
         :layout-category :normal,
         :code "plci",
@@ -530,7 +393,7 @@
         :layout "normal",
         :name "Queen's Bay Paladin",
         :oracle-text
-        "Whenever Queen's Bay Paladin enters the battlefield or attacks, return up to one target Vampire card from your graveyard to the battlefield with a finality counter on it. You lose life equal to its mana value. (If a creature with a finality counter on it would die, exile it instead.)"}
+        "Whenever this creature enters or attacks, return up to one target Vampire card from your graveyard to the battlefield with a finality counter on it. You lose life equal to its mana value. (If a creature with a finality counter on it would die, exile it instead.)"}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "plci",
@@ -563,7 +426,7 @@
         :layout "normal",
         :name "Stalactite Stalker",
         :oracle-text
-        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
+        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on this creature. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice this creature: Target creature gets -X/-X until end of turn, where X is this creature's power."}
  #:card{:type-line "Creature — Goblin Rogue",
         :layout-category :normal,
         :code "plci",
@@ -574,7 +437,7 @@
         :layout "normal",
         :name "Stalactite Stalker",
         :oracle-text
-        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on Stalactite Stalker. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice Stalactite Stalker: Target creature gets -X/-X until end of turn, where X is Stalactite Stalker's power."}
+        "Menace\nAt the beginning of your end step, if you descended this turn, put a +1/+1 counter on this creature. (You descended if a permanent card was put into your graveyard from anywhere.)\n{2}{B}, Sacrifice this creature: Target creature gets -X/-X until end of turn, where X is this creature's power."}
  #:card{:type-line "Creature — Spirit Horror",
         :layout-category :normal,
         :code "plci",
@@ -585,7 +448,7 @@
         :layout "normal",
         :name "Starving Revenant",
         :oracle-text
-        "When Starving Revenant enters the battlefield, surveil 2. Then for each card you put on top of your library, you draw a card and you lose 3 life.\nDescend 8 — Whenever you draw a card, if there are eight or more permanent cards in your graveyard, target opponent loses 1 life and you gain 1 life."}
+        "When this creature enters, surveil 2. Then for each card you put on top of your library, you draw a card and you lose 3 life.\nDescend 8 — Whenever you draw a card, if there are eight or more permanent cards in your graveyard, target opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Creature — Spirit Horror",
         :layout-category :normal,
         :code "plci",
@@ -596,24 +459,7 @@
         :layout "normal",
         :name "Starving Revenant",
         :oracle-text
-        "When Starving Revenant enters the battlefield, surveil 2. Then for each card you put on top of your library, you draw a card and you lose 3 life.\nDescend 8 — Whenever you draw a card, if there are eight or more permanent cards in your graveyard, target opponent loses 1 life and you gain 1 life."}
- #:card{:code "plci",
-        :collector-number "126s",
-        :name "Tarrian's Journal // The Tomb of Aclazotz",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/2/8/28c5036e-e6e5-4696-ac8c-45dd8622aa28.png?1701304181",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "{T}, Sacrifice another artifact or creature: Draw a card. Activate only as a sorcery.\n{2}, {T}, Discard your hand: Transform Tarrian's Journal."}
-         {:png
-          "https://cards.scryfall.io/png/back/2/8/28c5036e-e6e5-4696-ac8c-45dd8622aa28.png?1701304181",
-          :type-line "Legendary Land — Cave",
-          :oracle-text
-          "(Transforms from Tarrian's Journal.)\n{T}: Add {B}.\n{T}: You may cast a creature spell from your graveyard this turn. If you do, it enters the battlefield with a finality counter on it and is a Vampire in addition to its other types. (If a creature with a finality counter on it would die, exile it instead.)"}]}
+        "When this creature enters, surveil 2. Then for each card you put on top of your library, you draw a card and you lose 3 life.\nDescend 8 — Whenever you draw a card, if there are eight or more permanent cards in your graveyard, target opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "plci",
@@ -658,23 +504,6 @@
         :name "Bonehoard Dracosaur",
         :oracle-text
         "Flying, first strike\nAt the beginning of your upkeep, exile the top two cards of your library. You may play them this turn. If you exiled a land card this way, create a 3/1 red Dinosaur creature token. If you exiled a nonland card this way, create a Treasure token."}
- #:card{:code "plci",
-        :collector-number "135s",
-        :name "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/2/4/2480dd4c-21dd-40fe-a2cf-1d853fa1d4b5.png?1701304142",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "When Brass's Tunnel-Grinder enters the battlefield, discard any number of cards, then draw that many cards plus one.\nAt the beginning of your end step, if you descended this turn, put a bore counter on Brass's Tunnel-Grinder. Then if there are three or more bore counters on it, remove those counters and transform it. (You descended if a permanent card was put into your graveyard from anywhere.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/2/4/2480dd4c-21dd-40fe-a2cf-1d853fa1d4b5.png?1701304142",
-          :type-line "Legendary Land — Cave",
-          :oracle-text
-          "(Transforms from Brass's Tunnel-Grinder.)\n{T}: Add {R}.\nWhenever you cast a permanent spell using mana produced by Tecutlan, the Searing Rift, discover X, where X is that spell's mana value."}]}
  #:card{:type-line "Legendary Creature — Goblin Pirate",
         :layout-category :normal,
         :code "plci",
@@ -697,23 +526,6 @@
         :name "Breeches, Eager Pillager",
         :oracle-text
         "First strike\nWhenever a Pirate you control attacks, choose one that hasn't been chosen this turn —\n• Create a Treasure token.\n• Target creature can't block this turn.\n• Exile the top card of your library. You may play it this turn."}
- #:card{:code "plci",
-        :collector-number "145s",
-        :name "Dire Flail // Dire Blunderbuss",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/c/6/c6c8833d-b644-4ab6-a4fb-9bd0071ca391.png?1701304114",
-          :type-line "Artifact — Equipment",
-          :oracle-text
-          "Equipped creature gets +2/+0.\nEquip {1}\nCraft with artifact {3}{R}{R} ({3}{R}{R}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/c/6/c6c8833d-b644-4ab6-a4fb-9bd0071ca391.png?1701304114",
-          :type-line "Artifact — Equipment",
-          :oracle-text
-          "Equipped creature gets +3/+0 and has \"Whenever this creature attacks, you may sacrifice an artifact other than Dire Blunderbuss. When you do, this creature deals damage equal to its power to target creature.\"\nEquip {1}"}]}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "plci",
@@ -768,7 +580,7 @@
         :layout "normal",
         :name "Magmatic Galleon",
         :oracle-text
-        "When Magmatic Galleon enters the battlefield, it deals 5 damage to target creature an opponent controls.\nWhenever one or more creatures your opponents control are dealt excess noncombat damage, create a Treasure token.\nCrew 2"}
+        "When this Vehicle enters, it deals 5 damage to target creature an opponent controls.\nWhenever one or more creatures your opponents control are dealt excess noncombat damage, create a Treasure token.\nCrew 2"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "plci",
@@ -779,24 +591,7 @@
         :layout "normal",
         :name "Magmatic Galleon",
         :oracle-text
-        "When Magmatic Galleon enters the battlefield, it deals 5 damage to target creature an opponent controls.\nWhenever one or more creatures your opponents control are dealt excess noncombat damage, create a Treasure token.\nCrew 2"}
- #:card{:code "plci",
-        :collector-number "158s",
-        :name "Ojer Axonil, Deepest Might // Temple of Power",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/f/e/fe9aece4-f7c0-44c6-b6bb-6e6b32cf4425.png?1701304065",
-          :type-line "Legendary Creature — God",
-          :oracle-text
-          "Trample\nIf a red source you control would deal an amount of noncombat damage less than Ojer Axonil's power to an opponent, that source deals damage equal to Ojer Axonil's power instead.\nWhen Ojer Axonil dies, return it to the battlefield tapped and transformed under its owner's control."}
-         {:png
-          "https://cards.scryfall.io/png/back/f/e/fe9aece4-f7c0-44c6-b6bb-6e6b32cf4425.png?1701304065",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Ojer Axonil, Deepest Might.)\n{T}: Add {R}.\n{2}{R}, {T}: Transform Temple of Power. Activate only if red sources you controlled dealt 4 or more noncombat damage this turn and only as a sorcery."}]}
+        "When this Vehicle enters, it deals 5 damage to target creature an opponent controls.\nWhenever one or more creatures your opponents control are dealt excess noncombat damage, create a Treasure token.\nCrew 2"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "plci",
@@ -829,7 +624,7 @@
         :layout "normal",
         :name "Trumpeting Carnosaur",
         :oracle-text
-        "Trample\nWhen Trumpeting Carnosaur enters the battlefield, discover 5.\n{2}{R}, Discard Trumpeting Carnosaur: It deals 3 damage to target creature or planeswalker."}
+        "Trample\nWhen this creature enters, discover 5.\n{2}{R}, Discard this card: It deals 3 damage to target creature or planeswalker."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -840,7 +635,7 @@
         :layout "normal",
         :name "Trumpeting Carnosaur",
         :oracle-text
-        "Trample\nWhen Trumpeting Carnosaur enters the battlefield, discover 5.\n{2}{R}, Discard Trumpeting Carnosaur: It deals 3 damage to target creature or planeswalker."}
+        "Trample\nWhen this creature enters, discover 5.\n{2}{R}, Discard this card: It deals 3 damage to target creature or planeswalker."}
  #:card{:type-line "Creature — Turtle",
         :layout-category :normal,
         :code "plci",
@@ -851,7 +646,7 @@
         :layout "normal",
         :name "Bedrock Tortoise",
         :oracle-text
-        "As long as it's your turn, creatures you control have hexproof.\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power."}
+        "During your turn, creatures you control have hexproof.\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power."}
  #:card{:type-line "Creature — Turtle",
         :layout-category :normal,
         :code "plci",
@@ -862,7 +657,7 @@
         :layout "normal",
         :name "Bedrock Tortoise",
         :oracle-text
-        "As long as it's your turn, creatures you control have hexproof.\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power."}
+        "During your turn, creatures you control have hexproof.\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "plci",
@@ -895,7 +690,7 @@
         :layout "normal",
         :name "Ghalta, Stampede Tyrant",
         :oracle-text
-        "Trample\nWhen Ghalta, Stampede Tyrant enters the battlefield, put any number of creature cards from your hand onto the battlefield."}
+        "Trample\nWhen Ghalta enters, put any number of creature cards from your hand onto the battlefield."}
  #:card{:type-line "Legendary Creature — Elder Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -906,41 +701,7 @@
         :layout "normal",
         :name "Ghalta, Stampede Tyrant",
         :oracle-text
-        "Trample\nWhen Ghalta, Stampede Tyrant enters the battlefield, put any number of creature cards from your hand onto the battlefield."}
- #:card{:code "plci",
-        :collector-number "188s",
-        :name "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/8/2/8252d27f-8cee-4a41-86a8-2a5311ead103.png?1701303991",
-          :type-line "Legendary Enchantment",
-          :oracle-text
-          "When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc."}
-         {:png
-          "https://cards.scryfall.io/png/back/8/2/8252d27f-8cee-4a41-86a8-2a5311ead103.png?1701303991",
-          :type-line "Legendary Land",
-          :oracle-text
-          "(Transforms from Growing Rites of Itlimoc.)\n{T}: Add {G}.\n{T}: Add {G} for each creature you control."}]}
- #:card{:code "plci",
-        :collector-number "189s",
-        :name "Huatli, Poet of Unity // Roar of the Fifth People",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/b/e/be069029-adc9-41e4-adbf-48fe0b0caa5e.png?1701303975",
-          :type-line "Legendary Creature — Human Warrior Bard",
-          :oracle-text
-          "When Huatli, Poet of Unity enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{3}{R/W}{R/W}: Exile Huatli, then return her to the battlefield transformed under her owner's control. Activate only as a sorcery."}
-         {:png
-          "https://cards.scryfall.io/png/back/b/e/be069029-adc9-41e4-adbf-48fe0b0caa5e.png?1701303975",
-          :type-line "Enchantment — Saga",
-          :oracle-text
-          "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Create two 3/3 green Dinosaur creature tokens.\nII — Roar of the Fifth People gains \"Creatures you control have '{T}: Add {R}, {G}, or {W}.'\"\nIII — Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle.\nIV — Dinosaurs you control gain double strike and trample until end of turn."}]}
+        "Trample\nWhen Ghalta enters, put any number of creature cards from your hand onto the battlefield."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -951,7 +712,7 @@
         :layout "normal",
         :name "Hulking Raptor",
         :oracle-text
-        "Ward {2}\nAt the beginning of your precombat main phase, add {G}{G}."}
+        "Ward {2}\nAt the beginning of your first main phase, add {G}{G}."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -962,7 +723,7 @@
         :layout "normal",
         :name "Hulking Raptor",
         :oracle-text
-        "Ward {2}\nAt the beginning of your precombat main phase, add {G}{G}."}
+        "Ward {2}\nAt the beginning of your first main phase, add {G}{G}."}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "plci",
@@ -973,7 +734,7 @@
         :layout "normal",
         :name "Intrepid Paleontologist",
         :oracle-text
-        "{T}: Add one mana of any color.\n{2}: Exile target card from a graveyard.\nYou may cast Dinosaur creature spells from among cards you own exiled with Intrepid Paleontologist. If you cast a spell this way, that creature enters the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)"}
+        "{T}: Add one mana of any color.\n{2}: Exile target card from a graveyard.\nYou may cast Dinosaur creature spells from among cards you own exiled with this creature. If you cast a spell this way, that creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)"}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "plci",
@@ -984,7 +745,7 @@
         :layout "normal",
         :name "Intrepid Paleontologist",
         :oracle-text
-        "{T}: Add one mana of any color.\n{2}: Exile target card from a graveyard.\nYou may cast Dinosaur creature spells from among cards you own exiled with Intrepid Paleontologist. If you cast a spell this way, that creature enters the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)"}
+        "{T}: Add one mana of any color.\n{2}: Exile target card from a graveyard.\nYou may cast Dinosaur creature spells from among cards you own exiled with this creature. If you cast a spell this way, that creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)"}
  #:card{:type-line "Creature — Merfolk Scout",
         :layout-category :normal,
         :code "plci",
@@ -995,7 +756,7 @@
         :layout "normal",
         :name "Jadelight Spelunker",
         :oracle-text
-        "When Jadelight Spelunker enters the battlefield, it explores X times. (To have it explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)"}
+        "When this creature enters, it explores X times. (To have it explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Creature — Merfolk Scout",
         :layout-category :normal,
         :code "plci",
@@ -1006,24 +767,7 @@
         :layout "normal",
         :name "Jadelight Spelunker",
         :oracle-text
-        "When Jadelight Spelunker enters the battlefield, it explores X times. (To have it explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)"}
- #:card{:code "plci",
-        :collector-number "204s",
-        :name "Ojer Kaslem, Deepest Growth // Temple of Cultivation",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/7/0/70441730-d9bc-4d7f-9803-849948384053.png?1701303924",
-          :type-line "Legendary Creature — God",
-          :oracle-text
-          "Trample\nWhenever Ojer Kaslem deals combat damage to a player, reveal that many cards from the top of your library. You may put a creature card and/or a land card from among them onto the battlefield. Put the rest on the bottom in a random order.\nWhen Ojer Kaslem dies, return it to the battlefield tapped and transformed under its owner's control."}
-         {:png
-          "https://cards.scryfall.io/png/back/7/0/70441730-d9bc-4d7f-9803-849948384053.png?1701303924",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Ojer Kaslem, Deepest Growth.)\n{T}: Add {G}.\n{2}{G}, {T}: Transform Temple of Cultivation. Activate only if you control ten or more permanents and only as a sorcery."}]}
+        "When this creature enters, it explores X times. (To have it explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -1034,7 +778,7 @@
         :layout "normal",
         :name "Pugnacious Hammerskull",
         :oracle-text
-        "Whenever Pugnacious Hammerskull attacks while you don't control another Dinosaur, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+        "Whenever this creature attacks while you don't control another Dinosaur, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -1045,7 +789,7 @@
         :layout "normal",
         :name "Pugnacious Hammerskull",
         :oracle-text
-        "Whenever Pugnacious Hammerskull attacks while you don't control another Dinosaur, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+        "Whenever this creature attacks while you don't control another Dinosaur, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
  #:card{:type-line "Creature — Merfolk Warrior Scout",
         :layout-category :normal,
         :code "plci",
@@ -1056,7 +800,7 @@
         :layout "normal",
         :name "Sentinel of the Nameless City",
         :oracle-text
-        "Vigilance\nWhenever Sentinel of the Nameless City enters the battlefield or attacks, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")"}
+        "Vigilance\nWhenever this creature enters or attacks, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")"}
  #:card{:type-line "Creature — Merfolk Warrior Scout",
         :layout-category :normal,
         :code "plci",
@@ -1067,7 +811,7 @@
         :layout "normal",
         :name "Sentinel of the Nameless City",
         :oracle-text
-        "Vigilance\nWhenever Sentinel of the Nameless City enters the battlefield or attacks, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")"}
+        "Vigilance\nWhenever this creature enters or attacks, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")"}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "plci",
@@ -1210,7 +954,7 @@
         :layout "normal",
         :name "Deepfathom Echo",
         :oracle-text
-        "At the beginning of combat on your turn, Deepfathom Echo explores. Then you may have it become a copy of another creature you control until end of turn. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
+        "At the beginning of combat on your turn, this creature explores. Then you may have it become a copy of another creature you control until end of turn. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Creature — Merfolk Spirit",
         :layout-category :normal,
         :code "plci",
@@ -1221,7 +965,7 @@
         :layout "normal",
         :name "Deepfathom Echo",
         :oracle-text
-        "At the beginning of combat on your turn, Deepfathom Echo explores. Then you may have it become a copy of another creature you control until end of turn. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
+        "At the beginning of combat on your turn, this creature explores. Then you may have it become a copy of another creature you control until end of turn. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)"}
  #:card{:type-line "Legendary Creature — Dinosaur Avatar",
         :layout-category :normal,
         :code "plci",
@@ -1232,7 +976,7 @@
         :layout "normal",
         :name "Gishath, Sun's Avatar",
         :oracle-text
-        "Vigilance, trample, haste\nWhenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order."}
+        "Vigilance, trample, haste\nWhenever Gishath deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Creature — Dinosaur Avatar",
         :layout-category :normal,
         :code "plci",
@@ -1243,7 +987,7 @@
         :layout "normal",
         :name "Gishath, Sun's Avatar",
         :oracle-text
-        "Vigilance, trample, haste\nWhenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order."}
+        "Vigilance, trample, haste\nWhenever Gishath deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order."}
  #:card{:code "plci",
         :collector-number "231p",
         :name "Kellan, Daring Traveler // Journey On",
@@ -1255,7 +999,7 @@
         :faces
         [{:type-line "Legendary Creature — Human Faerie Scout",
           :oracle-text
-          "Whenever Kellan, Daring Traveler attacks, reveal the top card of your library. If it's a creature card with mana value 3 or less, put it into your hand. Otherwise, you may put it into your graveyard."}
+          "Whenever Kellan attacks, reveal the top card of your library. If it's a creature card with mana value 3 or less, put it into your hand. Otherwise, you may put it into your graveyard."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Create X Map tokens, where X is one plus the number of opponents who control an artifact. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1270,7 +1014,7 @@
         :faces
         [{:type-line "Legendary Creature — Human Faerie Scout",
           :oracle-text
-          "Whenever Kellan, Daring Traveler attacks, reveal the top card of your library. If it's a creature card with mana value 3 or less, put it into your hand. Otherwise, you may put it into your graveyard."}
+          "Whenever Kellan attacks, reveal the top card of your library. If it's a creature card with mana value 3 or less, put it into your hand. Otherwise, you may put it into your graveyard."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Create X Map tokens, where X is one plus the number of opponents who control an artifact. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1306,7 +1050,7 @@
         :layout "normal",
         :name "The Mycotyrant",
         :oracle-text
-        "Trample\nThe Mycotyrant's power and toughness are each equal to the number of creatures you control that are Fungi and/or Saprolings.\nAt the beginning of your end step, create X 1/1 black Fungus creature tokens with \"This creature can't block,\" where X is the number of times you descended this turn. (You descend each time a permanent card is put into your graveyard from anywhere.)"}
+        "Trample\nThe Mycotyrant's power and toughness are each equal to the number of creatures you control that are Fungi and/or Saprolings.\nAt the beginning of your end step, create X 1/1 black Fungus creature tokens with \"This token can't block,\" where X is the number of times you descended this turn. (You descend each time a permanent card is put into your graveyard from anywhere.)"}
  #:card{:type-line "Legendary Creature — Elder Fungus",
         :layout-category :normal,
         :code "plci",
@@ -1317,7 +1061,7 @@
         :layout "normal",
         :name "The Mycotyrant",
         :oracle-text
-        "Trample\nThe Mycotyrant's power and toughness are each equal to the number of creatures you control that are Fungi and/or Saprolings.\nAt the beginning of your end step, create X 1/1 black Fungus creature tokens with \"This creature can't block,\" where X is the number of times you descended this turn. (You descend each time a permanent card is put into your graveyard from anywhere.)"}
+        "Trample\nThe Mycotyrant's power and toughness are each equal to the number of creatures you control that are Fungi and/or Saprolings.\nAt the beginning of your end step, create X 1/1 black Fungus creature tokens with \"This token can't block,\" where X is the number of times you descended this turn. (You descend each time a permanent card is put into your graveyard from anywhere.)"}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -1328,7 +1072,7 @@
         :layout "normal",
         :name "Palani's Hatcher",
         :oracle-text
-        "Other Dinosaurs you control have haste.\nWhen Palani's Hatcher enters the battlefield, create two 0/1 green Dinosaur Egg creature tokens.\nAt the beginning of combat on your turn, if you control one or more Eggs, sacrifice an Egg, then create a 3/3 green Dinosaur creature token."}
+        "Other Dinosaurs you control have haste.\nWhen this creature enters, create two 0/1 green Dinosaur Egg creature tokens.\nAt the beginning of combat on your turn, if you control one or more Eggs, sacrifice an Egg, then create a 3/3 green Dinosaur creature token."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "plci",
@@ -1339,7 +1083,7 @@
         :layout "normal",
         :name "Palani's Hatcher",
         :oracle-text
-        "Other Dinosaurs you control have haste.\nWhen Palani's Hatcher enters the battlefield, create two 0/1 green Dinosaur Egg creature tokens.\nAt the beginning of combat on your turn, if you control one or more Eggs, sacrifice an Egg, then create a 3/3 green Dinosaur creature token."}
+        "Other Dinosaurs you control have haste.\nWhen this creature enters, create two 0/1 green Dinosaur Egg creature tokens.\nAt the beginning of combat on your turn, if you control one or more Eggs, sacrifice an Egg, then create a 3/3 green Dinosaur creature token."}
  #:card{:type-line "Legendary Planeswalker — Quintorius",
         :layout-category :normal,
         :code "plci",
@@ -1356,7 +1100,7 @@
         :code "plci",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/2/f25fc84b-b721-4b5b-84c4-9f4635b7ee56.png?1704491802",
+        "https://cards.scryfall.io/png/front/f/2/f25fc84b-b721-4b5b-84c4-9f4635b7ee56.png?1736064801",
         :collector-number "238s",
         :layout "normal",
         :name "Quintorius Kand",
@@ -1494,23 +1238,6 @@
         :name "Chimil, the Inner Sun",
         :oracle-text
         "Spells you control can't be countered.\nAt the beginning of your end step, discover 5. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)"}
- #:card{:code "plci",
-        :collector-number "256s",
-        :name "Matzalantli, the Great Door // The Core",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/f/5/f5d4bc93-b933-4bc8-822a-85ec5248c31d.png?1701303668",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "{T}: Draw a card, then discard a card.\n{4}, {T}: Transform Matzalantli, the Great Door. Activate only if there are four or more permanent types among cards in your graveyard. (Artifact, battle, creature, enchantment, land, and planeswalker are permanent types.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/f/5/f5d4bc93-b933-4bc8-822a-85ec5248c31d.png?1701303668",
-          :type-line "Legendary Land",
-          :oracle-text
-          "(Transforms from Matzalantli.)\nFathomless descent — {T}: Add X mana of any one color, where X is the number of permanent cards in your graveyard."}]}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "plci",
@@ -1543,7 +1270,7 @@
         :layout "normal",
         :name "Roaming Throne",
         :oracle-text
-        "Ward {2}\nAs Roaming Throne enters the battlefield, choose a creature type.\nRoaming Throne is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."}
+        "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "plci",
@@ -1554,7 +1281,7 @@
         :layout "normal",
         :name "Roaming Throne",
         :oracle-text
-        "Ward {2}\nAs Roaming Throne enters the battlefield, choose a creature type.\nRoaming Throne is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."}
+        "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "plci",
@@ -1587,7 +1314,7 @@
         :layout "normal",
         :name "Threefold Thunderhulk",
         :oracle-text
-        "Threefold Thunderhulk enters the battlefield with three +1/+1 counters on it.\nWhenever Threefold Thunderhulk enters the battlefield or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.\n{2}, Sacrifice another artifact: Put a +1/+1 counter on Threefold Thunderhulk."}
+        "This creature enters with three +1/+1 counters on it.\nWhenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.\n{2}, Sacrifice another artifact: Put a +1/+1 counter on this creature."}
  #:card{:type-line "Artifact Creature — Gnome",
         :layout-category :normal,
         :code "plci",
@@ -1598,41 +1325,7 @@
         :layout "normal",
         :name "Threefold Thunderhulk",
         :oracle-text
-        "Threefold Thunderhulk enters the battlefield with three +1/+1 counters on it.\nWhenever Threefold Thunderhulk enters the battlefield or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.\n{2}, Sacrifice another artifact: Put a +1/+1 counter on Threefold Thunderhulk."}
- #:card{:code "plci",
-        :collector-number "266s",
-        :name "Throne of the Grim Captain // The Grim Captain",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/9/2/92a94e78-b65b-466c-a03c-49333d70f531.png?1701303603",
-          :type-line "Legendary Artifact",
-          :oracle-text
-          "{T}: Mill two cards.\nCraft with a Dinosaur, a Merfolk, a Pirate, and a Vampire {4} ({4}, Exile this artifact, Exile the four from among permanents you control and/or cards in your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/9/2/92a94e78-b65b-466c-a03c-49333d70f531.png?1701303603",
-          :type-line "Legendary Creature — Skeleton Spirit Pirate",
-          :oracle-text
-          "Menace, trample, lifelink, hexproof\nWhenever The Grim Captain attacks, each opponent sacrifices a nonland permanent. Then you may put an exiled creature card used to craft The Grim Captain onto the battlefield under your control tapped and attacking."}]}
- #:card{:code "plci",
-        :collector-number "267s",
-        :name "Treasure Map // Treasure Cove",
-        :layout "transform",
-        :highres? true,
-        :layout-category :transform,
-        :faces
-        [{:png
-          "https://cards.scryfall.io/png/front/b/f/bffbf7ab-2874-4910-ae30-010cb8cc59d5.png?1701303587",
-          :type-line "Artifact",
-          :oracle-text
-          "{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
-         {:png
-          "https://cards.scryfall.io/png/back/b/f/bffbf7ab-2874-4910-ae30-010cb8cc59d5.png?1701303587",
-          :type-line "Land",
-          :oracle-text
-          "(Transforms from Treasure Map.)\n{T}: Add {C}.\n{T}, Sacrifice a Treasure: Draw a card."}]}
+        "This creature enters with three +1/+1 counters on it.\nWhenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.\n{2}, Sacrifice another artifact: Put a +1/+1 counter on this creature."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1643,7 +1336,7 @@
         :layout "normal",
         :name "Cavern of Souls",
         :oracle-text
-        "As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."}
+        "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1654,7 +1347,7 @@
         :layout "normal",
         :name "Cavern of Souls",
         :oracle-text
-        "As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."}
+        "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."}
  #:card{:type-line "Land — Cave",
         :layout-category :normal,
         :code "plci",
@@ -1665,7 +1358,7 @@
         :layout "normal",
         :name "Echoing Deeps",
         :oracle-text
-        "You may have Echoing Deeps enter the battlefield tapped as a copy of any land card in a graveyard, except it's a Cave in addition to its other types.\n{T}: Add {C}."}
+        "You may have this land enter tapped as a copy of any land card in a graveyard, except it's a Cave in addition to its other types.\n{T}: Add {C}."}
  #:card{:type-line "Land — Cave",
         :layout-category :normal,
         :code "plci",
@@ -1676,7 +1369,7 @@
         :layout "normal",
         :name "Echoing Deeps",
         :oracle-text
-        "You may have Echoing Deeps enter the battlefield tapped as a copy of any land card in a graveyard, except it's a Cave in addition to its other types.\n{T}: Add {C}."}
+        "You may have this land enter tapped as a copy of any land card in a graveyard, except it's a Cave in addition to its other types.\n{T}: Add {C}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1687,7 +1380,7 @@
         :layout "normal",
         :name "Restless Anchorage",
         :oracle-text
-        "Restless Anchorage enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Until end of turn, Restless Anchorage becomes a 2/3 white and blue Bird creature with flying. It's still a land.\nWhenever Restless Anchorage attacks, create a Map token."}
+        "This land enters tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's still a land.\nWhenever this land attacks, create a Map token."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1698,7 +1391,7 @@
         :layout "normal",
         :name "Restless Anchorage",
         :oracle-text
-        "Restless Anchorage enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Until end of turn, Restless Anchorage becomes a 2/3 white and blue Bird creature with flying. It's still a land.\nWhenever Restless Anchorage attacks, create a Map token."}
+        "This land enters tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's still a land.\nWhenever this land attacks, create a Map token."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1709,7 +1402,7 @@
         :layout "normal",
         :name "Restless Prairie",
         :oracle-text
-        "Restless Prairie enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{2}{G}{W}: Restless Prairie becomes a 3/3 green and white Llama creature until end of turn. It's still a land.\nWhenever Restless Prairie attacks, other creatures you control get +1/+1 until end of turn."}
+        "This land enters tapped.\n{T}: Add {G} or {W}.\n{2}{G}{W}: This land becomes a 3/3 green and white Llama creature until end of turn. It's still a land.\nWhenever this land attacks, other creatures you control get +1/+1 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1720,7 +1413,7 @@
         :layout "normal",
         :name "Restless Prairie",
         :oracle-text
-        "Restless Prairie enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{2}{G}{W}: Restless Prairie becomes a 3/3 green and white Llama creature until end of turn. It's still a land.\nWhenever Restless Prairie attacks, other creatures you control get +1/+1 until end of turn."}
+        "This land enters tapped.\n{T}: Add {G} or {W}.\n{2}{G}{W}: This land becomes a 3/3 green and white Llama creature until end of turn. It's still a land.\nWhenever this land attacks, other creatures you control get +1/+1 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1731,7 +1424,7 @@
         :layout "normal",
         :name "Restless Reef",
         :oracle-text
-        "Restless Reef enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, Restless Reef becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever Restless Reef attacks, target player mills four cards."}
+        "This land enters tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever this land attacks, target player mills four cards."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1742,7 +1435,7 @@
         :layout "normal",
         :name "Restless Reef",
         :oracle-text
-        "Restless Reef enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, Restless Reef becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever Restless Reef attacks, target player mills four cards."}
+        "This land enters tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever this land attacks, target player mills four cards."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1753,7 +1446,7 @@
         :layout "normal",
         :name "Restless Ridgeline",
         :oracle-text
-        "Restless Ridgeline enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Restless Ridgeline becomes a 3/4 red and green Dinosaur creature until end of turn. It's still a land.\nWhenever Restless Ridgeline attacks, another target attacking creature gets +2/+0 until end of turn. Untap that creature."}
+        "This land enters tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: This land becomes a 3/4 red and green Dinosaur creature until end of turn. It's still a land.\nWhenever this land attacks, another target attacking creature gets +2/+0 until end of turn. Untap that creature."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1764,7 +1457,7 @@
         :layout "normal",
         :name "Restless Ridgeline",
         :oracle-text
-        "Restless Ridgeline enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Restless Ridgeline becomes a 3/4 red and green Dinosaur creature until end of turn. It's still a land.\nWhenever Restless Ridgeline attacks, another target attacking creature gets +2/+0 until end of turn. Untap that creature."}
+        "This land enters tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: This land becomes a 3/4 red and green Dinosaur creature until end of turn. It's still a land.\nWhenever this land attacks, another target attacking creature gets +2/+0 until end of turn. Untap that creature."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1775,7 +1468,7 @@
         :layout "normal",
         :name "Restless Vents",
         :oracle-text
-        "Restless Vents enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, Restless Vents becomes a 2/3 black and red Insect creature with menace. It's still a land.\nWhenever Restless Vents attacks, you may discard a card. If you do, draw a card."}
+        "This land enters tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, this land becomes a 2/3 black and red Insect creature with menace. It's still a land.\nWhenever this land attacks, you may discard a card. If you do, draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "plci",
@@ -1786,7 +1479,7 @@
         :layout "normal",
         :name "Restless Vents",
         :oracle-text
-        "Restless Vents enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, Restless Vents becomes a 2/3 black and red Insect creature with menace. It's still a land.\nWhenever Restless Vents attacks, you may discard a card. If you do, draw a card."}
+        "This land enters tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, this land becomes a 2/3 black and red Insect creature with menace. It's still a land.\nWhenever this land attacks, you may discard a card. If you do, draw a card."}
  #:card{:type-line "Land — Cave",
         :layout-category :normal,
         :code "plci",
@@ -1797,7 +1490,7 @@
         :layout "normal",
         :name "Sunken Citadel",
         :oracle-text
-        "Sunken Citadel enters the battlefield tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources."}
+        "This land enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources."}
  #:card{:type-line "Land — Cave",
         :layout-category :normal,
         :code "plci",
@@ -1808,4 +1501,4 @@
         :layout "normal",
         :name "Sunken Citadel",
         :oracle-text
-        "Sunken Citadel enters the battlefield tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources."})
+        "This land enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources."})

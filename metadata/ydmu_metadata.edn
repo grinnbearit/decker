@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Benalish Knight-Counselor",
         :oracle-text
-        "Enlist\nWhenever Benalish Knight-Counselor enlists a creature, you get a boon with \"When you cast your next creature spell, that creature enters the battlefield with a +1/+1 counter on it.\""}
+        "Enlist\nWhenever Benalish Knight-Counselor enlists a creature, you get a one-time boon with \"When you cast a creature spell, that creature enters with a +1/+1 counter on it.\""}
  #:card{:type-line "Creature — Kor Cleric",
         :layout-category :normal,
         :code "ydmu",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Priest of Possibility",
         :oracle-text
-        "When Priest of Possibility enters the battlefield, look at the top seven cards of your library. If a card among them has flying, Priest of Possibility perpetually gains flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance. Then shuffle."}
+        "When Priest of Possibility enters, look at the top seven cards of your library. If a card among them has flying, Priest of Possibility perpetually gains flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance. Then shuffle."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ydmu",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Pull of the Mist Moon",
         :oracle-text
-        "Kicker {1}{U}\nWhen Pull of the Mist Moon enters the battlefield, exile target nonland permanent an opponent controls until Pull of the Mist Moon leaves the battlefield.\nWhen Pull of the Mist Moon enters the battlefield, if it was kicked, choose a nonland permanent card in your hand. It perpetually gains \"When this permanent enters the battlefield, exile target nonland permanent an opponent controls until this permanent leaves the battlefield.\""}
+        "Kicker {1}{U}\nWhen Pull of the Mist Moon enters, exile target nonland permanent an opponent controls until Pull of the Mist Moon leaves the battlefield.\nWhen Pull of the Mist Moon enters, if it was kicked, choose a nonland permanent card in your hand. It perpetually gains \"When this permanent enters, exile target nonland permanent an opponent controls until this permanent leaves the battlefield.\""}
  #:card{:type-line "Creature — Bird Wizard",
         :layout-category :normal,
         :code "ydmu",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Skywriter Djinn",
         :oracle-text
-        "Flying\nDomain — When Skywriter Djinn enters the battlefield, conjure a random card from Skywriter Djinn's spellbook into your hand. Then if you have fewer cards in hand than the number of basic land types among lands you control, repeat this process."}
+        "Flying\nDomain — When Skywriter Djinn enters, conjure a random card from Skywriter Djinn's spellbook into your hand. Then if you have fewer cards in hand than the number of basic land types among lands you control, repeat this process."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ydmu",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Trove Mage",
         :oracle-text
-        "When Trove Mage enters the battlefield, seek an artifact card from among the top ten cards of your library, then shuffle."}
+        "When Trove Mage enters, seek an artifact card from among the top ten cards of your library, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ydmu",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Darigaaz's Whelp",
         :oracle-text
-        "Kicker {1}{R}\nFlying\nWhenever you draw a Dragon card, it perpetually gets +1/+1.\nWhen Darigaaz's Whelp enters the battlefield, if it was kicked, seek a Dragon card. Darigaaz's Whelp and that Dragon card each perpetually get +1/+1."}
+        "Kicker {1}{R}\nFlying\nWhenever you draw a Dragon card, it perpetually gets +1/+1.\nWhen Darigaaz's Whelp enters, if it was kicked, seek a Dragon card. Darigaaz's Whelp and that Dragon card each perpetually get +1/+1."}
  #:card{:type-line "Creature — Phyrexian Skeleton",
         :layout-category :normal,
         :code "ydmu",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Diminished Returner",
         :oracle-text
-        "Diminished Returner enters the battlefield tapped.\n{B}{B}: Diminished Returner perpetually gets -1/-1, then return it to the battlefield. Activate only if Diminished Returner is in your graveyard and its toughness is 2 or greater."}
+        "Diminished Returner enters tapped.\n{B}{B}: Diminished Returner perpetually gets -1/-1, then return it to the battlefield. Activate only if Diminished Returner is in your graveyard and its toughness is 2 or greater."}
  #:card{:type-line "Legendary Creature — Spirit Artificer",
         :layout-category :normal,
         :code "ydmu",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Ghitu Embercoiler",
         :oracle-text
-        "Prowess\nAt the beginning of your precombat main phase, you may discard a card. If you do, seek a card with greater mana value and exile it. Until the end of your next turn, you may play the exiled card."}
+        "Prowess\nAt the beginning of your first main phase, you may discard a card. If you do, seek a card with greater mana value and exile it. Until the end of your next turn, you may play the exiled card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ydmu",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Spellchain Scatter",
         :oracle-text
-        "Kicker {U}\nWhen you cast your next instant or sorcery spell this turn, conjure a duplicate of that spell into your hand. If this spell wasn't kicked, discard the duplicate at the beginning of your next end step."}
+        "Kicker {U}\nWhen you next cast an instant or sorcery spell this turn, conjure a duplicate of that spell into your hand. If this spell wasn't kicked, discard the duplicate at the beginning of your next end step."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ydmu",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Nantuko Slicer",
         :oracle-text
-        "Kicker {B}\nWhen Nantuko Slicer enters the battlefield, return target card from your graveyard to your hand. If this spell was kicked, conjure a duplicate of target card in an opponent's graveyard into your hand. It perpetually gains \"You may spend mana as though it were mana of any color to cast this spell.\""}
+        "Kicker {B}\nWhen Nantuko Slicer enters, return target card from your graveyard to your hand. If this spell was kicked, conjure a duplicate of target card in an opponent's graveyard into your hand. It perpetually gains \"You may spend mana as though it were mana of any color to cast this spell.\""}
  #:card{:type-line "Creature — Elemental Spider",
         :layout-category :normal,
         :code "ydmu",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Bloodsprout Talisman",
         :oracle-text
-        "Bloodsprout Talisman enters the battlefield tapped.\n{T}, Pay 1 life: Choose a nonland card in your hand. It perpetually gains \"This spell costs {1} less to cast.\""}
+        "Bloodsprout Talisman enters tapped.\n{T}, Pay 1 life: Choose a nonland card in your hand. It perpetually gains \"This spell costs {1} less to cast.\""}
  #:card{:type-line "Legendary Creature — Dragon",
         :layout-category :normal,
         :code "ydmu",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Juggernaut Peddler",
         :oracle-text
-        "Vigilance\nWhen Juggernaut Peddler enters the battlefield, target player reveals all nonland cards in their hand. You may choose one of those cards. If you do, that player exiles it and conjures a card named Juggernaut into their hand."}
+        "Vigilance\nWhen Juggernaut Peddler enters, target player reveals all nonland cards in their hand. You may choose one of those cards. If you do, that player exiles it and conjures a card named Juggernaut into their hand."}
  #:card{:type-line "Legendary Creature — Human Cleric",
         :layout-category :normal,
         :code "ydmu",
@@ -261,7 +261,7 @@
         :layout "normal",
         :name "Niambi, Beloved Protector",
         :oracle-text
-        "Flash\nWhen Niambi, Beloved Protector enters the battlefield, if you cast it, choose target nonlegendary creature card in your graveyard that was put there from the battlefield this turn. Return it to the battlefield. It perpetually gains \"Whenever this creature becomes the target of a spell or ability, draw a card. This ability triggers only once each turn.\""}
+        "Flash\nWhen Niambi, Beloved Protector enters, if you cast it, choose target nonlegendary creature card in your graveyard that was put there from the battlefield this turn. Return it to the battlefield. It perpetually gains \"Whenever this creature becomes the target of a spell or ability, draw a card. This ability triggers only once each turn.\""}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "ydmu",
@@ -272,7 +272,7 @@
         :layout "normal",
         :name "Protean War Engine",
         :oracle-text
-        "As Protean War Engine enters the battlefield, draft a card from Protean War Engine's spellbook and exile it.\nWhenever Protean War Engine becomes crewed, until end of turn, it becomes a copy of the exiled card, except it's a Vehicle artifact in addition to its other types.\nCrew 3"}
+        "As Protean War Engine enters, draft a card from Protean War Engine's spellbook and exile it.\nWhenever Protean War Engine becomes crewed, until end of turn, it becomes a copy of the exiled card, except it's a Vehicle artifact in addition to its other types.\nCrew 3"}
  #:card{:type-line "Legendary Creature — Fungus",
         :layout-category :normal,
         :code "ydmu",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Slimefoot, Thallid Transplant",
         :oracle-text
-        "Whenever a Swamp or Forest enters the battlefield under your control, draft a card from Slimefoot, Thallid Transplant's spellbook."}
+        "Whenever a Swamp or Forest enters under your control, draft a card from Slimefoot, Thallid Transplant's spellbook."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ydmu",
@@ -327,7 +327,7 @@
         :layout "normal",
         :name "Coalition Construct",
         :oracle-text
-        "As Coalition Construct enters the battlefield, choose a creature type.\nCoalition Construct is the chosen type in addition to its other types.\nWhen Coalition Construct enters the battlefield, other creatures you control of the chosen type and creature cards of that type in your hand perpetually get +1/+1."}
+        "As Coalition Construct enters, choose a creature type.\nCoalition Construct is the chosen type in addition to its other types.\nWhen Coalition Construct enters, other creatures you control of the chosen type and creature cards of that type in your hand perpetually get +1/+1."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ydmu",
@@ -369,7 +369,7 @@
         :layout "normal",
         :name "Black Lotus",
         :oracle-text
-        "{T}, Sacrifice Black Lotus: Add three mana of any one color."}
+        "{T}, Sacrifice this artifact: Add three mana of any one color."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ydmu",

@@ -7,7 +7,8 @@
         :collector-number "1",
         :layout "normal",
         :name "Serra Angel",
-        :oracle-text "Flying, vigilance"}
+        :oracle-text
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Creature — Merfolk",
         :layout-category :normal,
         :code "pw24",
@@ -50,13 +51,13 @@
         :layout "normal",
         :name "Gaea's Liege",
         :oracle-text
-        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until Gaea's Liege leaves the battlefield."}
+        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until this creature leaves the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pw24",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/7/37a8409a-ef67-4d09-93c3-1a223df0e706.png?1712995613",
+        "https://cards.scryfall.io/png/front/3/7/37a8409a-ef67-4d09-93c3-1a223df0e706.png?1733503085",
         :collector-number "7",
         :layout "normal",
         :name "Chaos Warp",
@@ -72,7 +73,7 @@
         :layout "normal",
         :name "Commander's Sphere",
         :oracle-text
-        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice Commander's Sphere: Draw a card."}
+        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "pw24",
@@ -100,7 +101,7 @@
         :code "pw24",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/e/9e0834f7-e7fc-4f47-9d45-d555b50990a0.png?1729519896",
+        "https://cards.scryfall.io/png/front/9/e/9e0834f7-e7fc-4f47-9d45-d555b50990a0.png?1738044469",
         :collector-number "11",
         :layout "normal",
         :name "Transmutation Font",
@@ -111,7 +112,7 @@
         :code "pw24",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/3/63ecaef8-3a3f-4027-9692-9dae6f718aef.png?1729519908",
+        "https://cards.scryfall.io/png/front/6/3/63ecaef8-3a3f-4027-9692-9dae6f718aef.png?1738166837",
         :collector-number "12",
         :layout "normal",
         :name "Oltec Matterweaver",
@@ -122,7 +123,7 @@
         :code "pw24",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/8/a81db6b2-3839-4ed1-86b6-7c8f4280a1e6.png?1712118532",
+        "https://cards.scryfall.io/png/front/a/8/a81db6b2-3839-4ed1-86b6-7c8f4280a1e6.png?1738794025",
         :collector-number "13",
         :layout "normal",
         :name "Diabolic Tutor",
@@ -149,7 +150,7 @@
         :layout "normal",
         :name "Ravenous Squirrel",
         :oracle-text
-        "Whenever you sacrifice an artifact or creature, put a +1/+1 counter on Ravenous Squirrel.\n{1}{B}{G}, Sacrifice an artifact or creature: You gain 1 life and draw a card."}
+        "Whenever you sacrifice an artifact or creature, put a +1/+1 counter on this creature.\n{1}{B}{G}, Sacrifice an artifact or creature: You gain 1 life and draw a card."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pw24",
@@ -166,7 +167,7 @@
         :code "pw24",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/9/99598781-a15a-43ed-90d8-10c21400c97d.png?1726597828",
+        "https://cards.scryfall.io/png/front/9/9/99598781-a15a-43ed-90d8-10c21400c97d.png?1738269558",
         :collector-number "17",
         :layout "normal",
         :name "Crippling Fear",
@@ -192,4 +193,4 @@
         :layout "normal",
         :name "Darksteel Colossus",
         :oracle-text
-        "Trample, indestructible\nIf Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead."})
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nIndestructible (Damage and effects that say \"destroy\" don't destroy this creature.)\nIf Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead."})

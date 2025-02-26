@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Aerial Extortionist",
         :oracle-text
-        "Flying\nWhenever Aerial Extortionist enters the battlefield or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
+        "Flying\nWhenever this creature enters or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
  #:card{:type-line "Creature — Angel Advisor",
         :layout-category :normal,
         :code "pncc",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Angelic Sleuth",
         :oracle-text
-        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Elf Citizen",
         :layout-category :normal,
         :code "pncc",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Boss's Chauffeur",
         :oracle-text
-        "Boss's Chauffeur enters the battlefield with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Boss's Chauffeur.\nWhen Boss's Chauffeur dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
+        "This creature enters with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature you control enters, put a +1/+1 counter on this creature.\nWhen this creature dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -73,7 +73,7 @@
         :layout "normal",
         :name "Jailbreak",
         :oracle-text
-        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters the battlefield, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
+        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Rhino Druid",
         :layout-category :normal,
         :code "pncc",
@@ -106,7 +106,7 @@
         :layout "normal",
         :name "Skyboon Evangelist",
         :oracle-text
-        "Flying\nWhen Skyboon Evangelist enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
+        "Flying\nWhen this creature enters, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pncc",
@@ -128,8 +128,8 @@
         :layout "normal",
         :name "Aven Courier",
         :oracle-text
-        "Flying\nWhenever Aven Courier attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
- #:card{:type-line "Creature — Cephalid Rogue",
+        "Flying\nWhenever this creature attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
+ #:card{:type-line "Creature — Octopus Rogue",
         :layout-category :normal,
         :code "pncc",
         :highres? true,
@@ -139,7 +139,7 @@
         :layout "normal",
         :name "Cephalid Facetaker",
         :oracle-text
-        "Cephalid Facetaker can't be blocked.\nAt the beginning of combat on your turn, you may have Cephalid Facetaker become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
+        "This creature can't be blocked.\nAt the beginning of combat on your turn, you may have this creature become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -195,7 +195,7 @@
         :name "Mask of the Schemer",
         :oracle-text
         "Whenever equipped creature deals combat damage to a player, it connives X, where X is the amount of damage it dealt to that player. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)\nEquip {2}"}
- #:card{:type-line "Creature — Cephalid Advisor",
+ #:card{:type-line "Creature — Octopus Advisor",
         :layout-category :normal,
         :code "pncc",
         :highres? true,
@@ -205,7 +205,7 @@
         :layout "normal",
         :name "Shield Broker",
         :oracle-text
-        "When Shield Broker enters the battlefield, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
+        "When this creature enters, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "pncc",
@@ -216,7 +216,7 @@
         :layout "normal",
         :name "Sinister Concierge",
         :oracle-text
-        "When Sinister Concierge dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they cast it without paying its mana cost. Those creature spells have haste.)"}
+        "When this creature dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they may cast it without paying its mana cost. Those creature spells have haste.)"}
  #:card{:type-line "Creature — Bird Rogue",
         :layout-category :normal,
         :code "pncc",
@@ -227,7 +227,7 @@
         :layout "normal",
         :name "Skyway Robber",
         :oracle-text
-        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nSkyway Robber escapes with \"Whenever Skyway Robber deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with Skyway Robber without paying its mana cost.\""}
+        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with \"Whenever this creature deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with this creature without paying its mana cost.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -249,7 +249,7 @@
         :layout "normal",
         :name "Bellowing Mauler",
         :oracle-text
-        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature."}
+        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature of their choice."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -271,7 +271,7 @@
         :layout "normal",
         :name "Dogged Detective",
         :oracle-text
-        "When Dogged Detective enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return Dogged Detective from your graveyard to your hand."}
+        "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -304,7 +304,7 @@
         :layout "normal",
         :name "Misfortune Teller",
         :oracle-text
-        "Deathtouch\nWhenever Misfortune Teller enters the battlefield or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
+        "Deathtouch\nWhenever this creature enters or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pncc",
@@ -337,7 +337,7 @@
         :layout "normal",
         :name "Wave of Rats",
         :oracle-text
-        "Trample\nWhen Wave of Rats dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Trample\nWhen this creature dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pncc",
@@ -389,7 +389,7 @@
         :highres? true,
         :layout-category :split,
         :png
-        "https://cards.scryfall.io/png/front/a/3/a373c602-13e9-4184-bdc0-47469d271169.png?1675617927",
+        "https://cards.scryfall.io/png/front/a/3/a373c602-13e9-4184-bdc0-47469d271169.png?1681394524",
         :faces
         [{:type-line "Sorcery",
           :oracle-text
@@ -418,8 +418,8 @@
         :layout "normal",
         :name "Life of the Party",
         :oracle-text
-        "First strike, trample, haste\nWhenever Life of the Party attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen Life of the Party enters the battlefield, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
- #:card{:type-line "Creature — Viashino Rogue",
+        "First strike, trample, haste\nWhenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen this creature enters, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
+ #:card{:type-line "Creature — Lizard Rogue",
         :layout-category :normal,
         :code "pncc",
         :highres? true,
@@ -429,7 +429,7 @@
         :layout "normal",
         :name "Mezzio Mugger",
         :oracle-text
-        "Whenever Mezzio Mugger attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pncc",
@@ -440,7 +440,7 @@
         :layout "normal",
         :name "Rain of Riches",
         :oracle-text
-        "When Rain of Riches enters the battlefield, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
+        "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
  #:card{:type-line "Creature — Ogre Warrior",
         :layout-category :normal,
         :code "pncc",
@@ -451,7 +451,7 @@
         :layout "normal",
         :name "Rose Room Treasurer",
         :oracle-text
-        "Alliance — Whenever another creature enters the battlefield under your control, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, Rose Room Treasurer deals X damage to any target."}
+        "Alliance — Whenever another creature you control enters, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, this creature deals X damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pncc",
@@ -473,7 +473,7 @@
         :layout "normal",
         :name "Spellbinding Soprano",
         :oracle-text
-        "Whenever Spellbinding Soprano attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "Whenever this creature attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pncc",
@@ -484,7 +484,7 @@
         :layout "normal",
         :name "Turf War",
         :oracle-text
-        "When Turf War enters the battlefield, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
+        "When this enchantment enters, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
  #:card{:type-line "Creature — Rhino Warrior",
         :layout-category :normal,
         :code "pncc",
@@ -495,7 +495,7 @@
         :layout "normal",
         :name "Bribe Taker",
         :oracle-text
-        "Trample\nWhen Bribe Taker enters the battlefield, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on Bribe Taker."}
+        "Trample\nWhen this creature enters, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on this creature."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "pncc",
@@ -506,7 +506,7 @@
         :layout "normal",
         :name "Caldaia Guardian",
         :oracle-text
-        "Whenever Caldaia Guardian or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -550,7 +550,7 @@
         :layout "normal",
         :name "First Responder",
         :oracle-text
-        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on First Responder."}
+        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on this creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pncc",
@@ -561,7 +561,7 @@
         :layout "normal",
         :name "Killer Service",
         :oracle-text
-        "When Killer Service enters the battlefield, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
+        "When this enchantment enters, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "pncc",
@@ -572,7 +572,7 @@
         :layout "normal",
         :name "Next of Kin",
         :oracle-text
-        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return Next of Kin to the battlefield attached to that creature at the beginning of the next end step."}
+        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return this card to the battlefield attached to that creature at the beginning of the next end step."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "pncc",
@@ -583,7 +583,7 @@
         :layout "normal",
         :name "Park Heights Maverick",
         :oracle-text
-        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nPark Heights Maverick can't be blocked by creatures with power 2 or less.\nWhenever Park Heights Maverick deals combat damage to a player or dies, proliferate."}
+        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nThis creature can't be blocked by creatures with power 2 or less.\nWhenever this creature deals combat damage to a player or dies, proliferate."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pncc",
@@ -616,7 +616,7 @@
         :layout "normal",
         :name "Agent's Toolkit",
         :oracle-text
-        "Agent's Toolkit enters the battlefield with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature enters the battlefield under your control, you may move a counter from Agent's Toolkit onto that creature.\n{2}, Sacrifice Agent's Toolkit: Draw a card."}
+        "This artifact enters with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature you control enters, you may move a counter from this artifact onto that creature.\n{2}, Sacrifice this artifact: Draw a card."}
  #:card{:type-line "Legendary Creature — Human Citizen",
         :layout-category :normal,
         :code "pncc",
@@ -627,7 +627,7 @@
         :layout "normal",
         :name "Bess, Soul Nourisher",
         :oracle-text
-        "Whenever one or more other creatures with base power and toughness 1/1 enter the battlefield under your control, put a +1/+1 counter on Bess, Soul Nourisher.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
+        "Whenever one or more other creatures you control with base power and toughness 1/1 enter, put a +1/+1 counter on Bess.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pncc",
@@ -671,7 +671,7 @@
         :layout "normal",
         :name "Denry Klin, Editor in Chief",
         :oracle-text
-        "Denry Klin, Editor in Chief enters the battlefield with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature enters the battlefield under your control, if Denry has counters on it, put the same number of each kind of counter on that creature."}
+        "Denry Klin enters with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature you control enters, if Denry Klin has counters on it, put the same number of each kind of counter on that creature."}
  #:card{:type-line "Creature — Horror",
         :layout-category :normal,
         :code "pncc",
@@ -682,7 +682,7 @@
         :layout "normal",
         :name "Grime Gorger",
         :oracle-text
-        "Menace\nWhenever Grime Gorger attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on Grime Gorger for each card exiled this way."}
+        "Menace\nWhenever this creature attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on this creature for each card exiled this way."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "pncc",
@@ -748,7 +748,7 @@
         :layout "normal",
         :name "Prosperous Partnership",
         :oracle-text
-        "When Prosperous Partnership enters the battlefield, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
+        "When this enchantment enters, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pncc",
@@ -770,7 +770,7 @@
         :layout "normal",
         :name "Syrix, Carrier of the Flame",
         :oracle-text
-        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast Syrix, Carrier of the Flame from your graveyard."}
+        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast this card from your graveyard."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pncc",
@@ -781,7 +781,7 @@
         :layout "normal",
         :name "Currency Converter",
         :oracle-text
-        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with Currency Converter into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
+        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with this artifact into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pncc",
@@ -792,7 +792,7 @@
         :layout "normal",
         :name "False Floor",
         :oracle-text
-        "False Floor enters the battlefield tapped.\nCreatures enter the battlefield tapped.\n{2}, {T}, Exile False Floor: Exile all untapped creatures. Activate only as a sorcery."}
+        "This artifact enters tapped.\nCreatures enter tapped.\n{2}, {T}, Exile this artifact: Exile all untapped creatures. Activate only as a sorcery."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pncc",
@@ -803,7 +803,7 @@
         :layout "normal",
         :name "Gavel of the Righteous",
         :oracle-text
-        "At the beginning of combat on your turn, put a charge counter on Gavel of the Righteous.\nEquipped creature gets +1/+1 for each counter on Gavel of the Righteous.\nAs long as Gavel of the Righteous has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from Gavel of the Righteous."}
+        "At the beginning of combat on your turn, put a charge counter on this Equipment.\nEquipped creature gets +1/+1 for each counter on this Equipment.\nAs long as this Equipment has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from this Equipment."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pncc",
@@ -814,7 +814,7 @@
         :layout "normal",
         :name "Smuggler's Buggy",
         :oracle-text
-        "Hideaway 4 (When this artifact enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever Smuggler's Buggy deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return Smuggler's Buggy to its owner's hand.\nCrew 2"}
+        "Hideaway 4 (When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever this Vehicle deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return this Vehicle to its owner's hand.\nCrew 2"}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "pncc",
@@ -825,15 +825,4 @@
         :layout "normal",
         :name "Weathered Sentinels",
         :oracle-text
-        "Defender, vigilance, reach, trample\nWeathered Sentinels can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever Weathered Sentinels attacks, it gets +3/+3 and gains indestructible until end of turn."}
- #:card{:type-line "Artifact",
-        :layout-category :normal,
-        :code "pncc",
-        :highres? true,
-        :png
-        "https://cards.scryfall.io/png/front/1/3/1381fb99-570e-4339-9101-678a87b35174.png?1675618328",
-        :collector-number "93p",
-        :layout "normal",
-        :name "Threefold Signal",
-        :oracle-text
-        "When Threefold Signal enters the battlefield, scry 3.\nEach spell you cast that's exactly three colors has replicate {3}. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.)"})
+        "Defender, vigilance, reach, trample\nThis creature can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever this creature attacks, it gets +3/+3 and gains indestructible until end of turn."})

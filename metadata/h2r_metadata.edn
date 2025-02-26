@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Esper Sentinel",
         :oracle-text
-        "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is Esper Sentinel's power."}
+        "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power."}
  #:card{:type-line "Creature — Elemental Incarnation",
         :layout-category :normal,
         :code "h2r",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Solitude",
         :oracle-text
-        "Flash\nLifelink\nWhen Solitude enters, exile up to one other target creature. That creature's controller gains life equal to its power.\nEvoke—Exile a white card from your hand."}
+        "Flash\nLifelink\nWhen this creature enters, exile up to one other target creature. That creature's controller gains life equal to its power.\nEvoke—Exile a white card from your hand."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "h2r",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Dress Down",
         :oracle-text
-        "Flash\nWhen Dress Down enters, draw a card.\nCreatures lose all abilities.\nAt the beginning of the end step, sacrifice Dress Down."}
+        "Flash\nWhen this enchantment enters, draw a card.\nCreatures lose all abilities.\nAt the beginning of the end step, sacrifice this enchantment."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "h2r",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Hard Evidence",
         :oracle-text
-        "Create a 0/3 blue Crab creature token.\nInvestigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Create a 0/3 blue Crab creature token.\nInvestigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Elemental Incarnation",
         :layout-category :normal,
         :code "h2r",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Subtlety",
         :oracle-text
-        "Flash\nFlying\nWhen Subtlety enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on the top or bottom of their library.\nEvoke—Exile a blue card from your hand."}
+        "Flash\nFlying\nWhen this creature enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on their choice of the top or bottom of their library.\nEvoke—Exile a blue card from your hand."}
  #:card{:type-line "Creature — Elemental Incarnation",
         :layout-category :normal,
         :code "h2r",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Grief",
         :oracle-text
-        "Menace\nWhen Grief enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nEvoke—Exile a black card from your hand."}
+        "Menace\nWhen this creature enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nEvoke—Exile a black card from your hand."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "h2r",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Dragon's Rage Channeler",
         :oracle-text
-        "Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDelirium — As long as there are four or more card types among cards in your graveyard, Dragon's Rage Channeler gets +2/+2, has flying, and attacks each combat if able."}
+        "Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDelirium — As long as there are four or more card types among cards in your graveyard, this creature gets +2/+2, has flying, and attacks each combat if able."}
  #:card{:type-line "Creature — Elemental Incarnation",
         :layout-category :normal,
         :code "h2r",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Fury",
         :oracle-text
-        "Double strike\nWhen Fury enters, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers.\nEvoke—Exile a red card from your hand."}
+        "Double strike\nWhen this creature enters, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers.\nEvoke—Exile a red card from your hand."}
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "h2r",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "h2r",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Strike It Rich",
         :oracle-text
-        "Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
+        "Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "h2r",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Endurance",
         :oracle-text
-        "Flash\nReach\nWhen Endurance enters, up to one target player puts all the cards from their graveyard on the bottom of their library in a random order.\nEvoke—Exile a green card from your hand."}
+        "Flash\nReach\nWhen this creature enters, up to one target player puts all the cards from their graveyard on the bottom of their library in a random order.\nEvoke—Exile a green card from your hand."}
  #:card{:type-line "Creature — Elf Scout",
         :layout-category :normal,
         :code "h2r",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Tireless Provisioner",
         :oracle-text
-        "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "h2r",
@@ -173,4 +173,4 @@
         :layout "normal",
         :name "Munitions Expert",
         :oracle-text
-        "Flash\nWhen Munitions Expert enters, you may have it deal damage to target creature or planeswalker equal to the number of Goblins you control."})
+        "Flash\nWhen this creature enters, you may have it deal damage to target creature or planeswalker equal to the number of Goblins you control."})

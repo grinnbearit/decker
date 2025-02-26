@@ -3,18 +3,18 @@
         :code "p23",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/d/ed191a5f-7ec5-4ce7-8fb7-f2c34a971bd5.png?1680795088",
+        "https://cards.scryfall.io/png/front/e/d/ed191a5f-7ec5-4ce7-8fb7-f2c34a971bd5.png?1692067852",
         :collector-number "1",
         :layout "normal",
         :name "Painter's Servant",
         :oracle-text
-        "As Painter's Servant enters the battlefield, choose a color.\nAll cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors."}
+        "As this creature enters, choose a color.\nAll cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "p23",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/0/f0280efb-a3d2-4689-b48a-10850419ebb5.png?1670886708",
+        "https://cards.scryfall.io/png/front/f/0/f0280efb-a3d2-4689-b48a-10850419ebb5.png?1733150705",
         :collector-number "2",
         :layout "normal",
         :name "Grindstone",
@@ -36,12 +36,12 @@
         :code "p23",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/e/be905e63-a7d5-4b75-ba03-32089c7e3063.png?1670886693",
+        "https://cards.scryfall.io/png/front/b/e/be905e63-a7d5-4b75-ba03-32089c7e3063.png?1733527947",
         :collector-number "4",
         :layout "normal",
         :name "Retrofitter Foundry",
         :oracle-text
-        "{3}: Untap Retrofitter Foundry.\n{2}, {T}: Create a 1/1 colorless Servo artifact creature token.\n{1}, {T}, Sacrifice a Servo: Create a 1/1 colorless Thopter artifact creature token with flying.\n{T}, Sacrifice a Thopter: Create a 4/4 colorless Construct artifact creature token."}
+        "{3}: Untap this artifact.\n{2}, {T}: Create a 1/1 colorless Servo artifact creature token.\n{1}, {T}, Sacrifice a Servo: Create a 1/1 colorless Thopter artifact creature token with flying.\n{T}, Sacrifice a Thopter: Create a 4/4 colorless Construct artifact creature token."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "p23",
@@ -52,4 +52,54 @@
         :layout "normal",
         :name "Sword of War and Peace",
         :oracle-text
-        "Equipped creature gets +2/+2 and has protection from red and from white.\nWhenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.\nEquip {2}"})
+        "Equipped creature gets +2/+2 and has protection from red and from white.\nWhenever equipped creature deals combat damage to a player, this Equipment deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.\nEquip {2}"}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "p23",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/0/f087c400-0ba2-4635-a928-dfbb01f550f8.png?1733219669",
+        :collector-number "6",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Basic Land — Island",
+        :layout-category :normal,
+        :code "p23",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0d0d544b-82b2-4b51-8410-4c5cb126d3f3.png?1733219682",
+        :collector-number "7",
+        :layout "normal",
+        :name "Island",
+        :oracle-text "({T}: Add {U}.)"}
+ #:card{:type-line "Basic Land — Swamp",
+        :layout-category :normal,
+        :code "p23",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/4/540ff80a-71a3-4a06-ac0f-0408f4acec13.png?1733219699",
+        :collector-number "8",
+        :layout "normal",
+        :name "Swamp",
+        :oracle-text "({T}: Add {B}.)"}
+ #:card{:type-line "Basic Land — Mountain",
+        :layout-category :normal,
+        :code "p23",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/d/6d5d112e-7018-48a1-95b8-fba6fc6b4e3b.png?1733219771",
+        :collector-number "9",
+        :layout "normal",
+        :name "Mountain",
+        :oracle-text "({T}: Add {R}.)"}
+ #:card{:type-line "Basic Land — Forest",
+        :layout-category :normal,
+        :code "p23",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/0/c044cd23-60bc-4b05-a8e1-cc0d69c9fa33.png?1733219740",
+        :collector-number "10",
+        :layout "normal",
+        :name "Forest",
+        :oracle-text "({T}: Add {G}.)"})

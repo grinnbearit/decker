@@ -1,9 +1,9 @@
 (#:card{:type-line "Instant",
         :layout-category :normal,
         :code "slp",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/c/8c09e891-247f-43f2-8d9d-2187631fb083.png?1671215019",
+        "https://cards.scryfall.io/png/front/8/c/8c09e891-247f-43f2-8d9d-2187631fb083.png?1682696285",
         :collector-number "1",
         :layout "normal",
         :name "Brainstorm",
@@ -12,22 +12,418 @@
  #:card{:type-line "Legendary Creature — Monkey Pirate",
         :layout-category :normal,
         :code "slp",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/0/10cde602-f47c-4dac-bf1b-e300c82e5fd5.png?1671214946",
+        "https://cards.scryfall.io/png/front/1/0/10cde602-f47c-4dac-bf1b-e300c82e5fd5.png?1733501845",
         :collector-number "2",
         :layout "normal",
         :name "Ragavan, Nimble Pilferer",
         :oracle-text
-        "Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
+        "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "slp",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/6/06f7cc6d-c26c-466d-9659-90902f6b3559.png?1672968829",
+        "https://cards.scryfall.io/png/front/0/6/06f7cc6d-c26c-466d-9659-90902f6b3559.png?1733527636",
         :collector-number "3",
         :layout "normal",
         :name "Fatal Push",
         :oracle-text
-        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."})
+        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/2/f22650a0-278c-45a1-8e3c-66c2ae6e844a.png?1692066759",
+        :collector-number "4",
+        :layout "normal",
+        :name "Unholy Heat",
+        :oracle-text
+        "Unholy Heat deals 2 damage to target creature or planeswalker.\nDelirium — Unholy Heat deals 6 damage instead if there are four or more card types among cards in your graveyard."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/7/f743b688-25e8-421e-97b5-d294dda34817.png?1733527395",
+        :collector-number "5",
+        :layout "normal",
+        :name "Eldritch Evolution",
+        :oracle-text
+        "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a creature card with mana value X or less, where X is 2 plus the sacrificed creature's mana value. Put that card onto the battlefield, then shuffle. Exile Eldritch Evolution."}
+ #:card{:type-line "Legendary Planeswalker — Ugin",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/e/3e64afdc-7623-4b88-a952-45243b4dff79.png?1676935975",
+        :collector-number "6",
+        :layout "normal",
+        :name "Ugin, the Spirit Dragon",
+        :oracle-text
+        "+2: Ugin deals 3 damage to any target.\n−X: Exile each permanent with mana value X or less that's one or more colors.\n−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/3/134200c4-88af-4772-9031-a59669e8c2ec.png?1721632892",
+        :collector-number "7",
+        :layout "normal",
+        :name "An Offer You Can't Refuse",
+        :oracle-text
+        "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
+ #:card{:type-line "Creature — Avatar",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/f/bf954e31-015a-4646-8333-40225c847bcc.png?1733525691",
+        :collector-number "8",
+        :layout "normal",
+        :name "Death's Shadow",
+        :oracle-text
+        "This creature gets -X/-X, where X is your life total."}
+ #:card{:type-line "Legendary Creature — Elder Dragon",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c8a826a3-bd19-4c56-9b86-d6547714c684.png?1733530818",
+        :collector-number "9",
+        :layout "normal",
+        :name "Dragonlord Silumgar",
+        :oracle-text
+        "Flying, deathtouch\nWhen Dragonlord Silumgar enters, gain control of target creature or planeswalker for as long as you control Dragonlord Silumgar."}
+ #:card{:type-line "Creature — Rat",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1da0b6bc-db7f-42e9-b37d-fa33030cde13.png?1700656922",
+        :collector-number "10",
+        :layout "normal",
+        :name "Relentless Rats",
+        :oracle-text
+        "This creature gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats."}
+ #:card{:type-line "Creature — Rat",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd52d335-337c-4ac8-8854-15850e2da093.png?1739496626",
+        :collector-number "11",
+        :layout "normal",
+        :name "Relentless Rats",
+        :oracle-text
+        "This creature gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d6ff821f-d60a-497e-9809-20fd0a80594c.png?1706549594",
+        :collector-number "12",
+        :layout "normal",
+        :name "Explore",
+        :oracle-text
+        "You may play an additional land this turn.\nDraw a card."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2be401fd-491c-4283-b8b6-1073431205b9.png?1706549626",
+        :collector-number "13",
+        :layout "normal",
+        :name "Expressive Iteration",
+        :oracle-text
+        "Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/2/4/24b2acd2-ad1a-468c-bacf-00d94f642e6d.png?1697829866",
+        :collector-number "14",
+        :layout "normal",
+        :name "Valakut, the Molten Pinnacle",
+        :oracle-text
+        "This land enters tapped.\nWhenever a Mountain you control enters, if you control at least five other Mountains, you may have this land deal 3 damage to any target.\n{T}: Add {R}."}
+ #:card{:type-line "Legendary Planeswalker — Wrenn",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/3/a31d1338-3085-47c5-ac7b-6aa34b91314a.png?1739789067",
+        :collector-number "15",
+        :layout "normal",
+        :name "Wrenn and Six",
+        :oracle-text
+        "+1: Return up to one target land card from your graveyard to your hand.\n−1: Wrenn and Six deals 1 damage to any target.\n−7: You get an emblem with \"Instant and sorcery cards in your graveyard have retrace.\" (You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.)"}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/d/0de4d738-e71e-49ab-b842-e7ea785450e9.png?1700170028",
+        :collector-number "16",
+        :layout "normal",
+        :name "Dark Ritual",
+        :oracle-text "Add {B}{B}{B}."}
+ #:card{:type-line "Creature — Dragon",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/6/d6954d23-86a7-47ed-bad9-7f92c0edb0e4.png?1724395132",
+        :collector-number "17",
+        :layout "normal",
+        :name "Murktide Regent",
+        :oracle-text
+        "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\nThis creature enters with a +1/+1 counter on it for each instant and sorcery card exiled with it.\nWhenever an instant or sorcery card leaves your graveyard, put a +1/+1 counter on this creature."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/e/6e745659-7007-48cc-9f82-a27363068c5e.png?1700170237",
+        :collector-number "18",
+        :layout "normal",
+        :name "Spell Pierce",
+        :oracle-text
+        "Counter target noncreature spell unless its controller pays {2}."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cd165fe9-7de3-4883-a258-e397472db606.png?1712162369",
+        :collector-number "19",
+        :layout "normal",
+        :name "Ponder",
+        :oracle-text
+        "Look at the top three cards of your library, then put them back in any order. You may shuffle.\nDraw a card."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/7/f74afebc-452d-42bf-8cf4-9a7a8e91e315.png?1737998923",
+        :collector-number "20",
+        :layout "normal",
+        :name "Swords to Plowshares",
+        :oracle-text
+        "Exile target creature. Its controller gains life equal to its power."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/074d2360-3ded-412d-90b5-2b8ab209fe47.png?1733230404",
+        :collector-number "21",
+        :layout "normal",
+        :name "Lightning Bolt",
+        :oracle-text "Lightning Bolt deals 3 damage to any target."}
+ #:card{:type-line "Artifact",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/9/193ece2d-f7fa-4e9c-a991-6f8116f63673.png?1709379701",
+        :collector-number "22",
+        :layout "normal",
+        :name "Springleaf Drum",
+        :oracle-text
+        "{T}, Tap an untapped creature you control: Add one mana of any color."}
+ #:card{:type-line "Creature — Goblin Scout",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/6/363339db-0caa-437c-98b0-ef6a7ed81e6e.png?1709324307",
+        :collector-number "23",
+        :layout "normal",
+        :name "Goblin Guide",
+        :oracle-text
+        "Haste\nWhenever this creature attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand."}
+ #:card{:type-line "Creature — Human Shaman",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/d/1dab4acc-1aa4-4497-99d0-551c6206a4e6.png?1709324393",
+        :collector-number "24",
+        :layout "normal",
+        :name "Seasoned Pyromancer",
+        :oracle-text
+        "When this creature enters, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.\n{3}{R}{R}, Exile this card from your graveyard: Create two 1/1 red Elemental creature tokens."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/1/41cb4b43-2688-4693-86fd-9429efb57068.png?1725887167",
+        :collector-number "25",
+        :layout "normal",
+        :name "Sleight of Hand",
+        :oracle-text
+        "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/9/b98b93f4-4c85-42b3-8b0f-094349f2414b.png?1725887175",
+        :collector-number "26",
+        :layout "normal",
+        :name "Supreme Verdict",
+        :oracle-text
+        "This spell can't be countered.\nDestroy all creatures."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/df348c78-95b7-45ec-b4c3-37be4269dd6e.png?1726049720",
+        :collector-number "27",
+        :layout "normal",
+        :name "Nexus of Fate",
+        :oracle-text
+        "Take an extra turn after this one.\nIf Nexus of Fate would be put into a graveyard from anywhere, reveal Nexus of Fate and shuffle it into its owner's library instead."}
+ #:card{:type-line "Creature — Devil",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/7/e7c570c4-6637-4269-a59f-6448d85dfc50.png?1729000373",
+        :collector-number "28",
+        :layout "normal",
+        :name "Mayhem Devil",
+        :oracle-text
+        "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/2/c298d757-6d9d-4d33-86b6-e198299859be.png?1729000368",
+        :collector-number "29",
+        :layout "normal",
+        :name "Force of Despair",
+        :oracle-text
+        "If it's not your turn, you may exile a black card from your hand rather than pay this spell's mana cost.\nDestroy all creatures that entered this turn."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/e/8e6043b1-ac82-40d1-aada-de911e0b58c0.png?1739611458",
+        :collector-number "30",
+        :layout "normal",
+        :name "Living End",
+        :oracle-text
+        "Suspend 3—{2}{B}{B}\nEach player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield."}
+ #:card{:type-line "Basic Land — Plains",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/f/afc24e1d-2fb0-46eb-926b-7345741d443e.png?1723246217",
+        :collector-number "31",
+        :layout "normal",
+        :name "Plains",
+        :oracle-text "({T}: Add {W}.)"}
+ #:card{:type-line "Legendary Planeswalker — Karn",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/4/c4a7d70f-387d-40c5-bb3a-ba49a2b89855.png?1737548848",
+        :collector-number "36",
+        :layout "normal",
+        :name "Karn Liberated",
+        :oracle-text
+        "+4: Target player exiles a card from their hand.\n−3: Exile target permanent.\n−14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn. Then put those cards onto the battlefield under your control."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/b/9/b9399b98-a545-47b2-99bb-6d8251d9ae76.png?1733151224",
+        :collector-number "37",
+        :layout "normal",
+        :name "Lightning Bolt",
+        :oracle-text "Lightning Bolt deals 3 damage to any target."}
+ #:card{:code "slp",
+        :collector-number "38",
+        :name "Questing Druid // Seek the Beast",
+        :layout "adventure",
+        :highres? true,
+        :layout-category :split,
+        :png
+        "https://cards.scryfall.io/png/front/8/7/87776882-d3f6-4f80-8529-01feb416bb36.png?1733151230",
+        :faces
+        [{:type-line "Creature — Human Druid",
+          :oracle-text
+          "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on this creature."}
+         {:type-line "Instant — Adventure",
+          :oracle-text
+          "Exile the top two cards of your library. Until your next end step, you may play those cards."}]}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/4/a4630fe2-f1d2-4ae5-9840-886a95c42aab.png?1733151236",
+        :collector-number "39",
+        :layout "normal",
+        :name "Sudden Edict",
+        :oracle-text
+        "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nTarget player sacrifices a creature of their choice."}
+ #:card{:type-line "Creature — Halfling Citizen",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/d/8dbdba5b-3014-47b9-b5c8-5f92a99df9f7.png?1739289423",
+        :collector-number "40",
+        :layout "normal",
+        :name "Prosperous Innkeeper",
+        :oracle-text
+        "When this creature enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever another creature you control enters, you gain 1 life."}
+ #:card{:type-line "Creature — Elf Shaman",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/4/c/4ccab9dd-95b1-491b-b9d4-da60d87d8edd.png?1739289150",
+        :collector-number "41",
+        :layout "normal",
+        :name "Fauna Shaman",
+        :oracle-text
+        "{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle."}
+ #:card{:type-line "Legendary Planeswalker — Garruk",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/b/6b12a208-0ecf-4403-b988-d8c5ccc2906d.png?1739289577",
+        :collector-number "42",
+        :layout "normal",
+        :name "Garruk Wildspeaker",
+        :oracle-text
+        "+1: Untap two target lands.\n−1: Create a 3/3 green Beast creature token.\n−4: Creatures you control get +3/+3 and gain trample until end of turn."}
+ #:card{:type-line "Legendary Creature — Elemental Gamer",
+        :layout-category :normal,
+        :code "slp",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/8/c8eef19e-30a8-4e3d-abf7-a1435a6d6643.png?1727828221",
+        :collector-number "999-CM",
+        :layout "normal",
+        :name "Convention Maro",
+        :oracle-text
+        "Whenever you cast a spell that [CHOICE A], create a green Elemental creature token named Maro with \"This creature's power and toughness are each equal to the number of [CHOICE B].\"\n— As you create your deck, choose an [A] and a [B] —\n• [A1] \"is an Elemental\" | [A2] \"has a watermark or landscape orientation\" | [A3] \"targets a creature you control\"\n• [B1] \"cards in your hand\" | [B2] \"card types among cards in your graveyard\" | [B3] \"artists among nonland, nontoken permanents you control\""})

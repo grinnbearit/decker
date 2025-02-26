@@ -51,7 +51,7 @@
         :layout "normal",
         :name "Black Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from black. This effect doesn't remove Black Ward."}
+        "Enchant creature\nEnchanted creature has protection from black. This effect doesn't remove this Aura."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -84,7 +84,7 @@
         :layout "normal",
         :name "Blue Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from blue. This effect doesn't remove Blue Ward."}
+        "Enchant creature\nEnchanted creature has protection from blue. This effect doesn't remove this Aura."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -171,7 +171,7 @@
         :layout "normal",
         :name "Conversion",
         :oracle-text
-        "At the beginning of your upkeep, sacrifice Conversion unless you pay {W}{W}.\nAll Mountains are Plains."}
+        "At the beginning of your upkeep, sacrifice this enchantment unless you pay {W}{W}.\nAll Mountains are Plains."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -213,7 +213,7 @@
         :layout "normal",
         :name "Green Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from green. This effect doesn't remove Green Ward."}
+        "Enchant creature\nEnchanted creature has protection from green. This effect doesn't remove this Aura."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -279,7 +279,7 @@
         :layout "normal",
         :name "Karma",
         :oracle-text
-        "At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps they control."}
+        "At the beginning of each player's upkeep, this enchantment deals damage to that player equal to the number of Swamps they control."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -327,12 +327,12 @@
         :code "30a",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/3/e/3e6d10d7-66ac-427e-b91f-af6198e5ae48.png?1664924581",
+        "https://cards.scryfall.io/png/front/3/e/3e6d10d7-66ac-427e-b91f-af6198e5ae48.png?1739566374",
         :collector-number "31",
         :layout "normal",
         :name "Personal Incarnation",
         :oracle-text
-        "{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.\nWhen Personal Incarnation dies, its owner loses half their life, rounded up."}
+        "{0}: The next 1 damage that would be dealt to this creature this turn is dealt to its owner instead. Only this creature's owner may activate this ability.\nWhen this creature dies, its owner loses half their life, rounded up."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -354,7 +354,7 @@
         :layout "normal",
         :name "Red Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from red. This effect doesn't remove Red Ward."}
+        "Enchant creature\nEnchanted creature has protection from red. This effect doesn't remove this Aura."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -418,7 +418,8 @@
         :collector-number "39",
         :layout "normal",
         :name "Serra Angel",
-        :oracle-text "Flying, vigilance"}
+        :oracle-text
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -440,7 +441,7 @@
         :layout "normal",
         :name "Veteran Bodyguard",
         :oracle-text
-        "As long as Veteran Bodyguard is untapped, all damage that would be dealt to you by unblocked creatures is dealt to Veteran Bodyguard instead."}
+        "As long as this creature is untapped, all damage that would be dealt to you by unblocked creatures is dealt to this creature instead."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -472,7 +473,7 @@
         :layout "normal",
         :name "White Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from white. This effect doesn't remove White Ward."}
+        "Enchant creature\nEnchanted creature has protection from white. This effect doesn't remove this Aura."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -546,7 +547,7 @@
         :layout "normal",
         :name "Clone",
         :oracle-text
-        "You may have Clone enter the battlefield as a copy of any creature on the battlefield."}
+        "You may have this creature enter as a copy of any creature on the battlefield."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -568,7 +569,7 @@
         :layout "normal",
         :name "Copy Artifact",
         :oracle-text
-        "You may have Copy Artifact enter the battlefield as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types."}
+        "You may have this enchantment enter as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -589,7 +590,7 @@
         :layout "normal",
         :name "Creature Bond",
         :oracle-text
-        "Enchant creature\nWhen enchanted creature dies, Creature Bond deals damage equal to that creature's toughness to the creature's controller."}
+        "Enchant creature\nWhen enchanted creature dies, this Aura deals damage equal to that creature's toughness to the creature's controller."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -611,7 +612,7 @@
         :layout "normal",
         :name "Feedback",
         :oracle-text
-        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, Feedback deals 1 damage to that player."}
+        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -719,7 +720,7 @@
         :layout "normal",
         :name "Phantasmal Forces",
         :oracle-text
-        "Flying\nAt the beginning of your upkeep, sacrifice Phantasmal Forces unless you pay {U}."}
+        "Flying\nAt the beginning of your upkeep, sacrifice this creature unless you pay {U}."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -730,7 +731,7 @@
         :layout "normal",
         :name "Phantasmal Terrain",
         :oracle-text
-        "Enchant land\nAs Phantasmal Terrain enters the battlefield, choose a basic land type.\nEnchanted land is the chosen type."}
+        "Enchant land\nAs this Aura enters, choose a basic land type.\nEnchanted land is the chosen type."}
  #:card{:type-line "Creature — Illusion",
         :layout-category :normal,
         :code "30a",
@@ -751,7 +752,7 @@
         :layout "normal",
         :name "Pirate Ship",
         :oracle-text
-        "Pirate Ship can't attack unless defending player controls an Island.\n{T}: Pirate Ship deals 1 damage to any target.\nWhen you control no Islands, sacrifice Pirate Ship."}
+        "This creature can't attack unless defending player controls an Island.\n{T}: This creature deals 1 damage to any target.\nWhen you control no Islands, sacrifice this creature."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -762,7 +763,7 @@
         :layout "normal",
         :name "Power Leak",
         :oracle-text
-        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. Power Leak deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way."}
+        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. This Aura deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -784,7 +785,7 @@
         :layout "normal",
         :name "Prodigal Sorcerer",
         :oracle-text
-        "{T}: Prodigal Sorcerer deals 1 damage to any target."}
+        "{T}: This creature deals 1 damage to any target."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -806,7 +807,7 @@
         :layout "normal",
         :name "Psychic Venom",
         :oracle-text
-        "Enchant land\nWhenever enchanted land becomes tapped, Psychic Venom deals 2 damage to that land's controller."}
+        "Enchant land\nWhenever enchanted land becomes tapped, this Aura deals 2 damage to that land's controller."}
  #:card{:type-line "Creature — Serpent",
         :layout-category :normal,
         :code "30a",
@@ -817,7 +818,7 @@
         :layout "normal",
         :name "Sea Serpent",
         :oracle-text
-        "Sea Serpent can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice Sea Serpent."}
+        "This creature can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -861,7 +862,7 @@
         :layout "normal",
         :name "Stasis",
         :oracle-text
-        "Players skip their untap steps.\nAt the beginning of your upkeep, sacrifice Stasis unless you pay {U}."}
+        "Players skip their untap steps.\nAt the beginning of your upkeep, sacrifice this enchantment unless you pay {U}."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -936,7 +937,7 @@
         :layout "normal",
         :name "Vesuvan Doppelganger",
         :oracle-text
-        "You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
+        "You may have this creature enter as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -969,7 +970,7 @@
         :layout "normal",
         :name "Wall of Water",
         :oracle-text
-        "Defender (This creature can't attack.)\n{U}: Wall of Water gets +1/+0 until end of turn."}
+        "Defender (This creature can't attack.)\n{U}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "30a",
@@ -990,7 +991,7 @@
         :layout "normal",
         :name "Animate Dead",
         :oracle-text
-        "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0."}
+        "Enchant creature card in a graveyard\nWhen this Aura enters, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with this Aura.\" Return enchanted creature card to the battlefield under your control and attach this Aura to it. When this Aura leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1033,7 +1034,7 @@
         :layout "normal",
         :name "Cursed Land",
         :oracle-text
-        "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, Cursed Land deals 1 damage to that player."}
+        "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -1075,7 +1076,7 @@
         :layout "normal",
         :name "Demonic Hordes",
         :oracle-text
-        "{T}: Destroy target land.\nAt the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes and sacrifice a land of an opponent's choice."}
+        "{T}: Destroy target land.\nAt the beginning of your upkeep, unless you pay {B}{B}{B}, tap this creature and sacrifice a land of an opponent's choice."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -1108,7 +1109,7 @@
         :layout "normal",
         :name "Drudge Skeletons",
         :oracle-text
-        "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -1129,7 +1130,7 @@
         :layout "normal",
         :name "Fear",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)"}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "30a",
@@ -1139,7 +1140,8 @@
         :collector-number "106",
         :layout "normal",
         :name "Frozen Shade",
-        :oracle-text "{B}: Frozen Shade gets +1/+1 until end of turn."}
+        :oracle-text
+        "{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1171,7 +1173,7 @@
         :layout "normal",
         :name "Hypnotic Specter",
         :oracle-text
-        "Flying\nWhenever Hypnotic Specter deals damage to an opponent, that player discards a card at random."}
+        "Flying\nWhenever this creature deals damage to an opponent, that player discards a card at random."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1182,7 +1184,7 @@
         :layout "normal",
         :name "Lich",
         :oracle-text
-        "As Lich enters the battlefield, you lose life equal to your life total.\nYou don't lose the game for having 0 or less life.\nIf you would gain life, draw that many cards instead.\nWhenever you're dealt damage, sacrifice that many nontoken permanents. If you can't, you lose the game.\nWhen Lich is put into a graveyard from the battlefield, you lose the game."}
+        "As this enchantment enters, you lose life equal to your life total.\nYou don't lose the game for having 0 or less life.\nIf you would gain life, draw that many cards instead.\nWhenever you're dealt damage, sacrifice that many nontoken permanents. If you can't, you lose the game.\nWhen this enchantment is put into a graveyard from the battlefield, you lose the game."}
  #:card{:type-line "Creature — Demon",
         :layout-category :normal,
         :code "30a",
@@ -1193,7 +1195,7 @@
         :layout "normal",
         :name "Lord of the Pit",
         :oracle-text
-        "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you."}
+        "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than this creature. If you can't, this creature deals 7 damage to you."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -1214,7 +1216,7 @@
         :layout "normal",
         :name "Nether Shadow",
         :oracle-text
-        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+        "Haste\nAt the beginning of your upkeep, if this card is in your graveyard with three or more creature cards above it, you may put this card onto the battlefield."}
  #:card{:type-line "Creature — Imp",
         :layout-category :normal,
         :code "30a",
@@ -1247,7 +1249,7 @@
         :layout "normal",
         :name "Paralyze",
         :oracle-text
-        "Enchant creature\nWhen Paralyze enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature."}
+        "Enchant creature\nWhen this Aura enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1258,7 +1260,7 @@
         :layout "normal",
         :name "Pestilence",
         :oracle-text
-        "At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pestilence.\n{B}: Pestilence deals 1 damage to each creature and each player."}
+        "At the beginning of the end step, if no creatures are on the battlefield, sacrifice this enchantment.\n{B}: This enchantment deals 1 damage to each creature and each player."}
  #:card{:type-line "Creature — Rat",
         :layout-category :normal,
         :code "30a",
@@ -1322,7 +1324,7 @@
         :layout "normal",
         :name "Scavenging Ghoul",
         :oracle-text
-        "At the beginning of each end step, put a corpse counter on Scavenging Ghoul for each creature that died this turn.\nRemove a corpse counter from Scavenging Ghoul: Regenerate Scavenging Ghoul."}
+        "At the beginning of each end step, put a corpse counter on this creature for each creature that died this turn.\nRemove a corpse counter from this creature: Regenerate this creature."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "30a",
@@ -1333,7 +1335,7 @@
         :layout "normal",
         :name "Sengir Vampire",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire."}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -1387,7 +1389,7 @@
         :layout "normal",
         :name "Wall of Bone",
         :oracle-text
-        "Defender (This creature can't attack.)\n{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Defender (This creature can't attack.)\n{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -1398,7 +1400,7 @@
         :layout "normal",
         :name "Warp Artifact",
         :oracle-text
-        "Enchant artifact\nAt the beginning of the upkeep of enchanted artifact's controller, Warp Artifact deals 1 damage to that player."}
+        "Enchant artifact\nAt the beginning of the upkeep of enchanted artifact's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -1419,7 +1421,7 @@
         :layout "normal",
         :name "Will-o'-the-Wisp",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Regenerate Will-o'-the-Wisp. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -1485,7 +1487,7 @@
         :layout "normal",
         :name "Dragon Whelp",
         :oracle-text
-        "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice this creature at the beginning of the next end step."}
  #:card{:type-line "Creature — Dwarf",
         :layout-category :normal,
         :code "30a",
@@ -1602,7 +1604,7 @@
         :layout "normal",
         :name "Goblin Balloon Brigade",
         :oracle-text
-        "{R}: Goblin Balloon Brigade gains flying until end of turn."}
+        "{R}: This creature gains flying until end of turn."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "30a",
@@ -1623,7 +1625,7 @@
         :layout "normal",
         :name "Granite Gargoyle",
         :oracle-text
-        "Flying\n{R}: Granite Gargoyle gets +0/+1 until end of turn."}
+        "Flying\n{R}: This creature gets +0/+1 until end of turn."}
  #:card{:type-line "Creature — Ogre",
         :layout-category :normal,
         :code "30a",
@@ -1664,7 +1666,7 @@
         :layout "normal",
         :name "Ironclaw Orcs",
         :oracle-text
-        "Ironclaw Orcs can't block creatures with power 2 or greater."}
+        "This creature can't block creatures with power 2 or greater."}
  #:card{:type-line "Creature — Human Barbarian",
         :layout-category :normal,
         :code "30a",
@@ -1707,7 +1709,7 @@
         :layout "normal",
         :name "Manabarbs",
         :oracle-text
-        "Whenever a player taps a land for mana, Manabarbs deals 1 damage to that player."}
+        "Whenever a player taps a land for mana, this enchantment deals 1 damage to that player."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "30a",
@@ -1728,7 +1730,7 @@
         :layout "normal",
         :name "Orcish Artillery",
         :oracle-text
-        "{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you."}
+        "{T}: This creature deals 2 damage to any target and 3 damage to you."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1749,7 +1751,7 @@
         :layout "normal",
         :name "Power Surge",
         :oracle-text
-        "At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn."}
+        "At the beginning of each player's upkeep, this enchantment deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1792,7 +1794,7 @@
         :layout "normal",
         :name "Rock Hydra",
         :oracle-text
-        "Rock Hydra enters the battlefield with X +1/+1 counters on it.\nFor each 1 damage that would be dealt to Rock Hydra, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and prevent that 1 damage.\n{R}: Prevent the next 1 damage that would be dealt to Rock Hydra this turn.\n{R}{R}{R}: Put a +1/+1 counter on Rock Hydra. Activate only during your upkeep."}
+        "This creature enters with X +1/+1 counters on it.\nFor each 1 damage that would be dealt to this creature, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and prevent that 1 damage.\n{R}: Prevent the next 1 damage that would be dealt to this creature this turn.\n{R}{R}{R}: Put a +1/+1 counter on this creature. Activate only during your upkeep."}
  #:card{:type-line "Creature — Troll",
         :layout-category :normal,
         :code "30a",
@@ -1803,7 +1805,7 @@
         :layout "normal",
         :name "Sedge Troll",
         :oracle-text
-        "Sedge Troll gets +1/+1 as long as you control a Swamp.\n{B}: Regenerate Sedge Troll."}
+        "This creature gets +1/+1 as long as you control a Swamp.\n{B}: Regenerate this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -1824,7 +1826,7 @@
         :layout "normal",
         :name "Shivan Dragon",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -1846,7 +1848,7 @@
         :layout "normal",
         :name "Stone Giant",
         :oracle-text
-        "{T}: Target creature you control with toughness less than Stone Giant's power gains flying until end of turn. Destroy that creature at the beginning of the next end step."}
+        "{T}: Target creature you control with toughness less than this creature's power gains flying until end of turn. Destroy that creature at the beginning of the next end step."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -1877,7 +1879,7 @@
         :layout "normal",
         :name "Two-Headed Giant of Foriys",
         :oracle-text
-        "Trample\nTwo-Headed Giant of Foriys can block an additional creature each combat."}
+        "Trample\nThis creature can block an additional creature each combat."}
  #:card{:type-line "Creature — Troll",
         :layout-category :normal,
         :code "30a",
@@ -1887,7 +1889,7 @@
         :collector-number "176",
         :layout "normal",
         :name "Uthden Troll",
-        :oracle-text "{R}: Regenerate Uthden Troll."}
+        :oracle-text "{R}: Regenerate this creature."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -1898,7 +1900,7 @@
         :layout "normal",
         :name "Wall of Fire",
         :oracle-text
-        "Defender (This creature can't attack.)\n{R}: Wall of Fire gets +1/+0 until end of turn."}
+        "Defender (This creature can't attack.)\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -1984,7 +1986,7 @@
         :layout "normal",
         :name "Cockatrice",
         :oracle-text
-        "Flying\nWhenever Cockatrice blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
+        "Flying\nWhenever this creature blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "30a",
@@ -2015,7 +2017,7 @@
         :layout "normal",
         :name "Fastbond",
         :oracle-text
-        "You may play any number of lands on each of your turns.\nWhenever you play a land, if it wasn't the first land you played this turn, Fastbond deals 1 damage to you."}
+        "You may play any number of lands on each of your turns.\nWhenever you play a land, if it wasn't the first land you played this turn, this enchantment deals 1 damage to you."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -2037,7 +2039,7 @@
         :layout "normal",
         :name "Force of Nature",
         :oracle-text
-        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, this creature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
  #:card{:type-line "Creature — Fungus Dinosaur",
         :layout-category :normal,
         :code "30a",
@@ -2048,7 +2050,7 @@
         :layout "normal",
         :name "Fungusaur",
         :oracle-text
-        "Whenever Fungusaur is dealt damage, put a +1/+1 counter on it."}
+        "Whenever this creature is dealt damage, put a +1/+1 counter on it."}
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "30a",
@@ -2059,7 +2061,7 @@
         :layout "normal",
         :name "Gaea's Liege",
         :oracle-text
-        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until Gaea's Liege leaves the battlefield."}
+        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until this creature leaves the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -2143,7 +2145,7 @@
         :layout "normal",
         :name "Kudzu",
         :oracle-text
-        "Enchant land\nWhen enchanted land becomes tapped, destroy it. That land's controller may attach Kudzu to a land of their choice."}
+        "Enchant land\nWhen enchanted land becomes tapped, destroy it. That land's controller may attach this Aura to a land of their choice."}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "30a",
@@ -2185,7 +2187,7 @@
         :layout "normal",
         :name "Living Artifact",
         :oracle-text
-        "Enchant artifact\nWhenever you're dealt damage, put that many vitality counters on Living Artifact.\nAt the beginning of your upkeep, you may remove a vitality counter from Living Artifact. If you do, you gain 1 life."}
+        "Enchant artifact\nWhenever you're dealt damage, put that many vitality counters on this Aura.\nAt the beginning of your upkeep, you may remove a vitality counter from this Aura. If you do, you gain 1 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -2239,7 +2241,7 @@
         :layout "normal",
         :name "Regeneration",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\n{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\n{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -2292,7 +2294,7 @@
         :layout "normal",
         :name "Thicket Basilisk",
         :oracle-text
-        "Whenever Thicket Basilisk blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
+        "Whenever this creature blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
  #:card{:type-line "Creature — Wolf",
         :layout-category :normal,
         :code "30a",
@@ -2345,7 +2347,7 @@
         :layout "normal",
         :name "Wall of Brambles",
         :oracle-text
-        "Defender (This creature can't attack.)\n{G}: Regenerate Wall of Brambles."}
+        "Defender (This creature can't attack.)\n{G}: Regenerate this creature."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -2376,7 +2378,7 @@
         :layout "normal",
         :name "Wanderlust",
         :oracle-text
-        "Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, Wanderlust deals 1 damage to that player."}
+        "Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Creature — Elephant",
         :layout-category :normal,
         :code "30a",
@@ -2397,7 +2399,7 @@
         :layout "normal",
         :name "Web",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature gets +0/+2 and has reach. (It can block creatures with flying.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\nEnchanted creature gets +0/+2 and has reach. (It can block creatures with flying.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -2419,7 +2421,7 @@
         :layout "normal",
         :name "Ankh of Mishra",
         :oracle-text
-        "Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller."}
+        "Whenever a land enters, this artifact deals 2 damage to that land's controller."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2430,7 +2432,7 @@
         :layout "normal",
         :name "Basalt Monolith",
         :oracle-text
-        "Basalt Monolith doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{3}: Untap Basalt Monolith."}
+        "This artifact doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{3}: Untap this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2441,7 +2443,7 @@
         :layout "normal",
         :name "Black Lotus",
         :oracle-text
-        "{T}, Sacrifice Black Lotus: Add three mana of any one color."}
+        "{T}, Sacrifice this artifact: Add three mana of any one color."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2452,7 +2454,7 @@
         :layout "normal",
         :name "Black Vise",
         :oracle-text
-        "As Black Vise enters the battlefield, choose an opponent.\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4."}
+        "As this artifact enters, choose an opponent.\nAt the beginning of the chosen player's upkeep, this artifact deals X damage to that player, where X is the number of cards in their hand minus 4."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2473,7 +2475,7 @@
         :layout "normal",
         :name "Chaos Orb",
         :oracle-text
-        "{1}, {T}: If Chaos Orb is on the battlefield, flip Chaos Orb onto the battlefield from a height of at least one foot. If Chaos Orb turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy Chaos Orb."}
+        "{1}, {T}: If this artifact is on the battlefield, flip it onto the battlefield from a height of at least one foot. If this artifact turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy this artifact."}
  #:card{:type-line "Artifact Creature — Beast",
         :layout-category :normal,
         :code "30a",
@@ -2484,7 +2486,7 @@
         :layout "normal",
         :name "Clockwork Beast",
         :oracle-text
-        "Clockwork Beast enters the battlefield with seven +1/+0 counters on it.\nAt end of combat, if Clockwork Beast attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on Clockwork Beast. This ability can't cause the total number of +1/+0 counters on Clockwork Beast to be greater than seven. Activate only during your upkeep."}
+        "This creature enters with seven +1/+0 counters on it.\nAt end of combat, if this creature attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on this creature. This ability can't cause the total number of +1/+0 counters on this creature to be greater than seven. Activate only during your upkeep."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2506,7 +2508,7 @@
         :layout "normal",
         :name "Copper Tablet",
         :oracle-text
-        "At the beginning of each player's upkeep, Copper Tablet deals 1 damage to that player."}
+        "At the beginning of each player's upkeep, this artifact deals 1 damage to that player."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2528,7 +2530,7 @@
         :layout "normal",
         :name "Cyclopean Tomb",
         :oracle-text
-        "{2}, {T}: Put a mire counter on target non-Swamp land. That land is a Swamp for as long as it has a mire counter on it. Activate only during your upkeep.\nWhen Cyclopean Tomb is put into a graveyard from the battlefield, at the beginning of each of your upkeeps for the rest of the game, remove all mire counters from a land that a mire counter was put onto with Cyclopean Tomb but that a mire counter has not been removed from with Cyclopean Tomb."}
+        "{2}, {T}: Put a mire counter on target non-Swamp land. That land is a Swamp for as long as it has a mire counter on it. Activate only during your upkeep.\nWhen this artifact is put into a graveyard from the battlefield, at the beginning of each of your upkeeps for the rest of the game, remove all mire counters from a land that a mire counter was put onto with this artifact but that a mire counter has not been removed from with this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2539,7 +2541,7 @@
         :layout "normal",
         :name "Dingus Egg",
         :oracle-text
-        "Whenever a land is put into a graveyard from the battlefield, Dingus Egg deals 2 damage to that land's controller."}
+        "Whenever a land is put into a graveyard from the battlefield, this artifact deals 2 damage to that land's controller."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2615,7 +2617,7 @@
         :layout "normal",
         :name "Howling Mine",
         :oracle-text
-        "At the beginning of each player's draw step, if Howling Mine is untapped, that player draws an additional card."}
+        "At the beginning of each player's draw step, if this artifact is untapped, that player draws an additional card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2681,7 +2683,7 @@
         :layout "normal",
         :name "Jade Statue",
         :oracle-text
-        "{2}: Jade Statue becomes a 3/6 Golem artifact creature until end of combat. Activate only during combat."}
+        "{2}: This artifact becomes a 3/6 Golem artifact creature until end of combat. Activate only during combat."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2702,7 +2704,7 @@
         :layout "normal",
         :name "Juggernaut",
         :oracle-text
-        "Juggernaut attacks each combat if able.\nJuggernaut can't be blocked by Walls."}
+        "This creature attacks each combat if able.\nThis creature can't be blocked by Walls."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2746,7 +2748,7 @@
         :layout "normal",
         :name "Mana Vault",
         :oracle-text
-        "Mana Vault doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.\nAt the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}."}
+        "This artifact doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.\nAt the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2818,7 +2820,7 @@
         :layout "normal",
         :name "Nevinyrral's Disk",
         :oracle-text
-        "Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments."}
+        "This artifact enters tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "30a",
@@ -2839,7 +2841,7 @@
         :layout "normal",
         :name "Rod of Ruin",
         :oracle-text
-        "{3}, {T}: Rod of Ruin deals 1 damage to any target."}
+        "{3}, {T}: This artifact deals 1 damage to any target."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2893,7 +2895,7 @@
         :layout "normal",
         :name "Time Vault",
         :oracle-text
-        "Time Vault enters the battlefield tapped.\nTime Vault doesn't untap during your untap step.\nIf you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.\n{T}: Take an extra turn after this one."}
+        "Time Vault enters tapped.\nTime Vault doesn't untap during your untap step.\nIf you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.\n{T}: Take an extra turn after this one."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -2904,7 +2906,7 @@
         :layout "normal",
         :name "Winter Orb",
         :oracle-text
-        "As long as Winter Orb is untapped, players can't untap more than one land during their untap steps."}
+        "As long as this artifact is untapped, players can't untap more than one land during their untap steps."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -3219,7 +3221,7 @@
         :layout "normal",
         :name "Black Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from black. This effect doesn't remove Black Ward."}
+        "Enchant creature\nEnchanted creature has protection from black. This effect doesn't remove this Aura."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3252,7 +3254,7 @@
         :layout "normal",
         :name "Blue Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from blue. This effect doesn't remove Blue Ward."}
+        "Enchant creature\nEnchanted creature has protection from blue. This effect doesn't remove this Aura."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -3339,7 +3341,7 @@
         :layout "normal",
         :name "Conversion",
         :oracle-text
-        "At the beginning of your upkeep, sacrifice Conversion unless you pay {W}{W}.\nAll Mountains are Plains."}
+        "At the beginning of your upkeep, sacrifice this enchantment unless you pay {W}{W}.\nAll Mountains are Plains."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3381,7 +3383,7 @@
         :layout "normal",
         :name "Green Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from green. This effect doesn't remove Green Ward."}
+        "Enchant creature\nEnchanted creature has protection from green. This effect doesn't remove this Aura."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3447,7 +3449,7 @@
         :layout "normal",
         :name "Karma",
         :oracle-text
-        "At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps they control."}
+        "At the beginning of each player's upkeep, this enchantment deals damage to that player equal to the number of Swamps they control."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -3500,7 +3502,7 @@
         :layout "normal",
         :name "Personal Incarnation",
         :oracle-text
-        "{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.\nWhen Personal Incarnation dies, its owner loses half their life, rounded up."}
+        "{0}: The next 1 damage that would be dealt to this creature this turn is dealt to its owner instead. Only this creature's owner may activate this ability.\nWhen this creature dies, its owner loses half their life, rounded up."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3522,7 +3524,7 @@
         :layout "normal",
         :name "Red Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from red. This effect doesn't remove Red Ward."}
+        "Enchant creature\nEnchanted creature has protection from red. This effect doesn't remove this Aura."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -3586,7 +3588,8 @@
         :collector-number "336",
         :layout "normal",
         :name "Serra Angel",
-        :oracle-text "Flying, vigilance"}
+        :oracle-text
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3608,7 +3611,7 @@
         :layout "normal",
         :name "Veteran Bodyguard",
         :oracle-text
-        "As long as Veteran Bodyguard is untapped, all damage that would be dealt to you by unblocked creatures is dealt to Veteran Bodyguard instead."}
+        "As long as this creature is untapped, all damage that would be dealt to you by unblocked creatures is dealt to this creature instead."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -3640,7 +3643,7 @@
         :layout "normal",
         :name "White Ward",
         :oracle-text
-        "Enchant creature\nEnchanted creature has protection from white. This effect doesn't remove White Ward."}
+        "Enchant creature\nEnchanted creature has protection from white. This effect doesn't remove this Aura."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -3714,7 +3717,7 @@
         :layout "normal",
         :name "Clone",
         :oracle-text
-        "You may have Clone enter the battlefield as a copy of any creature on the battlefield."}
+        "You may have this creature enter as a copy of any creature on the battlefield."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -3736,7 +3739,7 @@
         :layout "normal",
         :name "Copy Artifact",
         :oracle-text
-        "You may have Copy Artifact enter the battlefield as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types."}
+        "You may have this enchantment enter as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3757,7 +3760,7 @@
         :layout "normal",
         :name "Creature Bond",
         :oracle-text
-        "Enchant creature\nWhen enchanted creature dies, Creature Bond deals damage equal to that creature's toughness to the creature's controller."}
+        "Enchant creature\nWhen enchanted creature dies, this Aura deals damage equal to that creature's toughness to the creature's controller."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -3779,7 +3782,7 @@
         :layout "normal",
         :name "Feedback",
         :oracle-text
-        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, Feedback deals 1 damage to that player."}
+        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -3887,7 +3890,7 @@
         :layout "normal",
         :name "Phantasmal Forces",
         :oracle-text
-        "Flying\nAt the beginning of your upkeep, sacrifice Phantasmal Forces unless you pay {U}."}
+        "Flying\nAt the beginning of your upkeep, sacrifice this creature unless you pay {U}."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -3898,7 +3901,7 @@
         :layout "normal",
         :name "Phantasmal Terrain",
         :oracle-text
-        "Enchant land\nAs Phantasmal Terrain enters the battlefield, choose a basic land type.\nEnchanted land is the chosen type."}
+        "Enchant land\nAs this Aura enters, choose a basic land type.\nEnchanted land is the chosen type."}
  #:card{:type-line "Creature — Illusion",
         :layout-category :normal,
         :code "30a",
@@ -3919,7 +3922,7 @@
         :layout "normal",
         :name "Pirate Ship",
         :oracle-text
-        "Pirate Ship can't attack unless defending player controls an Island.\n{T}: Pirate Ship deals 1 damage to any target.\nWhen you control no Islands, sacrifice Pirate Ship."}
+        "This creature can't attack unless defending player controls an Island.\n{T}: This creature deals 1 damage to any target.\nWhen you control no Islands, sacrifice this creature."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -3930,7 +3933,7 @@
         :layout "normal",
         :name "Power Leak",
         :oracle-text
-        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. Power Leak deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way."}
+        "Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. This Aura deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3952,7 +3955,7 @@
         :layout "normal",
         :name "Prodigal Sorcerer",
         :oracle-text
-        "{T}: Prodigal Sorcerer deals 1 damage to any target."}
+        "{T}: This creature deals 1 damage to any target."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -3974,7 +3977,7 @@
         :layout "normal",
         :name "Psychic Venom",
         :oracle-text
-        "Enchant land\nWhenever enchanted land becomes tapped, Psychic Venom deals 2 damage to that land's controller."}
+        "Enchant land\nWhenever enchanted land becomes tapped, this Aura deals 2 damage to that land's controller."}
  #:card{:type-line "Creature — Serpent",
         :layout-category :normal,
         :code "30a",
@@ -3985,7 +3988,7 @@
         :layout "normal",
         :name "Sea Serpent",
         :oracle-text
-        "Sea Serpent can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice Sea Serpent."}
+        "This creature can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -4029,7 +4032,7 @@
         :layout "normal",
         :name "Stasis",
         :oracle-text
-        "Players skip their untap steps.\nAt the beginning of your upkeep, sacrifice Stasis unless you pay {U}."}
+        "Players skip their untap steps.\nAt the beginning of your upkeep, sacrifice this enchantment unless you pay {U}."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -4104,7 +4107,7 @@
         :layout "normal",
         :name "Vesuvan Doppelganger",
         :oracle-text
-        "You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
+        "You may have this creature enter as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -4137,7 +4140,7 @@
         :layout "normal",
         :name "Wall of Water",
         :oracle-text
-        "Defender (This creature can't attack.)\n{U}: Wall of Water gets +1/+0 until end of turn."}
+        "Defender (This creature can't attack.)\n{U}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "30a",
@@ -4158,7 +4161,7 @@
         :layout "normal",
         :name "Animate Dead",
         :oracle-text
-        "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0."}
+        "Enchant creature card in a graveyard\nWhen this Aura enters, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with this Aura.\" Return enchanted creature card to the battlefield under your control and attach this Aura to it. When this Aura leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4201,7 +4204,7 @@
         :layout "normal",
         :name "Cursed Land",
         :oracle-text
-        "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, Cursed Land deals 1 damage to that player."}
+        "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -4243,7 +4246,7 @@
         :layout "normal",
         :name "Demonic Hordes",
         :oracle-text
-        "{T}: Destroy target land.\nAt the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes and sacrifice a land of an opponent's choice."}
+        "{T}: Destroy target land.\nAt the beginning of your upkeep, unless you pay {B}{B}{B}, tap this creature and sacrifice a land of an opponent's choice."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -4276,7 +4279,7 @@
         :layout "normal",
         :name "Drudge Skeletons",
         :oracle-text
-        "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -4297,7 +4300,7 @@
         :layout "normal",
         :name "Fear",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)"}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "30a",
@@ -4307,7 +4310,8 @@
         :collector-number "403",
         :layout "normal",
         :name "Frozen Shade",
-        :oracle-text "{B}: Frozen Shade gets +1/+1 until end of turn."}
+        :oracle-text
+        "{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4339,7 +4343,7 @@
         :layout "normal",
         :name "Hypnotic Specter",
         :oracle-text
-        "Flying\nWhenever Hypnotic Specter deals damage to an opponent, that player discards a card at random."}
+        "Flying\nWhenever this creature deals damage to an opponent, that player discards a card at random."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4350,7 +4354,7 @@
         :layout "normal",
         :name "Lich",
         :oracle-text
-        "As Lich enters the battlefield, you lose life equal to your life total.\nYou don't lose the game for having 0 or less life.\nIf you would gain life, draw that many cards instead.\nWhenever you're dealt damage, sacrifice that many nontoken permanents. If you can't, you lose the game.\nWhen Lich is put into a graveyard from the battlefield, you lose the game."}
+        "As this enchantment enters, you lose life equal to your life total.\nYou don't lose the game for having 0 or less life.\nIf you would gain life, draw that many cards instead.\nWhenever you're dealt damage, sacrifice that many nontoken permanents. If you can't, you lose the game.\nWhen this enchantment is put into a graveyard from the battlefield, you lose the game."}
  #:card{:type-line "Creature — Demon",
         :layout-category :normal,
         :code "30a",
@@ -4361,7 +4365,7 @@
         :layout "normal",
         :name "Lord of the Pit",
         :oracle-text
-        "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you."}
+        "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than this creature. If you can't, this creature deals 7 damage to you."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -4382,7 +4386,7 @@
         :layout "normal",
         :name "Nether Shadow",
         :oracle-text
-        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+        "Haste\nAt the beginning of your upkeep, if this card is in your graveyard with three or more creature cards above it, you may put this card onto the battlefield."}
  #:card{:type-line "Creature — Imp",
         :layout-category :normal,
         :code "30a",
@@ -4415,7 +4419,7 @@
         :layout "normal",
         :name "Paralyze",
         :oracle-text
-        "Enchant creature\nWhen Paralyze enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature."}
+        "Enchant creature\nWhen this Aura enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4426,7 +4430,7 @@
         :layout "normal",
         :name "Pestilence",
         :oracle-text
-        "At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pestilence.\n{B}: Pestilence deals 1 damage to each creature and each player."}
+        "At the beginning of the end step, if no creatures are on the battlefield, sacrifice this enchantment.\n{B}: This enchantment deals 1 damage to each creature and each player."}
  #:card{:type-line "Creature — Rat",
         :layout-category :normal,
         :code "30a",
@@ -4490,7 +4494,7 @@
         :layout "normal",
         :name "Scavenging Ghoul",
         :oracle-text
-        "At the beginning of each end step, put a corpse counter on Scavenging Ghoul for each creature that died this turn.\nRemove a corpse counter from Scavenging Ghoul: Regenerate Scavenging Ghoul."}
+        "At the beginning of each end step, put a corpse counter on this creature for each creature that died this turn.\nRemove a corpse counter from this creature: Regenerate this creature."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "30a",
@@ -4501,7 +4505,7 @@
         :layout "normal",
         :name "Sengir Vampire",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire."}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -4555,7 +4559,7 @@
         :layout "normal",
         :name "Wall of Bone",
         :oracle-text
-        "Defender (This creature can't attack.)\n{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Defender (This creature can't attack.)\n{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -4566,7 +4570,7 @@
         :layout "normal",
         :name "Warp Artifact",
         :oracle-text
-        "Enchant artifact\nAt the beginning of the upkeep of enchanted artifact's controller, Warp Artifact deals 1 damage to that player."}
+        "Enchant artifact\nAt the beginning of the upkeep of enchanted artifact's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -4587,7 +4591,7 @@
         :layout "normal",
         :name "Will-o'-the-Wisp",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Regenerate Will-o'-the-Wisp. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -4653,7 +4657,7 @@
         :layout "normal",
         :name "Dragon Whelp",
         :oracle-text
-        "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice this creature at the beginning of the next end step."}
  #:card{:type-line "Creature — Dwarf",
         :layout-category :normal,
         :code "30a",
@@ -4770,7 +4774,7 @@
         :layout "normal",
         :name "Goblin Balloon Brigade",
         :oracle-text
-        "{R}: Goblin Balloon Brigade gains flying until end of turn."}
+        "{R}: This creature gains flying until end of turn."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "30a",
@@ -4791,7 +4795,7 @@
         :layout "normal",
         :name "Granite Gargoyle",
         :oracle-text
-        "Flying\n{R}: Granite Gargoyle gets +0/+1 until end of turn."}
+        "Flying\n{R}: This creature gets +0/+1 until end of turn."}
  #:card{:type-line "Creature — Ogre",
         :layout-category :normal,
         :code "30a",
@@ -4832,7 +4836,7 @@
         :layout "normal",
         :name "Ironclaw Orcs",
         :oracle-text
-        "Ironclaw Orcs can't block creatures with power 2 or greater."}
+        "This creature can't block creatures with power 2 or greater."}
  #:card{:type-line "Creature — Human Barbarian",
         :layout-category :normal,
         :code "30a",
@@ -4875,7 +4879,7 @@
         :layout "normal",
         :name "Manabarbs",
         :oracle-text
-        "Whenever a player taps a land for mana, Manabarbs deals 1 damage to that player."}
+        "Whenever a player taps a land for mana, this enchantment deals 1 damage to that player."}
  #:card{:type-line "Creature — Goblin",
         :layout-category :normal,
         :code "30a",
@@ -4896,7 +4900,7 @@
         :layout "normal",
         :name "Orcish Artillery",
         :oracle-text
-        "{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you."}
+        "{T}: This creature deals 2 damage to any target and 3 damage to you."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4917,7 +4921,7 @@
         :layout "normal",
         :name "Power Surge",
         :oracle-text
-        "At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn."}
+        "At the beginning of each player's upkeep, this enchantment deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -4960,7 +4964,7 @@
         :layout "normal",
         :name "Rock Hydra",
         :oracle-text
-        "Rock Hydra enters the battlefield with X +1/+1 counters on it.\nFor each 1 damage that would be dealt to Rock Hydra, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and prevent that 1 damage.\n{R}: Prevent the next 1 damage that would be dealt to Rock Hydra this turn.\n{R}{R}{R}: Put a +1/+1 counter on Rock Hydra. Activate only during your upkeep."}
+        "This creature enters with X +1/+1 counters on it.\nFor each 1 damage that would be dealt to this creature, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and prevent that 1 damage.\n{R}: Prevent the next 1 damage that would be dealt to this creature this turn.\n{R}{R}{R}: Put a +1/+1 counter on this creature. Activate only during your upkeep."}
  #:card{:type-line "Creature — Troll",
         :layout-category :normal,
         :code "30a",
@@ -4971,7 +4975,7 @@
         :layout "normal",
         :name "Sedge Troll",
         :oracle-text
-        "Sedge Troll gets +1/+1 as long as you control a Swamp.\n{B}: Regenerate Sedge Troll."}
+        "This creature gets +1/+1 as long as you control a Swamp.\n{B}: Regenerate this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -4992,7 +4996,7 @@
         :layout "normal",
         :name "Shivan Dragon",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -5014,7 +5018,7 @@
         :layout "normal",
         :name "Stone Giant",
         :oracle-text
-        "{T}: Target creature you control with toughness less than Stone Giant's power gains flying until end of turn. Destroy that creature at the beginning of the next end step."}
+        "{T}: Target creature you control with toughness less than this creature's power gains flying until end of turn. Destroy that creature at the beginning of the next end step."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -5045,7 +5049,7 @@
         :layout "normal",
         :name "Two-Headed Giant of Foriys",
         :oracle-text
-        "Trample\nTwo-Headed Giant of Foriys can block an additional creature each combat."}
+        "Trample\nThis creature can block an additional creature each combat."}
  #:card{:type-line "Creature — Troll",
         :layout-category :normal,
         :code "30a",
@@ -5055,7 +5059,7 @@
         :collector-number "473",
         :layout "normal",
         :name "Uthden Troll",
-        :oracle-text "{R}: Regenerate Uthden Troll."}
+        :oracle-text "{R}: Regenerate this creature."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -5066,7 +5070,7 @@
         :layout "normal",
         :name "Wall of Fire",
         :oracle-text
-        "Defender (This creature can't attack.)\n{R}: Wall of Fire gets +1/+0 until end of turn."}
+        "Defender (This creature can't attack.)\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -5152,7 +5156,7 @@
         :layout "normal",
         :name "Cockatrice",
         :oracle-text
-        "Flying\nWhenever Cockatrice blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
+        "Flying\nWhenever this creature blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "30a",
@@ -5183,7 +5187,7 @@
         :layout "normal",
         :name "Fastbond",
         :oracle-text
-        "You may play any number of lands on each of your turns.\nWhenever you play a land, if it wasn't the first land you played this turn, Fastbond deals 1 damage to you."}
+        "You may play any number of lands on each of your turns.\nWhenever you play a land, if it wasn't the first land you played this turn, this enchantment deals 1 damage to you."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -5205,7 +5209,7 @@
         :layout "normal",
         :name "Force of Nature",
         :oracle-text
-        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, this creature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
  #:card{:type-line "Creature — Fungus Dinosaur",
         :layout-category :normal,
         :code "30a",
@@ -5216,7 +5220,7 @@
         :layout "normal",
         :name "Fungusaur",
         :oracle-text
-        "Whenever Fungusaur is dealt damage, put a +1/+1 counter on it."}
+        "Whenever this creature is dealt damage, put a +1/+1 counter on it."}
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "30a",
@@ -5227,7 +5231,7 @@
         :layout "normal",
         :name "Gaea's Liege",
         :oracle-text
-        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until Gaea's Liege leaves the battlefield."}
+        "As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.\n{T}: Target land becomes a Forest until this creature leaves the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "30a",
@@ -5311,7 +5315,7 @@
         :layout "normal",
         :name "Kudzu",
         :oracle-text
-        "Enchant land\nWhen enchanted land becomes tapped, destroy it. That land's controller may attach Kudzu to a land of their choice."}
+        "Enchant land\nWhen enchanted land becomes tapped, destroy it. That land's controller may attach this Aura to a land of their choice."}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "30a",
@@ -5353,7 +5357,7 @@
         :layout "normal",
         :name "Living Artifact",
         :oracle-text
-        "Enchant artifact\nWhenever you're dealt damage, put that many vitality counters on Living Artifact.\nAt the beginning of your upkeep, you may remove a vitality counter from Living Artifact. If you do, you gain 1 life."}
+        "Enchant artifact\nWhenever you're dealt damage, put that many vitality counters on this Aura.\nAt the beginning of your upkeep, you may remove a vitality counter from this Aura. If you do, you gain 1 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "30a",
@@ -5407,7 +5411,7 @@
         :layout "normal",
         :name "Regeneration",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\n{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\n{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "30a",
@@ -5460,7 +5464,7 @@
         :layout "normal",
         :name "Thicket Basilisk",
         :oracle-text
-        "Whenever Thicket Basilisk blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
+        "Whenever this creature blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat."}
  #:card{:type-line "Creature — Wolf",
         :layout-category :normal,
         :code "30a",
@@ -5513,7 +5517,7 @@
         :layout "normal",
         :name "Wall of Brambles",
         :oracle-text
-        "Defender (This creature can't attack.)\n{G}: Regenerate Wall of Brambles."}
+        "Defender (This creature can't attack.)\n{G}: Regenerate this creature."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "30a",
@@ -5544,7 +5548,7 @@
         :layout "normal",
         :name "Wanderlust",
         :oracle-text
-        "Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, Wanderlust deals 1 damage to that player."}
+        "Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, this Aura deals 1 damage to that player."}
  #:card{:type-line "Creature — Elephant",
         :layout-category :normal,
         :code "30a",
@@ -5565,7 +5569,7 @@
         :layout "normal",
         :name "Web",
         :oracle-text
-        "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature gets +0/+2 and has reach. (It can block creatures with flying.)"}
+        "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)\nEnchanted creature gets +0/+2 and has reach. (It can block creatures with flying.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "30a",
@@ -5587,7 +5591,7 @@
         :layout "normal",
         :name "Ankh of Mishra",
         :oracle-text
-        "Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller."}
+        "Whenever a land enters, this artifact deals 2 damage to that land's controller."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5598,7 +5602,7 @@
         :layout "normal",
         :name "Basalt Monolith",
         :oracle-text
-        "Basalt Monolith doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{3}: Untap Basalt Monolith."}
+        "This artifact doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{3}: Untap this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5609,7 +5613,7 @@
         :layout "normal",
         :name "Black Lotus",
         :oracle-text
-        "{T}, Sacrifice Black Lotus: Add three mana of any one color."}
+        "{T}, Sacrifice this artifact: Add three mana of any one color."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5620,7 +5624,7 @@
         :layout "normal",
         :name "Black Vise",
         :oracle-text
-        "As Black Vise enters the battlefield, choose an opponent.\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4."}
+        "As this artifact enters, choose an opponent.\nAt the beginning of the chosen player's upkeep, this artifact deals X damage to that player, where X is the number of cards in their hand minus 4."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5641,7 +5645,7 @@
         :layout "normal",
         :name "Chaos Orb",
         :oracle-text
-        "{1}, {T}: If Chaos Orb is on the battlefield, flip Chaos Orb onto the battlefield from a height of at least one foot. If Chaos Orb turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy Chaos Orb."}
+        "{1}, {T}: If this artifact is on the battlefield, flip it onto the battlefield from a height of at least one foot. If this artifact turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy this artifact."}
  #:card{:type-line "Artifact Creature — Beast",
         :layout-category :normal,
         :code "30a",
@@ -5652,7 +5656,7 @@
         :layout "normal",
         :name "Clockwork Beast",
         :oracle-text
-        "Clockwork Beast enters the battlefield with seven +1/+0 counters on it.\nAt end of combat, if Clockwork Beast attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on Clockwork Beast. This ability can't cause the total number of +1/+0 counters on Clockwork Beast to be greater than seven. Activate only during your upkeep."}
+        "This creature enters with seven +1/+0 counters on it.\nAt end of combat, if this creature attacked or blocked this combat, remove a +1/+0 counter from it.\n{X}, {T}: Put up to X +1/+0 counters on this creature. This ability can't cause the total number of +1/+0 counters on this creature to be greater than seven. Activate only during your upkeep."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5674,7 +5678,7 @@
         :layout "normal",
         :name "Copper Tablet",
         :oracle-text
-        "At the beginning of each player's upkeep, Copper Tablet deals 1 damage to that player."}
+        "At the beginning of each player's upkeep, this artifact deals 1 damage to that player."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5696,7 +5700,7 @@
         :layout "normal",
         :name "Cyclopean Tomb",
         :oracle-text
-        "{2}, {T}: Put a mire counter on target non-Swamp land. That land is a Swamp for as long as it has a mire counter on it. Activate only during your upkeep.\nWhen Cyclopean Tomb is put into a graveyard from the battlefield, at the beginning of each of your upkeeps for the rest of the game, remove all mire counters from a land that a mire counter was put onto with Cyclopean Tomb but that a mire counter has not been removed from with Cyclopean Tomb."}
+        "{2}, {T}: Put a mire counter on target non-Swamp land. That land is a Swamp for as long as it has a mire counter on it. Activate only during your upkeep.\nWhen this artifact is put into a graveyard from the battlefield, at the beginning of each of your upkeeps for the rest of the game, remove all mire counters from a land that a mire counter was put onto with this artifact but that a mire counter has not been removed from with this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5707,7 +5711,7 @@
         :layout "normal",
         :name "Dingus Egg",
         :oracle-text
-        "Whenever a land is put into a graveyard from the battlefield, Dingus Egg deals 2 damage to that land's controller."}
+        "Whenever a land is put into a graveyard from the battlefield, this artifact deals 2 damage to that land's controller."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5783,7 +5787,7 @@
         :layout "normal",
         :name "Howling Mine",
         :oracle-text
-        "At the beginning of each player's draw step, if Howling Mine is untapped, that player draws an additional card."}
+        "At the beginning of each player's draw step, if this artifact is untapped, that player draws an additional card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5849,7 +5853,7 @@
         :layout "normal",
         :name "Jade Statue",
         :oracle-text
-        "{2}: Jade Statue becomes a 3/6 Golem artifact creature until end of combat. Activate only during combat."}
+        "{2}: This artifact becomes a 3/6 Golem artifact creature until end of combat. Activate only during combat."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5870,7 +5874,7 @@
         :layout "normal",
         :name "Juggernaut",
         :oracle-text
-        "Juggernaut attacks each combat if able.\nJuggernaut can't be blocked by Walls."}
+        "This creature attacks each combat if able.\nThis creature can't be blocked by Walls."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5914,7 +5918,7 @@
         :layout "normal",
         :name "Mana Vault",
         :oracle-text
-        "Mana Vault doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.\nAt the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}."}
+        "This artifact doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.\nAt the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -5986,7 +5990,7 @@
         :layout "normal",
         :name "Nevinyrral's Disk",
         :oracle-text
-        "Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments."}
+        "This artifact enters tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "30a",
@@ -6007,7 +6011,7 @@
         :layout "normal",
         :name "Rod of Ruin",
         :oracle-text
-        "{3}, {T}: Rod of Ruin deals 1 damage to any target."}
+        "{3}, {T}: This artifact deals 1 damage to any target."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -6061,7 +6065,7 @@
         :layout "normal",
         :name "Time Vault",
         :oracle-text
-        "Time Vault enters the battlefield tapped.\nTime Vault doesn't untap during your untap step.\nIf you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.\n{T}: Take an extra turn after this one."}
+        "Time Vault enters tapped.\nTime Vault doesn't untap during your untap step.\nIf you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.\n{T}: Take an extra turn after this one."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",
@@ -6072,7 +6076,7 @@
         :layout "normal",
         :name "Winter Orb",
         :oracle-text
-        "As long as Winter Orb is untapped, players can't untap more than one land during their untap steps."}
+        "As long as this artifact is untapped, players can't untap more than one land during their untap steps."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "30a",

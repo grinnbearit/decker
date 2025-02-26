@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Absolving Lammasu",
         :oracle-text
-        "Flying\nWhen Absolving Lammasu enters, all suspected creatures are no longer suspected.\nWhen Absolving Lammasu dies, you gain 3 life and suspect up to one target creature an opponent controls. (A suspected creature has menace and can't block.)"}
+        "Flying\nWhen this creature enters, all suspected creatures are no longer suspected.\nWhen this creature dies, you gain 3 life and suspect up to one target creature an opponent controls. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Aurelia's Vindicator",
         :oracle-text
-        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen Aurelia's Vindicator is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen Aurelia's Vindicator leaves the battlefield, return the exiled cards to their owners' hands."}
+        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen this creature is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen this creature leaves the battlefield, return the exiled cards to their owners' hands."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Auspicious Arrival",
         :oracle-text
-        "Target creature gets +2/+2 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Target creature gets +2/+2 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Case File Auditor",
         :oracle-text
-        "When Case File Auditor enters and whenever you solve a Case, look at the top six cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nYou may spend mana as though it were mana of any color to cast Case spells."}
+        "When this creature enters and whenever you solve a Case, look at the top six cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nYou may spend mana as though it were mana of any color to cast Case spells."}
  #:card{:type-line "Enchantment — Case",
         :layout-category :normal,
         :code "mkm",
@@ -96,7 +96,7 @@
         :layout "case",
         :name "Case of the Pilfered Proof",
         :oracle-text
-        "Whenever a Detective you control enters or is turned face up, put a +1/+1 counter on it.\nTo solve — You control three or more Detectives. (If unsolved, solve at the beginning of your end step.)\nSolved — If one or more tokens would be created under your control, those tokens plus a Clue token are created instead. (It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever a Detective you control enters or is turned face up, put a +1/+1 counter on it.\nTo solve — You control three or more Detectives. (If unsolved, solve at the beginning of your end step.)\nSolved — If one or more tokens would be created under your control, those tokens plus a Clue token are created instead. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Enchantment — Case",
         :layout-category :normal,
         :code "mkm",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Due Diligence",
         :oracle-text
-        "Enchant creature\nWhen Due Diligence enters, target creature you control other than enchanted creature gets +2/+2 and gains vigilance until end of turn.\nEnchanted creature gets +2/+2 and has vigilance."}
+        "Enchant creature\nWhen this Aura enters, target creature you control other than enchanted creature gets +2/+2 and gains vigilance until end of turn.\nEnchanted creature gets +2/+2 and has vigilance."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "mkm",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Essence of Antiquity",
         :oracle-text
-        "Disguise {2}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Essence of Antiquity is turned face up, creatures you control gain hexproof until end of turn. Untap them."}
+        "Disguise {2}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, creatures you control gain hexproof until end of turn. Untap them."}
  #:card{:type-line "Creature — Cat",
         :layout-category :normal,
         :code "mkm",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Forum Familiar",
         :oracle-text
-        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Forum Familiar is turned face up, return another target permanent you control to its owner's hand and put a +1/+1 counter on Forum Familiar."}
+        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, return another target permanent you control to its owner's hand and put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Griffnaut Tracker",
         :oracle-text
-        "Flying\nWhen Griffnaut Tracker enters, exile up to two target cards from a single graveyard."}
+        "Flying\nWhen this creature enters, exile up to two target cards from a single graveyard."}
  #:card{:type-line "Creature — Giant Soldier",
         :layout-category :normal,
         :code "mkm",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Haazda Vigilante",
         :oracle-text
-        "Whenever Haazda Vigilante enters or attacks, put a +1/+1 counter on target creature you control with power 2 or less."}
+        "Whenever this creature enters or attacks, put a +1/+1 counter on target creature you control with power 2 or less."}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Inside Source",
         :oracle-text
-        "When Inside Source enters, create a 2/2 white and blue Detective creature token.\n{3}, {T}: Target Detective you control gets +2/+0 and gains vigilance until end of turn. Activate only as a sorcery."}
+        "When this creature enters, create a 2/2 white and blue Detective creature token.\n{3}, {T}: Target Detective you control gets +2/+0 and gains vigilance until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Creature — Dog",
         :layout-category :normal,
         :code "mkm",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Krovod Haunch",
         :oracle-text
-        "Equipped creature gets +2/+0.\n{2}, {T}, Sacrifice Krovod Haunch: You gain 3 life.\nWhen Krovod Haunch is put into a graveyard from the battlefield, you may pay {1}{W}. If you do, create two 1/1 white Dog creature tokens.\nEquip {2}"}
+        "Equipped creature gets +2/+0.\n{2}, {T}, Sacrifice this Equipment: You gain 3 life.\nWhen this Equipment is put into a graveyard from the battlefield, you may pay {1}{W}. If you do, create two 1/1 white Dog creature tokens.\nEquip {2}"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Makeshift Binding",
         :oracle-text
-        "When Makeshift Binding enters, exile target creature an opponent controls until Makeshift Binding leaves the battlefield. You gain 2 life."}
+        "When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield. You gain 2 life."}
  #:card{:type-line "Creature — Spirit Detective",
         :layout-category :normal,
         :code "mkm",
@@ -261,7 +261,7 @@
         :layout "normal",
         :name "Marketwatch Phantom",
         :oracle-text
-        "Whenever another creature you control with power 2 or less enters, Marketwatch Phantom gains flying until end of turn."}
+        "Whenever another creature you control with power 2 or less enters, this creature gains flying until end of turn."}
  #:card{:type-line "Creature — Centaur Soldier",
         :layout-category :normal,
         :code "mkm",
@@ -272,7 +272,7 @@
         :layout "normal",
         :name "Museum Nightwatch",
         :oracle-text
-        "When Museum Nightwatch dies, create a 2/2 white and blue Detective creature token.\nDisguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "When this creature dies, create a 2/2 white and blue Detective creature token.\nDisguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Creature — Unicorn",
         :layout-category :normal,
         :code "mkm",
@@ -294,7 +294,7 @@
         :layout "normal",
         :name "No Witnesses",
         :oracle-text
-        "Each player who controls the most creatures investigates. Then destroy all creatures. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Each player who controls the most creatures investigates. Then destroy all creatures. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -315,7 +315,7 @@
         :layout "normal",
         :name "Novice Inspector",
         :oracle-text
-        "When Novice Inspector enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "When this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -326,7 +326,7 @@
         :layout "normal",
         :name "On the Job",
         :oracle-text
-        "Creatures you control get +2/+1 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Creatures you control get +2/+1 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -337,7 +337,7 @@
         :layout "normal",
         :name "Perimeter Enforcer",
         :oracle-text
-        "Flying, lifelink\nWhenever another Detective you control enters and whenever a Detective you control is turned face up, Perimeter Enforcer gets +1/+1 until end of turn."}
+        "Flying, lifelink\nWhenever another Detective you control enters and whenever a Detective you control is turned face up, this creature gets +1/+1 until end of turn."}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "mkm",
@@ -348,7 +348,7 @@
         :layout "normal",
         :name "Sanctuary Wall",
         :oracle-text
-        "Defender\n{2}{W}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on Sanctuary Wall. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+        "Defender\n{2}{W}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on this creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -359,7 +359,7 @@
         :layout "normal",
         :name "Seasoned Consultant",
         :oracle-text
-        "Whenever you attack with three or more creatures, Seasoned Consultant gets +2/+0 until end of turn."}
+        "Whenever you attack with three or more creatures, this creature gets +2/+0 until end of turn."}
  #:card{:type-line "Creature — Human",
         :layout-category :normal,
         :code "mkm",
@@ -370,7 +370,7 @@
         :layout "normal",
         :name "Tenth District Hero",
         :oracle-text
-        "{1}{W}, Collect evidence 2: Tenth District Hero becomes a Human Detective with base power and toughness 4/4 and gains vigilance.\n{2}{W}, Collect evidence 4: If Tenth District Hero is a Detective, it becomes a legendary creature named Mileva, the Stalwart, it has base power and toughness 5/5, and it gains \"Other creatures you control have indestructible.\""}
+        "{1}{W}, Collect evidence 2: This creature becomes a Human Detective with base power and toughness 4/4 and gains vigilance.\n{2}{W}, Collect evidence 4: If this creature is a Detective, it becomes a legendary creature named Mileva, the Stalwart, it has base power and toughness 5/5, and it gains \"Other creatures you control have indestructible.\""}
  #:card{:type-line "Creature — Elephant Cleric",
         :layout-category :normal,
         :code "mkm",
@@ -381,7 +381,7 @@
         :layout "normal",
         :name "Unyielding Gatekeeper",
         :oracle-text
-        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Unyielding Gatekeeper is turned face up, exile another target nonland permanent. If you controlled it, return it to the battlefield tapped. Otherwise, its controller creates a 2/2 white and blue Detective creature token."}
+        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, exile another target nonland permanent. If you controlled it, return it to the battlefield tapped. Otherwise, its controller creates a 2/2 white and blue Detective creature token."}
  #:card{:type-line "Creature — Angel Detective",
         :layout-category :normal,
         :code "mkm",
@@ -392,7 +392,7 @@
         :layout "normal",
         :name "Wojek Investigator",
         :oracle-text
-        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -403,7 +403,7 @@
         :layout "normal",
         :name "Wrench",
         :oracle-text
-        "Equipped creature gets +1/+1 and has vigilance and \"{3}, {T}: Tap target creature.\"\n{2}, Sacrifice Wrench: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +1/+1 and has vigilance and \"{3}, {T}: Tap target creature.\"\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Creature — Sphinx Detective",
         :layout-category :normal,
         :code "mkm",
@@ -414,7 +414,7 @@
         :layout "normal",
         :name "Agency Outfitter",
         :oracle-text
-        "Flying\nWhen Agency Outfitter enters, you may search your graveyard, hand and/or library for a card named Magnifying Glass and/or a card named Thinking Cap and put them onto the battlefield. If you search your library this way, shuffle."}
+        "Flying\nWhen this creature enters, you may search your graveyard, hand and/or library for a card named Magnifying Glass and/or a card named Thinking Cap and put them onto the battlefield. If you search your library this way, shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -436,7 +436,7 @@
         :layout "normal",
         :name "Benthic Criminologists",
         :oracle-text
-        "Whenever Benthic Criminologists enters or attacks, you may sacrifice an artifact. If you do, draw a card."}
+        "Whenever this creature enters or attacks, you may sacrifice an artifact. If you do, draw a card."}
  #:card{:type-line "Creature — Octopus Fish",
         :layout-category :normal,
         :code "mkm",
@@ -447,7 +447,7 @@
         :layout "normal",
         :name "Bubble Smuggler",
         :oracle-text
-        "Disguise {5}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nAs Bubble Smuggler is turned face up, put four +1/+1 counters on it."}
+        "Disguise {5}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nAs this creature is turned face up, put four +1/+1 counters on it."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -469,7 +469,7 @@
         :layout "normal",
         :name "Candlestick",
         :oracle-text
-        "Equipped creature gets +1/+1 and has \"Whenever this creature attacks, surveil 2.\" (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{2}, Sacrifice Candlestick: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +1/+1 and has \"Whenever this creature attacks, surveil 2.\" (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Enchantment — Case",
         :layout-category :normal,
         :code "mkm",
@@ -480,7 +480,7 @@
         :layout "case",
         :name "Case of the Filched Falcon",
         :oracle-text
-        "When this Case enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nTo solve — You control three or more artifacts. (If unsolved, solve at the beginning of your end step.)\nSolved — {2}{U}, Sacrifice this Case: Put four +1/+1 counters on target noncreature artifact. It becomes a 0/0 Bird creature with flying in addition to its other types."}
+        "When this Case enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nTo solve — You control three or more artifacts. (If unsolved, solve at the beginning of your end step.)\nSolved — {2}{U}, Sacrifice this Case: Put four +1/+1 counters on target noncreature artifact. It becomes a 0/0 Bird creature with flying in addition to its other types."}
  #:card{:type-line "Enchantment — Case",
         :layout-category :normal,
         :code "mkm",
@@ -502,7 +502,7 @@
         :layout "normal",
         :name "Cold Case Cracker",
         :oracle-text
-        "Flying\nWhen Cold Case Cracker dies, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying\nWhen this creature dies, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Sphinx Detective",
         :layout-category :normal,
         :code "mkm",
@@ -524,7 +524,7 @@
         :layout "normal",
         :name "Coveted Falcon",
         :oracle-text
-        "Flying\nWhenever Coveted Falcon attacks, gain control of target permanent you own but don't control.\nDisguise {1}{U}\nWhen Coveted Falcon is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way."}
+        "Flying\nWhenever this creature attacks, gain control of target permanent you own but don't control.\nDisguise {1}{U}\nWhen this creature is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way."}
  #:card{:type-line "Creature — Faerie Detective",
         :layout-category :normal,
         :code "mkm",
@@ -535,7 +535,7 @@
         :layout "normal",
         :name "Crimestopper Sprite",
         :oracle-text
-        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nFlying\nWhen Crimestopper Sprite enters, tap target creature. If evidence was collected, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
+        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nFlying\nWhen this creature enters, tap target creature. If evidence was collected, put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -546,7 +546,7 @@
         :layout "normal",
         :name "Cryptic Coat",
         :oracle-text
-        "When Cryptic Coat enters, cloak the top card of your library, then attach Cryptic Coat to it. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)\nEquipped creature gets +1/+0 and can't be blocked.\n{1}{U}: Return Cryptic Coat to its owner's hand."}
+        "When this Equipment enters, cloak the top card of your library, then attach this Equipment to it. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)\nEquipped creature gets +1/+0 and can't be blocked.\n{1}{U}: Return this Equipment to its owner's hand."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -557,7 +557,7 @@
         :layout "normal",
         :name "Curious Inquiry",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, investigate.\" (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Enchant creature\nEnchanted creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, investigate.\" (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -568,7 +568,7 @@
         :layout "normal",
         :name "Deduce",
         :oracle-text
-        "Draw a card. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Draw a card. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -579,7 +579,7 @@
         :layout "normal",
         :name "Dramatic Accusation",
         :oracle-text
-        "Enchant creature\nWhen Dramatic Accusation enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\n{U}{U}: Shuffle enchanted creature into its owner's library."}
+        "Enchant creature\nWhen this Aura enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\n{U}{U}: Shuffle enchanted creature into its owner's library."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -590,7 +590,7 @@
         :layout "normal",
         :name "Eliminate the Impossible",
         :oracle-text
-        "Investigate. Creatures your opponents control get -2/-0 until end of turn. If any of them are suspected, they're no longer suspected. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Investigate. Creatures your opponents control get -2/-0 until end of turn. If any of them are suspected, they're no longer suspected. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -601,7 +601,7 @@
         :layout "normal",
         :name "Exit Specialist",
         :oracle-text
-        "Exit Specialist can't be blocked by creatures with power 3 or greater.\nDisguise {1}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Exit Specialist is turned face up, return another target creature to its owner's hand."}
+        "This creature can't be blocked by creatures with power 3 or greater.\nDisguise {1}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, return another target creature to its owner's hand."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -612,7 +612,7 @@
         :layout "normal",
         :name "Fae Flight",
         :oracle-text
-        "Flash\nEnchant creature\nWhen Fae Flight enters, enchanted creature gains hexproof until end of turn.\nEnchanted creature gets +1/+0 and has flying."}
+        "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gains hexproof until end of turn.\nEnchanted creature gets +1/+0 and has flying."}
  #:card{:type-line "Creature — Vedalken Artificer Detective",
         :layout-category :normal,
         :code "mkm",
@@ -623,7 +623,7 @@
         :layout "normal",
         :name "Forensic Gadgeteer",
         :oracle-text
-        "Whenever you cast an artifact spell, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nActivated abilities of artifacts you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
+        "Whenever you cast an artifact spell, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nActivated abilities of artifacts you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
  #:card{:type-line "Creature — Merfolk Detective",
         :layout-category :normal,
         :code "mkm",
@@ -645,7 +645,7 @@
         :layout "normal",
         :name "Furtive Courier",
         :oracle-text
-        "Furtive Courier can't be blocked as long as you've sacrificed an artifact this turn.\nWhenever Furtive Courier attacks, draw a card, then discard a card."}
+        "This creature can't be blocked as long as you've sacrificed an artifact this turn.\nWhenever this creature attacks, draw a card, then discard a card."}
  #:card{:type-line "Creature — Vedalken Detective",
         :layout-category :normal,
         :code "mkm",
@@ -656,7 +656,7 @@
         :layout "normal",
         :name "Hotshot Investigators",
         :oracle-text
-        "When Hotshot Investigators enters, return up to one other target creature to its owner's hand. If you controlled it, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "When this creature enters, return up to one other target creature to its owner's hand. If you controlled it, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -678,7 +678,7 @@
         :layout "normal",
         :name "Jaded Analyst",
         :oracle-text
-        "Defender\nWhenever you draw your second card each turn, Jaded Analyst loses defender and gains vigilance until end of turn."}
+        "Defender\nWhenever you draw your second card each turn, this creature loses defender and gains vigilance until end of turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "mkm",
@@ -689,7 +689,7 @@
         :layout "normal",
         :name "Living Conundrum",
         :oracle-text
-        "Hexproof\nIf you would draw a card while your library has no cards in it, skip that draw instead.\nAs long as there are no cards in your library, Living Conundrum has base power and toughness 10/10 and has flying and vigilance."}
+        "Hexproof\nIf you would draw a card while your library has no cards in it, skip that draw instead.\nAs long as there are no cards in your library, this creature has base power and toughness 10/10 and has flying and vigilance."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -700,7 +700,7 @@
         :layout "normal",
         :name "Lost in the Maze",
         :oracle-text
-        "Flash\nWhen Lost in the Maze enters, tap X target creatures. Put a stun counter on each of those creatures you don't control. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nTapped creatures you control have hexproof."}
+        "Flash\nWhen this enchantment enters, tap X target creatures. Put a stun counter on each of those creatures you don't control. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nTapped creatures you control have hexproof."}
  #:card{:type-line "Creature — Merfolk Detective",
         :layout-category :normal,
         :code "mkm",
@@ -711,7 +711,7 @@
         :layout "normal",
         :name "Mistway Spy",
         :oracle-text
-        "Flying\nDisguise {1}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Mistway Spy is turned face up, until end of turn, whenever a creature you control deals combat damage to a player, investigate."}
+        "Flying\nDisguise {1}{U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, until end of turn, whenever a creature you control deals combat damage to a player, investigate."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -744,7 +744,7 @@
         :layout "normal",
         :name "Projektor Inspector",
         :oracle-text
-        "Whenever Projektor Inspector or another Detective you control enters and whenever a Detective you control is turned face up, you may draw a card. If you do, discard a card."}
+        "Whenever this creature or another Detective you control enters and whenever a Detective you control is turned face up, you may draw a card. If you do, discard a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -777,7 +777,7 @@
         :layout "normal",
         :name "Steamcore Scholar",
         :oracle-text
-        "Flying, vigilance\nWhen Steamcore Scholar enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying."}
+        "Flying, vigilance\nWhen this creature enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -788,7 +788,7 @@
         :layout "normal",
         :name "Sudden Setback",
         :oracle-text
-        "The owner of target spell or nonland permanent puts it on the top or bottom of their library."}
+        "The owner of target spell or nonland permanent puts it on their choice of the top or bottom of their library."}
  #:card{:type-line "Creature — Vedalken Detective",
         :layout-category :normal,
         :code "mkm",
@@ -799,7 +799,7 @@
         :layout "normal",
         :name "Surveillance Monitor",
         :oracle-text
-        "When Surveillance Monitor enters, you may collect evidence 4. (Exile cards with total mana value 4 or greater from your graveyard.)\nWhenever you collect evidence, create a 1/1 colorless Thopter artifact creature token with flying."}
+        "When this creature enters, you may collect evidence 4. (Exile cards with total mana value 4 or greater from your graveyard.)\nWhenever you collect evidence, create a 1/1 colorless Thopter artifact creature token with flying."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -832,7 +832,7 @@
         :layout "normal",
         :name "Alley Assailant",
         :oracle-text
-        "Alley Assailant enters tapped.\nDisguise {4}{B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Alley Assailant is turned face up, target opponent loses 3 life and you gain 3 life."}
+        "This creature enters tapped.\nDisguise {4}{B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, target opponent loses 3 life and you gain 3 life."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "mkm",
@@ -843,7 +843,7 @@
         :layout "normal",
         :name "Barbed Servitor",
         :oracle-text
-        "Indestructible\nWhen Barbed Servitor enters, suspect it. (It has menace and can't block.)\nWhenever Barbed Servitor deals combat damage to a player, you draw a card and you lose 1 life.\nWhenever Barbed Servitor is dealt damage, target opponent loses that much life."}
+        "Indestructible\nWhen this creature enters, suspect it. (It has menace and can't block.)\nWhenever this creature deals combat damage to a player, you draw a card and you lose 1 life.\nWhenever this creature is dealt damage, target opponent loses that much life."}
  #:card{:type-line "Creature — Vampire Detective",
         :layout-category :normal,
         :code "mkm",
@@ -854,7 +854,7 @@
         :layout "normal",
         :name "Basilica Stalker",
         :oracle-text
-        "Flying\nWhenever Basilica Stalker deals combat damage to a player, you gain 1 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDisguise {4}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "Flying\nWhenever this creature deals combat damage to a player, you gain 1 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDisguise {4}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Enchantment — Case",
         :layout-category :normal,
         :code "mkm",
@@ -898,7 +898,7 @@
         :layout "normal",
         :name "Clandestine Meddler",
         :oracle-text
-        "When Clandestine Meddler enters, suspect up to one other target creature you control. (A suspected creature has menace and can't block.)\nWhenever one or more suspected creatures you control attack, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "When this creature enters, suspect up to one other target creature you control. (A suspected creature has menace and can't block.)\nWhenever one or more suspected creatures you control attack, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -920,7 +920,7 @@
         :layout "normal",
         :name "Extract a Confession",
         :oracle-text
-        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nEach opponent sacrifices a creature. If evidence was collected, instead each opponent sacrifices a creature with the greatest power among creatures they control."}
+        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nEach opponent sacrifices a creature of their choice. If evidence was collected, instead each opponent sacrifices a creature with the greatest power among creatures they control."}
  #:card{:type-line "Creature — Zombie Leech",
         :layout-category :normal,
         :code "mkm",
@@ -931,7 +931,7 @@
         :layout "normal",
         :name "Festerleech",
         :oracle-text
-        "Whenever Festerleech deals combat damage to a player, you mill two cards.\n{1}{B}: Festerleech gets +2/+2 until end of turn. Activate only once each turn."}
+        "Whenever this creature deals combat damage to a player, you mill two cards.\n{1}{B}: This creature gets +2/+2 until end of turn. Activate only once each turn."}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -942,7 +942,7 @@
         :layout "normal",
         :name "Homicide Investigator",
         :oracle-text
-        "Whenever one or more nontoken creatures you control die, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever one or more nontoken creatures you control die, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Skeleton Beast",
         :layout-category :normal,
         :code "mkm",
@@ -953,7 +953,7 @@
         :layout "normal",
         :name "Hunted Bonebrute",
         :oracle-text
-        "Menace\nWhen Hunted Bonebrute enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen Hunted Bonebrute dies, each opponent loses 3 life.\nDisguise {1}{B}"}
+        "Menace\nWhen this creature enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen this creature dies, each opponent loses 3 life.\nDisguise {1}{B}"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -964,7 +964,7 @@
         :layout "normal",
         :name "Illicit Masquerade",
         :oracle-text
-        "Flash\nWhen Illicit Masquerade enters, put an impostor counter on each creature you control.\nWhenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield."}
+        "Flash\nWhen this enchantment enters, put an impostor counter on each creature you control.\nWhenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -986,7 +986,7 @@
         :layout "normal",
         :name "Lead Pipe",
         :oracle-text
-        "Equipped creature gets +2/+0.\nWhenever equipped creature dies, each opponent loses 1 life.\n{2}, Sacrifice Lead Pipe: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +2/+0.\nWhenever equipped creature dies, each opponent loses 1 life.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "mkm",
@@ -997,7 +997,7 @@
         :layout "normal",
         :name "Leering Onlooker",
         :oracle-text
-        "Flying\n{2}{B}{B}, Exile Leering Onlooker from your graveyard: Create two tapped 1/1 black Bat creature tokens with flying."}
+        "Flying\n{2}{B}{B}, Exile this card from your graveyard: Create two tapped 1/1 black Bat creature tokens with flying."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1051,7 +1051,7 @@
         :layout "normal",
         :name "Nightdrinker Moroii",
         :oracle-text
-        "Flying\nWhen Nightdrinker Moroii enters, you lose 3 life.\nDisguise {B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "Flying\nWhen this creature enters, you lose 3 life.\nDisguise {B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1073,7 +1073,7 @@
         :layout "normal",
         :name "Persuasive Interrogators",
         :oracle-text
-        "When Persuasive Interrogators enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, target opponent gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "When this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, target opponent gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "mkm",
@@ -1084,7 +1084,7 @@
         :layout "normal",
         :name "Polygraph Orb",
         :oracle-text
-        "When Polygraph Orb enters, look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.\n{2}, {T}, Collect evidence 3: Each opponent loses 3 life unless they discard a card or sacrifice a creature. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)"}
+        "When this artifact enters, look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.\n{2}, {T}, Collect evidence 3: Each opponent loses 3 life unless they discard a card or sacrifice a creature. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1106,7 +1106,7 @@
         :layout "normal",
         :name "Repeat Offender",
         :oracle-text
-        "{2}{B}: If Repeat Offender is suspected, put a +1/+1 counter on it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
+        "{2}{B}: If this creature is suspected, put a +1/+1 counter on it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "mkm",
@@ -1117,7 +1117,7 @@
         :layout "normal",
         :name "Rot Farm Mortipede",
         :oracle-text
-        "Whenever one or more creature cards leave your graveyard, Rot Farm Mortipede gets +1/+0 and gains menace and lifelink until end of turn."}
+        "Whenever one or more creature cards leave your graveyard, this creature gets +1/+0 and gains menace and lifelink until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1161,7 +1161,7 @@
         :layout "normal",
         :name "Soul Enervation",
         :oracle-text
-        "Flash\nWhen Soul Enervation enters, target creature gets -4/-4 until end of turn.\nWhenever one or more creature cards leave your graveyard, each opponent loses 1 life and you gain 1 life."}
+        "Flash\nWhen this enchantment enters, target creature gets -4/-4 until end of turn.\nWhenever one or more creature cards leave your graveyard, each opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1172,7 +1172,7 @@
         :layout "normal",
         :name "Toxin Analysis",
         :oracle-text
-        "Target creature gains deathtouch and lifelink until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Target creature gains deathtouch and lifelink until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Gorgon Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -1183,7 +1183,7 @@
         :layout "normal",
         :name "Undercity Eliminator",
         :oracle-text
-        "When Undercity Eliminator enters, you may sacrifice an artifact or creature. When you do, exile target creature an opponent controls."}
+        "When this creature enters, you may sacrifice an artifact or creature. When you do, exile target creature an opponent controls."}
  #:card{:type-line "Creature — Elf Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1194,7 +1194,7 @@
         :layout "normal",
         :name "Unscrupulous Agent",
         :oracle-text
-        "When Unscrupulous Agent enters, target opponent exiles a card from their hand."}
+        "When this creature enters, target opponent exiles a card from their hand."}
  #:card{:type-line "Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -1271,7 +1271,7 @@
         :layout "normal",
         :name "The Chase Is On",
         :oracle-text
-        "Target creature gets +3/+0 and gains first strike until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Target creature gets +3/+0 and gains first strike until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -1282,7 +1282,7 @@
         :layout "normal",
         :name "Concealed Weapon",
         :oracle-text
-        "Equipped creature gets +3/+0.\nDisguise {2}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Concealed Weapon is turned face up, attach it to target creature you control.\nEquip {1}{R}"}
+        "Equipped creature gets +3/+0.\nDisguise {2}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this Equipment is turned face up, attach it to target creature you control.\nEquip {1}{R}"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -1293,7 +1293,7 @@
         :layout "normal",
         :name "Connecting the Dots",
         :oracle-text
-        "Whenever a creature you control attacks, exile the top card of your library face down. (You can't look at it.)\n{1}{R}, Discard your hand, Sacrifice Connecting the Dots: Put all cards exiled with Connecting the Dots into their owners' hands."}
+        "Whenever a creature you control attacks, exile the top card of your library face down. (You can't look at it.)\n{1}{R}, Discard your hand, Sacrifice this enchantment: Put all cards exiled with this enchantment into their owners' hands."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -1304,7 +1304,7 @@
         :layout "normal",
         :name "Convenient Target",
         :oracle-text
-        "Enchant creature\nWhen Convenient Target enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +1/+1.\n{2}{R}: Return Convenient Target from your graveyard to your hand."}
+        "Enchant creature\nWhen this Aura enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +1/+1.\n{2}{R}: Return this card from your graveyard to your hand."}
  #:card{:type-line "Creature — Lizard Warrior",
         :layout-category :normal,
         :code "mkm",
@@ -1315,7 +1315,7 @@
         :layout "normal",
         :name "Cornered Crook",
         :oracle-text
-        "When Cornered Crook enters, you may sacrifice an artifact. When you do, Cornered Crook deals 3 damage to any target."}
+        "When this creature enters, you may sacrifice an artifact. When you do, this creature deals 3 damage to any target."}
  #:card{:type-line "Creature — Goblin Bard",
         :layout-category :normal,
         :code "mkm",
@@ -1326,7 +1326,7 @@
         :layout "normal",
         :name "Crime Novelist",
         :oracle-text
-        "Whenever you sacrifice an artifact, put a +1/+1 counter on Crime Novelist and add {R}."}
+        "Whenever you sacrifice an artifact, put a +1/+1 counter on this creature and add {R}."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1381,7 +1381,7 @@
         :layout "normal",
         :name "Frantic Scapegoat",
         :oracle-text
-        "Haste\nWhen Frantic Scapegoat enters, suspect it. (It has menace and can't block.)\nWhenever one or more other creatures you control enter, if Frantic Scapegoat is suspected, you may suspect one of the other creatures. If you do, Frantic Scapegoat is no longer suspected."}
+        "Haste\nWhen this creature enters, suspect it. (It has menace and can't block.)\nWhenever one or more other creatures you control enter, if this creature is suspected, you may suspect one of the other creatures. If you do, this creature is no longer suspected."}
  #:card{:type-line "Creature — Goblin Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -1392,7 +1392,7 @@
         :layout "normal",
         :name "Fugitive Codebreaker",
         :oracle-text
-        "Prowess, haste\nDisguise {5}{R}. This cost is reduced by {1} for each instant and sorcery card in your graveyard. (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Fugitive Codebreaker is turned face up, discard your hand, then draw three cards."}
+        "Prowess, haste\nDisguise {5}{R}. This cost is reduced by {1} for each instant and sorcery card in your graveyard. (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, discard your hand, then draw three cards."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1414,7 +1414,7 @@
         :layout "normal",
         :name "Gearbane Orangutan",
         :oracle-text
-        "Reach\nWhen Gearbane Orangutan enters, choose one —\n• Destroy up to one target artifact.\n• Sacrifice an artifact. If you do, put two +1/+1 counters on Gearbane Orangutan."}
+        "Reach\nWhen this creature enters, choose one —\n• Destroy up to one target artifact.\n• Sacrifice an artifact. If you do, put two +1/+1 counters on this creature."}
  #:card{:type-line "Creature — Goblin Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -1425,7 +1425,7 @@
         :layout "normal",
         :name "Goblin Maskmaker",
         :oracle-text
-        "Whenever Goblin Maskmaker attacks, face-down spells you cast this turn cost {1} less to cast."}
+        "Whenever this creature attacks, face-down spells you cast this turn cost {1} less to cast."}
  #:card{:type-line "Creature — Human Artificer",
         :layout-category :normal,
         :code "mkm",
@@ -1447,7 +1447,7 @@
         :layout "normal",
         :name "Incinerator of the Guilty",
         :oracle-text
-        "Flying, trample\nWhenever Incinerator of the Guilty deals combat damage to a player, you may collect evidence X. When you do, Incinerator of the Guilty deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
+        "Flying, trample\nWhenever this creature deals combat damage to a player, you may collect evidence X. When you do, this creature deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
  #:card{:type-line "Creature — Goblin Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -1458,7 +1458,7 @@
         :layout "normal",
         :name "Innocent Bystander",
         :oracle-text
-        "Whenever Innocent Bystander is dealt 3 or more damage, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever this creature is dealt 3 or more damage, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -1469,7 +1469,7 @@
         :layout "normal",
         :name "Knife",
         :oracle-text
-        "During your turn, equipped creature gets +1/+0 and has first strike.\n{2}, Sacrifice Knife: Draw a card.\nEquip {2}"}
+        "During your turn, equipped creature gets +1/+0 and has first strike.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mkm",
@@ -1491,7 +1491,7 @@
         :layout "normal",
         :name "Krenko's Buzzcrusher",
         :oracle-text
-        "Flying, trample\nWhen Krenko's Buzzcrusher enters, for each player, destroy up to one nonbasic land that player controls. For each land destroyed this way, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+        "Flying, trample\nWhen this creature enters, for each player, destroy up to one nonbasic land that player controls. For each land destroyed this way, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Creature — Phoenix",
         :layout-category :normal,
         :code "mkm",
@@ -1502,7 +1502,7 @@
         :layout "normal",
         :name "Lamplight Phoenix",
         :oracle-text
-        "Flying\nWhen Lamplight Phoenix dies, you may exile it and collect evidence 4. If you do, return Lamplight Phoenix to the battlefield tapped. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
+        "Flying\nWhen this creature dies, you may exile it and collect evidence 4. If you do, return this card to the battlefield tapped. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
  #:card{:type-line "Creature — Giant Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -1513,7 +1513,7 @@
         :layout "normal",
         :name "Offender at Large",
         :oracle-text
-        "Disguise {4}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Offender at Large enters or is turned face up, up to one target creature gets +2/+0 until end of turn."}
+        "Disguise {4}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature enters or is turned face up, up to one target creature gets +2/+0 until end of turn."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -1524,7 +1524,7 @@
         :layout "normal",
         :name "Person of Interest",
         :oracle-text
-        "When Person of Interest enters, suspect it. Create a 2/2 white and blue Detective creature token. (A suspected creature has menace and can't block.)"}
+        "When this creature enters, suspect it. Create a 2/2 white and blue Detective creature token. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Creature — Lizard Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -1535,7 +1535,7 @@
         :layout "normal",
         :name "Pyrotechnic Performer",
         :oracle-text
-        "Disguise {R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhenever Pyrotechnic Performer or another creature you control is turned face up, that creature deals damage equal to its power to each opponent."}
+        "Disguise {R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhenever this creature or another creature you control is turned face up, that creature deals damage equal to its power to each opponent."}
  #:card{:type-line "Creature — Devil Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1546,7 +1546,7 @@
         :layout "normal",
         :name "Reckless Detective",
         :oracle-text
-        "Whenever Reckless Detective attacks, you may sacrifice an artifact or discard a card. If you do, draw a card and Reckless Detective gets +2/+0 until end of turn."}
+        "Whenever this creature attacks, you may sacrifice an artifact or discard a card. If you do, draw a card and this creature gets +2/+0 until end of turn."}
  #:card{:type-line "Artifact Creature — Clue Fish",
         :layout-category :normal,
         :code "mkm",
@@ -1557,7 +1557,7 @@
         :layout "normal",
         :name "Red Herring",
         :oracle-text
-        "Haste\nRed Herring attacks each combat if able.\n{2}, Sacrifice Red Herring: Draw a card."}
+        "Haste\nThis creature attacks each combat if able.\n{2}, Sacrifice this creature: Draw a card."}
  #:card{:type-line "Creature — Lizard Warrior",
         :layout-category :normal,
         :code "mkm",
@@ -1568,7 +1568,7 @@
         :layout "normal",
         :name "Rubblebelt Braggart",
         :oracle-text
-        "Whenever Rubblebelt Braggart attacks, if it's not suspected, you may suspect it. (A suspected creature has menace and can't block.)"}
+        "Whenever this creature attacks, if it's not suspected, you may suspect it. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1600,7 +1600,7 @@
         :layout "normal",
         :name "Torch the Witness",
         :oracle-text
-        "Torch the Witness deals twice X damage to target creature. If excess damage was dealt to that creature this way, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Torch the Witness deals twice X damage to target creature. If excess damage was dealt to that creature this way, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1611,7 +1611,7 @@
         :layout "normal",
         :name "Vengeful Tracker",
         :oracle-text
-        "Whenever an opponent sacrifices an artifact, Vengeful Tracker deals 2 damage to them."}
+        "Whenever an opponent sacrifices an artifact, this creature deals 2 damage to them."}
  #:card{:type-line "Creature — Elf Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1622,7 +1622,7 @@
         :layout "normal",
         :name "Aftermath Analyst",
         :oracle-text
-        "When Aftermath Analyst enters, mill three cards.\n{3}{G}, Sacrifice Aftermath Analyst: Return all land cards from your graveyard to the battlefield tapped."}
+        "When this creature enters, mill three cards.\n{3}{G}, Sacrifice this creature: Return all land cards from your graveyard to the battlefield tapped."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -1633,7 +1633,7 @@
         :layout "normal",
         :name "Airtight Alibi",
         :oracle-text
-        "Flash\nEnchant creature\nWhen Airtight Alibi enters, untap enchanted creature. It gains hexproof until end of turn. If it's suspected, it's no longer suspected.\nEnchanted creature gets +2/+2 and can't become suspected."}
+        "Flash\nEnchant creature\nWhen this Aura enters, untap enchanted creature. It gains hexproof until end of turn. If it's suspected, it's no longer suspected.\nEnchanted creature gets +2/+2 and can't become suspected."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -1721,7 +1721,7 @@
         :layout "normal",
         :name "Chalk Outline",
         :oracle-text
-        "Whenever one or more creature cards leave your graveyard, create a 2/2 white and blue Detective creature token, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever one or more creature cards leave your graveyard, create a 2/2 white and blue Detective creature token, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Wurm Horror",
         :layout-category :normal,
         :code "mkm",
@@ -1732,7 +1732,7 @@
         :layout "normal",
         :name "Culvert Ambusher",
         :oracle-text
-        "When Culvert Ambusher enters or is turned face up, target creature blocks this turn if able.\nDisguise {4}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "When this creature enters or is turned face up, target creature blocks this turn if able.\nDisguise {4}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1754,7 +1754,7 @@
         :layout "normal",
         :name "Flourishing Bloom-Kin",
         :oracle-text
-        "Flourishing Bloom-Kin gets +1/+1 for each Forest you control.\nDisguise {4}{G}\nWhen Flourishing Bloom-Kin is turned face up, search your library for up to two Forest cards and reveal them. Put one of them onto the battlefield tapped and the other into your hand, then shuffle."}
+        "This creature gets +1/+1 for each Forest you control.\nDisguise {4}{G}\nWhen this creature is turned face up, search your library for up to two Forest cards and reveal them. Put one of them onto the battlefield tapped and the other into your hand, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -1776,7 +1776,7 @@
         :layout "normal",
         :name "Glint Weaver",
         :oracle-text
-        "Reach\nWhen Glint Weaver enters, distribute three +1/+1 counters among one, two, or three target creatures, then you gain life equal to the greatest toughness among creatures you control."}
+        "Reach\nWhen this creature enters, distribute three +1/+1 counters among one, two, or three target creatures, then you gain life equal to the greatest toughness among creatures you control."}
  #:card{:type-line "Creature — Centaur Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -1787,7 +1787,7 @@
         :layout "normal",
         :name "Greenbelt Radical",
         :oracle-text
-        "Disguise {5}{G}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Greenbelt Radical is turned face up, put a +1/+1 counter on each creature you control. Creatures you control gain trample until end of turn."}
+        "Disguise {5}{G}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, put a +1/+1 counter on each creature you control. Creatures you control gain trample until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -1809,7 +1809,7 @@
         :layout "normal",
         :name "Hedge Whisperer",
         :oracle-text
-        "You may choose not to untap Hedge Whisperer during your untap step.\n{3}{G}, {T}, Collect evidence 4: Target land you control becomes a 5/5 green Plant Boar creature with haste for as long as Hedge Whisperer remains tapped. It's still a land. Activate only as a sorcery. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
+        "You may choose not to untap this creature during your untap step.\n{3}{G}, {T}, Collect evidence 4: Target land you control becomes a 5/5 green Plant Boar creature with haste for as long as this creature remains tapped. It's still a land. Activate only as a sorcery. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -1831,7 +1831,7 @@
         :layout "normal",
         :name "A Killer Among Us",
         :oracle-text
-        "When A Killer Among Us enters, create a 1/1 white Human creature token, a 1/1 blue Merfolk creature token, and a 1/1 red Goblin creature token. Then secretly choose Human, Merfolk, or Goblin.\nSacrifice A Killer Among Us, Reveal the creature type you chose: If target attacking creature token is the chosen type, put three +1/+1 counters on it and it gains deathtouch until end of turn."}
+        "When this enchantment enters, create a 1/1 white Human creature token, a 1/1 blue Merfolk creature token, and a 1/1 red Goblin creature token. Then secretly choose Human, Merfolk, or Goblin.\nSacrifice this enchantment, Reveal the creature type you chose: If target attacking creature token is the chosen type, put three +1/+1 counters on it and it gains deathtouch until end of turn."}
  #:card{:type-line "Creature — Elephant Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1842,7 +1842,7 @@
         :layout "normal",
         :name "Loxodon Eavesdropper",
         :oracle-text
-        "When Loxodon Eavesdropper enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you draw your second card each turn, Loxodon Eavesdropper gets +1/+1 and gains vigilance until end of turn."}
+        "When this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you draw your second card each turn, this creature gets +1/+1 and gains vigilance until end of turn."}
  #:card{:type-line "Creature — Dryad",
         :layout-category :normal,
         :code "mkm",
@@ -1853,7 +1853,7 @@
         :layout "normal",
         :name "Nervous Gardener",
         :oracle-text
-        "Disguise {G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Nervous Gardener is turned face up, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle."}
+        "Disguise {G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -1864,7 +1864,7 @@
         :layout "normal",
         :name "Pick Your Poison",
         :oracle-text
-        "Choose one —\n• Each opponent sacrifices an artifact.\n• Each opponent sacrifices an enchantment.\n• Each opponent sacrifices a creature with flying."}
+        "Choose one —\n• Each opponent sacrifices an artifact of their choice.\n• Each opponent sacrifices an enchantment of their choice.\n• Each opponent sacrifices a creature with flying of their choice."}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -1875,7 +1875,7 @@
         :layout "normal",
         :name "Pompous Gadabout",
         :oracle-text
-        "During your turn, Pompous Gadabout has hexproof.\nPompous Gadabout can't be blocked by creatures that don't have a name."}
+        "During your turn, this creature has hexproof.\nThis creature can't be blocked by creatures that don't have a name."}
  #:card{:type-line "Legendary Creature — Crocodile Elk Turtle",
         :layout-category :normal,
         :code "mkm",
@@ -1897,7 +1897,7 @@
         :layout "normal",
         :name "Rope",
         :oracle-text
-        "Equipped creature gets +1/+2, has reach, and can't be blocked by more than one creature.\n{2}, Sacrifice Rope: Draw a card.\nEquip {3}"}
+        "Equipped creature gets +1/+2, has reach, and can't be blocked by more than one creature.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {3}"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1908,7 +1908,7 @@
         :layout "normal",
         :name "Rubblebelt Maverick",
         :oracle-text
-        "When Rubblebelt Maverick enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{G}, Exile Rubblebelt Maverick from your graveyard: Put a +1/+1 counter on target creature. Activate only as a sorcery."}
+        "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. Activate only as a sorcery."}
  #:card{:type-line "Creature — Troll Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1919,7 +1919,7 @@
         :layout "normal",
         :name "Sample Collector",
         :oracle-text
-        "Whenever Sample Collector attacks, you may collect evidence 3. When you do, put a +1/+1 counter on target creature you control. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)"}
+        "Whenever this creature attacks, you may collect evidence 3. When you do, put a +1/+1 counter on target creature you control. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)"}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -1930,7 +1930,7 @@
         :layout "normal",
         :name "Sharp-Eyed Rookie",
         :oracle-text
-        "Vigilance\nWhenever a creature you control enters, if its power is greater than Sharp-Eyed Rookie's power or its toughness is greater than Sharp-Eyed Rookie's toughness, put a +1/+1 counter on Sharp-Eyed Rookie and investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Vigilance\nWhenever a creature you control enters, if its power is greater than this creature's power or its toughness is greater than this creature's toughness, put a +1/+1 counter on this creature and investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -1952,7 +1952,7 @@
         :layout "normal",
         :name "They Went This Way",
         :oracle-text
-        "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Plant Cat",
         :layout-category :normal,
         :code "mkm",
@@ -1974,7 +1974,7 @@
         :layout "normal",
         :name "Tunnel Tipster",
         :oracle-text
-        "At the beginning of your end step, if a face-down creature entered the battlefield under your control this turn, put a +1/+1 counter on Tunnel Tipster.\n{T}: Add {G}."}
+        "At the beginning of your end step, if a face-down creature entered the battlefield under your control this turn, put a +1/+1 counter on this creature.\n{T}: Add {G}."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -1996,7 +1996,7 @@
         :layout "normal",
         :name "Vengeful Creeper",
         :oracle-text
-        "Disguise {5}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Vengeful Creeper is turned face up, destroy target artifact or enchantment an opponent controls."}
+        "Disguise {5}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, destroy target artifact or enchantment an opponent controls."}
  #:card{:type-line "Creature — Elf Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2007,7 +2007,7 @@
         :layout "normal",
         :name "Vitu-Ghazi Inspector",
         :oracle-text
-        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nReach\nWhen Vitu-Ghazi Inspector enters, if evidence was collected, put a +1/+1 counter on target creature and you gain 2 life."}
+        "As an additional cost to cast this spell, you may collect evidence 6. (Exile cards with total mana value 6 or greater from your graveyard.)\nReach\nWhen this creature enters, if evidence was collected, put a +1/+1 counter on target creature and you gain 2 life."}
  #:card{:type-line "Legendary Creature — Spirit Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2018,7 +2018,7 @@
         :layout "normal",
         :name "Agrus Kos, Spirit of Justice",
         :oracle-text
-        "Double strike, vigilance\nWhenever Agrus Kos, Spirit of Justice enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
+        "Double strike, vigilance\nWhenever Agrus Kos enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Legendary Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2029,7 +2029,7 @@
         :layout "normal",
         :name "Alquist Proft, Master Sleuth",
         :oracle-text
-        "Vigilance\nWhen Alquist Proft, Master Sleuth enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
+        "Vigilance\nWhen Alquist Proft enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
  #:card{:type-line "Legendary Creature — Mole God",
         :layout-category :normal,
         :code "mkm",
@@ -2040,7 +2040,7 @@
         :layout "normal",
         :name "Anzrag, the Quake-Mole",
         :oracle-text
-        "Whenever Anzrag, the Quake-Mole becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
+        "Whenever Anzrag becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -2062,7 +2062,7 @@
         :layout "normal",
         :name "Aurelia, the Law Above",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia, the Law Above deals 3 damage to each of your opponents and you gain 3 life."}
+        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia deals 3 damage to each of your opponents and you gain 3 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -2073,7 +2073,7 @@
         :layout "normal",
         :name "Blood Spatter Analysis",
         :oracle-text
-        "When Blood Spatter Analysis enters, it deals 3 damage to target creature an opponent controls.\nWhenever one or more creatures die, mill a card and put a bloodstain counter on Blood Spatter Analysis. Then sacrifice it if it has five or more bloodstain counters on it. When you do, return target creature card from your graveyard to your hand."}
+        "When this enchantment enters, it deals 3 damage to target creature an opponent controls.\nWhenever one or more creatures die, mill a card and put a bloodstain counter on this enchantment. Then sacrifice it if it has five or more bloodstain counters on it. When you do, return target creature card from your graveyard to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2095,7 +2095,7 @@
         :layout "normal",
         :name "Buried in the Garden",
         :oracle-text
-        "Enchant land\nWhen Buried in the Garden enters, exile target nonland permanent you don't control until Buried in the Garden leaves the battlefield.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
+        "Enchant land\nWhen this Aura enters, exile target nonland permanent you don't control until this Aura leaves the battlefield.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -2117,7 +2117,7 @@
         :layout "normal",
         :name "Crowd-Control Warden",
         :oracle-text
-        "As Crowd-Control Warden enters or is turned face up, put X +1/+1 counters on it, where X is the number of other creatures you control.\nDisguise {3}{G/W}{G/W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "As this creature enters or is turned face up, put X +1/+1 counters on it, where X is the number of other creatures you control.\nDisguise {3}{G/W}{G/W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Creature — Zombie Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2128,7 +2128,7 @@
         :layout "normal",
         :name "Curious Cadaver",
         :oracle-text
-        "Flying\nWhen you sacrifice a Clue, return Curious Cadaver from your graveyard to your hand."}
+        "Flying\nWhen you sacrifice a Clue, return this card from your graveyard to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2150,7 +2150,7 @@
         :layout "normal",
         :name "Detective's Satchel",
         :oracle-text
-        "When Detective's Satchel enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{T}: Create a 1/1 colorless Thopter artifact creature token with flying. Activate only if you've sacrificed an artifact this turn."}
+        "When this artifact enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{T}: Create a 1/1 colorless Thopter artifact creature token with flying. Activate only if you've sacrificed an artifact this turn."}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "mkm",
@@ -2161,7 +2161,7 @@
         :layout "normal",
         :name "Dog Walker",
         :oracle-text
-        "Vigilance\nDisguise {R/W}{R/W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Dog Walker is turned face up, create two tapped 1/1 white Dog creature tokens."}
+        "Vigilance\nDisguise {R/W}{R/W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, create two tapped 1/1 white Dog creature tokens."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2183,7 +2183,7 @@
         :layout "normal",
         :name "Drag the Canal",
         :oracle-text
-        "Create a 2/2 white and blue Detective creature token. If a creature died this turn, you gain 2 life, surveil 2, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Create a 2/2 white and blue Detective creature token. If a creature died this turn, you gain 2 life, surveil 2, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -2205,7 +2205,7 @@
         :layout "normal",
         :name "Evidence Examiner",
         :oracle-text
-        "At the beginning of combat on your turn, you may collect evidence 4. (Exile cards with total mana value 4 or greater from your graveyard.)\nWhenever you collect evidence, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "At the beginning of combat on your turn, you may collect evidence 4. (Exile cards with total mana value 4 or greater from your graveyard.)\nWhenever you collect evidence, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Archon Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2216,7 +2216,7 @@
         :layout "normal",
         :name "Ezrim, Agency Chief",
         :oracle-text
-        "Flying\nWhen Ezrim, Agency Chief enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn."}
+        "Flying\nWhen Ezrim enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn."}
  #:card{:type-line "Creature — Faerie Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2227,7 +2227,7 @@
         :layout "normal",
         :name "Faerie Snoop",
         :oracle-text
-        "Flying\nDisguise {1}{U/B}{U/B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Faerie Snoop is turned face up, look at the top two cards of your library. Put one into your hand and the other into your graveyard."}
+        "Flying\nDisguise {1}{U/B}{U/B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, look at the top two cards of your library. Put one into your hand and the other into your graveyard."}
  #:card{:type-line "Creature — Goblin Artificer",
         :layout-category :normal,
         :code "mkm",
@@ -2238,7 +2238,7 @@
         :layout "normal",
         :name "Gadget Technician",
         :oracle-text
-        "When Gadget Technician enters or is turned face up, create a 1/1 colorless Thopter artifact creature token with flying.\nDisguise {U/R}{U/R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "When this creature enters or is turned face up, create a 1/1 colorless Thopter artifact creature token with flying.\nDisguise {U/R}{U/R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Artifact Creature — Drake",
         :layout-category :normal,
         :code "mkm",
@@ -2249,7 +2249,7 @@
         :layout "normal",
         :name "Gleaming Geardrake",
         :oracle-text
-        "Flying\nWhen Gleaming Geardrake enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on Gleaming Geardrake."}
+        "Flying\nWhen this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on this creature."}
  #:card{:type-line "Artifact Creature — Gargoyle Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2260,7 +2260,7 @@
         :layout "normal",
         :name "Granite Witness",
         :oracle-text
-        "Flying, vigilance\nDisguise {W/U}{W/U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Granite Witness is turned face up, you may tap or untap target creature."}
+        "Flying, vigilance\nDisguise {W/U}{W/U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, you may tap or untap target creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2293,7 +2293,7 @@
         :layout "normal",
         :name "Izoni, Center of the Web",
         :oracle-text
-        "Menace\nWhenever Izoni, Center of the Web enters or attacks, you may collect evidence 4. If you do, create two 2/1 black and green Spider creature tokens with menace and reach.\nSacrifice four tokens: Surveil 2, then draw two cards. You gain 2 life."}
+        "Menace\nWhenever Izoni enters or attacks, you may collect evidence 4. If you do, create two 2/1 black and green Spider creature tokens with menace and reach.\nSacrifice four tokens: Surveil 2, then draw two cards. You gain 2 life."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mkm",
@@ -2304,7 +2304,7 @@
         :layout "normal",
         :name "Judith, Carnage Connoisseur",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, choose one —\n• That spell gains deathtouch and lifelink.\n• Create a 2/2 red Imp creature token with \"When this creature dies, it deals 2 damage to each opponent.\""}
+        "Whenever you cast an instant or sorcery spell, choose one —\n• That spell gains deathtouch and lifelink.\n• Create a 2/2 red Imp creature token with \"When this token dies, it deals 2 damage to each opponent.\""}
  #:card{:type-line "Legendary Planeswalker — Kaya",
         :layout-category :normal,
         :code "mkm",
@@ -2327,7 +2327,7 @@
         :faces
         [{:type-line "Legendary Creature — Human Faerie Detective",
           :oracle-text
-          "Flying, vigilance\nWhenever Kellan, Inquisitive Prodigy attacks, destroy up to one target artifact. If you controlled that permanent, draw a card."}
+          "Flying, vigilance\nWhenever Kellan attacks, destroy up to one target artifact. If you controlled that permanent, draw a card."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Investigate. You may play an additional land this turn. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -2341,7 +2341,7 @@
         :layout "normal",
         :name "Kraul Whipcracker",
         :oracle-text
-        "Reach\nWhen Kraul Whipcracker enters, destroy target token an opponent controls."}
+        "Reach\nWhen this creature enters, destroy target token an opponent controls."}
  #:card{:type-line "Legendary Creature — Lizard Artificer",
         :layout-category :normal,
         :code "mkm",
@@ -2352,7 +2352,7 @@
         :layout "normal",
         :name "Kylox, Visionary Inventor",
         :oracle-text
-        "Menace, ward {2}, haste\nWhenever Kylox, Visionary Inventor attacks, sacrifice any number of other creatures, then exile the top X cards of your library, where X is their total power. You may cast any number of instant and/or sorcery spells from among the exiled cards without paying their mana costs."}
+        "Menace, ward {2}, haste\nWhenever Kylox attacks, sacrifice any number of other creatures, then exile the top X cards of your library, where X is their total power. You may cast any number of instant and/or sorcery spells from among the exiled cards without paying their mana costs."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "mkm",
@@ -2363,7 +2363,7 @@
         :layout "normal",
         :name "Kylox's Voltstrider",
         :oracle-text
-        "Collect evidence 6: Kylox's Voltstrider becomes an artifact creature until end of turn.\nWhenever Kylox's Voltstrider attacks, you may cast an instant or sorcery spell from among cards exiled with it. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.\nCrew 2"}
+        "Collect evidence 6: This Vehicle becomes an artifact creature until end of turn.\nWhenever this Vehicle attacks, you may cast an instant or sorcery spell from among cards exiled with it. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.\nCrew 2"}
  #:card{:type-line "Legendary Creature — Shapeshifter Detective",
         :layout-category :normal,
         :code "mkm",
@@ -2374,7 +2374,7 @@
         :layout "normal",
         :name "Lazav, Wearer of Faces",
         :oracle-text
-        "Whenever Lazav, Wearer of Faces attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
+        "Whenever Lazav attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -2385,7 +2385,7 @@
         :layout "normal",
         :name "Leyline of the Guildpact",
         :oracle-text
-        "If Leyline of the Guildpact is in your opening hand, you may begin the game with it on the battlefield.\nEach nonland permanent you control is all colors.\nLands you control are every basic land type in addition to their other types."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nEach nonland permanent you control is all colors.\nLands you control are every basic land type in addition to their other types."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -2407,7 +2407,7 @@
         :layout "normal",
         :name "Meddling Youths",
         :oracle-text
-        "Haste\nWhenever you attack with three or more creatures, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Haste\nWhenever you attack with three or more creatures, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mkm",
@@ -2418,7 +2418,7 @@
         :layout "normal",
         :name "Niv-Mizzet, Guildpact",
         :oracle-text
-        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet, Guildpact deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
+        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -2462,7 +2462,7 @@
         :layout "normal",
         :name "Rakdos, Patron of Chaos",
         :oracle-text
-        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents. If they don't, you draw two cards."}
+        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents of their choice. If they don't, you draw two cards."}
  #:card{:type-line "Creature — Elf Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -2473,7 +2473,7 @@
         :layout "normal",
         :name "Rakish Scoundrel",
         :oracle-text
-        "Deathtouch\nWhen Rakish Scoundrel enters or is turned face up, target creature gains indestructible until end of turn.\nDisguise {4}{B/G}{B/G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "Deathtouch\nWhen this creature enters or is turned face up, target creature gains indestructible until end of turn.\nDisguise {4}{B/G}{B/G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2517,7 +2517,7 @@
         :layout "normal",
         :name "Rune-Brand Juggler",
         :oracle-text
-        "When Rune-Brand Juggler enters, suspect up to one target creature you control. (A suspected creature has menace and can't block.)\n{3}{B}{R}, Sacrifice a suspected creature: Target creature gets -5/-5 until end of turn."}
+        "When this creature enters, suspect up to one target creature you control. (A suspected creature has menace and can't block.)\n{3}{B}{R}, Sacrifice a suspected creature: Target creature gets -5/-5 until end of turn."}
  #:card{:type-line "Creature — Vampire Cleric",
         :layout-category :normal,
         :code "mkm",
@@ -2528,7 +2528,7 @@
         :layout "normal",
         :name "Sanguine Savior",
         :oracle-text
-        "Flying, lifelink\nDisguise {W/B}{W/B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Sanguine Savior is turned face up, another target creature you control gains lifelink until end of turn."}
+        "Flying, lifelink\nDisguise {W/B}{W/B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, another target creature you control gains lifelink until end of turn."}
  #:card{:type-line "Creature — Ogre Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -2539,7 +2539,7 @@
         :layout "normal",
         :name "Shady Informant",
         :oracle-text
-        "When Shady Informant dies, it deals 2 damage to any target.\nDisguise {2}{B/R}{B/R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "When this creature dies, it deals 2 damage to any target.\nDisguise {2}{B/R}{B/R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -2561,7 +2561,7 @@
         :layout "normal",
         :name "Sumala Sentry",
         :oracle-text
-        "Reach\nWhenever a face-down permanent you control is turned face up, put a +1/+1 counter on it and a +1/+1 counter on Sumala Sentry."}
+        "Reach\nWhenever a face-down permanent you control is turned face up, put a +1/+1 counter on it and a +1/+1 counter on this creature."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mkm",
@@ -2594,7 +2594,7 @@
         :layout "normal",
         :name "Tolsimir, Midnight's Light",
         :oracle-text
-        "Lifelink\nWhen Tolsimir, Midnight's Light enters, create Voja Fenstalker, a legendary 5/5 green and white Wolf creature token with trample.\nWhenever a Wolf you control attacks, if Tolsimir attacked this combat, target creature an opponent controls blocks that Wolf this combat if able."}
+        "Lifelink\nWhen Tolsimir enters, create Voja Fenstalker, a legendary 5/5 green and white Wolf creature token with trample.\nWhenever a Wolf you control attacks, if Tolsimir attacked this combat, target creature an opponent controls blocks that Wolf this combat if able."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -2627,7 +2627,7 @@
         :layout "normal",
         :name "Undercover Crocodelf",
         :oracle-text
-        "Whenever Undercover Crocodelf deals combat damage to a player, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nDisguise {3}{G/U}{G/U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "Whenever this creature deals combat damage to a player, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nDisguise {3}{G/U}{G/U} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -2660,7 +2660,7 @@
         :layout "normal",
         :name "Warleader's Call",
         :oracle-text
-        "Creatures you control get +1/+1.\nWhenever a creature you control enters, Warleader's Call deals 1 damage to each opponent."}
+        "Creatures you control get +1/+1.\nWhenever a creature you control enters, this enchantment deals 1 damage to each opponent."}
  #:card{:type-line "Creature — Vampire Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -2719,7 +2719,7 @@
         :faces
         [{:type-line "Instant",
           :oracle-text
-          "Mill three cards. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+          "Mill three cards. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
          {:type-line "Sorcery",
           :oracle-text
           "Each opponent mills three cards, then you may cast a spell from each opponent's graveyard without paying its mana cost. If a spell cast this way would be put into a graveyard, exile it instead."}]}
@@ -2777,7 +2777,7 @@
         :layout "normal",
         :name "Cryptex",
         :oracle-text
-        "{T}, Collect evidence 3: Add one mana of any color. Put an unlock counter on Cryptex. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)\nSacrifice Cryptex: Surveil 3, then draw three cards. Activate only if Cryptex has five or more unlock counters on it."}
+        "{T}, Collect evidence 3: Add one mana of any color. Put an unlock counter on this artifact. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)\nSacrifice this artifact: Surveil 3, then draw three cards. Activate only if this artifact has five or more unlock counters on it."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "mkm",
@@ -2788,7 +2788,7 @@
         :layout "normal",
         :name "Gravestone Strider",
         :oracle-text
-        "{1}: Add one mana of any color. Activate only once each turn.\n{2}, Exile Gravestone Strider from your graveyard: Exile target card from a graveyard."}
+        "{1}: Add one mana of any color. Activate only once each turn.\n{2}, Exile this card from your graveyard: Exile target card from a graveyard."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "mkm",
@@ -2810,7 +2810,7 @@
         :layout "normal",
         :name "Magnetic Snuffler",
         :oracle-text
-        "When Magnetic Snuffler enters, return target Equipment card from your graveyard to the battlefield attached to Magnetic Snuffler.\nWhenever you sacrifice an artifact, put a +1/+1 counter on Magnetic Snuffler."}
+        "When this creature enters, return target Equipment card from your graveyard to the battlefield attached to this creature.\nWhenever you sacrifice an artifact, put a +1/+1 counter on this creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "mkm",
@@ -2821,7 +2821,7 @@
         :layout "normal",
         :name "Magnifying Glass",
         :oracle-text
-        "{T}: Add {C}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "{T}: Add {C}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "mkm",
@@ -2832,7 +2832,7 @@
         :layout "normal",
         :name "Sanitation Automaton",
         :oracle-text
-        "When Sanitation Automaton enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -2854,7 +2854,7 @@
         :layout "normal",
         :name "Branch of Vitu-Ghazi",
         :oracle-text
-        "{T}: Add {C}.\nDisguise {3} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Branch of Vitu-Ghazi is turned face up, add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end."}
+        "{T}: Add {C}.\nDisguise {3} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this land is turned face up, add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end."}
  #:card{:type-line "Land — Mountain Forest",
         :layout-category :normal,
         :code "mkm",
@@ -2865,7 +2865,7 @@
         :layout "normal",
         :name "Commercial District",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nCommercial District enters tapped.\nWhen Commercial District enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Mountain Plains",
         :layout-category :normal,
         :code "mkm",
@@ -2876,7 +2876,7 @@
         :layout "normal",
         :name "Elegant Parlor",
         :oracle-text
-        "({T}: Add {R} or {W}.)\nElegant Parlor enters tapped.\nWhen Elegant Parlor enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {R} or {W}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "mkm",
@@ -2887,7 +2887,7 @@
         :layout "normal",
         :name "Escape Tunnel",
         :oracle-text
-        "{T}, Sacrifice Escape Tunnel: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{T}, Sacrifice Escape Tunnel: Target creature with power 2 or less can't be blocked this turn."}
+        "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{T}, Sacrifice this land: Target creature with power 2 or less can't be blocked this turn."}
  #:card{:type-line "Land — Forest Island",
         :layout-category :normal,
         :code "mkm",
@@ -2898,7 +2898,7 @@
         :layout "normal",
         :name "Hedge Maze",
         :oracle-text
-        "({T}: Add {G} or {U}.)\nHedge Maze enters tapped.\nWhen Hedge Maze enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {G} or {U}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Forest Plains",
         :layout-category :normal,
         :code "mkm",
@@ -2909,7 +2909,7 @@
         :layout "normal",
         :name "Lush Portico",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nLush Portico enters tapped.\nWhen Lush Portico enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "mkm",
@@ -2920,7 +2920,7 @@
         :layout "normal",
         :name "Meticulous Archive",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nMeticulous Archive enters tapped.\nWhen Meticulous Archive enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "mkm",
@@ -2931,7 +2931,7 @@
         :layout "normal",
         :name "Public Thoroughfare",
         :oracle-text
-        "Public Thoroughfare enters tapped.\nWhen Public Thoroughfare enters, sacrifice it unless you tap an untapped artifact or land you control.\n{T}: Add one mana of any color."}
+        "This land enters tapped.\nWhen this land enters, sacrifice it unless you tap an untapped artifact or land you control.\n{T}: Add one mana of any color."}
  #:card{:type-line "Land — Swamp Mountain",
         :layout-category :normal,
         :code "mkm",
@@ -2942,7 +2942,7 @@
         :layout "normal",
         :name "Raucous Theater",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nRaucous Theater enters tapped.\nWhen Raucous Theater enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Artifact Land — Clue",
         :layout-category :normal,
         :code "mkm",
@@ -2953,7 +2953,7 @@
         :layout "normal",
         :name "Scene of the Crime",
         :oracle-text
-        "Scene of the Crime enters tapped.\n{T}: Add {C}.\n{T}, Tap an untapped creature you control: Add one mana of any color.\n{2}, Sacrifice Scene of the Crime: Draw a card."}
+        "This land enters tapped.\n{T}: Add {C}.\n{T}, Tap an untapped creature you control: Add one mana of any color.\n{2}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land — Plains Swamp",
         :layout-category :normal,
         :code "mkm",
@@ -2964,7 +2964,7 @@
         :layout "normal",
         :name "Shadowy Backstreet",
         :oracle-text
-        "({T}: Add {W} or {B}.)\nShadowy Backstreet enters tapped.\nWhen Shadowy Backstreet enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {W} or {B}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Island Mountain",
         :layout-category :normal,
         :code "mkm",
@@ -2975,7 +2975,7 @@
         :layout "normal",
         :name "Thundering Falls",
         :oracle-text
-        "({T}: Add {U} or {R}.)\nThundering Falls enters tapped.\nWhen Thundering Falls enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {U} or {R}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Island Swamp",
         :layout-category :normal,
         :code "mkm",
@@ -2986,7 +2986,7 @@
         :layout "normal",
         :name "Undercity Sewers",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nUndercity Sewers enters tapped.\nWhen Undercity Sewers enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Swamp Forest",
         :layout-category :normal,
         :code "mkm",
@@ -2997,7 +2997,7 @@
         :layout "normal",
         :name "Underground Mortuary",
         :oracle-text
-        "({T}: Add {B} or {G}.)\nUnderground Mortuary enters tapped.\nWhen Underground Mortuary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {B} or {G}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Basic Land — Plains",
         :layout-category :normal,
         :code "mkm",
@@ -3169,7 +3169,7 @@
         :layout "normal",
         :name "Auspicious Arrival",
         :oracle-text
-        "Target creature gets +2/+2 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Target creature gets +2/+2 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -3191,7 +3191,7 @@
         :layout "normal",
         :name "Makeshift Binding",
         :oracle-text
-        "When Makeshift Binding enters, exile target creature an opponent controls until Makeshift Binding leaves the battlefield. You gain 2 life."}
+        "When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield. You gain 2 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -3212,7 +3212,7 @@
         :layout "normal",
         :name "On the Job",
         :oracle-text
-        "Creatures you control get +2/+1 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Creatures you control get +2/+1 until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -3223,7 +3223,7 @@
         :layout "normal",
         :name "Deduce",
         :oracle-text
-        "Draw a card. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Draw a card. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -3234,7 +3234,7 @@
         :layout "normal",
         :name "Dramatic Accusation",
         :oracle-text
-        "Enchant creature\nWhen Dramatic Accusation enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\n{U}{U}: Shuffle enchanted creature into its owner's library."}
+        "Enchant creature\nWhen this Aura enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\n{U}{U}: Shuffle enchanted creature into its owner's library."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -3245,7 +3245,7 @@
         :layout "normal",
         :name "Fae Flight",
         :oracle-text
-        "Flash\nEnchant creature\nWhen Fae Flight enters, enchanted creature gains hexproof until end of turn.\nEnchanted creature gets +1/+0 and has flying."}
+        "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gains hexproof until end of turn.\nEnchanted creature gets +1/+0 and has flying."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -3321,7 +3321,7 @@
         :layout "normal",
         :name "Soul Enervation",
         :oracle-text
-        "Flash\nWhen Soul Enervation enters, target creature gets -4/-4 until end of turn.\nWhenever one or more creature cards leave your graveyard, each opponent loses 1 life and you gain 1 life."}
+        "Flash\nWhen this enchantment enters, target creature gets -4/-4 until end of turn.\nWhenever one or more creature cards leave your graveyard, each opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -3343,7 +3343,7 @@
         :layout "normal",
         :name "The Chase Is On",
         :oracle-text
-        "Target creature gets +3/+0 and gains first strike until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Target creature gets +3/+0 and gains first strike until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "mkm",
@@ -3354,7 +3354,7 @@
         :layout "normal",
         :name "Convenient Target",
         :oracle-text
-        "Enchant creature\nWhen Convenient Target enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +1/+1.\n{2}{R}: Return Convenient Target from your graveyard to your hand."}
+        "Enchant creature\nWhen this Aura enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +1/+1.\n{2}{R}: Return this card from your graveyard to your hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -3464,7 +3464,7 @@
         :layout "normal",
         :name "Warleader's Call",
         :oracle-text
-        "Creatures you control get +1/+1.\nWhenever a creature you control enters, Warleader's Call deals 1 damage to each opponent."}
+        "Creatures you control get +1/+1.\nWhenever a creature you control enters, this enchantment deals 1 damage to each opponent."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -3486,40 +3486,40 @@
         :layout "normal",
         :name "Aurelia, the Law Above",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia, the Law Above deals 3 damage to each of your opponents and you gain 3 life."}
+        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia deals 3 damage to each of your opponents and you gain 3 life."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/3/f39c4234-3b5a-4114-871a-ae8dd5659e86.png?1707764428",
+        "https://cards.scryfall.io/png/front/f/3/f39c4234-3b5a-4114-871a-ae8dd5659e86.png?1735846721",
         :collector-number "317z",
         :layout "normal",
         :name "Aurelia, the Law Above",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia, the Law Above deals 3 damage to each of your opponents and you gain 3 life."}
+        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia deals 3 damage to each of your opponents and you gain 3 life."}
  #:card{:type-line "Legendary Creature — Shapeshifter Detective",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/7/a7f43e9f-8a0e-4534-ba4d-14cde33df864.png?1706242508",
+        "https://cards.scryfall.io/png/front/a/7/a7f43e9f-8a0e-4534-ba4d-14cde33df864.png?1737440454",
         :collector-number "318",
         :layout "normal",
         :name "Lazav, Wearer of Faces",
         :oracle-text
-        "Whenever Lazav, Wearer of Faces attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
+        "Whenever Lazav attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
  #:card{:type-line "Legendary Creature — Shapeshifter Detective",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/2/32a701da-47d6-4c85-a428-adeb4a20678d.png?1710200543",
+        "https://cards.scryfall.io/png/front/3/2/32a701da-47d6-4c85-a428-adeb4a20678d.png?1737440457",
         :collector-number "318z",
         :layout "normal",
         :name "Lazav, Wearer of Faces",
         :oracle-text
-        "Whenever Lazav, Wearer of Faces attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
+        "Whenever Lazav attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mkm",
@@ -3530,18 +3530,18 @@
         :layout "normal",
         :name "Niv-Mizzet, Guildpact",
         :oracle-text
-        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet, Guildpact deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
+        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/f/3fdad75c-82e3-4feb-9bc9-29b6251439cb.png?1710200562",
+        "https://cards.scryfall.io/png/front/3/f/3fdad75c-82e3-4feb-9bc9-29b6251439cb.png?1735846103",
         :collector-number "319z",
         :layout "normal",
         :name "Niv-Mizzet, Guildpact",
         :oracle-text
-        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet, Guildpact deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
+        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
  #:card{:type-line "Legendary Creature — Demon",
         :layout-category :normal,
         :code "mkm",
@@ -3552,18 +3552,18 @@
         :layout "normal",
         :name "Rakdos, Patron of Chaos",
         :oracle-text
-        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents. If they don't, you draw two cards."}
+        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents of their choice. If they don't, you draw two cards."}
  #:card{:type-line "Legendary Creature — Demon",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/d/6d5c2b49-ae53-48b7-877a-7f9aa7b6fc4a.png?1710200619",
+        "https://cards.scryfall.io/png/front/6/d/6d5c2b49-ae53-48b7-877a-7f9aa7b6fc4a.png?1735846211",
         :collector-number "320z",
         :layout "normal",
         :name "Rakdos, Patron of Chaos",
         :oracle-text
-        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents. If they don't, you draw two cards."}
+        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents of their choice. If they don't, you draw two cards."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mkm",
@@ -3578,9 +3578,9 @@
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/1/4193a7bd-bba3-44f2-acf3-685847b8be27.png?1710200636",
+        "https://cards.scryfall.io/png/front/4/1/4193a7bd-bba3-44f2-acf3-685847b8be27.png?1735846226",
         :collector-number "321z",
         :layout "normal",
         :name "Teysa, Opulent Oligarch",
@@ -3600,9 +3600,9 @@
  #:card{:type-line "Legendary Creature — Dryad",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/c/8c420297-04c7-4659-b7cc-141a5c0ad1e1.png?1710200654",
+        "https://cards.scryfall.io/png/front/8/c/8c420297-04c7-4659-b7cc-141a5c0ad1e1.png?1735846233",
         :collector-number "322z",
         :layout "normal",
         :name "Trostani, Three Whispers",
@@ -3622,9 +3622,9 @@
  #:card{:type-line "Legendary Creature — Elf Ooze Wizard",
         :layout-category :normal,
         :code "mkm",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/2/62fa5a00-34d3-4ca4-afb9-62ab1c7afb14.png?1710200715",
+        "https://cards.scryfall.io/png/front/6/2/62fa5a00-34d3-4ca4-afb9-62ab1c7afb14.png?1735846242",
         :collector-number "323z",
         :layout "normal",
         :name "Vannifar, Evolved Enigma",
@@ -3640,7 +3640,7 @@
         :layout "normal",
         :name "Commercial District",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nCommercial District enters tapped.\nWhen Commercial District enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Mountain Plains",
         :layout-category :normal,
         :code "mkm",
@@ -3651,7 +3651,7 @@
         :layout "normal",
         :name "Elegant Parlor",
         :oracle-text
-        "({T}: Add {R} or {W}.)\nElegant Parlor enters tapped.\nWhen Elegant Parlor enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {R} or {W}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Forest Island",
         :layout-category :normal,
         :code "mkm",
@@ -3662,7 +3662,7 @@
         :layout "normal",
         :name "Hedge Maze",
         :oracle-text
-        "({T}: Add {G} or {U}.)\nHedge Maze enters tapped.\nWhen Hedge Maze enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {G} or {U}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Forest Plains",
         :layout-category :normal,
         :code "mkm",
@@ -3673,7 +3673,7 @@
         :layout "normal",
         :name "Lush Portico",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nLush Portico enters tapped.\nWhen Lush Portico enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "mkm",
@@ -3684,7 +3684,7 @@
         :layout "normal",
         :name "Meticulous Archive",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nMeticulous Archive enters tapped.\nWhen Meticulous Archive enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Swamp Mountain",
         :layout-category :normal,
         :code "mkm",
@@ -3695,7 +3695,7 @@
         :layout "normal",
         :name "Raucous Theater",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nRaucous Theater enters tapped.\nWhen Raucous Theater enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Plains Swamp",
         :layout-category :normal,
         :code "mkm",
@@ -3706,7 +3706,7 @@
         :layout "normal",
         :name "Shadowy Backstreet",
         :oracle-text
-        "({T}: Add {W} or {B}.)\nShadowy Backstreet enters tapped.\nWhen Shadowy Backstreet enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {W} or {B}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Island Mountain",
         :layout-category :normal,
         :code "mkm",
@@ -3717,7 +3717,7 @@
         :layout "normal",
         :name "Thundering Falls",
         :oracle-text
-        "({T}: Add {U} or {R}.)\nThundering Falls enters tapped.\nWhen Thundering Falls enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {U} or {R}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Island Swamp",
         :layout-category :normal,
         :code "mkm",
@@ -3728,7 +3728,7 @@
         :layout "normal",
         :name "Undercity Sewers",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nUndercity Sewers enters tapped.\nWhen Undercity Sewers enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Land — Swamp Forest",
         :layout-category :normal,
         :code "mkm",
@@ -3739,7 +3739,7 @@
         :layout "normal",
         :name "Underground Mortuary",
         :oracle-text
-        "({T}: Add {B} or {G}.)\nUnderground Mortuary enters tapped.\nWhen Underground Mortuary enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "({T}: Add {B} or {G}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:code "mkm",
         :collector-number "334",
         :name "Kellan, Inquisitive Prodigy // Tail the Suspect",
@@ -3751,7 +3751,7 @@
         :faces
         [{:type-line "Legendary Creature — Human Faerie Detective",
           :oracle-text
-          "Flying, vigilance\nWhenever Kellan, Inquisitive Prodigy attacks, destroy up to one target artifact. If you controlled that permanent, draw a card."}
+          "Flying, vigilance\nWhenever Kellan attacks, destroy up to one target artifact. If you controlled that permanent, draw a card."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Investigate. You may play an additional land this turn. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -3776,7 +3776,7 @@
         :layout "normal",
         :name "Aurelia's Vindicator",
         :oracle-text
-        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen Aurelia's Vindicator is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen Aurelia's Vindicator leaves the battlefield, return the exiled cards to their owners' hands."}
+        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen this creature is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen this creature leaves the battlefield, return the exiled cards to their owners' hands."}
  #:card{:type-line "Legendary Creature — Human Scout",
         :layout-category :normal,
         :code "mkm",
@@ -3820,7 +3820,7 @@
         :layout "normal",
         :name "Wojek Investigator",
         :oracle-text
-        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Sphinx Detective",
         :layout-category :normal,
         :code "mkm",
@@ -3842,7 +3842,7 @@
         :layout "normal",
         :name "Forensic Gadgeteer",
         :oracle-text
-        "Whenever you cast an artifact spell, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nActivated abilities of artifacts you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
+        "Whenever you cast an artifact spell, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nActivated abilities of artifacts you control cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana."}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -3853,7 +3853,7 @@
         :layout "normal",
         :name "Homicide Investigator",
         :oracle-text
-        "Whenever one or more nontoken creatures you control die, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Whenever one or more nontoken creatures you control die, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -3875,7 +3875,7 @@
         :layout "normal",
         :name "Persuasive Interrogators",
         :oracle-text
-        "When Persuasive Interrogators enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, target opponent gets two poison counters. (A player with ten or more poison counters loses the game.)"}
+        "When this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, target opponent gets two poison counters. (A player with ten or more poison counters loses the game.)"}
  #:card{:type-line "Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -3897,7 +3897,7 @@
         :layout "normal",
         :name "Frantic Scapegoat",
         :oracle-text
-        "Haste\nWhen Frantic Scapegoat enters, suspect it. (It has menace and can't block.)\nWhenever one or more other creatures you control enter, if Frantic Scapegoat is suspected, you may suspect one of the other creatures. If you do, Frantic Scapegoat is no longer suspected."}
+        "Haste\nWhen this creature enters, suspect it. (It has menace and can't block.)\nWhenever one or more other creatures you control enter, if this creature is suspected, you may suspect one of the other creatures. If you do, this creature is no longer suspected."}
  #:card{:type-line "Creature — Goblin Rogue",
         :layout-category :normal,
         :code "mkm",
@@ -3908,7 +3908,7 @@
         :layout "normal",
         :name "Fugitive Codebreaker",
         :oracle-text
-        "Prowess, haste\nDisguise {5}{R}. This cost is reduced by {1} for each instant and sorcery card in your graveyard. (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Fugitive Codebreaker is turned face up, discard your hand, then draw three cards."}
+        "Prowess, haste\nDisguise {5}{R}. This cost is reduced by {1} for each instant and sorcery card in your graveyard. (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, discard your hand, then draw three cards."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "mkm",
@@ -3919,7 +3919,7 @@
         :layout "normal",
         :name "Incinerator of the Guilty",
         :oracle-text
-        "Flying, trample\nWhenever Incinerator of the Guilty deals combat damage to a player, you may collect evidence X. When you do, Incinerator of the Guilty deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
+        "Flying, trample\nWhenever this creature deals combat damage to a player, you may collect evidence X. When you do, this creature deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "mkm",
@@ -3941,7 +3941,7 @@
         :layout "normal",
         :name "Culvert Ambusher",
         :oracle-text
-        "When Culvert Ambusher enters or is turned face up, target creature blocks this turn if able.\nDisguise {4}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
+        "When this creature enters or is turned face up, target creature blocks this turn if able.\nDisguise {4}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)"}
  #:card{:type-line "Legendary Creature — Crocodile Elk Turtle",
         :layout-category :normal,
         :code "mkm",
@@ -3963,7 +3963,7 @@
         :layout "normal",
         :name "Sharp-Eyed Rookie",
         :oracle-text
-        "Vigilance\nWhenever a creature you control enters, if its power is greater than Sharp-Eyed Rookie's power or its toughness is greater than Sharp-Eyed Rookie's toughness, put a +1/+1 counter on Sharp-Eyed Rookie and investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Vigilance\nWhenever a creature you control enters, if its power is greater than this creature's power or its toughness is greater than this creature's toughness, put a +1/+1 counter on this creature and investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Spirit Detective",
         :layout-category :normal,
         :code "mkm",
@@ -3974,7 +3974,7 @@
         :layout "normal",
         :name "Agrus Kos, Spirit of Justice",
         :oracle-text
-        "Double strike, vigilance\nWhenever Agrus Kos, Spirit of Justice enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
+        "Double strike, vigilance\nWhenever Agrus Kos enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Legendary Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -3985,7 +3985,7 @@
         :layout "normal",
         :name "Alquist Proft, Master Sleuth",
         :oracle-text
-        "Vigilance\nWhen Alquist Proft, Master Sleuth enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
+        "Vigilance\nWhen Alquist Proft enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
  #:card{:type-line "Legendary Creature — Mole God",
         :layout-category :normal,
         :code "mkm",
@@ -3996,7 +3996,7 @@
         :layout "normal",
         :name "Anzrag, the Quake-Mole",
         :oracle-text
-        "Whenever Anzrag, the Quake-Mole becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
+        "Whenever Anzrag becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
  #:card{:type-line "Legendary Creature — Angel",
         :layout-category :normal,
         :code "mkm",
@@ -4007,7 +4007,7 @@
         :layout "normal",
         :name "Aurelia, the Law Above",
         :oracle-text
-        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia, the Law Above deals 3 damage to each of your opponents and you gain 3 life."}
+        "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia deals 3 damage to each of your opponents and you gain 3 life."}
  #:card{:type-line "Creature — Zombie Detective",
         :layout-category :normal,
         :code "mkm",
@@ -4018,7 +4018,7 @@
         :layout "normal",
         :name "Curious Cadaver",
         :oracle-text
-        "Flying\nWhen you sacrifice a Clue, return Curious Cadaver from your graveyard to your hand."}
+        "Flying\nWhen you sacrifice a Clue, return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -4040,7 +4040,7 @@
         :layout "normal",
         :name "Ezrim, Agency Chief",
         :oracle-text
-        "Flying\nWhen Ezrim, Agency Chief enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn."}
+        "Flying\nWhen Ezrim enters, investigate twice. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn."}
  #:card{:type-line "Artifact Creature — Drake",
         :layout-category :normal,
         :code "mkm",
@@ -4051,7 +4051,7 @@
         :layout "normal",
         :name "Gleaming Geardrake",
         :oracle-text
-        "Flying\nWhen Gleaming Geardrake enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on Gleaming Geardrake."}
+        "Flying\nWhen this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on this creature."}
  #:card{:type-line "Legendary Creature — Elf Detective",
         :layout-category :normal,
         :code "mkm",
@@ -4062,7 +4062,7 @@
         :layout "normal",
         :name "Izoni, Center of the Web",
         :oracle-text
-        "Menace\nWhenever Izoni, Center of the Web enters or attacks, you may collect evidence 4. If you do, create two 2/1 black and green Spider creature tokens with menace and reach.\nSacrifice four tokens: Surveil 2, then draw two cards. You gain 2 life."}
+        "Menace\nWhenever Izoni enters or attacks, you may collect evidence 4. If you do, create two 2/1 black and green Spider creature tokens with menace and reach.\nSacrifice four tokens: Surveil 2, then draw two cards. You gain 2 life."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "mkm",
@@ -4073,7 +4073,7 @@
         :layout "normal",
         :name "Judith, Carnage Connoisseur",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, choose one —\n• That spell gains deathtouch and lifelink.\n• Create a 2/2 red Imp creature token with \"When this creature dies, it deals 2 damage to each opponent.\""}
+        "Whenever you cast an instant or sorcery spell, choose one —\n• That spell gains deathtouch and lifelink.\n• Create a 2/2 red Imp creature token with \"When this token dies, it deals 2 damage to each opponent.\""}
  #:card{:type-line "Creature — Insect Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -4084,7 +4084,7 @@
         :layout "normal",
         :name "Kraul Whipcracker",
         :oracle-text
-        "Reach\nWhen Kraul Whipcracker enters, destroy target token an opponent controls."}
+        "Reach\nWhen this creature enters, destroy target token an opponent controls."}
  #:card{:type-line "Legendary Creature — Lizard Artificer",
         :layout-category :normal,
         :code "mkm",
@@ -4095,7 +4095,7 @@
         :layout "normal",
         :name "Kylox, Visionary Inventor",
         :oracle-text
-        "Menace, ward {2}, haste\nWhenever Kylox, Visionary Inventor attacks, sacrifice any number of other creatures, then exile the top X cards of your library, where X is their total power. You may cast any number of instant and/or sorcery spells from among the exiled cards without paying their mana costs."}
+        "Menace, ward {2}, haste\nWhenever Kylox attacks, sacrifice any number of other creatures, then exile the top X cards of your library, where X is their total power. You may cast any number of instant and/or sorcery spells from among the exiled cards without paying their mana costs."}
  #:card{:type-line "Legendary Creature — Shapeshifter Detective",
         :layout-category :normal,
         :code "mkm",
@@ -4106,7 +4106,7 @@
         :layout "normal",
         :name "Lazav, Wearer of Faces",
         :oracle-text
-        "Whenever Lazav, Wearer of Faces attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
+        "Whenever Lazav attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn."}
  #:card{:type-line "Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
@@ -4117,7 +4117,7 @@
         :layout "normal",
         :name "Meddling Youths",
         :oracle-text
-        "Haste\nWhenever you attack with three or more creatures, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Haste\nWhenever you attack with three or more creatures, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Dragon Avatar",
         :layout-category :normal,
         :code "mkm",
@@ -4128,7 +4128,7 @@
         :layout "normal",
         :name "Niv-Mizzet, Guildpact",
         :oracle-text
-        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet, Guildpact deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
+        "Flying, hexproof from multicolored\nWhenever Niv-Mizzet deals combat damage to a player, it deals X damage to any target, target player draws X cards, and you gain X life, where X is the number of different color pairs among permanents you control that are exactly two colors."}
  #:card{:type-line "Legendary Creature — Demon",
         :layout-category :normal,
         :code "mkm",
@@ -4139,7 +4139,7 @@
         :layout "normal",
         :name "Rakdos, Patron of Chaos",
         :oracle-text
-        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents. If they don't, you draw two cards."}
+        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents of their choice. If they don't, you draw two cards."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mkm",
@@ -4161,7 +4161,7 @@
         :layout "normal",
         :name "Tolsimir, Midnight's Light",
         :oracle-text
-        "Lifelink\nWhen Tolsimir, Midnight's Light enters, create Voja Fenstalker, a legendary 5/5 green and white Wolf creature token with trample.\nWhenever a Wolf you control attacks, if Tolsimir attacked this combat, target creature an opponent controls blocks that Wolf this combat if able."}
+        "Lifelink\nWhen Tolsimir enters, create Voja Fenstalker, a legendary 5/5 green and white Wolf creature token with trample.\nWhenever a Wolf you control attacks, if Tolsimir attacked this combat, target creature an opponent controls blocks that Wolf this combat if able."}
  #:card{:type-line "Legendary Creature — Dryad",
         :layout-category :normal,
         :code "mkm",
@@ -4216,24 +4216,24 @@
         :layout "normal",
         :name "Magnetic Snuffler",
         :oracle-text
-        "When Magnetic Snuffler enters, return target Equipment card from your graveyard to the battlefield attached to Magnetic Snuffler.\nWhenever you sacrifice an artifact, put a +1/+1 counter on Magnetic Snuffler."}
+        "When this creature enters, return target Equipment card from your graveyard to the battlefield attached to this creature.\nWhenever you sacrifice an artifact, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/f/1fd20526-024a-4a08-8f86-f5d7c2d7e8e7.png?1706242683",
+        "https://cards.scryfall.io/png/front/1/f/1fd20526-024a-4a08-8f86-f5d7c2d7e8e7.png?1735569392",
         :collector-number "377",
         :layout "normal",
         :name "Aurelia's Vindicator",
         :oracle-text
-        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen Aurelia's Vindicator is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen Aurelia's Vindicator leaves the battlefield, return the exiled cards to their owners' hands."}
+        "Flying, lifelink, ward {2}\nDisguise {X}{3}{W}\nWhen this creature is turned face up, exile up to X other target creatures from the battlefield and/or creature cards from graveyards.\nWhen this creature leaves the battlefield, return the exiled cards to their owners' hands."}
  #:card{:type-line "Legendary Creature — Human Scout",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/0/0063654b-6e4e-4958-a63c-24cf933e4a40.png?1706242684",
+        "https://cards.scryfall.io/png/front/0/0/0063654b-6e4e-4958-a63c-24cf933e4a40.png?1735569730",
         :collector-number "378",
         :layout "normal",
         :name "Delney, Streetwise Lookout",
@@ -4244,7 +4244,7 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/8/a8002174-8cff-4566-ba4d-d6caec14d69c.png?1706242691",
+        "https://cards.scryfall.io/png/front/a/8/a8002174-8cff-4566-ba4d-d6caec14d69c.png?1735569526",
         :collector-number "379",
         :layout "normal",
         :name "Conspiracy Unraveler",
@@ -4255,7 +4255,7 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/e/ae24a4c2-6a19-4e26-902a-cdf73d9f3608.png?1706242692",
+        "https://cards.scryfall.io/png/front/a/e/ae24a4c2-6a19-4e26-902a-cdf73d9f3608.png?1735569559",
         :collector-number "380",
         :layout "normal",
         :name "Massacre Girl, Known Killer",
@@ -4266,18 +4266,18 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/2/321fe5e9-50c4-4b96-883a-2d9b10f2172f.png?1706242693",
+        "https://cards.scryfall.io/png/front/3/2/321fe5e9-50c4-4b96-883a-2d9b10f2172f.png?1735569592",
         :collector-number "381",
         :layout "normal",
         :name "Incinerator of the Guilty",
         :oracle-text
-        "Flying, trample\nWhenever Incinerator of the Guilty deals combat damage to a player, you may collect evidence X. When you do, Incinerator of the Guilty deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
+        "Flying, trample\nWhenever this creature deals combat damage to a player, you may collect evidence X. When you do, this creature deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)"}
  #:card{:type-line "Legendary Creature — Crocodile Elk Turtle",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/9/99027565-f009-48d6-a7d0-fec1afff0611.png?1706242701",
+        "https://cards.scryfall.io/png/front/9/9/99027565-f009-48d6-a7d0-fec1afff0611.png?1735569625",
         :collector-number "382",
         :layout "normal",
         :name "The Pride of Hull Clade",
@@ -4288,40 +4288,40 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/5/55fc7b85-a321-4259-9fe6-a107d6d79819.png?1706242702",
+        "https://cards.scryfall.io/png/front/5/5/55fc7b85-a321-4259-9fe6-a107d6d79819.png?1735569716",
         :collector-number "383",
         :layout "normal",
         :name "Agrus Kos, Spirit of Justice",
         :oracle-text
-        "Double strike, vigilance\nWhenever Agrus Kos, Spirit of Justice enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
+        "Double strike, vigilance\nWhenever Agrus Kos enters or attacks, choose up to one target creature. If it's suspected, exile it. Otherwise, suspect it. (A suspected creature has menace and can't block.)"}
  #:card{:type-line "Legendary Creature — Human Detective",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/3/33c4f8d2-1e9c-41e1-9991-8125cd7151a5.png?1706242702",
+        "https://cards.scryfall.io/png/front/3/3/33c4f8d2-1e9c-41e1-9991-8125cd7151a5.png?1735569817",
         :collector-number "384",
         :layout "normal",
         :name "Alquist Proft, Master Sleuth",
         :oracle-text
-        "Vigilance\nWhen Alquist Proft, Master Sleuth enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
+        "Vigilance\nWhen Alquist Proft enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{X}{W}{U}{U}, {T}, Sacrifice a Clue: You draw X cards and gain X life."}
  #:card{:type-line "Legendary Creature — Mole God",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/2/52c7933b-a65a-4032-a652-1a29b26de2c8.png?1706242710",
+        "https://cards.scryfall.io/png/front/5/2/52c7933b-a65a-4032-a652-1a29b26de2c8.png?1735569853",
         :collector-number "385",
         :layout "normal",
         :name "Anzrag, the Quake-Mole",
         :oracle-text
-        "Whenever Anzrag, the Quake-Mole becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
+        "Whenever Anzrag becomes blocked, untap each creature you control. After this phase, there is an additional combat phase.\n{3}{R}{R}{G}{G}: Anzrag must be blocked each combat this turn if able."}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/0/00b70f7a-8e77-4a99-8d13-7465a190630e.png?1706242710",
+        "https://cards.scryfall.io/png/front/0/0/00b70f7a-8e77-4a99-8d13-7465a190630e.png?1735569885",
         :collector-number "386",
         :layout "normal",
         :name "Etrata, Deadly Fugitive",
@@ -4332,18 +4332,18 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/a/fac8ed51-897f-4587-a234-dd3e051fab3f.png?1706242712",
+        "https://cards.scryfall.io/png/front/f/a/fac8ed51-897f-4587-a234-dd3e051fab3f.png?1735569916",
         :collector-number "387",
         :layout "normal",
         :name "Rakdos, Patron of Chaos",
         :oracle-text
-        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents. If they don't, you draw two cards."}
+        "Flying, trample\nAt the beginning of your end step, target opponent may sacrifice two nonland, nontoken permanents of their choice. If they don't, you draw two cards."}
  #:card{:type-line "Legendary Creature — Dryad",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/e/0efe1969-e30c-4f07-90b0-3d9699a09f1b.png?1706242719",
+        "https://cards.scryfall.io/png/front/0/e/0efe1969-e30c-4f07-90b0-3d9699a09f1b.png?1735569948",
         :collector-number "388",
         :layout "normal",
         :name "Trostani, Three Whispers",
@@ -4354,7 +4354,7 @@
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/e/3e1b9d5f-fb88-49ea-ab56-ea6e78ea2077.png?1706242720",
+        "https://cards.scryfall.io/png/front/3/e/3e1b9d5f-fb88-49ea-ab56-ea6e78ea2077.png?1735569989",
         :collector-number "389",
         :layout "normal",
         :name "Vannifar, Evolved Enigma",
@@ -4370,7 +4370,7 @@
         :layout "normal",
         :name "No Witnesses",
         :oracle-text
-        "Each player who controls the most creatures investigates. Then destroy all creatures. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Each player who controls the most creatures investigates. Then destroy all creatures. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Human",
         :layout-category :normal,
         :code "mkm",
@@ -4381,7 +4381,7 @@
         :layout "normal",
         :name "Tenth District Hero",
         :oracle-text
-        "{1}{W}, Collect evidence 2: Tenth District Hero becomes a Human Detective with base power and toughness 4/4 and gains vigilance.\n{2}{W}, Collect evidence 4: If Tenth District Hero is a Detective, it becomes a legendary creature named Mileva, the Stalwart, it has base power and toughness 5/5, and it gains \"Other creatures you control have indestructible.\""}
+        "{1}{W}, Collect evidence 2: This creature becomes a Human Detective with base power and toughness 4/4 and gains vigilance.\n{2}{W}, Collect evidence 4: If this creature is a Detective, it becomes a legendary creature named Mileva, the Stalwart, it has base power and toughness 5/5, and it gains \"Other creatures you control have indestructible.\""}
  #:card{:type-line "Creature — Elephant Cleric",
         :layout-category :normal,
         :code "mkm",
@@ -4392,7 +4392,7 @@
         :layout "normal",
         :name "Unyielding Gatekeeper",
         :oracle-text
-        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen Unyielding Gatekeeper is turned face up, exile another target nonland permanent. If you controlled it, return it to the battlefield tapped. Otherwise, its controller creates a 2/2 white and blue Detective creature token."}
+        "Disguise {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhen this creature is turned face up, exile another target nonland permanent. If you controlled it, return it to the battlefield tapped. Otherwise, its controller creates a 2/2 white and blue Detective creature token."}
  #:card{:type-line "Artifact Creature — Bird",
         :layout-category :normal,
         :code "mkm",
@@ -4403,7 +4403,7 @@
         :layout "normal",
         :name "Coveted Falcon",
         :oracle-text
-        "Flying\nWhenever Coveted Falcon attacks, gain control of target permanent you own but don't control.\nDisguise {1}{U}\nWhen Coveted Falcon is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way."}
+        "Flying\nWhenever this creature attacks, gain control of target permanent you own but don't control.\nDisguise {1}{U}\nWhen this creature is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "mkm",
@@ -4414,7 +4414,7 @@
         :layout "normal",
         :name "Cryptic Coat",
         :oracle-text
-        "When Cryptic Coat enters, cloak the top card of your library, then attach Cryptic Coat to it. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)\nEquipped creature gets +1/+0 and can't be blocked.\n{1}{U}: Return Cryptic Coat to its owner's hand."}
+        "When this Equipment enters, cloak the top card of your library, then attach this Equipment to it. (To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.)\nEquipped creature gets +1/+0 and can't be blocked.\n{1}{U}: Return this Equipment to its owner's hand."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -4425,7 +4425,7 @@
         :layout "normal",
         :name "Lost in the Maze",
         :oracle-text
-        "Flash\nWhen Lost in the Maze enters, tap X target creatures. Put a stun counter on each of those creatures you don't control. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nTapped creatures you control have hexproof."}
+        "Flash\nWhen this enchantment enters, tap X target creatures. Put a stun counter on each of those creatures you don't control. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nTapped creatures you control have hexproof."}
  #:card{:type-line "Legendary Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -4447,7 +4447,7 @@
         :layout "normal",
         :name "Steamcore Scholar",
         :oracle-text
-        "Flying, vigilance\nWhen Steamcore Scholar enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying."}
+        "Flying, vigilance\nWhen this creature enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "mkm",
@@ -4458,7 +4458,7 @@
         :layout "normal",
         :name "Barbed Servitor",
         :oracle-text
-        "Indestructible\nWhen Barbed Servitor enters, suspect it. (It has menace and can't block.)\nWhenever Barbed Servitor deals combat damage to a player, you draw a card and you lose 1 life.\nWhenever Barbed Servitor is dealt damage, target opponent loses that much life."}
+        "Indestructible\nWhen this creature enters, suspect it. (It has menace and can't block.)\nWhenever this creature deals combat damage to a player, you draw a card and you lose 1 life.\nWhenever this creature is dealt damage, target opponent loses that much life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -4480,7 +4480,7 @@
         :layout "normal",
         :name "Hunted Bonebrute",
         :oracle-text
-        "Menace\nWhen Hunted Bonebrute enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen Hunted Bonebrute dies, each opponent loses 3 life.\nDisguise {1}{B}"}
+        "Menace\nWhen this creature enters, target opponent creates two 1/1 white Dog creature tokens.\nWhen this creature dies, each opponent loses 3 life.\nDisguise {1}{B}"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -4491,7 +4491,7 @@
         :layout "normal",
         :name "Illicit Masquerade",
         :oracle-text
-        "Flash\nWhen Illicit Masquerade enters, put an impostor counter on each creature you control.\nWhenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield."}
+        "Flash\nWhen this enchantment enters, put an impostor counter on each creature you control.\nWhenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -4513,7 +4513,7 @@
         :layout "normal",
         :name "Connecting the Dots",
         :oracle-text
-        "Whenever a creature you control attacks, exile the top card of your library face down. (You can't look at it.)\n{1}{R}, Discard your hand, Sacrifice Connecting the Dots: Put all cards exiled with Connecting the Dots into their owners' hands."}
+        "Whenever a creature you control attacks, exile the top card of your library face down. (You can't look at it.)\n{1}{R}, Discard your hand, Sacrifice this enchantment: Put all cards exiled with this enchantment into their owners' hands."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -4535,7 +4535,7 @@
         :layout "normal",
         :name "Krenko's Buzzcrusher",
         :oracle-text
-        "Flying, trample\nWhen Krenko's Buzzcrusher enters, for each player, destroy up to one nonbasic land that player controls. For each land destroyed this way, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+        "Flying, trample\nWhen this creature enters, for each player, destroy up to one nonbasic land that player controls. For each land destroyed this way, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Creature — Phoenix",
         :layout-category :normal,
         :code "mkm",
@@ -4546,7 +4546,7 @@
         :layout "normal",
         :name "Lamplight Phoenix",
         :oracle-text
-        "Flying\nWhen Lamplight Phoenix dies, you may exile it and collect evidence 4. If you do, return Lamplight Phoenix to the battlefield tapped. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
+        "Flying\nWhen this creature dies, you may exile it and collect evidence 4. If you do, return this card to the battlefield tapped. (To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.)"}
  #:card{:type-line "Creature — Lizard Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -4557,7 +4557,7 @@
         :layout "normal",
         :name "Pyrotechnic Performer",
         :oracle-text
-        "Disguise {R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhenever Pyrotechnic Performer or another creature you control is turned face up, that creature deals damage equal to its power to each opponent."}
+        "Disguise {R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhenever this creature or another creature you control is turned face up, that creature deals damage equal to its power to each opponent."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -4623,7 +4623,7 @@
         :layout "normal",
         :name "Blood Spatter Analysis",
         :oracle-text
-        "When Blood Spatter Analysis enters, it deals 3 damage to target creature an opponent controls.\nWhenever one or more creatures die, mill a card and put a bloodstain counter on Blood Spatter Analysis. Then sacrifice it if it has five or more bloodstain counters on it. When you do, return target creature card from your graveyard to your hand."}
+        "When this enchantment enters, it deals 3 damage to target creature an opponent controls.\nWhenever one or more creatures die, mill a card and put a bloodstain counter on this enchantment. Then sacrifice it if it has five or more bloodstain counters on it. When you do, return target creature card from your graveyard to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -4645,7 +4645,7 @@
         :layout "normal",
         :name "Drag the Canal",
         :oracle-text
-        "Create a 2/2 white and blue Detective creature token. If a creature died this turn, you gain 2 life, surveil 2, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Create a 2/2 white and blue Detective creature token. If a creature died this turn, you gain 2 life, surveil 2, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -4667,7 +4667,7 @@
         :layout "normal",
         :name "Kylox's Voltstrider",
         :oracle-text
-        "Collect evidence 6: Kylox's Voltstrider becomes an artifact creature until end of turn.\nWhenever Kylox's Voltstrider attacks, you may cast an instant or sorcery spell from among cards exiled with it. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.\nCrew 2"}
+        "Collect evidence 6: This Vehicle becomes an artifact creature until end of turn.\nWhenever this Vehicle attacks, you may cast an instant or sorcery spell from among cards exiled with it. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.\nCrew 2"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "mkm",
@@ -4678,7 +4678,7 @@
         :layout "normal",
         :name "Leyline of the Guildpact",
         :oracle-text
-        "If Leyline of the Guildpact is in your opening hand, you may begin the game with it on the battlefield.\nEach nonland permanent you control is all colors.\nLands you control are every basic land type in addition to their other types."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nEach nonland permanent you control is all colors.\nLands you control are every basic land type in addition to their other types."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "mkm",
@@ -4722,7 +4722,7 @@
         :layout "normal",
         :name "Cryptex",
         :oracle-text
-        "{T}, Collect evidence 3: Add one mana of any color. Put an unlock counter on Cryptex. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)\nSacrifice Cryptex: Surveil 3, then draw three cards. Activate only if Cryptex has five or more unlock counters on it."}
+        "{T}, Collect evidence 3: Add one mana of any color. Put an unlock counter on this artifact. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)\nSacrifice this artifact: Surveil 3, then draw three cards. Activate only if this artifact has five or more unlock counters on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -4744,7 +4744,7 @@
         :layout "normal",
         :name "Gleaming Geardrake",
         :oracle-text
-        "Flying\nWhen Gleaming Geardrake enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on Gleaming Geardrake."}
+        "Flying\nWhen this creature enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice an artifact, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Insect Assassin",
         :layout-category :normal,
         :code "mkm",
@@ -4755,7 +4755,7 @@
         :layout "normal",
         :name "Kraul Whipcracker",
         :oracle-text
-        "Reach\nWhen Kraul Whipcracker enters, destroy target token an opponent controls."}
+        "Reach\nWhen this creature enters, destroy target token an opponent controls."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "mkm",
@@ -4799,7 +4799,7 @@
         :layout "normal",
         :name "Wojek Investigator",
         :oracle-text
-        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying, vigilance\nAt the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Weird Detective",
         :layout-category :normal,
         :code "mkm",
@@ -4810,7 +4810,7 @@
         :layout "normal",
         :name "Melek, Reforged Researcher",
         :oracle-text
-        "Melek, Reforged Researcher's power and toughness are each equal to twice the number of instant and sorcery cards in your graveyard.\nThe first instant or sorcery spell you cast each turn costs {3} less to cast."}
+        "Melek's power and toughness are each equal to twice the number of instant and sorcery cards in your graveyard.\nThe first instant or sorcery spell you cast each turn costs {3} less to cast."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "mkm",
@@ -4832,13 +4832,13 @@
         :layout "normal",
         :name "Voja, Jaws of the Conclave",
         :oracle-text
-        "Vigilance, trample, ward {3}\nWhenever Voja, Jaws of the Conclave attacks, put X +1/+1 counters on each creature you control, where X is the number of Elves you control. Draw a card for each Wolf you control."}
+        "Vigilance, trample, ward {3}\nWhenever Voja attacks, put X +1/+1 counters on each creature you control, where X is the number of Elves you control. Draw a card for each Wolf you control."}
  #:card{:type-line "Creature — Vampire Assassin",
         :layout-category :normal,
         :code "mkm",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/7/e7be0f36-9acd-457b-bdfa-77be787be5c3.png?1707401922",
+        "https://cards.scryfall.io/png/front/e/7/e7be0f36-9acd-457b-bdfa-77be787be5c3.png?1735570054",
         :collector-number "433",
         :layout "normal",
         :name "Vein Ripper",

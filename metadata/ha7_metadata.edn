@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Sun Titan",
         :oracle-text
-        "Vigilance\nWhenever Sun Titan enters the battlefield or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
+        "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Kor Cleric",
         :layout-category :normal,
         :code "ha7",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Frost Titan",
         :oracle-text
-        "Whenever Frost Titan becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}.\nWhenever Frost Titan enters the battlefield or attacks, tap target permanent. It doesn't untap during its controller's next untap step."}
+        "Whenever this creature becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}.\nWhenever this creature enters or attacks, tap target permanent. It doesn't untap during its controller's next untap step."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ha7",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Vendilion Clique",
         :oracle-text
-        "Flash\nFlying\nWhen Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card."}
+        "Flash\nFlying\nWhen Vendilion Clique enters, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card."}
  #:card{:type-line "Creature — Giant",
         :layout-category :normal,
         :code "ha7",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Grave Titan",
         :oracle-text
-        "Deathtouch\nWhenever Grave Titan enters the battlefield or attacks, create two 2/2 black Zombie creature tokens."}
+        "Deathtouch\nWhenever this creature enters or attacks, create two 2/2 black Zombie creature tokens."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ha7",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Bloodghast",
         :oracle-text
-        "Bloodghast can't block.\nBloodghast has haste as long as an opponent has 10 or less life.\nLandfall — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield."}
+        "This creature can't block.\nThis creature has haste as long as an opponent has 10 or less life.\nLandfall — Whenever a land you control enters, you may return this card from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Giant",
         :layout-category :normal,
         :code "ha7",
@@ -107,13 +107,13 @@
         :layout "normal",
         :name "Inferno Titan",
         :oracle-text
-        "{R}: Inferno Titan gets +1/+0 until end of turn.\nWhenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three targets."}
+        "{R}: This creature gets +1/+0 until end of turn.\nWhenever this creature enters or attacks, it deals 3 damage divided as you choose among one, two, or three targets."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ha7",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/b/cbc200a7-c689-43f7-bb01-e96078c321c9.png?1689493664",
+        "https://cards.scryfall.io/png/front/c/b/cbc200a7-c689-43f7-bb01-e96078c321c9.png?1737746418",
         :collector-number "11",
         :layout "normal",
         :name "Tribal Flames",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Primeval Titan",
         :oracle-text
-        "Trample\nWhenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle."}
+        "Trample\nWhenever this creature enters or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Creature — Cat Warrior",
         :layout-category :normal,
         :code "ha7",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Wild Nacatl",
         :oracle-text
-        "Wild Nacatl gets +1/+1 as long as you control a Mountain.\nWild Nacatl gets +1/+1 as long as you control a Plains."}
+        "This creature gets +1/+1 as long as you control a Mountain.\nThis creature gets +1/+1 as long as you control a Plains."}
  #:card{:type-line "Creature — Ooze",
         :layout-category :normal,
         :code "ha7",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Acidic Slime",
         :oracle-text
-        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land."}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, destroy target artifact, enchantment, or land."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ha7",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Bloodbraid Elf",
         :oracle-text
-        "Haste\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
+        "Haste (This creature can attack and {T} as soon as it comes under your control.)\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ha7",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Mortarpod",
         :oracle-text
-        "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to any target.\"\nEquip {2}"}
+        "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to any target.\"\nEquip {2}"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ha7",
@@ -194,8 +194,7 @@
         :collector-number "18",
         :layout "normal",
         :name "Worn Powerstone",
-        :oracle-text
-        "Worn Powerstone enters the battlefield tapped.\n{T}: Add {C}{C}."}
+        :oracle-text "This artifact enters tapped.\n{T}: Add {C}{C}."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ha7",
@@ -206,7 +205,7 @@
         :layout "normal",
         :name "Wayfarer's Bauble",
         :oracle-text
-        "{2}, {T}, Sacrifice Wayfarer's Bauble: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+        "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ha7",
@@ -217,7 +216,7 @@
         :layout "normal",
         :name "Sword of Fire and Ice",
         :oracle-text
-        "Equipped creature gets +2/+2 and has protection from red and from blue.\nWhenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to any target and you draw a card.\nEquip {2}"}
+        "Equipped creature gets +2/+2 and has protection from red and from blue.\nWhenever equipped creature deals combat damage to a player, this Equipment deals 2 damage to any target and you draw a card.\nEquip {2}"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ha7",
@@ -228,7 +227,7 @@
         :layout "normal",
         :name "Fiery Islet",
         :oracle-text
-        "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice Fiery Islet: Draw a card."}
+        "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ha7",
@@ -239,7 +238,7 @@
         :layout "normal",
         :name "Sunbaked Canyon",
         :oracle-text
-        "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card."}
+        "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ha7",
@@ -250,7 +249,7 @@
         :layout "normal",
         :name "Nurturing Peatland",
         :oracle-text
-        "{T}, Pay 1 life: Add {B} or {G}.\n{1}, {T}, Sacrifice Nurturing Peatland: Draw a card."}
+        "{T}, Pay 1 life: Add {B} or {G}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ha7",
@@ -261,7 +260,7 @@
         :layout "normal",
         :name "Silent Clearing",
         :oracle-text
-        "{T}, Pay 1 life: Add {W} or {B}.\n{1}, {T}, Sacrifice Silent Clearing: Draw a card."}
+        "{T}, Pay 1 life: Add {W} or {B}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ha7",
@@ -272,4 +271,4 @@
         :layout "normal",
         :name "Waterlogged Grove",
         :oracle-text
-        "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice Waterlogged Grove: Draw a card."})
+        "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice this land: Draw a card."})

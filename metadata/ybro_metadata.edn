@@ -34,14 +34,14 @@
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "ybro",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/9/199e7789-1e6d-46ed-af8b-11b4bd29ed52.png?1680463934",
+        "https://cards.scryfall.io/png/front/1/9/199e7789-1e6d-46ed-af8b-11b4bd29ed52.png?1715720100",
         :collector-number "4",
         :layout "normal",
         :name "Hurkyl's Prodigy",
         :oracle-text
-        "When Hurkyl's Prodigy enters the battlefield, create a tapped Powerstone token.\nWhenever Hurkyl's Prodigy attacks, you may pay {3}. If you do, Hurkyl's Prodigy can't be blocked this turn and it perpetually gets +2/+0."}
+        "When Hurkyl's Prodigy enters, create a tapped Powerstone token.\nWhenever Hurkyl's Prodigy attacks, you may pay {2}. If you do, Hurkyl's Prodigy can't be blocked this turn and it perpetually gets +2/+0."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ybro",
@@ -52,13 +52,13 @@
         :layout "normal",
         :name "Piece It Together",
         :oracle-text
-        "Starting intensity 1\nDraw a card. If Piece It Together's intensity is 4, instead take an extra turn after this one.\nPerpetually increase Piece It Together's intensity and the intensity of cards named Piece It Together in your graveyard, hand, and library by 1."}
+        "Starting intensity 1\nDraw a card. If Piece It Together's intensity is 4, instead take an extra turn after this one.\nCards you own named Piece It Together intensify by 1."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ybro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/7/d7807884-bad2-4eb9-8ad6-62fb09f9ae8e.png?1680539882",
+        "https://cards.scryfall.io/png/front/d/7/d7807884-bad2-4eb9-8ad6-62fb09f9ae8e.png?1693001366",
         :collector-number "6",
         :layout "normal",
         :name "Lonely End",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Fallaji Antiquarian",
         :oracle-text
-        "Haste\nWhen Fallaji Antiquarian enters the battlefield, conjure a duplicate of another target nontoken creature or artifact you control into your graveyard. The duplicate perpetually gains unearth {1}{R}."}
+        "Haste\nWhen Fallaji Antiquarian enters, conjure a duplicate of another target nontoken creature or artifact you control into your graveyard. The duplicate perpetually gains unearth {1}{R}."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ybro",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Kayla's Kindling",
         :oracle-text
-        "When Kayla's Kindling enters the battlefield, it deals 2 damage to any target.\nAt the beginning of your upkeep, draft a card from Kayla's Kindling's spellbook and exile it. Until end of turn, you may cast that card."}
+        "When Kayla's Kindling enters, it deals 2 damage to any target.\nAt the beginning of your upkeep, draft a card from Kayla's Kindling's spellbook and exile it. Until end of turn, you may cast that card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ybro",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Foundry Groundbreaker",
         :oracle-text
-        "When Foundry Groundbreaker enters the battlefield, sacrifice a land. Then conjure two cards named Mishra's Foundry onto the battlefield tapped."}
+        "When Foundry Groundbreaker enters, sacrifice a land. Then conjure two cards named Mishra's Foundry onto the battlefield tapped."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ybro",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Legion of Clay",
         :oracle-text
-        "Creatures you control have trample.\nWhenever one or more nontoken artifacts enter the battlefield under your control, creatures you control perpetually get +1/+1."}
+        "Creatures you control have trample.\nWhenever one or more nontoken artifacts enter under your control, creatures you control perpetually get +1/+1."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ybro",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Great Desert Hellion",
         :oracle-text
-        "Starting intensity 1\nMenace\nAt the beginning of your upkeep, sacrifice Great Desert Hellion unless you discard a card. If you discard a card this way, perpetually increase Great Desert Hellion's intensity by 1.\nWhen Great Desert Hellion leaves the battlefield, you may discard your hand. If you do, draw cards equal to Great Desert Hellion's intensity."}
+        "Starting intensity 1\nMenace\nAt the beginning of your upkeep, sacrifice Great Desert Hellion unless you discard a card. If you discard a card this way, Great Desert Hellion intensifies by 1.\nWhen Great Desert Hellion leaves the battlefield, you may discard your hand. If you do, draw cards equal to Great Desert Hellion's intensity."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "ybro",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Jarsyl, Dark Age Scion",
         :oracle-text
-        "Starting intensity 1\nAt the beginning of combat on your turn, you may cast a spell with mana value equal to Jarsyl, Dark Age Scion's intensity from your graveyard without paying its mana cost. If you do, perpetually increase Jarsyl's intensity by 1."}
+        "Starting intensity 1\nAt the beginning of combat on your turn, you may cast a spell with mana value equal to Jarsyl, Dark Age Scion's intensity from your graveyard without paying its mana cost. If you do, Jarsyl intensifies by 1."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ybro",
@@ -265,25 +265,25 @@
  #:card{:type-line "Creature — Human Artificer",
         :layout-category :normal,
         :code "ybro",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/4/84600a75-a2f1-408c-830d-44074cd78ac2.png?1680464145",
+        "https://cards.scryfall.io/png/front/8/4/84600a75-a2f1-408c-830d-44074cd78ac2.png?1705118270",
         :collector-number "25",
         :layout "normal",
         :name "Yotian Courier",
         :oracle-text
-        "Flying\nWhenever Yotian Courier attacks, choose one that wasn't chosen during your last combat —\n• Create a tapped Powerstone token.\n• Seek an artifact card with mana value equal to the number of Powerstones you control."}
+        "Flying\nWhenever Yotian Courier attacks, choose one that wasn't chosen during your last combat —\n• Create a tapped Powerstone token.\n• Seek a nonland card with mana value equal to the number of Powerstones you control."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "ybro",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/e/2/e2f1a70c-25c4-4f03-8b04-92b34ce4fe1b.png?1680464154",
+        "https://cards.scryfall.io/png/front/e/2/e2f1a70c-25c4-4f03-8b04-92b34ce4fe1b.png?1739650383",
         :collector-number "26",
-        :layout "normal",
+        :layout "prototype",
         :name "Forgefire Automaton",
         :oracle-text
-        "Prototype {2}{B} — 3/2\nAt the beginning of your upkeep, return target creature card with power less than Forgefire Automaton's power from your graveyard to the battlefield. Its base power perpetually becomes equal to Forgefire Automaton's power."}
+        "Prototype {2}{B} — 3/2\nAt the beginning of your upkeep, return target creature card with power less than this creature's power from your graveyard to the battlefield. Its base power perpetually becomes equal to this creature's power."}
  #:card{:type-line "Artifact Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "ybro",
@@ -305,7 +305,7 @@
         :layout "normal",
         :name "Patchplate Resolute",
         :oracle-text
-        "When Patchplate Resolute enters or leaves the battlefield, you get a boon with \"When you cast your next creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.\"\nUnearth {1}{W}"}
+        "When Patchplate Resolute enters or leaves the battlefield, you get a one-time boon with \"When you cast a creature spell, that creature enters with an additional +1/+1 counter on it.\"\nUnearth {1}{W}"}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "ybro",
@@ -316,15 +316,26 @@
         :layout "normal",
         :name "Urza's Construction Drone",
         :oracle-text
-        "When Urza's Construction Drone enters the battlefield, conjure cards named Urza's Mine, Urza's Power Plant, and Urza's Tower into your library, then shuffle.\nWhenever Urza's Construction Drone attacks or dies, seek an Urza's land card."}
+        "When Urza's Construction Drone enters, conjure cards named Urza's Mine, Urza's Power Plant, and Urza's Tower into your library, then shuffle.\nWhenever Urza's Construction Drone attacks or dies, seek an Urza's land card."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "ybro",
         :highres? false,
         :png
-        "https://cards.scryfall.io/png/front/d/4/d40bfed4-7f86-486e-a903-0165cd40e77b.png?1684523799",
+        "https://cards.scryfall.io/png/front/d/4/d40bfed4-7f86-486e-a903-0165cd40e77b.png?1739650426",
         :collector-number "30",
-        :layout "normal",
+        :layout "prototype",
         :name "Warzone Duplicator",
         :oracle-text
-        "Prototype {3}{U} — 3/3\nWhen Warzone Duplicator enters the battlefield, return target creature an opponent controls with power less than Warzone Duplicator's power to its owner's hand. If that creature wasn't a token, conjure a duplicate of it into your hand. It perpetually gains \"You may spend mana as though it were mana of any color to cast this spell.\""})
+        "Prototype {3}{U} — 3/3\nWhen this creature enters, return target creature an opponent controls with power less than this creature's power to its owner's hand. If that creature wasn't a token, conjure a duplicate of it into your hand. It perpetually gains \"You may spend mana as though it were mana of any color to cast this spell.\""}
+ #:card{:type-line "Enchantment — Saga",
+        :layout-category :normal,
+        :code "ybro",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/0/2072dd4e-3fd2-4c04-8859-7d9f59315e4b.png?1738833814",
+        :collector-number "31",
+        :layout "saga",
+        :name "History of Benalia",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a 2/2 white Knight creature token with vigilance.\nIII — Knights you control get +2/+1 until end of turn."})

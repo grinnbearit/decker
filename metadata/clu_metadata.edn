@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Apothecary White",
         :oracle-text
-        "Vigilance\nWhenever you attack, you create a Food token for each player being attacked. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n{W}, {T}, Tap X untapped Foods you control: Create X 1/1 white Human creature tokens."}
+        "Vigilance\nWhenever you attack, you create a Food token for each player being attacked. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n{W}, {T}, Tap X untapped Foods you control: Create X 1/1 white Human creature tokens."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "clu",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Mastermind Plum",
         :oracle-text
-        "Whenever Mastermind Plum attacks, exile up to one target card from a graveyard. If an artifact card was exiled this way, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you cast a spell, if mana from a Treasure was spent to cast it, you draw a card and you lose 1 life."}
+        "Whenever Mastermind Plum attacks, exile up to one target card from a graveyard. If an artifact card was exiled this way, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you cast a spell, if mana from a Treasure was spent to cast it, you draw a card and you lose 1 life."}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "clu",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Wrench",
         :oracle-text
-        "Equipped creature gets +1/+1 and has vigilance and \"{3}, {T}: Tap target creature.\"\n{2}, Sacrifice Wrench: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +1/+1 and has vigilance and \"{3}, {T}: Tap target creature.\"\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "clu",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Candlestick",
         :oracle-text
-        "Equipped creature gets +1/+1 and has \"Whenever this creature attacks, surveil 2.\" (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{2}, Sacrifice Candlestick: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +1/+1 and has \"Whenever this creature attacks, surveil 2.\" (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "clu",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Lead Pipe",
         :oracle-text
-        "Equipped creature gets +2/+0.\nWhenever equipped creature dies, each opponent loses 1 life.\n{2}, Sacrifice Lead Pipe: Draw a card.\nEquip {2}"}
+        "Equipped creature gets +2/+0.\nWhenever equipped creature dies, each opponent loses 1 life.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "clu",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Knife",
         :oracle-text
-        "During your turn, equipped creature gets +1/+0 and has first strike.\n{2}, Sacrifice Knife: Draw a card.\nEquip {2}"}
+        "During your turn, equipped creature gets +1/+0 and has first strike.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {2}"}
  #:card{:type-line "Artifact — Clue Equipment",
         :layout-category :normal,
         :code "clu",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Rope",
         :oracle-text
-        "Equipped creature gets +1/+2, has reach, and can't be blocked by more than one creature.\n{2}, Sacrifice Rope: Draw a card.\nEquip {3}"}
+        "Equipped creature gets +1/+2, has reach, and can't be blocked by more than one creature.\n{2}, Sacrifice this Equipment: Draw a card.\nEquip {3}"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Ballroom",
         :oracle-text
-        "Ballroom enters tapped.\n{T}: Add {W} or {B}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {W} or {B}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Billiard Room",
         :oracle-text
-        "Billiard Room enters tapped.\n{T}: Add {B} or {R}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {B} or {R}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Conservatory",
         :oracle-text
-        "Conservatory enters tapped.\n{T}: Add {G} or {W}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {G} or {W}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Dining Room",
         :oracle-text
-        "Dining Room enters tapped.\n{T}: Add {R} or {G}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {R} or {G}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Hall",
         :oracle-text
-        "Hall enters tapped.\n{T}: Add {R} or {W}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {R} or {W}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Kitchen",
         :oracle-text
-        "Kitchen enters tapped.\n{T}: Add {G} or {U}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {G} or {U}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Library",
         :oracle-text
-        "Library enters tapped.\n{T}: Add {U} or {R}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {U} or {R}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Lounge",
         :oracle-text
-        "Lounge enters tapped.\n{T}: Add {B} or {G}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {B} or {G}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Secret Passage",
         :oracle-text
-        "Secret Passage enters tapped.\n{T}: Add {U} or {B}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {U} or {B}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Study",
         :oracle-text
-        "Study enters tapped.\n{T}: Add {W} or {U}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "This land enters tapped.\n{T}: Add {W} or {U}.\n{4}, {T}: Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "clu",
@@ -272,7 +272,7 @@
         :layout "normal",
         :name "Boros Strike-Captain",
         :oracle-text
-        "Battalion — Whenever Boros Strike-Captain and at least two other creatures attack, exile the top card of your library. During any turn you attacked with three or more creatures, you may play that card."}
+        "Battalion — Whenever this creature and at least two other creatures attack, exile the top card of your library. During any turn you attacked with three or more creatures, you may play that card."}
  #:card{:type-line "Creature — Devil Detective",
         :layout-category :normal,
         :code "clu",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Carnage Interpreter",
         :oracle-text
-        "When Carnage Interpreter enters, discard your hand, then investigate four times. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nAs long as you have one or fewer cards in hand, Carnage Interpreter gets +2/+2 and has menace."}
+        "When this creature enters, discard your hand, then investigate four times. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nAs long as you have one or fewer cards in hand, this creature gets +2/+2 and has menace."}
  #:card{:type-line "Creature — Elephant Cleric",
         :layout-category :normal,
         :code "clu",
@@ -294,7 +294,7 @@
         :layout "normal",
         :name "Conclave Evangelist",
         :oracle-text
-        "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nWhenever Conclave Evangelist deals combat damage to a player, create a token that's a copy of Conclave Evangelist."}
+        "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nWhenever this creature deals combat damage to a player, create a token that's a copy of this creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -338,7 +338,7 @@
         :layout "normal",
         :name "Ecstatic Electromancer",
         :oracle-text
-        "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Ecstatic Electromancer enters or attacks, you may discard a card. If you do, draw a card."}
+        "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever this creature enters or attacks, you may discard a card. If you do, draw a card."}
  #:card{:type-line "Creature — Horror",
         :layout-category :normal,
         :code "clu",
@@ -349,7 +349,7 @@
         :layout "normal",
         :name "Frenzied Gorespawn",
         :oracle-text
-        "When Frenzied Gorespawn enters, for each opponent, goad target creature that player controls. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)\nWhenever one or more creatures attack one of your opponents, those creatures gain menace until end of turn."}
+        "When this creature enters, for each opponent, goad target creature that player controls. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)\nWhenever one or more creatures attack one of your opponents, those creatures gain menace until end of turn."}
  #:card{:type-line "Creature — Ogre Warrior",
         :layout-category :normal,
         :code "clu",
@@ -360,7 +360,7 @@
         :layout "normal",
         :name "Furious Spinesplitter",
         :oracle-text
-        "Trample\nAt the beginning of your end step, put a +1/+1 counter on Furious Spinesplitter for each opponent who was dealt damage this turn."}
+        "Trample\nAt the beginning of your end step, put a +1/+1 counter on this creature for each opponent who was dealt damage this turn."}
  #:card{:type-line "Creature — Boar Beast",
         :layout-category :normal,
         :code "clu",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Herald of Ilharg",
         :oracle-text
-        "Trample\nWhenever you cast a creature spell, put two +1/+1 counters on Herald of Ilharg. If that spell has mana value 5 or greater, Herald of Ilharg deals damage equal to the number of counters on it to each opponent."}
+        "Trample\nWhenever you cast a creature spell, put two +1/+1 counters on this creature. If that spell has mana value 5 or greater, this creature deals damage equal to the number of counters on it to each opponent."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "clu",
@@ -382,7 +382,7 @@
         :layout "normal",
         :name "Incriminating Impetus",
         :oracle-text
-        "Enchant creature\nWhen Incriminating Impetus enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)"}
+        "Enchant creature\nWhen this Aura enters, suspect enchanted creature. (It has menace and can't block.)\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)"}
  #:card{:type-line "Legendary Creature — Human Detective",
         :layout-category :normal,
         :code "clu",
@@ -393,7 +393,7 @@
         :layout "normal",
         :name "Lavinia, Foil to Conspiracy",
         :oracle-text
-        "Vigilance\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{T}: Add {C}{C}. Activate only during an opponent's turn."}
+        "Vigilance\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{T}: Add {C}{C}. Activate only during an opponent's turn."}
  #:card{:type-line "Legendary Creature — Snake Elf Detective",
         :layout-category :normal,
         :code "clu",
@@ -415,7 +415,7 @@
         :layout "normal",
         :name "Memory Vampire",
         :oracle-text
-        "Flying\nWhenever Memory Vampire deals combat damage to a player, any number of target players each mill that many cards. Then you may collect evidence 9. When you do, you may cast target nonland card from defending player's graveyard without paying its mana cost."}
+        "Flying\nWhenever this creature deals combat damage to a player, any number of target players each mill that many cards. Then you may collect evidence 9. When you do, you may cast target nonland card from defending player's graveyard without paying its mana cost."}
  #:card{:type-line "Creature — Minotaur Soldier",
         :layout-category :normal,
         :code "clu",
@@ -437,7 +437,7 @@
         :layout "normal",
         :name "Portal Manipulator",
         :oracle-text
-        "Flash\nWhen Portal Manipulator enters during the declare attackers step, choose target player and any number of target attacking creatures their opponents control. Those creatures are now attacking that player."}
+        "Flash\nWhen this creature enters during the declare attackers step, choose target player and any number of target attacking creatures their opponents control. Those creatures are now attacking that player."}
  #:card{:type-line "Creature — Weird Detective",
         :layout-category :normal,
         :code "clu",
@@ -448,7 +448,7 @@
         :layout "normal",
         :name "Resonance Technician",
         :oracle-text
-        "Flying\nWhen Resonance Technician enters, you may discard a card. If you do, investigate twice.\n{T}, Tap X untapped artifacts you control: Copy target instant or sorcery spell you control with mana value X. You may choose new targets for the copy."}
+        "Flying\nWhen this creature enters, you may discard a card. If you do, investigate twice.\n{T}, Tap X untapped artifacts you control: Copy target instant or sorcery spell you control with mana value X. You may choose new targets for the copy."}
  #:card{:type-line "Creature — Crab Elf",
         :layout-category :normal,
         :code "clu",
@@ -459,7 +459,7 @@
         :layout "normal",
         :name "Scuttling Sentinel",
         :oracle-text
-        "Flash\nVigilance\nWhen Scuttling Sentinel enters, put a +1/+1 counter on another target creature you control. Until end of turn, that creature becomes a blue Crab in addition to its other types and gains hexproof. (It can't be the target of spells or abilities your opponents control.)"}
+        "Flash\nVigilance\nWhen this creature enters, put a +1/+1 counter on another target creature you control. Until end of turn, that creature becomes a blue Crab in addition to its other types and gains hexproof. (It can't be the target of spells or abilities your opponents control.)"}
  #:card{:type-line "Creature — Zombie Giant",
         :layout-category :normal,
         :code "clu",
@@ -470,7 +470,7 @@
         :layout "normal",
         :name "Sludge Titan",
         :oracle-text
-        "Trample\nWhenever Sludge Titan enters or attacks, mill five cards. You may put a creature card and/or a land card from among them into your hand."}
+        "Trample\nWhenever this creature enters or attacks, mill five cards. You may put a creature card and/or a land card from among them into your hand."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "clu",
@@ -481,7 +481,7 @@
         :layout "normal",
         :name "Stampede Surfer",
         :oracle-text
-        "Haste\nWhenever Stampede Surfer attacks, for each opponent, you create a 2/2 green Boar creature token that's tapped and attacking that opponent."}
+        "Haste\nWhenever this creature attacks, for each opponent, you create a 2/2 green Boar creature token that's tapped and attacking that opponent."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "clu",
@@ -514,7 +514,7 @@
         :layout "normal",
         :name "Syndicate Heavy",
         :oracle-text
-        "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nAt the beginning of each end step, if you gained 4 or more life this turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nAt the beginning of each end step, if you gained 4 or more life this turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Elf Shaman",
         :layout-category :normal,
         :code "clu",
@@ -525,7 +525,7 @@
         :layout "normal",
         :name "Tribune of Rot",
         :oracle-text
-        "Whenever Tribune of Rot attacks, mill two cards. For each creature card milled this way, create a 1/1 green Saproling creature token."}
+        "Whenever this creature attacks, mill two cards. For each creature card milled this way, create a 1/1 green Saproling creature token."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "clu",
@@ -536,7 +536,7 @@
         :layout "normal",
         :name "Undercover Butler",
         :oracle-text
-        "Whenever Undercover Butler attacks the player with the most life or tied for most life, it can't be blocked this turn."}
+        "Whenever this creature attacks the player with the most life or tied for most life, it can't be blocked this turn."}
  #:card{:type-line "Creature — Shark Octopus Lizard",
         :layout-category :normal,
         :code "clu",
@@ -547,7 +547,7 @@
         :layout "normal",
         :name "Unruly Krasis",
         :oracle-text
-        "Trample\nWhenever Unruly Krasis attacks, you may have the base power and toughness of another target creature you control become X/X until end of turn, where X is Unruly Krasis's power.\n{3}{G}{U}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)"}
+        "Trample\nWhenever this creature attacks, you may have the base power and toughness of another target creature you control become X/X until end of turn, where X is this creature's power.\n{3}{G}{U}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)"}
  #:card{:type-line "Creature — Elemental Elk",
         :layout-category :normal,
         :code "clu",
@@ -558,7 +558,7 @@
         :layout "normal",
         :name "Vernal Sovereign",
         :oracle-text
-        "Whenever Vernal Sovereign enters or attacks, create a green and white Elemental creature token with \"This creature's power and toughness are each equal to the number of creatures you control.\""}
+        "Whenever this creature enters or attacks, create a green and white Elemental creature token with \"This token's power and toughness are each equal to the number of creatures you control.\""}
  #:card{:type-line "Creature — Cat Soldier",
         :layout-category :normal,
         :code "clu",
@@ -569,7 +569,7 @@
         :layout "normal",
         :name "Ajani's Pridemate",
         :oracle-text
-        "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate."}
+        "Whenever you gain life, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "clu",
@@ -580,7 +580,7 @@
         :layout "normal",
         :name "Angel of Vitality",
         :oracle-text
-        "Flying\nIf you would gain life, you gain that much life plus 1 instead.\nAngel of Vitality gets +2/+2 as long as you have 25 or more life."}
+        "Flying\nIf you would gain life, you gain that much life plus 1 instead.\nThis creature gets +2/+2 as long as you have 25 or more life."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -591,7 +591,7 @@
         :layout "normal",
         :name "Azorius Arrester",
         :oracle-text
-        "When Azorius Arrester enters, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
+        "When this creature enters, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "clu",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Azorius Justiciar",
         :oracle-text
-        "When Azorius Justiciar enters, detain up to two target creatures your opponents control. (Until your next turn, those creatures can't attack or block and their activated abilities can't be activated.)"}
+        "When this creature enters, detain up to two target creatures your opponents control. (Until your next turn, those creatures can't attack or block and their activated abilities can't be activated.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "clu",
@@ -613,7 +613,7 @@
         :layout "normal",
         :name "Conclave Tribunal",
         :oracle-text
-        "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen Conclave Tribunal enters, exile target nonland permanent an opponent controls until Conclave Tribunal leaves the battlefield."}
+        "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -646,7 +646,7 @@
         :layout "normal",
         :name "Doomed Traveler",
         :oracle-text
-        "When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying."}
+        "When this creature dies, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Creature — Griffin",
         :layout-category :normal,
         :code "clu",
@@ -678,7 +678,7 @@
         :layout "normal",
         :name "Glorifier of Dusk",
         :oracle-text
-        "Pay 2 life: Glorifier of Dusk gains flying until end of turn.\nPay 2 life: Glorifier of Dusk gains vigilance until end of turn."}
+        "Pay 2 life: This creature gains flying until end of turn.\nPay 2 life: This creature gains vigilance until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -744,7 +744,7 @@
         :layout "normal",
         :name "Parhelion Patrol",
         :oracle-text
-        "Flying, vigilance\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)"}
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -766,7 +766,7 @@
         :layout "normal",
         :name "Roc Charger",
         :oracle-text
-        "Flying\nWhenever Roc Charger attacks, target attacking creature without flying gains flying until end of turn."}
+        "Flying\nWhenever this creature attacks, target attacking creature without flying gains flying until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -788,7 +788,7 @@
         :layout "normal",
         :name "Seller of Songbirds",
         :oracle-text
-        "When Seller of Songbirds enters, create a 1/1 white Bird creature token with flying."}
+        "When this creature enters, create a 1/1 white Bird creature token with flying."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -799,7 +799,7 @@
         :layout "normal",
         :name "Sunhome Stalwart",
         :oracle-text
-        "First strike\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)"}
+        "First strike (This creature deals combat damage before creatures without first strike.)\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)"}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "clu",
@@ -843,7 +843,7 @@
         :layout "normal",
         :name "Trusted Pegasus",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever Trusted Pegasus attacks, target attacking creature without flying gains flying until end of turn."}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever this creature attacks, target attacking creature without flying gains flying until end of turn."}
  #:card{:type-line "Creature — Cat Spirit",
         :layout-category :normal,
         :code "clu",
@@ -854,7 +854,7 @@
         :layout "normal",
         :name "Twilight Panther",
         :oracle-text
-        "{B}: Twilight Panther gains deathtouch until end of turn."}
+        "{B}: This creature gains deathtouch until end of turn."}
  #:card{:type-line "Creature — Human Cleric",
         :layout-category :normal,
         :code "clu",
@@ -865,7 +865,7 @@
         :layout "normal",
         :name "Urbis Protector",
         :oracle-text
-        "When Urbis Protector enters, create a 4/4 white Angel creature token with flying."}
+        "When this creature enters, create a 4/4 white Angel creature token with flying."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "clu",
@@ -897,7 +897,7 @@
         :collector-number "82",
         :layout "normal",
         :name "Cloudkin Seer",
-        :oracle-text "Flying\nWhen Cloudkin Seer enters, draw a card."}
+        :oracle-text "Flying\nWhen this creature enters, draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -962,7 +962,7 @@
         :layout "normal",
         :name "Jeering Homunculus",
         :oracle-text
-        "When Jeering Homunculus enters, you may goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
+        "When this creature enters, you may goad target creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)"}
  #:card{:type-line "Creature — Frog",
         :layout-category :normal,
         :code "clu",
@@ -973,7 +973,7 @@
         :layout "normal",
         :name "Leapfrog",
         :oracle-text
-        "Leapfrog has flying as long as you've cast an instant or sorcery spell this turn."}
+        "This creature has flying as long as you've cast an instant or sorcery spell this turn."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "clu",
@@ -984,7 +984,7 @@
         :layout "normal",
         :name "Owl Familiar",
         :oracle-text
-        "Flying\nWhen Owl Familiar enters, draw a card, then discard a card."}
+        "Flying\nWhen this creature enters, draw a card, then discard a card."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "clu",
@@ -1039,7 +1039,7 @@
         :layout "normal",
         :name "Rescuer Sphinx",
         :oracle-text
-        "Flying\nAs Rescuer Sphinx enters, you may return a nonland permanent you control to its owner's hand. If you do, Rescuer Sphinx enters with a +1/+1 counter on it."}
+        "Flying\nAs this creature enters, you may return a nonland permanent you control to its owner's hand. If you do, this creature enters with a +1/+1 counter on it."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "clu",
@@ -1050,7 +1050,7 @@
         :layout "normal",
         :name "Roaming Ghostlight",
         :oracle-text
-        "Flying\nWhen Roaming Ghostlight enters, return up to one target non-Spirit creature to its owner's hand."}
+        "Flying\nWhen this creature enters, return up to one target non-Spirit creature to its owner's hand."}
  #:card{:type-line "Creature — Vedalken Wizard",
         :layout-category :normal,
         :code "clu",
@@ -1060,7 +1060,7 @@
         :collector-number "97",
         :layout "normal",
         :name "Sage's Row Savant",
-        :oracle-text "When Sage's Row Savant enters, scry 2."}
+        :oracle-text "When this creature enters, scry 2."}
  #:card{:type-line "Creature — Fish Crab",
         :layout-category :normal,
         :code "clu",
@@ -1104,7 +1104,7 @@
         :layout "normal",
         :name "Stunt Double",
         :oracle-text
-        "Flash\nYou may have Stunt Double enter as a copy of any creature on the battlefield."}
+        "Flash\nYou may have this creature enter as a copy of any creature on the battlefield."}
  #:card{:type-line "Creature — Elemental Drake",
         :layout-category :normal,
         :code "clu",
@@ -1115,7 +1115,7 @@
         :layout "normal",
         :name "Thunder Drake",
         :oracle-text
-        "Flying\nWhenever you cast your second spell each turn, put a +1/+1 counter on Thunder Drake."}
+        "Flying\nWhenever you cast your second spell each turn, put a +1/+1 counter on this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1137,7 +1137,7 @@
         :layout "normal",
         :name "Watcher in the Mist",
         :oracle-text
-        "Flying\nWhen Watcher in the Mist enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
+        "Flying\nWhen this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
  #:card{:type-line "Creature — Bat",
         :layout-category :normal,
         :code "clu",
@@ -1159,7 +1159,7 @@
         :layout "normal",
         :name "Blade Juggler",
         :oracle-text
-        "Spectacle {2}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nWhen Blade Juggler enters, it deals 1 damage to you and you draw a card."}
+        "Spectacle {2}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nWhen this creature enters, it deals 1 damage to you and you draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1180,7 +1180,7 @@
         :collector-number "108",
         :layout "normal",
         :name "Daggerclaw Imp",
-        :oracle-text "Flying\nDaggerclaw Imp can't block."}
+        :oracle-text "Flying\nThis creature can't block."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1191,7 +1191,7 @@
         :layout "normal",
         :name "Deadly Dispute",
         :oracle-text
-        "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1213,7 +1213,7 @@
         :layout "normal",
         :name "Fleshbag Marauder",
         :oracle-text
-        "When Fleshbag Marauder enters, each player sacrifices a creature."}
+        "When this creature enters, each player sacrifices a creature of their choice."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "clu",
@@ -1224,7 +1224,7 @@
         :layout "normal",
         :name "Gorging Vulture",
         :oracle-text
-        "Flying\nWhen Gorging Vulture enters, mill four cards. You gain 1 life for each creature card milled this way. (To mill four cards, put the top four cards of your library into your graveyard.)"}
+        "Flying\nWhen this creature enters, mill four cards. You gain 1 life for each creature card milled this way. (To mill four cards, put the top four cards of your library into your graveyard.)"}
  #:card{:type-line "Creature — Bat",
         :layout-category :normal,
         :code "clu",
@@ -1255,7 +1255,7 @@
         :layout "normal",
         :name "Masked Blackguard",
         :oracle-text
-        "Flash (You may cast this spell any time you could cast an instant.)\n{2}{B}: Masked Blackguard gets +1/+1 until end of turn."}
+        "Flash (You may cast this spell any time you could cast an instant.)\n{2}{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Creature — Ogre Rogue",
         :layout-category :normal,
         :code "clu",
@@ -1266,7 +1266,7 @@
         :layout "normal",
         :name "Mausoleum Turnkey",
         :oracle-text
-        "When Mausoleum Turnkey enters, return target creature card of an opponent's choice from your graveyard to your hand."}
+        "When this creature enters, return target creature card of an opponent's choice from your graveyard to your hand."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "clu",
@@ -1277,7 +1277,7 @@
         :layout "normal",
         :name "Orzhov Racketeers",
         :oracle-text
-        "Whenever Orzhov Racketeers deals combat damage to a player, that player discards a card.\nAfterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)"}
+        "Whenever this creature deals combat damage to a player, that player discards a card.\nAfterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "clu",
@@ -1299,7 +1299,7 @@
         :layout "normal",
         :name "Rakdos Trumpeter",
         :oracle-text
-        "Menace (This creature can't be blocked except by two or more creatures.)\n{3}{R}: Rakdos Trumpeter gets +2/+0 until end of turn."}
+        "Menace (This creature can't be blocked except by two or more creatures.)\n{3}{R}: This creature gets +2/+0 until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -1321,7 +1321,7 @@
         :layout "normal",
         :name "Roofstalker Wight",
         :oracle-text
-        "{1}{U}: Roofstalker Wight gains flying until end of turn."}
+        "{1}{U}: This creature gains flying until end of turn."}
  #:card{:type-line "Creature — Demon",
         :layout-category :normal,
         :code "clu",
@@ -1332,7 +1332,7 @@
         :layout "normal",
         :name "Spawn of Mayhem",
         :oracle-text
-        "Spectacle {1}{B}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nFlying, trample\nAt the beginning of your upkeep, Spawn of Mayhem deals 1 damage to each player. Then if you have 10 or less life, put a +1/+1 counter on Spawn of Mayhem."}
+        "Spectacle {1}{B}{B} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nFlying, trample\nAt the beginning of your upkeep, this creature deals 1 damage to each player. Then if you have 10 or less life, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "clu",
@@ -1354,7 +1354,7 @@
         :layout "normal",
         :name "Tithebearer Giant",
         :oracle-text
-        "When Tithebearer Giant enters, you draw a card and you lose 1 life."}
+        "When this creature enters, you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Gorgon Cleric",
         :layout-category :normal,
         :code "clu",
@@ -1365,7 +1365,7 @@
         :layout "normal",
         :name "Venomous Hierophant",
         :oracle-text
-        "Deathtouch\nWhen Venomous Hierophant enters, mill three cards. (Put the top three cards of your library into your graveyard.)"}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)"}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "clu",
@@ -1376,7 +1376,7 @@
         :layout "normal",
         :name "Vindictive Vampire",
         :oracle-text
-        "Whenever another creature you control dies, Vindictive Vampire deals 1 damage to each opponent and you gain 1 life."}
+        "Whenever another creature you control dies, this creature deals 1 damage to each opponent and you gain 1 life."}
  #:card{:type-line "Creature — Cyclops Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1397,7 +1397,7 @@
         :layout "normal",
         :name "Coordinated Assault",
         :oracle-text
-        "Up to two target creatures each get +1/+0 and gain first strike until end of turn."}
+        "Up to two target creatures each get +1/+0 and gain first strike until end of turn. (They deal combat damage before creatures without first strike.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -1419,7 +1419,7 @@
         :layout "normal",
         :name "Dagger Caster",
         :oracle-text
-        "When Dagger Caster enters, it deals 1 damage to each opponent and 1 damage to each creature your opponents control."}
+        "When this creature enters, it deals 1 damage to each opponent and 1 damage to each creature your opponents control."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1452,7 +1452,7 @@
         :layout "normal",
         :name "Fire Urchin",
         :oracle-text
-        "Trample\nWhenever you cast an instant or sorcery spell, Fire Urchin gets +1/+0 until end of turn."}
+        "Trample\nWhenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -1463,7 +1463,7 @@
         :layout "normal",
         :name "Firefist Striker",
         :oracle-text
-        "Battalion — Whenever Firefist Striker and at least two other creatures attack, target creature can't block this turn."}
+        "Battalion — Whenever this creature and at least two other creatures attack, target creature can't block this turn."}
  #:card{:type-line "Creature — Goblin Berserker",
         :layout-category :normal,
         :code "clu",
@@ -1474,7 +1474,7 @@
         :layout "normal",
         :name "Frenzied Goblin",
         :oracle-text
-        "Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn."}
+        "Whenever this creature attacks, you may pay {R}. If you do, target creature can't block this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1496,7 +1496,7 @@
         :layout "normal",
         :name "Gravel-Hide Goblin",
         :oracle-text
-        "{3}{G}: Gravel-Hide Goblin gets +2/+2 until end of turn."}
+        "{3}{G}: This creature gets +2/+2 until end of turn."}
  #:card{:type-line "Creature — Devil",
         :layout-category :normal,
         :code "clu",
@@ -1507,7 +1507,7 @@
         :layout "normal",
         :name "Havoc Jester",
         :oracle-text
-        "Whenever you sacrifice a permanent, Havoc Jester deals 1 damage to any target."}
+        "Whenever you sacrifice a permanent, this creature deals 1 damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -1549,7 +1549,7 @@
         :layout "normal",
         :name "Living Lightning",
         :oracle-text
-        "When Living Lightning dies, return target instant or sorcery card from your graveyard to your hand."}
+        "When this creature dies, return target instant or sorcery card from your graveyard to your hand."}
  #:card{:type-line "Creature — Goblin Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1560,7 +1560,7 @@
         :layout "normal",
         :name "Ornery Goblin",
         :oracle-text
-        "Whenever Ornery Goblin blocks or becomes blocked by a creature, Ornery Goblin deals 1 damage to that creature."}
+        "Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature."}
  #:card{:type-line "Creature — Goblin Shaman",
         :layout-category :normal,
         :code "clu",
@@ -1571,7 +1571,7 @@
         :layout "normal",
         :name "Pyrewild Shaman",
         :oracle-text
-        "Bloodrush — {1}{R}, Discard Pyrewild Shaman: Target attacking creature gets +3/+1 until end of turn.\nWhenever one or more creatures you control deal combat damage to a player, if Pyrewild Shaman is in your graveyard, you may pay {3}. If you do, return Pyrewild Shaman to your hand."}
+        "Bloodrush — {1}{R}, Discard this card: Target attacking creature gets +3/+1 until end of turn.\nWhenever one or more creatures you control deal combat damage to a player, if this card is in your graveyard, you may pay {3}. If you do, return this card to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -1604,7 +1604,7 @@
         :layout "normal",
         :name "Shiny Impetus",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Weird",
         :layout-category :normal,
         :code "clu",
@@ -1615,7 +1615,7 @@
         :layout "normal",
         :name "Spellgorger Weird",
         :oracle-text
-        "Whenever you cast a noncreature spell, put a +1/+1 counter on Spellgorger Weird."}
+        "Whenever you cast a noncreature spell, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Human Berserker",
         :layout-category :normal,
         :code "clu",
@@ -1648,7 +1648,7 @@
         :layout "normal",
         :name "Towering Thunderfist",
         :oracle-text
-        "{W}: Towering Thunderfist gains vigilance until end of turn."}
+        "{W}: This creature gains vigilance until end of turn."}
  #:card{:type-line "Creature — Ogre Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1659,7 +1659,7 @@
         :layout "normal",
         :name "Turret Ogre",
         :oracle-text
-        "Reach (This creature can block creatures with flying.)\nWhen Turret Ogre enters, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent."}
+        "Reach (This creature can block creatures with flying.)\nWhen this creature enters, if you control another creature with power 4 or greater, this creature deals 2 damage to each opponent."}
  #:card{:type-line "Creature — Goblin Scout",
         :layout-category :normal,
         :code "clu",
@@ -1670,7 +1670,7 @@
         :layout "normal",
         :name "Utvara Scalper",
         :oracle-text
-        "Flying\nUtvara Scalper attacks each combat if able."}
+        "Flying\nThis creature attacks each combat if able."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -1681,7 +1681,7 @@
         :layout "normal",
         :name "Wojek Bodyguard",
         :oracle-text
-        "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWojek Bodyguard can't attack or block alone."}
+        "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nThis creature can't attack or block alone."}
  #:card{:type-line "Creature — Beast",
         :layout-category :normal,
         :code "clu",
@@ -1692,7 +1692,7 @@
         :layout "normal",
         :name "Affectionate Indrik",
         :oracle-text
-        "When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)"}
+        "When this creature enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1714,7 +1714,7 @@
         :layout "normal",
         :name "Battlefront Krushok",
         :oracle-text
-        "Battlefront Krushok can't be blocked by more than one creature.\nEach creature you control with a +1/+1 counter on it can't be blocked by more than one creature."}
+        "This creature can't be blocked by more than one creature.\nEach creature you control with a +1/+1 counter on it can't be blocked by more than one creature."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "clu",
@@ -1758,7 +1758,7 @@
         :layout "normal",
         :name "Duskshell Crawler",
         :oracle-text
-        "When Duskshell Crawler enters, put a +1/+1 counter on target creature.\nEach creature you control with a +1/+1 counter on it has trample."}
+        "When this creature enters, put a +1/+1 counter on target creature.\nEach creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)"}
  #:card{:type-line "Creature — Rhino",
         :layout-category :normal,
         :code "clu",
@@ -1769,7 +1769,7 @@
         :layout "normal",
         :name "Enraged Ceratok",
         :oracle-text
-        "Enraged Ceratok can't be blocked by creatures with power 2 or less."}
+        "This creature can't be blocked by creatures with power 2 or less."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1791,7 +1791,7 @@
         :layout "normal",
         :name "Giant Adephage",
         :oracle-text
-        "Trample\nWhenever Giant Adephage deals combat damage to a player, create a token that's a copy of Giant Adephage."}
+        "Trample\nWhenever this creature deals combat damage to a player, create a token that's a copy of this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1824,7 +1824,7 @@
         :layout "normal",
         :name "Kraul Harpooner",
         :oracle-text
-        "Reach\nUndergrowth — When Kraul Harpooner enters, choose up to one target creature you don't control with flying. Kraul Harpooner gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard, then you may have Kraul Harpooner fight that creature."}
+        "Reach\nUndergrowth — When this creature enters, choose up to one target creature you don't control with flying. This creature gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard, then you may have this creature fight that creature."}
  #:card{:type-line "Creature — Insect Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1835,7 +1835,7 @@
         :layout "normal",
         :name "Kraul Warrior",
         :oracle-text
-        "{5}{G}: Kraul Warrior gets +3/+3 until end of turn."}
+        "{5}{G}: This creature gets +3/+3 until end of turn."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "clu",
@@ -1846,7 +1846,7 @@
         :layout "normal",
         :name "Kronch Wrangler",
         :oracle-text
-        "Trample\nWhenever a creature you control with power 4 or greater enters, put a +1/+1 counter on Kronch Wrangler."}
+        "Trample\nWhenever a creature you control with power 4 or greater enters, put a +1/+1 counter on this creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -1868,7 +1868,7 @@
         :layout "normal",
         :name "Overcome",
         :oracle-text
-        "Creatures you control get +2/+2 and gain trample until end of turn."}
+        "Creatures you control get +2/+2 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "clu",
@@ -1901,7 +1901,7 @@
         :layout "normal",
         :name "Steeple Creeper",
         :oracle-text
-        "{3}{U}: Steeple Creeper gains flying until end of turn."}
+        "{3}{U}: This creature gains flying until end of turn."}
  #:card{:type-line "Creature — Boar",
         :layout-category :normal,
         :code "clu",
@@ -1912,7 +1912,7 @@
         :layout "normal",
         :name "Territorial Boar",
         :oracle-text
-        "Whenever a creature you control with power 4 or greater enters, Territorial Boar gets +1/+1 and gains vigilance until end of turn."}
+        "Whenever a creature you control with power 4 or greater enters, this creature gets +1/+1 and gains vigilance until end of turn."}
  #:card{:type-line "Creature — Plant Dog",
         :layout-category :normal,
         :code "clu",
@@ -1934,7 +1934,7 @@
         :layout "normal",
         :name "Transluminant",
         :oracle-text
-        "{W}, Sacrifice Transluminant: Create a 1/1 white Spirit creature token with flying at the beginning of the next end step."}
+        "{W}, Sacrifice this creature: Create a 1/1 white Spirit creature token with flying at the beginning of the next end step."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -1978,7 +1978,7 @@
         :layout "normal",
         :name "Yeva's Forcemage",
         :oracle-text
-        "When Yeva's Forcemage enters, target creature gets +2/+2 until end of turn."}
+        "When this creature enters, target creature gets +2/+2 until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -2011,7 +2011,7 @@
         :layout "normal",
         :name "Deadbridge Chant",
         :oracle-text
-        "When Deadbridge Chant enters, mill ten cards.\nAt the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand."}
+        "When this enchantment enters, mill ten cards.\nAt the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand."}
  #:card{:code "clu",
         :collector-number "185",
         :name "Depose // Deploy",
@@ -2073,7 +2073,7 @@
         :layout "normal",
         :name "Firemane Avenger",
         :oracle-text
-        "Flying\nBattalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to any target and you gain 3 life."}
+        "Flying\nBattalion — Whenever this creature and at least two other creatures attack, this creature deals 3 damage to any target and you gain 3 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "clu",
@@ -2095,7 +2095,7 @@
         :layout "normal",
         :name "Footlight Fiend",
         :oracle-text
-        "When Footlight Fiend dies, it deals 1 damage to any target."}
+        "When this creature dies, it deals 1 damage to any target."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -2106,7 +2106,7 @@
         :layout "normal",
         :name "Fresh-Faced Recruit",
         :oracle-text
-        "During your turn, Fresh-Faced Recruit has first strike."}
+        "During your turn, this creature has first strike."}
  #:card{:type-line "Creature — Weird",
         :layout-category :normal,
         :code "clu",
@@ -2117,7 +2117,7 @@
         :layout "normal",
         :name "Frostburn Weird",
         :oracle-text
-        "{U/R}: Frostburn Weird gets +1/-1 until end of turn."}
+        "{U/R}: This creature gets +1/-1 until end of turn."}
  #:card{:type-line "Creature — Elf Shaman",
         :layout-category :normal,
         :code "clu",
@@ -2139,7 +2139,7 @@
         :layout "normal",
         :name "Hydroid Krasis",
         :oracle-text
-        "When you cast this spell, you gain half X life and draw half X cards. Round down each time.\nFlying, trample\nHydroid Krasis enters with X +1/+1 counters on it."}
+        "When you cast this spell, you gain half X life and draw half X cards. Round down each time.\nFlying, trample\nThis creature enters with X +1/+1 counters on it."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "clu",
@@ -2190,7 +2190,7 @@
         :layout "normal",
         :name "Lavinia of the Tenth",
         :oracle-text
-        "Protection from red\nWhen Lavinia of the Tenth enters, detain each nonland permanent your opponents control with mana value 4 or less. (Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.)"}
+        "Protection from red\nWhen Lavinia enters, detain each nonland permanent your opponents control with mana value 4 or less. (Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.)"}
  #:card{:type-line "Creature — Elf Wizard",
         :layout-category :normal,
         :code "clu",
@@ -2201,7 +2201,7 @@
         :layout "normal",
         :name "Master Biomancer",
         :oracle-text
-        "Each other creature you control enters with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types."}
+        "Each other creature you control enters with a number of additional +1/+1 counters on it equal to this creature's power and as a Mutant in addition to its other types."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "clu",
@@ -2254,7 +2254,7 @@
         :layout "normal",
         :name "Rakdos, the Showstopper",
         :oracle-text
-        "Flying, trample\nWhen Rakdos, the Showstopper enters, flip a coin for each creature that isn't a Demon, Devil, or Imp. Destroy each creature whose coin comes up tails."}
+        "Flying, trample\nWhen Rakdos enters, flip a coin for each creature that isn't a Demon, Devil, or Imp. Destroy each creature whose coin comes up tails."}
  #:card{:type-line "Creature — Crab Turtle Crocodile",
         :layout-category :normal,
         :code "clu",
@@ -2265,7 +2265,7 @@
         :layout "normal",
         :name "Scuttlegator",
         :oracle-text
-        "Defender\n{6}{G/U}{G/U}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)\nAs long as Scuttlegator has a +1/+1 counter on it, it can attack as though it didn't have defender."}
+        "Defender\n{6}{G/U}{G/U}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)\nAs long as this creature has a +1/+1 counter on it, it can attack as though it didn't have defender."}
  #:card{:type-line "Creature — Elf Wizard",
         :layout-category :normal,
         :code "clu",
@@ -2287,7 +2287,7 @@
         :layout "normal",
         :name "Seraph of the Scales",
         :oracle-text
-        "Flying\n{W}: Seraph of the Scales gains vigilance until end of turn.\n{B}: Seraph of the Scales gains deathtouch until end of turn.\nAfterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)"}
+        "Flying\n{W}: This creature gains vigilance until end of turn.\n{B}: This creature gains deathtouch until end of turn.\nAfterlife 2 (When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -2335,7 +2335,7 @@
         :layout "normal",
         :name "Thief of Sanity",
         :oracle-text
-        "Flying\nWhenever Thief of Sanity deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
+        "Flying\nWhenever this creature deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Legendary Creature — Dryad",
         :layout-category :normal,
         :code "clu",
@@ -2346,7 +2346,7 @@
         :layout "normal",
         :name "Trostani Discordant",
         :oracle-text
-        "Other creatures you control get +1/+1.\nWhen Trostani Discordant enters, create two 1/1 white Soldier creature tokens with lifelink.\nAt the beginning of your end step, each player gains control of all creatures they own."}
+        "Other creatures you control get +1/+1.\nWhen Trostani enters, create two 1/1 white Soldier creature tokens with lifelink.\nAt the beginning of your end step, each player gains control of all creatures they own."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "clu",
@@ -2368,7 +2368,7 @@
         :layout "normal",
         :name "Underrealm Lich",
         :oracle-text
-        "If you would draw a card, instead look at the top three cards of your library, then put one into your hand and the rest into your graveyard.\nPay 4 life: Underrealm Lich gains indestructible until end of turn. Tap it."}
+        "If you would draw a card, instead look at the top three cards of your library, then put one into your hand and the rest into your graveyard.\nPay 4 life: This creature gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "clu",
@@ -2399,7 +2399,7 @@
         :layout "normal",
         :name "Whisper Agent",
         :oracle-text
-        "Flash\nWhen Whisper Agent enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "Flash\nWhen this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "clu",
@@ -2510,7 +2510,7 @@
         :layout "normal",
         :name "Azorius Chancery",
         :oracle-text
-        "Azorius Chancery enters tapped.\nWhen Azorius Chancery enters, return a land you control to its owner's hand.\n{T}: Add {W}{U}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{U}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2520,8 +2520,7 @@
         :collector-number "230",
         :layout "normal",
         :name "Azorius Guildgate",
-        :oracle-text
-        "Azorius Guildgate enters tapped.\n{T}: Add {W} or {U}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2532,7 +2531,7 @@
         :layout "normal",
         :name "Boros Garrison",
         :oracle-text
-        "Boros Garrison enters tapped.\nWhen Boros Garrison enters, return a land you control to its owner's hand.\n{T}: Add {R}{W}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {R}{W}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2542,8 +2541,7 @@
         :collector-number "232",
         :layout "normal",
         :name "Boros Guildgate",
-        :oracle-text
-        "Boros Guildgate enters tapped.\n{T}: Add {R} or {W}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2554,7 +2552,7 @@
         :layout "normal",
         :name "Dimir Aqueduct",
         :oracle-text
-        "Dimir Aqueduct enters tapped.\nWhen Dimir Aqueduct enters, return a land you control to its owner's hand.\n{T}: Add {U}{B}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{B}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2564,8 +2562,7 @@
         :collector-number "234",
         :layout "normal",
         :name "Dimir Guildgate",
-        :oracle-text
-        "Dimir Guildgate enters tapped.\n{T}: Add {U} or {B}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2575,8 +2572,7 @@
         :collector-number "235",
         :layout "normal",
         :name "Golgari Guildgate",
-        :oracle-text
-        "Golgari Guildgate enters tapped.\n{T}: Add {B} or {G}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2587,7 +2583,7 @@
         :layout "normal",
         :name "Golgari Rot Farm",
         :oracle-text
-        "Golgari Rot Farm enters tapped.\nWhen Golgari Rot Farm enters, return a land you control to its owner's hand.\n{T}: Add {B}{G}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {B}{G}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2597,8 +2593,7 @@
         :collector-number "237",
         :layout "normal",
         :name "Gruul Guildgate",
-        :oracle-text
-        "Gruul Guildgate enters tapped.\n{T}: Add {R} or {G}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {R} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2609,7 +2604,7 @@
         :layout "normal",
         :name "Gruul Turf",
         :oracle-text
-        "Gruul Turf enters tapped.\nWhen Gruul Turf enters, return a land you control to its owner's hand.\n{T}: Add {R}{G}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {R}{G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2620,7 +2615,7 @@
         :layout "normal",
         :name "Izzet Boilerworks",
         :oracle-text
-        "Izzet Boilerworks enters tapped.\nWhen Izzet Boilerworks enters, return a land you control to its owner's hand.\n{T}: Add {U}{R}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{R}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2630,8 +2625,7 @@
         :collector-number "240",
         :layout "normal",
         :name "Izzet Guildgate",
-        :oracle-text
-        "Izzet Guildgate enters tapped.\n{T}: Add {U} or {R}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2642,7 +2636,7 @@
         :layout "normal",
         :name "Orzhov Basilica",
         :oracle-text
-        "Orzhov Basilica enters tapped.\nWhen Orzhov Basilica enters, return a land you control to its owner's hand.\n{T}: Add {W}{B}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{B}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2652,8 +2646,7 @@
         :collector-number "242",
         :layout "normal",
         :name "Orzhov Guildgate",
-        :oracle-text
-        "Orzhov Guildgate enters tapped.\n{T}: Add {W} or {B}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2664,7 +2657,7 @@
         :layout "normal",
         :name "Rakdos Carnarium",
         :oracle-text
-        "Rakdos Carnarium enters tapped.\nWhen Rakdos Carnarium enters, return a land you control to its owner's hand.\n{T}: Add {B}{R}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {B}{R}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2674,8 +2667,7 @@
         :collector-number "244",
         :layout "normal",
         :name "Rakdos Guildgate",
-        :oracle-text
-        "Rakdos Guildgate enters tapped.\n{T}: Add {B} or {R}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2685,8 +2677,7 @@
         :collector-number "245",
         :layout "normal",
         :name "Selesnya Guildgate",
-        :oracle-text
-        "Selesnya Guildgate enters tapped.\n{T}: Add {G} or {W}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {G} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2697,7 +2688,7 @@
         :layout "normal",
         :name "Selesnya Sanctuary",
         :oracle-text
-        "Selesnya Sanctuary enters tapped.\nWhen Selesnya Sanctuary enters, return a land you control to its owner's hand.\n{T}: Add {G}{W}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {G}{W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2708,7 +2699,7 @@
         :layout "normal",
         :name "Simic Growth Chamber",
         :oracle-text
-        "Simic Growth Chamber enters tapped.\nWhen Simic Growth Chamber enters, return a land you control to its owner's hand.\n{T}: Add {G}{U}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {G}{U}."}
  #:card{:type-line "Land — Gate",
         :layout-category :normal,
         :code "clu",
@@ -2718,8 +2709,7 @@
         :collector-number "248",
         :layout "normal",
         :name "Simic Guildgate",
-        :oracle-text
-        "Simic Guildgate enters tapped.\n{T}: Add {G} or {U}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2730,7 +2720,7 @@
         :layout "normal",
         :name "Thriving Bluff",
         :oracle-text
-        "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2741,7 +2731,7 @@
         :layout "normal",
         :name "Thriving Grove",
         :oracle-text
-        "Thriving Grove enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2752,7 +2742,7 @@
         :layout "normal",
         :name "Thriving Heath",
         :oracle-text
-        "Thriving Heath enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2763,7 +2753,7 @@
         :layout "normal",
         :name "Thriving Isle",
         :oracle-text
-        "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "clu",
@@ -2774,7 +2764,7 @@
         :layout "normal",
         :name "Thriving Moor",
         :oracle-text
-        "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."}
  #:card{:type-line "Basic Land — Plains",
         :layout-category :normal,
         :code "clu",
@@ -2985,7 +2975,7 @@
         :layout "normal",
         :name "Blood Crypt",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nAs Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Forest Island",
         :layout-category :normal,
         :code "clu",
@@ -2996,7 +2986,7 @@
         :layout "normal",
         :name "Breeding Pool",
         :oracle-text
-        "({T}: Add {G} or {U}.)\nAs Breeding Pool enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {G} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Plains Swamp",
         :layout-category :normal,
         :code "clu",
@@ -3007,7 +2997,7 @@
         :layout "normal",
         :name "Godless Shrine",
         :oracle-text
-        "({T}: Add {W} or {B}.)\nAs Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {W} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "clu",
@@ -3018,7 +3008,7 @@
         :layout "normal",
         :name "Hallowed Fountain",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nAs Hallowed Fountain enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Swamp Forest",
         :layout-category :normal,
         :code "clu",
@@ -3029,7 +3019,7 @@
         :layout "normal",
         :name "Overgrown Tomb",
         :oracle-text
-        "({T}: Add {B} or {G}.)\nAs Overgrown Tomb enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {B} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Mountain Plains",
         :layout-category :normal,
         :code "clu",
@@ -3040,7 +3030,7 @@
         :layout "normal",
         :name "Sacred Foundry",
         :oracle-text
-        "({T}: Add {R} or {W}.)\nAs Sacred Foundry enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Island Mountain",
         :layout-category :normal,
         :code "clu",
@@ -3051,7 +3041,7 @@
         :layout "normal",
         :name "Steam Vents",
         :oracle-text
-        "({T}: Add {U} or {R}.)\nAs Steam Vents enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Mountain Forest",
         :layout-category :normal,
         :code "clu",
@@ -3062,7 +3052,7 @@
         :layout "normal",
         :name "Stomping Ground",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nAs Stomping Ground enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {R} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Forest Plains",
         :layout-category :normal,
         :code "clu",
@@ -3073,7 +3063,7 @@
         :layout "normal",
         :name "Temple Garden",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nAs Temple Garden enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {G} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Land — Island Swamp",
         :layout-category :normal,
         :code "clu",
@@ -3084,7 +3074,7 @@
         :layout "normal",
         :name "Watery Grave",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nAs Watery Grave enters, you may pay 2 life. If you don't, it enters tapped."}
+        "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped."}
  #:card{:type-line "Legendary Creature — Human Detective",
         :layout-category :normal,
         :code "clu",
@@ -3095,4 +3085,4 @@
         :layout "normal",
         :name "Lavinia, Foil to Conspiracy",
         :oracle-text
-        "Vigilance\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\n{T}: Add {C}{C}. Activate only during an opponent's turn."})
+        "Vigilance\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{T}: Add {C}{C}. Activate only during an opponent's turn."})

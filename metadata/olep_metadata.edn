@@ -102,7 +102,7 @@
         :layout "normal",
         :name "Balduvian Horde",
         :oracle-text
-        "When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random."}
+        "When this creature enters, sacrifice it unless you discard a card at random."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "olep",
@@ -124,7 +124,7 @@
         :layout "normal",
         :name "Vesuvan Doppelganger",
         :oracle-text
-        "You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
+        "You may have this creature enter as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has \"At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability.\""}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "olep",
@@ -135,7 +135,7 @@
         :layout "normal",
         :name "Fallen Angel",
         :oracle-text
-        "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn."}
+        "Flying\nSacrifice a creature: This creature gets +2/+1 until end of turn."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "olep",
@@ -146,7 +146,7 @@
         :layout "normal",
         :name "Fallen Angel",
         :oracle-text
-        "Flying\nSacrifice a creature: Fallen Angel gets +2/+1 until end of turn."}
+        "Flying\nSacrifice a creature: This creature gets +2/+1 until end of turn."}
  #:card{:type-line "Legendary Creature — Demon",
         :layout-category :normal,
         :code "olep",
@@ -168,7 +168,7 @@
         :layout "normal",
         :name "Mirror Universe",
         :oracle-text
-        "{T}, Sacrifice Mirror Universe: Exchange life totals with target opponent. Activate only during your upkeep."}
+        "{T}, Sacrifice this artifact: Exchange life totals with target opponent. Activate only during your upkeep."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -190,7 +190,7 @@
         :layout "normal",
         :name "City of Brass",
         :oracle-text
-        "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
+        "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "olep",
@@ -201,7 +201,7 @@
         :layout "normal",
         :name "City of Brass",
         :oracle-text
-        "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
+        "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color."}
  #:card{:type-line "Legendary Creature — Avatar",
         :layout-category :normal,
         :code "olep",
@@ -245,7 +245,7 @@
         :layout "normal",
         :name "Guardian Beast",
         :oracle-text
-        "As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
+        "As long as this creature is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
  #:card{:type-line "Creature — Beast",
         :layout-category :normal,
         :code "olep",
@@ -256,7 +256,7 @@
         :layout "normal",
         :name "Guardian Beast",
         :oracle-text
-        "As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
+        "As long as this creature is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts."}
  #:card{:type-line "Creature — Lhurgoyf",
         :layout-category :normal,
         :code "olep",
@@ -278,7 +278,7 @@
         :layout "normal",
         :name "Adarkar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "olep",
@@ -288,8 +288,7 @@
         :collector-number "27",
         :layout "normal",
         :name "Blinking Spirit",
-        :oracle-text
-        "{0}: Return Blinking Spirit to its owner's hand."}
+        :oracle-text "{0}: Return this creature to its owner's hand."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "olep",
@@ -354,7 +353,7 @@
         :layout "normal",
         :name "Personal Incarnation",
         :oracle-text
-        "{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.\nWhen Personal Incarnation dies, its owner loses half their life, rounded up."}
+        "{0}: The next 1 damage that would be dealt to this creature this turn is dealt to its owner instead. Only this creature's owner may activate this ability.\nWhen this creature dies, its owner loses half their life, rounded up."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "olep",
@@ -365,7 +364,7 @@
         :layout "normal",
         :name "Nether Shadow",
         :oracle-text
-        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+        "Haste\nAt the beginning of your upkeep, if this card is in your graveyard with three or more creature cards above it, you may put this card onto the battlefield."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "olep",
@@ -376,7 +375,7 @@
         :layout "normal",
         :name "Nether Shadow",
         :oracle-text
-        "Haste\nAt the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield."}
+        "Haste\nAt the beginning of your upkeep, if this card is in your graveyard with three or more creature cards above it, you may put this card onto the battlefield."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -442,7 +441,7 @@
         :layout "normal",
         :name "Sibilant Spirit",
         :oracle-text
-        "Flying\nWhenever Sibilant Spirit attacks, defending player may draw a card."}
+        "Flying\nWhenever this creature attacks, defending player may draw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -453,7 +452,7 @@
         :layout "normal",
         :name "All Hallow's Eve",
         :oracle-text
-        "Exile All Hallow's Eve with two scream counters on it.\nAt the beginning of your upkeep, if All Hallow's Eve is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from their graveyard to the battlefield."}
+        "Exile All Hallow's Eve with two scream counters on it.\nAt the beginning of your upkeep, if this card is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from their graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "olep",
@@ -507,7 +506,7 @@
         :layout "normal",
         :name "Blacker Lotus",
         :oracle-text
-        "{T}: Tear Blacker Lotus into pieces. Add four mana of any one color. Remove the pieces from the game."}
+        "{T}: Tear this artifact into pieces. Add four mana of any one color. Remove the pieces from the game."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "olep",
@@ -518,7 +517,7 @@
         :layout "normal",
         :name "Mirror Mirror",
         :oracle-text
-        "Mirror Mirror enters the battlefield tapped.\n{7}, {T}, Sacrifice Mirror Mirror: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
+        "This artifact enters tapped.\n{7}, {T}, Sacrifice this artifact: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "olep",
@@ -551,7 +550,7 @@
         :layout "normal",
         :name "Infernal Spawn of Evil",
         :oracle-text
-        "Flying, first strike\n{1}{B}, Reveal Infernal Spawn of Evil from your hand, Say \"It's coming!\": Infernal Spawn of Evil deals 1 damage to target opponent or planeswalker. Activate only during your upkeep and only once each turn."}
+        "Flying, first strike\n{1}{B}, Reveal this card from your hand, Say \"It's coming\": This card deals 1 damage to target opponent or planeswalker. Activate only during your upkeep and only once each turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "olep",
@@ -562,7 +561,7 @@
         :layout "normal",
         :name "Force of Nature",
         :oracle-text
-        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
+        "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nAt the beginning of your upkeep, this creature deals 8 damage to you unless you pay {G}{G}{G}{G}."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -661,7 +660,7 @@
         :layout "normal",
         :name "Order of the White Shield",
         :oracle-text
-        "Protection from black\n{W}: Order of the White Shield gains first strike until end of turn.\n{W}{W}: Order of the White Shield gets +1/+0 until end of turn."}
+        "Protection from black\n{W}: This creature gains first strike until end of turn.\n{W}{W}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "olep",
@@ -672,7 +671,7 @@
         :layout "normal",
         :name "Brushland",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {W}. Brushland deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {G} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -683,7 +682,7 @@
         :layout "normal",
         :name "Pox",
         :oracle-text
-        "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control, then sacrifices a third of the lands they control. Round up each time."}
+        "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control of their choice, then sacrifices a third of the lands they control of their choice. Round up each time."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "olep",
@@ -694,7 +693,7 @@
         :layout "normal",
         :name "Stormbind",
         :oracle-text
-        "{2}, Discard a card at random: Stormbind deals 2 damage to any target."}
+        "{2}, Discard a card at random: This enchantment deals 2 damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "olep",
@@ -736,7 +735,7 @@
         :layout "normal",
         :name "Karplusan Forest",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "olep",
@@ -860,12 +859,12 @@
         :code "olep",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/6/c6b66089-1aec-447a-b239-fe15f8f9c17e.png?1661826299",
+        "https://cards.scryfall.io/png/front/c/6/c6b66089-1aec-447a-b239-fe15f8f9c17e.png?1724621805",
         :collector-number "80",
         :layout "normal",
         :name "Crimson Hellkite",
         :oracle-text
-        "Flying\n{X}, {T}: Crimson Hellkite deals X damage to target creature. Spend only red mana on X."}
+        "Flying\n{X}, {T}: This creature deals X damage to target creature. Spend only red mana on X."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "olep",

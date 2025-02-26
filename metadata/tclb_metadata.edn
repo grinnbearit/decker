@@ -1,4 +1,15 @@
-(#:card{:type-line "Token Creature — Goat",
+(#:card{:type-line "Dungeon",
+        :layout-category :normal,
+        :code "tclb",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/9/a9d56324-8293-4500-a9ad-fed351ccf966.png?1717834986",
+        :collector-number "0",
+        :layout "normal",
+        :name "Baldur's Gate Wilderness",
+        :oracle-text
+        "Crash Landing — Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nGoblin Camp — Create a Treasure token.\nEmerald Grove — Create a 2/2 white Knight creature token.\nAuntie's Teahouse — Scry 3.\nDefiled Temple — You may sacrifice a permanent. If you do, draw a card.\nMountain Pass — You may put a land card from your hand onto the battlefield.\nEbonlake Grotto — Create two 1/1 blue Faerie Dragon creature tokens with flying.\nGrymforge — For each opponent, goad up to one target creature that player controls.\nGithyanki Crèche — Distribute three +1/+1 counters among up to three target creatures you control.\nLast Light Inn — Draw two cards.\nReithwin Tollhouse — Roll 2d4 and create that many Treasure tokens.\nMoonrise Towers — Instant and sorcery spells you cast this turn cost 3 less to cast.\nGauntlet of Shar — Each opponent loses 5 life.\nBalthazar's Lab — Return up to two target creature cards from your graveyard to your hand.\nCircus of the Last Days — Create a token that's a copy of one of your commanders, except it's not legendary.\nUndercity Ruins — Create three 4/1 black Skeleton creature tokens with menace.\nSteel Watch Foundry — You get an emblem with \"Creatures you control get +2/+2 and have trample.\"\nAnsur's Sanctum — Reveal the top four cards of your library and put them into your hand. Each opponent loses life equal to those cards' total mana value.\nTemple of Bhaal — Creatures your opponents control get -5/-5 until end of turn."}
+ #:card{:type-line "Token Creature — Goat",
         :layout-category :normal,
         :code "tclb",
         :highres? true,
@@ -170,7 +181,7 @@
         :layout "token",
         :name "Treasure",
         :oracle-text
-        "{T}, Sacrifice this artifact: Add one mana of any color."}
+        "{T}, Sacrifice this token: Add one mana of any color."}
  #:card{:type-line "Token Legendary Artifact",
         :layout-category :normal,
         :code "tclb",
@@ -195,21 +206,21 @@
         "(This token can be used to represent a token that's a copy of a permanent.)"}
  #:card{:code "tclb",
         :collector-number "20",
-        :name "The Initiative // Undercity",
+        :name "Undercity // The Initiative",
         :layout "double_faced_token",
         :highres? true,
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1675455903",
-          :type-line "Card",
-          :oracle-text
-          "Whenever one or more creatures a player controls deal combat damage to you, that player takes the initiative.\nWhenever you take the initiative and at the beginning of your upkeep, venture into Undercity. (If you're in a dungeon, advance to the next room. If you're not, enter Undercity. You can take the initiative even if you already have it.)"}
-         {:png
-          "https://cards.scryfall.io/png/back/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1675455903",
+          "https://cards.scryfall.io/png/front/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1707897435",
           :type-line "Dungeon — Undercity",
           :oracle-text
-          "You can't enter this dungeon unless you \"venture into Undercity.\"\nSecret Entrance — Search your library for a basic land card, reveal it, put it into your hand, then shuffle (Leads to: Forge, Lost Well)\nForge — Put two +1/+1 counters on target creature. (Leads to: Trap!, Arena)\nLost Well — Scry 2. (Leads to: Arena, Stash)\nTrap! — Target player loses 5 life. (Leads to: Archives)\nArena — Goad target creature. (Leads to: Archives, Catacombs)\nStash — Create a Treasure token. (Leads to: Catacombs)\nArchives — Draw a card. (Leads to: Throne of the Dead Three)\nCatacombs — Create a 4/1 black Skeleton creature token with menace. (Leads to: Throne of the Dead Three)\nThrone of the Dead Three — Reveal the top ten cards of your library. Put a creature card from among them onto the battlefield with three +1/+1 counters on it. It gains hexproof until your next turn. Then shuffle."}]}
+          "You can't enter this dungeon unless you \"venture into Undercity.\"\nSecret Entrance — Search your library for a basic land card, reveal it, put it into your hand, then shuffle. (Leads to: Forge, Lost Well)\nForge — Put two +1/+1 counters on target creature. (Leads to: Trap!, Arena)\nLost Well — Scry 2. (Leads to: Arena, Stash)\nTrap! — Target player loses 5 life. (Leads to: Archives)\nArena — Goad target creature. (Leads to: Archives, Catacombs)\nStash — Create a Treasure token. (Leads to: Catacombs)\nArchives — Draw a card. (Leads to: Throne of the Dead Three)\nCatacombs — Create a 4/1 black Skeleton creature token with menace. (Leads to: Throne of the Dead Three)\nThrone of the Dead Three — Reveal the top ten cards of your library. Put a creature card from among them onto the battlefield with three +1/+1 counters on it. It gains hexproof until your next turn. Then shuffle."}
+         {:png
+          "https://cards.scryfall.io/png/back/2/c/2c65185b-6cf0-451d-985e-56aa45d9a57d.png?1707897435",
+          :type-line "Card",
+          :oracle-text
+          "Whenever one or more creatures a player controls deal combat damage to you, that player takes the initiative.\nWhenever you take the initiative and at the beginning of your upkeep, venture into Undercity. (If you're in a dungeon, advance to the next room. If you're not, enter Undercity. You can take the initiative even if you already have it.)"}]}
  #:card{:type-line "Token Creature — Eldrazi Horror",
         :layout-category :normal,
         :code "tclb",
@@ -469,11 +480,11 @@
         :code "tclb",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/3/831fbc86-e328-4c26-a8b2-35feb24f6430.png?1675456108",
+        "https://cards.scryfall.io/png/front/8/3/831fbc86-e328-4c26-a8b2-35feb24f6430.png?1708202292",
         :collector-number "46",
         :layout "token",
         :name "Satyr",
-        :oracle-text ""}
+        :oracle-text "Haste"}
  #:card{:type-line "Token Artifact — Clue",
         :layout-category :normal,
         :code "tclb",

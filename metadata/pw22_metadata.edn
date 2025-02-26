@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Consider",
         :oracle-text
-        "Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\nDraw a card."}
+        "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pw22",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Fateful Absence",
         :oracle-text
-        "Destroy target creature or planeswalker. Its controller investigates. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Destroy target creature or planeswalker. Its controller investigates. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pw22",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Atsushi, the Blazing Sky",
         :oracle-text
-        "Flying, trample\nWhen Atsushi, the Blazing Sky dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
+        "Flying, trample\nWhen Atsushi dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pw22",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pw22",
@@ -56,9 +56,9 @@
  #:card{:type-line "Artifact Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "pw22",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/e/aeb5eb6f-adb1-4535-abf0-d4791151bab3.png?1673777986",
+        "https://cards.scryfall.io/png/front/a/e/aeb5eb6f-adb1-4535-abf0-d4791151bab3.png?1679353576",
         :collector-number "6",
         :layout "normal",
         :name "Psychosis Crawler",

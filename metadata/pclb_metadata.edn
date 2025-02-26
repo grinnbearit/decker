@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Ancient Gold Dragon",
         :oracle-text
-        "Flying\nWhenever Ancient Gold Dragon deals combat damage to a player, roll a d20. You create a number of 1/1 blue Faerie Dragon creature tokens with flying equal to the result."}
+        "Flying\nWhenever this creature deals combat damage to a player, roll a d20. You create a number of 1/1 blue Faerie Dragon creature tokens with flying equal to the result."}
  #:card{:type-line "Creature — Halfling Cleric",
         :layout-category :normal,
         :code "pclb",
@@ -34,6 +34,17 @@
  #:card{:type-line "Creature — Angel Knight",
         :layout-category :normal,
         :code "pclb",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/e/a/eae141d6-f4a7-4223-ae4f-217415be559a.png?1709434110",
+        :collector-number "9p",
+        :layout "normal",
+        :name "Battle Angels of Tyr",
+        :oracle-text
+        "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player."}
+ #:card{:type-line "Creature — Angel Knight",
+        :layout-category :normal,
+        :code "pclb",
         :highres? true,
         :png
         "https://cards.scryfall.io/png/front/a/9/a99a4eff-7745-4f8f-ab13-49ab8173c8e4.png?1675619678",
@@ -41,7 +52,7 @@
         :layout "normal",
         :name "Battle Angels of Tyr",
         :oracle-text
-        "Flying, myriad\nWhenever Battle Angels of Tyr deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player."}
+        "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player."}
  #:card{:code "pclb",
         :collector-number "26s",
         :name "Horn of Valhalla // Ysgard's Call",
@@ -89,7 +100,7 @@
         :layout "normal",
         :name "Legion Loyalty",
         :oracle-text
-        "Creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
+        "Creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
  #:card{:type-line "Legendary Enchantment — Background",
         :layout-category :normal,
         :code "pclb",
@@ -100,7 +111,7 @@
         :layout "normal",
         :name "Noble Heritage",
         :oracle-text
-        "Commander creatures you own have \"When this creature enters the battlefield and at the beginning of your upkeep, each player may put two +1/+1 counters on a creature they control. For each opponent who does, you gain protection from that player until your next turn.\" (You can't be targeted, dealt damage, or enchanted by anything controlled by that player.)"}
+        "Commander creatures you own have \"When this creature enters and at the beginning of your upkeep, each player may put two +1/+1 counters on a creature they control. For each opponent who does, you gain protection from that player until your next turn.\" (You can't be targeted, dealt damage, or enchanted by anything controlled by that player.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pclb",
@@ -122,7 +133,7 @@
         :layout "normal",
         :name "White Plume Adventurer",
         :oracle-text
-        "When White Plume Adventurer enters the battlefield, you take the initiative.\nAt the beginning of each opponent's upkeep, untap a creature you control. If you've completed a dungeon, untap all creatures you control instead."}
+        "When this creature enters, you take the initiative.\nAt the beginning of each opponent's upkeep, untap a creature you control. If you've completed a dungeon, untap all creatures you control instead."}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "pclb",
@@ -133,7 +144,7 @@
         :layout "normal",
         :name "Windshaper Planetar",
         :oracle-text
-        "Flash\nFlying\nWhen Windshaper Planetar enters the battlefield during the declare attackers step, for each attacking creature, you may reselect which player or planeswalker that creature is attacking. (It can't attack its controller or its controller's planeswalkers.)"}
+        "Flash\nFlying\nWhen this creature enters during the declare attackers step, for each attacking creature, you may reselect which player or permanent that creature is attacking. (It can't attack its controller or their permanents.)"}
  #:card{:type-line "Creature — Elder Dragon",
         :layout-category :normal,
         :code "pclb",
@@ -144,7 +155,18 @@
         :layout "normal",
         :name "Ancient Silver Dragon",
         :oracle-text
-        "Flying\nWhenever Ancient Silver Dragon deals combat damage to a player, roll a d20. Draw cards equal to the result. You have no maximum hand size for the rest of the game."}
+        "Flying\nWhenever this creature deals combat damage to a player, roll a d20. Draw cards equal to the result. You have no maximum hand size for the rest of the game."}
+ #:card{:type-line "Creature — Cat Beast",
+        :layout-category :normal,
+        :code "pclb",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/b/2b347ecf-d032-4d6c-9b4b-6e33c08a0722.png?1712946582",
+        :collector-number "63p",
+        :layout "normal",
+        :name "Displacer Kitten",
+        :oracle-text
+        "Avoidance — Whenever you cast a noncreature spell, exile up to one target nonland permanent you control, then return that card to the battlefield under its owner's control."}
  #:card{:type-line "Creature — Cat Beast",
         :layout-category :normal,
         :code "pclb",
@@ -211,7 +233,7 @@
         :faces
         [{:type-line "Creature — Horror",
           :oracle-text
-          "Ceremorphosis — When Illithid Harvester enters the battlefield, turn any number of target tapped nontoken creatures face down. They're 2/2 Horror creatures."}
+          "Ceremorphosis — When this creature enters, turn any number of target tapped nontoken creatures face down. They're 2/2 Horror creatures."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Tap X target creatures. They don't untap during their controllers' next untap steps. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -225,7 +247,7 @@
         :layout "normal",
         :name "Kindred Discovery",
         :oracle-text
-        "As Kindred Discovery enters the battlefield, choose a creature type.\nWhenever a creature you control of the chosen type enters the battlefield or attacks, draw a card."}
+        "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pclb",
@@ -258,7 +280,7 @@
         :layout "normal",
         :name "Tomb of Horrors Adventurer",
         :oracle-text
-        "When Tomb of Horrors Adventurer enters the battlefield, you take the initiative.\nWhenever you cast your second spell each turn, copy it. If you've completed a dungeon, copy that spell twice instead. You may choose new targets for the copies. (A copy of a permanent spell becomes a token.)"}
+        "When this creature enters, you take the initiative.\nWhenever you cast your second spell each turn, copy it. If you've completed a dungeon, copy that spell twice instead. You may choose new targets for the copies. (A copy of a permanent spell becomes a token.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "pclb",
@@ -269,7 +291,7 @@
         :layout "normal",
         :name "Volo, Itinerant Scholar",
         :oracle-text
-        "When Volo enters the battlefield, create Volo's Journal, a legendary colorless artifact token with hexproof and \"Whenever you cast a creature spell, note one of its creature types that hasn't been noted for this artifact.\"\n{2}, {T}: Draw a card for each creature type noted for target permanent you control named Volo's Journal.\nChoose a Background"}
+        "When Volo enters, create Volo's Journal, a legendary colorless artifact token with hexproof and \"Whenever you cast a creature spell, note one of its creature types that hasn't been noted for Volo's Journal.\"\n{2}, {T}: Draw a card for each creature type noted for target permanent you control named Volo's Journal.\nChoose a Background"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "pclb",
@@ -280,7 +302,7 @@
         :layout "normal",
         :name "Wizards of Thay",
         :oracle-text
-        "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nInstant and sorcery spells you cast cost {1} less to cast.\nYou may cast sorcery spells as though they had flash."}
+        "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nInstant and sorcery spells you cast cost {1} less to cast.\nYou may cast sorcery spells as though they had flash."}
  #:card{:code "pclb",
         :collector-number "109s",
         :name "Altar of Bhaal // Bone Offering",
@@ -306,7 +328,7 @@
         :layout "normal",
         :name "Ancient Brass Dragon",
         :oracle-text
-        "Flying\nWhenever Ancient Brass Dragon deals combat damage to a player, roll a d20. When you do, put any number of target creature cards with total mana value X or less from graveyards onto the battlefield under your control, where X is the result."}
+        "Flying\nWhenever this creature deals combat damage to a player, roll a d20. When you do, put any number of target creature cards with total mana value X or less from graveyards onto the battlefield under your control, where X is the result."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pclb",
@@ -361,7 +383,7 @@
         :layout "normal",
         :name "Elder Brain",
         :oracle-text
-        "Menace\nWhenever Elder Brain attacks a player, exile all cards from that player's hand, then they draw that many cards. You may play lands and cast spells from among the exiled cards for as long as they remain exiled. If you cast a spell this way, you may spend mana as though it were mana of any color to cast it."}
+        "Menace\nWhenever this creature attacks a player, exile all cards from that player's hand, then they draw that many cards. You may play lands and cast spells from among the exiled cards for as long as they remain exiled. If you cast a spell this way, you may spend mana as though it were mana of any color to cast it."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pclb",
@@ -383,7 +405,7 @@
         :layout "normal",
         :name "Intellect Devourer",
         :oracle-text
-        "Devour Intellect — When Intellect Devourer enters the battlefield, each opponent exiles a card from their hand until Intellect Devourer leaves the battlefield.\nBody Thief — You may play lands and cast spells from among cards exiled with Intellect Devourer. If you cast a spell this way, you may spend mana as though it were mana of any color to cast it."}
+        "Devour Intellect — When this creature enters, each opponent exiles a card from their hand until this creature leaves the battlefield.\nBody Thief — You may play lands and cast spells from among cards exiled with this creature. If you cast a spell this way, you may spend mana as though it were mana of any color to cast it."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pclb",
@@ -394,7 +416,7 @@
         :layout "normal",
         :name "Pact Weapon",
         :oracle-text
-        "As long as Pact Weapon is attached to a creature, you don't lose the game for having 0 or less life.\nWhenever equipped creature attacks, draw a card and reveal it. The creature gets +X/+X until end of turn and you lose X life, where X is that card's mana value.\nEquip—Discard a card."}
+        "As long as this Equipment is attached to a creature, you don't lose the game for having 0 or less life.\nWhenever equipped creature attacks, draw a card and reveal it. The creature gets +X/+X until end of turn and you lose X life, where X is that card's mana value.\nEquip—Discard a card."}
  #:card{:type-line "Creature — Human Rogue Assassin",
         :layout-category :normal,
         :code "pclb",
@@ -405,7 +427,7 @@
         :layout "normal",
         :name "Ravenloft Adventurer",
         :oracle-text
-        "When Ravenloft Adventurer enters the battlefield, you take the initiative.\nIf a creature an opponent controls would die, instead exile it and put a hit counter on it.\nWhenever Ravenloft Adventurer attacks, if you've completed a dungeon, defending player loses 1 life for each card they own in exile with a hit counter on it."}
+        "When this creature enters, you take the initiative.\nIf a creature an opponent controls would die, instead exile it and put a hit counter on it.\nWhenever this creature attacks, if you've completed a dungeon, defending player loses 1 life for each card they own in exile with a hit counter on it."}
  #:card{:type-line "Legendary Creature — Human Elf Cleric",
         :layout-category :normal,
         :code "pclb",
@@ -427,7 +449,18 @@
         :layout "normal",
         :name "Ancient Copper Dragon",
         :oracle-text
-        "Flying\nWhenever Ancient Copper Dragon deals combat damage to a player, roll a d20. You create a number of Treasure tokens equal to the result."}
+        "Flying\nWhenever this creature deals combat damage to a player, roll a d20. You create a number of Treasure tokens equal to the result."}
+ #:card{:type-line "Creature — Demon",
+        :layout-category :normal,
+        :code "pclb",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/ab97e063-1e9d-4a3f-9907-9e380dbeabee.png?1712946617",
+        :collector-number "162p",
+        :layout "normal",
+        :name "Balor",
+        :oracle-text
+        "Flying\nWhenever this creature attacks or dies, choose one or more. Each mode must target a different player.\n• Target opponent draws three cards, then discards three cards at random.\n• Target opponent sacrifices a nontoken artifact of their choice.\n• This creature deals damage to target opponent equal to the number of cards in their hand."}
  #:card{:type-line "Creature — Demon",
         :layout-category :normal,
         :code "pclb",
@@ -438,7 +471,18 @@
         :layout "normal",
         :name "Balor",
         :oracle-text
-        "Flying\nWhenever Balor attacks or dies, choose one or more. Each mode must target a different player.\n• Target opponent draws three cards, then discards three cards at random.\n• Target opponent sacrifices a nontoken artifact.\n• Balor deals damage to target opponent equal to the number of cards in their hand."}
+        "Flying\nWhenever this creature attacks or dies, choose one or more. Each mode must target a different player.\n• Target opponent draws three cards, then discards three cards at random.\n• Target opponent sacrifices a nontoken artifact of their choice.\n• This creature deals damage to target opponent equal to the number of cards in their hand."}
+ #:card{:type-line "Creature — Human Barbarian",
+        :layout-category :normal,
+        :code "pclb",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/4/5/45fd73bc-edd9-4629-aa8a-8a2999949c70.png?1712946605",
+        :collector-number "167p",
+        :layout "normal",
+        :name "Caves of Chaos Adventurer",
+        :oracle-text
+        "Trample\nWhen this creature enters, you take the initiative.\nWhenever this creature attacks, exile the top card of your library. If you've completed a dungeon, you may play that card this turn without paying its mana cost. Otherwise, you may play that card this turn."}
  #:card{:type-line "Creature — Human Barbarian",
         :layout-category :normal,
         :code "pclb",
@@ -449,7 +493,7 @@
         :layout "normal",
         :name "Caves of Chaos Adventurer",
         :oracle-text
-        "Trample\nWhen Caves of Chaos Adventurer enters the battlefield, you take the initiative.\nWhenever Caves of Chaos Adventurer attacks, exile the top card of your library. If you've completed a dungeon, you may play that card this turn without paying its mana cost. Otherwise, you may play that card this turn."}
+        "Trample\nWhen this creature enters, you take the initiative.\nWhenever this creature attacks, exile the top card of your library. If you've completed a dungeon, you may play that card this turn without paying its mana cost. Otherwise, you may play that card this turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pclb",
@@ -460,7 +504,7 @@
         :layout "normal",
         :name "Descent into Avernus",
         :oracle-text
-        "At the beginning of your upkeep, put two descent counters on Descent into Avernus. Then each player creates X Treasure tokens and Descent into Avernus deals X damage to each player, where X is the number of descent counters on Descent into Avernus."}
+        "At the beginning of your upkeep, put two descent counters on this enchantment. Then each player creates X Treasure tokens and this enchantment deals X damage to each player, where X is the number of descent counters on this enchantment."}
  #:card{:type-line "Creature — Tiefling Peasant",
         :layout-category :normal,
         :code "pclb",
@@ -471,7 +515,7 @@
         :layout "normal",
         :name "Elturel Survivors",
         :oracle-text
-        "Trample, myriad\nAs long as Elturel Survivors is attacking, it gets +X/+0, where X is the number of lands defending player controls."}
+        "Trample, myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nAs long as this creature is attacking, it gets +X/+0, where X is the number of lands defending player controls."}
  #:card{:type-line "Creature — Giant Bard",
         :layout-category :normal,
         :code "pclb",
@@ -482,7 +526,7 @@
         :layout "normal",
         :name "Firbolg Flutist",
         :oracle-text
-        "Enthralling Performance — When Firbolg Flutist enters the battlefield, gain control of target creature you don't control until end of turn. Untap it. It gains haste and myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
+        "Enthralling Performance — When this creature enters, gain control of target creature you don't control until end of turn. Untap it. It gains haste and myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
  #:card{:type-line "Legendary Creature — Tiefling Barbarian",
         :layout-category :normal,
         :code "pclb",
@@ -515,7 +559,7 @@
         :layout "normal",
         :name "Storm King's Thunder",
         :oracle-text
-        "When you cast your next instant or sorcery spell this turn, copy that spell X times. You may choose new targets for the copies."}
+        "When you next cast an instant or sorcery spell this turn, copy that spell X times. You may choose new targets for the copies."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pclb",
@@ -548,7 +592,7 @@
         :layout "normal",
         :name "Wyll, Blade of Frontiers",
         :oracle-text
-        "If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.\nWhenever you roll one or more dice, put a +1/+1 counter on Wyll, Blade of Frontiers.\nChoose a Background (You can have a Background as a second commander.)"}
+        "If you would roll one or more dice, instead roll that many dice plus one and ignore the lowest roll.\nWhenever you roll one or more dice, put a +1/+1 counter on Wyll.\nChoose a Background (You can have a Background as a second commander.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pclb",
@@ -570,7 +614,7 @@
         :layout "normal",
         :name "Ancient Bronze Dragon",
         :oracle-text
-        "Flying\nWhenever Ancient Bronze Dragon deals combat damage to a player, roll a d20. When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result."}
+        "Flying\nWhenever this creature deals combat damage to a player, roll a d20. When you do, put X +1/+1 counters on each of up to two target creatures, where X is the result."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pclb",
@@ -587,12 +631,12 @@
         :code "pclb",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/c/bc95d1bc-68f2-4a43-8545-cdd8b7ae8d18.png?1675619163",
+        "https://cards.scryfall.io/png/front/b/c/bc95d1bc-68f2-4a43-8545-cdd8b7ae8d18.png?1688006350",
         :collector-number "218s",
         :layout "normal",
         :name "Bramble Sovereign",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield, you may pay {1}{G}. If you do, that creature's controller creates a token that's a copy of that creature."}
+        "Whenever another nontoken creature enters, you may pay {1}{G}. If you do, that creature's controller creates a token that's a copy of that creature."}
  #:card{:type-line "Creature — Elemental Dragon",
         :layout-category :normal,
         :code "pclb",
@@ -603,7 +647,7 @@
         :layout "normal",
         :name "Earthquake Dragon",
         :oracle-text
-        "This spell costs {X} less to cast, where X is the total mana value of Dragons you control.\nFlying, trample\n{2}{G}, Sacrifice a land: Return Earthquake Dragon from your graveyard to your hand."}
+        "This spell costs {X} less to cast, where X is the total mana value of Dragons you control.\nFlying, trample\n{2}{G}, Sacrifice a land: Return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Elf Druid",
         :layout-category :normal,
         :code "pclb",
@@ -662,7 +706,7 @@
         :layout "normal",
         :name "Owlbear Cub",
         :oracle-text
-        "Mama's Coming — Whenever Owlbear Cub attacks a player who controls eight or more lands, look at the top eight cards of your library. You may put a creature card from among them onto the battlefield tapped and attacking that player. Put the rest on the bottom of your library in a random order."}
+        "Mama's Coming — Whenever this creature attacks a player who controls eight or more lands, look at the top eight cards of your library. You may put a creature card from among them onto the battlefield tapped and attacking that player. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Legendary Enchantment — Background",
         :layout-category :normal,
         :code "pclb",
@@ -695,7 +739,7 @@
         :layout "normal",
         :name "Undermountain Adventurer",
         :oracle-text
-        "Vigilance\nWhen Undermountain Adventurer enters the battlefield, you take the initiative.\n{T}: Add {G}{G}. If you've completed a dungeon, add six {G} instead."}
+        "Vigilance\nWhen this creature enters, you take the initiative.\n{T}: Add {G}{G}. If you've completed a dungeon, add six {G} instead."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "pclb",
@@ -739,7 +783,7 @@
         :layout "normal",
         :name "Bane, Lord of Darkness",
         :oracle-text
-        "As long as your life total is less than or equal to half your starting life total, Bane, Lord of Darkness has indestructible.\nWhenever another nontoken creature you control dies, target opponent may have you draw a card. If they don't, you may put a creature card with equal or lesser toughness from your hand onto the battlefield."}
+        "As long as your life total is less than or equal to half your starting life total, Bane has indestructible.\nWhenever another nontoken creature you control dies, target opponent may have you draw a card. If they don't, you may put a creature card with equal or lesser toughness from your hand onto the battlefield."}
  #:card{:type-line "Legendary Creature — God",
         :layout-category :normal,
         :code "pclb",
@@ -750,7 +794,7 @@
         :layout "normal",
         :name "Bhaal, Lord of Murder",
         :oracle-text
-        "As long as your life total is less than or equal to half your starting life total, Bhaal, Lord of Murder has indestructible.\nWhenever another nontoken creature you control dies, put a +1/+1 counter on target creature and goad it."}
+        "As long as your life total is less than or equal to half your starting life total, Bhaal has indestructible.\nWhenever another nontoken creature you control dies, put a +1/+1 counter on target creature and goad it."}
  #:card{:type-line "Legendary Creature — Human Noble",
         :layout-category :normal,
         :code "pclb",
@@ -772,7 +816,7 @@
         :layout "normal",
         :name "Duke Ulder Ravengard",
         :oracle-text
-        "At the beginning of combat on your turn, another target creature you control gains haste and myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
+        "At the beginning of combat on your turn, another target creature you control gains haste and myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "pclb",
@@ -860,7 +904,18 @@
         :layout "normal",
         :name "Miirym, Sentinel Wyrm",
         :oracle-text
-        "Flying, ward {2}\nWhenever another nontoken Dragon enters the battlefield under your control, create a token that's a copy of it, except the token isn't legendary."}
+        "Flying, ward {2}\nWhenever another nontoken Dragon you control enters, create a token that's a copy of it, except the token isn't legendary."}
+ #:card{:type-line "Legendary Planeswalker — Minsc",
+        :layout-category :normal,
+        :code "pclb",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/2/5/25ea10b4-e6e9-43ba-8e26-71076cb24ab1.png?1712946596",
+        :collector-number "285p",
+        :layout "normal",
+        :name "Minsc & Boo, Timeless Heroes",
+        :oracle-text
+        "When Minsc & Boo enters and at the beginning of your upkeep, you may create Boo, a legendary 1/1 red Hamster creature token with trample and haste.\n+1: Put three +1/+1 counters on up to one target creature with trample or haste.\n−2: Sacrifice a creature. When you do, Minsc & Boo deals X damage to any target, where X is that creature's power. If the sacrificed creature was a Hamster, draw X cards.\nMinsc & Boo, Timeless Heroes can be your commander."}
  #:card{:type-line "Legendary Planeswalker — Minsc",
         :layout-category :normal,
         :code "pclb",
@@ -871,7 +926,7 @@
         :layout "normal",
         :name "Minsc & Boo, Timeless Heroes",
         :oracle-text
-        "When Minsc & Boo, Timeless Heroes enters the battlefield and at the beginning of your upkeep, you may create Boo, a legendary 1/1 red Hamster creature token with trample and haste.\n+1: Put three +1/+1 counters on up to one target creature with trample or haste.\n−2: Sacrifice a creature. When you do, Minsc & Boo, Timeless Heroes deals X damage to any target, where X is that creature's power. If the sacrificed creature was a Hamster, draw X cards.\nMinsc & Boo, Timeless Heroes can be your commander."}
+        "When Minsc & Boo enters and at the beginning of your upkeep, you may create Boo, a legendary 1/1 red Hamster creature token with trample and haste.\n+1: Put three +1/+1 counters on up to one target creature with trample or haste.\n−2: Sacrifice a creature. When you do, Minsc & Boo deals X damage to any target, where X is that creature's power. If the sacrificed creature was a Hamster, draw X cards.\nMinsc & Boo, Timeless Heroes can be your commander."}
  #:card{:type-line "Legendary Creature — God",
         :layout-category :normal,
         :code "pclb",
@@ -882,7 +937,7 @@
         :layout "normal",
         :name "Myrkul, Lord of Bones",
         :oracle-text
-        "As long as your life total is less than or equal to half your starting life total, Myrkul, Lord of Bones has indestructible.\nWhenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that card, except it's an enchantment and loses all other card types."}
+        "As long as your life total is less than or equal to half your starting life total, Myrkul has indestructible.\nWhenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that card, except it's an enchantment and loses all other card types."}
  #:card{:type-line "Legendary Creature — Human Elf Shaman",
         :layout-category :normal,
         :code "pclb",
@@ -926,7 +981,7 @@
         :layout "normal",
         :name "Raphael, Fiendish Savior",
         :oracle-text
-        "Flying\nOther Demons, Devils, Imps, and Tieflings you control get +1/+1 and have lifelink.\nAt the beginning of each end step, if a creature card was put into your graveyard from anywhere this turn, create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\""}
+        "Flying\nOther Demons, Devils, Imps, and Tieflings you control get +1/+1 and have lifelink.\nAt the beginning of each end step, if a creature card was put into your graveyard from anywhere this turn, create a 1/1 red Devil creature token with \"When this token dies, it deals 1 damage to any target.\""}
  #:card{:type-line "Legendary Planeswalker — Tasha",
         :layout-category :normal,
         :code "pclb",
@@ -959,7 +1014,7 @@
         :layout "normal",
         :name "Basilisk Collar",
         :oracle-text
-        "Equipped creature has deathtouch and lifelink.\nEquip {2}"}
+        "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pclb",
@@ -970,7 +1025,7 @@
         :layout "normal",
         :name "Blade of Selves",
         :oracle-text
-        "Equipped creature has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nEquip {4}"}
+        "Equipped creature has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nEquip {4}"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pclb",
@@ -981,7 +1036,7 @@
         :layout "normal",
         :name "Fraying Line",
         :oracle-text
-        "When Fraying Line enters the battlefield, put a rope counter on target creature you control.\nAt the beginning of each player's upkeep, that player may pay {2}. If they do, they put a rope counter on a creature they control. Otherwise, exile Fraying Line and each creature without a rope counter on it, then remove all rope counters from all creatures."}
+        "When this artifact enters, put a rope counter on target creature you control.\nAt the beginning of each player's upkeep, that player may pay {2}. If they do, they put a rope counter on a creature they control. Otherwise, exile this artifact and each creature without a rope counter on it, then remove all rope counters from all creatures."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pclb",
@@ -992,7 +1047,7 @@
         :layout "normal",
         :name "Mighty Servant of Leuk-o",
         :oracle-text
-        "Trample\nWard—Discard a card.\nWhenever Mighty Servant of Leuk-o becomes crewed for the first time each turn, if it was crewed by exactly two creatures, it gains \"Whenever this creature deals combat damage to a player, draw two cards\" until end of turn.\nCrew 4"}
+        "Trample\nWard—Discard a card.\nWhenever this Vehicle becomes crewed for the first time each turn, if it was crewed by exactly two creatures, it gains \"Whenever this creature deals combat damage to a player, draw two cards\" until end of turn.\nCrew 4"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pclb",
@@ -1003,7 +1058,7 @@
         :layout "normal",
         :name "Mirror of Life Trapping",
         :oracle-text
-        "Whenever a creature enters the battlefield, if it was cast, exile it, then return all other permanent cards exiled with Mirror of Life Trapping to the battlefield under their owners' control."}
+        "Whenever a creature enters, if it was cast, exile it, then return all other permanent cards exiled with this artifact to the battlefield under their owners' control."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pclb",
@@ -1014,7 +1069,7 @@
         :layout "normal",
         :name "Nautiloid Ship",
         :oracle-text
-        "Flying\nWhen Nautiloid Ship enters the battlefield, exile target player's graveyard.\nWhenever Nautiloid Ship deals combat damage to a player, you may put a creature card exiled with Nautiloid Ship onto the battlefield under your control.\nCrew 3"}
+        "Flying\nWhen this Vehicle enters, exile target player's graveyard.\nWhenever this Vehicle deals combat damage to a player, you may put a creature card exiled with this Vehicle onto the battlefield under your control.\nCrew 3"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pclb",
@@ -1025,7 +1080,7 @@
         :layout "normal",
         :name "Vexing Puzzlebox",
         :oracle-text
-        "Whenever you roll one or more dice, put a number of charge counters on Vexing Puzzlebox equal to the result.\n{T}: Add one mana of any color. Roll a d20.\n{T}, Remove 100 charge counters from Vexing Puzzlebox: Search your library for an artifact card, put that card onto the battlefield, then shuffle."}
+        "Whenever you roll one or more dice, put a number of charge counters on this artifact equal to the result.\n{T}: Add one mana of any color. Roll a d20.\n{T}, Remove 100 charge counters from this artifact: Search your library for an artifact card, put that card onto the battlefield, then shuffle."}
  #:card{:type-line "Legendary Land — Gate",
         :layout-category :normal,
         :code "pclb",
@@ -1047,29 +1102,29 @@
         :layout "normal",
         :name "Bountiful Promenade",
         :oracle-text
-        "Bountiful Promenade enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {G} or {W}."}
+        "This land enters tapped unless you have two or more opponents.\n{T}: Add {G} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pclb",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/7/570e2736-cee6-4141-ad23-4853caa40c53.png?1675618682",
+        "https://cards.scryfall.io/png/front/5/7/570e2736-cee6-4141-ad23-4853caa40c53.png?1688006303",
         :collector-number "355s",
         :layout "normal",
         :name "Luxury Suite",
         :oracle-text
-        "Luxury Suite enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {B} or {R}."}
+        "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pclb",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/5/a5264ca3-755d-4219-a15c-4985fb2a76f1.png?1675618670",
+        "https://cards.scryfall.io/png/front/a/5/a5264ca3-755d-4219-a15c-4985fb2a76f1.png?1687998160",
         :collector-number "357s",
         :layout "normal",
         :name "Morphic Pool",
         :oracle-text
-        "Morphic Pool enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {U} or {B}."}
+        "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pclb",
@@ -1091,7 +1146,7 @@
         :layout "normal",
         :name "Sea of Clouds",
         :oracle-text
-        "Sea of Clouds enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {W} or {U}."}
+        "This land enters tapped unless you have two or more opponents.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pclb",
@@ -1102,4 +1157,4 @@
         :layout "normal",
         :name "Spire Garden",
         :oracle-text
-        "Spire Garden enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {R} or {G}."})
+        "This land enters tapped unless you have two or more opponents.\n{T}: Add {R} or {G}."})

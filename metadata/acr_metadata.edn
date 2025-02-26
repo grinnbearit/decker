@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Hookblade",
         :oracle-text
-        "When Hookblade enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Senu, Keen-Eyed Protector",
         :oracle-text
-        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+        "Flying, vigilance\n{T}, Exile Senu: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if this card is exiled, put it onto the battlefield attacking."}
  #:card{:type-line "Creature — Human Advisor",
         :layout-category :normal,
         :code "acr",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Tax Collector",
         :oracle-text
-        "When Tax Collector enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
+        "When this creature enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "acr",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Assassin Gauntlet",
         :oracle-text
-        "When Assassin Gauntlet enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
+        "When this Equipment enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "acr",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Loyal Inventor",
         :oracle-text
-        "Vigilance\nWhen Loyal Inventor enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
+        "Vigilance\nWhen this creature enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Assassin Initiate",
         :oracle-text
-        "{1}: Assassin Initiate gains your choice of flying, deathtouch, or lifelink until end of turn."}
+        "{1}: This creature gains your choice of flying, deathtouch, or lifelink until end of turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -267,7 +267,7 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/a/dae9ee75-30b8-4e24-af8b-031c816d3221.png?1721423751",
+        "https://cards.scryfall.io/png/front/d/a/dae9ee75-30b8-4e24-af8b-031c816d3221.png?1737999942",
         :collector-number "25",
         :layout "normal",
         :name "Ezio Auditore da Firenze",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Hemlock Vial",
         :oracle-text
-        "When Hemlock Vial enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice Hemlock Vial: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
+        "When this artifact enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice this artifact: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -316,7 +316,7 @@
         :layout "normal",
         :name "Phantom Blade",
         :oracle-text
-        "When Phantom Blade enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
+        "When this Equipment enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -360,7 +360,7 @@
         :layout "normal",
         :name "Alexios, Deimos of Kosmos",
         :oracle-text
-        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+        "Trample\nAlexios attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Hidden Footblade",
         :oracle-text
-        "Flash\nWhen Hidden Footblade enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -393,7 +393,7 @@
         :layout "saga",
         :name "Origin of the Hidden Ones",
         :oracle-text
-        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Origin of the Hidden Ones deals 4 damage to any target.\nII — Create two 1/1 black Assassin creature tokens with menace.\nIII — Whenever an Assassin you control attacks this turn, create a 1/1 black Assassin creature token with menace that's tapped and attacking."}
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — This Saga deals 4 damage to any target.\nII — Create two 1/1 black Assassin creature tokens with menace.\nIII — Whenever an Assassin you control attacks this turn, create a 1/1 black Assassin creature token with menace that's tapped and attacking."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -426,7 +426,7 @@
         :layout "saga",
         :name "The Aesir Escape Valhalla",
         :oracle-text
-        "(As this Saga enters and after your draw step, add a lore counter.)\nI — Exile a permanent card from your graveyard. You gain life equal to its mana value.\nII — Put a number of +1/+1 counters on target creature you control equal to the mana value of the exiled card.\nIII — Return The Aesir Escape Valhalla and the exiled card to their owner's hand."}
+        "(As this Saga enters and after your draw step, add a lore counter.)\nI — Exile a permanent card from your graveyard. You gain life equal to its mana value.\nII — Put a number of +1/+1 counters on target creature you control equal to the mana value of the exiled card.\nIII — Return this Saga and the exiled card to their owner's hand."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -448,7 +448,7 @@
         :layout "normal",
         :name "Hunter's Bow",
         :oracle-text
-        "When Hunter's Bow enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
+        "When this Equipment enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
  #:card{:type-line "Creature — Human Archer",
         :layout-category :normal,
         :code "acr",
@@ -459,7 +459,7 @@
         :layout "normal",
         :name "Palazzo Archers",
         :oracle-text
-        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, Palazzo Archers deals damage equal to its power to that creature."}
+        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, this creature deals damage equal to its power to that creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -481,7 +481,7 @@
         :layout "normal",
         :name "Adéwalé, Breaker of Chains",
         :oracle-text
-        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -492,7 +492,7 @@
         :layout "normal",
         :name "Altaïr Ibn-La'Ahad",
         :oracle-text
-        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+        "First strike\nWhenever Altaïr attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -591,7 +591,7 @@
         :layout "normal",
         :name "Eivor, Wolf-Kissed",
         :oracle-text
-        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+        "Trample, haste\nWhenever Eivor deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
  #:card{:type-line "Legendary Creature — Human",
         :layout-category :normal,
         :code "acr",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Ezio, Brash Novice",
         :oracle-text
-        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+        "Whenever Ezio attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
  #:card{:type-line "Legendary Creature — God Warrior",
         :layout-category :normal,
         :code "acr",
@@ -613,7 +613,7 @@
         :layout "normal",
         :name "Havi, the All-Father",
         :oracle-text
-        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+        "Havi has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "acr",
@@ -701,7 +701,7 @@
         :layout "normal",
         :name "Shaun & Rebecca, Agents",
         :oracle-text
-        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+        "Vigilance\nWhen Shaun & Rebecca enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
  #:card{:type-line "Legendary Creature — Human Knight Rogue",
         :layout-category :normal,
         :code "acr",
@@ -734,7 +734,7 @@
         :layout "normal",
         :name "Sokrates, Athenian Teacher",
         :oracle-text
-        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+        "Defender\nSokrates has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
  #:card{:type-line "Legendary Artifact — Vehicle",
         :layout-category :normal,
         :code "acr",
@@ -800,7 +800,7 @@
         :layout "normal",
         :name "Hidden Blade",
         :oracle-text
-        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
+        "Flash\nWhen this Equipment enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -822,7 +822,7 @@
         :layout "normal",
         :name "Smoke Bomb",
         :oracle-text
-        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice Smoke Bomb. When you do, target creature you control can't be blocked this turn."}
+        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice this artifact. When you do, target creature you control can't be blocked this turn."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "acr",
@@ -833,7 +833,7 @@
         :layout "normal",
         :name "Staff of Eden, Vault's Key",
         :oracle-text
-        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+        "When Staff of Eden enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "acr",
@@ -855,7 +855,7 @@
         :layout "normal",
         :name "Yggdrasil, Rebirth Engine",
         :oracle-text
-        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+        "When Yggdrasil enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "acr",
@@ -910,7 +910,7 @@
         :layout "normal",
         :name "Rest in Peace",
         :oracle-text
-        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+        "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -965,7 +965,7 @@
         :layout "normal",
         :name "Conspiracy",
         :oracle-text
-        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+        "As this enchantment enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -976,7 +976,7 @@
         :layout "normal",
         :name "Cover of Darkness",
         :oracle-text
-        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+        "As this enchantment enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -987,7 +987,7 @@
         :layout "normal",
         :name "Fatal Push",
         :oracle-text
-        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."}
+        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -1199,23 +1199,23 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/d/bd5b2ce3-3cf0-47dd-9b76-940ae7eb8498.png?1721424592",
+        "https://cards.scryfall.io/png/front/b/d/bd5b2ce3-3cf0-47dd-9b76-940ae7eb8498.png?1735993469",
         :collector-number "111",
         :layout "normal",
         :name "Sunbaked Canyon",
         :oracle-text
-        "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card."}
+        "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/e/3e73be68-aec6-4033-9cdd-bc473d7db93a.png?1721424603",
+        "https://cards.scryfall.io/png/front/3/e/3e73be68-aec6-4033-9cdd-bc473d7db93a.png?1735993471",
         :collector-number "112",
         :layout "normal",
         :name "Fiery Islet",
         :oracle-text
-        "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice Fiery Islet: Draw a card."}
+        "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1232,34 +1232,34 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/b/ab4b80c5-fe04-4e5e-9637-b745c2c8956b.png?1721424627",
+        "https://cards.scryfall.io/png/front/a/b/ab4b80c5-fe04-4e5e-9637-b745c2c8956b.png?1735993473",
         :collector-number "114",
         :layout "normal",
         :name "Nurturing Peatland",
         :oracle-text
-        "{T}, Pay 1 life: Add {B} or {G}.\n{1}, {T}, Sacrifice Nurturing Peatland: Draw a card."}
+        "{T}, Pay 1 life: Add {B} or {G}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/d/0de40ccf-5db9-4e4f-b61b-8fc4454209ae.png?1721424639",
+        "https://cards.scryfall.io/png/front/0/d/0de40ccf-5db9-4e4f-b61b-8fc4454209ae.png?1735993476",
         :collector-number "115",
         :layout "normal",
         :name "Silent Clearing",
         :oracle-text
-        "{T}, Pay 1 life: Add {W} or {B}.\n{1}, {T}, Sacrifice Silent Clearing: Draw a card."}
+        "{T}, Pay 1 life: Add {W} or {B}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/6/6631b9b3-57fb-45d0-94fc-7d07556c8f7f.png?1721424651",
+        "https://cards.scryfall.io/png/front/6/6/6631b9b3-57fb-45d0-94fc-7d07556c8f7f.png?1735993478",
         :collector-number "116",
         :layout "normal",
         :name "Waterlogged Grove",
         :oracle-text
-        "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice Waterlogged Grove: Draw a card."}
+        "{T}, Pay 1 life: Add {G} or {U}.\n{1}, {T}, Sacrifice this land: Draw a card."}
  #:card{:type-line "Legendary Creature — God Artificer",
         :layout-category :normal,
         :code "acr",
@@ -1336,7 +1336,7 @@
         :layout "normal",
         :name "Sokrates, Athenian Teacher",
         :oracle-text
-        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+        "Defender\nSokrates has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "acr",
@@ -1358,7 +1358,7 @@
         :layout "normal",
         :name "Staff of Eden, Vault's Key",
         :oracle-text
-        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+        "When Staff of Eden enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -1391,7 +1391,7 @@
         :layout "normal",
         :name "Yggdrasil, Rebirth Engine",
         :oracle-text
-        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+        "When Yggdrasil enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1413,7 +1413,7 @@
         :layout "normal",
         :name "Senu, Keen-Eyed Protector",
         :oracle-text
-        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+        "Flying, vigilance\n{T}, Exile Senu: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if this card is exiled, put it onto the battlefield attacking."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1479,7 +1479,7 @@
         :layout "normal",
         :name "Alexios, Deimos of Kosmos",
         :oracle-text
-        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+        "Trample\nAlexios attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1496,12 +1496,12 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/2/c2e0ee24-94fc-4042-b3cf-a5a8a2432ba4.png?1721424812",
+        "https://cards.scryfall.io/png/front/c/2/c2e0ee24-94fc-4042-b3cf-a5a8a2432ba4.png?1738102745",
         :collector-number "136",
         :layout "normal",
         :name "Adéwalé, Breaker of Chains",
         :oracle-text
-        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1512,7 +1512,7 @@
         :layout "normal",
         :name "Altaïr Ibn-La'Ahad",
         :oracle-text
-        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+        "First strike\nWhenever Altaïr attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1589,7 +1589,7 @@
         :layout "normal",
         :name "Eivor, Wolf-Kissed",
         :oracle-text
-        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+        "Trample, haste\nWhenever Eivor deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
  #:card{:type-line "Legendary Creature — Human",
         :layout-category :normal,
         :code "acr",
@@ -1600,7 +1600,7 @@
         :layout "normal",
         :name "Ezio, Brash Novice",
         :oracle-text
-        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+        "Whenever Ezio attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
  #:card{:type-line "Legendary Creature — God Warrior",
         :layout-category :normal,
         :code "acr",
@@ -1611,7 +1611,7 @@
         :layout "normal",
         :name "Havi, the All-Father",
         :oracle-text
-        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+        "Havi has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "acr",
@@ -1677,7 +1677,7 @@
         :layout "normal",
         :name "Shaun & Rebecca, Agents",
         :oracle-text
-        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+        "Vigilance\nWhen Shaun & Rebecca enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
  #:card{:type-line "Legendary Creature — Human Knight Rogue",
         :layout-category :normal,
         :code "acr",
@@ -1721,7 +1721,7 @@
         :layout "normal",
         :name "Rest in Peace",
         :oracle-text
-        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+        "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -1787,7 +1787,7 @@
         :layout "normal",
         :name "Conspiracy",
         :oracle-text
-        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+        "As this enchantment enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -1798,7 +1798,7 @@
         :layout "normal",
         :name "Cover of Darkness",
         :oracle-text
-        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+        "As this enchantment enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1940,7 +1940,7 @@
         :layout "normal",
         :name "Hookblade",
         :oracle-text
-        "When Hookblade enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -1984,7 +1984,7 @@
         :layout "normal",
         :name "Rest in Peace",
         :oracle-text
-        "When Rest in Peace enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+        "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
  #:card{:type-line "Legendary Creature — Bird Scout",
         :layout-category :normal,
         :code "acr",
@@ -1995,7 +1995,7 @@
         :layout "normal",
         :name "Senu, Keen-Eyed Protector",
         :oracle-text
-        "Flying, vigilance\n{T}, Exile Senu, Keen-Eyed Protector: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if Senu is exiled, put it onto the battlefield attacking."}
+        "Flying, vigilance\n{T}, Exile Senu: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if this card is exiled, put it onto the battlefield attacking."}
  #:card{:type-line "Creature — Human Advisor",
         :layout-category :normal,
         :code "acr",
@@ -2006,7 +2006,7 @@
         :layout "normal",
         :name "Tax Collector",
         :oracle-text
-        "When Tax Collector enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
+        "When this creature enters, choose one —\n• Tax — Until your next turn, spells your opponents cast cost {1} more to cast.\n• Arrest — Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)"}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "acr",
@@ -2039,7 +2039,7 @@
         :layout "normal",
         :name "Assassin Gauntlet",
         :oracle-text
-        "When Assassin Gauntlet enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
+        "When this Equipment enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -2138,7 +2138,7 @@
         :layout "normal",
         :name "Loyal Inventor",
         :oracle-text
-        "Vigilance\nWhen Loyal Inventor enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
+        "Vigilance\nWhen this creature enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -2171,7 +2171,7 @@
         :layout "normal",
         :name "Assassin Initiate",
         :oracle-text
-        "{1}: Assassin Initiate gains your choice of flying, deathtouch, or lifelink until end of turn."}
+        "{1}: This creature gains your choice of flying, deathtouch, or lifelink until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -2204,7 +2204,7 @@
         :layout "normal",
         :name "Conspiracy",
         :oracle-text
-        "As Conspiracy enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
+        "As this enchantment enters, choose a creature type.\nCreatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -2215,7 +2215,7 @@
         :layout "normal",
         :name "Cover of Darkness",
         :oracle-text
-        "As Cover of Darkness enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
+        "As this enchantment enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)"}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -2248,7 +2248,7 @@
         :layout "normal",
         :name "Fatal Push",
         :oracle-text
-        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."}
+        "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -2269,7 +2269,7 @@
         :layout "normal",
         :name "Hemlock Vial",
         :oracle-text
-        "When Hemlock Vial enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice Hemlock Vial: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
+        "When this artifact enters, you draw a card and you lose 1 life.\n{B}, {T}, Sacrifice this artifact: Each equipped creature and Equipment you control gains deathtouch until end of turn."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -2312,7 +2312,7 @@
         :layout "normal",
         :name "Phantom Blade",
         :oracle-text
-        "When Phantom Blade enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
+        "When this Equipment enters, attach it to up to one target creature you control. Destroy up to one other target creature.\nEquipped creature gets +1/+1 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {2}"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -2355,7 +2355,7 @@
         :layout "normal",
         :name "Alexios, Deimos of Kosmos",
         :oracle-text
-        "Trample\nAlexios, Deimos of Kosmos attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
+        "Trample\nAlexios attacks each combat if able, can't be sacrificed, and can't attack its owner.\nAt the beginning of each player's upkeep, that player gains control of Alexios, untaps it, and puts a +1/+1 counter on it. It gains haste until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -2377,7 +2377,7 @@
         :layout "normal",
         :name "Hidden Footblade",
         :oracle-text
-        "Flash\nWhen Hidden Footblade enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -2432,7 +2432,7 @@
         :layout "normal",
         :name "Hunter's Bow",
         :oracle-text
-        "When Hunter's Bow enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
+        "When this Equipment enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}"}
  #:card{:type-line "Creature — Human Archer",
         :layout-category :normal,
         :code "acr",
@@ -2443,7 +2443,7 @@
         :layout "normal",
         :name "Palazzo Archers",
         :oracle-text
-        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, Palazzo Archers deals damage equal to its power to that creature."}
+        "Reach\nWhenever a creature with flying attacks you or a planeswalker you control, this creature deals damage equal to its power to that creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -2465,7 +2465,7 @@
         :layout "normal",
         :name "Adéwalé, Breaker of Chains",
         :oracle-text
-        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return Adéwalé from your graveyard to your hand."}
+        "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -2476,7 +2476,7 @@
         :layout "normal",
         :name "Altaïr Ibn-La'Ahad",
         :oracle-text
-        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+        "First strike\nWhenever Altaïr attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -2586,7 +2586,7 @@
         :layout "normal",
         :name "Eivor, Wolf-Kissed",
         :oracle-text
-        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+        "Trample, haste\nWhenever Eivor deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
  #:card{:type-line "Legendary Creature — Human",
         :layout-category :normal,
         :code "acr",
@@ -2597,7 +2597,7 @@
         :layout "normal",
         :name "Ezio, Brash Novice",
         :oracle-text
-        "Whenever Ezio, Brash Novice attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
+        "Whenever Ezio attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types."}
  #:card{:type-line "Legendary Creature — God Warrior",
         :layout-category :normal,
         :code "acr",
@@ -2608,7 +2608,7 @@
         :layout "normal",
         :name "Havi, the All-Father",
         :oracle-text
-        "Havi, the All-Father has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
+        "Havi has indestructible as long as there are four or more historic cards in your graveyard. (Artifacts, legendaries, and Sagas are historic.)\nSage Project — Whenever Havi or another legendary creature you control dies, return target legendary creature card with lesser mana value from your graveyard to the battlefield tapped."}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "acr",
@@ -2717,7 +2717,7 @@
         :layout "normal",
         :name "Shaun & Rebecca, Agents",
         :oracle-text
-        "Vigilance\nWhen Shaun & Rebecca, Agents enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
+        "Vigilance\nWhen Shaun & Rebecca enters, search your graveyard, hand, and library for a card named The Animus and put it onto the battlefield, then shuffle.\n{T}: Add {C}. When you do, mill two cards."}
  #:card{:type-line "Legendary Creature — Human Knight Rogue",
         :layout-category :normal,
         :code "acr",
@@ -2750,7 +2750,7 @@
         :layout "normal",
         :name "Sokrates, Athenian Teacher",
         :oracle-text
-        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+        "Defender\nSokrates has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "acr",
@@ -2827,7 +2827,7 @@
         :layout "normal",
         :name "Hidden Blade",
         :oracle-text
-        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
+        "Flash\nWhen this Equipment enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -2849,7 +2849,7 @@
         :layout "normal",
         :name "Smoke Bomb",
         :oracle-text
-        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice Smoke Bomb. When you do, target creature you control can't be blocked this turn."}
+        "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice this artifact. When you do, target creature you control can't be blocked this turn."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "acr",
@@ -2860,7 +2860,7 @@
         :layout "normal",
         :name "Staff of Eden, Vault's Key",
         :oracle-text
-        "When Staff of Eden, Vault's Key enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
+        "When Staff of Eden enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -2904,7 +2904,7 @@
         :layout "normal",
         :name "Yggdrasil, Rebirth Engine",
         :oracle-text
-        "When Yggdrasil, Rebirth Engine enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
+        "When Yggdrasil enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "acr",
@@ -2932,7 +2932,7 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/8/282a9380-01a1-4fc6-bcd4-2c8543a75eba.png?1721425548",
+        "https://cards.scryfall.io/png/front/2/8/282a9380-01a1-4fc6-bcd4-2c8543a75eba.png?1733918015",
         :collector-number "267",
         :layout "normal",
         :name "Ezio Auditore da Firenze",
@@ -2943,18 +2943,18 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/f/9f92d7b6-58c8-485c-86ff-d63f1d3dd481.png?1721425555",
+        "https://cards.scryfall.io/png/front/9/f/9f92d7b6-58c8-485c-86ff-d63f1d3dd481.png?1733918037",
         :collector-number "268",
         :layout "normal",
         :name "Altaïr Ibn-La'Ahad",
         :oracle-text
-        "First strike\nWhenever Altaïr Ibn-La'Ahad attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
+        "First strike\nWhenever Altaïr attacks, exile up to one target Assassin creature card from your graveyard with a memory counter on it. Then for each creature card you own in exile with a memory counter on it, create a tapped and attacking token that's a copy of it. Exile those tokens at end of combat."}
  #:card{:type-line "Legendary Creature — Human Assassin Pirate",
         :layout-category :normal,
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/6/861f4e4d-e3ed-483f-b9af-2f4072524742.png?1721425558",
+        "https://cards.scryfall.io/png/front/8/6/861f4e4d-e3ed-483f-b9af-2f4072524742.png?1733918064",
         :collector-number "269",
         :layout "normal",
         :name "Edward Kenway",
@@ -2965,18 +2965,18 @@
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/0/00fcb189-1a34-4bf5-8bde-3846eec88172.png?1721425564",
+        "https://cards.scryfall.io/png/front/0/0/00fcb189-1a34-4bf5-8bde-3846eec88172.png?1733918082",
         :collector-number "270",
         :layout "normal",
         :name "Eivor, Wolf-Kissed",
         :oracle-text
-        "Trample, haste\nWhenever Eivor, Wolf-Kissed deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
+        "Trample, haste\nWhenever Eivor deals combat damage to a player, you mill that many cards. You may put a Saga card and/or a land card from among them onto the battlefield."}
  #:card{:type-line "Legendary Creature — Human Assassin Warrior",
         :layout-category :normal,
         :code "acr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/f/1f053676-de35-4465-b3b2-ce6050055e85.png?1721425569",
+        "https://cards.scryfall.io/png/front/1/f/1f053676-de35-4465-b3b2-ce6050055e85.png?1733918099",
         :collector-number "271",
         :layout "normal",
         :name "Kassandra, Eagle Bearer",
@@ -3003,7 +3003,7 @@
         :layout "normal",
         :name "Sokrates, Athenian Teacher",
         :oracle-text
-        "Defender\nSokrates, Athenian Teacher has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
+        "Defender\nSokrates has hexproof as long as it's untapped.\nSokratic Dialogue — {T}: Until end of turn, target creature gains \"If this creature would deal combat damage to a player, prevent that damage. This creature's controller and that player each draw half that many cards, rounded down.\""}
  #:card{:type-line "Legendary Creature — Human Assassin Warrior",
         :layout-category :normal,
         :code "acr",
@@ -3014,7 +3014,7 @@
         :layout "normal",
         :name "Eivor, Battle-Ready",
         :oracle-text
-        "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor, Battle-Ready attacks, it deals damage equal to the number of Equipment you control to each opponent."}
+        "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent."}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -3069,7 +3069,7 @@
         :layout "normal",
         :name "Keen-Eyed Raven",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Keen-Eyed Raven enters, put a +1/+1 counter on another target creature you control."}
+        "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen this creature enters, put a +1/+1 counter on another target creature you control."}
  #:card{:type-line "Creature — Human Artificer",
         :layout-category :normal,
         :code "acr",
@@ -3080,7 +3080,7 @@
         :layout "normal",
         :name "Settlement Blacksmith",
         :oracle-text
-        "When Settlement Blacksmith enters, if you control an Equipment, draw a card."}
+        "When this creature enters, if you control an Equipment, draw a card."}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "acr",
@@ -3102,7 +3102,7 @@
         :layout "normal",
         :name "Brotherhood Spy",
         :oracle-text
-        "At the beginning of combat on your turn, if you control a legendary Assassin, Brotherhood Spy gets +1/+0 until end of turn and can't be blocked this turn."}
+        "At the beginning of combat on your turn, if you control a legendary Assassin, this creature gets +1/+0 until end of turn and can't be blocked this turn."}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -3113,7 +3113,7 @@
         :layout "normal",
         :name "Hookblade Veteran",
         :oracle-text
-        "During your turn, Hookblade Veteran has flying. (It can't be blocked except by creatures with flying or reach.)"}
+        "During your turn, this creature has flying. (It can't be blocked except by creatures with flying or reach.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "acr",
@@ -3146,7 +3146,7 @@
         :layout "normal",
         :name "Brotherhood Patriarch",
         :oracle-text
-        "When Brotherhood Patriarch dies, each opponent loses 2 life and you gain 2 life."}
+        "When this creature dies, each opponent loses 2 life and you gain 2 life."}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -3157,7 +3157,7 @@
         :layout "normal",
         :name "Merciless Harlequin",
         :oracle-text
-        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhen Merciless Harlequin enters, you draw a card and you lose 1 life."}
+        "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nWhen this creature enters, you draw a card and you lose 1 life."}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -3168,7 +3168,7 @@
         :layout "normal",
         :name "Poison-Blade Mentor",
         :oracle-text
-        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever Poison-Blade Mentor attacks, another target Assassin you control gains deathtouch until end of turn."}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever this creature attacks, another target Assassin you control gains deathtouch until end of turn."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "acr",
@@ -3179,7 +3179,7 @@
         :layout "normal",
         :name "Headsplitter",
         :oracle-text
-        "When Headsplitter enters, create a 1/1 black Assassin creature token with menace, then attach Headsplitter to it.\nEquipped creature gets +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "When this Equipment enters, create a 1/1 black Assassin creature token with menace, then attach this Equipment to it.\nEquipped creature gets +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Creature — Minotaur",
         :layout-category :normal,
         :code "acr",
@@ -3212,7 +3212,7 @@
         :layout "normal",
         :name "Spartan Veteran",
         :oracle-text
-        "During your turn, Spartan Veteran has first strike. (It deals combat damage before creatures without first strike.)\n{2}: Spartan Veteran gets +1/+0 until end of turn."}
+        "During your turn, this creature has first strike. (It deals combat damage before creatures without first strike.)\n{2}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Legendary Creature — Giant God Warrior",
         :layout-category :normal,
         :code "acr",
@@ -3223,7 +3223,7 @@
         :layout "normal",
         :name "Surtr, Fiery Jötun",
         :oracle-text
-        "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you cast a historic spell, Surtr, Fiery Jötun deals 3 damage to any target. (Artifacts, legendaries, and Sagas are historic.)"}
+        "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you cast a historic spell, Surtr deals 3 damage to any target. (Artifacts, legendaries, and Sagas are historic.)"}
  #:card{:type-line "Legendary Creature — Human Assassin",
         :layout-category :normal,
         :code "acr",
@@ -3267,7 +3267,7 @@
         :layout "normal",
         :name "Raven Clan War-Axe",
         :oracle-text
-        "When Raven Clan War-Axe enters, you may search your library and/or graveyard for a card named Eivor, Battle-Ready, reveal it, and put it into your hand. If you search your library this way, shuffle.\nEquipped creature gets +2/+0 and has trample.\nEquip {2}"}
+        "When this Equipment enters, you may search your library and/or graveyard for a card named Eivor, Battle-Ready, reveal it, and put it into your hand. If you search your library this way, shuffle.\nEquipped creature gets +2/+0 and has trample.\nEquip {2}"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "acr",
@@ -3299,8 +3299,7 @@
         :collector-number "300",
         :layout "normal",
         :name "Stone Quarry",
-        :oracle-text
-        "Stone Quarry enters tapped.\n{T}: Add {R} or {W}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "acr",
@@ -3310,8 +3309,7 @@
         :collector-number "301",
         :layout "normal",
         :name "Submerged Boneyard",
-        :oracle-text
-        "Submerged Boneyard enters tapped.\n{T}: Add {U} or {B}."}
+        :oracle-text "This land enters tapped.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Basic Land — Plains",
         :layout-category :normal,
         :code "acr",
@@ -3372,4 +3370,4 @@
         :layout "normal",
         :name "Hidden Blade",
         :oracle-text
-        "Flash\nWhen Hidden Blade enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"})
+        "Flash\nWhen this Equipment enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}"})

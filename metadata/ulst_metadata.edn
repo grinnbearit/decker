@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Do-It-Yourself Seraph",
         :oracle-text
-        "Flying\nWhenever Do-It-Yourself Seraph attacks, you may search your library for an artifact card, exile it, then shuffle.\nDo-It-Yourself Seraph has the text box of each card exiled with Do-It-Yourself Seraph in addition to its own."}
+        "Flying\nWhenever this creature attacks, you may search your library for an artifact card, exile it, then shuffle.\nThis creature has the text box of each card exiled with this creature in addition to its own."}
  #:card{:type-line "Creature — Bird Advisor",
         :layout-category :normal,
         :code "ulst",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Flavor Judge",
         :oracle-text
-        "{T}: Choose target spell or ability that targets a permanent you control. Then ask a person outside the game if the story of what will happen makes sense. If they say no, sacrifice Flavor Judge and counter that spell or ability."}
+        "{T}: Choose target spell or ability that targets a permanent you control. Then ask a person outside the game if the story of what will happen makes sense. If they say no, sacrifice this creature and counter that spell or ability."}
  #:card{:type-line "Legendary Creature — Elephant Rogue",
         :layout-category :normal,
         :code "ulst",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Jackknight",
         :oracle-text
-        "Whenever another artifact enters the battlefield under your control, put a +1/+1 counter on Jackknight. If that artifact is a Contraption, Jackknight gains lifelink until end of turn."}
+        "Whenever another artifact you control enters, put a +1/+1 counter on this creature. If that artifact is a Contraption, this creature gains lifelink until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ulst",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Syr Cadian, Knight Owl",
         :oracle-text
-        "Knightlifelink (Damage dealt by Knights you control also causes you to gain that much life.)\n{W}: Syr Cadian, Knight Owl gains vigilance until end of turn. Activate only from sunrise to sunset.\n{B}: Syr Cadian, Knight Owl gains flying until end of turn. Activate only from sunset to sunrise."}
+        "Knightlifelink (Damage dealt by Knights you control also causes you to gain that much life.)\n{W}: Syr Cadian gains vigilance until end of turn. Activate only from sunrise to sunset.\n{B}: Syr Cadian gains flying until end of turn. Activate only from sunset to sunrise."}
  #:card{:type-line "Legendary Creature — Clamfolk Advisor Rebel",
         :layout-category :normal,
         :code "ulst",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Animate Library",
         :oracle-text
-        "Enchant your library\nEnchanted library is an artifact creature on the battlefield with power and toughness each equal to the number of cards in it. It's still a library.\nIf enchanted library would leave the battlefield, exile Animate Library instead."}
+        "Enchant your library\nEnchanted library is an artifact creature on the battlefield with power and toughness each equal to the number of cards in it. It's still a library.\nIf enchanted library would leave the battlefield, exile this Aura instead."}
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "ulst",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "B.O.B. (Bevy of Beebles)",
         :oracle-text
-        "As B.O.B. enters the battlefield, create four 1/1 blue Beeble creature tokens.\nThe number of loyalty counters on B.O.B. is equal to the number of Beebles you control. (Create or sacrifice Beebles whenever B.O.B. gains or loses loyalty.)\n+1: Up to X target Beebles can't be blocked this turn, where X is the number of cards in your hand.\n−1: Draw a card."}
+        "As B.O.B. enters, create four 1/1 blue Beeble creature tokens.\nThe number of loyalty counters on B.O.B. is equal to the number of Beebles you control. (Create or sacrifice Beebles whenever B.O.B. gains or loses loyalty.)\n+1: Up to X target Beebles can't be blocked this turn, where X is the number of cards in your hand.\n−1: Draw a card."}
  #:card{:type-line "Creature — Human Spy",
         :layout-category :normal,
         :code "ulst",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Clocknapper",
         :oracle-text
-        "When Clocknapper enters the battlefield, choose beginning phase, precombat main phase, combat phase, postcombat main phase, or ending phase. Steal that phase from target player during their next turn. (That phase occurs as though it's your turn instead.)"}
+        "When this creature enters, choose beginning phase, first main phase, combat phase, postcombat main phase, or ending phase. Steal that phase from target player during their next turn. (That phase occurs as though it's your turn instead.)"}
  #:card{:type-line "Creature — Human Spy",
         :layout-category :normal,
         :code "ulst",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Acornelia, Fashionable Filcher",
         :oracle-text
-        "Whenever you cast a spell with a squirrel in its art, you get {A} (an acorn counter).\nWhenever a Squirrel you control enters the battlefield or dies, you get {A}.\n{2}{B}, Pay X {A}: Target creature gets -X/-X until end of turn.\n{G}, Pay X {A}: Target creature gets +X/+X until end of turn."}
+        "Whenever you cast a spell with a squirrel in its art, you get {A} (an acorn counter).\nWhenever a Squirrel you control enters or dies, you get {A}.\n{2}{B}, Pay X {A}: Target creature gets -X/-X until end of turn.\n{G}, Pay X {A}: Target creature gets +X/+X until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ulst",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Infernal Spawn of Infernal Spawn of Evil",
         :oracle-text
-        "Flying, first strike, trample\nOnce each turn, while you're searching your library, you may pay {1}{B}, reveal Infernal Spawn of Infernal Spawn of Evil from your library and say \"I'm coming, too!\" If you do, Infernal Spawn of Infernal Spawn of Evil deals 2 damage to a player of your choice."}
+        "Flying, first strike, trample\nOnce each turn, while you're searching your library, you may pay {1}{B}, reveal this card from your library and say \"I'm coming, too\" If you do, this card deals 2 damage to a player of your choice."}
  #:card{:type-line "Creature — Demon Beast Grandchild",
         :layout-category :normal,
         :code "ulst",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Infernius Spawnington III, Esq.",
         :oracle-text
-        "Flying, first strike, trample, haste\nThis spell costs {3} less to cast for each card you've revealed this turn.\nWhen Infernius Spawnington III, Esq. enters the battlefield, you may say \"I'm here.\" If you do, it deals 3 damage to target player."}
+        "Flying, first strike, trample, haste\nThis spell costs {3} less to cast for each card you've revealed this turn.\nWhen this creature enters, you may say \"I'm here.\" If you do, it deals 3 damage to target player."}
  #:card{:type-line "Creature — Troll Ninja",
         :layout-category :normal,
         :code "ulst",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Masterful Ninja",
         :oracle-text
-        "Haste\nReveal Masterful Ninja from your hand: Masterful Ninja is on the battlefield and in your hand until end of turn.\n{1}{B}: Masterful Ninja gets +1/+1 until end of turn."}
+        "Haste\nReveal this card from your hand: Masterful Ninja is on the battlefield and in your hand until end of turn.\n{1}{B}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ulst",
@@ -289,7 +289,7 @@
         :code "ulst",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/c/dc0741ad-83c2-4ee5-a712-529787e532ba.png?1664318826",
+        "https://cards.scryfall.io/png/front/d/c/dc0741ad-83c2-4ee5-a712-529787e532ba.png?1734094617",
         :collector-number "27",
         :layout "normal",
         :name "Blast from the Past",
@@ -326,7 +326,7 @@
         :layout "normal",
         :name "Steamflogger of the Month",
         :oracle-text
-        "When Steamflogger of the Month enters the battlefield, it assembles a Contraption for each Contraption you control. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)"}
+        "When this creature enters, it assembles a Contraption for each Contraption you control. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)"}
  #:card{:type-line "Creature — Goblin Mutant",
         :layout-category :normal,
         :code "ulst",
@@ -359,7 +359,7 @@
         :layout "normal",
         :name "As Luck Would Have It",
         :oracle-text
-        "Hexproof\nWhenever you roll a die, put a number of luck counters on As Luck Would Have It equal to the result. Then if there are 100 or more luck counters on As Luck Would Have It, you win the game. (Count both rolls if you reroll a die.)"}
+        "Hexproof\nWhenever you roll a die, put a number of luck counters on this enchantment equal to the result. Then if there are 100 or more luck counters on this enchantment, you win the game. (Count both rolls if you reroll a die.)"}
  #:card{:type-line "Creature — Dog",
         :layout-category :normal,
         :code "ulst",
@@ -370,7 +370,7 @@
         :layout "normal",
         :name "B-I-N-G-O",
         :oracle-text
-        "Trample\nWhenever a player casts a spell, put a chip counter on its mana value.\nB-I-N-G-O gets +9/+9 for each set of three numbers in a row with chip counters on them."}
+        "Trample\nWhenever a player casts a spell, put a chip counter on its mana value.\nThis creature gets +9/+9 for each set of three numbers in a row with chip counters on them."}
  #:card{:type-line "Creature — Hydra Dog",
         :layout-category :normal,
         :code "ulst",
@@ -381,7 +381,7 @@
         :layout "normal",
         :name "Hydradoodle",
         :oracle-text
-        "As Hydradoodle enters the battlefield, roll X six-sided dice. Hydradoodle enters the battlefield with a number of +1/+1 counters on it equal to the total of those results.\nReach, trample"}
+        "As this creature enters, roll X six-sided dice. This creature enters with a number of +1/+1 counters on it equal to the total of those results.\nReach, trample"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ulst",
@@ -392,7 +392,7 @@
         :layout "normal",
         :name "Ineffable Blessing",
         :oracle-text
-        "As Ineffable Blessing enters the battlefield, choose white-bordered or silver-bordered.\nWhenever a creature with the chosen border enters the battlefield under your control, draw a card."}
+        "As this enchantment enters, choose white-bordered or silver-bordered.\nWhenever a creature you control with the chosen border enters, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ulst",
@@ -403,13 +403,13 @@
         :layout "normal",
         :name "Ineffable Blessing",
         :oracle-text
-        "As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.\n• Flavorful — Whenever a creature with flavor text enters the battlefield under your control, draw a card.\n• Bland — Whenever a creature without flavor text enters the battlefield under your control, draw a card."}
+        "As this enchantment enters, choose Flavorful or Bland.\n• Flavorful — Whenever a creature you control with flavor text enters, draw a card.\n• Bland — Whenever a creature you control without flavor text enters, draw a card."}
  #:card{:type-line "Summon — Dinosaur",
         :layout-category :normal,
         :code "ulst",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/b/0b8d6639-b999-427b-936d-e243bccbff03.png?1664318871",
+        "https://cards.scryfall.io/png/front/0/b/0b8d6639-b999-427b-936d-e243bccbff03.png?1734094624",
         :collector-number "39",
         :layout "normal",
         :name "Old Fogey",
@@ -436,7 +436,7 @@
         :layout "augment",
         :name "Serpentine",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control,\nAugment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)"}
+        "Landfall — Whenever a land you control enters,\nAugment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Wombat Bat Chameleon",
         :layout-category :normal,
         :code "ulst",
@@ -458,7 +458,7 @@
         :layout "normal",
         :name "Baron Von Count",
         :oracle-text
-        "Baron Von Count enters the battlefield with a doom counter on \"5.\"\nWhenever you cast a spell with the indicated numeral in its mana cost, text box, power, or toughness, move the doom counter one numeral to the left.\nWhen the doom counter moves from \"1,\" destroy target player and put that doom counter on \"5.\""}
+        "Baron Von Count enters with a doom counter on \"5.\"\nWhenever you cast a spell with the indicated numeral in its mana cost, text box, power, or toughness, move the doom counter one numeral to the left.\nWhen the doom counter moves from \"1,\" destroy target player and put that doom counter on \"5.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ulst",
@@ -480,7 +480,7 @@
         :layout "normal",
         :name "Cramped Bunker",
         :oracle-text
-        "At the beginning of each opponent's upkeep, that player moves a permanent they control to touch Cramped Bunker and no other permanents. If the player can't, destroy each permanent they control that isn't touching Cramped Bunker, then sacrifice it."}
+        "At the beginning of each opponent's upkeep, that player moves a permanent they control to touch this enchantment and no other permanents. If the player can't, destroy each permanent they control that isn't touching this enchantment, then sacrifice it."}
  #:card{:type-line "Legendary Creature",
         :layout-category :normal,
         :code "ulst",
@@ -491,7 +491,7 @@
         :layout "normal",
         :name "Dr. Julius Jumblemorph",
         :oracle-text
-        "Dr. Julius Jumblemorph is every creature type (even if this card isn't on the battlefield).\nWhenever a host enters the battlefield under your control, you may search your library and/or graveyard for a card with augment and combine it with that host. If you search your library this way, shuffle."}
+        "Dr. Julius Jumblemorph is every creature type (even if this card isn't on the battlefield).\nWhenever a host you control enters, you may search your library and/or graveyard for a card with augment and combine it with that host. If you search your library this way, shuffle."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "ulst",
@@ -502,7 +502,7 @@
         :layout "normal",
         :name "The Grand Calcutron",
         :oracle-text
-        "The Grand Calcutron can be your commander.\nWhen The Grand Calcutron enters the battlefield, each player's hand becomes a program (an ordered row of revealed cards).\nPlayers can only play the first card of their program.\nIf a card would be put into a player's hand from anywhere, that player reveals it and places it anywhere within their program instead.\nAt the beginning of each player's end step, if that player's program has fewer than five cards, they draw cards equal to the difference."}
+        "When The Grand Calcutron enters, each player's hand becomes a program (an ordered row of revealed cards).\nPlayers can play only the first card of their program.\nIf a card would be put into a player's hand from anywhere, that player reveals it and places it anywhere within their program instead.\nAt the beginning of each player's end step, if that player's program has fewer than five cards, they draw cards equal to the difference.\nThe Grand Calcutron can be your commander."}
  #:card{:type-line "Legendary Creature — Zombie Villain",
         :layout-category :normal,
         :code "ulst",
@@ -546,7 +546,7 @@
         :layout "normal",
         :name "Ol' Buzzbark",
         :oracle-text
-        "When Ol' Buzzbark enters the battlefield, roll X six-sided dice onto the battlefield from a height of at least X inches. For each die, put a number of +1/+1 counters equal to the result on each creature you control that die is touching. For each die, Ol' Buzzbark deals damage equal to the result to each creature an opponent controls that die is touching."}
+        "When Ol' Buzzbark enters, roll X six-sided dice onto the battlefield from a height of at least X inches. For each die, put a number of +1/+1 counters equal to the result on each creature you control that die is touching. For each die, Ol' Buzzbark deals damage equal to the result to each creature an opponent controls that die is touching."}
  #:card{:type-line "Legendary Creature — Human Spy",
         :layout-category :normal,
         :code "ulst",
@@ -557,7 +557,7 @@
         :layout "normal",
         :name "Phoebe, Head of S.N.E.A.K.",
         :oracle-text
-        "Phoebe, Head of S.N.E.A.K. can't be blocked by creatures with flavor text.\n{2}{U}{B}: Phoebe permanently steals target creature's text box. (That creature loses all rules text, flavor text, and watermarks. This creature gains them.)"}
+        "Phoebe can't be blocked by creatures with flavor text.\n{2}{U}{B}: Phoebe permanently steals target creature's text box. (That creature loses all rules text, flavor text, and watermarks. This creature gains them.)"}
  #:card{:type-line "Legendary Creature — Human Spy",
         :layout-category :normal,
         :code "ulst",
@@ -579,7 +579,7 @@
         :layout "host",
         :name "Angelic Rocket",
         :oracle-text
-        "Flying\nWhen this creature enters the battlefield, you may destroy target nonland permanent."}
+        "Flying\nWhen this creature enters, you may destroy target nonland permanent."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ulst",
@@ -601,7 +601,7 @@
         :layout "normal",
         :name "Everythingamajig",
         :oracle-text
-        "{1}, {T}: Scry 2.\n{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.\n{7}, {T}, Sacrifice Everythingamajig: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
+        "{1}, {T}: Scry 2.\n{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.\n{7}, {T}, Sacrifice this artifact: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ulst",
@@ -634,7 +634,7 @@
         :layout "normal",
         :name "Modular Monstrosity",
         :oracle-text
-        "Whenever an opponent casts a spell, you have five seconds to choose a keyword you haven't chosen for a card named Modular Monstrosity today that's been printed on a creature card. If you do, Modular Monstrosity gains that ability. Otherwise, Modular Monstrosity loses all keyword abilities."}
+        "Whenever an opponent casts a spell, you have five seconds to choose a keyword you haven't chosen for a card named Modular Monstrosity today that's been printed on a creature card. If you do, this creature gains that ability. Otherwise, this creature loses all keyword abilities."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ulst",
@@ -645,7 +645,7 @@
         :layout "normal",
         :name "Split Screen",
         :oracle-text
-        "When Split Screen enters the battlefield, shuffle your library and deal it into four libraries. If anything refers to your library, choose one of your libraries for it.\nPlay with your libraries' top cards revealed.\nWhen Split Screen leaves the battlefield, shuffle your libraries together."}
+        "When this artifact enters, shuffle your library and deal it into four libraries. If anything refers to your library, choose one of your libraries for it.\nPlay with your libraries' top cards revealed.\nWhen this artifact leaves the battlefield, shuffle your libraries together."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ulst",

@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Journey to Nowhere",
         :oracle-text
-        "When Journey to Nowhere enters, exile target creature.\nWhen Journey to Nowhere leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+        "When this enchantment enters, exile target creature.\nWhen this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otp",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Leyline Binding",
         :oracle-text
-        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "otp",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Heartless Pillage",
         :oracle-text
-        "Target opponent discards two cards.\nRaid — If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Target opponent discards two cards.\nRaid — If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otp",
@@ -326,7 +326,7 @@
         :layout "normal",
         :name "Pest Infestation",
         :oracle-text
-        "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this creature dies, you gain 1 life.\""}
+        "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this token dies, you gain 1 life.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otp",
@@ -348,7 +348,7 @@
         :layout "normal",
         :name "Primal Might",
         :oracle-text
-        "Target creature you control gets +X/+X until end of turn. Then it fights up to one target creature you don't control."}
+        "Target creature you control gets +X/+X until end of turn. Then it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otp",
@@ -414,7 +414,7 @@
         :layout "normal",
         :name "Buried in the Garden",
         :oracle-text
-        "Enchant land\nWhen Buried in the Garden enters, exile target nonland permanent you don't control until Buried in the Garden leaves the battlefield.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
+        "Enchant land\nWhen this Aura enters, exile target nonland permanent you don't control until this Aura leaves the battlefield.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."}
  #:card{:code "otp",
         :collector-number "39",
         :name "Crime // Punishment",
@@ -440,7 +440,7 @@
         :layout "normal",
         :name "Cruel Ultimatum",
         :oracle-text
-        "Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life."}
+        "Target opponent sacrifices a creature of their choice, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otp",
@@ -473,7 +473,7 @@
         :layout "normal",
         :name "Detention Sphere",
         :oracle-text
-        "When Detention Sphere enters, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.\nWhen Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control."}
+        "When this enchantment enters, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.\nWhen this enchantment leaves the battlefield, return the exiled cards to the battlefield under their owner's control."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otp",
@@ -484,7 +484,7 @@
         :layout "normal",
         :name "Endless Detour",
         :oracle-text
-        "The owner of target spell, nonland permanent, or card in a graveyard puts it on the top or bottom of their library."}
+        "The owner of target spell, nonland permanent, or card in a graveyard puts it on their choice of the top or bottom of their library."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otp",
@@ -550,7 +550,7 @@
         :layout "normal",
         :name "Oko, Thief of Crowns",
         :oracle-text
-        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
+        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otp",
@@ -561,7 +561,7 @@
         :layout "normal",
         :name "Outlaws' Merriment",
         :oracle-text
-        "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics.\n• 3/1 Human Warrior with trample and haste.\n• 2/1 Human Cleric with lifelink and haste.\n• 1/2 Human Rogue with haste and \"When this creature enters, it deals 1 damage to any target.\""}
+        "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics.\n• 3/1 Human Warrior with trample and haste.\n• 2/1 Human Cleric with lifelink and haste.\n• 1/2 Human Rogue with haste and \"When this token enters, it deals 1 damage to any target.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otp",
@@ -670,7 +670,7 @@
         :layout "normal",
         :name "Contagion Engine",
         :oracle-text
-        "When Contagion Engine enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
+        "When this artifact enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otp",
@@ -720,18 +720,18 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/d/6d17cd3c-40a7-4df8-8687-c0eb94637c80.png?1712353669",
+        "https://cards.scryfall.io/png/front/6/d/6d17cd3c-40a7-4df8-8687-c0eb94637c80.png?1736782693",
         :collector-number "66",
         :layout "normal",
         :name "Leyline Binding",
         :oracle-text
-        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen Leyline Binding enters, exile target nonland permanent an opponent controls until Leyline Binding leaves the battlefield."}
+        "Flash\nDomain — This spell costs {1} less to cast for each basic land type among lands you control.\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/3/33ebd4c1-e7ea-4708-8b7c-c47ca6b63c22.png?1712353673",
+        "https://cards.scryfall.io/png/front/3/3/33ebd4c1-e7ea-4708-8b7c-c47ca6b63c22.png?1736782704",
         :collector-number "67",
         :layout "normal",
         :name "Mana Drain",
@@ -742,7 +742,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/8/9857225a-3525-4e42-852c-6d2f7400e931.png?1712353677",
+        "https://cards.scryfall.io/png/front/9/8/9857225a-3525-4e42-852c-6d2f7400e931.png?1736782724",
         :collector-number "68",
         :layout "normal",
         :name "Mindbreak Trap",
@@ -753,7 +753,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/0/b0870c73-bc83-44ac-a194-7455fcacadf0.png?1712353681",
+        "https://cards.scryfall.io/png/front/b/0/b0870c73-bc83-44ac-a194-7455fcacadf0.png?1736782750",
         :collector-number "69",
         :layout "normal",
         :name "Overwhelming Forces",
@@ -764,7 +764,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/d/1d1aebf2-dd21-48b4-868f-f8fb164dcaae.png?1712353686",
+        "https://cards.scryfall.io/png/front/1/d/1d1aebf2-dd21-48b4-868f-f8fb164dcaae.png?1736782775",
         :collector-number "70",
         :layout "normal",
         :name "Thoughtseize",
@@ -775,7 +775,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/4/f4a887d8-4afa-4551-9db2-dd90b95a68c0.png?1712353689",
+        "https://cards.scryfall.io/png/front/f/4/f4a887d8-4afa-4551-9db2-dd90b95a68c0.png?1736782800",
         :collector-number "71",
         :layout "normal",
         :name "Crackle with Power",
@@ -786,7 +786,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/0/f0e2cc8c-9e2f-479b-9c47-ad3fd04d40f7.png?1712353694",
+        "https://cards.scryfall.io/png/front/f/0/f0e2cc8c-9e2f-479b-9c47-ad3fd04d40f7.png?1736782807",
         :collector-number "72",
         :layout "normal",
         :name "Indomitable Creativity",
@@ -797,7 +797,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/3/c342bffb-3dcf-4f5a-9432-ff8f8e4cb26f.png?1712353698",
+        "https://cards.scryfall.io/png/front/c/3/c342bffb-3dcf-4f5a-9432-ff8f8e4cb26f.png?1736782816",
         :collector-number "73",
         :layout "normal",
         :name "Force of Vigor",
@@ -808,7 +808,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/1/117a70ac-ae6e-43ff-b210-c264bb8f11d2.png?1712353702",
+        "https://cards.scryfall.io/png/front/1/1/117a70ac-ae6e-43ff-b210-c264bb8f11d2.png?1736782828",
         :collector-number "74",
         :layout "normal",
         :name "Anguished Unmaking",
@@ -821,7 +821,7 @@
         :highres? true,
         :layout-category :split,
         :png
-        "https://cards.scryfall.io/png/front/3/0/301f6df1-1b97-4a63-8043-8b97147b200b.png?1713769159",
+        "https://cards.scryfall.io/png/front/3/0/301f6df1-1b97-4a63-8043-8b97147b200b.png?1736782834",
         :faces
         [{:type-line "Sorcery",
           :oracle-text
@@ -834,7 +834,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/1/c127a3c8-be41-4135-8de6-c6331f4b880b.png?1712353710",
+        "https://cards.scryfall.io/png/front/c/1/c127a3c8-be41-4135-8de6-c6331f4b880b.png?1736782844",
         :collector-number "76",
         :layout "normal",
         :name "Fractured Identity",
@@ -845,29 +845,29 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/1/016b0750-d48d-4b6e-ac9c-a7904371a914.png?1712353714",
+        "https://cards.scryfall.io/png/front/0/1/016b0750-d48d-4b6e-ac9c-a7904371a914.png?1736782850",
         :collector-number "77",
         :layout "normal",
         :name "Oko, Thief of Crowns",
         :oracle-text
-        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
+        "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/8/e8125bcb-b110-4705-b77d-0548aaac4c91.png?1712353717",
+        "https://cards.scryfall.io/png/front/e/8/e8125bcb-b110-4705-b77d-0548aaac4c91.png?1736782856",
         :collector-number "78",
         :layout "normal",
         :name "Contagion Engine",
         :oracle-text
-        "When Contagion Engine enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
+        "When this artifact enters, put a -1/-1 counter on each creature target player controls.\n{4}, {T}: Proliferate twice. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/8/183b321b-2214-42ba-a50a-54c15e3e8b77.png?1712353722",
+        "https://cards.scryfall.io/png/front/1/8/183b321b-2214-42ba-a50a-54c15e3e8b77.png?1736782870",
         :collector-number "79",
         :layout "normal",
         :name "Grindstone",
@@ -878,7 +878,7 @@
         :code "otp",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/d/8d6ecfd9-f126-411f-a7cb-99479302aa79.png?1712353724",
+        "https://cards.scryfall.io/png/front/8/d/8d6ecfd9-f126-411f-a7cb-99479302aa79.png?1736782880",
         :collector-number "80",
         :layout "normal",
         :name "Mindslaver",

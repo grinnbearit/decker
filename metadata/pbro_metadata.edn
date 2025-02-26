@@ -13,7 +13,7 @@
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/5/c57e9113-d59c-42ac-b873-9064bb454e03.png?1681219311",
+        "https://cards.scryfall.io/png/front/c/5/c57e9113-d59c-42ac-b873-9064bb454e03.png?1732131167",
         :collector-number "T2",
         :layout "token",
         :name "Construct",
@@ -28,7 +28,7 @@
         :layout "normal",
         :name "In the Trenches",
         :oracle-text
-        "Creatures you control get +1/+1.\n{5}{W}: Exile target nonland permanent you don't control until In the Trenches leaves the battlefield. Activate only as a sorcery and only once."}
+        "Creatures you control get +1/+1.\n{5}{W}: Exile target nonland permanent you don't control until this enchantment leaves the battlefield. Activate only as a sorcery and only once."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -39,7 +39,7 @@
         :layout "normal",
         :name "In the Trenches",
         :oracle-text
-        "Creatures you control get +1/+1.\n{5}{W}: Exile target nonland permanent you don't control until In the Trenches leaves the battlefield. Activate only as a sorcery and only once."}
+        "Creatures you control get +1/+1.\n{5}{W}: Exile target nonland permanent you don't control until this enchantment leaves the battlefield. Activate only as a sorcery and only once."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pbro",
@@ -94,7 +94,7 @@
         :layout "normal",
         :name "Loran of the Third Path",
         :oracle-text
-        "Vigilance\nWhen Loran of the Third Path enters the battlefield, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card."}
+        "Vigilance\nWhen Loran enters, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -105,7 +105,7 @@
         :layout "normal",
         :name "Loran of the Third Path",
         :oracle-text
-        "Vigilance\nWhen Loran of the Third Path enters the battlefield, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card."}
+        "Vigilance\nWhen Loran enters, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -116,7 +116,7 @@
         :layout "normal",
         :name "Myrel, Shield of Argive",
         :oracle-text
-        "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.\nWhenever Myrel, Shield of Argive attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control."}
+        "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.\nWhenever Myrel attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -127,7 +127,7 @@
         :layout "normal",
         :name "Myrel, Shield of Argive",
         :oracle-text
-        "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.\nWhenever Myrel, Shield of Argive attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control."}
+        "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.\nWhenever Myrel attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -182,7 +182,7 @@
         :layout "normal",
         :name "Tocasia's Welcome",
         :oracle-text
-        "Whenever one or more creatures with mana value 3 or less enter the battlefield under your control, draw a card. This ability triggers only once each turn."}
+        "Whenever one or more creatures you control with mana value 3 or less enter, draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -193,7 +193,7 @@
         :layout "normal",
         :name "Tocasia's Welcome",
         :oracle-text
-        "Whenever one or more creatures with mana value 3 or less enter the battlefield under your control, draw a card. This ability triggers only once each turn."}
+        "Whenever one or more creatures you control with mana value 3 or less enter, draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Artifact Creature — Assembly-Worker",
         :layout-category :normal,
         :code "pbro",
@@ -336,7 +336,7 @@
         :layout "normal",
         :name "Hurkyl's Final Meditation",
         :oracle-text
-        "As long as it's not your turn, this spell costs {3} more to cast.\nReturn all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"}
+        "During turns other than yours, this spell costs {3} more to cast.\nReturn all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -347,7 +347,7 @@
         :layout "normal",
         :name "Hurkyl's Final Meditation",
         :oracle-text
-        "As long as it's not your turn, this spell costs {3} more to cast.\nReturn all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"}
+        "During turns other than yours, this spell costs {3} more to cast.\nReturn all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -380,7 +380,7 @@
         :layout "normal",
         :name "Skystrike Officer",
         :oracle-text
-        "Flying\nWhenever Skystrike Officer attacks, create a 1/1 colorless Soldier artifact creature token.\nTap three untapped Soldiers you control: Draw a card."}
+        "Flying\nWhenever this creature attacks, create a 1/1 colorless Soldier artifact creature token.\nTap three untapped Soldiers you control: Draw a card."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -391,7 +391,7 @@
         :layout "normal",
         :name "Skystrike Officer",
         :oracle-text
-        "Flying\nWhenever Skystrike Officer attacks, create a 1/1 colorless Soldier artifact creature token.\nTap three untapped Soldiers you control: Draw a card."}
+        "Flying\nWhenever this creature attacks, create a 1/1 colorless Soldier artifact creature token.\nTap three untapped Soldiers you control: Draw a card."}
  #:card{:type-line "Legendary Planeswalker — Teferi",
         :layout-category :normal,
         :code "pbro",
@@ -402,7 +402,7 @@
         :layout "normal",
         :name "Teferi, Temporal Pilgrim",
         :oracle-text
-        "Whenever you draw a card, put a loyalty counter on Teferi, Temporal Pilgrim.\n0: Draw a card.\n−2: Create a 2/2 blue Spirit creature token with vigilance and \"Whenever you draw a card, put a +1/+1 counter on this creature.\"\n−12: Target opponent chooses a permanent they control and returns it to its owner's hand. Then they shuffle each nonland permanent they control into its owner's library."}
+        "Whenever you draw a card, put a loyalty counter on Teferi.\n0: Draw a card.\n−2: Create a 2/2 blue Spirit creature token with vigilance and \"Whenever you draw a card, put a +1/+1 counter on this token.\"\n−12: Target opponent chooses a permanent they control and returns it to its owner's hand. Then they shuffle each nonland permanent they control into its owner's library."}
  #:card{:type-line "Legendary Planeswalker — Teferi",
         :layout-category :normal,
         :code "pbro",
@@ -413,7 +413,7 @@
         :layout "normal",
         :name "Teferi, Temporal Pilgrim",
         :oracle-text
-        "Whenever you draw a card, put a loyalty counter on Teferi, Temporal Pilgrim.\n0: Draw a card.\n−2: Create a 2/2 blue Spirit creature token with vigilance and \"Whenever you draw a card, put a +1/+1 counter on this creature.\"\n−12: Target opponent chooses a permanent they control and returns it to its owner's hand. Then they shuffle each nonland permanent they control into its owner's library."}
+        "Whenever you draw a card, put a loyalty counter on Teferi.\n0: Draw a card.\n−2: Create a 2/2 blue Spirit creature token with vigilance and \"Whenever you draw a card, put a +1/+1 counter on this token.\"\n−12: Target opponent chooses a permanent they control and returns it to its owner's hand. Then they shuffle each nonland permanent they control into its owner's library."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -424,7 +424,7 @@
         :layout "normal",
         :name "Urza's Command",
         :oracle-text
-        "Choose two —\n• Creatures you don't control get -2/-0 until end of turn.\n• Create a tapped Powerstone token.\n• Create a tapped 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"\n• Scry 1, then draw a card."}
+        "Choose two —\n• Creatures you don't control get -2/-0 until end of turn.\n• Create a tapped Powerstone token.\n• Create a tapped 0/0 colorless Construct artifact creature token with \"This token gets +1/+1 for each artifact you control.\"\n• Scry 1, then draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -435,7 +435,7 @@
         :layout "normal",
         :name "Urza's Command",
         :oracle-text
-        "Choose two —\n• Creatures you don't control get -2/-0 until end of turn.\n• Create a tapped Powerstone token.\n• Create a tapped 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"\n• Scry 1, then draw a card."}
+        "Choose two —\n• Creatures you don't control get -2/-0 until end of turn.\n• Create a tapped Powerstone token.\n• Create a tapped 0/0 colorless Construct artifact creature token with \"This token gets +1/+1 for each artifact you control.\"\n• Scry 1, then draw a card."}
  #:card{:type-line "Artifact Creature — Wizard",
         :layout-category :normal,
         :code "pbro",
@@ -446,7 +446,7 @@
         :layout "prototype",
         :name "Arcane Proxy",
         :oracle-text
-        "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen Arcane Proxy enters the battlefield, if you cast it, exile target instant or sorcery card with mana value less than or equal to Arcane Proxy's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
+        "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen this creature enters, if you cast it, exile target instant or sorcery card with mana value less than or equal to this creature's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
  #:card{:type-line "Artifact Creature — Wizard",
         :layout-category :normal,
         :code "pbro",
@@ -457,7 +457,7 @@
         :layout "prototype",
         :name "Arcane Proxy",
         :oracle-text
-        "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen Arcane Proxy enters the battlefield, if you cast it, exile target instant or sorcery card with mana value less than or equal to Arcane Proxy's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
+        "Prototype {1}{U}{U} — 2/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nWhen this creature enters, if you cast it, exile target instant or sorcery card with mana value less than or equal to this creature's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -468,7 +468,7 @@
         :layout "normal",
         :name "Surge Engine",
         :oracle-text
-        "Defender\n{U}: Surge Engine loses defender and gains \"This creature can't be blocked.\"\n{2}{U}: Surge Engine becomes blue and has base power and toughness 5/4. Activate only if Surge Engine doesn't have defender.\n{4}{U}{U}: Draw three cards. Activate only if Surge Engine is blue and only once."}
+        "Defender\n{U}: This creature loses defender and gains \"This creature can't be blocked.\"\n{2}{U}: This creature becomes blue and has base power and toughness 5/4. Activate only if this creature doesn't have defender.\n{4}{U}{U}: Draw three cards. Activate only if this creature is blue and only once."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -479,7 +479,7 @@
         :layout "normal",
         :name "Surge Engine",
         :oracle-text
-        "Defender\n{U}: Surge Engine loses defender and gains \"This creature can't be blocked.\"\n{2}{U}: Surge Engine becomes blue and has base power and toughness 5/4. Activate only if Surge Engine doesn't have defender.\n{4}{U}{U}: Draw three cards. Activate only if Surge Engine is blue and only once."}
+        "Defender\n{U}: This creature loses defender and gains \"This creature can't be blocked.\"\n{2}{U}: This creature becomes blue and has base power and toughness 5/4. Activate only if this creature doesn't have defender.\n{4}{U}{U}: Draw three cards. Activate only if this creature is blue and only once."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pbro",
@@ -512,7 +512,7 @@
         :layout "normal",
         :name "Terisian Mindbreaker",
         :oracle-text
-        "Whenever Terisian Mindbreaker attacks, defending player mills half their library, rounded up.\nUnearth {1}{U}{U}{U} ({1}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+        "Whenever this creature attacks, defending player mills half their library, rounded up.\nUnearth {1}{U}{U}{U} ({1}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
  #:card{:type-line "Artifact Creature — Juggernaut",
         :layout-category :normal,
         :code "pbro",
@@ -523,7 +523,7 @@
         :layout "normal",
         :name "Terisian Mindbreaker",
         :oracle-text
-        "Whenever Terisian Mindbreaker attacks, defending player mills half their library, rounded up.\nUnearth {1}{U}{U}{U} ({1}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+        "Whenever this creature attacks, defending player mills half their library, rounded up.\nUnearth {1}{U}{U}{U} ({1}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -534,7 +534,7 @@
         :layout "normal",
         :name "Ashnod, Flesh Mechanist",
         :oracle-text
-        "Deathtouch\nWhenever Ashnod, Flesh Mechanist attacks, you may sacrifice another creature. If you do, create a tapped Powerstone token.\n{5}, Exile a creature card from your graveyard: Create a tapped 3/3 colorless Zombie artifact creature token."}
+        "Deathtouch\nWhenever Ashnod attacks, you may sacrifice another creature. If you do, create a tapped Powerstone token.\n{5}, Exile a creature card from your graveyard: Create a tapped 3/3 colorless Zombie artifact creature token."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -545,7 +545,7 @@
         :layout "normal",
         :name "Ashnod, Flesh Mechanist",
         :oracle-text
-        "Deathtouch\nWhenever Ashnod, Flesh Mechanist attacks, you may sacrifice another creature. If you do, create a tapped Powerstone token.\n{5}, Exile a creature card from your graveyard: Create a tapped 3/3 colorless Zombie artifact creature token."}
+        "Deathtouch\nWhenever Ashnod attacks, you may sacrifice another creature. If you do, create a tapped Powerstone token.\n{5}, Exile a creature card from your graveyard: Create a tapped 3/3 colorless Zombie artifact creature token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pbro",
@@ -644,7 +644,7 @@
         :layout "normal",
         :name "Gixian Puppeteer",
         :oracle-text
-        "Whenever you draw your second card each turn, each opponent loses 2 life and you gain 2 life.\nWhen Gixian Puppeteer dies, return another target creature card with mana value 3 or less from your graveyard to the battlefield."}
+        "Whenever you draw your second card each turn, each opponent loses 2 life and you gain 2 life.\nWhen this creature dies, return another target creature card with mana value 3 or less from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Phyrexian Warlock",
         :layout-category :normal,
         :code "pbro",
@@ -655,7 +655,7 @@
         :layout "normal",
         :name "Gixian Puppeteer",
         :oracle-text
-        "Whenever you draw your second card each turn, each opponent loses 2 life and you gain 2 life.\nWhen Gixian Puppeteer dies, return another target creature card with mana value 3 or less from your graveyard to the battlefield."}
+        "Whenever you draw your second card each turn, each opponent loses 2 life and you gain 2 life.\nWhen this creature dies, return another target creature card with mana value 3 or less from your graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -666,7 +666,7 @@
         :layout "normal",
         :name "Hostile Negotiations",
         :oracle-text
-        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
+        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. You lose 3 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pbro",
@@ -677,7 +677,7 @@
         :layout "normal",
         :name "Hostile Negotiations",
         :oracle-text
-        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put all cards in the chosen pile into your hand and the rest into your graveyard. You lose 3 life."}
+        "Exile the top three cards of your library in a face-down pile, then exile the top three cards of your library in another face-down pile. Look at the cards in each pile, then turn a pile of your choice face up. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. You lose 3 life."}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "pbro",
@@ -688,7 +688,7 @@
         :layout "normal",
         :name "Misery's Shadow",
         :oracle-text
-        "If a creature an opponent controls would die, exile it instead.\n{1}: Misery's Shadow gets +1/+1 until end of turn."}
+        "If a creature an opponent controls would die, exile it instead.\n{1}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Creature — Shade",
         :layout-category :normal,
         :code "pbro",
@@ -699,7 +699,7 @@
         :layout "normal",
         :name "Misery's Shadow",
         :oracle-text
-        "If a creature an opponent controls would die, exile it instead.\n{1}: Misery's Shadow gets +1/+1 until end of turn."}
+        "If a creature an opponent controls would die, exile it instead.\n{1}: This creature gets +1/+1 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -732,7 +732,7 @@
         :layout "prototype",
         :name "Phyrexian Fleshgorger",
         :oracle-text
-        "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to Phyrexian Fleshgorger's power."}
+        "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to this creature's power."}
  #:card{:type-line "Artifact Creature — Phyrexian Wurm",
         :layout-category :normal,
         :code "pbro",
@@ -743,7 +743,7 @@
         :layout "prototype",
         :name "Phyrexian Fleshgorger",
         :oracle-text
-        "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to Phyrexian Fleshgorger's power."}
+        "Prototype {1}{B}{B} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nMenace, lifelink\nWard—Pay life equal to this creature's power."}
  #:card{:type-line "Artifact Creature — Zombie",
         :layout-category :normal,
         :code "pbro",
@@ -754,7 +754,7 @@
         :layout "normal",
         :name "Razorlash Transmogrant",
         :oracle-text
-        "Razorlash Transmogrant can't block.\n{4}{B}{B}: Return Razorlash Transmogrant from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands."}
+        "This creature can't block.\n{4}{B}{B}: Return this card from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands."}
  #:card{:type-line "Artifact Creature — Zombie",
         :layout-category :normal,
         :code "pbro",
@@ -765,7 +765,7 @@
         :layout "normal",
         :name "Razorlash Transmogrant",
         :oracle-text
-        "Razorlash Transmogrant can't block.\n{4}{B}{B}: Return Razorlash Transmogrant from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands."}
+        "This creature can't block.\n{4}{B}{B}: Return this card from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "pbro",
@@ -820,7 +820,7 @@
         :layout "normal",
         :name "Draconic Destiny",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +1/+1 and has flying, haste, and \"{1}: This creature gets +1/+0 until end of turn.\" It's a Dragon in addition to its other types.\nWhen enchanted creature dies, return Draconic Destiny to its owner's hand."}
+        "Enchant creature\nEnchanted creature gets +1/+1 and has flying, haste, and \"{1}: This creature gets +1/+0 until end of turn.\" It's a Dragon in addition to its other types.\nWhen enchanted creature dies, return this card to its owner's hand."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "pbro",
@@ -831,7 +831,7 @@
         :layout "normal",
         :name "Draconic Destiny",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +1/+1 and has flying, haste, and \"{1}: This creature gets +1/+0 until end of turn.\" It's a Dragon in addition to its other types.\nWhen enchanted creature dies, return Draconic Destiny to its owner's hand."}
+        "Enchant creature\nEnchanted creature gets +1/+1 and has flying, haste, and \"{1}: This creature gets +1/+0 until end of turn.\" It's a Dragon in addition to its other types.\nWhen enchanted creature dies, return this card to its owner's hand."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -842,7 +842,7 @@
         :layout "normal",
         :name "Feldon, Ronom Excavator",
         :oracle-text
-        "Haste\nFeldon, Ronom Excavator can't block.\nWhenever Feldon is dealt damage, exile that many cards from the top of your library. Choose one of them. Until the end of your next turn, you may play that card."}
+        "Haste\nFeldon can't block.\nWhenever Feldon is dealt damage, exile that many cards from the top of your library. Choose one of them. Until the end of your next turn, you may play that card."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -853,7 +853,7 @@
         :layout "normal",
         :name "Feldon, Ronom Excavator",
         :oracle-text
-        "Haste\nFeldon, Ronom Excavator can't block.\nWhenever Feldon is dealt damage, exile that many cards from the top of your library. Choose one of them. Until the end of your next turn, you may play that card."}
+        "Haste\nFeldon can't block.\nWhenever Feldon is dealt damage, exile that many cards from the top of your library. Choose one of them. Until the end of your next turn, you may play that card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -930,7 +930,7 @@
         :layout "normal",
         :name "Tyrant of Kher Ridges",
         :oracle-text
-        "Flying\nWhen Tyrant of Kher Ridges enters the battlefield, it deals 4 damage to any target.\n{R}: Tyrant of Kher Ridges gets +1/+0 until end of turn."}
+        "Flying\nWhen this creature enters, it deals 4 damage to any target.\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "pbro",
@@ -941,7 +941,7 @@
         :layout "normal",
         :name "Tyrant of Kher Ridges",
         :oracle-text
-        "Flying\nWhen Tyrant of Kher Ridges enters the battlefield, it deals 4 damage to any target.\n{R}: Tyrant of Kher Ridges gets +1/+0 until end of turn."}
+        "Flying\nWhen this creature enters, it deals 4 damage to any target.\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pbro",
@@ -974,18 +974,18 @@
         :layout "meld",
         :name "Phyrexian Dragon Engine",
         :oracle-text
-        "Double strike\nWhen Phyrexian Dragon Engine enters the battlefield from your graveyard, you may discard your hand. If you do, draw three cards.\nUnearth {3}{R}{R}\n(Melds with Mishra, Claimed by Gix.)"}
+        "Double strike\nWhen this creature enters from your graveyard, you may discard your hand. If you do, draw three cards.\nUnearth {3}{R}{R}\n(Melds with Mishra, Claimed by Gix.)"}
  #:card{:type-line "Legendary Artifact Creature — Phyrexian Artificer",
         :layout-category :normal,
         :code "pbro",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/5/75544351-dbb0-46d3-bddd-627c40753e8d.png?1681403313",
+        "https://cards.scryfall.io/png/front/7/5/75544351-dbb0-46d3-bddd-627c40753e8d.png?1701989894",
         :collector-number "163bs",
         :layout "meld",
         :name "Mishra, Lost to Phyrexia",
         :oracle-text
-        "Whenever Mishra, Lost to Phyrexia enters the battlefield or attacks, choose three —\n• Target opponent discards two cards.\n• Mishra deals 3 damage to any target.\n• Destroy target artifact or planeswalker.\n• Creatures you control gain menace and trample until end of turn.\n• Creatures you don't control get -1/-1 until end of turn.\n• Create two tapped Powerstone tokens."}
+        "Whenever Mishra enters or attacks, choose three —\n• Target opponent discards two cards.\n• Mishra deals 3 damage to any target.\n• Destroy target artifact or planeswalker.\n• Creatures you control gain menace and trample until end of turn.\n• Creatures you don't control get -1/-1 until end of turn.\n• Create two tapped Powerstone tokens."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -996,7 +996,7 @@
         :layout "prototype",
         :name "Skitterbeam Battalion",
         :oracle-text
-        "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen Skitterbeam Battalion enters the battlefield, if you cast it, create two tokens that are copies of it."}
+        "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen this creature enters, if you cast it, create two tokens that are copies of it."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -1007,7 +1007,7 @@
         :layout "prototype",
         :name "Skitterbeam Battalion",
         :oracle-text
-        "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen Skitterbeam Battalion enters the battlefield, if you cast it, create two tokens that are copies of it."}
+        "Prototype {3}{R}{R} — 2/2 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nTrample, haste\nWhen this creature enters, if you cast it, create two tokens that are copies of it."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pbro",
@@ -1084,7 +1084,7 @@
         :layout "normal",
         :name "Gwenna, Eyes of Gaea",
         :oracle-text
-        "{T}: Add two mana in any combination of colors. Spend this mana only to cast creature spells or activate abilities of a creature or creature card.\nWhenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna, Eyes of Gaea and untap it."}
+        "{T}: Add two mana in any combination of colors. Spend this mana only to cast creature spells or activate abilities of creature sources.\nWhenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna and untap it."}
  #:card{:type-line "Legendary Creature — Elf Druid Scout",
         :layout-category :normal,
         :code "pbro",
@@ -1095,7 +1095,7 @@
         :layout "normal",
         :name "Gwenna, Eyes of Gaea",
         :oracle-text
-        "{T}: Add two mana in any combination of colors. Spend this mana only to cast creature spells or activate abilities of a creature or creature card.\nWhenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna, Eyes of Gaea and untap it."}
+        "{T}: Add two mana in any combination of colors. Spend this mana only to cast creature spells or activate abilities of creature sources.\nWhenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna and untap it."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "pbro",
@@ -1106,7 +1106,7 @@
         :layout "normal",
         :name "Teething Wurmlet",
         :oracle-text
-        "Teething Wurmlet has deathtouch as long as you control three or more artifacts.\nWhenever an artifact enters the battlefield under your control, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on Teething Wurmlet."}
+        "This creature has deathtouch as long as you control three or more artifacts.\nWhenever an artifact you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "pbro",
@@ -1117,7 +1117,7 @@
         :layout "normal",
         :name "Teething Wurmlet",
         :oracle-text
-        "Teething Wurmlet has deathtouch as long as you control three or more artifacts.\nWhenever an artifact enters the battlefield under your control, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on Teething Wurmlet."}
+        "This creature has deathtouch as long as you control three or more artifacts.\nWhenever an artifact you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on this creature."}
  #:card{:type-line "Legendary Creature — Elemental",
         :layout-category :normal,
         :code "pbro",
@@ -1183,7 +1183,7 @@
         :layout "prototype",
         :name "Rootwire Amalgam",
         :oracle-text
-        "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice Rootwire Amalgam: Create an X/X colorless Golem artifact creature token, where X is three times Rootwire Amalgam's power. It gains haste until end of turn. Activate only as a sorcery."}
+        "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice this creature: Create an X/X colorless Golem artifact creature token, where X is three times this creature's power. It gains haste until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "pbro",
@@ -1194,7 +1194,7 @@
         :layout "prototype",
         :name "Rootwire Amalgam",
         :oracle-text
-        "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice Rootwire Amalgam: Create an X/X colorless Golem artifact creature token, where X is three times Rootwire Amalgam's power. It gains haste until end of turn. Activate only as a sorcery."}
+        "Prototype {1}{G} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\n{3}{G}{G}, Sacrifice this creature: Create an X/X colorless Golem artifact creature token, where X is three times this creature's power. It gains haste until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Artifact Creature — Ape",
         :layout-category :normal,
         :code "pbro",
@@ -1205,7 +1205,7 @@
         :layout "normal",
         :name "Simian Simulacrum",
         :oracle-text
-        "When Simian Simulacrum enters the battlefield, put two +1/+1 counters on target creature you control.\nUnearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+        "When this creature enters, put two +1/+1 counters on target creature you control.\nUnearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
  #:card{:type-line "Artifact Creature — Ape",
         :layout-category :normal,
         :code "pbro",
@@ -1216,7 +1216,7 @@
         :layout "normal",
         :name "Simian Simulacrum",
         :oracle-text
-        "When Simian Simulacrum enters the battlefield, put two +1/+1 counters on target creature you control.\nUnearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
+        "When this creature enters, put two +1/+1 counters on target creature you control.\nUnearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"}
  #:card{:type-line "Creature — Elf Warlock",
         :layout-category :normal,
         :code "pbro",
@@ -1249,7 +1249,7 @@
         :layout "normal",
         :name "Hajar, Loyal Bodyguard",
         :oracle-text
-        "Sacrifice Hajar, Loyal Bodyguard: Legendary creatures you control get +1/+0 and gain indestructible until end of turn."}
+        "Sacrifice Hajar: Legendary creatures you control get +1/+0 and gain indestructible until end of turn."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -1260,7 +1260,7 @@
         :layout "normal",
         :name "Hajar, Loyal Bodyguard",
         :oracle-text
-        "Sacrifice Hajar, Loyal Bodyguard: Legendary creatures you control get +1/+0 and gain indestructible until end of turn."}
+        "Sacrifice Hajar: Legendary creatures you control get +1/+0 and gain indestructible until end of turn."}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "pbro",
@@ -1315,7 +1315,7 @@
         :layout "meld",
         :name "Mishra, Claimed by Gix",
         :oracle-text
-        "Whenever you attack, each opponent loses X life and you gain X life, where X is the number of attacking creatures. If Mishra, Claimed by Gix and a creature named Phyrexian Dragon Engine are attacking, and you both own and control them, exile them, then meld them into Mishra, Lost to Phyrexia. It enters the battlefield tapped and attacking."}
+        "Whenever you attack, each opponent loses X life and you gain X life, where X is the number of attacking creatures. If Mishra, Claimed by Gix and a creature named Phyrexian Dragon Engine are attacking, and you both own and control them, exile them, then meld them into Mishra, Lost to Phyrexia. It enters tapped and attacking."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -1392,7 +1392,7 @@
         :layout "normal",
         :name "Sarinth Greatwurm",
         :oracle-text
-        "Trample\nWhenever a land enters the battlefield, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")"}
+        "Trample\nWhenever a land enters, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")"}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "pbro",
@@ -1403,7 +1403,7 @@
         :layout "normal",
         :name "Sarinth Greatwurm",
         :oracle-text
-        "Trample\nWhenever a land enters the battlefield, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")"}
+        "Trample\nWhenever a land enters, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")"}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -1436,7 +1436,7 @@
         :layout "normal",
         :name "Tocasia, Dig Site Mentor",
         :oracle-text
-        "Creatures you control have vigilance and \"{T}: Surveil 1.\" (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\n{2}{G}{G}{W}{W}{U}{U}, Exile Tocasia, Dig Site Mentor from your graveyard: Return any number of target artifact cards with total mana value 10 or less from your graveyard to the battlefield. Activate only as a sorcery."}
+        "Creatures you control have vigilance and \"{T}: Surveil 1.\" (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\n{2}{G}{G}{W}{W}{U}{U}, Exile this card from your graveyard: Return any number of target artifact cards with total mana value 10 or less from your graveyard to the battlefield. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -1447,7 +1447,7 @@
         :layout "normal",
         :name "Tocasia, Dig Site Mentor",
         :oracle-text
-        "Creatures you control have vigilance and \"{T}: Surveil 1.\" (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\n{2}{G}{G}{W}{W}{U}{U}, Exile Tocasia, Dig Site Mentor from your graveyard: Return any number of target artifact cards with total mana value 10 or less from your graveyard to the battlefield. Activate only as a sorcery."}
+        "Creatures you control have vigilance and \"{T}: Surveil 1.\" (To surveil 1, look at the top card of your library. You may put that card into your graveyard.)\n{2}{G}{G}{W}{W}{U}{U}, Exile this card from your graveyard: Return any number of target artifact cards with total mana value 10 or less from your graveyard to the battlefield. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "pbro",
@@ -1491,7 +1491,7 @@
         :layout "normal",
         :name "Bladecoil Serpent",
         :oracle-text
-        "When Bladecoil Serpent enters the battlefield, for each {U}{U} spent to cast it, draw a card.\nWhen Bladecoil Serpent enters the battlefield, for each {B}{B} spent to cast it, each opponent discards a card.\nWhen Bladecoil Serpent enters the battlefield, for each {R}{R} spent to cast it, it gets +1/+0 and gains trample and haste until end of turn."}
+        "When this creature enters, for each {U}{U} spent to cast it, draw a card.\nWhen this creature enters, for each {B}{B} spent to cast it, each opponent discards a card.\nWhen this creature enters, for each {R}{R} spent to cast it, it gets +1/+0 and gains trample and haste until end of turn."}
  #:card{:type-line "Artifact Creature — Serpent",
         :layout-category :normal,
         :code "pbro",
@@ -1502,7 +1502,7 @@
         :layout "normal",
         :name "Bladecoil Serpent",
         :oracle-text
-        "When Bladecoil Serpent enters the battlefield, for each {U}{U} spent to cast it, draw a card.\nWhen Bladecoil Serpent enters the battlefield, for each {B}{B} spent to cast it, each opponent discards a card.\nWhen Bladecoil Serpent enters the battlefield, for each {R}{R} spent to cast it, it gets +1/+0 and gains trample and haste until end of turn."}
+        "When this creature enters, for each {U}{U} spent to cast it, draw a card.\nWhen this creature enters, for each {B}{B} spent to cast it, each opponent discards a card.\nWhen this creature enters, for each {R}{R} spent to cast it, it gets +1/+0 and gains trample and haste until end of turn."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -1513,7 +1513,7 @@
         :layout "normal",
         :name "Clay Champion",
         :oracle-text
-        "Clay Champion enters the battlefield with three +1/+1 counters on it for each {G}{G} spent to cast it.\nWhen Clay Champion enters the battlefield, choose up to two other target creatures you control. For each {W}{W} spent to cast Clay Champion, put a +1/+1 counter on each of them."}
+        "This creature enters with three +1/+1 counters on it for each {G}{G} spent to cast it.\nWhen this creature enters, choose up to two other target creatures you control. For each {W}{W} spent to cast this creature, put a +1/+1 counter on each of them."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -1524,7 +1524,7 @@
         :layout "normal",
         :name "Clay Champion",
         :oracle-text
-        "Clay Champion enters the battlefield with three +1/+1 counters on it for each {G}{G} spent to cast it.\nWhen Clay Champion enters the battlefield, choose up to two other target creatures you control. For each {W}{W} spent to cast Clay Champion, put a +1/+1 counter on each of them."}
+        "This creature enters with three +1/+1 counters on it for each {G}{G} spent to cast it.\nWhen this creature enters, choose up to two other target creatures you control. For each {W}{W} spent to cast this creature, put a +1/+1 counter on each of them."}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -1535,7 +1535,7 @@
         :layout "normal",
         :name "Cityscape Leveler",
         :oracle-text
-        "Trample\nWhen you cast this spell and whenever Cityscape Leveler attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token.\nUnearth {8}"}
+        "Trample\nWhen you cast this spell and whenever this creature attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token.\nUnearth {8}"}
  #:card{:type-line "Artifact Creature — Construct",
         :layout-category :normal,
         :code "pbro",
@@ -1546,7 +1546,7 @@
         :layout "normal",
         :name "Cityscape Leveler",
         :oracle-text
-        "Trample\nWhen you cast this spell and whenever Cityscape Leveler attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token.\nUnearth {8}"}
+        "Trample\nWhen you cast this spell and whenever this creature attacks, destroy up to one target nonland permanent. Its controller creates a tapped Powerstone token.\nUnearth {8}"}
  #:card{:type-line "Legendary Artifact Creature — Thopter",
         :layout-category :normal,
         :code "pbro",
@@ -1557,7 +1557,7 @@
         :layout "normal",
         :name "Liberator, Urza's Battlethopter",
         :oracle-text
-        "Flash\nFlying\nYou may cast colorless spells and artifact spells as though they had flash.\nWhenever you cast a spell, if the amount of mana spent to cast that spell is greater than Liberator, Urza's Battlethopter's power, put a +1/+1 counter on Liberator."}
+        "Flash\nFlying\nYou may cast colorless spells and artifact spells as though they had flash.\nWhenever you cast a spell, if the amount of mana spent to cast that spell is greater than Liberator's power, put a +1/+1 counter on Liberator."}
  #:card{:type-line "Legendary Artifact Creature — Thopter",
         :layout-category :normal,
         :code "pbro",
@@ -1568,7 +1568,7 @@
         :layout "normal",
         :name "Liberator, Urza's Battlethopter",
         :oracle-text
-        "Flash\nFlying\nYou may cast colorless spells and artifact spells as though they had flash.\nWhenever you cast a spell, if the amount of mana spent to cast that spell is greater than Liberator, Urza's Battlethopter's power, put a +1/+1 counter on Liberator."}
+        "Flash\nFlying\nYou may cast colorless spells and artifact spells as though they had flash.\nWhenever you cast a spell, if the amount of mana spent to cast that spell is greater than Liberator's power, put a +1/+1 counter on Liberator."}
  #:card{:type-line "Legendary Artifact — Powerstone",
         :layout-category :normal,
         :code "pbro",
@@ -1579,7 +1579,7 @@
         :layout "meld",
         :name "The Mightstone and Weakstone",
         :oracle-text
-        "When The Mightstone and Weakstone enters the battlefield, choose one —\n• Draw two cards.\n• Target creature gets -5/-5 until end of turn.\n{T}: Add {C}{C}. This mana can't be spent to cast nonartifact spells.\n(Melds with Urza, Lord Protector.)"}
+        "When The Mightstone and Weakstone enters, choose one —\n• Draw two cards.\n• Target creature gets -5/-5 until end of turn.\n{T}: Add {C}{C}. This mana can't be spent to cast nonartifact spells.\n(Melds with Urza, Lord Protector.)"}
  #:card{:type-line "Legendary Planeswalker — Urza",
         :layout-category :normal,
         :code "pbro",
@@ -1590,7 +1590,7 @@
         :layout "meld",
         :name "Urza, Planeswalker",
         :oracle-text
-        "You may activate the loyalty abilities of Urza, Planeswalker twice each turn rather than only once.\n+2: Artifact, instant, and sorcery spells you cast this turn cost {2} less to cast. You gain 2 life.\n+1: Draw two cards, then discard a card.\n0: Create two 1/1 colorless Soldier artifact creature tokens.\n−3: Exile target nonland permanent.\n−10: Artifacts and planeswalkers you control gain indestructible until end of turn. Destroy all nonland permanents."}
+        "You may activate the loyalty abilities of Urza twice each turn rather than only once.\n+2: Artifact, instant, and sorcery spells you cast this turn cost {2} less to cast. You gain 2 life.\n+1: Draw two cards, then discard a card.\n0: Create two 1/1 colorless Soldier artifact creature tokens.\n−3: Exile target nonland permanent.\n−10: Artifacts and planeswalkers you control gain indestructible until end of turn. Destroy all nonland permanents."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pbro",
@@ -1601,7 +1601,7 @@
         :layout "normal",
         :name "Portal to Phyrexia",
         :oracle-text
-        "When Portal to Phyrexia enters the battlefield, each opponent sacrifices three creatures.\nAt the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control. It's a Phyrexian in addition to its other types."}
+        "When this artifact enters, each opponent sacrifices three creatures of their choice.\nAt the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control. It's a Phyrexian in addition to its other types."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pbro",
@@ -1612,7 +1612,7 @@
         :layout "normal",
         :name "Portal to Phyrexia",
         :oracle-text
-        "When Portal to Phyrexia enters the battlefield, each opponent sacrifices three creatures.\nAt the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control. It's a Phyrexian in addition to its other types."}
+        "When this artifact enters, each opponent sacrifices three creatures of their choice.\nAt the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control. It's a Phyrexian in addition to its other types."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pbro",
@@ -1667,7 +1667,7 @@
         :layout "normal",
         :name "Thran Spider",
         :oracle-text
-        "Reach\nWhen Thran Spider enters the battlefield, you and target opponent each create a tapped Powerstone token.\n{7}: Look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "Reach\nWhen this creature enters, you and target opponent each create a tapped Powerstone token.\n{7}: Look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Artifact Creature — Spider",
         :layout-category :normal,
         :code "pbro",
@@ -1678,7 +1678,7 @@
         :layout "normal",
         :name "Thran Spider",
         :oracle-text
-        "Reach\nWhen Thran Spider enters the battlefield, you and target opponent each create a tapped Powerstone token.\n{7}: Look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "Reach\nWhen this creature enters, you and target opponent each create a tapped Powerstone token.\n{7}: Look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1689,7 +1689,7 @@
         :layout "meld",
         :name "Argoth, Sanctum of Nature",
         :oracle-text
-        "Argoth, Sanctum of Nature enters the battlefield tapped unless you control a legendary green creature.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Create a 2/2 green Bear creature token, then mill three cards. Activate only as a sorcery.\n(Melds with Titania, Voice of Gaea.)"}
+        "This land enters tapped unless you control a legendary green creature.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Create a 2/2 green Bear creature token, then mill three cards. Activate only as a sorcery.\n(Melds with Titania, Voice of Gaea.)"}
  #:card{:type-line "Legendary Creature — Elemental Avatar",
         :layout-category :normal,
         :code "pbro",
@@ -1700,7 +1700,7 @@
         :layout "meld",
         :name "Titania, Gaea Incarnate",
         :oracle-text
-        "Vigilance, reach, trample, haste\nTitania, Gaea Incarnate's power and toughness are each equal to the number of lands you control.\nWhen Titania enters the battlefield, return all land cards from your graveyard to the battlefield tapped.\n{3}{G}: Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land."}
+        "Vigilance, reach, trample, haste\nTitania's power and toughness are each equal to the number of lands you control.\nWhen Titania enters, return all land cards from your graveyard to the battlefield tapped.\n{3}{G}: Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1711,7 +1711,7 @@
         :layout "normal",
         :name "Battlefield Forge",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1722,7 +1722,7 @@
         :layout "normal",
         :name "Battlefield Forge",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1733,7 +1733,7 @@
         :layout "normal",
         :name "Blast Zone",
         :oracle-text
-        "Blast Zone enters the battlefield with a charge counter on it.\n{T}: Add {C}.\n{X}{X}, {T}: Put X charge counters on Blast Zone.\n{3}, {T}, Sacrifice Blast Zone: Destroy each nonland permanent with mana value equal to the number of charge counters on Blast Zone."}
+        "This land enters with a charge counter on it.\n{T}: Add {C}.\n{X}{X}, {T}: Put X charge counters on this land.\n{3}, {T}, Sacrifice this land: Destroy each nonland permanent with mana value equal to the number of charge counters on this land."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1744,7 +1744,7 @@
         :layout "normal",
         :name "Blast Zone",
         :oracle-text
-        "Blast Zone enters the battlefield with a charge counter on it.\n{T}: Add {C}.\n{X}{X}, {T}: Put X charge counters on Blast Zone.\n{3}, {T}, Sacrifice Blast Zone: Destroy each nonland permanent with mana value equal to the number of charge counters on Blast Zone."}
+        "This land enters with a charge counter on it.\n{T}: Add {C}.\n{X}{X}, {T}: Put X charge counters on this land.\n{3}, {T}, Sacrifice this land: Destroy each nonland permanent with mana value equal to the number of charge counters on this land."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1755,7 +1755,7 @@
         :layout "normal",
         :name "Brushland",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {W}. Brushland deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {G} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1766,7 +1766,7 @@
         :layout "normal",
         :name "Brushland",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {W}. Brushland deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {G} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1777,7 +1777,7 @@
         :layout "normal",
         :name "Fortified Beachhead",
         :oracle-text
-        "As Fortified Beachhead enters the battlefield, you may reveal a Soldier card from your hand. Fortified Beachhead enters the battlefield tapped unless you revealed a Soldier card this way or you control a Soldier.\n{T}: Add {W} or {U}.\n{5}, {T}: Soldiers you control get +1/+1 until end of turn."}
+        "As this land enters, you may reveal a Soldier card from your hand. This land enters tapped unless you revealed a Soldier card this way or you control a Soldier.\n{T}: Add {W} or {U}.\n{5}, {T}: Soldiers you control get +1/+1 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1788,7 +1788,7 @@
         :layout "normal",
         :name "Fortified Beachhead",
         :oracle-text
-        "As Fortified Beachhead enters the battlefield, you may reveal a Soldier card from your hand. Fortified Beachhead enters the battlefield tapped unless you revealed a Soldier card this way or you control a Soldier.\n{T}: Add {W} or {U}.\n{5}, {T}: Soldiers you control get +1/+1 until end of turn."}
+        "As this land enters, you may reveal a Soldier card from your hand. This land enters tapped unless you revealed a Soldier card this way or you control a Soldier.\n{T}: Add {W} or {U}.\n{5}, {T}: Soldiers you control get +1/+1 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1821,7 +1821,7 @@
         :layout "normal",
         :name "Llanowar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1832,7 +1832,7 @@
         :layout "normal",
         :name "Llanowar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1843,7 +1843,7 @@
         :layout "normal",
         :name "Mishra's Foundry",
         :oracle-text
-        "{T}: Add {C}.\n{2}: Mishra's Foundry becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.\n{1}, {T}: Target attacking Assembly-Worker gets +2/+2 until end of turn."}
+        "{T}: Add {C}.\n{2}: This land becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.\n{1}, {T}: Target attacking Assembly-Worker gets +2/+2 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1854,7 +1854,7 @@
         :layout "normal",
         :name "Mishra's Foundry",
         :oracle-text
-        "{T}: Add {C}.\n{2}: Mishra's Foundry becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.\n{1}, {T}: Target attacking Assembly-Worker gets +2/+2 until end of turn."}
+        "{T}: Add {C}.\n{2}: This land becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.\n{1}, {T}: Target attacking Assembly-Worker gets +2/+2 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1865,7 +1865,7 @@
         :layout "normal",
         :name "Underground River",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {B}. Underground River deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pbro",
@@ -1876,4 +1876,4 @@
         :layout "normal",
         :name "Underground River",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {B}. Underground River deals 1 damage to you."})
+        "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you."})

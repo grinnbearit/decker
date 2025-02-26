@@ -8,4 +8,48 @@
         :layout "normal",
         :name "Sakura-Tribe Elder",
         :oracle-text
-        "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."})
+        "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "plg24",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/e/6/e6ae75e3-51c4-4422-af9e-1c60ef731b0a.png?1730879223",
+        :collector-number "1J",
+        :layout "normal",
+        :name "Lay Down Arms",
+        :oracle-text
+        "Exile target creature with mana value less than or equal to the number of Plains you control. Its controller gains 3 life."}
+ #:card{:type-line "Sorcery",
+        :layout-category :normal,
+        :code "plg24",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/b/3b111e02-98ee-473a-ac70-6e1c3707dffc.png?1730879236",
+        :collector-number "2J",
+        :layout "normal",
+        :name "Sleight of Hand",
+        :oracle-text
+        "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "plg24",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/e/5e6cb8c3-eb21-4279-a8e6-074a0b95d51e.png?1732495041",
+        :collector-number "3J",
+        :layout "normal",
+        :name "Cut Down",
+        :oracle-text
+        "Destroy target creature with total power and toughness 5 or less."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "plg24",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/3/c32ae26c-cba4-4226-8a60-62fd95558ce8.png?1734096585",
+        :collector-number "4J",
+        :layout "normal",
+        :name "Sheoldred's Edict",
+        :oracle-text
+        "Choose one —\n• Each opponent sacrifices a nontoken creature of their choice.\n• Each opponent sacrifices a creature token of their choice.\n• Each opponent sacrifices a planeswalker of their choice."})

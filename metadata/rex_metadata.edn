@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Cresting Mosasaurus",
         :oracle-text
-        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen Cresting Mosasaurus enters the battlefield, if you cast it, return each non-Dinosaur creature to its owner's hand."}
+        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen this creature enters, if you cast it, return each non-Dinosaur creature to its owner's hand."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Spitting Dilophosaurus",
         :oracle-text
-        "Whenever Spitting Dilophosaurus enters the battlefield or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
+        "Whenever this creature enters or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Life Finds a Way",
         :oracle-text
-        "Whenever a nontoken creature with power 4 or greater enters the battlefield under your control, populate. (Create a token that's a copy of a creature token you control.)"}
+        "Whenever a nontoken creature you control with power 4 or greater enters, populate. (Create a token that's a copy of a creature token you control.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "rex",
@@ -91,7 +91,7 @@
         :layout "normal",
         :name "Blue, Loyal Raptor",
         :oracle-text
-        "Partner with Owen Grady, Raptor Trainer (When this creature enters the battlefield, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters the battlefield with a counter of that kind on it."}
+        "Partner with Owen Grady, Raptor Trainer (When this creature enters, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters with a counter of that kind on it."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -102,7 +102,7 @@
         :layout "normal",
         :name "Compy Swarm",
         :oracle-text
-        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of Compy Swarm."}
+        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of this creature."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -124,7 +124,7 @@
         :layout "normal",
         :name "Grim Giganotosaurus",
         :oracle-text
-        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen Grim Giganotosaurus becomes monstrous, destroy all artifacts and creatures other than Grim Giganotosaurus."}
+        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen this creature becomes monstrous, destroy all artifacts and creatures other than this creature."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -135,7 +135,7 @@
         :layout "normal",
         :name "Henry Wu, InGen Geneticist",
         :oracle-text
-        "Henry Wu, InGen Geneticist and other Human creatures you control have exploit. (When a creature with exploit enters the battlefield, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
+        "Henry Wu and other Human creatures you control have exploit. (When a creature with exploit enters, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -146,7 +146,7 @@
         :layout "normal",
         :name "Ian Malcolm, Chaotician",
         :oracle-text
-        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, Chaotician, and mana of any type can be spent to cast it."}
+        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, and mana of any type can be spent to cast it."}
  #:card{:type-line "Legendary Creature — Dinosaur Mutant",
         :layout-category :normal,
         :code "rex",
@@ -157,18 +157,18 @@
         :layout "normal",
         :name "Indominus Rex, Alpha",
         :oracle-text
-        "As Indominus Rex, Alpha enters the battlefield, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters the battlefield, draw a card for each counter on it."}
+        "As Indominus Rex enters, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters, draw a card for each counter on it."}
  #:card{:type-line "Legendary Creature — Dinosaur Mutant",
         :layout-category :normal,
         :code "rex",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/8/3826e2af-c134-4dc1-98b5-574b1bda9a98.png?1698988768",
+        "https://cards.scryfall.io/png/front/3/8/3826e2af-c134-4dc1-98b5-574b1bda9a98.png?1731690315",
         :collector-number "15",
         :layout "normal",
         :name "Indoraptor, the Perfect Hybrid",
         :oracle-text
-        "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor, the Perfect Hybrid is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature."}
+        "Bloodthirst X (This creature enters with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature of their choice."}
  #:card{:type-line "Legendary Creature — Human Soldier Scientist",
         :layout-category :normal,
         :code "rex",
@@ -201,7 +201,7 @@
         :layout "normal",
         :name "Ravenous Tyrannosaurus",
         :oracle-text
-        "Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)\nWhenever Ravenous Tyrannosaurus attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
+        "Devour 3 (As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it.)\nWhenever this creature attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -212,7 +212,7 @@
         :layout "normal",
         :name "Swooping Pteranodon",
         :oracle-text
-        "Flying, haste\nWhenever Swooping Pteranodon or another Dinosaur with flying enters the battlefield under your control, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
+        "Flying, haste\nWhenever this creature or another Dinosaur you control with flying enters, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "rex",
@@ -223,7 +223,7 @@
         :layout "normal",
         :name "Dino DNA",
         :oracle-text
-        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with Dino DNA, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."}
+        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with this artifact, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."}
  #:card{:code "rex",
         :collector-number "21",
         :name "Plains // Plains",
@@ -337,7 +337,7 @@
         :layout "normal",
         :name "Cresting Mosasaurus",
         :oracle-text
-        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen Cresting Mosasaurus enters the battlefield, if you cast it, return each non-Dinosaur creature to its owner's hand."}
+        "Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)\nWhen this creature enters, if you cast it, return each non-Dinosaur creature to its owner's hand."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -348,7 +348,7 @@
         :layout "normal",
         :name "Spitting Dilophosaurus",
         :oracle-text
-        "Whenever Spitting Dilophosaurus enters the battlefield or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
+        "Whenever this creature enters or attacks, put a -1/-1 counter on up to one target creature.\nCreatures your opponents control with -1/-1 counters on them can't block."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -370,13 +370,13 @@
         :layout "normal",
         :name "Life Finds a Way",
         :oracle-text
-        "Whenever a nontoken creature with power 4 or greater enters the battlefield under your control, populate. (Create a token that's a copy of a creature token you control.)"}
+        "Whenever a nontoken creature you control with power 4 or greater enters, populate. (Create a token that's a copy of a creature token you control.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "rex",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/0/e01e2ded-f3ed-41c2-b200-6573d2c15611.png?1698988793",
+        "https://cards.scryfall.io/png/front/e/0/e01e2ded-f3ed-41c2-b200-6573d2c15611.png?1727917959",
         :collector-number "32",
         :layout "normal",
         :name "Savage Order",
@@ -392,7 +392,7 @@
         :layout "normal",
         :name "Blue, Loyal Raptor",
         :oracle-text
-        "Partner with Owen Grady, Raptor Trainer (When this creature enters the battlefield, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters the battlefield with a counter of that kind on it."}
+        "Partner with Owen Grady, Raptor Trainer (When this creature enters, target player may put Owen into their hand from their library, then shuffle.)\nFor each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters with a counter of that kind on it."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -403,7 +403,7 @@
         :layout "normal",
         :name "Compy Swarm",
         :oracle-text
-        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of Compy Swarm."}
+        "At the beginning of your end step, if a creature died this turn, create a tapped token that's a copy of this creature."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -425,7 +425,7 @@
         :layout "normal",
         :name "Grim Giganotosaurus",
         :oracle-text
-        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen Grim Giganotosaurus becomes monstrous, destroy all artifacts and creatures other than Grim Giganotosaurus."}
+        "{10}{B}{G}: Monstrosity 10. This ability costs {1} less to activate for each creature with power 4 or greater your opponents control. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)\nWhen this creature becomes monstrous, destroy all artifacts and creatures other than this creature."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -436,7 +436,7 @@
         :layout "normal",
         :name "Henry Wu, InGen Geneticist",
         :oracle-text
-        "Henry Wu, InGen Geneticist and other Human creatures you control have exploit. (When a creature with exploit enters the battlefield, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
+        "Henry Wu and other Human creatures you control have exploit. (When a creature with exploit enters, you may sacrifice a creature.)\nWhenever a creature you control exploits a non-Human creature, draw a card. If the exploited creature had power 3 or greater, create a Treasure token."}
  #:card{:type-line "Legendary Creature — Human Scientist",
         :layout-category :normal,
         :code "rex",
@@ -447,7 +447,7 @@
         :layout "normal",
         :name "Ian Malcolm, Chaotician",
         :oracle-text
-        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, Chaotician, and mana of any type can be spent to cast it."}
+        "Whenever a player draws their second card each turn, that player exiles the top card of their library.\nDuring each player's turn, that player may cast a spell from among the cards they don't own exiled with Ian Malcolm, and mana of any type can be spent to cast it."}
  #:card{:type-line "Legendary Creature — Dinosaur Mutant",
         :layout-category :normal,
         :code "rex",
@@ -458,7 +458,7 @@
         :layout "normal",
         :name "Indominus Rex, Alpha",
         :oracle-text
-        "As Indominus Rex, Alpha enters the battlefield, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters the battlefield, draw a card for each counter on it."}
+        "As Indominus Rex enters, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.\nWhen Indominus Rex enters, draw a card for each counter on it."}
  #:card{:type-line "Legendary Creature — Dinosaur Mutant",
         :layout-category :normal,
         :code "rex",
@@ -469,7 +469,7 @@
         :layout "normal",
         :name "Indoraptor, the Perfect Hybrid",
         :oracle-text
-        "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor, the Perfect Hybrid is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature."}
+        "Bloodthirst X (This creature enters with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)\nMenace\nEnrage — Whenever Indoraptor is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature of their choice."}
  #:card{:type-line "Legendary Creature — Human Soldier Scientist",
         :layout-category :normal,
         :code "rex",
@@ -502,7 +502,7 @@
         :layout "normal",
         :name "Ravenous Tyrannosaurus",
         :oracle-text
-        "Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)\nWhenever Ravenous Tyrannosaurus attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
+        "Devour 3 (As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it.)\nWhenever this creature attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead."}
  #:card{:type-line "Creature — Dinosaur",
         :layout-category :normal,
         :code "rex",
@@ -513,7 +513,7 @@
         :layout "normal",
         :name "Swooping Pteranodon",
         :oracle-text
-        "Flying, haste\nWhenever Swooping Pteranodon or another Dinosaur with flying enters the battlefield under your control, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
+        "Flying, haste\nWhenever this creature or another Dinosaur you control with flying enters, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "rex",
@@ -524,4 +524,4 @@
         :layout "normal",
         :name "Dino DNA",
         :oracle-text
-        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with Dino DNA, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."})
+        "Imprint — {1}, {T}: Exile target creature card from a graveyard. Activate only as a sorcery.\n{6}: Create a token that's a copy of target creature card exiled with this artifact, except it's a 6/6 green Dinosaur creature with trample. Activate only as a sorcery."})

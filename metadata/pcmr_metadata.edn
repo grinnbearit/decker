@@ -1,9 +1,20 @@
-(#:card{:type-line "Instant",
+(#:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "pcmr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/e/fecc2117-fff8-4852-b31b-b494648b1770.png?1710201761",
+        "https://cards.scryfall.io/png/front/3/4/345a4b89-1030-40b9-9e79-f3838f25946c.png?1713049362",
+        :collector-number "27p",
+        :layout "normal",
+        :name "Keeper of the Accord",
+        :oracle-text
+        "At the beginning of each opponent's end step, if that player controls more creatures than you, create a 1/1 white Soldier creature token.\nAt the beginning of each opponent's end step, if that player controls more lands than you, you may search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle."}
+ #:card{:type-line "Instant",
+        :layout-category :normal,
+        :code "pcmr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fecc2117-fff8-4852-b31b-b494648b1770.png?1712946572",
         :collector-number "107p",
         :layout "normal",
         :name "Wrong Turn",
@@ -14,9 +25,42 @@
         :code "pcmr",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/b/8b0336f5-e6a2-49e0-8d8e-760adf7112b7.png?1709435266",
+        "https://cards.scryfall.io/png/front/8/b/8b0336f5-e6a2-49e0-8d8e-760adf7112b7.png?1712946565",
         :collector-number "141p",
         :layout "normal",
         :name "Opposition Agent",
         :oracle-text
-        "Flash\nYou control your opponents while they're searching their libraries.\nWhile an opponent is searching their library, they exile each card they find. You may play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them."})
+        "Flash\nYou control your opponents while they're searching their libraries.\nWhile an opponent is searching their library, they exile each card they find. You may play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them."}
+ #:card{:type-line "Artifact — Equipment",
+        :layout-category :normal,
+        :code "pcmr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/d/cdab94e2-f0a1-42ad-9b03-a780f3de6901.png?1713049334",
+        :collector-number "305p",
+        :layout "normal",
+        :name "Commander's Plate",
+        :oracle-text
+        "Equipped creature gets +3/+3 and has protection from each color that's not in your commander's color identity.\nEquip commander {3}\nEquip {5}"}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pcmr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/7/7/7796c3cd-1f0d-4c31-b4fa-5e5dab6a85ca.png?1713049399",
+        :collector-number "349p",
+        :layout "normal",
+        :name "Command Beacon",
+        :oracle-text
+        "{T}: Add {C}.\n{T}, Sacrifice this land: Put your commander into your hand from the command zone."}
+ #:card{:type-line "Land",
+        :layout-category :normal,
+        :code "pcmr",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/f/df72c35b-168a-45e3-b1f1-4f1c69d37eb1.png?1713050175",
+        :collector-number "361p",
+        :layout "normal",
+        :name "War Room",
+        :oracle-text
+        "{T}: Add {C}.\n{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card."})

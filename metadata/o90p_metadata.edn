@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Chaos Orb",
         :oracle-text
-        "{1}, {T}: If Chaos Orb is on the battlefield, flip Chaos Orb onto the battlefield from a height of at least one foot. If Chaos Orb turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy Chaos Orb."}
+        "{1}, {T}: If this artifact is on the battlefield, flip it onto the battlefield from a height of at least one foot. If this artifact turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "o90p",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Black Lotus",
         :oracle-text
-        "{T}, Sacrifice Black Lotus: Add three mana of any one color."}
+        "{T}, Sacrifice this artifact: Add three mana of any one color."}
  #:card{:type-line "Creature — Djinn",
         :layout-category :normal,
         :code "o90p",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Juzám Djinn",
         :oracle-text
-        "At the beginning of your upkeep, Juzám Djinn deals 1 damage to you."}
+        "At the beginning of your upkeep, this creature deals 1 damage to you."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "o90p",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Jester's Cap",
         :oracle-text
-        "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles."}
+        "{2}, {T}, Sacrifice this artifact: Search target player's library for three cards and exile them. Then that player shuffles."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "o90p",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Shivan Dragon",
         :oracle-text
-        "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{R}: Shivan Dragon gets +1/+0 until end of turn."}
+        "Flying\n{R}: This creature gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Minotaur",
         :layout-category :normal,
         :code "o90p",
@@ -72,17 +72,19 @@
         :collector-number "7",
         :layout "normal",
         :name "Serra Angel",
-        :oracle-text "Flying, vigilance"}
+        :oracle-text
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Creature — Angel",
         :layout-category :normal,
         :code "o90p",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/8/0845c45d-1ce4-4d06-a165-30972f1d59ca.png?1661824590",
+        "https://cards.scryfall.io/png/front/0/8/0845c45d-1ce4-4d06-a165-30972f1d59ca.png?1676305149",
         :collector-number "8",
         :layout "normal",
         :name "Serra Angel",
-        :oracle-text "Flying, vigilance"}
+        :oracle-text
+        "Flying\nVigilance (Attacking doesn't cause this creature to tap.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "o90p",
@@ -104,4 +106,4 @@
         :layout "normal",
         :name "Thorn Elemental",
         :oracle-text
-        "You may have Thorn Elemental assign its combat damage as though it weren't blocked."})
+        "You may have this creature assign its combat damage as though it weren't blocked."})

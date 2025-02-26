@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Abbot of Keral Keep",
         :oracle-text
-        "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Abbot of Keral Keep enters the battlefield, exile the top card of your library. Until end of turn, you may play that card."}
+        "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen this creature enters, exile the top card of your library. Until end of turn, you may play that card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ea3",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Eidolon of Blossoms",
         :oracle-text
-        "Constellation — Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card."}
+        "Constellation — Whenever this creature or another enchantment you control enters, draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ea3",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Worldspine Wurm",
         :oracle-text
-        "Trample\nWhen Worldspine Wurm dies, create three 5/5 green Wurm creature tokens with trample.\nWhen Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library."}
+        "Trample\nWhen this creature dies, create three 5/5 green Wurm creature tokens with trample.\nWhen Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "ea3",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Judge's Familiar",
         :oracle-text
-        "Flying\nSacrifice Judge's Familiar: Counter target instant or sorcery spell unless its controller pays {1}."}
+        "Flying\nSacrifice this creature: Counter target instant or sorcery spell unless its controller pays {1}."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ea3",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Voice of Resurgence",
         :oracle-text
-        "Whenever an opponent casts a spell during your turn or when Voice of Resurgence dies, create a green and white Elemental creature token with \"This creature's power and toughness are each equal to the number of creatures you control.\""}
+        "Whenever an opponent casts a spell during your turn and when this creature dies, create a green and white Elemental creature token with \"This token's power and toughness are each equal to the number of creatures you control.\""}
  #:card{:type-line "Creature — Elf Shaman",
         :layout-category :normal,
         :code "ea3",
@@ -168,12 +168,12 @@
         :code "ea3",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/1/11b8f8f8-d24f-4ea5-b6b7-ad257fb03fc1.png?1708928236",
+        "https://cards.scryfall.io/png/front/1/1/11b8f8f8-d24f-4ea5-b6b7-ad257fb03fc1.png?1738102122",
         :collector-number "16",
         :layout "normal",
         :name "Obzedat, Ghost Council",
         :oracle-text
-        "When Obzedat, Ghost Council enters the battlefield, target opponent loses 2 life and you gain 2 life.\nAt the beginning of your end step, you may exile Obzedat. If you do, return it to the battlefield under its owner's control at the beginning of your next upkeep. It gains haste."}
+        "When Obzedat enters, target opponent loses 2 life and you gain 2 life.\nAt the beginning of your end step, you may exile Obzedat. If you do, return it to the battlefield under its owner's control at the beginning of your next upkeep. It gains haste."}
  #:card{:type-line "Legendary Creature — Elemental",
         :layout-category :normal,
         :code "ea3",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Omnath, Locus of Rage",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control, create a 5/5 red and green Elemental creature token.\nWhenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to any target."}
+        "Landfall — Whenever a land you control enters, create a 5/5 red and green Elemental creature token.\nWhenever Omnath or another Elemental you control dies, Omnath deals 3 damage to any target."}
  #:card{:type-line "Legendary Enchantment Creature — God",
         :layout-category :normal,
         :code "ea3",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Canopy Vista",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nCanopy Vista enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land — Mountain Forest",
         :layout-category :normal,
         :code "ea3",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Cinder Glade",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nCinder Glade enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land — Swamp Mountain",
         :layout-category :normal,
         :code "ea3",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Smoldering Marsh",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nSmoldering Marsh enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land — Island Swamp",
         :layout-category :normal,
         :code "ea3",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Sunken Hollow",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nSunken Hollow enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "ea3",
@@ -261,7 +261,7 @@
         :layout "normal",
         :name "Prairie Stream",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nPrairie Stream enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ea3",
@@ -272,4 +272,4 @@
         :layout "normal",
         :name "Thespian's Stage",
         :oracle-text
-        "{T}: Add {C}.\n{2}, {T}: Thespian's Stage becomes a copy of target land, except it has this ability."})
+        "{T}: Add {C}.\n{2}, {T}: This land becomes a copy of target land, except it has this ability."})

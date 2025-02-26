@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Cerise, Slayer of Fear",
         :oracle-text
-        "First strike, lifelink\nAt the beginning of your postcombat main phase, if you gained life this turn, seek a card with the highest mana value among cards in your library with mana value less than or equal to the amount of life you gained this turn."}
+        "First strike, lifelink\nAt the beginning of your second main phase, if you gained life this turn, seek a card with the highest mana value among cards in your library with mana value less than or equal to the amount of life you gained this turn."}
  #:card{:type-line "Creature — Dwarf Artificer",
         :layout-category :normal,
         :code "ywoe",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Dedicated Dollmaker",
         :oracle-text
-        "When Dedicated Dollmaker enters the battlefield, exile up to one other target nonland, nontoken permanent. Its controller creates a token that's a copy of it, except it's not legendary and it's an artifact in addition to its other types.\n{1}{W}: Tokens you control gain indestructible until end of turn. Activate only once."}
+        "When Dedicated Dollmaker enters, exile up to one other target nonland, nontoken permanent. Its controller creates a token that's a copy of it, except it's not legendary and it's an artifact in addition to its other types.\n{1}{W}: Tokens you control gain indestructible until end of turn. Activate only once."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "ywoe",
@@ -47,23 +47,23 @@
         :code "ywoe",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/1/1109fa53-1d2f-4e60-a91e-aa0e91c5c048.png?1700175708",
+        "https://cards.scryfall.io/png/front/1/1/1109fa53-1d2f-4e60-a91e-aa0e91c5c048.png?1731574995",
         :collector-number "5",
         :layout "normal",
         :name "Talion's Throneguard",
         :oracle-text
-        "Flash\nBargain\nFlying\nWhen Talion's Throneguard enters the battlefield, return up to one target spell or nonland permanent to its owner's hand. If Talion's Throneguard was bargained, that card perpetually gains \"This spell costs {2} more to cast.\""}
+        "Flash\nBargain\nFlying\nWhen Talion's Throneguard enters, return up to one target spell or nonland permanent to its owner's hand. If Talion's Throneguard was bargained, that card perpetually gains \"This spell costs {2} more to cast.\""}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ywoe",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/f/9fd6e966-5591-4021-928c-e83c96ea24ea.png?1696889703",
+        "https://cards.scryfall.io/png/front/9/f/9fd6e966-5591-4021-928c-e83c96ea24ea.png?1731603986",
         :collector-number "6",
         :layout "normal",
         :name "Tome of Gadwick",
         :oracle-text
-        "Whenever equipped creature deals combat damage to a player, conjure a random card from Tome of Gadwick's spellbook into your hand.\nEquip {1}"}
+        "Equipped creature gets +1/+0 and has ward {1}.\nWhenever equipped creature attacks, conjure a random card from Tome of Gadwick's spellbook into your hand.\nEquip {1}"}
  #:card{:type-line "Creature — Human Warlock",
         :layout-category :normal,
         :code "ywoe",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Dunbarrow Revivalist",
         :oracle-text
-        "Bargain\nWhen Dunbarrow Revivalist enters the battlefield, you get a one-time boon with \"When one or more creatures enter the battlefield under your control, create a Wicked Role token attached to one of them.\" Then if Dunbarrow Revivalist was bargained, return a creature card from your graveyard to your hand."}
+        "Bargain\nWhen Dunbarrow Revivalist enters, you get a one-time boon with \"When one or more creatures enter under your control, create a Wicked Role token attached to one of them.\" Then if Dunbarrow Revivalist was bargained, return a creature card from your graveyard to your hand."}
  #:card{:type-line "Creature — Ogre Warlock",
         :layout-category :normal,
         :code "ywoe",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Underbridge Warlock",
         :oracle-text
-        "Deathtouch\nWhen Underbridge Warlock enters the battlefield, you get a one-time boon with \"At the beginning of your end step, if three or more creatures died this turn, each opponent loses 5 life and you gain 5 life.\"\nAt the beginning of your end step, if you have a boon, you mill three cards, draw a card, and lose 2 life."}
+        "Deathtouch\nWhen Underbridge Warlock enters, you get a one-time boon with \"At the beginning of your end step, if three or more creatures died this turn, each opponent loses 5 life and you gain 5 life.\"\nAt the beginning of your end step, if you have a boon, you mill three cards, draw a card, and lose 2 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ywoe",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Overcooked",
         :oracle-text
-        "Players can't gain life.\nCelebration — At the beginning of your end step, create a Food token. If two or more nonland permanents entered the battlefield under your control this turn, instead conjure a card named Food Fight onto the battlefield."}
+        "Players can't gain life.\nCelebration — At the beginning of your end step, create a Food token. If two or more nonland permanents entered under your control this turn, instead conjure a card named Food Fight onto the battlefield."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "ywoe",
@@ -135,9 +135,9 @@
         :code "ywoe",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/5/651be3e2-0d26-4def-98c1-3e526e650fe5.png?1710673527",
+        "https://cards.scryfall.io/png/front/6/5/651be3e2-0d26-4def-98c1-3e526e650fe5.png?1720196540",
         :collector-number "13",
-        :layout "normal",
+        :layout "saga",
         :name "A Golden Opportunity",
         :oracle-text
         "(As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)\nI — Conjure a card named Gilded Goose onto the battlefield.\nII, III — You may tap an untapped Bird you control and sacrifice an artifact. If you do, conjure a card named Golden Egg onto the battlefield."}
@@ -188,7 +188,7 @@
         :layout "normal",
         :name "Drover of the Swine",
         :oracle-text
-        "When Drover of the Swine enters the battlefield, choose one —\n• Conjure a card of your choice from the Three Pigs spellbook onto the battlefield.\n• Return up to three target Boar creature cards with different names from your graveyard to the battlefield."}
+        "When Drover of the Swine enters, choose one —\n• Conjure a card of your choice from the Three Pigs spellbook onto the battlefield.\n• Return up to three target Boar creature cards with different names from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Boar",
         :layout-category :normal,
         :code "ywoe",
@@ -221,7 +221,7 @@
         :layout "normal",
         :name "High Fae Prankster",
         :oracle-text
-        "Flying, deathtouch\nWhen High Fae Prankster enters the battlefield, choose up to one —\n• Perpetually exchange target creature's base power with another target creature's base power.\n• High Fae Prankster perpetually has base power and toughness 4/1."}
+        "Flying, deathtouch\nWhen High Fae Prankster enters, choose up to one —\n• Perpetually exchange target creature's base power with another target creature's base power.\n• High Fae Prankster perpetually has base power and toughness 4/1."}
  #:card{:type-line "Creature — Human Noble",
         :layout-category :normal,
         :code "ywoe",
@@ -232,7 +232,7 @@
         :layout "normal",
         :name "Jewel Mine Overseer",
         :oracle-text
-        "When Jewel Mine Overseer enters the battlefield, conjure seven cards named Seven Dwarves on top of your library. They perpetually gain \"When this creature enters the battlefield, draw a card.\" Then shuffle.\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn."}
+        "When Jewel Mine Overseer enters, conjure seven cards named Seven Dwarves on top of your library. They perpetually gain \"When this creature enters, draw a card.\" Then shuffle.\nAt the beginning of your upkeep, exile the top card of your library. You may play that card this turn."}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "ywoe",
@@ -243,7 +243,7 @@
         :layout "normal",
         :name "Outfitted Jouster",
         :oracle-text
-        "When Outfitted Jouster enters the battlefield, conjure a card named Steelclaw Lance and a card named Brawler's Plate onto the battlefield and attach them to Outfitted Jouster.\nIf damage would be dealt to Outfitted Jouster while it's equipped, prevent that damage. When damage is prevented this way, sacrifice an Equipment attached to Outfitted Jouster."}
+        "When Outfitted Jouster enters, conjure a card named Steelclaw Lance and a card named Brawler's Plate onto the battlefield and attach them to Outfitted Jouster.\nIf damage would be dealt to Outfitted Jouster while it's equipped, prevent that damage. When damage is prevented this way, sacrifice an Equipment attached to Outfitted Jouster."}
  #:card{:code "ywoe",
         :collector-number "23",
         :name "Porcine Portent // Lend a Ham",
@@ -255,7 +255,7 @@
         :faces
         [{:type-line "Enchantment",
           :oracle-text
-          "When Porcine Portent enters the battlefield, conjure a card of your choice from the Three Pigs spellbook onto the battlefield.\nBoars you control get +1/+1."}
+          "When Porcine Portent enters, conjure a card of your choice from the Three Pigs spellbook onto the battlefield.\nBoars you control get +1/+1."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Exile target creature. You gain 1 life for each Boar you control."}]}
@@ -296,7 +296,7 @@
         :faces
         [{:type-line "Creature — Giant",
           :oracle-text
-          "When Stormkeld Curator enters the battlefield, you may put any number of Aura cards from your graveyard and/or hand onto the battlefield attached to it."}
+          "When Stormkeld Curator enters, you may put any number of Aura cards from your graveyard and/or hand onto the battlefield attached to it."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Conjure X random cards from Giant Secrets's spellbook into your hand."}]}
@@ -332,7 +332,7 @@
         :layout "normal",
         :name "Captivating Crossroads",
         :oracle-text
-        "During your first three turns of the game, Captivating Crossroads enters the battlefield tapped if you were the starting player.\nAs Captivating Crossroads enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color."}
+        "During your first three turns of the game, Captivating Crossroads enters tapped if you were the starting player.\nAs Captivating Crossroads enters, choose a color.\n{T}: Add one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ywoe",
@@ -343,4 +343,4 @@
         :layout "normal",
         :name "Loch Larent",
         :oracle-text
-        "Loch Larent enters the battlefield tapped.\n{T}: Add {U}.\n{1}{U}, {T}: Scry 3. Target opponent gets a one-time boon with \"When you cast a creature spell, that creature enters the battlefield tapped and with a stun counter on it.\" Activate only during your turn and only once."})
+        "Loch Larent enters tapped.\n{T}: Add {U}.\n{1}{U}, {T}: Scry 3. Target opponent gets a one-time boon with \"When you cast a creature spell, that creature enters tapped and with a stun counter on it.\" Activate only during your turn and only once."})

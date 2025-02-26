@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Moonshaker Cavalry",
         :oracle-text
-        "Flying\nWhen Moonshaker Cavalry enters the battlefield, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control."}
+        "Flying\nWhen this creature enters, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control."}
  #:card{:type-line "Creature — Spirit Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Moonshaker Cavalry",
         :oracle-text
-        "Flying\nWhen Moonshaker Cavalry enters the battlefield, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control."}
+        "Flying\nWhen this creature enters, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control."}
  #:card{:type-line "Creature — Rabbit Unicorn",
         :layout-category :normal,
         :code "pwoe",
@@ -190,7 +190,7 @@
         :layout "normal",
         :name "Werefox Bodyguard",
         :oracle-text
-        "Flash\nWhen Werefox Bodyguard enters the battlefield, exile up to one other target non-Fox creature until Werefox Bodyguard leaves the battlefield.\n{1}{W}, Sacrifice Werefox Bodyguard: You gain 2 life."}
+        "Flash\nWhen this creature enters, exile up to one other target non-Fox creature until this creature leaves the battlefield.\n{1}{W}, Sacrifice this creature: You gain 2 life."}
  #:card{:type-line "Creature — Elf Fox Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -201,7 +201,7 @@
         :layout "normal",
         :name "Werefox Bodyguard",
         :oracle-text
-        "Flash\nWhen Werefox Bodyguard enters the battlefield, exile up to one other target non-Fox creature until Werefox Bodyguard leaves the battlefield.\n{1}{W}, Sacrifice Werefox Bodyguard: You gain 2 life."}
+        "Flash\nWhen this creature enters, exile up to one other target non-Fox creature until this creature leaves the battlefield.\n{1}{W}, Sacrifice this creature: You gain 2 life."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -212,7 +212,7 @@
         :layout "normal",
         :name "Asinine Antics",
         :oracle-text
-        "You may cast Asinine Antics as though it had flash if you pay {2} more to cast it.\nFor each creature your opponents control, create a Cursed Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
+        "You may cast this spell as though it had flash if you pay {2} more to cast it.\nFor each creature your opponents control, create a Cursed Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -223,7 +223,7 @@
         :layout "normal",
         :name "Asinine Antics",
         :oracle-text
-        "You may cast Asinine Antics as though it had flash if you pay {2} more to cast it.\nFor each creature your opponents control, create a Cursed Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
+        "You may cast this spell as though it had flash if you pay {2} more to cast it.\nFor each creature your opponents control, create a Cursed Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pwoe",
@@ -234,7 +234,7 @@
         :layout "normal",
         :name "Extraordinary Journey",
         :oracle-text
-        "When Extraordinary Journey enters the battlefield, exile up to X target creatures. For each of those cards, its owner may play it for as long as it remains exiled.\nWhenever one or more nontoken creatures enter the battlefield, if one or more of them entered from exile or was cast from exile, you draw a card. This ability triggers only once each turn."}
+        "When this enchantment enters, exile up to X target creatures. For each of those cards, its owner may play it for as long as it remains exiled.\nWhenever one or more nontoken creatures enter, if one or more of them entered from exile or was cast from exile, you draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pwoe",
@@ -245,7 +245,7 @@
         :layout "normal",
         :name "Extraordinary Journey",
         :oracle-text
-        "When Extraordinary Journey enters the battlefield, exile up to X target creatures. For each of those cards, its owner may play it for as long as it remains exiled.\nWhenever one or more nontoken creatures enter the battlefield, if one or more of them entered from exile or was cast from exile, you draw a card. This ability triggers only once each turn."}
+        "When this enchantment enters, exile up to X target creatures. For each of those cards, its owner may play it for as long as it remains exiled.\nWhenever one or more nontoken creatures enter, if one or more of them entered from exile or was cast from exile, you draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pwoe",
@@ -279,10 +279,10 @@
         :faces
         [{:type-line "Creature — Whale",
           :oracle-text
-          "Flash\nWard {2}\nHorned Loch-Whale enters the battlefield tapped unless it's your turn."}
+          "Flash\nWard {2}\nThis creature enters tapped unless it's your turn."}
          {:type-line "Instant — Adventure",
           :oracle-text
-          "The owner of target attacking creature you don't control puts it on the top or bottom of their library."}]}
+          "The owner of target attacking creature you don't control puts it on their choice of the top or bottom of their library."}]}
  #:card{:code "pwoe",
         :collector-number "53s",
         :name "Horned Loch-Whale // Lagoon Breach",
@@ -294,10 +294,10 @@
         :faces
         [{:type-line "Creature — Whale",
           :oracle-text
-          "Flash\nWard {2}\nHorned Loch-Whale enters the battlefield tapped unless it's your turn."}
+          "Flash\nWard {2}\nThis creature enters tapped unless it's your turn."}
          {:type-line "Instant — Adventure",
           :oracle-text
-          "The owner of target attacking creature you don't control puts it on the top or bottom of their library."}]}
+          "The owner of target attacking creature you don't control puts it on their choice of the top or bottom of their library."}]}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -308,7 +308,7 @@
         :layout "normal",
         :name "Ingenious Prodigy",
         :oracle-text
-        "Skulk (This creature can't be blocked by creatures with greater power.)\nIngenious Prodigy enters the battlefield with X +1/+1 counters on it.\nAt the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card."}
+        "Skulk (This creature can't be blocked by creatures with greater power.)\nThis creature enters with X +1/+1 counters on it.\nAt the beginning of your upkeep, if this creature has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -319,7 +319,7 @@
         :layout "normal",
         :name "Ingenious Prodigy",
         :oracle-text
-        "Skulk (This creature can't be blocked by creatures with greater power.)\nIngenious Prodigy enters the battlefield with X +1/+1 counters on it.\nAt the beginning of your upkeep, if Ingenious Prodigy has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card."}
+        "Skulk (This creature can't be blocked by creatures with greater power.)\nThis creature enters with X +1/+1 counters on it.\nAt the beginning of your upkeep, if this creature has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card."}
  #:card{:type-line "Creature — Faerie Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -330,7 +330,7 @@
         :layout "normal",
         :name "Sleep-Cursed Faerie",
         :oracle-text
-        "Flying, ward {2}\nSleep-Cursed Faerie enters the battlefield tapped with three stun counters on it. (If it would become untapped, remove a stun counter from it instead.)\n{1}{U}: Untap Sleep-Cursed Faerie."}
+        "Flying, ward {2}\nThis creature enters tapped with three stun counters on it. (If it would become untapped, remove a stun counter from it instead.)\n{1}{U}: Untap this creature."}
  #:card{:type-line "Creature — Faerie Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -341,7 +341,7 @@
         :layout "normal",
         :name "Sleep-Cursed Faerie",
         :oracle-text
-        "Flying, ward {2}\nSleep-Cursed Faerie enters the battlefield tapped with three stun counters on it. (If it would become untapped, remove a stun counter from it instead.)\n{1}{U}: Untap Sleep-Cursed Faerie."}
+        "Flying, ward {2}\nThis creature enters tapped with three stun counters on it. (If it would become untapped, remove a stun counter from it instead.)\n{1}{U}: Untap this creature."}
  #:card{:type-line "Creature — Faerie Noble",
         :layout-category :normal,
         :code "pwoe",
@@ -375,7 +375,7 @@
         :faces
         [{:type-line "Enchantment",
           :oracle-text
-          "If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+          "If a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Copy target activated or triggered ability you control. You may choose new targets for the copy."}]}
@@ -390,7 +390,7 @@
         :faces
         [{:type-line "Enchantment",
           :oracle-text
-          "If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+          "If a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Copy target activated or triggered ability you control. You may choose new targets for the copy."}]}
@@ -404,7 +404,7 @@
         :layout "normal",
         :name "Ashiok, Wicked Manipulator",
         :oracle-text
-        "If you would pay life while your library has at least that many cards in it, exile that many cards from the top of your library instead.\n+1: Look at the top two cards of your library. Exile one of them and put the other into your hand.\n−2: Create two 1/1 black Nightmare creature tokens with \"At the beginning of combat on your turn, if a card was put into exile this turn, put a +1/+1 counter on this creature.\"\n−7: Target player exiles the top X cards of their library, where X is the total mana value of cards you own in exile."}
+        "If you would pay life while your library has at least that many cards in it, exile that many cards from the top of your library instead.\n+1: Look at the top two cards of your library. Exile one of them and put the other into your hand.\n−2: Create two 1/1 black Nightmare creature tokens with \"At the beginning of combat on your turn, if a card was put into exile this turn, put a +1/+1 counter on this token.\"\n−7: Target player exiles the top X cards of their library, where X is the total mana value of cards you own in exile."}
  #:card{:type-line "Legendary Planeswalker — Ashiok",
         :layout-category :normal,
         :code "pwoe",
@@ -415,7 +415,7 @@
         :layout "normal",
         :name "Ashiok, Wicked Manipulator",
         :oracle-text
-        "If you would pay life while your library has at least that many cards in it, exile that many cards from the top of your library instead.\n+1: Look at the top two cards of your library. Exile one of them and put the other into your hand.\n−2: Create two 1/1 black Nightmare creature tokens with \"At the beginning of combat on your turn, if a card was put into exile this turn, put a +1/+1 counter on this creature.\"\n−7: Target player exiles the top X cards of their library, where X is the total mana value of cards you own in exile."}
+        "If you would pay life while your library has at least that many cards in it, exile that many cards from the top of your library instead.\n+1: Look at the top two cards of your library. Exile one of them and put the other into your hand.\n−2: Create two 1/1 black Nightmare creature tokens with \"At the beginning of combat on your turn, if a card was put into exile this turn, put a +1/+1 counter on this token.\"\n−7: Target player exiles the top X cards of their library, where X is the total mana value of cards you own in exile."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -471,7 +471,7 @@
         :faces
         [{:type-line "Creature — Human Warlock",
           :oracle-text
-          "Lifelink\nWhen Gumdrop Poisoner enters the battlefield, up to one target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn."}
+          "Lifelink\nWhen this creature enters, up to one target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Create a Food token. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -486,7 +486,7 @@
         :faces
         [{:type-line "Creature — Human Warlock",
           :oracle-text
-          "Lifelink\nWhen Gumdrop Poisoner enters the battlefield, up to one target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn."}
+          "Lifelink\nWhen this creature enters, up to one target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Create a Food token. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -522,7 +522,7 @@
         :layout "normal",
         :name "Lord Skitter, Sewer King",
         :oracle-text
-        "Whenever another Rat enters the battlefield under your control, exile up to one target card from an opponent's graveyard.\nAt the beginning of combat on your turn, create a 1/1 black Rat creature token with \"This creature can't block.\""}
+        "Whenever another Rat you control enters, exile up to one target card from an opponent's graveyard.\nAt the beginning of combat on your turn, create a 1/1 black Rat creature token with \"This token can't block.\""}
  #:card{:type-line "Legendary Creature — Rat Noble",
         :layout-category :normal,
         :code "pwoe",
@@ -533,7 +533,7 @@
         :layout "normal",
         :name "Lord Skitter, Sewer King",
         :oracle-text
-        "Whenever another Rat enters the battlefield under your control, exile up to one target card from an opponent's graveyard.\nAt the beginning of combat on your turn, create a 1/1 black Rat creature token with \"This creature can't block.\""}
+        "Whenever another Rat you control enters, exile up to one target card from an opponent's graveyard.\nAt the beginning of combat on your turn, create a 1/1 black Rat creature token with \"This token can't block.\""}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pwoe",
@@ -544,7 +544,7 @@
         :layout "normal",
         :name "Lord Skitter's Blessing",
         :oracle-text
-        "When Lord Skitter's Blessing enters the battlefield, create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1. When this Aura is put into a graveyard, each opponent loses 1 life.)\nAt the beginning of your draw step, if you control an enchanted creature, you lose 1 life and you draw an additional card."}
+        "When this enchantment enters, create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.)\nAt the beginning of your draw step, if you control an enchanted creature, you lose 1 life and you draw an additional card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pwoe",
@@ -555,7 +555,7 @@
         :layout "normal",
         :name "Lord Skitter's Blessing",
         :oracle-text
-        "When Lord Skitter's Blessing enters the battlefield, create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1. When this Aura is put into a graveyard, each opponent loses 1 life.)\nAt the beginning of your draw step, if you control an enchanted creature, you lose 1 life and you draw an additional card."}
+        "When this enchantment enters, create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.)\nAt the beginning of your draw step, if you control an enchanted creature, you lose 1 life and you draw an additional card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -566,7 +566,7 @@
         :layout "normal",
         :name "Rankle's Prank",
         :oracle-text
-        "Choose one or more —\n• Each player discards two cards.\n• Each player loses 4 life.\n• Each player sacrifices two creatures."}
+        "Choose one or more —\n• Each player discards two cards.\n• Each player loses 4 life.\n• Each player sacrifices two creatures of their choice."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -577,7 +577,7 @@
         :layout "normal",
         :name "Rankle's Prank",
         :oracle-text
-        "Choose one or more —\n• Each player discards two cards.\n• Each player loses 4 life.\n• Each player sacrifices two creatures."}
+        "Choose one or more —\n• Each player discards two cards.\n• Each player loses 4 life.\n• Each player sacrifices two creatures of their choice."}
  #:card{:type-line "Creature — Specter",
         :layout-category :normal,
         :code "pwoe",
@@ -588,7 +588,7 @@
         :layout "normal",
         :name "Specter of Mortality",
         :oracle-text
-        "Flying\nWhen Specter of Mortality enters the battlefield, you may exile one or more creature cards from your graveyard. When you do, each other creature gets -X/-X until end of turn, where X is the number of cards exiled this way."}
+        "Flying\nWhen this creature enters, you may exile one or more creature cards from your graveyard. When you do, each other creature gets -X/-X until end of turn, where X is the number of cards exiled this way."}
  #:card{:type-line "Creature — Specter",
         :layout-category :normal,
         :code "pwoe",
@@ -599,7 +599,7 @@
         :layout "normal",
         :name "Specter of Mortality",
         :oracle-text
-        "Flying\nWhen Specter of Mortality enters the battlefield, you may exile one or more creature cards from your graveyard. When you do, each other creature gets -X/-X until end of turn, where X is the number of cards exiled this way."}
+        "Flying\nWhen this creature enters, you may exile one or more creature cards from your graveyard. When you do, each other creature gets -X/-X until end of turn, where X is the number of cards exiled this way."}
  #:card{:type-line "Creature — Human Warlock",
         :layout-category :normal,
         :code "pwoe",
@@ -610,7 +610,7 @@
         :layout "normal",
         :name "Spiteful Hexmage",
         :oracle-text
-        "When Spiteful Hexmage enters the battlefield, create a Cursed Role token attached to target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
+        "When this creature enters, create a Cursed Role token attached to target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
  #:card{:type-line "Creature — Human Warlock",
         :layout-category :normal,
         :code "pwoe",
@@ -621,7 +621,7 @@
         :layout "normal",
         :name "Spiteful Hexmage",
         :oracle-text
-        "When Spiteful Hexmage enters the battlefield, create a Cursed Role token attached to target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
+        "When this creature enters, create a Cursed Role token attached to target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)"}
  #:card{:type-line "Creature — Rat",
         :layout-category :normal,
         :code "pwoe",
@@ -632,7 +632,7 @@
         :layout "normal",
         :name "Tangled Colony",
         :oracle-text
-        "Tangled Colony can't block.\nWhen Tangled Colony dies, create X 1/1 black Rat creature tokens with \"This creature can't block,\" where X is the amount of damage dealt to it this turn."}
+        "This creature can't block.\nWhen this creature dies, create X 1/1 black Rat creature tokens with \"This token can't block,\" where X is the amount of damage dealt to it this turn."}
  #:card{:type-line "Creature — Rat",
         :layout-category :normal,
         :code "pwoe",
@@ -643,7 +643,7 @@
         :layout "normal",
         :name "Tangled Colony",
         :oracle-text
-        "Tangled Colony can't block.\nWhen Tangled Colony dies, create X 1/1 black Rat creature tokens with \"This creature can't block,\" where X is the amount of damage dealt to it this turn."}
+        "This creature can't block.\nWhen this creature dies, create X 1/1 black Rat creature tokens with \"This token can't block,\" where X is the amount of damage dealt to it this turn."}
  #:card{:code "pwoe",
         :collector-number "115p",
         :name "Virtue of Persistence // Locthwain Scorn",
@@ -684,7 +684,7 @@
         :layout "normal",
         :name "Charming Scoundrel",
         :oracle-text
-        "Haste\nWhen Charming Scoundrel enters the battlefield, choose one —\n• Discard a card, then draw a card.\n• Create a Treasure token.\n• Create a Wicked Role token attached to target creature you control."}
+        "Haste\nWhen this creature enters, choose one —\n• Discard a card, then draw a card.\n• Create a Treasure token.\n• Create a Wicked Role token attached to target creature you control."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "pwoe",
@@ -695,7 +695,7 @@
         :layout "normal",
         :name "Charming Scoundrel",
         :oracle-text
-        "Haste\nWhen Charming Scoundrel enters the battlefield, choose one —\n• Discard a card, then draw a card.\n• Create a Treasure token.\n• Create a Wicked Role token attached to target creature you control."}
+        "Haste\nWhen this creature enters, choose one —\n• Discard a card, then draw a card.\n• Create a Treasure token.\n• Create a Wicked Role token attached to target creature you control."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pwoe",
@@ -728,7 +728,7 @@
         :layout "normal",
         :name "Goddric, Cloaked Reveler",
         :oracle-text
-        "Haste\nCelebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric, Cloaked Reveler is a Dragon with base power and toughness 4/4, flying, and \"{R}: Dragons you control get +1/+0 until end of turn.\" (It loses all other creature types.)"}
+        "Haste\nCelebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric is a Dragon with base power and toughness 4/4, flying, and \"{R}: Dragons you control get +1/+0 until end of turn.\" (It loses all other creature types.)"}
  #:card{:type-line "Legendary Creature — Human Noble",
         :layout-category :normal,
         :code "pwoe",
@@ -739,7 +739,7 @@
         :layout "normal",
         :name "Goddric, Cloaked Reveler",
         :oracle-text
-        "Haste\nCelebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric, Cloaked Reveler is a Dragon with base power and toughness 4/4, flying, and \"{R}: Dragons you control get +1/+0 until end of turn.\" (It loses all other creature types.)"}
+        "Haste\nCelebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric is a Dragon with base power and toughness 4/4, flying, and \"{R}: Dragons you control get +1/+0 until end of turn.\" (It loses all other creature types.)"}
  #:card{:type-line "Legendary Creature — Human Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -794,7 +794,7 @@
         :layout "normal",
         :name "Realm-Scorcher Hellkite",
         :oracle-text
-        "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nFlying, haste\nWhen Realm-Scorcher Hellkite enters the battlefield, if it was bargained, add four mana in any combination of colors.\n{1}{R}: Realm-Scorcher Hellkite deals 1 damage to any target."}
+        "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nFlying, haste\nWhen this creature enters, if it was bargained, add four mana in any combination of colors.\n{1}{R}: This creature deals 1 damage to any target."}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "pwoe",
@@ -805,7 +805,7 @@
         :layout "normal",
         :name "Realm-Scorcher Hellkite",
         :oracle-text
-        "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nFlying, haste\nWhen Realm-Scorcher Hellkite enters the battlefield, if it was bargained, add four mana in any combination of colors.\n{1}{R}: Realm-Scorcher Hellkite deals 1 damage to any target."}
+        "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nFlying, haste\nWhen this creature enters, if it was bargained, add four mana in any combination of colors.\n{1}{R}: This creature deals 1 damage to any target."}
  #:card{:type-line "Creature — Goblin Warrior",
         :layout-category :normal,
         :code "pwoe",
@@ -816,7 +816,7 @@
         :layout "normal",
         :name "Redcap Gutter-Dweller",
         :oracle-text
-        "Menace\nWhen Redcap Gutter-Dweller enters the battlefield, create two 1/1 black Rat creature tokens with \"This creature can't block.\"\nAt the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on Redcap Gutter-Dweller and exile the top card of your library. You may play that card this turn."}
+        "Menace\nWhen this creature enters, create two 1/1 black Rat creature tokens with \"This token can't block.\"\nAt the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature and exile the top card of your library. You may play that card this turn."}
  #:card{:type-line "Creature — Goblin Warrior",
         :layout-category :normal,
         :code "pwoe",
@@ -827,7 +827,7 @@
         :layout "normal",
         :name "Redcap Gutter-Dweller",
         :oracle-text
-        "Menace\nWhen Redcap Gutter-Dweller enters the battlefield, create two 1/1 black Rat creature tokens with \"This creature can't block.\"\nAt the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on Redcap Gutter-Dweller and exile the top card of your library. You may play that card this turn."}
+        "Menace\nWhen this creature enters, create two 1/1 black Rat creature tokens with \"This token can't block.\"\nAt the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature and exile the top card of your library. You may play that card this turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "pwoe",
@@ -838,7 +838,7 @@
         :layout "normal",
         :name "Rotisserie Elemental",
         :oracle-text
-        "Menace\nWhenever Rotisserie Elemental deals combat damage to a player, put a skewer counter on Rotisserie Elemental. Then you may sacrifice it. If you do, exile the top X cards of your library, where X is the number of skewer counters on Rotisserie Elemental. You may play those cards this turn."}
+        "Menace\nWhenever this creature deals combat damage to a player, put a skewer counter on this creature. Then you may sacrifice it. If you do, exile the top X cards of your library, where X is the number of skewer counters on this creature. You may play those cards this turn."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "pwoe",
@@ -849,7 +849,7 @@
         :layout "normal",
         :name "Rotisserie Elemental",
         :oracle-text
-        "Menace\nWhenever Rotisserie Elemental deals combat damage to a player, put a skewer counter on Rotisserie Elemental. Then you may sacrifice it. If you do, exile the top X cards of your library, where X is the number of skewer counters on Rotisserie Elemental. You may play those cards this turn."}
+        "Menace\nWhenever this creature deals combat damage to a player, put a skewer counter on this creature. Then you may sacrifice it. If you do, exile the top X cards of your library, where X is the number of skewer counters on this creature. You may play those cards this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -860,7 +860,7 @@
         :layout "normal",
         :name "Song of Totentanz",
         :oracle-text
-        "Create X 1/1 black Rat creature tokens with \"This creature can't block.\" Creatures you control gain haste until end of turn."}
+        "Create X 1/1 black Rat creature tokens with \"This token can't block.\" Creatures you control gain haste until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -871,7 +871,7 @@
         :layout "normal",
         :name "Song of Totentanz",
         :oracle-text
-        "Create X 1/1 black Rat creature tokens with \"This creature can't block.\" Creatures you control gain haste until end of turn."}
+        "Create X 1/1 black Rat creature tokens with \"This token can't block.\" Creatures you control gain haste until end of turn."}
  #:card{:code "pwoe",
         :collector-number "157p",
         :name "Virtue of Courage // Embereth Blaze",
@@ -912,7 +912,7 @@
         :layout "normal",
         :name "Blossoming Tortoise",
         :oracle-text
-        "Whenever Blossoming Tortoise enters the battlefield or attacks, mill three cards, then return a land card from your graveyard to the battlefield tapped.\nActivated abilities of lands you control cost {1} less to activate.\nLand creatures you control get +1/+1."}
+        "Whenever this creature enters or attacks, mill three cards, then return a land card from your graveyard to the battlefield tapped.\nActivated abilities of lands you control cost {1} less to activate.\nLand creatures you control get +1/+1."}
  #:card{:type-line "Creature — Turtle",
         :layout-category :normal,
         :code "pwoe",
@@ -923,7 +923,7 @@
         :layout "normal",
         :name "Blossoming Tortoise",
         :oracle-text
-        "Whenever Blossoming Tortoise enters the battlefield or attacks, mill three cards, then return a land card from your graveyard to the battlefield tapped.\nActivated abilities of lands you control cost {1} less to activate.\nLand creatures you control get +1/+1."}
+        "Whenever this creature enters or attacks, mill three cards, then return a land card from your graveyard to the battlefield tapped.\nActivated abilities of lands you control cost {1} less to activate.\nLand creatures you control get +1/+1."}
  #:card{:code "pwoe",
         :collector-number "164p",
         :name "Bramble Familiar // Fetch Quest",
@@ -935,7 +935,7 @@
         :faces
         [{:type-line "Creature — Elemental Raccoon",
           :oracle-text
-          "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return Bramble Familiar to its owner's hand."}
+          "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return this creature to its owner's hand."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Mill seven cards. Then put a creature, enchantment, or land card from among the milled cards onto the battlefield."}]}
@@ -950,7 +950,7 @@
         :faces
         [{:type-line "Creature — Elemental Raccoon",
           :oracle-text
-          "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return Bramble Familiar to its owner's hand."}
+          "{T}: Add {G}.\n{1}{G}, {T}, Discard a card: Return this creature to its owner's hand."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Mill seven cards. Then put a creature, enchantment, or land card from among the milled cards onto the battlefield."}]}
@@ -964,7 +964,7 @@
         :layout "normal",
         :name "Elvish Archivist",
         :oracle-text
-        "Whenever one or more artifacts enter the battlefield under your control, put two +1/+1 counters on Elvish Archivist. This ability triggers only once each turn.\nWhenever one or more enchantments enter the battlefield under your control, draw a card. This ability triggers only once each turn."}
+        "Whenever one or more artifacts you control enter, put two +1/+1 counters on this creature. This ability triggers only once each turn.\nWhenever one or more enchantments you control enter, draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Creature — Elf Artificer",
         :layout-category :normal,
         :code "pwoe",
@@ -975,7 +975,7 @@
         :layout "normal",
         :name "Elvish Archivist",
         :oracle-text
-        "Whenever one or more artifacts enter the battlefield under your control, put two +1/+1 counters on Elvish Archivist. This ability triggers only once each turn.\nWhenever one or more enchantments enter the battlefield under your control, draw a card. This ability triggers only once each turn."}
+        "Whenever one or more artifacts you control enter, put two +1/+1 counters on this creature. This ability triggers only once each turn.\nWhenever one or more enchantments you control enter, draw a card. This ability triggers only once each turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -1008,7 +1008,7 @@
         :layout "normal",
         :name "Gruff Triplets",
         :oracle-text
-        "Trample\nWhen Gruff Triplets enters the battlefield, if it isn't a token, create two tokens that are copies of it.\nWhen Gruff Triplets dies, put a number of +1/+1 counters equal to its power on each creature you control named Gruff Triplets."}
+        "Trample\nWhen this creature enters, if it isn't a token, create two tokens that are copies of it.\nWhen this creature dies, put a number of +1/+1 counters equal to its power on each creature you control named Gruff Triplets."}
  #:card{:type-line "Creature — Satyr Warrior",
         :layout-category :normal,
         :code "pwoe",
@@ -1019,7 +1019,7 @@
         :layout "normal",
         :name "Gruff Triplets",
         :oracle-text
-        "Trample\nWhen Gruff Triplets enters the battlefield, if it isn't a token, create two tokens that are copies of it.\nWhen Gruff Triplets dies, put a number of +1/+1 counters equal to its power on each creature you control named Gruff Triplets."}
+        "Trample\nWhen this creature enters, if it isn't a token, create two tokens that are copies of it.\nWhen this creature dies, put a number of +1/+1 counters equal to its power on each creature you control named Gruff Triplets."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "pwoe",
@@ -1052,7 +1052,7 @@
         :layout "normal",
         :name "Sentinel of Lost Lore",
         :oracle-text
-        "When Sentinel of Lost Lore enters the battlefield, choose one or more —\n• Return target card you own in exile that has an Adventure to your hand.\n• Put target card you don't own in exile that has an Adventure on the bottom of its owner's library.\n• Exile target player's graveyard."}
+        "When this creature enters, choose one or more —\n• Return target card you own in exile that has an Adventure to your hand.\n• Put target card you don't own in exile that has an Adventure on the bottom of its owner's library.\n• Exile target player's graveyard."}
  #:card{:type-line "Creature — Elf Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -1063,7 +1063,7 @@
         :layout "normal",
         :name "Sentinel of Lost Lore",
         :oracle-text
-        "When Sentinel of Lost Lore enters the battlefield, choose one or more —\n• Return target card you own in exile that has an Adventure to your hand.\n• Put target card you don't own in exile that has an Adventure on the bottom of its owner's library.\n• Exile target player's graveyard."}
+        "When this creature enters, choose one or more —\n• Return target card you own in exile that has an Adventure to your hand.\n• Put target card you don't own in exile that has an Adventure on the bottom of its owner's library.\n• Exile target player's graveyard."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pwoe",
@@ -1126,7 +1126,7 @@
         :layout "normal",
         :name "Agatha of the Vile Cauldron",
         :oracle-text
-        "Activated abilities of creatures you control cost {X} less to activate, where X is Agatha of the Vile Cauldron's power. This effect can't reduce the mana in that cost to less than one mana.\n{4}{R}{G}: Other creatures you control get +1/+1 and gain trample and haste until end of turn."}
+        "Activated abilities of creatures you control cost {X} less to activate, where X is Agatha's power. This effect can't reduce the mana in that cost to less than one mana.\n{4}{R}{G}: Other creatures you control get +1/+1 and gain trample and haste until end of turn."}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "pwoe",
@@ -1137,7 +1137,7 @@
         :layout "normal",
         :name "Agatha of the Vile Cauldron",
         :oracle-text
-        "Activated abilities of creatures you control cost {X} less to activate, where X is Agatha of the Vile Cauldron's power. This effect can't reduce the mana in that cost to less than one mana.\n{4}{R}{G}: Other creatures you control get +1/+1 and gain trample and haste until end of turn."}
+        "Activated abilities of creatures you control cost {X} less to activate, where X is Agatha's power. This effect can't reduce the mana in that cost to less than one mana.\n{4}{R}{G}: Other creatures you control get +1/+1 and gain trample and haste until end of turn."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "pwoe",
@@ -1192,7 +1192,7 @@
         :layout "normal",
         :name "Faunsbane Troll",
         :oracle-text
-        "When Faunsbane Troll enters the battlefield, create a Monster Role token attached to it. (Enchanted creature gets +1/+1 and has trample.)\n{1}, Sacrifice an Aura attached to Faunsbane Troll: Faunsbane Troll fights target creature you don't control. If that creature would die this turn, exile it instead. Activate only as a sorcery."}
+        "When this creature enters, create a Monster Role token attached to it. (Enchanted creature gets +1/+1 and has trample.)\n{1}, Sacrifice an Aura attached to this creature: This creature fights target creature you don't control. If that creature would die this turn, exile it instead. Activate only as a sorcery."}
  #:card{:type-line "Creature — Troll",
         :layout-category :normal,
         :code "pwoe",
@@ -1203,7 +1203,7 @@
         :layout "normal",
         :name "Faunsbane Troll",
         :oracle-text
-        "When Faunsbane Troll enters the battlefield, create a Monster Role token attached to it. (Enchanted creature gets +1/+1 and has trample.)\n{1}, Sacrifice an Aura attached to Faunsbane Troll: Faunsbane Troll fights target creature you don't control. If that creature would die this turn, exile it instead. Activate only as a sorcery."}
+        "When this creature enters, create a Monster Role token attached to it. (Enchanted creature gets +1/+1 and has trample.)\n{1}, Sacrifice an Aura attached to this creature: This creature fights target creature you don't control. If that creature would die this turn, exile it instead. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Bird Hydra",
         :layout-category :normal,
         :code "pwoe",
@@ -1214,7 +1214,7 @@
         :layout "normal",
         :name "The Goose Mother",
         :oracle-text
-        "Flying\nThe Goose Mother enters the battlefield with X +1/+1 counters on it.\nWhen The Goose Mother enters the battlefield, create half X Food tokens, rounded up.\nWhenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card."}
+        "Flying\nThe Goose Mother enters with X +1/+1 counters on it.\nWhen The Goose Mother enters, create half X Food tokens, rounded up.\nWhenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card."}
  #:card{:type-line "Legendary Creature — Bird Hydra",
         :layout-category :normal,
         :code "pwoe",
@@ -1225,7 +1225,7 @@
         :layout "normal",
         :name "The Goose Mother",
         :oracle-text
-        "Flying\nThe Goose Mother enters the battlefield with X +1/+1 counters on it.\nWhen The Goose Mother enters the battlefield, create half X Food tokens, rounded up.\nWhenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card."}
+        "Flying\nThe Goose Mother enters with X +1/+1 counters on it.\nWhen The Goose Mother enters, create half X Food tokens, rounded up.\nWhenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card."}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "pwoe",
@@ -1258,7 +1258,7 @@
         :layout "normal",
         :name "Likeness Looter",
         :oracle-text
-        "Flying\n{T}: Draw a card, then discard a card.\n{X}: Likeness Looter becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery."}
+        "Flying\n{T}: Draw a card, then discard a card.\n{X}: This creature becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery."}
  #:card{:type-line "Creature — Faerie Shapeshifter",
         :layout-category :normal,
         :code "pwoe",
@@ -1269,7 +1269,7 @@
         :layout "normal",
         :name "Likeness Looter",
         :oracle-text
-        "Flying\n{T}: Draw a card, then discard a card.\n{X}: Likeness Looter becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery."}
+        "Flying\n{T}: Draw a card, then discard a card.\n{X}: This creature becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -1302,7 +1302,7 @@
         :layout "normal",
         :name "Talion, the Kindly Lord",
         :oracle-text
-        "Flying\nAs Talion, the Kindly Lord enters the battlefield, choose a number between 1 and 10.\nWhenever an opponent casts a spell with mana value, power, or toughness equal to the chosen number, that player loses 2 life and you draw a card."}
+        "Flying\nAs Talion enters, choose a number between 1 and 10.\nWhenever an opponent casts a spell with mana value, power, or toughness equal to the chosen number, that player loses 2 life and you draw a card."}
  #:card{:type-line "Legendary Creature — Faerie Noble",
         :layout-category :normal,
         :code "pwoe",
@@ -1313,7 +1313,7 @@
         :layout "normal",
         :name "Talion, the Kindly Lord",
         :oracle-text
-        "Flying\nAs Talion, the Kindly Lord enters the battlefield, choose a number between 1 and 10.\nWhenever an opponent casts a spell with mana value, power, or toughness equal to the chosen number, that player loses 2 life and you draw a card."}
+        "Flying\nAs Talion enters, choose a number between 1 and 10.\nWhenever an opponent casts a spell with mana value, power, or toughness equal to the chosen number, that player loses 2 life and you draw a card."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "pwoe",
@@ -1346,7 +1346,7 @@
         :layout "normal",
         :name "Yenna, Redtooth Regent",
         :oracle-text
-        "{2}, {T}: Choose target enchantment you control that doesn't have the same name as another permanent you control. Create a token that's a copy of it, except it isn't legendary. If the token is an Aura, untap Yenna, Redtooth Regent, then scry 2. Activate only as a sorcery."}
+        "{2}, {T}: Choose target enchantment you control that doesn't have the same name as another permanent you control. Create a token that's a copy of it, except it isn't legendary. If the token is an Aura, untap Yenna, then scry 2. Activate only as a sorcery."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "pwoe",
@@ -1357,7 +1357,7 @@
         :layout "normal",
         :name "Yenna, Redtooth Regent",
         :oracle-text
-        "{2}, {T}: Choose target enchantment you control that doesn't have the same name as another permanent you control. Create a token that's a copy of it, except it isn't legendary. If the token is an Aura, untap Yenna, Redtooth Regent, then scry 2. Activate only as a sorcery."}
+        "{2}, {T}: Choose target enchantment you control that doesn't have the same name as another permanent you control. Create a token that's a copy of it, except it isn't legendary. If the token is an Aura, untap Yenna, then scry 2. Activate only as a sorcery."}
  #:card{:code "pwoe",
         :collector-number "220p",
         :name "Beluna Grandsquall // Seek Thrills",
@@ -1429,7 +1429,7 @@
         :faces
         [{:type-line "Creature — Dragon",
           :oracle-text
-          "Flying, trample\nWhenever Decadent Dragon attacks, create a Treasure token."}
+          "Flying, trample\nWhenever this creature attacks, create a Treasure token."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Exile the top two cards of target opponent's library face down. You may look at and play those cards for as long as they remain exiled."}]}
@@ -1444,7 +1444,7 @@
         :faces
         [{:type-line "Creature — Dragon",
           :oracle-text
-          "Flying, trample\nWhenever Decadent Dragon attacks, create a Treasure token."}
+          "Flying, trample\nWhenever this creature attacks, create a Treasure token."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Exile the top two cards of target opponent's library face down. You may look at and play those cards for as long as they remain exiled."}]}
@@ -1459,7 +1459,7 @@
         :faces
         [{:type-line "Creature — Horror",
           :oracle-text
-          "Menace, trample\nAt the beginning of your upkeep, you may sacrifice an artifact, enchantment, or token. If you don't, tap Devouring Sugarmaw."}
+          "Menace, trample\nAt the beginning of your upkeep, you may sacrifice an artifact, enchantment, or token. If you don't, tap this creature."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Create a 1/1 white Human creature token and a Food token. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1474,7 +1474,7 @@
         :faces
         [{:type-line "Creature — Horror",
           :oracle-text
-          "Menace, trample\nAt the beginning of your upkeep, you may sacrifice an artifact, enchantment, or token. If you don't, tap Devouring Sugarmaw."}
+          "Menace, trample\nAt the beginning of your upkeep, you may sacrifice an artifact, enchantment, or token. If you don't, tap this creature."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Create a 1/1 white Human creature token and a Food token. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1489,7 +1489,7 @@
         :faces
         [{:type-line "Creature — Otter",
           :oracle-text
-          "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nCreatures with power less than Elusive Otter's power can't block it."}
+          "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nCreatures with power less than this creature's power can't block it."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Distribute X +1/+1 counters among any number of target creatures you control. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1504,7 +1504,7 @@
         :faces
         [{:type-line "Creature — Otter",
           :oracle-text
-          "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nCreatures with power less than Elusive Otter's power can't block it."}
+          "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nCreatures with power less than this creature's power can't block it."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Distribute X +1/+1 counters among any number of target creatures you control. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1545,11 +1545,11 @@
         :highres? true,
         :layout-category :split,
         :png
-        "https://cards.scryfall.io/png/front/6/3/63c1cb1b-d1f5-49e3-8932-13553bc28dd0.png?1694308266",
+        "https://cards.scryfall.io/png/front/6/3/63c1cb1b-d1f5-49e3-8932-13553bc28dd0.png?1739519245",
         :faces
         [{:type-line "Legendary Creature — Human Faerie",
           :oracle-text
-          "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan, the Fae-Blooded."}
+          "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle."}]}
@@ -1564,7 +1564,7 @@
         :faces
         [{:type-line "Legendary Creature — Human Faerie",
           :oracle-text
-          "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan, the Fae-Blooded."}
+          "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle."}]}
@@ -1579,7 +1579,7 @@
         :faces
         [{:type-line "Creature — Human Knight",
           :oracle-text
-          "Trample\nWhen Mosswood Dreadknight dies, you may cast it from your graveyard as an Adventure until the end of your next turn."}
+          "Trample\nWhen this creature dies, you may cast it from your graveyard as an Adventure until the end of your next turn."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "You draw a card and you lose 1 life. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1594,7 +1594,7 @@
         :faces
         [{:type-line "Creature — Human Knight",
           :oracle-text
-          "Trample\nWhen Mosswood Dreadknight dies, you may cast it from your graveyard as an Adventure until the end of your next turn."}
+          "Trample\nWhen this creature dies, you may cast it from your graveyard as an Adventure until the end of your next turn."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "You draw a card and you lose 1 life. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1637,7 +1637,7 @@
         :faces
         [{:type-line "Creature — Human Druid",
           :oracle-text
-          "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Questing Druid."}
+          "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on this creature."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Exile the top two cards of your library. Until your next end step, you may play those cards."}]}
@@ -1652,7 +1652,7 @@
         :faces
         [{:type-line "Creature — Human Druid",
           :oracle-text
-          "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Questing Druid."}
+          "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on this creature."}
          {:type-line "Instant — Adventure",
           :oracle-text
           "Exile the top two cards of your library. Until your next end step, you may play those cards."}]}
@@ -1667,7 +1667,7 @@
         :faces
         [{:type-line "Creature — Elemental Snake",
           :oracle-text
-          "Whenever an opponent casts a spell with mana value 3 or less, Scalding Viper deals 1 damage to that player."}
+          "Whenever an opponent casts a spell with mana value 3 or less, this creature deals 1 damage to that player."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Return target nonland permanent to its owner's hand. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1682,7 +1682,7 @@
         :faces
         [{:type-line "Creature — Elemental Snake",
           :oracle-text
-          "Whenever an opponent casts a spell with mana value 3 or less, Scalding Viper deals 1 damage to that player."}
+          "Whenever an opponent casts a spell with mana value 3 or less, this creature deals 1 damage to that player."}
          {:type-line "Sorcery — Adventure",
           :oracle-text
           "Return target nonland permanent to its owner's hand. (Then exile this card. You may cast the creature later from exile.)"}]}
@@ -1768,7 +1768,7 @@
         :layout "normal",
         :name "The Irencrag",
         :oracle-text
-        "{T}: Add {C}.\nWhenever a legendary creature enters the battlefield under your control, you may have The Irencrag become a legendary Equipment artifact named Everflame, Heroes' Legacy. If you do, it gains equip {3} and \"Equipped creature gets +3/+3\" and loses all other abilities."}
+        "{T}: Add {C}.\nWhenever a legendary creature you control enters, you may have The Irencrag become a legendary Equipment artifact named Everflame, Heroes' Legacy. If you do, it gains equip {3} and \"Equipped creature gets +3/+3\" and loses all other abilities."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pwoe",
@@ -1779,7 +1779,7 @@
         :layout "normal",
         :name "The Irencrag",
         :oracle-text
-        "{T}: Add {C}.\nWhenever a legendary creature enters the battlefield under your control, you may have The Irencrag become a legendary Equipment artifact named Everflame, Heroes' Legacy. If you do, it gains equip {3} and \"Equipped creature gets +3/+3\" and loses all other abilities."}
+        "{T}: Add {C}.\nWhenever a legendary creature you control enters, you may have The Irencrag become a legendary Equipment artifact named Everflame, Heroes' Legacy. If you do, it gains equip {3} and \"Equipped creature gets +3/+3\" and loses all other abilities."}
  #:card{:type-line "Legendary Artifact Creature — Food Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -1790,7 +1790,7 @@
         :layout "normal",
         :name "Syr Ginger, the Meal Ender",
         :oracle-text
-        "Syr Ginger, the Meal Ender has trample, hexproof, and haste as long as an opponent controls a planeswalker.\nWhenever another artifact you control is put into a graveyard from the battlefield, put a +1/+1 counter on Syr Ginger and scry 1.\n{2}, {T}, Sacrifice Syr Ginger: You gain life equal to its power."}
+        "Syr Ginger has trample, hexproof, and haste as long as an opponent controls a planeswalker.\nWhenever another artifact you control is put into a graveyard from the battlefield, put a +1/+1 counter on Syr Ginger and scry 1.\n{2}, {T}, Sacrifice Syr Ginger: You gain life equal to its power."}
  #:card{:type-line "Legendary Artifact Creature — Food Knight",
         :layout-category :normal,
         :code "pwoe",
@@ -1801,7 +1801,7 @@
         :layout "normal",
         :name "Syr Ginger, the Meal Ender",
         :oracle-text
-        "Syr Ginger, the Meal Ender has trample, hexproof, and haste as long as an opponent controls a planeswalker.\nWhenever another artifact you control is put into a graveyard from the battlefield, put a +1/+1 counter on Syr Ginger and scry 1.\n{2}, {T}, Sacrifice Syr Ginger: You gain life equal to its power."}
+        "Syr Ginger has trample, hexproof, and haste as long as an opponent controls a planeswalker.\nWhenever another artifact you control is put into a graveyard from the battlefield, put a +1/+1 counter on Syr Ginger and scry 1.\n{2}, {T}, Sacrifice Syr Ginger: You gain life equal to its power."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1812,7 +1812,7 @@
         :layout "normal",
         :name "Restless Bivouac",
         :oracle-text
-        "Restless Bivouac enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{1}{R}{W}: Restless Bivouac becomes a 2/2 red and white Ox creature until end of turn. It's still a land.\nWhenever Restless Bivouac attacks, put a +1/+1 counter on target creature you control."}
+        "This land enters tapped.\n{T}: Add {R} or {W}.\n{1}{R}{W}: This land becomes a 2/2 red and white Ox creature until end of turn. It's still a land.\nWhenever this land attacks, put a +1/+1 counter on target creature you control."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1823,7 +1823,7 @@
         :layout "normal",
         :name "Restless Bivouac",
         :oracle-text
-        "Restless Bivouac enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{1}{R}{W}: Restless Bivouac becomes a 2/2 red and white Ox creature until end of turn. It's still a land.\nWhenever Restless Bivouac attacks, put a +1/+1 counter on target creature you control."}
+        "This land enters tapped.\n{T}: Add {R} or {W}.\n{1}{R}{W}: This land becomes a 2/2 red and white Ox creature until end of turn. It's still a land.\nWhenever this land attacks, put a +1/+1 counter on target creature you control."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1834,7 +1834,7 @@
         :layout "normal",
         :name "Restless Cottage",
         :oracle-text
-        "Restless Cottage enters the battlefield tapped.\n{T}: Add {B} or {G}.\n{2}{B}{G}: Restless Cottage becomes a 4/4 black and green Horror creature until end of turn. It's still a land.\nWhenever Restless Cottage attacks, create a Food token and exile up to one target card from a graveyard."}
+        "This land enters tapped.\n{T}: Add {B} or {G}.\n{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a land.\nWhenever this land attacks, create a Food token and exile up to one target card from a graveyard."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1845,7 +1845,7 @@
         :layout "normal",
         :name "Restless Cottage",
         :oracle-text
-        "Restless Cottage enters the battlefield tapped.\n{T}: Add {B} or {G}.\n{2}{B}{G}: Restless Cottage becomes a 4/4 black and green Horror creature until end of turn. It's still a land.\nWhenever Restless Cottage attacks, create a Food token and exile up to one target card from a graveyard."}
+        "This land enters tapped.\n{T}: Add {B} or {G}.\n{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a land.\nWhenever this land attacks, create a Food token and exile up to one target card from a graveyard."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1856,7 +1856,7 @@
         :layout "normal",
         :name "Restless Fortress",
         :oracle-text
-        "Restless Fortress enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{2}{W}{B}: Restless Fortress becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.\nWhenever Restless Fortress attacks, defending player loses 2 life and you gain 2 life."}
+        "This land enters tapped.\n{T}: Add {W} or {B}.\n{2}{W}{B}: This land becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.\nWhenever this land attacks, defending player loses 2 life and you gain 2 life."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1867,7 +1867,7 @@
         :layout "normal",
         :name "Restless Fortress",
         :oracle-text
-        "Restless Fortress enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{2}{W}{B}: Restless Fortress becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.\nWhenever Restless Fortress attacks, defending player loses 2 life and you gain 2 life."}
+        "This land enters tapped.\n{T}: Add {W} or {B}.\n{2}{W}{B}: This land becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.\nWhenever this land attacks, defending player loses 2 life and you gain 2 life."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1878,7 +1878,7 @@
         :layout "normal",
         :name "Restless Spire",
         :oracle-text
-        "Restless Spire enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{U}{R}: Until end of turn, Restless Spire becomes a 2/1 blue and red Elemental creature with \"As long as it's your turn, this creature has first strike.\" It's still a land.\nWhenever Restless Spire attacks, scry 1."}
+        "This land enters tapped.\n{T}: Add {U} or {R}.\n{U}{R}: Until end of turn, this land becomes a 2/1 blue and red Elemental creature with \"During your turn, this creature has first strike.\" It's still a land.\nWhenever this land attacks, scry 1."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1889,7 +1889,7 @@
         :layout "normal",
         :name "Restless Spire",
         :oracle-text
-        "Restless Spire enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{U}{R}: Until end of turn, Restless Spire becomes a 2/1 blue and red Elemental creature with \"As long as it's your turn, this creature has first strike.\" It's still a land.\nWhenever Restless Spire attacks, scry 1."}
+        "This land enters tapped.\n{T}: Add {U} or {R}.\n{U}{R}: Until end of turn, this land becomes a 2/1 blue and red Elemental creature with \"During your turn, this creature has first strike.\" It's still a land.\nWhenever this land attacks, scry 1."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1900,7 +1900,7 @@
         :layout "normal",
         :name "Restless Vinestalk",
         :oracle-text
-        "Restless Vinestalk enters the battlefield tapped.\n{T}: Add {G} or {U}.\n{3}{G}{U}: Until end of turn, Restless Vinestalk becomes a 5/5 green and blue Plant creature with trample. It's still a land.\nWhenever Restless Vinestalk attacks, up to one other target creature has base power and toughness 3/3 until end of turn."}
+        "This land enters tapped.\n{T}: Add {G} or {U}.\n{3}{G}{U}: Until end of turn, this land becomes a 5/5 green and blue Plant creature with trample. It's still a land.\nWhenever this land attacks, up to one other target creature has base power and toughness 3/3 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "pwoe",
@@ -1911,4 +1911,4 @@
         :layout "normal",
         :name "Restless Vinestalk",
         :oracle-text
-        "Restless Vinestalk enters the battlefield tapped.\n{T}: Add {G} or {U}.\n{3}{G}{U}: Until end of turn, Restless Vinestalk becomes a 5/5 green and blue Plant creature with trample. It's still a land.\nWhenever Restless Vinestalk attacks, up to one other target creature has base power and toughness 3/3 until end of turn."})
+        "This land enters tapped.\n{T}: Add {G} or {U}.\n{3}{G}{U}: Until end of turn, this land becomes a 5/5 green and blue Plant creature with trample. It's still a land.\nWhenever this land attacks, up to one other target creature has base power and toughness 3/3 until end of turn."})

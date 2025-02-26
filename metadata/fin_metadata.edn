@@ -1,0 +1,296 @@
+(#:card{:code "fin",
+        :collector-number "31",
+        :name "Sidequest: Catch a Fish // Cooking Campsite",
+        :layout "transform",
+        :highres? false,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/b/d/bdb5452e-d97f-409b-91d0-2664f39b09b8.png?1739911159",
+          :type-line "Enchantment",
+          :oracle-text
+          "At the beginning of your upkeep, look at the top card of your library. If it's an artifact or creature card, you may reveal it and put it into your hand. If you put a card into your hand this way, create a Food token and transform this enchantment."}
+         {:png
+          "https://cards.scryfall.io/png/back/b/d/bdb5452e-d97f-409b-91d0-2664f39b09b8.png?1739911159",
+          :type-line "Land",
+          :oracle-text
+          "{T}: Add {W}.\n{3}, {T}, Sacrifice an artifact: Put a +1/+1 counter on each creature you control. Activate only as a sorcery."}]}
+ #:card{:type-line "Legendary Creature — Moogle",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/6/06a972a4-0c1b-4f12-a5a5-fdea47c4cd35.png?1739910689",
+        :collector-number "34",
+        :layout "normal",
+        :name "Stiltzkin, Moogle Merchant",
+        :oracle-text
+        "Lifelink\n{2}, {T}: Target opponent gains control of another target permanent you control. If they do, you draw a card."}
+ #:card{:type-line "Enchantment Creature — Saga Elemental",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/8/a80511f8-7cb1-4974-afde-8a5cebe13ad7.png?1740066807",
+        :collector-number "78",
+        :layout "normal",
+        :name "Summon: Shiva",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Heavenly Strike — Tap target creature an opponent controls. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nIII — Diamond Dust — Draw a card for each tapped creature your opponents control."}
+ #:card{:code "fin",
+        :collector-number "91",
+        :name "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/0/2/026e7167-d665-43d0-a51e-8df2d68cdb5e.png?1739913502",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Deathtouch\nDarkness — Whenever Cecil deals damage, you lose that much life. Then if your life total is less than or equal to half your starting life total, untap Cecil and transform it."}
+         {:png
+          "https://cards.scryfall.io/png/back/0/2/026e7167-d665-43d0-a51e-8df2d68cdb5e.png?1739913502",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Lifelink\nProtect — Whenever Cecil attacks, other attacking creatures gain indestructible until end of turn."}]}
+ #:card{:type-line "Creature — Salamander Horror",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/1/a/1a9b8723-4383-4c14-b24d-52863af8703d.png?1739885196",
+        :collector-number "122",
+        :layout "normal",
+        :name "Tonberry",
+        :oracle-text
+        "This creature enters tapped with a stun counter on it. (If it would become untapped, remove a stun counter from it instead.)\nChef's Knife — During your turn, this creature has first strike and deathtouch."}
+ #:card{:type-line "Creature — Plant",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/d/b/db01c222-8795-47e9-a789-e7f749a3ee7d.png?1739910775",
+        :collector-number "191",
+        :layout "normal",
+        :name "Jumbo Cactuar",
+        :oracle-text
+        "10,000 Needles — Whenever this creature attacks, it gets +9999/+0 until end of turn."}
+ #:card{:type-line "Creature — Bird",
+        :layout-category :normal,
+        :code "fin",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/d/d/dda6b4d0-1b60-46b0-b321-b9ffe15afff4.png?1739910738",
+        :collector-number "200",
+        :layout "normal",
+        :name "Sazh's Chocobo",
+        :oracle-text
+        "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature."}
+ #:card{:code "fin",
+        :collector-number "218",
+        :name "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/7/5/75cf4eb8-33e7-4dfc-b890-a7e3b5c1b9d5.png?1739885349",
+          :type-line "Legendary Creature — Elder Wizard",
+          :oracle-text
+          "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch."}
+         {:png
+          "https://cards.scryfall.io/png/back/7/5/75cf4eb8-33e7-4dfc-b890-a7e3b5c1b9d5.png?1739885349",
+          :type-line "Legendary Creature — Avatar",
+          :oracle-text
+          "Vigilance\nEcho of the Lost — During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead."}]}
+ #:card{:code "fin",
+        :collector-number "221",
+        :name "Garland, Knight of Cornelia // Chaos, the Endless",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/d/d/dd463dbe-5f2c-4d4f-86f8-ad8ff407af62.png?1739887095",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Whenever you cast a noncreature spell, surveil 1. (Look at the top card d of your library. You may put it into your graveyard.)\n{3}{B}{B}{R}{R}: Return this card from your graveyard to the battlefield transformed. Activate only as a sorcery."}
+         {:png
+          "https://cards.scryfall.io/png/back/d/d/dd463dbe-5f2c-4d4f-86f8-ad8ff407af62.png?1739887095",
+          :type-line "Legendary Creature — Demon",
+          :oracle-text
+          "Flying\nWhen Chaos dies, put it on the bottom of its owner's library."}]}
+ #:card{:type-line "Legendary Creature — Leviathan Avatar",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/6/5/659be746-bd31-4a70-8cec-7798da78b0b5.png?1739909655",
+        :collector-number "242",
+        :layout "normal",
+        :name "Sin, Spira's Punishment",
+        :oracle-text
+        "Flying\nWhenever Sin enters or attacks, exile a permanent card from your graveyard at random, then create a tapped token that's a copy of that card. If the exiled card is a land card, repeat this process."}
+ #:card{:type-line "Legendary Creature — Moogle",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/8/3/8347cb57-7c20-4085-83f3-bee35b55b3f1.png?1739885555",
+        :collector-number "327",
+        :layout "normal",
+        :name "Stiltzkin, Moogle Merchant",
+        :oracle-text
+        "Lifelink\n{2}, {T}: Target opponent gains control of another target permanent you control. If they do, you draw a card."}
+ #:card{:type-line "Creature — Plant",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/f/e/fe80b498-a25d-4f68-ac26-9554c3ee1677.png?1739885596",
+        :collector-number "343",
+        :layout "normal",
+        :name "Jumbo Cactuar",
+        :oracle-text
+        "10,000 Needles — Whenever this creature attacks, it gets +9999/+0 until end of turn."}
+ #:card{:type-line "Legendary Creature — Leviathan Avatar",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/c/e/ce15bf1d-debf-4e0f-a69d-a57619d4b0ee.png?1739885450",
+        :collector-number "348",
+        :layout "normal",
+        :name "Sin, Spira's Punishment",
+        :oracle-text
+        "Flying\nWhenever Sin enters or attacks, exile a permanent card from your graveyard at random, then create a tapped token that's a copy of that card. If the exiled card is a land card, repeat this process."}
+ #:card{:type-line "Enchantment Creature — Saga Elemental",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/3/4/340b2b03-1b20-411c-ba30-2be77655290a.png?1739911190",
+        :collector-number "362",
+        :layout "normal",
+        :name "Summon: Shiva",
+        :oracle-text
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Heavenly Strike — Tap target creature an opponent controls. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nIII — Diamond Dust — Draw a card for each tapped creature your opponents control."}
+ #:card{:code "fin",
+        :collector-number "380",
+        :name "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/d/8/d8c5c414-c7a0-489b-9cb8-1b910aa89b8e.png?1739910930",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Deathtouch\nDarkness — Whenever Cecil deals damage, you lose that much life. Then if your life total is less than or equal to half your starting life total, untap Cecil and transform it."}
+         {:png
+          "https://cards.scryfall.io/png/back/d/8/d8c5c414-c7a0-489b-9cb8-1b910aa89b8e.png?1739910930",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Lifelink\nProtect — Whenever Cecil attacks, other attacking creatures gain indestructible until end of turn."}]}
+ #:card{:code "fin",
+        :collector-number "394",
+        :name "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/f/d/fd537047-d997-4ee1-b259-3ed54b7c5576.png?1740031763",
+          :type-line "Legendary Creature — Elder Wizard",
+          :oracle-text
+          "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch."}
+         {:png
+          "https://cards.scryfall.io/png/back/f/d/fd537047-d997-4ee1-b259-3ed54b7c5576.png?1740031763",
+          :type-line "Legendary Creature — Avatar",
+          :oracle-text
+          "Vigilance\nEcho of the Lost — During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead."}]}
+ #:card{:code "fin",
+        :collector-number "445",
+        :name "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/c/9/c976f89d-768a-4cee-b0ac-90f854bfe94f.png?1739912980",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Deathtouch\nDarkness — Whenever Cecil deals damage, you lose that much life. Then if your life total is less than or equal to half your starting life total, untap Cecil and transform it."}
+         {:png
+          "https://cards.scryfall.io/png/back/c/9/c976f89d-768a-4cee-b0ac-90f854bfe94f.png?1739912980",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Lifelink\nProtect — Whenever Cecil attacks, other attacking creatures gain indestructible until end of turn."}]}
+ #:card{:code "fin",
+        :collector-number "483",
+        :name "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/0/f/0f462d81-bb1b-4d44-8952-6dff52970792.png?1739912993",
+          :type-line "Legendary Creature — Elder Wizard",
+          :oracle-text
+          "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch."}
+         {:png
+          "https://cards.scryfall.io/png/back/0/f/0f462d81-bb1b-4d44-8952-6dff52970792.png?1739912993",
+          :type-line "Legendary Creature — Avatar",
+          :oracle-text
+          "Vigilance\nEcho of the Lost — During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead."}]}
+ #:card{:code "fin",
+        :collector-number "486",
+        :name "Garland, Knight of Cornelia // Chaos, the Endless",
+        :layout "transform",
+        :highres? true,
+        :layout-category :transform,
+        :faces
+        [{:png
+          "https://cards.scryfall.io/png/front/8/e/8e6e21d2-e282-4f56-8e6b-929176b264b3.png?1739912997",
+          :type-line "Legendary Creature — Human Knight",
+          :oracle-text
+          "Whenever you cast a noncreature spell, surveil 1. (Look at the top card d of your library. You may put it into your graveyard.)\n{3}{B}{B}{R}{R}: Return this card from your graveyard to the battlefield transformed. Activate only as a sorcery."}
+         {:png
+          "https://cards.scryfall.io/png/back/8/e/8e6e21d2-e282-4f56-8e6b-929176b264b3.png?1739912997",
+          :type-line "Legendary Creature — Demon",
+          :oracle-text
+          "Flying\nWhen Chaos dies, put it on the bottom of its owner's library."}]}
+ #:card{:type-line "Legendary Creature — Leviathan Avatar",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/0/7/075dd582-61b7-45e9-9dcf-0b544b733e61.png?1739913008",
+        :collector-number "508",
+        :layout "normal",
+        :name "Sin, Spira's Punishment",
+        :oracle-text
+        "Flying\nWhenever Sin enters or attacks, exile a permanent card from your graveyard at random, then create a tapped token that's a copy of that card. If the exiled card is a land card, repeat this process."}
+ #:card{:type-line "Legendary Creature — Human Soldier Mercenary",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/6/a6d58067-337d-43dc-b4a3-c6acc701d450.png?1740031800",
+        :collector-number "552",
+        :layout "normal",
+        :name "Cloud, Planet's Champion",
+        :oracle-text
+        "During your turn, as long as Cloud is equipped, it has double strike and indestructible. (This creature deals both first-strike and regular combat damage. Damage and effects that say \"destroy\" don't destroy this creature.)\nEquip abilities you activate that target Cloud cost {2} less to activate."}
+ #:card{:type-line "Legendary Creature — Human Avatar Soldier",
+        :layout-category :normal,
+        :code "fin",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/a/b/abd73e52-62f0-4e89-9dc6-90ff0bc2a9b7.png?1740031807",
+        :collector-number "553",
+        :layout "normal",
+        :name "Sephiroth, Planet's Heir",
+        :oracle-text
+        "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen Sephiroth enters, creatures your opponents control get -2/-2 until end of turn.\nWhenever a creature an opponent controls dies, put a +1/+1 counter on Sephiroth."})

@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Chishiro, the Shattered Blade",
         :oracle-text
-        "Whenever an Aura or Equipment enters the battlefield under your control, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
+        "Whenever an Aura or Equipment you control enters, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Legendary Creature — Moonfolk Pilot",
         :layout-category :normal,
         :code "nec",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Kaima, the Fractured Calm",
         :oracle-text
-        "At the beginning of your end step, goad each creature your opponents control that's enchanted by an Aura you control. Put a +1/+1 counter on Kaima, the Fractured Calm for each creature goaded this way. (Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.)"}
+        "At the beginning of your end step, goad each creature your opponents control that's enchanted by an Aura you control. Put a +1/+1 counter on Kaima for each creature goaded this way. (Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.)"}
  #:card{:type-line "Legendary Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Shorikai, Genesis Engine",
         :oracle-text
-        "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander."}
+        "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This token crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Aerial Surveyor",
         :oracle-text
-        "Flying\nWhenever Aerial Surveyor attacks, if defending player controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.\nCrew 2"}
+        "Flying\nWhenever this Vehicle attacks, if defending player controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.\nCrew 2"}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Ironsoul Enforcer",
         :oracle-text
-        "Whenever Ironsoul Enforcer or a commander you control attacks alone, return target artifact card from your graveyard to the battlefield."}
+        "Whenever this creature or a commander you control attacks alone, return target artifact card from your graveyard to the battlefield."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Cyberdrive Awakener",
         :oracle-text
-        "Flying\nOther artifact creatures you control have flying.\nWhen Cyberdrive Awakener enters the battlefield, until end of turn, each noncreature artifact you control becomes an artifact creature with base power and toughness 4/4."}
+        "Flying\nOther artifact creatures you control have flying.\nWhen this creature enters, until end of turn, each noncreature artifact you control becomes an artifact creature with base power and toughness 4/4."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Imposter Mech",
         :oracle-text
-        "You may have Imposter Mech enter the battlefield as a copy of a creature an opponent controls, except it's a Vehicle artifact with crew 3 and it loses all other card types.\nCrew 3"}
+        "You may have this Vehicle enter as a copy of a creature an opponent controls, except it's a Vehicle artifact with crew 3 and it loses all other card types.\nCrew 3"}
  #:card{:type-line "Artifact Creature — Turtle Warrior",
         :layout-category :normal,
         :code "nec",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Kappa Cannoneer",
         :oracle-text
-        "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWard {4}\nWhenever an artifact enters the battlefield under your control, put a +1/+1 counter on Kappa Cannoneer and it can't be blocked this turn."}
+        "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWard {4}\nWhenever this creature or another artifact you control enters, put a +1/+1 counter on this creature and it can't be blocked this turn."}
  #:card{:type-line "Legendary Creature — Moonfolk Artificer",
         :layout-category :normal,
         :code "nec",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Akki Battle Squad",
         :oracle-text
-        "Whenever one or more modified creatures you control attack, untap all modified creatures you control. After this combat phase, there is an additional combat phase. This ability triggers only once each turn. (Equipment, Auras you control, and counters are modifications.)"}
+        "Whenever one or more modified creatures you control attack, untap all modified creatures you control. After this phase, there is an additional combat phase. This ability triggers only once each turn. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Komainu Battle Armor",
         :oracle-text
-        "Menace\nEquipped creature gets +2/+2 and has menace.\nWhenever Komainu Battle Armor or equipped creature deals combat damage to a player, goad each creature that player controls.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Menace\nEquipped creature gets +2/+2 and has menace.\nWhenever this creature or equipped creature deals combat damage to a player, goad each creature that player controls.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -245,12 +245,12 @@
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/b/db6b3f71-d833-4548-8d66-1d51da08d8b9.png?1651655388",
+        "https://cards.scryfall.io/png/front/d/b/db6b3f71-d833-4548-8d66-1d51da08d8b9.png?1705757060",
         :collector-number "23",
         :layout "normal",
         :name "Unquenchable Fury",
         :oracle-text
-        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, it deals X damage to defending player, where X is the number of cards in their hand.\"\nWhen Unquenchable Fury is put into your graveyard from the battlefield, return it to your hand."}
+        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, it deals X damage to defending player, where X is the number of cards in their hand.\"\nWhen this Aura is put into your graveyard from the battlefield, return it to your hand."}
  #:card{:type-line "Creature — Human Monk",
         :layout-category :normal,
         :code "nec",
@@ -261,7 +261,7 @@
         :layout "normal",
         :name "Ascendant Acolyte",
         :oracle-text
-        "Ascendant Acolyte enters the battlefield with a +1/+1 counter on it for each +1/+1 counter among other creatures you control.\nAt the beginning of your upkeep, double the number of +1/+1 counters on Ascendant Acolyte."}
+        "This creature enters with a +1/+1 counter on it for each +1/+1 counter among other creatures you control.\nAt the beginning of your upkeep, double the number of +1/+1 counters on this creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "nec",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Kosei, Penitent Warlord",
         :oracle-text
-        "As long as Kosei, Penitent Warlord is enchanted, equipped, and has a counter on it, Kosei has \"Whenever Kosei, Penitent Warlord deals combat damage to an opponent, you draw that many cards and Kosei deals that much damage to each other opponent.\""}
+        "As long as Kosei is enchanted, equipped, and has a counter on it, Kosei has \"Whenever Kosei deals combat damage to an opponent, you draw that many cards and Kosei deals that much damage to each other opponent.\""}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "nec",
@@ -300,12 +300,12 @@
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/6/16b06b17-f256-428f-9bed-f115af270f27.png?1651655439",
+        "https://cards.scryfall.io/png/front/1/6/16b06b17-f256-428f-9bed-f115af270f27.png?1739659484",
         :collector-number "28",
         :layout "normal",
         :name "Rampant Rejuvenator",
         :oracle-text
-        "Rampant Rejuvenator enters the battlefield with two +1/+1 counters on it.\nWhen Rampant Rejuvenator dies, search your library for up to X basic land cards, where X is Rampant Rejuvenator's power, put them onto the battlefield, then shuffle."}
+        "This creature enters with two +1/+1 counters on it.\nWhen this creature dies, search your library for up to X basic land cards, where X is this creature's power, put them onto the battlefield, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -327,7 +327,7 @@
         :layout "normal",
         :name "Tanuki Transplanter",
         :oracle-text
-        "Whenever Tanuki Transplanter or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose this mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Whenever this creature or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose this mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -338,7 +338,7 @@
         :layout "normal",
         :name "Myojin of Blooming Dawn",
         :oracle-text
-        "Myojin of Blooming Dawn enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control."}
+        "Myojin of Blooming Dawn enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control."}
  #:card{:type-line "Legendary Creature — Dog",
         :layout-category :normal,
         :code "nec",
@@ -349,7 +349,7 @@
         :layout "normal",
         :name "Yoshimaru, Ever Faithful",
         :oracle-text
-        "Whenever another legendary permanent enters the battlefield under your control, put a +1/+1 counter on Yoshimaru, Ever Faithful.\nPartner (You can have two commanders if both have partner.)"}
+        "Whenever another legendary permanent you control enters, put a +1/+1 counter on Yoshimaru.\nPartner (You can have two commanders if both have partner.)"}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -360,7 +360,7 @@
         :layout "normal",
         :name "Myojin of Cryptic Dreams",
         :oracle-text
-        "Myojin of Cryptic Dreams enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Cryptic Dreams: Copy target permanent spell you control three times. (The copies become tokens.)"}
+        "Myojin of Cryptic Dreams enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Cryptic Dreams: Copy target permanent spell you control three times. (The copies become tokens.)"}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Myojin of Grim Betrayal",
         :oracle-text
-        "Myojin of Grim Betrayal enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn."}
+        "Myojin of Grim Betrayal enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "nec",
@@ -382,7 +382,7 @@
         :layout "normal",
         :name "Ruthless Technomancer",
         :oracle-text
-        "When Ruthless Technomancer enters the battlefield, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0."}
+        "When this creature enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -393,18 +393,18 @@
         :layout "normal",
         :name "Myojin of Roaring Blades",
         :oracle-text
-        "Myojin of Roaring Blades enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Roaring Blades: It deals 7 damage to each of up to three targets."}
+        "Myojin of Roaring Blades enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Roaring Blades: It deals 7 damage to each of up to three targets."}
  #:card{:type-line "Legendary Enchantment Creature — Shrine",
         :layout-category :normal,
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.png?1651655539",
+        "https://cards.scryfall.io/png/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.png?1723704351",
         :collector-number "37",
         :layout "normal",
         :name "Go-Shintai of Life's Origin",
         :oracle-text
-        "{W}{U}{B}{R}{G}, {T}: Return target enchantment card from your graveyard to the battlefield.\nWhenever Go-Shintai of Life's Origin or another nontoken Shrine enters the battlefield under your control, create a 1/1 colorless Shrine enchantment creature token."}
+        "{W}{U}{B}{R}{G}, {T}: Return target enchantment card from your graveyard to the battlefield.\nWhenever Go-Shintai of Life's Origin or another nontoken Shrine you control enters, create a 1/1 colorless Shrine enchantment creature token."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -415,7 +415,7 @@
         :layout "normal",
         :name "Myojin of Towering Might",
         :oracle-text
-        "Myojin of Towering Might enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Towering Might: Distribute eight +1/+1 counters among any number of target creatures you control. They gain trample until end of turn."}
+        "Myojin of Towering Might enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Towering Might: Distribute eight +1/+1 counters among any number of target creatures you control. They gain trample until end of turn."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -426,7 +426,7 @@
         :layout "normal",
         :name "Aerial Surveyor",
         :oracle-text
-        "Flying\nWhenever Aerial Surveyor attacks, if defending player controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.\nCrew 2"}
+        "Flying\nWhenever this Vehicle attacks, if defending player controls more lands than you, search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.\nCrew 2"}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -448,7 +448,7 @@
         :layout "normal",
         :name "Ironsoul Enforcer",
         :oracle-text
-        "Whenever Ironsoul Enforcer or a commander you control attacks alone, return target artifact card from your graveyard to the battlefield."}
+        "Whenever this creature or a commander you control attacks alone, return target artifact card from your graveyard to the battlefield."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -459,7 +459,7 @@
         :layout "normal",
         :name "Myojin of Blooming Dawn",
         :oracle-text
-        "Myojin of Blooming Dawn enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control."}
+        "Myojin of Blooming Dawn enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -503,7 +503,7 @@
         :layout "normal",
         :name "Yoshimaru, Ever Faithful",
         :oracle-text
-        "Whenever another legendary permanent enters the battlefield under your control, put a +1/+1 counter on Yoshimaru, Ever Faithful.\nPartner (You can have two commanders if both have partner.)"}
+        "Whenever another legendary permanent you control enters, put a +1/+1 counter on Yoshimaru.\nPartner (You can have two commanders if both have partner.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -525,7 +525,7 @@
         :layout "normal",
         :name "Cyberdrive Awakener",
         :oracle-text
-        "Flying\nOther artifact creatures you control have flying.\nWhen Cyberdrive Awakener enters the battlefield, until end of turn, each noncreature artifact you control becomes an artifact creature with base power and toughness 4/4."}
+        "Flying\nOther artifact creatures you control have flying.\nWhen this creature enters, until end of turn, each noncreature artifact you control becomes an artifact creature with base power and toughness 4/4."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -536,7 +536,7 @@
         :layout "normal",
         :name "Imposter Mech",
         :oracle-text
-        "You may have Imposter Mech enter the battlefield as a copy of a creature an opponent controls, except it's a Vehicle artifact with crew 3 and it loses all other card types.\nCrew 3"}
+        "You may have this Vehicle enter as a copy of a creature an opponent controls, except it's a Vehicle artifact with crew 3 and it loses all other card types.\nCrew 3"}
  #:card{:type-line "Artifact Creature — Turtle Warrior",
         :layout-category :normal,
         :code "nec",
@@ -547,7 +547,7 @@
         :layout "normal",
         :name "Kappa Cannoneer",
         :oracle-text
-        "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWard {4}\nWhenever an artifact enters the battlefield under your control, put a +1/+1 counter on Kappa Cannoneer and it can't be blocked this turn."}
+        "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWard {4}\nWhenever this creature or another artifact you control enters, put a +1/+1 counter on this creature and it can't be blocked this turn."}
  #:card{:type-line "Legendary Creature — Moonfolk Artificer",
         :layout-category :normal,
         :code "nec",
@@ -569,7 +569,7 @@
         :layout "normal",
         :name "Myojin of Cryptic Dreams",
         :oracle-text
-        "Myojin of Cryptic Dreams enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Cryptic Dreams: Copy target permanent spell you control three times. (The copies become tokens.)"}
+        "Myojin of Cryptic Dreams enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Cryptic Dreams: Copy target permanent spell you control three times. (The copies become tokens.)"}
  #:card{:type-line "Artifact Creature — Moonfolk Wizard",
         :layout-category :normal,
         :code "nec",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Myojin of Grim Betrayal",
         :oracle-text
-        "Myojin of Grim Betrayal enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn."}
+        "Myojin of Grim Betrayal enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "nec",
@@ -613,7 +613,7 @@
         :layout "normal",
         :name "Ruthless Technomancer",
         :oracle-text
-        "When Ruthless Technomancer enters the battlefield, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0."}
+        "When this creature enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0."}
  #:card{:type-line "Creature — Goblin Samurai",
         :layout-category :normal,
         :code "nec",
@@ -624,7 +624,7 @@
         :layout "normal",
         :name "Akki Battle Squad",
         :oracle-text
-        "Whenever one or more modified creatures you control attack, untap all modified creatures you control. After this combat phase, there is an additional combat phase. This ability triggers only once each turn. (Equipment, Auras you control, and counters are modifications.)"}
+        "Whenever one or more modified creatures you control attack, untap all modified creatures you control. After this phase, there is an additional combat phase. This ability triggers only once each turn. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -657,7 +657,7 @@
         :layout "normal",
         :name "Komainu Battle Armor",
         :oracle-text
-        "Menace\nEquipped creature gets +2/+2 and has menace.\nWhenever Komainu Battle Armor or equipped creature deals combat damage to a player, goad each creature that player controls.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Menace\nEquipped creature gets +2/+2 and has menace.\nWhenever this creature or equipped creature deals combat damage to a player, goad each creature that player controls.\nReconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -668,7 +668,7 @@
         :layout "normal",
         :name "Myojin of Roaring Blades",
         :oracle-text
-        "Myojin of Roaring Blades enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Roaring Blades: It deals 7 damage to each of up to three targets."}
+        "Myojin of Roaring Blades enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Roaring Blades: It deals 7 damage to each of up to three targets."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -690,7 +690,7 @@
         :layout "normal",
         :name "Unquenchable Fury",
         :oracle-text
-        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, it deals X damage to defending player, where X is the number of cards in their hand.\"\nWhen Unquenchable Fury is put into your graveyard from the battlefield, return it to your hand."}
+        "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, it deals X damage to defending player, where X is the number of cards in their hand.\"\nWhen this Aura is put into your graveyard from the battlefield, return it to your hand."}
  #:card{:type-line "Creature — Human Monk",
         :layout-category :normal,
         :code "nec",
@@ -701,7 +701,7 @@
         :layout "normal",
         :name "Ascendant Acolyte",
         :oracle-text
-        "Ascendant Acolyte enters the battlefield with a +1/+1 counter on it for each +1/+1 counter among other creatures you control.\nAt the beginning of your upkeep, double the number of +1/+1 counters on Ascendant Acolyte."}
+        "This creature enters with a +1/+1 counter on it for each +1/+1 counter among other creatures you control.\nAt the beginning of your upkeep, double the number of +1/+1 counters on this creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "nec",
@@ -723,7 +723,7 @@
         :layout "normal",
         :name "Go-Shintai of Life's Origin",
         :oracle-text
-        "{W}{U}{B}{R}{G}, {T}: Return target enchantment card from your graveyard to the battlefield.\nWhenever Go-Shintai of Life's Origin or another nontoken Shrine enters the battlefield under your control, create a 1/1 colorless Shrine enchantment creature token."}
+        "{W}{U}{B}{R}{G}, {T}: Return target enchantment card from your graveyard to the battlefield.\nWhenever Go-Shintai of Life's Origin or another nontoken Shrine you control enters, create a 1/1 colorless Shrine enchantment creature token."}
  #:card{:type-line "Legendary Creature — Ogre Samurai",
         :layout-category :normal,
         :code "nec",
@@ -734,7 +734,7 @@
         :layout "normal",
         :name "Kosei, Penitent Warlord",
         :oracle-text
-        "As long as Kosei, Penitent Warlord is enchanted, equipped, and has a counter on it, Kosei has \"Whenever Kosei, Penitent Warlord deals combat damage to an opponent, you draw that many cards and Kosei deals that much damage to each other opponent.\""}
+        "As long as Kosei is enchanted, equipped, and has a counter on it, Kosei has \"Whenever Kosei deals combat damage to an opponent, you draw that many cards and Kosei deals that much damage to each other opponent.\""}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -745,7 +745,7 @@
         :layout "normal",
         :name "Myojin of Towering Might",
         :oracle-text
-        "Myojin of Towering Might enters the battlefield with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Towering Might: Distribute eight +1/+1 counters among any number of target creatures you control. They gain trample until end of turn."}
+        "Myojin of Towering Might enters with an indestructible counter on it if you cast it from your hand.\nRemove an indestructible counter from Myojin of Towering Might: Distribute eight +1/+1 counters among any number of target creatures you control. They gain trample until end of turn."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "nec",
@@ -767,7 +767,7 @@
         :layout "normal",
         :name "Rampant Rejuvenator",
         :oracle-text
-        "Rampant Rejuvenator enters the battlefield with two +1/+1 counters on it.\nWhen Rampant Rejuvenator dies, search your library for up to X basic land cards, where X is Rampant Rejuvenator's power, put them onto the battlefield, then shuffle."}
+        "This creature enters with two +1/+1 counters on it.\nWhen this creature dies, search your library for up to X basic land cards, where X is this creature's power, put them onto the battlefield, then shuffle."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -789,7 +789,7 @@
         :layout "normal",
         :name "Tanuki Transplanter",
         :oracle-text
-        "Whenever Tanuki Transplanter or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose this mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Whenever this creature or equipped creature attacks, add an amount of {G} equal to its power. Until end of turn, you don't lose this mana as steps and phases end.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Legendary Creature — Snake Samurai",
         :layout-category :normal,
         :code "nec",
@@ -800,7 +800,7 @@
         :layout "normal",
         :name "Chishiro, the Shattered Blade",
         :oracle-text
-        "Whenever an Aura or Equipment enters the battlefield under your control, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
+        "Whenever an Aura or Equipment you control enters, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "nec",
@@ -811,7 +811,7 @@
         :layout "normal",
         :name "Kaima, the Fractured Calm",
         :oracle-text
-        "At the beginning of your end step, goad each creature your opponents control that's enchanted by an Aura you control. Put a +1/+1 counter on Kaima, the Fractured Calm for each creature goaded this way. (Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.)"}
+        "At the beginning of your end step, goad each creature your opponents control that's enchanted by an Aura you control. Put a +1/+1 counter on Kaima for each creature goaded this way. (Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.)"}
  #:card{:type-line "Legendary Creature — Moonfolk Pilot",
         :layout-category :normal,
         :code "nec",
@@ -833,24 +833,24 @@
         :layout "normal",
         :name "Shorikai, Genesis Engine",
         :oracle-text
-        "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander."}
+        "{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with \"This token crews Vehicles as though its power were 2 greater.\"\nCrew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)\nShorikai, Genesis Engine can be your commander."}
  #:card{:type-line "Legendary Creature — Snake Samurai",
         :layout-category :normal,
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/3/3305c70f-188a-4c01-b605-d583ded84e18.png?1656324375",
+        "https://cards.scryfall.io/png/front/3/3/3305c70f-188a-4c01-b605-d583ded84e18.png?1683835463",
         :collector-number "77",
         :layout "normal",
         :name "Chishiro, the Shattered Blade",
         :oracle-text
-        "Whenever an Aura or Equipment enters the battlefield under your control, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
+        "Whenever an Aura or Equipment you control enters, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Legendary Creature — Moonfolk Pilot",
         :layout-category :normal,
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/5/45207a47-8fd0-4a15-9e76-9d7cd3983a2f.png?1656324378",
+        "https://cards.scryfall.io/png/front/4/5/45207a47-8fd0-4a15-9e76-9d7cd3983a2f.png?1683835458",
         :collector-number "78",
         :layout "normal",
         :name "Kotori, Pilot Prodigy",
@@ -887,7 +887,7 @@
         :layout "normal",
         :name "Cataclysmic Gearhulk",
         :oracle-text
-        "Vigilance\nWhen Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest."}
+        "Vigilance\nWhen this creature enters, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -997,7 +997,7 @@
         :layout "normal",
         :name "Emry, Lurker of the Loch",
         :oracle-text
-        "This spell costs {1} less to cast for each artifact you control.\nWhen Emry, Lurker of the Loch enters the battlefield, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
+        "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"}
  #:card{:type-line "Artifact Creature — Vedalken Artificer",
         :layout-category :normal,
         :code "nec",
@@ -1106,7 +1106,7 @@
         :layout "normal",
         :name "Whirler Rogue",
         :oracle-text
-        "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
+        "When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "nec",
@@ -1161,7 +1161,7 @@
         :layout "normal",
         :name "Goblin Razerunners",
         :oracle-text
-        "{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.\nAt the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker."}
+        "{1}{R}, Sacrifice a land: Put a +1/+1 counter on this creature.\nAt the beginning of your end step, you may have this creature deal damage equal to the number of +1/+1 counters on it to target player or planeswalker."}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "nec",
@@ -1172,7 +1172,7 @@
         :layout "normal",
         :name "Krenko, Tin Street Kingpin",
         :oracle-text
-        "Whenever Krenko, Tin Street Kingpin attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power."}
+        "Whenever Krenko attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power."}
  #:card{:type-line "Creature — Ox",
         :layout-category :normal,
         :code "nec",
@@ -1183,7 +1183,7 @@
         :layout "normal",
         :name "Ox of Agonas",
         :oracle-text
-        "When Ox of Agonas enters the battlefield, discard your hand, then draw three cards.\nEscape—{R}{R}, Exile eight other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nOx of Agonas escapes with a +1/+1 counter on it."}
+        "When this creature enters, discard your hand, then draw three cards.\nEscape—{R}{R}, Exile eight other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with a +1/+1 counter on it."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "nec",
@@ -1216,7 +1216,7 @@
         :layout "normal",
         :name "Taurean Mauler",
         :oracle-text
-        "Changeling (This card is every creature type.)\nWhenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler."}
+        "Changeling (This card is every creature type.)\nWhenever an opponent casts a spell, you may put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Ooze",
         :layout-category :normal,
         :code "nec",
@@ -1227,7 +1227,7 @@
         :layout "normal",
         :name "Acidic Slime",
         :oracle-text
-        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land."}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, destroy target artifact, enchantment, or land."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "nec",
@@ -1238,7 +1238,7 @@
         :layout "normal",
         :name "Bear Umbra",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +2/+2 and has \"Whenever this creature attacks, untap all lands you control.\"\nTotem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)"}
+        "Enchant creature\nEnchanted creature gets +2/+2 and has \"Whenever this creature attacks, untap all lands you control.\"\nUmbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -1260,7 +1260,7 @@
         :layout "normal",
         :name "Champion of Lambholt",
         :oracle-text
-        "Creatures with power less than Champion of Lambholt's power can't block creatures you control.\nWhenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt."}
+        "Creatures with power less than this creature's power can't block creatures you control.\nWhenever another creature you control enters, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "nec",
@@ -1271,7 +1271,7 @@
         :layout "normal",
         :name "Fertilid",
         :oracle-text
-        "Fertilid enters the battlefield with two +1/+1 counters on it.\n{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles."}
+        "This creature enters with two +1/+1 counters on it.\n{1}{G}, Remove a +1/+1 counter from this creature: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "nec",
@@ -1282,7 +1282,7 @@
         :layout "normal",
         :name "Forgotten Ancient",
         :oracle-text
-        "Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.\nAt the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures."}
+        "Whenever a player casts a spell, you may put a +1/+1 counter on this creature.\nAt the beginning of your upkeep, you may move any number of +1/+1 counters from this creature onto other creatures."}
  #:card{:type-line "Creature — Plant Hydra",
         :layout-category :normal,
         :code "nec",
@@ -1293,7 +1293,7 @@
         :layout "normal",
         :name "Genesis Hydra",
         :oracle-text
-        "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield. Then shuffle the rest into your library.\nGenesis Hydra enters the battlefield with X +1/+1 counters on it."}
+        "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield. Then shuffle the rest into your library.\nThis creature enters with X +1/+1 counters on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "nec",
@@ -1337,7 +1337,7 @@
         :layout "normal",
         :name "Ordeal of Nylea",
         :oracle-text
-        "Enchant creature\nWhenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Nylea.\nWhen you sacrifice Ordeal of Nylea, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
+        "Enchant creature\nWhenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice this Aura.\nWhen you sacrifice this Aura, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "nec",
@@ -1348,7 +1348,7 @@
         :layout "normal",
         :name "Primeval Protector",
         :oracle-text
-        "This spell costs {1} less to cast for each creature your opponents control.\nWhen Primeval Protector enters the battlefield, put a +1/+1 counter on each other creature you control."}
+        "This spell costs {1} less to cast for each creature your opponents control.\nWhen this creature enters, put a +1/+1 counter on each other creature you control."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -1370,7 +1370,7 @@
         :layout "normal",
         :name "Rishkar, Peema Renegade",
         :oracle-text
-        "When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a counter on it has \"{T}: Add {G}.\""}
+        "When Rishkar enters, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a counter on it has \"{T}: Add {G}.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -1392,7 +1392,7 @@
         :layout "normal",
         :name "Sakura-Tribe Elder",
         :oracle-text
-        "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+        "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -1414,7 +1414,7 @@
         :layout "normal",
         :name "Snake Umbra",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +1/+1 and has \"Whenever this creature deals damage to an opponent, you may draw a card.\"\nTotem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)"}
+        "Enchant creature\nEnchanted creature gets +1/+1 and has \"Whenever this creature deals damage to an opponent, you may draw a card.\"\nUmbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -1458,7 +1458,7 @@
         :layout "normal",
         :name "Whiptongue Hydra",
         :oracle-text
-        "Reach\nWhen Whiptongue Hydra enters the battlefield, destroy all creatures with flying. Put a +1/+1 counter on Whiptongue Hydra for each creature destroyed this way."}
+        "Reach\nWhen this creature enters, destroy all creatures with flying. Put a +1/+1 counter on this creature for each creature destroyed this way."}
  #:card{:type-line "Artifact Creature — Bird",
         :layout-category :normal,
         :code "nec",
@@ -1469,7 +1469,7 @@
         :layout "normal",
         :name "Arcanist's Owl",
         :oracle-text
-        "Flying\nWhen Arcanist's Owl enters the battlefield, look at the top four cards of your library. You may reveal an artifact or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "Flying\nWhen this creature enters, look at the top four cards of your library. You may reveal an artifact or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "nec",
@@ -1491,7 +1491,7 @@
         :layout "normal",
         :name "Decimate",
         :oracle-text
-        "Destroy target artifact, target creature, target enchantment, and target land."}
+        "Destroy target artifact, target creature, target enchantment, and target land. (You can't cast this spell unless you have legal choices for all its targets.)"}
  #:card{:type-line "Legendary Creature — Goblin Shaman",
         :layout-category :normal,
         :code "nec",
@@ -1502,7 +1502,7 @@
         :layout "normal",
         :name "Grumgully, the Generous",
         :oracle-text
-        "Each other non-Human creature you control enters the battlefield with an additional +1/+1 counter on it."}
+        "Each other non-Human creature you control enters with an additional +1/+1 counter on it."}
  #:card{:type-line "Legendary Creature — Human Artificer",
         :layout-category :normal,
         :code "nec",
@@ -1546,7 +1546,7 @@
         :layout "normal",
         :name "Rhythm of the Wild",
         :oracle-text
-        "Creature spells you control can't be countered.\nNontoken creatures you control have riot. (They enter the battlefield with your choice of a +1/+1 counter or haste.)"}
+        "Creature spells you control can't be countered.\nNontoken creatures you control have riot. (They enter with your choice of a +1/+1 counter or haste.)"}
  #:card{:type-line "Legendary Creature — Hellion Hydra",
         :layout-category :normal,
         :code "nec",
@@ -1557,7 +1557,7 @@
         :layout "normal",
         :name "Ulasht, the Hate Seed",
         :oracle-text
-        "Ulasht, the Hate Seed enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.\n{1}, Remove a +1/+1 counter from Ulasht: Choose one —\n• Ulasht deals 1 damage to target creature.\n• Create a 1/1 green Saproling creature token."}
+        "Ulasht enters with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.\n{1}, Remove a +1/+1 counter from Ulasht: Choose one —\n• Ulasht deals 1 damage to target creature.\n• Create a 1/1 green Saproling creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "nec",
@@ -1600,7 +1600,7 @@
         :layout "normal",
         :name "Bonehoard",
         :oracle-text
-        "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +X/+X, where X is the number of creature cards in all graveyards.\nEquip {2}"}
+        "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +X/+X, where X is the number of creature cards in all graveyards.\nEquip {2}"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -1611,7 +1611,7 @@
         :layout "normal",
         :name "Colossal Plow",
         :oracle-text
-        "Whenever Colossal Plow attacks, add {W}{W}{W} and you gain 3 life. Until end of turn, you don't lose this mana as steps and phases end.\nCrew 6 (Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Whenever this Vehicle attacks, add {W}{W}{W} and you gain 3 life. Until end of turn, you don't lose this mana as steps and phases end.\nCrew 6 (Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -1675,7 +1675,7 @@
         :layout "normal",
         :name "Mirage Mirror",
         :oracle-text
-        "{2}: Mirage Mirror becomes a copy of target artifact, creature, enchantment, or land until end of turn."}
+        "{2}: This artifact becomes a copy of target artifact, creature, enchantment, or land until end of turn."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
@@ -1697,7 +1697,7 @@
         :layout "normal",
         :name "Raiders' Karve",
         :oracle-text
-        "Whenever Raiders' Karve attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Whenever this Vehicle attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact Creature — Myr",
         :layout-category :normal,
         :code "nec",
@@ -1729,18 +1729,18 @@
         :layout "normal",
         :name "Skysovereign, Consul Flagship",
         :oracle-text
-        "Flying\nWhenever Skysovereign, Consul Flagship enters the battlefield or attacks, it deals 3 damage to target creature or planeswalker an opponent controls.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Flying\nWhenever Skysovereign enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "nec",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/6/2680ed41-da35-475a-9d80-ae2f4686feed.png?1651656383",
+        "https://cards.scryfall.io/png/front/2/6/2680ed41-da35-475a-9d80-ae2f4686feed.png?1707764737",
         :collector-number "160",
         :layout "normal",
         :name "Smuggler's Copter",
         :oracle-text
-        "Flying\nWhenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Flying\nWhenever this Vehicle attacks or blocks, you may draw a card. If you do, discard a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "nec",
@@ -1761,7 +1761,7 @@
         :layout "normal",
         :name "Solemn Simulacrum",
         :oracle-text
-        "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen Solemn Simulacrum dies, you may draw a card."}
+        "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "nec",
@@ -1772,7 +1772,7 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "nec",
@@ -1805,7 +1805,7 @@
         :layout "normal",
         :name "Cinder Glade",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nCinder Glade enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1838,7 +1838,7 @@
         :layout "normal",
         :name "Game Trail",
         :oracle-text
-        "As Game Trail enters the battlefield, you may reveal a Mountain or Forest card from your hand. If you don't, Game Trail enters the battlefield tapped.\n{T}: Add {R} or {G}."}
+        "As this land enters, you may reveal a Mountain or Forest card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1849,7 +1849,7 @@
         :layout "normal",
         :name "Gruul Turf",
         :oracle-text
-        "Gruul Turf enters the battlefield tapped.\nWhen Gruul Turf enters the battlefield, return a land you control to its owner's hand.\n{T}: Add {R}{G}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {R}{G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1870,7 +1870,7 @@
         :layout "normal",
         :name "Opal Palace",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}: Add one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game."}
+        "{T}: Add {C}.\n{1}, {T}: Add one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1881,7 +1881,7 @@
         :layout "normal",
         :name "Oran-Rief, the Vastwood",
         :oracle-text
-        "Oran-Rief, the Vastwood enters the battlefield tapped.\n{T}: Add {G}.\n{T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn."}
+        "This land enters tapped.\n{T}: Add {G}.\n{T}: Put a +1/+1 counter on each green creature that entered this turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1892,7 +1892,7 @@
         :layout "normal",
         :name "Port Town",
         :oracle-text
-        "As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.\n{T}: Add {W} or {U}."}
+        "As this land enters, you may reveal a Plains or Island card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "nec",
@@ -1903,7 +1903,7 @@
         :layout "normal",
         :name "Prairie Stream",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nPrairie Stream enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1914,7 +1914,7 @@
         :layout "normal",
         :name "Raging Ravine",
         :oracle-text
-        "Raging Ravine enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with \"Whenever this creature attacks, put a +1/+1 counter on it.\" It's still a land."}
+        "This land enters tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Until end of turn, this land becomes a 3/3 red and green Elemental creature with \"Whenever this creature attacks, put a +1/+1 counter on it.\" It's still a land."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1946,7 +1946,7 @@
         :layout "normal",
         :name "Temple of Abandon",
         :oracle-text
-        "Temple of Abandon enters the battlefield tapped.\nWhen Temple of Abandon enters the battlefield, scry 1.\n{T}: Add {R} or {G}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "nec",
@@ -1957,4 +1957,4 @@
         :layout "normal",
         :name "Temple of Enlightenment",
         :oracle-text
-        "Temple of Enlightenment enters the battlefield tapped.\nWhen Temple of Enlightenment enters the battlefield, scry 1.\n{T}: Add {W} or {U}."})
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}."})

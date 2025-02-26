@@ -19,7 +19,7 @@
         :layout "token",
         :name "Food",
         :oracle-text
-        "{2}, {T}, Sacrifice this artifact: You gain 3 life."}
+        "{2}, {T}, Sacrifice this token: You gain 3 life."}
  #:card{:type-line "Legendary Creature — Rabbit Wizard",
         :layout-category :normal,
         :code "pl23",
@@ -41,13 +41,13 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "pl23",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/4/d4cc231e-7b86-4b64-a1d6-75aea64b85a0.png?1675536322",
+        "https://cards.scryfall.io/png/front/d/4/d4cc231e-7b86-4b64-a1d6-75aea64b85a0.png?1733526347",
         :collector-number "5",
         :layout "normal",
         :name "Ethereal Armor",
@@ -56,11 +56,11 @@
  #:card{:type-line "Artifact Creature — Beast",
         :layout-category :normal,
         :code "pl23",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/3/73e50280-5202-43a8-9b80-14feaf0ea9fe.png?1681203633",
+        "https://cards.scryfall.io/png/front/7/3/73e50280-5202-43a8-9b80-14feaf0ea9fe.png?1733526063",
         :collector-number "6",
         :layout "normal",
         :name "Arcbound Ravager",
         :oracle-text
-        "Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.\nModular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"})
+        "Sacrifice an artifact: Put a +1/+1 counter on this creature.\nModular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"})

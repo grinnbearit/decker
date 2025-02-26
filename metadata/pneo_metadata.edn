@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Ao, the Dawn Sky",
         :oracle-text
-        "Flying, vigilance\nWhen Ao, the Dawn Sky dies, choose one —\n• Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\n• Put two +1/+1 counters on each permanent you control that's a creature or Vehicle."}
+        "Flying, vigilance\nWhen Ao dies, choose one —\n• Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\n• Put two +1/+1 counters on each permanent you control that's a creature or Vehicle."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Ao, the Dawn Sky",
         :oracle-text
-        "Flying, vigilance\nWhen Ao, the Dawn Sky dies, choose one —\n• Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\n• Put two +1/+1 counters on each permanent you control that's a creature or Vehicle."}
+        "Flying, vigilance\nWhen Ao dies, choose one —\n• Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\n• Put two +1/+1 counters on each permanent you control that's a creature or Vehicle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Kyodai, Soul of Kamigawa",
         :oracle-text
-        "Flash\nFlying\nWhen Kyodai, Soul of Kamigawa enters the battlefield, another target permanent gains indestructible for as long as you control Kyodai.\n{W}{U}{B}{R}{G}: Kyodai gets +5/+5 until end of turn."}
+        "Flash\nFlying\nWhen Kyodai enters, another target permanent gains indestructible for as long as you control Kyodai.\n{W}{U}{B}{R}{G}: Kyodai gets +5/+5 until end of turn."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Kyodai, Soul of Kamigawa",
         :oracle-text
-        "Flash\nFlying\nWhen Kyodai, Soul of Kamigawa enters the battlefield, another target permanent gains indestructible for as long as you control Kyodai.\n{W}{U}{B}{R}{G}: Kyodai gets +5/+5 until end of turn."}
+        "Flash\nFlying\nWhen Kyodai enters, another target permanent gains indestructible for as long as you control Kyodai.\n{W}{U}{B}{R}{G}: Kyodai gets +5/+5 until end of turn."}
  #:card{:type-line "Legendary Creature — Fox Advisor",
         :layout-category :normal,
         :code "pneo",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Light-Paws, Emperor's Voice",
         :oracle-text
-        "Whenever an Aura enters the battlefield under your control, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, Emperor's Voice, then shuffle."}
+        "Whenever an Aura you control enters, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, then shuffle."}
  #:card{:type-line "Legendary Creature — Fox Advisor",
         :layout-category :normal,
         :code "pneo",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Light-Paws, Emperor's Voice",
         :oracle-text
-        "Whenever an Aura enters the battlefield under your control, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, Emperor's Voice, then shuffle."}
+        "Whenever an Aura you control enters, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, then shuffle."}
  #:card{:type-line "Artifact Creature — Equipment Cat",
         :layout-category :normal,
         :code "pneo",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Lion Sash",
         :oracle-text
-        "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on Lion Sash.\nEquipped creature gets +1/+1 for each +1/+1 counter on Lion Sash.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on this permanent.\nEquipped creature gets +1/+1 for each +1/+1 counter on this Equipment.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Artifact Creature — Equipment Cat",
         :layout-category :normal,
         :code "pneo",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Lion Sash",
         :oracle-text
-        "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on Lion Sash.\nEquipped creature gets +1/+1 for each +1/+1 counter on Lion Sash.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on this permanent.\nEquipped creature gets +1/+1 for each +1/+1 counter on this Equipment.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pneo",
@@ -204,15 +204,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/2/d/2daea13f-ae10-4355-870f-ac5c823f39ae.png?1675617949",
+          "https://cards.scryfall.io/png/front/2/d/2daea13f-ae10-4355-870f-ac5c823f39ae.png?1681511224",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\nII — You may discard a card. When you do, return target permanent card with mana value 2 or less from your graveyard to the battlefield tapped.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/2/d/2daea13f-ae10-4355-870f-ac5c823f39ae.png?1675617949",
+          "https://cards.scryfall.io/png/back/2/d/2daea13f-ae10-4355-870f-ac5c823f39ae.png?1681511224",
           :type-line "Enchantment Creature — Fox Monk",
           :oracle-text
-          "Vigilance\nWhenever Architect of Restoration attacks or blocks, create a 1/1 colorless Spirit creature token."}]}
+          "Vigilance\nWhenever this creature attacks or blocks, create a 1/1 colorless Spirit creature token."}]}
  #:card{:type-line "Legendary Planeswalker",
         :layout-category :normal,
         :code "pneo",
@@ -223,7 +223,7 @@
         :layout "normal",
         :name "The Wandering Emperor",
         :oracle-text
-        "Flash\nAs long as The Wandering Emperor entered the battlefield this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life."}
+        "Flash\nAs long as The Wandering Emperor entered this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life."}
  #:card{:type-line "Legendary Planeswalker",
         :layout-category :normal,
         :code "pneo",
@@ -234,7 +234,7 @@
         :layout "normal",
         :name "The Wandering Emperor",
         :oracle-text
-        "Flash\nAs long as The Wandering Emperor entered the battlefield this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life."}
+        "Flash\nAs long as The Wandering Emperor entered this turn, you may activate her loyalty abilities any time you could cast an instant.\n+1: Put a +1/+1 counter on up to one target creature. It gains first strike until end of turn.\n−1: Create a 2/2 white Samurai creature token with vigilance.\n−2: Exile target tapped creature. You gain 2 life."}
  #:card{:code "pneo",
         :collector-number "57s",
         :name "Inventive Iteration // Living Breakthrough",
@@ -243,12 +243,12 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/8/5/8579318e-944b-4b43-9f1a-87cbc3898915.png?1675617922",
+          "https://cards.scryfall.io/png/front/8/5/8579318e-944b-4b43-9f1a-87cbc3898915.png?1681511265",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Return up to one target creature or planeswalker to its owner's hand.\nII — Return an artifact card from your graveyard to your hand. If you can't, draw a card.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/8/5/8579318e-944b-4b43-9f1a-87cbc3898915.png?1675617922",
+          "https://cards.scryfall.io/png/back/8/5/8579318e-944b-4b43-9f1a-87cbc3898915.png?1681511265",
           :type-line "Enchantment Creature — Moonfolk",
           :oracle-text
           "Flying\nWhenever you cast a spell, your opponents can't cast spells with the same mana value as that spell until your next turn."}]}
@@ -306,7 +306,7 @@
         :layout "normal",
         :name "Kairi, the Swirling Sky",
         :oracle-text
-        "Flying, ward {3}\nWhen Kairi, the Swirling Sky dies, choose one —\n• Return any number of target nonland permanents with total mana value 6 or less to their owners' hands.\n• Mill six cards, then return up to two instant and/or sorcery cards from your graveyard to your hand."}
+        "Flying, ward {3}\nWhen Kairi dies, choose one —\n• Return any number of target nonland permanents with total mana value 6 or less to their owners' hands.\n• Mill six cards, then return up to two instant and/or sorcery cards from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -317,7 +317,7 @@
         :layout "normal",
         :name "Kairi, the Swirling Sky",
         :oracle-text
-        "Flying, ward {3}\nWhen Kairi, the Swirling Sky dies, choose one —\n• Return any number of target nonland permanents with total mana value 6 or less to their owners' hands.\n• Mill six cards, then return up to two instant and/or sorcery cards from your graveyard to your hand."}
+        "Flying, ward {3}\nWhen Kairi dies, choose one —\n• Return any number of target nonland permanents with total mana value 6 or less to their owners' hands.\n• Mill six cards, then return up to two instant and/or sorcery cards from your graveyard to your hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pneo",
@@ -350,7 +350,7 @@
         :layout "normal",
         :name "Mindlink Mech",
         :oracle-text
-        "Flying\nWhenever Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1"}
+        "Flying\nWhenever this Vehicle becomes crewed for the first time each turn, until end of turn, this Vehicle becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -361,7 +361,7 @@
         :layout "normal",
         :name "Mindlink Mech",
         :oracle-text
-        "Flying\nWhenever Mindlink Mech becomes crewed for the first time each turn, until end of turn, Mindlink Mech becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1"}
+        "Flying\nWhenever this Vehicle becomes crewed for the first time each turn, until end of turn, this Vehicle becomes a copy of target nonlegendary creature that crewed it this turn, except it's 4/3, it's a Vehicle artifact in addition to its other types, and it has flying.\nCrew 1"}
  #:card{:type-line "Legendary Artifact Creature — Equipment Jellyfish",
         :layout-category :normal,
         :code "pneo",
@@ -438,7 +438,7 @@
         :layout "normal",
         :name "Thousand-Faced Shadow",
         :oracle-text
-        "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nFlying\nWhen Thousand-Faced Shadow enters the battlefield from your hand, if it's attacking, create a token that's a copy of another target attacking creature. The token enters the battlefield tapped and attacking."}
+        "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nFlying\nWhen this creature enters from your hand, if it's attacking, create a token that's a copy of another target attacking creature. The token enters tapped and attacking."}
  #:card{:type-line "Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -449,7 +449,7 @@
         :layout "normal",
         :name "Thousand-Faced Shadow",
         :oracle-text
-        "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nFlying\nWhen Thousand-Faced Shadow enters the battlefield from your hand, if it's attacking, create a token that's a copy of another target attacking creature. The token enters the battlefield tapped and attacking."}
+        "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nFlying\nWhen this creature enters from your hand, if it's attacking, create a token that's a copy of another target attacking creature. The token enters tapped and attacking."}
  #:card{:type-line "Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -460,7 +460,7 @@
         :layout "normal",
         :name "Biting-Palm Ninja",
         :oracle-text
-        "Ninjutsu {2}{B}\nBiting-Palm Ninja enters the battlefield with a menace counter on it.\nWhenever Biting-Palm Ninja deals combat damage to a player, you may remove a menace counter from it. When you do, that player reveals their hand and you choose a nonland card from it. Exile that card."}
+        "Ninjutsu {2}{B}\nThis creature enters with a menace counter on it.\nWhenever this creature deals combat damage to a player, you may remove a menace counter from it. When you do, that player reveals their hand and you choose a nonland card from it. Exile that card."}
  #:card{:type-line "Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -471,7 +471,7 @@
         :layout "normal",
         :name "Biting-Palm Ninja",
         :oracle-text
-        "Ninjutsu {2}{B}\nBiting-Palm Ninja enters the battlefield with a menace counter on it.\nWhenever Biting-Palm Ninja deals combat damage to a player, you may remove a menace counter from it. When you do, that player reveals their hand and you choose a nonland card from it. Exile that card."}
+        "Ninjutsu {2}{B}\nThis creature enters with a menace counter on it.\nWhenever this creature deals combat damage to a player, you may remove a menace counter from it. When you do, that player reveals their hand and you choose a nonland card from it. Exile that card."}
  #:card{:type-line "Artifact Creature — Equipment Demon",
         :layout-category :normal,
         :code "pneo",
@@ -504,7 +504,7 @@
         :layout "normal",
         :name "Hidetsugu, Devouring Chaos",
         :oracle-text
-        "{B}, Sacrifice a creature: Scry 2.\n{2}{R}, {T}: Exile the top card of your library. You may play that card this turn. When you exile a nonland card this way, Hidetsugu, Devouring Chaos deals damage equal to the exiled card's mana value to any target."}
+        "{B}, Sacrifice a creature: Scry 2.\n{2}{R}, {T}: Exile the top card of your library. You may play that card this turn. When you exile a nonland card this way, Hidetsugu deals damage equal to the exiled card's mana value to any target."}
  #:card{:type-line "Legendary Creature — Ogre Demon",
         :layout-category :normal,
         :code "pneo",
@@ -515,7 +515,7 @@
         :layout "normal",
         :name "Hidetsugu, Devouring Chaos",
         :oracle-text
-        "{B}, Sacrifice a creature: Scry 2.\n{2}{R}, {T}: Exile the top card of your library. You may play that card this turn. When you exile a nonland card this way, Hidetsugu, Devouring Chaos deals damage equal to the exiled card's mana value to any target."}
+        "{B}, Sacrifice a creature: Scry 2.\n{2}{R}, {T}: Exile the top card of your library. You may play that card this turn. When you exile a nonland card this way, Hidetsugu deals damage equal to the exiled card's mana value to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -526,7 +526,7 @@
         :layout "normal",
         :name "Invoke Despair",
         :oracle-text
-        "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker."}
+        "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -537,7 +537,7 @@
         :layout "normal",
         :name "Invoke Despair",
         :oracle-text
-        "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker."}
+        "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -548,7 +548,7 @@
         :layout "normal",
         :name "Junji, the Midnight Sky",
         :oracle-text
-        "Flying, menace\nWhen Junji, the Midnight Sky dies, choose one —\n• Each opponent discards two cards and loses 2 life.\n• Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life."}
+        "Flying, menace\nWhen Junji dies, choose one —\n• Each opponent discards two cards and loses 2 life.\n• Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -559,7 +559,7 @@
         :layout "normal",
         :name "Junji, the Midnight Sky",
         :oracle-text
-        "Flying, menace\nWhen Junji, the Midnight Sky dies, choose one —\n• Each opponent discards two cards and loses 2 life.\n• Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life."}
+        "Flying, menace\nWhen Junji dies, choose one —\n• Each opponent discards two cards and loses 2 life.\n• Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pneo",
@@ -592,7 +592,7 @@
         :layout "normal",
         :name "Mukotai Soulripper",
         :oracle-text
-        "Whenever Mukotai Soulripper attacks, you may sacrifice another artifact or creature. If you do, put a +1/+1 counter on Mukotai Soulripper and it gains menace until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Whenever this Vehicle attacks, you may sacrifice another artifact or creature. If you do, put a +1/+1 counter on this Vehicle and it gains menace until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -603,7 +603,7 @@
         :layout "normal",
         :name "Mukotai Soulripper",
         :oracle-text
-        "Whenever Mukotai Soulripper attacks, you may sacrifice another artifact or creature. If you do, put a +1/+1 counter on Mukotai Soulripper and it gains menace until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Whenever this Vehicle attacks, you may sacrifice another artifact or creature. If you do, put a +1/+1 counter on this Vehicle and it gains menace until end of turn.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Legendary Creature — Rat Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -614,7 +614,7 @@
         :layout "normal",
         :name "Nashi, Moon Sage's Scion",
         :oracle-text
-        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi, Moon Sage's Scion deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
+        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
  #:card{:type-line "Legendary Creature — Rat Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -625,7 +625,7 @@
         :layout "normal",
         :name "Nashi, Moon Sage's Scion",
         :oracle-text
-        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi, Moon Sage's Scion deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
+        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -636,7 +636,7 @@
         :layout "normal",
         :name "Soul Transfer",
         :oracle-text
-        "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n• Exile target creature or planeswalker.\n• Return target creature or planeswalker card from your graveyard to your hand."}
+        "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both instead.\n• Exile target creature or planeswalker.\n• Return target creature or planeswalker card from your graveyard to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -647,7 +647,7 @@
         :layout "normal",
         :name "Soul Transfer",
         :oracle-text
-        "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both.\n• Exile target creature or planeswalker.\n• Return target creature or planeswalker card from your graveyard to your hand."}
+        "Choose one. If you control an artifact and an enchantment as you cast this spell, you may choose both instead.\n• Exile target creature or planeswalker.\n• Return target creature or planeswalker card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -658,7 +658,7 @@
         :layout "normal",
         :name "Tatsunari, Toad Rider",
         :oracle-text
-        "Whenever you cast an enchantment spell, if you don't control a creature named Keimi, create Keimi, a legendary 3/3 black and green Frog creature token with \"Whenever you cast an enchantment spell, each opponent loses 1 life and you gain 1 life.\"\n{1}{G/U}: Tatsunari, Toad Rider and target Frog you control can't be blocked this turn except by creatures with flying or reach."}
+        "Whenever you cast an enchantment spell, if you don't control a creature named Keimi, create Keimi, a legendary 3/3 black and green Frog creature token with \"Whenever you cast an enchantment spell, each opponent loses 1 life and you gain 1 life.\"\n{1}{G/U}: Tatsunari and target Frog you control can't be blocked this turn except by creatures with flying or reach."}
  #:card{:type-line "Legendary Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -669,7 +669,7 @@
         :layout "normal",
         :name "Tatsunari, Toad Rider",
         :oracle-text
-        "Whenever you cast an enchantment spell, if you don't control a creature named Keimi, create Keimi, a legendary 3/3 black and green Frog creature token with \"Whenever you cast an enchantment spell, each opponent loses 1 life and you gain 1 life.\"\n{1}{G/U}: Tatsunari, Toad Rider and target Frog you control can't be blocked this turn except by creatures with flying or reach."}
+        "Whenever you cast an enchantment spell, if you don't control a creature named Keimi, create Keimi, a legendary 3/3 black and green Frog creature token with \"Whenever you cast an enchantment spell, each opponent loses 1 life and you gain 1 life.\"\n{1}{G/U}: Tatsunari and target Frog you control can't be blocked this turn except by creatures with flying or reach."}
  #:card{:code "pneo",
         :collector-number "124s",
         :name "Tribute to Horobi // Echo of Death's Wail",
@@ -678,15 +678,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/2/0/203bcd8c-25ff-4ba1-952f-3208bcf08f12.png?1675617658",
+          "https://cards.scryfall.io/png/front/2/0/203bcd8c-25ff-4ba1-952f-3208bcf08f12.png?1681511121",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — Each opponent creates a 1/1 black Rat Rogue creature token.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/2/0/203bcd8c-25ff-4ba1-952f-3208bcf08f12.png?1675617658",
+          "https://cards.scryfall.io/png/back/2/0/203bcd8c-25ff-4ba1-952f-3208bcf08f12.png?1681511121",
           :type-line "Enchantment Creature — Spirit",
           :oracle-text
-          "Flying, haste\nWhen Echo of Death's Wail enters the battlefield, gain control of all Rat tokens.\nWhenever Echo of Death's Wail attacks, you may sacrifice another creature. If you do, draw a card."}]}
+          "Flying, haste\nWhen this creature enters, gain control of all Rat tokens.\nWhenever this creature attacks, you may sacrifice another creature. If you do, draw a card."}]}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -697,7 +697,7 @@
         :layout "normal",
         :name "Atsushi, the Blazing Sky",
         :oracle-text
-        "Flying, trample\nWhen Atsushi, the Blazing Sky dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
+        "Flying, trample\nWhen Atsushi dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -708,7 +708,7 @@
         :layout "normal",
         :name "Atsushi, the Blazing Sky",
         :oracle-text
-        "Flying, trample\nWhen Atsushi, the Blazing Sky dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
+        "Flying, trample\nWhen Atsushi dies, choose one —\n• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.\n• Create three Treasure tokens."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -739,15 +739,26 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/e/c/eca77d44-2e1c-4b97-a4c4-e7ac3b576440.png?1675617588",
+          "https://cards.scryfall.io/png/front/e/c/eca77d44-2e1c-4b97-a4c4-e7ac3b576440.png?1681509195",
           :type-line "Enchantment — Saga",
           :oracle-text
-          "(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 2/2 red Goblin Shaman creature token with \"Whenever this creature attacks, create a Treasure token.\"\nII — You may discard up to two cards. If you do, draw that many cards.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
+          "(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 2/2 red Goblin Shaman creature token with \"Whenever this token attacks, create a Treasure token.\"\nII — You may discard up to two cards. If you do, draw that many cards.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/e/c/eca77d44-2e1c-4b97-a4c4-e7ac3b576440.png?1675617588",
+          "https://cards.scryfall.io/png/back/e/c/eca77d44-2e1c-4b97-a4c4-e7ac3b576440.png?1681509195",
           :type-line "Enchantment Creature — Goblin Shaman",
           :oracle-text
           "{1}, {T}: Create a token that's a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step."}]}
+ #:card{:type-line "Legendary Creature — Goblin Samurai",
+        :layout-category :normal,
+        :code "pneo",
+        :highres? false,
+        :png
+        "https://cards.scryfall.io/png/front/0/4/04d0176a-e462-4055-9a84-667fd7137b0c.png?1738794358",
+        :collector-number "145★",
+        :layout "normal",
+        :name "Goro-Goro, Disciple of Ryusei",
+        :oracle-text
+        "{R}: Creatures you control gain haste until end of turn.\n{3}{R}{R}: Create a 5/5 red Dragon Spirit creature token with flying. Activate only if you control an attacking modified creature. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Legendary Creature — Goblin Samurai",
         :layout-category :normal,
         :code "pneo",
@@ -846,7 +857,7 @@
         :layout "normal",
         :name "Ogre-Head Helm",
         :oracle-text
-        "Equipped creature gets +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Equipped creature gets +2/+2.\nWhenever this creature or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Artifact Creature — Equipment Ogre",
         :layout-category :normal,
         :code "pneo",
@@ -857,7 +868,7 @@
         :layout "normal",
         :name "Ogre-Head Helm",
         :oracle-text
-        "Equipped creature gets +2/+2.\nWhenever Ogre-Head Helm or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
+        "Equipped creature gets +2/+2.\nWhenever this creature or equipped creature deals combat damage to a player, you may sacrifice it. If you do, discard your hand, then draw three cards.\nReconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)"}
  #:card{:type-line "Creature — Goblin Artificer",
         :layout-category :normal,
         :code "pneo",
@@ -890,7 +901,7 @@
         :layout "normal",
         :name "Thundering Raiju",
         :oracle-text
-        "Haste\nWhenever Thundering Raiju attacks, put a +1/+1 counter on target creature you control. Then Thundering Raiju deals X damage to each opponent, where X is the number of modified creatures you control other than Thundering Raiju. (Equipment, Auras you control, and counters are modifications.)"}
+        "Haste\nWhenever this creature attacks, put a +1/+1 counter on target creature you control. Then this creature deals X damage to each opponent, where X is the number of modified creatures you control other than this creature. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -901,7 +912,7 @@
         :layout "normal",
         :name "Thundering Raiju",
         :oracle-text
-        "Haste\nWhenever Thundering Raiju attacks, put a +1/+1 counter on target creature you control. Then Thundering Raiju deals X damage to each opponent, where X is the number of modified creatures you control other than Thundering Raiju. (Equipment, Auras you control, and counters are modifications.)"}
+        "Haste\nWhenever this creature attacks, put a +1/+1 counter on target creature you control. Then this creature deals X damage to each opponent, where X is the number of modified creatures you control other than this creature. (Equipment, Auras you control, and counters are modifications.)"}
  #:card{:code "pneo",
         :collector-number "181s",
         :name "The Dragon-Kami Reborn // Dragon-Kami's Egg",
@@ -910,15 +921,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/b/4/b46dd373-748e-4834-9a1d-6ef514adac4c.png?1675617471",
+          "https://cards.scryfall.io/png/front/b/4/b46dd373-748e-4834-9a1d-6ef514adac4c.png?1681511204",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI, II — You gain 2 life. Look at the top three cards of your library. Exile one of them face down with a hatching counter on it, then put the rest on the bottom of your library in any order.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/b/4/b46dd373-748e-4834-9a1d-6ef514adac4c.png?1675617471",
+          "https://cards.scryfall.io/png/back/b/4/b46dd373-748e-4834-9a1d-6ef514adac4c.png?1681511204",
           :type-line "Enchantment Creature — Egg",
           :oracle-text
-          "Whenever Dragon-Kami's Egg or a Dragon you control dies, you may cast a creature spell from among cards you own in exile with hatching counters on them without paying its mana cost."}]}
+          "Whenever this creature or a Dragon you control dies, you may cast a creature spell from among cards you own in exile with hatching counters on them without paying its mana cost."}]}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pneo",
@@ -949,15 +960,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/d/0/d07659ac-f4d2-4198-af81-44bc9e677c0b.png?1675617437",
+          "https://cards.scryfall.io/png/front/d/0/d07659ac-f4d2-4198-af81-44bc9e677c0b.png?1681511186",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 1/1 green Human Monk creature token with \"{T}: Add {G}.\"\nII — Put a +1/+1 counter on each of up to two target creatures.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/d/0/d07659ac-f4d2-4198-af81-44bc9e677c0b.png?1675617437",
+          "https://cards.scryfall.io/png/back/d/0/d07659ac-f4d2-4198-af81-44bc9e677c0b.png?1681511186",
           :type-line "Enchantment Creature — Dragon Spirit",
           :oracle-text
-          "Flying\nWhenever another creature enters the battlefield under your control, you may pay {X}. When you do, put X +1/+1 counters on that creature.\nAs long as you control five or more modified creatures, Remnant of the Rising Star gets +5/+5 and has trample. (Equipment, Auras you control, and counters are modifications.)"}]}
+          "Flying\nWhenever another creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on that creature.\nAs long as you control five or more modified creatures, this creature gets +5/+5 and has trample. (Equipment, Auras you control, and counters are modifications.)"}]}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -968,7 +979,7 @@
         :layout "normal",
         :name "Kami of Transience",
         :oracle-text
-        "Trample\nWhenever you cast an enchantment spell, put a +1/+1 counter on Kami of Transience.\nAt the beginning of each end step, if an enchantment was put into your graveyard from the battlefield this turn, you may return Kami of Transience from your graveyard to your hand."}
+        "Trample\nWhenever you cast an enchantment spell, put a +1/+1 counter on this creature.\nAt the beginning of each end step, if an enchantment was put into your graveyard from the battlefield this turn, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -979,7 +990,7 @@
         :layout "normal",
         :name "Kami of Transience",
         :oracle-text
-        "Trample\nWhenever you cast an enchantment spell, put a +1/+1 counter on Kami of Transience.\nAt the beginning of each end step, if an enchantment was put into your graveyard from the battlefield this turn, you may return Kami of Transience from your graveyard to your hand."}
+        "Trample\nWhenever you cast an enchantment spell, put a +1/+1 counter on this creature.\nAt the beginning of each end step, if an enchantment was put into your graveyard from the battlefield this turn, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -1012,7 +1023,7 @@
         :layout "normal",
         :name "Kura, the Boundless Sky",
         :oracle-text
-        "Flying, deathtouch\nWhen Kura, the Boundless Sky dies, choose one —\n• Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n• Create an X/X green Spirit creature token, where X is the number of lands you control."}
+        "Flying, deathtouch\nWhen Kura dies, choose one —\n• Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n• Create an X/X green Spirit creature token, where X is the number of lands you control."}
  #:card{:type-line "Legendary Creature — Dragon Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -1023,7 +1034,7 @@
         :layout "normal",
         :name "Kura, the Boundless Sky",
         :oracle-text
-        "Flying, deathtouch\nWhen Kura, the Boundless Sky dies, choose one —\n• Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n• Create an X/X green Spirit creature token, where X is the number of lands you control."}
+        "Flying, deathtouch\nWhen Kura dies, choose one —\n• Search your library for up to three land cards, reveal them, put them into your hand, then shuffle.\n• Create an X/X green Spirit creature token, where X is the number of lands you control."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pneo",
@@ -1056,7 +1067,7 @@
         :layout "normal",
         :name "Shigeki, Jukai Visionary",
         :oracle-text
-        "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel — {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand."}
+        "{1}{G}, {T}, Return Shigeki to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel — {X}{X}{G}{G}, Discard this card: Return X target nonlegendary cards from your graveyard to your hand."}
  #:card{:type-line "Legendary Enchantment Creature — Snake Druid",
         :layout-category :normal,
         :code "pneo",
@@ -1067,7 +1078,7 @@
         :layout "normal",
         :name "Shigeki, Jukai Visionary",
         :oracle-text
-        "{1}{G}, {T}, Return Shigeki, Jukai Visionary to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel — {X}{X}{G}{G}, Discard Shigeki: Return X target nonlegendary cards from your graveyard to your hand."}
+        "{1}{G}, {T}, Return Shigeki to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard.\nChannel — {X}{X}{G}{G}, Discard this card: Return X target nonlegendary cards from your graveyard to your hand."}
  #:card{:type-line "Creature — Insect Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -1078,7 +1089,7 @@
         :layout "normal",
         :name "Spring-Leaf Avenger",
         :oracle-text
-        "Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Spring-Leaf Avenger deals combat damage to a player, return target permanent card from your graveyard to your hand."}
+        "Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand."}
  #:card{:type-line "Creature — Insect Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -1089,7 +1100,7 @@
         :layout "normal",
         :name "Spring-Leaf Avenger",
         :oracle-text
-        "Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Spring-Leaf Avenger deals combat damage to a player, return target permanent card from your graveyard to your hand."}
+        "Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand."}
  #:card{:code "pneo",
         :collector-number "212s",
         :name "Teachings of the Kirin // Kirin-Touched Orochi",
@@ -1098,15 +1109,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/a/7/a723de12-099d-4929-abbf-e2ec2123cc7f.png?1675617340",
+          "https://cards.scryfall.io/png/front/a/7/a723de12-099d-4929-abbf-e2ec2123cc7f.png?1681511083",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Mill three cards. Create a 1/1 colorless Spirit creature token.\nII — Put a +1/+1 counter on target creature you control.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/a/7/a723de12-099d-4929-abbf-e2ec2123cc7f.png?1675617340",
+          "https://cards.scryfall.io/png/back/a/7/a723de12-099d-4929-abbf-e2ec2123cc7f.png?1681511083",
           :type-line "Enchantment Creature — Snake Monk",
           :oracle-text
-          "Whenever Kirin-Touched Orochi attacks, choose one —\n• Exile target creature card from a graveyard. When you do, create a 1/1 colorless Spirit creature token.\n• Exile target noncreature card from a graveyard. When you do, put a +1/+1 counter on target creature you control."}]}
+          "Whenever this creature attacks, choose one —\n• Exile target creature card from a graveyard. When you do, create a 1/1 colorless Spirit creature token.\n• Exile target noncreature card from a graveyard. When you do, put a +1/+1 counter on target creature you control."}]}
  #:card{:type-line "Enchantment Creature — Snake Druid",
         :layout-category :normal,
         :code "pneo",
@@ -1181,15 +1192,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/1/a/1a0d277e-cf88-4492-9f8b-1434acbfebc8.png?1675617283",
+          "https://cards.scryfall.io/png/front/1/a/1a0d277e-cf88-4492-9f8b-1434acbfebc8.png?1681511148",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Destroy each nonland permanent with mana value 1 or less.\nII — Exile all graveyards.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/1/a/1a0d277e-cf88-4492-9f8b-1434acbfebc8.png?1675617283",
+          "https://cards.scryfall.io/png/back/1/a/1a0d277e-cf88-4492-9f8b-1434acbfebc8.png?1681511148",
           :type-line "Enchantment Creature — Ogre Shaman",
           :oracle-text
-          "Trample\nWhenever Vessel of the All-Consuming deals damage, put a +1/+1 counter on it.\nWhenever Vessel of the All-Consuming deals damage to a player, if it has dealt 10 or more damage to that player this turn, they lose the game."}]}
+          "Trample\nWhenever this creature deals damage, put a +1/+1 counter on it.\nWhenever this creature deals damage to a player, if it has dealt 10 or more damage to that player this turn, they lose the game."}]}
  #:card{:type-line "Legendary Creature — Kirin Spirit",
         :layout-category :normal,
         :code "pneo",
@@ -1244,7 +1255,7 @@
         :layout "normal",
         :name "Kaito Shizuki",
         :oracle-text
-        "At the beginning of your end step, if Kaito Shizuki entered the battlefield this turn, he phases out.\n+1: Draw a card. Then discard a card unless you attacked this turn.\n−2: Create a 1/1 blue Ninja creature token with \"This creature can't be blocked.\"\n−7: You get an emblem with \"Whenever a creature you control deals combat damage to a player, search your library for a blue or black creature card, put it onto the battlefield, then shuffle.\""}
+        "At the beginning of your end step, if Kaito entered this turn, he phases out.\n+1: Draw a card. Then discard a card unless you attacked this turn.\n−2: Create a 1/1 blue Ninja creature token with \"This token can't be blocked.\"\n−7: You get an emblem with \"Whenever a creature you control deals combat damage to a player, search your library for a blue or black creature card, put it onto the battlefield, then shuffle.\""}
  #:card{:type-line "Legendary Planeswalker — Kaito",
         :layout-category :normal,
         :code "pneo",
@@ -1255,7 +1266,7 @@
         :layout "normal",
         :name "Kaito Shizuki",
         :oracle-text
-        "At the beginning of your end step, if Kaito Shizuki entered the battlefield this turn, he phases out.\n+1: Draw a card. Then discard a card unless you attacked this turn.\n−2: Create a 1/1 blue Ninja creature token with \"This creature can't be blocked.\"\n−7: You get an emblem with \"Whenever a creature you control deals combat damage to a player, search your library for a blue or black creature card, put it onto the battlefield, then shuffle.\""}
+        "At the beginning of your end step, if Kaito entered this turn, he phases out.\n+1: Draw a card. Then discard a card unless you attacked this turn.\n−2: Create a 1/1 blue Ninja creature token with \"This token can't be blocked.\"\n−7: You get an emblem with \"Whenever a creature you control deals combat damage to a player, search your library for a blue or black creature card, put it onto the battlefield, then shuffle.\""}
  #:card{:code "pneo",
         :collector-number "227s",
         :name "The Kami War // O-Kagachi Made Manifest",
@@ -1264,15 +1275,15 @@
         :layout-category :transform,
         :faces
         [{:png
-          "https://cards.scryfall.io/png/front/1/b/1b041b21-fd9b-4a1a-9f08-0b1de3add014.png?1675617231",
+          "https://cards.scryfall.io/png/front/1/b/1b041b21-fd9b-4a1a-9f08-0b1de3add014.png?1681511244",
           :type-line "Enchantment — Saga",
           :oracle-text
           "(As this Saga enters and after your draw step, add a lore counter.)\nI — Exile target nonland permanent an opponent controls.\nII — Return up to one other target nonland permanent to its owner's hand. Then each opponent discards a card.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."}
          {:png
-          "https://cards.scryfall.io/png/back/1/b/1b041b21-fd9b-4a1a-9f08-0b1de3add014.png?1675617231",
+          "https://cards.scryfall.io/png/back/1/b/1b041b21-fd9b-4a1a-9f08-0b1de3add014.png?1681511244",
           :type-line "Enchantment Creature — Dragon Spirit",
           :oracle-text
-          "O-Kagachi Made Manifest is all colors.\nFlying, trample\nWhenever O-Kagachi Made Manifest attacks, defending player chooses a nonland card in your graveyard. Return that card to your hand. O-Kagachi Made Manifest gets +X/+0 until end of turn, where X is the mana value of that card."}]}
+          "O-Kagachi Made Manifest is all colors.\nFlying, trample\nWhenever this creature attacks, defending player chooses a nonland card in your graveyard. Return that card to your hand. This creature gets +X/+0 until end of turn, where X is the mana value of that card."}]}
  #:card{:type-line "Legendary Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -1283,7 +1294,7 @@
         :layout "normal",
         :name "Kotose, the Silent Spider",
         :oracle-text
-        "When Kotose, the Silent Spider enters the battlefield, exile target card other than a basic land card from an opponent's graveyard. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it."}
+        "When Kotose enters, exile target card other than a basic land card from an opponent's graveyard. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it."}
  #:card{:type-line "Legendary Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -1294,7 +1305,18 @@
         :layout "normal",
         :name "Kotose, the Silent Spider",
         :oracle-text
-        "When Kotose, the Silent Spider enters the battlefield, exile target card other than a basic land card from an opponent's graveyard. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it."}
+        "When Kotose enters, exile target card other than a basic land card from an opponent's graveyard. Search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles. For as long as you control Kotose, you may play one of the exiled cards, and you may spend mana as though it were mana of any color to cast it."}
+ #:card{:type-line "Legendary Creature — Human Samurai",
+        :layout-category :normal,
+        :code "pneo",
+        :highres? true,
+        :png
+        "https://cards.scryfall.io/png/front/5/b/5be9ba1b-bed8-4a8f-bbd1-50f3419a5a42.png?1738795476",
+        :collector-number "232★",
+        :layout "normal",
+        :name "Raiyuu, Storm's Edge",
+        :oracle-text
+        "First strike\nWhenever a Samurai or Warrior you control attacks alone, untap it. If it's the first combat phase of the turn, there is an additional combat phase after this phase."}
  #:card{:type-line "Legendary Creature — Human Samurai",
         :layout-category :normal,
         :code "pneo",
@@ -1327,7 +1349,7 @@
         :layout "normal",
         :name "Risona, Asari Commander",
         :oracle-text
-        "Haste\nWhenever Risona, Asari Commander deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.\nWhenever combat damage is dealt to you, remove an indestructible counter from Risona."}
+        "Haste\nWhenever Risona deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.\nWhenever combat damage is dealt to you, remove an indestructible counter from Risona."}
  #:card{:type-line "Legendary Creature — Human Samurai",
         :layout-category :normal,
         :code "pneo",
@@ -1338,7 +1360,7 @@
         :layout "normal",
         :name "Risona, Asari Commander",
         :oracle-text
-        "Haste\nWhenever Risona, Asari Commander deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.\nWhenever combat damage is dealt to you, remove an indestructible counter from Risona."}
+        "Haste\nWhenever Risona deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.\nWhenever combat damage is dealt to you, remove an indestructible counter from Risona."}
  #:card{:type-line "Legendary Creature — Human Ninja",
         :layout-category :normal,
         :code "pneo",
@@ -1371,7 +1393,7 @@
         :layout "normal",
         :name "Satsuki, the Living Lore",
         :oracle-text
-        "{T}: Put a lore counter on each Saga you control. Activate only as a sorcery.\nWhen Satsuki, the Living Lore dies, choose up to one —\n• Return target Saga or enchantment creature you control to its owner's hand.\n• Return target Saga card from your graveyard to your hand."}
+        "{T}: Put a lore counter on each Saga you control. Activate only as a sorcery.\nWhen Satsuki dies, choose up to one —\n• Return target Saga or enchantment creature you control to its owner's hand.\n• Return target Saga card from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Human Druid",
         :layout-category :normal,
         :code "pneo",
@@ -1382,7 +1404,7 @@
         :layout "normal",
         :name "Satsuki, the Living Lore",
         :oracle-text
-        "{T}: Put a lore counter on each Saga you control. Activate only as a sorcery.\nWhen Satsuki, the Living Lore dies, choose up to one —\n• Return target Saga or enchantment creature you control to its owner's hand.\n• Return target Saga card from your graveyard to your hand."}
+        "{T}: Put a lore counter on each Saga you control. Activate only as a sorcery.\nWhen Satsuki dies, choose up to one —\n• Return target Saga or enchantment creature you control to its owner's hand.\n• Return target Saga card from your graveyard to your hand."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pneo",
@@ -1459,7 +1481,7 @@
         :layout "normal",
         :name "Mechtitan Core",
         :oracle-text
-        "{5}, Exile Mechtitan Core and four other artifact creatures and/or Vehicles you control: Create Mechtitan, a legendary 10/10 Construct artifact creature token with flying, vigilance, trample, lifelink, and haste that's all colors. When that token leaves the battlefield, return all cards exiled with Mechtitan Core except Mechtitan Core to the battlefield tapped under their owners' control.\nCrew 2"}
+        "{5}, Exile this Vehicle and four other artifact creatures and/or Vehicles you control: Create Mechtitan, a legendary 10/10 Construct artifact creature token with flying, vigilance, trample, lifelink, and haste that's all colors. When that token leaves the battlefield, return all cards exiled with this Vehicle except this card to the battlefield tapped under their owners' control.\nCrew 2"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -1470,7 +1492,7 @@
         :layout "normal",
         :name "Mechtitan Core",
         :oracle-text
-        "{5}, Exile Mechtitan Core and four other artifact creatures and/or Vehicles you control: Create Mechtitan, a legendary 10/10 Construct artifact creature token with flying, vigilance, trample, lifelink, and haste that's all colors. When that token leaves the battlefield, return all cards exiled with Mechtitan Core except Mechtitan Core to the battlefield tapped under their owners' control.\nCrew 2"}
+        "{5}, Exile this Vehicle and four other artifact creatures and/or Vehicles you control: Create Mechtitan, a legendary 10/10 Construct artifact creature token with flying, vigilance, trample, lifelink, and haste that's all colors. When that token leaves the battlefield, return all cards exiled with this Vehicle except this card to the battlefield tapped under their owners' control.\nCrew 2"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pneo",
@@ -1503,7 +1525,7 @@
         :layout "normal",
         :name "Reckoner Bankbuster",
         :oracle-text
-        "Reckoner Bankbuster enters the battlefield with three charge counters on it.\n{2}, {T}, Remove a charge counter from Reckoner Bankbuster: Draw a card. Then if there are no charge counters on Reckoner Bankbuster, create a Treasure token and a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 3"}
+        "This Vehicle enters with three charge counters on it.\n{2}, {T}, Remove a charge counter from this Vehicle: Draw a card. Then if there are no charge counters on this Vehicle, create a Treasure token and a 1/1 colorless Pilot creature token with \"This token crews Vehicles as though its power were 2 greater.\"\nCrew 3"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -1514,7 +1536,7 @@
         :layout "normal",
         :name "Reckoner Bankbuster",
         :oracle-text
-        "Reckoner Bankbuster enters the battlefield with three charge counters on it.\n{2}, {T}, Remove a charge counter from Reckoner Bankbuster: Draw a card. Then if there are no charge counters on Reckoner Bankbuster, create a Treasure token and a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 3"}
+        "This Vehicle enters with three charge counters on it.\n{2}, {T}, Remove a charge counter from this Vehicle: Draw a card. Then if there are no charge counters on this Vehicle, create a Treasure token and a 1/1 colorless Pilot creature token with \"This token crews Vehicles as though its power were 2 greater.\"\nCrew 3"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -1525,7 +1547,7 @@
         :layout "normal",
         :name "Surgehacker Mech",
         :oracle-text
-        "Menace\nWhen Surgehacker Mech enters the battlefield, it deals damage equal to twice the number of Vehicles you control to target creature or planeswalker an opponent controls.\nCrew 4"}
+        "Menace\nWhen this Vehicle enters, it deals damage equal to twice the number of Vehicles you control to target creature or planeswalker an opponent controls.\nCrew 4"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
@@ -1536,7 +1558,7 @@
         :layout "normal",
         :name "Surgehacker Mech",
         :oracle-text
-        "Menace\nWhen Surgehacker Mech enters the battlefield, it deals damage equal to twice the number of Vehicles you control to target creature or planeswalker an opponent controls.\nCrew 4"}
+        "Menace\nWhen this Vehicle enters, it deals damage equal to twice the number of Vehicles you control to target creature or planeswalker an opponent controls.\nCrew 4"}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1547,7 +1569,7 @@
         :layout "normal",
         :name "Boseiju, Who Endures",
         :oracle-text
-        "{T}: Add {G}.\nChannel — {1}{G}, Discard Boseiju, Who Endures: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {G}.\nChannel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1558,7 +1580,7 @@
         :layout "normal",
         :name "Boseiju, Who Endures",
         :oracle-text
-        "{T}: Add {G}.\nChannel — {1}{G}, Discard Boseiju, Who Endures: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {G}.\nChannel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1569,7 +1591,7 @@
         :layout "normal",
         :name "Eiganjo, Seat of the Empire",
         :oracle-text
-        "{T}: Add {W}.\nChannel — {2}{W}, Discard Eiganjo, Seat of the Empire: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {W}.\nChannel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1580,7 +1602,7 @@
         :layout "normal",
         :name "Eiganjo, Seat of the Empire",
         :oracle-text
-        "{T}: Add {W}.\nChannel — {2}{W}, Discard Eiganjo, Seat of the Empire: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {W}.\nChannel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1591,7 +1613,7 @@
         :layout "normal",
         :name "Otawara, Soaring City",
         :oracle-text
-        "{T}: Add {U}.\nChannel — {3}{U}, Discard Otawara, Soaring City: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1602,7 +1624,7 @@
         :layout "normal",
         :name "Otawara, Soaring City",
         :oracle-text
-        "{T}: Add {U}.\nChannel — {3}{U}, Discard Otawara, Soaring City: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1613,7 +1635,7 @@
         :layout "normal",
         :name "Sokenzan, Crucible of Defiance",
         :oracle-text
-        "{T}: Add {R}.\nChannel — {3}{R}, Discard Sokenzan, Crucible of Defiance: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1624,7 +1646,7 @@
         :layout "normal",
         :name "Sokenzan, Crucible of Defiance",
         :oracle-text
-        "{T}: Add {R}.\nChannel — {3}{R}, Discard Sokenzan, Crucible of Defiance: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1635,7 +1657,7 @@
         :layout "normal",
         :name "Takenuma, Abandoned Mire",
         :oracle-text
-        "{T}: Add {B}.\nChannel — {3}{B}, Discard Takenuma, Abandoned Mire: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pneo",
@@ -1646,15 +1668,15 @@
         :layout "normal",
         :name "Takenuma, Abandoned Mire",
         :oracle-text
-        "{T}: Add {B}.\nChannel — {3}{B}, Discard Takenuma, Abandoned Mire: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control."}
+        "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "pneo",
-        :highres? false,
+        :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/8/58d01c4c-cdb9-4f86-ab2e-2bfb52cdf5f7.png?1674844677",
+        "https://cards.scryfall.io/png/front/5/8/58d01c4c-cdb9-4f86-ab2e-2bfb52cdf5f7.png?1738222802",
         :collector-number "404p",
         :layout "normal",
         :name "Reckoner Bankbuster",
         :oracle-text
-        "Reckoner Bankbuster enters the battlefield with three charge counters on it.\n{2}, {T}, Remove a charge counter from Reckoner Bankbuster: Draw a card. Then if there are no charge counters on Reckoner Bankbuster, create a Treasure token and a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew 3"})
+        "This Vehicle enters with three charge counters on it.\n{2}, {T}, Remove a charge counter from this Vehicle: Draw a card. Then if there are no charge counters on this Vehicle, create a Treasure token and a 1/1 colorless Pilot creature token with \"This token crews Vehicles as though its power were 2 greater.\"\nCrew 3"})

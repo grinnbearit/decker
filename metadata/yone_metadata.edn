@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Kemba's Outfitter",
         :oracle-text
-        "When Kemba's Outfitter enters the battlefield, choose one —\n• Choose an Equipment card in your hand. It perpetually gains equip {1}.\n• Target Equipment you control perpetually gains equip {1}."}
+        "When Kemba's Outfitter enters, choose one —\n• Choose an Equipment card in your hand. It perpetually gains equip {1}.\n• Target Equipment you control perpetually gains equip {1}."}
  #:card{:type-line "Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "yone",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Norn's Fetchling",
         :oracle-text
-        "Toxic 1\nCorrupted — When Norn's Fetchling enters the battlefield, conjure a card named Plains into your hand. If an opponent has three or more poison counters, you may seek a nonland card instead."}
+        "Toxic 1\nCorrupted — When Norn's Fetchling enters, conjure a card named Plains into your hand. If an opponent has three or more poison counters, you may seek a nonland card instead."}
  #:card{:type-line "Creature — Phyrexian Cleric",
         :layout-category :normal,
         :code "yone",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Surgical Metamorph",
         :oracle-text
-        "This spell costs {1} less to cast if you weren't the starting player.\nYou may have Surgical Metamorph enter the battlefield as a copy of any permanent on the battlefield, except it's an artifact in addition to its other types."}
+        "This spell costs {1} less to cast if you weren't the starting player.\nYou may have Surgical Metamorph enter as a copy of any permanent on the battlefield, except it's an artifact in addition to its other types."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "yone",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "March Toward Perfection",
         :oracle-text
-        "You get a boon with \"When you cast your next Phyrexian creature spell, that creature enters the battlefield with an additional +1/+1 counter and deathtouch counter on it.\"\nDraft a card from March Toward Perfection's spellbook."}
+        "You get a one-time boon with \"When you cast a Phyrexian creature spell, that creature enters with an additional +1/+1 counter and deathtouch counter on it.\"\nDraft a card from March Toward Perfection's spellbook."}
  #:card{:type-line "Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "yone",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Sheoldred's Assimilator",
         :oracle-text
-        "Menace\nWhenever Sheoldred's Assimilator enters the battlefield or attacks, exile up to one target card from a graveyard. If a card is exiled this way, you may conjure a duplicate of that card into the top five cards of your library at random."}
+        "Menace\nWhenever Sheoldred's Assimilator enters or attacks, exile up to one target card from a graveyard. If a card is exiled this way, you may conjure a duplicate of that card into the top five cards of your library at random."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "yone",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Hexgold Sledge",
         :oracle-text
-        "For Mirrodin!\nWhen Hexgold Sledge enters the battlefield, conjure a card named Goblin Gaveleer onto the battlefield.\nEquipped creature gets +1/+0.\nEquip {1}"}
+        "For Mirrodin!\nWhen Hexgold Sledge enters, conjure a card named Goblin Gaveleer onto the battlefield.\nEquipped creature gets +1/+0.\nEquip {1}"}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "yone",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Magmatic Scorchwing",
         :oracle-text
-        "Flying\nWhen Magmatic Scorchwing enters the battlefield, if there are no nonbasic land cards in your library, Magmatic Scorchwing deals 3 damage to any target."}
+        "Flying\nWhen Magmatic Scorchwing enters, if there are no nonbasic land cards in your library, Magmatic Scorchwing deals 3 damage to any target."}
  #:card{:type-line "Creature — Phyrexian Horror",
         :layout-category :normal,
         :code "yone",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Rothga, Bonded Engulfer",
         :oracle-text
-        "Trample\nWhen Rothga, Bonded Engulfer enters the battlefield, you get a boon with \"When you cast your next creature spell, it perpetually gets +X/+X, where X is its power.\""}
+        "Trample\nWhen Rothga, Bonded Engulfer enters, you get a one-time boon with \"When you cast a creature spell, it perpetually gets +X/+X, where X is its power.\""}
  #:card{:type-line "Creature — Phyrexian Insect",
         :layout-category :normal,
         :code "yone",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Arek, False Goldwarden",
         :oracle-text
-        "Starting intensity 0\nWhenever another creature enters the battlefield under your control, perpetually increase the intensity of Arek and the intensity of all cards named Arek, False Goldwarden in your graveyard, hand, and library by 1.\n{3}{W}{B}, {T}, Sacrifice Arek: Target opponent loses X life and you gain X life, where X is Arek's intensity."}
+        "Starting intensity 0\nWhenever another creature enters under your control, cards you own named Arek, False Goldwarden intensify by 1.\n{3}{W}{B}, {T}, Sacrifice Arek, False Goldwarden: Target opponent loses X life and you gain X life, where X is Arek's intensity."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "yone",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Contagion Dispenser",
         :oracle-text
-        "When Contagion Dispenser enters the battlefield, proliferate.\nWhenever you proliferate during your turn, draft a card from Contagion Dispenser's spellbook. This ability triggers only once each turn."}
+        "When Contagion Dispenser enters, proliferate.\nWhenever you proliferate during your turn, draft a card from Contagion Dispenser's spellbook. This ability triggers only once each turn."}
  #:card{:type-line "Artifact Creature — Phyrexian Hydra",
         :layout-category :normal,
         :code "yone",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Darksteel Hydra",
         :oracle-text
-        "Indestructible\nDarksteel Hydra enters the battlefield with X oil counters on it.\nDarksteel Hydra's power and toughness are each equal to twice the number of oil counters on it.\nWhen Darksteel Hydra enters the battlefield, conjure a card named Darksteel Ingot and a card named Darksteel Plate into your hand."}
+        "Indestructible\nDarksteel Hydra enters with X oil counters on it.\nDarksteel Hydra's power and toughness are each equal to twice the number of oil counters on it.\nWhen Darksteel Hydra enters, conjure a card named Darksteel Ingot and a card named Darksteel Plate into your hand."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "yone",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Glistening Extractor",
         :oracle-text
-        "Glistening Extractor enters the battlefield with four oil counters on it.\nAt the beginning of your upkeep, if there are one or more oil counters on Glistening Extractor, seek a card with mana value equal to the number of oil counters on Glistening Extractor, then remove an oil counter from Glistening Extractor."}
+        "Glistening Extractor enters with four oil counters on it.\nAt the beginning of your upkeep, if there are one or more oil counters on Glistening Extractor, seek a card with mana value equal to the number of oil counters on Glistening Extractor, then remove an oil counter from Glistening Extractor."}
  #:card{:type-line "Legendary Creature — Phyrexian Warlock",
         :layout-category :normal,
         :code "yone",
@@ -283,7 +283,7 @@
         :layout "normal",
         :name "Quicksilver Lapidary",
         :oracle-text
-        "When Quicksilver Lapidary enters the battlefield, conjure a card named Mox Opal into your hand."}
+        "When Quicksilver Lapidary enters, conjure a card named Mox Opal into your hand."}
  #:card{:type-line "Creature — Phyrexian Cleric",
         :layout-category :normal,
         :code "yone",
@@ -294,7 +294,7 @@
         :layout "normal",
         :name "Seething Skitter-Priest",
         :oracle-text
-        "Toxic 1\nWhen Seething Skitter-Priest enters the battlefield, creatures you control and creature cards in your hand perpetually gain \"When this creature dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and 'This creature can't block.'\""}
+        "Toxic 1\nWhen Seething Skitter-Priest enters, creatures you control and creature cards in your hand perpetually gain \"When this creature dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and 'This creature can't block.'\""}
  #:card{:type-line "Creature — Phyrexian Insect",
         :layout-category :normal,
         :code "yone",

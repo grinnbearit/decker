@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Doomed Traveler",
         :oracle-text
-        "When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying."}
+        "When this creature dies, create a 1/1 white Spirit creature token with flying."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "sis",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Elder Cathar",
         :oracle-text
-        "When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead."}
+        "When this creature dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "sis",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Fiend Hunter",
         :oracle-text
-        "When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
+        "When this creature enters, you may exile another target creature.\nWhen this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "sis",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Invisible Stalker",
         :oracle-text
-        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nInvisible Stalker can't be blocked."}
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nThis creature can't be blocked."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "sis",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Mist Raven",
         :oracle-text
-        "Flying\nWhen Mist Raven enters the battlefield, return target creature to its owner's hand."}
+        "Flying\nWhen this creature enters, return target creature to its owner's hand."}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "sis",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Selhoff Occultist",
         :oracle-text
-        "Whenever Selhoff Occultist or another creature dies, target player mills a card."}
+        "Whenever this creature or another creature dies, target player mills a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "sis",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Snapcaster Mage",
         :oracle-text
-        "Flash\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)"}
+        "Flash\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)"}
  #:card{:type-line "Creature — Homunculus",
         :layout-category :normal,
         :code "sis",
@@ -271,7 +271,8 @@
         :collector-number "25",
         :layout "normal",
         :name "Barter in Blood",
-        :oracle-text "Each player sacrifices two creatures."}
+        :oracle-text
+        "Each player sacrifices two creatures of their choice."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "sis",
@@ -282,7 +283,7 @@
         :layout "normal",
         :name "Bloodflow Connoisseur",
         :oracle-text
-        "Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur."}
+        "Sacrifice a creature: Put a +1/+1 counter on this creature."}
  #:card{:code "sis",
         :collector-number "27",
         :name "Bloodline Keeper // Lord of Lineage",
@@ -294,7 +295,7 @@
           "https://cards.scryfall.io/png/front/2/5/25f42544-79d1-48d1-884b-de3c0ccfce79.png?1679614837",
           :type-line "Creature — Vampire",
           :oracle-text
-          "Flying\n{T}: Create a 2/2 black Vampire creature token with flying.\n{B}: Transform Bloodline Keeper. Activate only if you control five or more Vampires."}
+          "Flying\n{T}: Create a 2/2 black Vampire creature token with flying.\n{B}: Transform this creature. Activate only if you control five or more Vampires."}
          {:png
           "https://cards.scryfall.io/png/back/2/5/25f42544-79d1-48d1-884b-de3c0ccfce79.png?1679614837",
           :type-line "Creature — Vampire",
@@ -321,7 +322,7 @@
         :layout "normal",
         :name "Falkenrath Noble",
         :oracle-text
-        "Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life."}
+        "Flying\nWhenever this creature or another creature dies, target player loses 1 life and you gain 1 life."}
  #:card{:type-line "Creature — Zombie",
         :layout-category :normal,
         :code "sis",
@@ -332,7 +333,7 @@
         :layout "normal",
         :name "Ghoulraiser",
         :oracle-text
-        "When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand."}
+        "When this creature enters, return a Zombie card at random from your graveyard to your hand."}
  #:card{:type-line "Legendary Creature — Demon",
         :layout-category :normal,
         :code "sis",
@@ -408,7 +409,7 @@
         :layout "normal",
         :name "Balefire Dragon",
         :oracle-text
-        "Flying\nWhenever Balefire Dragon deals combat damage to a player, it deals that much damage to each creature that player controls."}
+        "Flying\nWhenever this creature deals combat damage to a player, it deals that much damage to each creature that player controls."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "sis",
@@ -452,7 +453,7 @@
         :layout "normal",
         :name "Forge Devil",
         :oracle-text
-        "When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you."}
+        "When this creature enters, it deals 1 damage to target creature and 1 damage to you."}
  #:card{:code "sis",
         :collector-number "42",
         :name "Kruin Outlaw // Terror of Kruin Pass",
@@ -464,12 +465,12 @@
           "https://cards.scryfall.io/png/front/8/d/8d722e19-9aaf-4b47-b175-28f0d5c587a1.png?1679614987",
           :type-line "Creature — Human Rogue Werewolf",
           :oracle-text
-          "First strike\nAt the beginning of each upkeep, if no spells were cast last turn, transform Kruin Outlaw."}
+          "First strike\nAt the beginning of each upkeep, if no spells were cast last turn, transform this creature."}
          {:png
           "https://cards.scryfall.io/png/back/8/d/8d722e19-9aaf-4b47-b175-28f0d5c587a1.png?1679614987",
           :type-line "Creature — Werewolf",
           :oracle-text
-          "Double strike\nWerewolves you control have menace. (They can't be blocked except by two or more creatures.)\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Terror of Kruin Pass."}]}
+          "Double strike\nWerewolves you control have menace. (A creature with menace can't be blocked except by two or more creatures.)\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature."}]}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "sis",
@@ -491,7 +492,7 @@
         :layout "normal",
         :name "Skirsdag Cultist",
         :oracle-text
-        "{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to any target."}
+        "{R}, {T}, Sacrifice a creature: This creature deals 2 damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "sis",
@@ -513,7 +514,7 @@
         :layout "normal",
         :name "Vampiric Fury",
         :oracle-text
-        "Vampire creatures you control get +2/+0 and gain first strike until end of turn."}
+        "Vampire creatures you control get +2/+0 and gain first strike until end of turn. (They deal combat damage before creatures without first strike.)"}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "sis",
@@ -524,7 +525,7 @@
         :layout "normal",
         :name "Zealous Conscripts",
         :oracle-text
-        "Haste\nWhen Zealous Conscripts enters the battlefield, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn."}
+        "Haste\nWhen this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn."}
  #:card{:type-line "Creature — Human Monk",
         :layout-category :normal,
         :code "sis",
@@ -546,7 +547,7 @@
           "https://cards.scryfall.io/png/front/c/3/c340ad6b-aa09-4d12-a947-33b29b875158.png?1679615062",
           :type-line "Legendary Planeswalker — Garruk",
           :oracle-text
-          "When Garruk Relentless has two or fewer loyalty counters on him, transform him.\n0: Garruk Relentless deals 3 damage to target creature. That creature deals damage equal to its power to him.\n0: Create a 2/2 green Wolf creature token."}
+          "When Garruk has two or fewer loyalty counters on him, transform him.\n0: Garruk deals 3 damage to target creature. That creature deals damage equal to its power to him.\n0: Create a 2/2 green Wolf creature token."}
          {:png
           "https://cards.scryfall.io/png/back/c/3/c340ad6b-aa09-4d12-a947-33b29b875158.png?1679615062",
           :type-line "Legendary Planeswalker — Garruk",
@@ -573,7 +574,7 @@
         :layout "normal",
         :name "Gutter Grime",
         :oracle-text
-        "Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then create a green Ooze creature token with \"This creature's power and toughness are each equal to the number of slime counters on Gutter Grime.\""}
+        "Whenever a nontoken creature you control dies, put a slime counter on this enchantment, then create a green Ooze creature token with \"This token's power and toughness are each equal to the number of slime counters on Gutter Grime.\""}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "sis",
@@ -584,7 +585,7 @@
         :layout "normal",
         :name "Hollowhenge Scavenger",
         :oracle-text
-        "Morbid — When Hollowhenge Scavenger enters the battlefield, if a creature died this turn, you gain 5 life."}
+        "Morbid — When this creature enters, if a creature died this turn, you gain 5 life."}
  #:card{:code "sis",
         :collector-number "53",
         :name "Mayor of Avabruck // Howlpack Alpha",
@@ -596,12 +597,12 @@
           "https://cards.scryfall.io/png/front/a/f/af4bf1fc-19fe-4300-9842-9828178c419a.png?1679615107",
           :type-line "Creature — Human Advisor Werewolf",
           :oracle-text
-          "Other Human creatures you control get +1/+1.\nAt the beginning of each upkeep, if no spells were cast last turn, transform Mayor of Avabruck."}
+          "Other Human creatures you control get +1/+1.\nAt the beginning of each upkeep, if no spells were cast last turn, transform this creature."}
          {:png
           "https://cards.scryfall.io/png/back/a/f/af4bf1fc-19fe-4300-9842-9828178c419a.png?1679615107",
           :type-line "Creature — Werewolf",
           :oracle-text
-          "Each other creature you control that's a Werewolf or a Wolf gets +1/+1.\nAt the beginning of your end step, create a 2/2 green Wolf creature token.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack Alpha."}]}
+          "Each other creature you control that's a Werewolf or a Wolf gets +1/+1.\nAt the beginning of your end step, create a 2/2 green Wolf creature token.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature."}]}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "sis",
@@ -689,7 +690,7 @@
         :layout "normal",
         :name "Falkenrath Aristocrat",
         :oracle-text
-        "Flying, haste\nSacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat."}
+        "Flying, haste\nSacrifice a creature: This creature gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on this creature."}
  #:card{:type-line "Legendary Creature — Spirit Cleric",
         :layout-category :normal,
         :code "sis",
@@ -711,7 +712,7 @@
         :layout "normal",
         :name "Havengul Lich",
         :oracle-text
-        "{1}: You may cast target creature card in a graveyard this turn. When you cast it this turn, Havengul Lich gains all activated abilities of that card until end of turn."}
+        "{1}: You may cast target creature card in a graveyard this turn. When you cast it this turn, this creature gains all activated abilities of that card until end of turn."}
  #:card{:code "sis",
         :collector-number "64",
         :name "Huntmaster of the Fells // Ravager of the Fells",
@@ -723,12 +724,12 @@
           "https://cards.scryfall.io/png/front/6/c/6c37fcdc-6187-4ed1-908a-74e2f9e188bf.png?1679615210",
           :type-line "Creature — Human Werewolf",
           :oracle-text
-          "Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, create a 2/2 green Wolf creature token and you gain 2 life.\nAt the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells."}
+          "Whenever this creature enters or transforms into Huntmaster of the Fells, create a 2/2 green Wolf creature token and you gain 2 life.\nAt the beginning of each upkeep, if no spells were cast last turn, transform this creature."}
          {:png
           "https://cards.scryfall.io/png/back/6/c/6c37fcdc-6187-4ed1-908a-74e2f9e188bf.png?1679615210",
           :type-line "Creature — Werewolf",
           :oracle-text
-          "Trample\nWhenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent or planeswalker and 2 damage to up to one target creature that player or that planeswalker's controller controls.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells."}]}
+          "Trample\nWhenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent or planeswalker and 2 damage to up to one target creature that player or that planeswalker's controller controls.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature."}]}
  #:card{:type-line "Creature — Wolf",
         :layout-category :normal,
         :code "sis",
@@ -816,7 +817,7 @@
         :layout "normal",
         :name "Galvanic Juggernaut",
         :oracle-text
-        "Galvanic Juggernaut attacks each combat if able.\nGalvanic Juggernaut doesn't untap during your untap step.\nWhenever another creature dies, untap Galvanic Juggernaut."}
+        "This creature attacks each combat if able.\nThis creature doesn't untap during your untap step.\nWhenever another creature dies, untap this creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "sis",
@@ -827,7 +828,7 @@
         :layout "normal",
         :name "Traveler's Amulet",
         :oracle-text
-        "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
+        "{1}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "sis",
@@ -838,7 +839,7 @@
         :layout "normal",
         :name "Vessel of Endless Rest",
         :oracle-text
-        "When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.\n{T}: Add one mana of any color."}
+        "When this artifact enters, put target card from a graveyard on the bottom of its owner's library.\n{T}: Add one mana of any color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "sis",
@@ -849,7 +850,7 @@
         :layout "normal",
         :name "Evolving Wilds",
         :oracle-text
-        "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+        "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "sis",
@@ -860,4 +861,4 @@
         :layout "normal",
         :name "Haunted Fengraf",
         :oracle-text
-        "{T}: Add {C}.\n{3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand."})
+        "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Return a creature card at random from your graveyard to your hand."})

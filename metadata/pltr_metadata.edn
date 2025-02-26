@@ -8,7 +8,7 @@
         :layout "normal",
         :name "The Battle of Bywater",
         :oracle-text
-        "Destroy all creatures with power 3 or greater. Then create a Food token for each creature you control. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")"}
+        "Destroy all creatures with power 3 or greater. Then create a Food token for each creature you control. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")"}
  #:card{:type-line "Legendary Creature — Human Soldier",
         :layout-category :normal,
         :code "pltr",
@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Boromir, Warden of the Tower",
         :oracle-text
-        "Vigilance\nWhenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.\nSacrifice Boromir, Warden of the Tower: Creatures you control gain indestructible until end of turn. The Ring tempts you."}
+        "Vigilance\nWhenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.\nSacrifice Boromir: Creatures you control gain indestructible until end of turn. The Ring tempts you."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pltr",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Dawn of a New Age",
         :oracle-text
-        "Dawn of a New Age enters the battlefield with a hope counter on it for each creature you control.\nAt the beginning of your end step, remove a hope counter from Dawn of a New Age. If you do, draw a card. Then if Dawn of a New Age has no hope counters on it, sacrifice it and you gain 4 life."}
+        "This enchantment enters with a hope counter on it for each creature you control.\nAt the beginning of your end step, remove a hope counter from this enchantment. If you do, draw a card. Then if this enchantment has no hope counters on it, sacrifice it and you gain 4 life."}
  #:card{:type-line "Legendary Enchantment",
         :layout-category :normal,
         :code "pltr",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Forge Anew",
         :oracle-text
-        "When Forge Anew enters the battlefield, return target Equipment card from your graveyard to the battlefield.\nAs long as it's your turn, you may activate equip abilities any time you could cast an instant.\nYou may pay {0} rather than pay the equip cost of the first equip ability you activate during each of your turns."}
+        "When this enchantment enters, return target Equipment card from your graveyard to the battlefield.\nDuring your turn, you may activate equip abilities any time you could cast an instant.\nYou may pay {0} rather than pay the equip cost of the first equip ability you activate during each of your turns."}
  #:card{:type-line "Legendary Creature — Halfling Citizen",
         :layout-category :normal,
         :code "pltr",
@@ -63,7 +63,7 @@
         :layout "normal",
         :name "Frodo, Sauron's Bane",
         :oracle-text
-        "{W/B}{W/B}: If Frodo, Sauron's Bane is a Citizen, it becomes a Halfling Scout with base power and toughness 2/3 and lifelink.\n{B}{B}{B}: If Frodo is a Scout, it becomes a Halfling Rogue with \"Whenever this creature deals combat damage to a player, that player loses the game if the Ring has tempted you four or more times this game. Otherwise, the Ring tempts you.\""}
+        "{W/B}{W/B}: If Frodo is a Citizen, it becomes a Halfling Scout with base power and toughness 2/3 and lifelink.\n{B}{B}{B}: If Frodo is a Scout, it becomes a Halfling Rogue with \"Whenever this creature deals combat damage to a player, that player loses the game if the Ring has tempted you four or more times this game. Otherwise, the Ring tempts you.\""}
  #:card{:type-line "Legendary Creature — Avatar Wizard",
         :layout-category :normal,
         :code "pltr",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Goldberry, River-Daughter",
         :oracle-text
-        "{T}: Move a counter of each kind not on Goldberry, River-Daughter from another target permanent you control onto Goldberry.\n{U}, {T}: Move one or more counters from Goldberry onto another target permanent you control. If you do, draw a card."}
+        "{T}: Move a counter of each kind not on Goldberry from another target permanent you control onto Goldberry.\n{U}, {T}: Move one or more counters from Goldberry onto another target permanent you control. If you do, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pltr",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Lost Isle Calling",
         :oracle-text
-        "Whenever you scry, put a verse counter on Lost Isle Calling.\n{4}{U}{U}, Exile Lost Isle Calling: Draw a card for each verse counter on Lost Isle Calling. If it had seven or more verse counters on it, take an extra turn after this one. Activate only as a sorcery."}
+        "Whenever you scry, put a verse counter on this enchantment.\n{4}{U}{U}, Exile this enchantment: Draw a card for each verse counter on this enchantment. If it had seven or more verse counters on it, take an extra turn after this one. Activate only as a sorcery."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pltr",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Rangers of Ithilien",
         :oracle-text
-        "Vigilance\nWhen Rangers of Ithilien enters the battlefield, gain control of up to one target creature with lesser power for as long as you control Rangers of Ithilien. Then the Ring tempts you."}
+        "Vigilance\nWhen this creature enters, gain control of up to one target creature with lesser power for as long as you control this creature. Then the Ring tempts you."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "pltr",
@@ -151,7 +151,7 @@
         :layout "saga",
         :name "Scroll of Isildur",
         :oracle-text
-        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Gain control of up to one target artifact for as long as you control Scroll of Isildur. The Ring tempts you.\nII — Tap up to two target creatures. Put a stun counter on each of them.\nIII — Draw a card for each tapped creature target opponent controls."}
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Gain control of up to one target artifact for as long as you control this Saga. The Ring tempts you.\nII — Tap up to two target creatures. Put a stun counter on each of them.\nIII — Draw a card for each tapped creature target opponent controls."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pltr",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "The Watcher in the Water",
         :oracle-text
-        "The Watcher in the Water enters the battlefield tapped with nine stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhenever you draw a card during an opponent's turn, create a 1/1 blue Tentacle creature token.\nWhenever a Tentacle you control dies, untap up to one target Kraken and put a stun counter on up to one target nonland permanent."}
+        "The Watcher in the Water enters tapped with nine stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWhenever you draw a card during an opponent's turn, create a 1/1 blue Tentacle creature token.\nWhenever a Tentacle you control dies, untap up to one target Kraken and put a stun counter on up to one target nonland permanent."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "pltr",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Lobelia Sackville-Baggins",
         :oracle-text
-        "Flash\nMenace\nWhen Lobelia Sackville-Baggins enters the battlefield, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power."}
+        "Flash\nMenace\nWhen Lobelia enters, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "pltr",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Orcish Bowmasters",
         :oracle-text
-        "Flash\nWhen Orcish Bowmasters enters the battlefield and whenever an opponent draws a card except the first one they draw in each of their draw steps, Orcish Bowmasters deals 1 damage to any target. Then amass Orcs 1."}
+        "Flash\nWhen this creature enters and whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to any target. Then amass Orcs 1."}
  #:card{:type-line "Legendary Creature — Avatar Horror",
         :layout-category :normal,
         :code "pltr",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Sauron, the Necromancer",
         :oracle-text
-        "Menace\nWhenever Sauron, the Necromancer attacks, exile target creature card from your graveyard. Create a tapped and attacking token that's a copy of that card, except it's a 3/3 black Wraith with menace. At the beginning of the next end step, exile that token unless Sauron is your Ring-bearer."}
+        "Menace\nWhenever Sauron attacks, exile target creature card from your graveyard. Create a tapped and attacking token that's a copy of that card, except it's a 3/3 black Wraith with menace. At the beginning of the next end step, exile that token unless Sauron is your Ring-bearer."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pltr",
@@ -261,7 +261,7 @@
         :layout "normal",
         :name "Witch-king of Angmar",
         :oracle-text
-        "Flying\nWhenever one or more creatures deal combat damage to you, each opponent sacrifices a creature that dealt combat damage to you this turn. The Ring tempts you.\nDiscard a card: Witch-king of Angmar gains indestructible until end of turn. Tap it."}
+        "Flying\nWhenever one or more creatures deal combat damage to you, each opponent sacrifices a creature of their choice that dealt combat damage to you this turn. The Ring tempts you.\nDiscard a card: Witch-king of Angmar gains indestructible until end of turn. Tap it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "pltr",
@@ -294,7 +294,7 @@
         :layout "normal",
         :name "Fall of Cair Andros",
         :oracle-text
-        "Whenever a creature an opponent controls is dealt excess noncombat damage, amass Orcs X, where X is that excess damage. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)\n{7}{R}: Fall of Cair Andros deals 7 damage to target creature."}
+        "Whenever a creature an opponent controls is dealt excess noncombat damage, amass Orcs X, where X is that excess damage. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)\n{7}{R}: This enchantment deals 7 damage to target creature."}
  #:card{:type-line "Legendary Creature — Dwarf Advisor",
         :layout-category :normal,
         :code "pltr",
@@ -338,7 +338,7 @@
         :layout "normal",
         :name "Spiteful Banditry",
         :oracle-text
-        "When Spiteful Banditry enters the battlefield, it deals X damage to each creature.\nWhenever one or more creatures your opponents control die, you create a Treasure token. This ability triggers only once each turn."}
+        "When this enchantment enters, it deals X damage to each creature.\nWhenever one or more creatures your opponents control die, you create a Treasure token. This ability triggers only once each turn."}
  #:card{:type-line "Enchantment — Saga",
         :layout-category :normal,
         :code "pltr",
@@ -349,7 +349,7 @@
         :layout "saga",
         :name "There and Back Again",
         :oracle-text
-        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Up to one target creature can't block for as long as you control There and Back Again. The Ring tempts you.\nII — Search your library for a Mountain card, put it onto the battlefield, then shuffle.\nIII — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and \"When this creature dies, create fourteen Treasure tokens.\""}
+        "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Up to one target creature can't block for as long as you control this Saga. The Ring tempts you.\nII — Search your library for a Mountain card, put it onto the battlefield, then shuffle.\nIII — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and \"When Smaug dies, create fourteen Treasure tokens.\""}
  #:card{:type-line "Creature — Halfling Citizen",
         :layout-category :normal,
         :code "pltr",
@@ -415,7 +415,7 @@
         :layout "normal",
         :name "Legolas, Master Archer",
         :oracle-text
-        "Reach\nWhenever you cast a spell that targets Legolas, Master Archer, put a +1/+1 counter on Legolas.\nWhenever you cast a spell that targets a creature you don't control, Legolas deals damage equal to its power to up to one target creature."}
+        "Reach\nWhenever you cast a spell that targets Legolas, put a +1/+1 counter on Legolas.\nWhenever you cast a spell that targets a creature you don't control, Legolas deals damage equal to its power to up to one target creature."}
  #:card{:type-line "Legendary Creature — Avatar Wizard",
         :layout-category :normal,
         :code "pltr",
@@ -426,7 +426,7 @@
         :layout "normal",
         :name "Radagast the Brown",
         :oracle-text
-        "Whenever Radagast the Brown or another nontoken creature enters the battlefield under your control, look at the top X cards of your library, where X is that creature's mana value. You may reveal a creature card that doesn't share a creature type with a creature you control from among those cards and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "Whenever Radagast or another nontoken creature you control enters, look at the top X cards of your library, where X is that creature's mana value. You may reveal a creature card that doesn't share a creature type with a creature you control from among those cards and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "pltr",
@@ -448,7 +448,7 @@
         :layout "normal",
         :name "Aragorn, Company Leader",
         :oracle-text
-        "Whenever the Ring tempts you, if you chose a creature other than Aragorn, Company Leader as your Ring-bearer, put your choice of a counter from among first strike, vigilance, deathtouch, and lifelink on Aragorn.\nWhenever you put one or more counters on Aragorn, put one of each of those kinds of counters on up to one other target creature."}
+        "Whenever the Ring tempts you, if you chose a creature other than Aragorn as your Ring-bearer, put your choice of a counter from among first strike, vigilance, deathtouch, and lifelink on Aragorn.\nWhenever you put one or more counters on Aragorn, put one of each of those kinds of counters on up to one other target creature."}
  #:card{:type-line "Legendary Creature — Human Noble",
         :layout-category :normal,
         :code "pltr",
@@ -459,7 +459,7 @@
         :layout "normal",
         :name "Aragorn, the Uniter",
         :oracle-text
-        "Whenever you cast a white spell, create a 1/1 white Human Soldier creature token.\nWhenever you cast a blue spell, scry 2.\nWhenever you cast a red spell, Aragorn, the Uniter deals 3 damage to target opponent.\nWhenever you cast a green spell, target creature gets +4/+4 until end of turn."}
+        "Whenever you cast a white spell, create a 1/1 white Human Soldier creature token.\nWhenever you cast a blue spell, scry 2.\nWhenever you cast a red spell, Aragorn deals 3 damage to target opponent.\nWhenever you cast a green spell, target creature gets +4/+4 until end of turn."}
  #:card{:type-line "Legendary Creature — Elf Noble",
         :layout-category :normal,
         :code "pltr",
@@ -470,7 +470,7 @@
         :layout "normal",
         :name "Arwen, Mortal Queen",
         :oracle-text
-        "Arwen, Mortal Queen enters the battlefield with an indestructible counter on it.\n{1}, Remove an indestructible counter from Arwen: Another target creature gains indestructible until end of turn. Put a +1/+1 counter and a lifelink counter on that creature and a +1/+1 counter and a lifelink counter on Arwen."}
+        "Arwen enters with an indestructible counter on it.\n{1}, Remove an indestructible counter from Arwen: Another target creature gains indestructible until end of turn. Put a +1/+1 counter and a lifelink counter on that creature and a +1/+1 counter and a lifelink counter on Arwen."}
  #:card{:type-line "Legendary Creature — Avatar Demon",
         :layout-category :normal,
         :code "pltr",
@@ -481,7 +481,7 @@
         :layout "normal",
         :name "The Balrog, Durin's Bane",
         :oracle-text
-        "This spell costs {1} less to cast for each permanent sacrificed this turn.\nHaste\nThe Balrog, Durin's Bane can't be blocked except by legendary creatures.\nWhen The Balrog dies, destroy target artifact or creature an opponent controls."}
+        "This spell costs {1} less to cast for each permanent sacrificed this turn.\nHaste\nThe Balrog can't be blocked except by legendary creatures.\nWhen The Balrog dies, destroy target artifact or creature an opponent controls."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pltr",
@@ -514,7 +514,7 @@
         :layout "normal",
         :name "Éowyn, Fearless Knight",
         :oracle-text
-        "Haste\nWhen Éowyn, Fearless Knight enters the battlefield, exile target creature an opponent controls with greater power. Legendary creatures you control gain protection from each of that creature's colors until end of turn."}
+        "Haste\nWhen Éowyn enters, exile target creature an opponent controls with greater power. Legendary creatures you control gain protection from each of that creature's colors until end of turn."}
  #:card{:type-line "Legendary Creature — Human Noble",
         :layout-category :normal,
         :code "pltr",
@@ -547,7 +547,7 @@
         :layout "normal",
         :name "Galadriel of Lothlórien",
         :oracle-text
-        "Whenever the Ring tempts you, if you chose a creature other than Galadriel of Lothlórien as your Ring-bearer, scry 3.\nWhenever you scry, you may reveal the top card of your library. If a land card is revealed this way, put it onto the battlefield tapped."}
+        "Whenever the Ring tempts you, if you chose a creature other than Galadriel as your Ring-bearer, scry 3.\nWhenever you scry, you may reveal the top card of your library. If a land card is revealed this way, put it onto the battlefield tapped."}
  #:card{:type-line "Legendary Creature — Avatar Wizard",
         :layout-category :normal,
         :code "pltr",
@@ -558,7 +558,7 @@
         :layout "normal",
         :name "Gandalf the Grey",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, choose one that hasn't been chosen —\n• You may tap or untap target permanent.\n• Gandalf the Grey deals 3 damage to each opponent.\n• Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n• Put Gandalf on top of its owner's library."}
+        "Whenever you cast an instant or sorcery spell, choose one that hasn't been chosen —\n• You may tap or untap target permanent.\n• Gandalf deals 3 damage to each opponent.\n• Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n• Put Gandalf on top of its owner's library."}
  #:card{:type-line "Legendary Creature — Dwarf Warrior",
         :layout-category :normal,
         :code "pltr",
@@ -569,7 +569,7 @@
         :layout "normal",
         :name "Gimli, Mournful Avenger",
         :oracle-text
-        "Gimli, Mournful Avenger has indestructible as long as two or more creatures died under your control this turn.\nWhenever another creature you control dies, put a +1/+1 counter on Gimli. When this ability resolves for the third time this turn, Gimli fights up to one target creature you don't control."}
+        "Gimli has indestructible as long as two or more creatures died under your control this turn.\nWhenever another creature you control dies, put a +1/+1 counter on Gimli. When this ability resolves for the third time this turn, Gimli fights up to one target creature you don't control."}
  #:card{:type-line "Legendary Creature — Spirit Noble",
         :layout-category :normal,
         :code "pltr",
@@ -591,7 +591,7 @@
         :layout "normal",
         :name "Lotho, Corrupt Shirriff",
         :oracle-text
-        "Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Legendary Creature — Halfling Knight",
         :layout-category :normal,
         :code "pltr",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Merry, Esquire of Rohan",
         :oracle-text
-        "Haste\nMerry, Esquire of Rohan has first strike as long as it's equipped.\nWhenever you attack with Merry and another legendary creature, draw a card."}
+        "Haste\nMerry has first strike as long as it's equipped.\nWhenever you attack with Merry and another legendary creature, draw a card."}
  #:card{:type-line "Legendary Creature — Halfling Soldier",
         :layout-category :normal,
         :code "pltr",
@@ -624,7 +624,7 @@
         :layout "normal",
         :name "Samwise Gamgee",
         :oracle-text
-        "Whenever another nontoken creature enters the battlefield under your control, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nSacrifice three Foods: Return target historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)"}
+        "Whenever another nontoken creature you control enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nSacrifice three Foods: Return target historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)"}
  #:card{:type-line "Legendary Creature — Avatar Wizard",
         :layout-category :normal,
         :code "pltr",
@@ -668,7 +668,7 @@
         :layout "normal",
         :name "Shagrat, Loot Bearer",
         :oracle-text
-        "Whenever Shagrat, Loot Bearer attacks, attach up to one target Equipment to it. Then amass Orcs X, where X is the number of Equipment attached to Shagrat. (Control of the Equipment doesn't change. To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)"}
+        "Whenever Shagrat attacks, attach up to one target Equipment to it. Then amass Orcs X, where X is the number of Equipment attached to Shagrat. (Control of the Equipment doesn't change. To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)"}
  #:card{:type-line "Legendary Creature — Avatar Rogue",
         :layout-category :normal,
         :code "pltr",
@@ -679,7 +679,7 @@
         :layout "normal",
         :name "Sharkey, Tyrant of the Shire",
         :oracle-text
-        "Activated abilities of lands your opponents control can't be activated unless they're mana abilities.\nSharkey, Tyrant of the Shire has all activated abilities of lands your opponents control except mana abilities.\nMana of any type can be spent to activate Sharkey's abilities."}
+        "Activated abilities of lands your opponents control can't be activated unless they're mana abilities.\nSharkey has all activated abilities of lands your opponents control except mana abilities.\nMana of any type can be spent to activate Sharkey's abilities."}
  #:card{:type-line "Legendary Creature — Spider Demon",
         :layout-category :normal,
         :code "pltr",
@@ -690,7 +690,7 @@
         :layout "normal",
         :name "Shelob, Child of Ungoliant",
         :oracle-text
-        "Deathtouch, ward {2}\nOther Spiders you control have deathtouch and ward {2}.\nWhenever another creature dealt damage this turn by a Spider you controlled dies, create a token that's a copy of that creature, except it's a Food artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life,\" and it loses all other card types."}
+        "Deathtouch, ward {2}\nOther Spiders you control have deathtouch and ward {2}.\nWhenever another creature dealt damage this turn by a Spider you controlled dies, create a token that's a copy of that creature, except it's a Food artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life,\" and it loses all other card types."}
  #:card{:type-line "Legendary Creature — Halfling Horror",
         :layout-category :normal,
         :code "pltr",
@@ -745,7 +745,7 @@
         :layout "normal",
         :name "Horn of Gondor",
         :oracle-text
-        "When Horn of Gondor enters the battlefield, create a 1/1 white Human Soldier creature token.\n{3}, {T}: Create X 1/1 white Human Soldier creature tokens, where X is the number of Humans you control."}
+        "When Horn of Gondor enters, create a 1/1 white Human Soldier creature token.\n{3}, {T}: Create X 1/1 white Human Soldier creature tokens, where X is the number of Humans you control."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pltr",
@@ -767,7 +767,7 @@
         :layout "normal",
         :name "Mithril Coat",
         :oracle-text
-        "Flash\nIndestructible\nWhen Mithril Coat enters the battlefield, attach it to target legendary creature you control.\nEquipped creature has indestructible.\nEquip {3}"}
+        "Flash\nIndestructible\nWhen Mithril Coat enters, attach it to target legendary creature you control.\nEquipped creature has indestructible.\nEquip {3}"}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pltr",
@@ -778,7 +778,7 @@
         :layout "normal",
         :name "The One Ring",
         :oracle-text
-        "Indestructible\nWhen The One Ring enters the battlefield, if you cast it, you gain protection from everything until your next turn.\nAt the beginning of your upkeep, you lose 1 life for each burden counter on The One Ring.\n{T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring."}
+        "Indestructible\nWhen The One Ring enters, if you cast it, you gain protection from everything until your next turn.\nAt the beginning of your upkeep, you lose 1 life for each burden counter on The One Ring.\n{T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring."}
  #:card{:type-line "Legendary Artifact",
         :layout-category :normal,
         :code "pltr",
@@ -822,7 +822,7 @@
         :layout "normal",
         :name "Barad-dûr",
         :oracle-text
-        "Barad-dûr enters the battlefield tapped unless you control a legendary creature.\n{T}: Add {B}.\n{X}{X}{B}, {T}: Amass Orcs X. Activate only if a creature died this turn."}
+        "Barad-dûr enters tapped unless you control a legendary creature.\n{T}: Add {B}.\n{X}{X}{B}, {T}: Amass Orcs X. Activate only if a creature died this turn."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pltr",
@@ -833,7 +833,7 @@
         :layout "normal",
         :name "Minas Tirith",
         :oracle-text
-        "Minas Tirith enters the battlefield tapped unless you control a legendary creature.\n{T}: Add {W}.\n{1}{W}, {T}: Draw a card. Activate only if you attacked with two or more creatures this turn."}
+        "Minas Tirith enters tapped unless you control a legendary creature.\n{T}: Add {W}.\n{1}{W}, {T}: Draw a card. Activate only if you attacked with two or more creatures this turn."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pltr",
@@ -844,7 +844,7 @@
         :layout "normal",
         :name "Mines of Moria",
         :oracle-text
-        "Mines of Moria enters the battlefield tapped unless you control a legendary creature.\n{T}: Add {R}.\n{3}{R}, {T}, Exile three cards from your graveyard: Create two Treasure tokens."}
+        "Mines of Moria enters tapped unless you control a legendary creature.\n{T}: Add {R}.\n{3}{R}, {T}, Exile three cards from your graveyard: Create two Treasure tokens."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pltr",
@@ -866,7 +866,7 @@
         :layout "normal",
         :name "Rivendell",
         :oracle-text
-        "Rivendell enters the battlefield tapped unless you control a legendary creature.\n{T}: Add {U}.\n{1}{U}, {T}: Scry 2. Activate only if you control a legendary creature."}
+        "Rivendell enters tapped unless you control a legendary creature.\n{T}: Add {U}.\n{1}{U}, {T}: Scry 2. Activate only if you control a legendary creature."}
  #:card{:type-line "Legendary Land",
         :layout-category :normal,
         :code "pltr",
@@ -877,7 +877,7 @@
         :layout "normal",
         :name "The Shire",
         :oracle-text
-        "The Shire enters the battlefield tapped unless you control a legendary creature.\n{T}: Add {G}.\n{1}{G}, {T}, Tap an untapped creature you control: Create a Food token."}
+        "The Shire enters tapped unless you control a legendary creature.\n{T}: Add {G}.\n{1}{G}, {T}, Tap an untapped creature you control: Create a Food token."}
  #:card{:type-line "Legendary Creature — Halfling Citizen",
         :layout-category :normal,
         :code "pltr",
@@ -888,7 +888,7 @@
         :layout "normal",
         :name "Lobelia Sackville-Baggins",
         :oracle-text
-        "Flash\nMenace\nWhen Lobelia Sackville-Baggins enters the battlefield, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power."}
+        "Flash\nMenace\nWhen Lobelia enters, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "pltr",
@@ -899,7 +899,7 @@
         :layout "normal",
         :name "Wizard's Rockets",
         :oracle-text
-        "Wizard's Rockets enters the battlefield tapped.\n{X}, {T}, Sacrifice Wizard's Rockets: Add X mana in any combination of colors.\nWhen Wizard's Rockets is put into a graveyard from the battlefield, draw a card."}
+        "This artifact enters tapped.\n{X}, {T}, Sacrifice this artifact: Add X mana in any combination of colors.\nWhen this artifact is put into a graveyard from the battlefield, draw a card."}
  #:card{:type-line "Legendary Creature — Avatar Wizard",
         :layout-category :normal,
         :code "pltr",
@@ -910,7 +910,7 @@
         :layout "normal",
         :name "Gandalf, Friend of the Shire",
         :oracle-text
-        "Flash\nYou may cast sorcery spells as though they had flash.\nWhenever the Ring tempts you, if you chose a creature other than Gandalf, Friend of the Shire as your Ring-bearer, draw a card."}
+        "Flash\nYou may cast sorcery spells as though they had flash.\nWhenever the Ring tempts you, if you chose a creature other than Gandalf as your Ring-bearer, draw a card."}
  #:card{:type-line "Creature — Halfling Citizen",
         :layout-category :normal,
         :code "pltr",
@@ -932,7 +932,7 @@
         :layout "normal",
         :name "Bilbo, Retired Burglar",
         :oracle-text
-        "When Bilbo, Retired Burglar enters or leaves the battlefield, the Ring tempts you.\nWhenever Bilbo deals combat damage to a player, create a Treasure token."}
+        "When Bilbo enters or leaves the battlefield, the Ring tempts you.\nWhenever Bilbo deals combat damage to a player, create a Treasure token."}
  #:card{:type-line "Legendary Creature — Halfling Scout",
         :layout-category :normal,
         :code "pltr",
@@ -943,4 +943,4 @@
         :layout "normal",
         :name "Frodo Baggins",
         :oracle-text
-        "Whenever Frodo Baggins or another legendary creature enters the battlefield under your control, the Ring tempts you.\nAs long as Frodo is your Ring-bearer, it must be blocked if able."})
+        "Whenever Frodo Baggins or another legendary creature you control enters, the Ring tempts you.\nAs long as Frodo Baggins is your Ring-bearer, it must be blocked if able."})

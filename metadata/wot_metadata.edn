@@ -8,7 +8,7 @@
         :layout "normal",
         :name "Blind Obedience",
         :oracle-text
-        "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nArtifacts and creatures your opponents control enter the battlefield tapped."}
+        "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nArtifacts and creatures your opponents control enter tapped."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Grasp of Fate",
         :oracle-text
-        "When Grasp of Fate enters the battlefield, for each opponent, exile up to one target nonland permanent that player controls until Grasp of Fate leaves the battlefield. (Those permanents return under their owners' control.)"}
+        "When this enchantment enters, for each opponent, exile up to one target nonland permanent that player controls until this enchantment leaves the battlefield. (Those permanents return under their owners' control.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Knightly Valor",
         :oracle-text
-        "Enchant creature\nWhen Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance. (Attacking doesn't cause it to tap.)\nEnchanted creature gets +2/+2 and has vigilance."}
+        "Enchant creature\nWhen this Aura enters, create a 2/2 white Knight creature token with vigilance. (Attacking doesn't cause it to tap.)\nEnchanted creature gets +2/+2 and has vigilance."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Leyline of Sanctity",
         :oracle-text
-        "If Leyline of Sanctity is in your opening hand, you may begin the game with it on the battlefield.\nYou have hexproof. (You can't be the target of spells or abilities your opponents control.)"}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nYou have hexproof. (You can't be the target of spells or abilities your opponents control.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Rest in Peace",
         :oracle-text
-        "When Rest in Peace enters the battlefield, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
+        "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Smothering Tithe",
         :oracle-text
-        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "As Foretold",
         :oracle-text
-        "At the beginning of your upkeep, put a time counter on As Foretold.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on As Foretold."}
+        "At the beginning of your upkeep, put a time counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "Compulsion",
         :oracle-text
-        "{1}{U}, Discard a card: Draw a card.\n{1}{U}, Sacrifice Compulsion: Draw a card."}
+        "{1}{U}, Discard a card: Draw a card.\n{1}{U}, Sacrifice this enchantment: Draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Copy Enchantment",
         :oracle-text
-        "You may have Copy Enchantment enter the battlefield as a copy of any enchantment on the battlefield."}
+        "You may have this enchantment enter as a copy of any enchantment on the battlefield."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "wot",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Hatching Plans",
         :oracle-text
-        "When Hatching Plans is put into a graveyard from the battlefield, draw three cards."}
+        "When this enchantment is put into a graveyard from the battlefield, draw three cards."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Intruder Alarm",
         :oracle-text
-        "Creatures don't untap during their controllers' untap steps.\nWhenever a creature enters the battlefield, untap all creatures."}
+        "Creatures don't untap during their controllers' untap steps.\nWhenever a creature enters, untap all creatures."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -239,7 +239,7 @@
         :layout "normal",
         :name "Kindred Discovery",
         :oracle-text
-        "As Kindred Discovery enters the battlefield, choose a creature type.\nWhenever a creature you control of the chosen type enters the battlefield or attacks, draw a card."}
+        "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -250,7 +250,7 @@
         :layout "normal",
         :name "Leyline of Anticipation",
         :oracle-text
-        "If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield.\nYou may cast spells as though they had flash."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nYou may cast spells as though they had flash."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -283,8 +283,8 @@
         :layout "normal",
         :name "Spreading Seas",
         :oracle-text
-        "Enchant land\nWhen Spreading Seas enters the battlefield, draw a card.\nEnchanted land is an Island."}
- #:card{:type-line "Tribal Enchantment — Faerie",
+        "Enchant land\nWhen this Aura enters, draw a card.\nEnchanted land is an Island."}
+ #:card{:type-line "Kindred Enchantment — Faerie",
         :layout-category :normal,
         :code "wot",
         :highres? true,
@@ -316,7 +316,7 @@
         :layout "normal",
         :name "Grave Pact",
         :oracle-text
-        "Whenever a creature you control dies, each other player sacrifices a creature."}
+        "Whenever a creature you control dies, each other player sacrifices a creature of their choice."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -327,7 +327,7 @@
         :layout "normal",
         :name "Leyline of the Void",
         :oracle-text
-        "If Leyline of the Void is in your opening hand, you may begin the game with it on the battlefield.\nIf a card would be put into an opponent's graveyard from anywhere, exile it instead."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nIf a card would be put into an opponent's graveyard from anywhere, exile it instead."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Polluted Bonds",
         :oracle-text
-        "Whenever a land enters the battlefield under an opponent's control, that player loses 2 life and you gain 2 life."}
+        "Whenever a land an opponent controls enters, that player loses 2 life and you gain 2 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -447,7 +447,7 @@
         :layout "normal",
         :name "Dragon Mantle",
         :oracle-text
-        "Enchant creature\nWhen Dragon Mantle enters the battlefield, draw a card.\nEnchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\""}
+        "Enchant creature\nWhen this Aura enters, draw a card.\nEnchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\""}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -469,7 +469,7 @@
         :layout "normal",
         :name "Goblin Bombardment",
         :oracle-text
-        "Sacrifice a creature: Goblin Bombardment deals 1 damage to any target."}
+        "Sacrifice a creature: This enchantment deals 1 damage to any target."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -480,7 +480,7 @@
         :layout "normal",
         :name "Impact Tremors",
         :oracle-text
-        "Whenever a creature enters the battlefield under your control, Impact Tremors deals 1 damage to each opponent."}
+        "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -491,7 +491,7 @@
         :layout "normal",
         :name "Leyline of Lightning",
         :oracle-text
-        "If Leyline of Lightning is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you cast a spell, you may pay {1}. If you do, Leyline of Lightning deals 1 damage to target player or planeswalker."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you cast a spell, you may pay {1}. If you do, this enchantment deals 1 damage to target player or planeswalker."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -513,7 +513,7 @@
         :layout "normal",
         :name "Raid Bombardment",
         :oracle-text
-        "Whenever a creature you control with power 2 or less attacks, Raid Bombardment deals 1 damage to the player or planeswalker that creature is attacking."}
+        "Whenever a creature you control with power 2 or less attacks, this enchantment deals 1 damage to the player or planeswalker that creature is attacking."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -524,7 +524,7 @@
         :layout "normal",
         :name "Repercussion",
         :oracle-text
-        "Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller."}
+        "Whenever a creature is dealt damage, this enchantment deals that much damage to that creature's controller."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -557,7 +557,7 @@
         :layout "normal",
         :name "Defense of the Heart",
         :oracle-text
-        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice Defense of the Heart, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
+        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -579,7 +579,7 @@
         :layout "normal",
         :name "Garruk's Uprising",
         :oracle-text
-        "When Garruk's Uprising enters the battlefield, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (They can deal excess combat damage to the player or planeswalker they're attacking.)\nWhenever a creature with power 4 or greater enters the battlefield under your control, draw a card."}
+        "When this enchantment enters, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever a creature you control with power 4 or greater enters, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -590,7 +590,7 @@
         :layout "normal",
         :name "Ground Seal",
         :oracle-text
-        "When Ground Seal enters the battlefield, draw a card.\nCards in graveyards can't be the targets of spells or abilities."}
+        "When this enchantment enters, draw a card.\nCards in graveyards can't be the targets of spells or abilities."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -612,7 +612,7 @@
         :layout "normal",
         :name "Leyline of Abundance",
         :oracle-text
-        "If Leyline of Abundance is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you tap a creature for mana, add an additional {G}.\n{6}{G}{G}: Put a +1/+1 counter on each creature you control."}
+        "If this card is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you tap a creature for mana, add an additional {G}.\n{6}{G}{G}: Put a +1/+1 counter on each creature you control."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -651,7 +651,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/7/97bd2780-f132-46dc-a33e-611dd7845bc4.png?1692932922",
+        "https://cards.scryfall.io/png/front/9/7/97bd2780-f132-46dc-a33e-611dd7845bc4.png?1726472625",
         :collector-number "60",
         :layout "normal",
         :name "Prismatic Omen",
@@ -667,7 +667,7 @@
         :layout "normal",
         :name "Season of Growth",
         :oracle-text
-        "Whenever a creature enters the battlefield under your control, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\nWhenever you cast a spell that targets a creature you control, draw a card."}
+        "Whenever a creature you control enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nWhenever you cast a spell that targets a creature you control, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -689,7 +689,7 @@
         :layout "normal",
         :name "Utopia Sprawl",
         :oracle-text
-        "Enchant Forest\nAs Utopia Sprawl enters the battlefield, choose a color.\nWhenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color."}
+        "Enchant Forest\nAs this Aura enters, choose a color.\nWhenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -733,7 +733,7 @@
         :layout "normal",
         :name "Smothering Tithe",
         :oracle-text
-        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -744,7 +744,7 @@
         :layout "normal",
         :name "As Foretold",
         :oracle-text
-        "At the beginning of your upkeep, put a time counter on As Foretold.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on As Foretold."}
+        "At the beginning of your upkeep, put a time counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -755,7 +755,7 @@
         :layout "normal",
         :name "Kindred Discovery",
         :oracle-text
-        "As Kindred Discovery enters the battlefield, choose a creature type.\nWhenever a creature you control of the chosen type enters the battlefield or attacks, draw a card."}
+        "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -778,7 +778,7 @@
         :name "Rhystic Study",
         :oracle-text
         "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}."}
- #:card{:type-line "Tribal Enchantment — Faerie",
+ #:card{:type-line "Kindred Enchantment — Faerie",
         :layout-category :normal,
         :code "wot",
         :highres? true,
@@ -799,7 +799,7 @@
         :layout "normal",
         :name "Grave Pact",
         :oracle-text
-        "Whenever a creature you control dies, each other player sacrifices a creature."}
+        "Whenever a creature you control dies, each other player sacrifices a creature of their choice."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -821,7 +821,7 @@
         :layout "normal",
         :name "Polluted Bonds",
         :oracle-text
-        "Whenever a land enters the battlefield under an opponent's control, that player loses 2 life and you gain 2 life."}
+        "Whenever a land an opponent controls enters, that player loses 2 life and you gain 2 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -853,7 +853,7 @@
         :layout "normal",
         :name "Repercussion",
         :oracle-text
-        "Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller."}
+        "Whenever a creature is dealt damage, this enchantment deals that much damage to that creature's controller."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -875,7 +875,7 @@
         :layout "normal",
         :name "Defense of the Heart",
         :oracle-text
-        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice Defense of the Heart, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
+        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
@@ -914,7 +914,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/4/642cdc83-2973-40ac-96f4-22ffe47b4971.png?1692933300",
+        "https://cards.scryfall.io/png/front/6/4/642cdc83-2973-40ac-96f4-22ffe47b4971.png?1733763676",
         :collector-number "84",
         :layout "normal",
         :name "Greater Auramancy",
@@ -925,7 +925,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/3/534ca56b-5bcb-4b86-978a-87e8820ead9e.png?1692933317",
+        "https://cards.scryfall.io/png/front/5/3/534ca56b-5bcb-4b86-978a-87e8820ead9e.png?1733763692",
         :collector-number "85",
         :layout "normal",
         :name "Karmic Justice",
@@ -936,7 +936,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/a/ba851a93-7c85-4559-bedf-1a4b117869b4.png?1692933332",
+        "https://cards.scryfall.io/png/front/b/a/ba851a93-7c85-4559-bedf-1a4b117869b4.png?1733763697",
         :collector-number "86",
         :layout "normal",
         :name "Land Tax",
@@ -947,40 +947,40 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/0/a095e47e-8f02-45cf-a9d2-677fe171258d.png?1692933346",
+        "https://cards.scryfall.io/png/front/a/0/a095e47e-8f02-45cf-a9d2-677fe171258d.png?1733763697",
         :collector-number "87",
         :layout "normal",
         :name "Smothering Tithe",
         :oracle-text
-        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/6/c634fb14-49a1-4642-9a22-bce99279cb88.png?1692933361",
+        "https://cards.scryfall.io/png/front/c/6/c634fb14-49a1-4642-9a22-bce99279cb88.png?1733763703",
         :collector-number "88",
         :layout "normal",
         :name "As Foretold",
         :oracle-text
-        "At the beginning of your upkeep, put a time counter on As Foretold.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on As Foretold."}
+        "At the beginning of your upkeep, put a time counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/6/86dfee70-ce7b-40f9-ab48-7f2bcd6eaea1.png?1692933377",
+        "https://cards.scryfall.io/png/front/8/6/86dfee70-ce7b-40f9-ab48-7f2bcd6eaea1.png?1733763703",
         :collector-number "89",
         :layout "normal",
         :name "Kindred Discovery",
         :oracle-text
-        "As Kindred Discovery enters the battlefield, choose a creature type.\nWhenever a creature you control of the chosen type enters the battlefield or attacks, draw a card."}
+        "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/9/d9caf326-9f85-4fda-88a4-7862e0f5dc49.png?1692933392",
+        "https://cards.scryfall.io/png/front/d/9/d9caf326-9f85-4fda-88a4-7862e0f5dc49.png?1733760018",
         :collector-number "90",
         :layout "normal",
         :name "Omniscience",
@@ -991,18 +991,18 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/f/8f7f8d7a-e5ad-4c03-8ab3-e9af9c2927b7.png?1692933409",
+        "https://cards.scryfall.io/png/front/8/f/8f7f8d7a-e5ad-4c03-8ab3-e9af9c2927b7.png?1733760032",
         :collector-number "91",
         :layout "normal",
         :name "Rhystic Study",
         :oracle-text
         "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}."}
- #:card{:type-line "Tribal Enchantment — Faerie",
+ #:card{:type-line "Kindred Enchantment — Faerie",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/7/07ed5249-ac56-4f56-a8ca-f1808460dac6.png?1692933424",
+        "https://cards.scryfall.io/png/front/0/7/07ed5249-ac56-4f56-a8ca-f1808460dac6.png?1733759999",
         :collector-number "92",
         :layout "normal",
         :name "Bitterblossom",
@@ -1013,18 +1013,18 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/9/a/9aaced6e-f656-49d3-9130-ba255800e0a5.png?1692933438",
+        "https://cards.scryfall.io/png/front/9/a/9aaced6e-f656-49d3-9130-ba255800e0a5.png?1733763708",
         :collector-number "93",
         :layout "normal",
         :name "Grave Pact",
         :oracle-text
-        "Whenever a creature you control dies, each other player sacrifices a creature."}
+        "Whenever a creature you control dies, each other player sacrifices a creature of their choice."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/a/5a63228e-9e95-4234-a8a4-8d8b5139d48c.png?1692933453",
+        "https://cards.scryfall.io/png/front/5/a/5a63228e-9e95-4234-a8a4-8d8b5139d48c.png?1733763708",
         :collector-number "94",
         :layout "normal",
         :name "Necropotence",
@@ -1035,18 +1035,18 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/4/b474fc26-c95b-4508-805a-fcb2e7909d32.png?1692933470",
+        "https://cards.scryfall.io/png/front/b/4/b474fc26-c95b-4508-805a-fcb2e7909d32.png?1733763713",
         :collector-number "95",
         :layout "normal",
         :name "Polluted Bonds",
         :oracle-text
-        "Whenever a land enters the battlefield under an opponent's control, that player loses 2 life and you gain 2 life."}
+        "Whenever a land an opponent controls enters, that player loses 2 life and you gain 2 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/7/179ed1be-c16d-45a9-bb21-b72545e69a5c.png?1692933486",
+        "https://cards.scryfall.io/png/front/1/7/179ed1be-c16d-45a9-bb21-b72545e69a5c.png?1733763713",
         :collector-number "96",
         :layout "normal",
         :name "Aggravated Assault",
@@ -1057,7 +1057,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/a/eaff5644-bf82-4638-a73f-d77104631f90.png?1692933499",
+        "https://cards.scryfall.io/png/front/e/a/eaff5644-bf82-4638-a73f-d77104631f90.png?1733763719",
         :collector-number "97",
         :layout "normal",
         :name "Blood Moon",
@@ -1067,18 +1067,18 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/e/feeb4df7-3b59-4fc1-8fbb-b99ddedaa8fb.png?1692933514",
+        "https://cards.scryfall.io/png/front/f/e/feeb4df7-3b59-4fc1-8fbb-b99ddedaa8fb.png?1733763719",
         :collector-number "98",
         :layout "normal",
         :name "Repercussion",
         :oracle-text
-        "Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller."}
+        "Whenever a creature is dealt damage, this enchantment deals that much damage to that creature's controller."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/1/019edeac-ce93-4969-8dcb-787f0bfd9ae7.png?1692933528",
+        "https://cards.scryfall.io/png/front/0/1/019edeac-ce93-4969-8dcb-787f0bfd9ae7.png?1733763724",
         :collector-number "99",
         :layout "normal",
         :name "Sneak Attack",
@@ -1089,18 +1089,18 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/f/5/f5475db2-cd0f-401d-8827-288da3203e8d.png?1692933543",
+        "https://cards.scryfall.io/png/front/f/5/f5475db2-cd0f-401d-8827-288da3203e8d.png?1733763729",
         :collector-number "100",
         :layout "normal",
         :name "Defense of the Heart",
         :oracle-text
-        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice Defense of the Heart, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
+        "At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/7/2/72a09233-fd48-4122-ac5f-55247430e023.png?1692933561",
+        "https://cards.scryfall.io/png/front/7/2/72a09233-fd48-4122-ac5f-55247430e023.png?1733763749",
         :collector-number "101",
         :layout "normal",
         :name "Doubling Season",
@@ -1111,7 +1111,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/1/e1df9328-97ef-46aa-9d2c-897f62de0427.png?1692933577",
+        "https://cards.scryfall.io/png/front/e/1/e1df9328-97ef-46aa-9d2c-897f62de0427.png?1733759977",
         :collector-number "102",
         :layout "normal",
         :name "Nature's Will",
@@ -1122,7 +1122,7 @@
         :code "wot",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/d/ede3f0ae-dcca-409f-a2f9-7a86424d8e7c.png?1692933593",
+        "https://cards.scryfall.io/png/front/e/d/ede3f0ae-dcca-409f-a2f9-7a86424d8e7c.png?1733759987",
         :collector-number "103",
         :layout "normal",
         :name "Parallel Lives",

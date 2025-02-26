@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Yuma, Proud Protector",
         :oracle-text
-        "This spell costs {1} less to cast for each land card in your graveyard.\nWhenever Yuma, Proud Protector enters or attacks, you may sacrifice a land. If you do, draw a card.\nWhenever a Desert card is put into your graveyard from anywhere, create a 4/2 green Plant Warrior creature token with reach."}
+        "This spell costs {1} less to cast for each land card in your graveyard.\nWhenever Yuma enters or attacks, you may sacrifice a land. If you do, draw a card.\nWhenever a Desert card is put into your graveyard from anywhere, create a 4/2 green Plant Warrior creature token with reach."}
  #:card{:type-line "Legendary Creature — Elemental Warlock",
         :layout-category :normal,
         :code "otc",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Angel of Indemnity",
         :oracle-text
-        "Flying, lifelink\nWhen Angel of Indemnity enters, return target permanent card with mana value 4 or less from your graveyard to the battlefield.\nEncore {6}{W}{W} ({6}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "Flying, lifelink\nWhen this creature enters, return target permanent card with mana value 4 or less from your graveyard to the battlefield.\nEncore {6}{W}{W} ({6}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Creature — Angel Mercenary",
         :layout-category :normal,
         :code "otc",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Angelic Sell-Sword",
         :oracle-text
-        "Flying, vigilance\nWhenever Angelic Sell-Sword or another nontoken creature you control enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever Angelic Sell-Sword attacks, if its power is 6 or greater, draw a card."}
+        "Flying, vigilance\nWhenever this creature or another nontoken creature you control enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever this creature attacks, if its power is 6 or greater, draw a card."}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otc",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Sand Scout",
         :oracle-text
-        "When Sand Scout enters, if an opponent controls more lands than you, search your library for a Desert card, put it onto the battlefield tapped, then shuffle.\nWhenever one or more land cards are put into your graveyard from anywhere, create a 1/1 red, green, and white Sand Warrior creature token. This ability triggers only once each turn."}
+        "When this creature enters, if an opponent controls more lands than you, search your library for a Desert card, put it onto the battlefield tapped, then shuffle.\nWhenever one or more land cards are put into your graveyard from anywhere, create a 1/1 red, green, and white Sand Warrior creature token. This ability triggers only once each turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -151,7 +151,7 @@
         :layout "normal",
         :name "Forger's Foundry",
         :oracle-text
-        "{T}: Add {U}. When you spend this mana to cast an instant or sorcery spell with mana value 3 or less, you may exile that spell instead of putting it into its owner's graveyard as it resolves.\n{3}{U}{U}, {T}: You may cast any number of spells from among cards exiled with Forger's Foundry without paying their mana costs. Activate only as a sorcery."}
+        "{T}: Add {U}. When you spend this mana to cast an instant or sorcery spell with mana value 3 or less, you may exile that spell instead of putting it into its owner's graveyard as it resolves.\n{3}{U}{U}, {T}: You may cast any number of spells from among cards exiled with this artifact without paying their mana costs. Activate only as a sorcery."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Smirking Spelljacker",
         :oracle-text
-        "Flash\nFlying\nWhen Smirking Spelljacker enters, exile target spell an opponent controls.\nWhenever Smirking Spelljacker attacks, if a card is exiled with it, you may cast the exiled card without paying its mana cost."}
+        "Flash\nFlying\nWhen this creature enters, exile target spell an opponent controls.\nWhenever this creature attacks, if a card is exiled with it, you may cast the exiled card without paying its mana cost."}
  #:card{:type-line "Creature — Drake",
         :layout-category :normal,
         :code "otc",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Thunderclap Drake",
         :oracle-text
-        "Flying\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}, Sacrifice Thunderclap Drake: When you next cast an instant or sorcery spell this turn, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies."}
+        "Flying\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}, Sacrifice this creature: When you next cast an instant or sorcery spell this turn, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Charred Graverobber",
         :oracle-text
-        "When Charred Graverobber enters, return target outlaw card from your graveyard to your hand.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nCharred Graverobber escapes with a +1/+1 counter on it."}
+        "When this creature enters, return target outlaw card from your graveyard to your hand.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with a +1/+1 counter on it."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "otc",
@@ -272,7 +272,7 @@
         :layout "normal",
         :name "Crackling Spellslinger",
         :oracle-text
-        "Flash\nWhen Crackling Spellslinger enters, if you cast it, the next instant or sorcery spell you cast this turn has storm. (When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"}
+        "Flash\nWhen this creature enters, if you cast it, the next instant or sorcery spell you cast this turn has storm. (When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -327,7 +327,7 @@
         :layout "normal",
         :name "Smoldering Stagecoach",
         :oracle-text
-        "Smoldering Stagecoach's power is equal to the number of instant and sorcery cards in your graveyard.\nWhenever Smoldering Stagecoach attacks, the next instant spell and the next sorcery spell you cast this turn each have cascade.\nCrew 2"}
+        "Smoldering Stagecoach's power is equal to the number of instant and sorcery cards in your graveyard.\nWhenever this Vehicle attacks, the next instant spell and the next sorcery spell you cast this turn each have cascade.\nCrew 2"}
  #:card{:type-line "Creature — Plant Druid",
         :layout-category :normal,
         :code "otc",
@@ -349,7 +349,7 @@
         :layout "normal",
         :name "Rumbleweed",
         :oracle-text
-        "This spell costs {1} less to cast for each land card in your graveyard.\nVigilance, reach, trample\nWhen Rumbleweed enters, other creatures you control get +3/+3 and gain trample until end of turn."}
+        "This spell costs {1} less to cast for each land card in your graveyard.\nVigilance, reach, trample\nWhen this creature enters, other creatures you control get +3/+3 and gain trample until end of turn."}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "otc",
@@ -360,7 +360,7 @@
         :layout "normal",
         :name "Savvy Trader",
         :oracle-text
-        "When Savvy Trader enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.\nSpells you cast from anywhere other than your hand cost {1} less to cast."}
+        "When this creature enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.\nSpells you cast from anywhere other than your hand cost {1} less to cast."}
  #:card{:type-line "Creature — Snake",
         :layout-category :normal,
         :code "otc",
@@ -371,7 +371,7 @@
         :layout "normal",
         :name "Tower Winder",
         :oracle-text
-        "Reach, deathtouch\nWhen Tower Winder enters, search your library and/or graveyard for a card named Command Tower, reveal it, and put it into your hand. If you search your library this way, shuffle."}
+        "Reach, deathtouch\nWhen this creature enters, search your library and/or graveyard for a card named Command Tower, reveal it, and put it into your hand. If you search your library this way, shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -426,7 +426,7 @@
         :layout "normal",
         :name "Leyline Dowser",
         :oracle-text
-        "{1}, {T}: Mill a card. You may put an instant or sorcery card milled this way into your hand.\nTap an untapped legendary creature you control: Untap Leyline Dowser."}
+        "{1}, {T}: Mill a card. You may put an instant or sorcery card milled this way into your hand.\nTap an untapped legendary creature you control: Untap this artifact."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -437,7 +437,7 @@
         :layout "normal",
         :name "Cactus Preserve",
         :oracle-text
-        "Cactus Preserve enters tapped.\n{T}: Add one mana of any type that a land you control could produce.\n{3}: Until end of turn, Cactus Preserve becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land."}
+        "This land enters tapped.\n{T}: Add one mana of any type that a land you control could produce.\n{3}: Until end of turn, this land becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land."}
  #:card{:type-line "Legendary Creature — Elemental Warlock",
         :layout-category :normal,
         :code "otc",
@@ -492,7 +492,7 @@
         :layout "normal",
         :name "Angel of Indemnity",
         :oracle-text
-        "Flying, lifelink\nWhen Angel of Indemnity enters, return target permanent card with mana value 4 or less from your graveyard to the battlefield.\nEncore {6}{W}{W} ({6}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "Flying, lifelink\nWhen this creature enters, return target permanent card with mana value 4 or less from your graveyard to the battlefield.\nEncore {6}{W}{W} ({6}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Creature — Angel Mercenary",
         :layout-category :normal,
         :code "otc",
@@ -503,7 +503,7 @@
         :layout "normal",
         :name "Angelic Sell-Sword",
         :oracle-text
-        "Flying, vigilance\nWhenever Angelic Sell-Sword or another nontoken creature you control enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever Angelic Sell-Sword attacks, if its power is 6 or greater, draw a card."}
+        "Flying, vigilance\nWhenever this creature or another nontoken creature you control enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever this creature attacks, if its power is 6 or greater, draw a card."}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otc",
@@ -514,7 +514,7 @@
         :layout "normal",
         :name "Sand Scout",
         :oracle-text
-        "When Sand Scout enters, if an opponent controls more lands than you, search your library for a Desert card, put it onto the battlefield tapped, then shuffle.\nWhenever one or more land cards are put into your graveyard from anywhere, create a 1/1 red, green, and white Sand Warrior creature token. This ability triggers only once each turn."}
+        "When this creature enters, if an opponent controls more lands than you, search your library for a Desert card, put it onto the battlefield tapped, then shuffle.\nWhenever one or more land cards are put into your graveyard from anywhere, create a 1/1 red, green, and white Sand Warrior creature token. This ability triggers only once each turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -547,7 +547,7 @@
         :layout "normal",
         :name "Forger's Foundry",
         :oracle-text
-        "{T}: Add {U}. When you spend this mana to cast an instant or sorcery spell with mana value 3 or less, you may exile that spell instead of putting it into its owner's graveyard as it resolves.\n{3}{U}{U}, {T}: You may cast any number of spells from among cards exiled with Forger's Foundry without paying their mana costs. Activate only as a sorcery."}
+        "{T}: Add {U}. When you spend this mana to cast an instant or sorcery spell with mana value 3 or less, you may exile that spell instead of putting it into its owner's graveyard as it resolves.\n{3}{U}{U}, {T}: You may cast any number of spells from among cards exiled with this artifact without paying their mana costs. Activate only as a sorcery."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -569,7 +569,7 @@
         :layout "normal",
         :name "Smirking Spelljacker",
         :oracle-text
-        "Flash\nFlying\nWhen Smirking Spelljacker enters, exile target spell an opponent controls.\nWhenever Smirking Spelljacker attacks, if a card is exiled with it, you may cast the exiled card without paying its mana cost."}
+        "Flash\nFlying\nWhen this creature enters, exile target spell an opponent controls.\nWhenever this creature attacks, if a card is exiled with it, you may cast the exiled card without paying its mana cost."}
  #:card{:type-line "Creature — Drake",
         :layout-category :normal,
         :code "otc",
@@ -580,7 +580,7 @@
         :layout "normal",
         :name "Thunderclap Drake",
         :oracle-text
-        "Flying\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}, Sacrifice Thunderclap Drake: When you next cast an instant or sorcery spell this turn, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies."}
+        "Flying\nInstant and sorcery spells you cast cost {1} less to cast.\n{2}{U}, Sacrifice this creature: When you next cast an instant or sorcery spell this turn, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -602,7 +602,7 @@
         :layout "normal",
         :name "Charred Graverobber",
         :oracle-text
-        "When Charred Graverobber enters, return target outlaw card from your graveyard to your hand.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nCharred Graverobber escapes with a +1/+1 counter on it."}
+        "When this creature enters, return target outlaw card from your graveyard to your hand.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with a +1/+1 counter on it."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "otc",
@@ -668,7 +668,7 @@
         :layout "normal",
         :name "Crackling Spellslinger",
         :oracle-text
-        "Flash\nWhen Crackling Spellslinger enters, if you cast it, the next instant or sorcery spell you cast this turn has storm. (When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"}
+        "Flash\nWhen this creature enters, if you cast it, the next instant or sorcery spell you cast this turn has storm. (When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -723,7 +723,7 @@
         :layout "normal",
         :name "Smoldering Stagecoach",
         :oracle-text
-        "Smoldering Stagecoach's power is equal to the number of instant and sorcery cards in your graveyard.\nWhenever Smoldering Stagecoach attacks, the next instant spell and the next sorcery spell you cast this turn each have cascade.\nCrew 2"}
+        "Smoldering Stagecoach's power is equal to the number of instant and sorcery cards in your graveyard.\nWhenever this Vehicle attacks, the next instant spell and the next sorcery spell you cast this turn each have cascade.\nCrew 2"}
  #:card{:type-line "Creature — Plant Druid",
         :layout-category :normal,
         :code "otc",
@@ -745,7 +745,7 @@
         :layout "normal",
         :name "Rumbleweed",
         :oracle-text
-        "This spell costs {1} less to cast for each land card in your graveyard.\nVigilance, reach, trample\nWhen Rumbleweed enters, other creatures you control get +3/+3 and gain trample until end of turn."}
+        "This spell costs {1} less to cast for each land card in your graveyard.\nVigilance, reach, trample\nWhen this creature enters, other creatures you control get +3/+3 and gain trample until end of turn."}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "otc",
@@ -756,7 +756,7 @@
         :layout "normal",
         :name "Savvy Trader",
         :oracle-text
-        "When Savvy Trader enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.\nSpells you cast from anywhere other than your hand cost {1} less to cast."}
+        "When this creature enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.\nSpells you cast from anywhere other than your hand cost {1} less to cast."}
  #:card{:type-line "Creature — Snake",
         :layout-category :normal,
         :code "otc",
@@ -767,7 +767,7 @@
         :layout "normal",
         :name "Tower Winder",
         :oracle-text
-        "Reach, deathtouch\nWhen Tower Winder enters, search your library and/or graveyard for a card named Command Tower, reveal it, and put it into your hand. If you search your library this way, shuffle."}
+        "Reach, deathtouch\nWhen this creature enters, search your library and/or graveyard for a card named Command Tower, reveal it, and put it into your hand. If you search your library this way, shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -822,7 +822,7 @@
         :layout "normal",
         :name "Leyline Dowser",
         :oracle-text
-        "{1}, {T}: Mill a card. You may put an instant or sorcery card milled this way into your hand.\nTap an untapped legendary creature you control: Untap Leyline Dowser."}
+        "{1}, {T}: Mill a card. You may put an instant or sorcery card milled this way into your hand.\nTap an untapped legendary creature you control: Untap this artifact."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -833,7 +833,7 @@
         :layout "normal",
         :name "Cactus Preserve",
         :oracle-text
-        "Cactus Preserve enters tapped.\n{T}: Add one mana of any type that a land you control could produce.\n{3}: Until end of turn, Cactus Preserve becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land."}
+        "This land enters tapped.\n{T}: Add one mana of any type that a land you control could produce.\n{3}: Until end of turn, this land becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land."}
  #:card{:type-line "Creature — Eldrazi",
         :layout-category :normal,
         :code "otc",
@@ -855,7 +855,7 @@
         :layout "normal",
         :name "Angel of the Ruins",
         :oracle-text
-        "Flying\nWhen Angel of the Ruins enters, exile up to two target artifacts and/or enchantments.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)"}
+        "Flying\nWhen this creature enters, exile up to two target artifacts and/or enchantments.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -899,7 +899,7 @@
         :layout "normal",
         :name "Marshal's Anthem",
         :oracle-text
-        "Multikicker {1}{W} (You may pay an additional {1}{W} any number of times as you cast this spell.)\nCreatures you control get +1/+1.\nWhen Marshal's Anthem enters, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times Marshal's Anthem was kicked."}
+        "Multikicker {1}{W} (You may pay an additional {1}{W} any number of times as you cast this spell.)\nCreatures you control get +1/+1.\nWhen this enchantment enters, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times this enchantment was kicked."}
  #:card{:type-line "Creature — Shapeshifter",
         :layout-category :normal,
         :code "otc",
@@ -954,7 +954,7 @@
         :layout "normal",
         :name "Sun Titan",
         :oracle-text
-        "Vigilance\nWhenever Sun Titan enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
+        "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -1020,7 +1020,7 @@
         :layout "normal",
         :name "Dazzling Sphinx",
         :oracle-text
-        "Flying\nWhenever Dazzling Sphinx deals combat damage to a player, that player exiles cards from the top of their library until they exile an instant or sorcery card. You may cast that card without paying its mana cost. Then that player puts the exiled cards that weren't cast this way on the bottom of their library in a random order."}
+        "Flying\nWhenever this creature deals combat damage to a player, that player exiles cards from the top of their library until they exile an instant or sorcery card. You may cast that card without paying its mana cost. Then that player puts the exiled cards that weren't cast this way on the bottom of their library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1053,7 +1053,7 @@
         :layout "normal",
         :name "Diluvian Primordial",
         :oracle-text
-        "Flying\nWhen Diluvian Primordial enters, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a spell cast this way would be put into a graveyard, exile it instead."}
+        "Flying\nWhen this creature enters, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a spell cast this way would be put into a graveyard, exile it instead."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1075,7 +1075,7 @@
         :layout "normal",
         :name "Ghostly Pilferer",
         :oracle-text
-        "Whenever Ghostly Pilferer becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: Ghostly Pilferer can't be blocked this turn."}
+        "Whenever this creature becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: This creature can't be blocked this turn."}
  #:card{:type-line "Creature — Djinn",
         :layout-category :normal,
         :code "otc",
@@ -1097,7 +1097,7 @@
         :layout "normal",
         :name "Midnight Clock",
         :oracle-text
-        "{T}: Add {U}.\n{2}{U}: Put an hour counter on Midnight Clock.\nAt the beginning of each upkeep, put an hour counter on Midnight Clock.\nWhen the twelfth hour counter is put on Midnight Clock, shuffle your hand and graveyard into your library, then draw seven cards. Exile Midnight Clock."}
+        "{T}: Add {U}.\n{2}{U}: Put an hour counter on this artifact.\nAt the beginning of each upkeep, put an hour counter on this artifact.\nWhen the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -1140,7 +1140,8 @@
         :collector-number "104",
         :layout "normal",
         :name "Opt",
-        :oracle-text "Scry 1.\nDraw a card."}
+        :oracle-text
+        "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1238,7 +1239,7 @@
         :layout "normal",
         :name "Shark Typhoon",
         :oracle-text
-        "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle Shark Typhoon, create an X/X blue Shark creature token with flying."}
+        "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying."}
  #:card{:type-line "Creature — Snake Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1248,7 +1249,7 @@
         :collector-number "114",
         :layout "normal",
         :name "Slither Blade",
-        :oracle-text "Slither Blade can't be blocked."}
+        :oracle-text "This creature can't be blocked."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1292,7 +1293,7 @@
         :layout "normal",
         :name "Thieving Skydiver",
         :oracle-text
-        "Kicker {X}. X can't be 0. (You may pay an additional {X} as you cast this spell.)\nFlying\nWhen Thieving Skydiver enters, if it was kicked, gain control of target artifact with mana value X or less. If that artifact is an Equipment, attach it to Thieving Skydiver."}
+        "Kicker {X}. X can't be 0. (You may pay an additional {X} as you cast this spell.)\nFlying\nWhen this creature enters, if it was kicked, gain control of target artifact with mana value X or less. If that artifact is an Equipment, attach it to this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -1309,7 +1310,7 @@
         :code "otc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/6/d653b8ac-f643-4e0a-bfd4-edc658a18d9c.png?1712354234",
+        "https://cards.scryfall.io/png/front/d/6/d653b8ac-f643-4e0a-bfd4-edc658a18d9c.png?1737917413",
         :collector-number "120",
         :layout "normal",
         :name "Treasure Cruise",
@@ -1324,7 +1325,7 @@
         :collector-number "121",
         :layout "normal",
         :name "Triton Shorestalker",
-        :oracle-text "Triton Shorestalker can't be blocked."}
+        :oracle-text "This creature can't be blocked."}
  #:card{:type-line "Creature — Human Rogue Artificer",
         :layout-category :normal,
         :code "otc",
@@ -1335,7 +1336,7 @@
         :layout "normal",
         :name "Whirler Rogue",
         :oracle-text
-        "When Whirler Rogue enters, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
+        "When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1368,7 +1369,7 @@
         :layout "normal",
         :name "Aetherborn Marauder",
         :oracle-text
-        "Flying, lifelink\nWhen Aetherborn Marauder enters, move any number of +1/+1 counters from other permanents you control onto Aetherborn Marauder."}
+        "Flying, lifelink\nWhen this creature enters, move any number of +1/+1 counters from other permanents you control onto this creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -1401,7 +1402,7 @@
         :layout "normal",
         :name "Changeling Outcast",
         :oracle-text
-        "Changeling (This card is every creature type.)\nChangeling Outcast can't block and can't be blocked."}
+        "Changeling (This card is every creature type.)\nThis creature can't block and can't be blocked."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -1434,7 +1435,7 @@
         :layout "normal",
         :name "Deadly Dispute",
         :oracle-text
-        "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Orc Pirate Wizard",
         :layout-category :normal,
         :code "otc",
@@ -1445,7 +1446,7 @@
         :layout "normal",
         :name "Dire Fleet Ravager",
         :oracle-text
-        "Menace, deathtouch\nWhen Dire Fleet Ravager enters, each player loses a third of their life, rounded up."}
+        "Menace, deathtouch\nWhen this creature enters, each player loses a third of their life, rounded up."}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "otc",
@@ -1456,7 +1457,7 @@
         :layout "normal",
         :name "Fain, the Broker",
         :oracle-text
-        "{T}, Sacrifice a creature: Put two +1/+1 counters on target creature.\n{T}, Remove a counter from a creature you control: Create a Treasure token.\n{T}, Sacrifice an artifact: Create a 2/1 white and black Inkling creature token with flying.\n{3}{B}: Untap Fain, the Broker."}
+        "{T}, Sacrifice a creature: Put two +1/+1 counters on target creature.\n{T}, Remove a counter from a creature you control: Create a Treasure token.\n{T}, Sacrifice an artifact: Create a 2/1 white and black Inkling creature token with flying.\n{3}{B}: Untap Fain."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1478,7 +1479,7 @@
         :layout "normal",
         :name "Gonti, Lord of Luxury",
         :oracle-text
-        "Deathtouch\nWhen Gonti, Lord of Luxury enters, look at the top four cards of target opponent's library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
+        "Deathtouch\nWhen Gonti enters, look at the top four cards of target opponent's library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1499,7 +1500,7 @@
         :layout "normal",
         :name "Kamber, the Plunderer",
         :oracle-text
-        "Partner with Laurine, the Diversion (When this creature enters, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")"}
+        "Partner with Laurine, the Diversion (When this creature enters, target player may put Laurine into their hand from their library, then shuffle.)\nLifelink\nWhenever a creature an opponent controls dies, you gain 1 life and create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "otc",
@@ -1543,7 +1544,7 @@
         :layout "normal",
         :name "Misfortune Teller",
         :oracle-text
-        "Deathtouch\nWhenever Misfortune Teller enters or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
+        "Deathtouch\nWhenever this creature enters or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1565,7 +1566,7 @@
         :layout "normal",
         :name "Nashi, Moon Sage's Scion",
         :oracle-text
-        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi, Moon Sage's Scion deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
+        "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Nashi deals combat damage to a player, exile the top card of each player's library. Until end of turn, you may play one of those cards. If you cast a spell this way, pay life equal to its mana value rather than paying its mana cost."}
  #:card{:type-line "Creature — Vampire Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1620,7 +1621,7 @@
         :layout "normal",
         :name "Rankle, Master of Pranks",
         :oracle-text
-        "Flying, haste\nWhenever Rankle, Master of Pranks deals combat damage to a player, choose any number —\n• Each player discards a card.\n• Each player loses 1 life and draws a card.\n• Each player sacrifices a creature."}
+        "Flying, haste\nWhenever Rankle deals combat damage to a player, choose any number —\n• Each player discards a card.\n• Each player loses 1 life and draws a card.\n• Each player sacrifices a creature of their choice."}
  #:card{:type-line "Creature — Vampire Warlock",
         :layout-category :normal,
         :code "otc",
@@ -1631,7 +1632,7 @@
         :layout "normal",
         :name "Tenured Inkcaster",
         :oracle-text
-        "When Tenured Inkcaster enters, put a +1/+1 counter on target creature.\nWhenever a creature you control with a +1/+1 counter on it attacks, each opponent loses 1 life and you gain 1 life."}
+        "When this creature enters, put a +1/+1 counter on target creature.\nWhenever a creature you control with a +1/+1 counter on it attacks, each opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Creature — Ape Snake",
         :layout-category :normal,
         :code "otc",
@@ -1664,7 +1665,7 @@
         :layout "normal",
         :name "Witch of the Moors",
         :oracle-text
-        "Deathtouch\nAt the beginning of your end step, if you gained life this turn, each opponent sacrifices a creature and you return up to one target creature card from your graveyard to your hand."}
+        "Deathtouch\nAt the beginning of your end step, if you gained life this turn, each opponent sacrifices a creature of their choice and you return up to one target creature card from your graveyard to your hand."}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "otc",
@@ -1686,7 +1687,7 @@
         :layout "normal",
         :name "Arcane Bombardment",
         :oracle-text
-        "Whenever you cast your first instant or sorcery spell each turn, exile an instant or sorcery card at random from your graveyard. Then copy each card exiled with Arcane Bombardment. You may cast any number of the copies without paying their mana costs."}
+        "Whenever you cast your first instant or sorcery spell each turn, exile an instant or sorcery card at random from your graveyard. Then copy each card exiled with this enchantment. You may cast any number of the copies without paying their mana costs."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -1697,7 +1698,7 @@
         :layout "normal",
         :name "Big Score",
         :oracle-text
-        "As an additional cost to cast this spell, discard a card.\nDraw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "As an additional cost to cast this spell, discard a card.\nDraw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -1708,7 +1709,7 @@
         :layout "normal",
         :name "Bitter Reunion",
         :oracle-text
-        "When Bitter Reunion enters, you may discard a card. If you do, draw two cards.\n{1}, Sacrifice Bitter Reunion: Creatures you control gain haste until end of turn."}
+        "When this enchantment enters, you may discard a card. If you do, draw two cards.\n{1}, Sacrifice this enchantment: Creatures you control gain haste until end of turn."}
  #:card{:type-line "Creature — Vampire",
         :layout-category :normal,
         :code "otc",
@@ -1719,7 +1720,7 @@
         :layout "normal",
         :name "Bloodthirsty Adversary",
         :oracle-text
-        "Haste\nWhen Bloodthirsty Adversary enters, you may pay {2}{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Bloodthirsty Adversary, then exile up to that many target instant and/or sorcery cards with mana value 3 or less from your graveyard and copy them. You may cast any number of the copies without paying their mana costs."}
+        "Haste\nWhen this creature enters, you may pay {2}{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on this creature, then exile up to that many target instant and/or sorcery cards with mana value 3 or less from your graveyard and copy them. You may cast any number of the copies without paying their mana costs."}
  #:card{:type-line "Legendary Creature — Human Pirate",
         :layout-category :normal,
         :code "otc",
@@ -1730,7 +1731,7 @@
         :layout "normal",
         :name "Captain Lannery Storm",
         :oracle-text
-        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
+        "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "otc",
@@ -1763,7 +1764,7 @@
         :layout "normal",
         :name "Cursed Mirror",
         :oracle-text
-        "{T}: Add {R}.\nAs Cursed Mirror enters, you may have it become a copy of any creature on the battlefield until end of turn, except it has haste."}
+        "{T}: Add {R}.\nAs this artifact enters, you may have it become a copy of any creature on the battlefield until end of turn, except it has haste."}
  #:card{:type-line "Creature — Human Pirate",
         :layout-category :normal,
         :code "otc",
@@ -1774,7 +1775,7 @@
         :layout "normal",
         :name "Dire Fleet Daredevil",
         :oracle-text
-        "First strike\nWhen Dire Fleet Daredevil enters, exile target instant or sorcery card from an opponent's graveyard. You may cast it this turn, and mana of any type can be spent to cast that spell. If that spell would be put into a graveyard, exile it instead."}
+        "First strike\nWhen this creature enters, exile target instant or sorcery card from an opponent's graveyard. You may cast it this turn, and mana of any type can be spent to cast that spell. If that spell would be put into a graveyard, exile it instead."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -1796,13 +1797,13 @@
         :layout "normal",
         :name "Electrostatic Field",
         :oracle-text
-        "Defender\nWhenever you cast an instant or sorcery spell, Electrostatic Field deals 1 damage to each opponent."}
+        "Defender\nWhenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/e/1ea23c17-6960-44fd-bae3-e24595b00c22.png?1712354425",
+        "https://cards.scryfall.io/png/front/1/e/1ea23c17-6960-44fd-bae3-e24595b00c22.png?1734350248",
         :collector-number "165",
         :layout "normal",
         :name "Faithless Looting",
@@ -1829,7 +1830,7 @@
         :layout "normal",
         :name "Glittering Stockpile",
         :oracle-text
-        "{T}: Add {R}. Put a stash counter on Glittering Stockpile.\n{T}, Sacrifice Glittering Stockpile: Add X mana of any one color, where X is the number of stash counters on Glittering Stockpile."}
+        "{T}: Add {R}. Put a stash counter on this artifact.\n{T}, Sacrifice this artifact: Add X mana of any one color, where X is the number of stash counters on this artifact."}
  #:card{:type-line "Legendary Creature — Goblin Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1851,7 +1852,7 @@
         :layout "normal",
         :name "Guttersnipe",
         :oracle-text
-        "Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent."}
+        "Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1862,7 +1863,7 @@
         :layout "normal",
         :name "Humble Defector",
         :oracle-text
-        "{T}: Draw two cards. Target opponent gains control of Humble Defector. Activate only during your turn."}
+        "{T}: Draw two cards. Target opponent gains control of this creature. Activate only during your turn."}
  #:card{:type-line "Creature — Goblin Pirate",
         :layout-category :normal,
         :code "otc",
@@ -1873,7 +1874,7 @@
         :layout "normal",
         :name "Impulsive Pilferer",
         :oracle-text
-        "When Impulsive Pilferer dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "When this creature dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Human Rogue",
         :layout-category :normal,
         :code "otc",
@@ -1928,7 +1929,7 @@
         :layout "normal",
         :name "Nesting Dragon",
         :oracle-text
-        "Flying\nLandfall — Whenever a land you control enters, create a 0/2 red Dragon Egg creature token with defender and \"When this creature dies, create a 2/2 red Dragon creature token with flying and '{R}: This creature gets +1/+0 until end of turn.'\""}
+        "Flying\nLandfall — Whenever a land you control enters, create a 0/2 red Dragon Egg creature token with defender and \"When this token dies, create a 2/2 red Dragon creature token with flying and '{R}: This token gets +1/+0 until end of turn.'\""}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otc",
@@ -1939,7 +1940,7 @@
         :layout "normal",
         :name "Rain of Riches",
         :oracle-text
-        "When Rain of Riches enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
+        "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -1972,7 +1973,7 @@
         :layout "normal",
         :name "Shiny Impetus",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Dwarf Shaman",
         :layout-category :normal,
         :code "otc",
@@ -1983,7 +1984,7 @@
         :layout "normal",
         :name "Storm-Kiln Artist",
         :oracle-text
-        "Storm-Kiln Artist gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token."}
+        "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2038,7 +2039,7 @@
         :layout "normal",
         :name "Ancient Greenwarden",
         :oracle-text
-        "Reach\nYou may play lands from your graveyard.\nIf a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Reach (This creature can block creatures with flying.)\nYou may play lands from your graveyard.\nIf a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "otc",
@@ -2049,7 +2050,7 @@
         :layout "normal",
         :name "Avenger of Zendikar",
         :oracle-text
-        "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control."}
+        "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "otc",
@@ -2082,7 +2083,7 @@
         :layout "normal",
         :name "Eccentric Farmer",
         :oracle-text
-        "When Eccentric Farmer enters, mill three cards, then you may return a land card from your graveyard to your hand. (To mill a card, put the top card of your library into your graveyard.)"}
+        "When this creature enters, mill three cards, then you may return a land card from your graveyard to your hand. (To mill three cards, put the top three cards of your library into your graveyard.)"}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "otc",
@@ -2093,7 +2094,7 @@
         :layout "normal",
         :name "Elvish Rejuvenator",
         :oracle-text
-        "When Elvish Rejuvenator enters, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order."}
+        "When this creature enters, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -2115,7 +2116,7 @@
         :layout "normal",
         :name "Genesis Hydra",
         :oracle-text
-        "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield. Then shuffle the rest into your library.\nGenesis Hydra enters with X +1/+1 counters on it."}
+        "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield. Then shuffle the rest into your library.\nThis creature enters with X +1/+1 counters on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2170,7 +2171,7 @@
         :layout "normal",
         :name "Nantuko Cultivator",
         :oracle-text
-        "When Nantuko Cultivator enters, you may discard any number of land cards. Put that many +1/+1 counters on Nantuko Cultivator and draw that many cards."}
+        "When this creature enters, you may discard any number of land cards. Put that many +1/+1 counters on this creature and draw that many cards."}
  #:card{:type-line "Snow Creature — Snake",
         :layout-category :normal,
         :code "otc",
@@ -2235,7 +2236,7 @@
         :layout "normal",
         :name "Satyr Wayfinder",
         :oracle-text
-        "When Satyr Wayfinder enters, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard."}
+        "When this creature enters, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard."}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "otc",
@@ -2246,7 +2247,7 @@
         :layout "normal",
         :name "Scute Swarm",
         :oracle-text
-        "Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of Scute Swarm instead."}
+        "Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of this creature instead."}
  #:card{:type-line "Creature — Elf Rogue",
         :layout-category :normal,
         :code "otc",
@@ -2257,7 +2258,7 @@
         :layout "normal",
         :name "Silhana Ledgewalker",
         :oracle-text
-        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nSilhana Ledgewalker can't be blocked except by creatures with flying."}
+        "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nThis creature can't be blocked except by creatures with flying."}
  #:card{:type-line "Creature — Snake",
         :layout-category :normal,
         :code "otc",
@@ -2268,7 +2269,7 @@
         :layout "normal",
         :name "Skullwinder",
         :oracle-text
-        "Deathtouch\nWhen Skullwinder enters, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from their graveyard to their hand."}
+        "Deathtouch\nWhen this creature enters, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from their graveyard to their hand."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "otc",
@@ -2279,7 +2280,7 @@
         :layout "normal",
         :name "Springbloom Druid",
         :oracle-text
-        "When Springbloom Druid enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
+        "When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -2301,7 +2302,7 @@
         :layout "normal",
         :name "Titania, Protector of Argoth",
         :oracle-text
-        "When Titania, Protector of Argoth enters, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token."}
+        "When Titania enters, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "otc",
@@ -2323,7 +2324,7 @@
         :layout "normal",
         :name "Void Attendant",
         :oracle-text
-        "Devoid (This card has no color.)\n{1}{G}, Put a card an opponent owns from exile into that player's graveyard: Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\""}
+        "Devoid (This card has no color.)\n{1}{G}, Put a card an opponent owns from exile into that player's graveyard: Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this token: Add {C}.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -2345,7 +2346,7 @@
         :layout "normal",
         :name "World Shaper",
         :oracle-text
-        "Whenever World Shaper attacks, you may mill three cards.\nWhen World Shaper dies, return all land cards from your graveyard to the battlefield tapped."}
+        "Whenever this creature attacks, you may mill three cards.\nWhen this creature dies, return all land cards from your graveyard to the battlefield tapped."}
  #:card{:type-line "Artifact Creature — Bird",
         :layout-category :normal,
         :code "otc",
@@ -2356,7 +2357,7 @@
         :layout "normal",
         :name "Baleful Strix",
         :oracle-text
-        "Flying, deathtouch\nWhen Baleful Strix enters, draw a card."}
+        "Flying, deathtouch\nWhen this creature enters, draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2389,7 +2390,7 @@
         :layout "normal",
         :name "Cold-Eyed Selkie",
         :oracle-text
-        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Cold-Eyed Selkie deals combat damage to a player, you may draw that many cards."}
+        "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever this creature deals combat damage to a player, you may draw that many cards."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -2477,7 +2478,7 @@
         :layout "normal",
         :name "Fallen Shinobi",
         :oracle-text
-        "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs."}
+        "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2536,7 +2537,7 @@
         :layout "normal",
         :name "Hostage Taker",
         :oracle-text
-        "When Hostage Taker enters, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
+        "When this creature enters, exile another target creature or artifact until this creature leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "otc",
@@ -2580,7 +2581,7 @@
         :layout "normal",
         :name "Niv-Mizzet, Parun",
         :oracle-text
-        "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet, Parun deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card."}
+        "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card."}
  #:card{:type-line "Legendary Creature — Elemental",
         :layout-category :normal,
         :code "otc",
@@ -2591,7 +2592,7 @@
         :layout "normal",
         :name "Omnath, Locus of Rage",
         :oracle-text
-        "Landfall — Whenever a land you control enters, create a 5/5 red and green Elemental creature token.\nWhenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to any target."}
+        "Landfall — Whenever a land you control enters, create a 5/5 red and green Elemental creature token.\nWhenever Omnath or another Elemental you control dies, Omnath deals 3 damage to any target."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2635,7 +2636,7 @@
         :layout "normal",
         :name "Shadowmage Infiltrator",
         :oracle-text
-        "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card."}
+        "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever this creature deals combat damage to a player, you may draw a card."}
  #:card{:type-line "Creature — Demon Ninja",
         :layout-category :normal,
         :code "otc",
@@ -2646,7 +2647,7 @@
         :layout "normal",
         :name "Silent-Blade Oni",
         :oracle-text
-        "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost."}
+        "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otc",
@@ -2668,7 +2669,7 @@
         :layout "normal",
         :name "Thief of Sanity",
         :oracle-text
-        "Flying\nWhenever Thief of Sanity deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
+        "Flying\nWhenever this creature deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Creature — Human Monk",
         :layout-category :normal,
         :code "otc",
@@ -2701,7 +2702,7 @@
         :layout "normal",
         :name "Trygon Predator",
         :oracle-text
-        "Flying\nWhenever Trygon Predator deals combat damage to a player, you may destroy target artifact or enchantment that player controls."}
+        "Flying\nWhenever this creature deals combat damage to a player, you may destroy target artifact or enchantment that player controls."}
  #:card{:type-line "Legendary Creature — Whale Wolf",
         :layout-category :normal,
         :code "otc",
@@ -2712,7 +2713,7 @@
         :layout "normal",
         :name "Ukkima, Stalking Shadow",
         :oracle-text
-        "Partner with Cazur, Ruthless Stalker (When this creature enters, target player may put Cazur into their hand from their library, then shuffle.)\nUkkima, Stalking Shadow can't be blocked.\nWhen Ukkima leaves the battlefield, it deals X damage to target player and you gain X life, where X is its power."}
+        "Partner with Cazur, Ruthless Stalker (When this creature enters, target player may put Cazur into their hand from their library, then shuffle.)\nUkkima can't be blocked.\nWhen Ukkima leaves the battlefield, it deals X damage to target player and you gain X life, where X is its power."}
  #:card{:type-line "Legendary Creature — Efreet Wizard",
         :layout-category :normal,
         :code "otc",
@@ -2723,7 +2724,7 @@
         :layout "normal",
         :name "Veyran, Voice of Duality",
         :oracle-text
-        "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran, Voice of Duality gets +1/+1 until end of turn.\nIf you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
+        "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn.\nIf you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otc",
@@ -2773,12 +2774,12 @@
         :code "otc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/0/0093bdcf-6626-40ab-9b87-8ab9e4a306a4.png?1712354843",
+        "https://cards.scryfall.io/png/front/0/0/0093bdcf-6626-40ab-9b87-8ab9e4a306a4.png?1739657327",
         :collector-number "253",
         :layout "normal",
         :name "Bladegriff Prototype",
         :oracle-text
-        "Flying\nWhenever Bladegriff Prototype deals combat damage to a player, destroy target nonland permanent of that player's choice that one of your opponents controls."}
+        "Flying\nWhenever this creature deals combat damage to a player, destroy target nonland permanent of that player's choice that one of your opponents controls."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otc",
@@ -2833,7 +2834,7 @@
         :layout "normal",
         :name "Idol of Oblivion",
         :oracle-text
-        "{T}: Draw a card. Activate only if you created a token this turn.\n{8}, {T}, Sacrifice Idol of Oblivion: Create a 10/10 colorless Eldrazi creature token."}
+        "{T}: Draw a card. Activate only if you created a token this turn.\n{8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otc",
@@ -2886,7 +2887,7 @@
         :layout "normal",
         :name "Perpetual Timepiece",
         :oracle-text
-        "{T}: Mill two cards.\n{2}, Exile Perpetual Timepiece: Shuffle any number of target cards from your graveyard into your library."}
+        "{T}: Mill two cards.\n{2}, Exile this artifact: Shuffle any number of target cards from your graveyard into your library."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otc",
@@ -2918,7 +2919,7 @@
         :layout "normal",
         :name "Scaretiller",
         :oracle-text
-        "Whenever Scaretiller becomes tapped, choose one —\n• You may put a land card from your hand onto the battlefield tapped.\n• Return target land card from your graveyard to the battlefield tapped."}
+        "Whenever this creature becomes tapped, choose one —\n• You may put a land card from your hand onto the battlefield tapped.\n• Return target land card from your graveyard to the battlefield tapped."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otc",
@@ -2939,7 +2940,7 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "otc",
@@ -2972,7 +2973,7 @@
         :layout "normal",
         :name "Battlefield Forge",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -2983,7 +2984,7 @@
         :layout "normal",
         :name "Blackcleave Cliffs",
         :oracle-text
-        "Blackcleave Cliffs enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -2994,7 +2995,7 @@
         :layout "normal",
         :name "Bojuka Bog",
         :oracle-text
-        "Bojuka Bog enters tapped.\nWhen Bojuka Bog enters, exile target player's graveyard.\n{T}: Add {B}."}
+        "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3016,7 +3017,7 @@
         :layout "normal",
         :name "Canyon Slough",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nCanyon Slough enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3038,7 +3039,7 @@
         :layout "normal",
         :name "Caves of Koilos",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3049,7 +3050,7 @@
         :layout "normal",
         :name "Clifftop Retreat",
         :oracle-text
-        "Clifftop Retreat enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}."}
+        "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3060,7 +3061,7 @@
         :layout "normal",
         :name "Command Beacon",
         :oracle-text
-        "{T}: Add {C}.\n{T}, Sacrifice Command Beacon: Put your commander into your hand from the command zone."}
+        "{T}: Add {C}.\n{T}, Sacrifice this land: Put your commander into your hand from the command zone."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3082,7 +3083,7 @@
         :layout "normal",
         :name "Darkslick Shores",
         :oracle-text
-        "Darkslick Shores enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3103,7 +3104,7 @@
         :layout "normal",
         :name "Demolition Field",
         :oracle-text
-        "{T}: Add {C}.\n{2}, {T}, Sacrifice Demolition Field: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle."}
+        "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3114,7 +3115,7 @@
         :layout "normal",
         :name "Desert of the Fervent",
         :oracle-text
-        "Desert of the Fervent enters tapped.\n{T}: Add {R}.\nCycling {1}{R} ({1}{R}, Discard this card: Draw a card.)"}
+        "This land enters tapped.\n{T}: Add {R}.\nCycling {1}{R} ({1}{R}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3125,7 +3126,7 @@
         :layout "normal",
         :name "Desert of the Indomitable",
         :oracle-text
-        "Desert of the Indomitable enters tapped.\n{T}: Add {G}.\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)"}
+        "This land enters tapped.\n{T}: Add {G}.\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3136,7 +3137,7 @@
         :layout "normal",
         :name "Desert of the True",
         :oracle-text
-        "Desert of the True enters tapped.\n{T}: Add {W}.\nCycling {1}{W} ({1}{W}, Discard this card: Draw a card.)"}
+        "This land enters tapped.\n{T}: Add {W}.\nCycling {1}{W} ({1}{W}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3157,7 +3158,7 @@
         :layout "normal",
         :name "Dimir Aqueduct",
         :oracle-text
-        "Dimir Aqueduct enters tapped.\nWhen Dimir Aqueduct enters, return a land you control to its owner's hand.\n{T}: Add {U}{B}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3168,7 +3169,7 @@
         :layout "normal",
         :name "Dragonskull Summit",
         :oracle-text
-        "Dragonskull Summit enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}."}
+        "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3179,7 +3180,7 @@
         :layout "normal",
         :name "Drowned Catacomb",
         :oracle-text
-        "Drowned Catacomb enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}."}
+        "This land enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3190,7 +3191,7 @@
         :layout "normal",
         :name "Dunes of the Dead",
         :oracle-text
-        "{T}: Add {C}.\nWhen Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token."}
+        "{T}: Add {C}.\nWhen this land is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3201,7 +3202,7 @@
         :layout "normal",
         :name "Evolving Wilds",
         :oracle-text
-        "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+        "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3244,7 +3245,7 @@
         :layout "normal",
         :name "Fetid Pools",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nFetid Pools enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3266,7 +3267,7 @@
         :layout "normal",
         :name "Frostboil Snarl",
         :oracle-text
-        "As Frostboil Snarl enters, you may reveal an Island or Mountain card from your hand. If you don't, Frostboil Snarl enters tapped.\n{T}: Add {U} or {R}."}
+        "As this land enters, you may reveal an Island or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3288,7 +3289,7 @@
         :layout "normal",
         :name "Hinterland Harbor",
         :oracle-text
-        "Hinterland Harbor enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}."}
+        "This land enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3299,7 +3300,7 @@
         :layout "normal",
         :name "Isolated Chapel",
         :oracle-text
-        "Isolated Chapel enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}."}
+        "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3310,7 +3311,7 @@
         :layout "normal",
         :name "Izzet Boilerworks",
         :oracle-text
-        "Izzet Boilerworks enters tapped.\nWhen Izzet Boilerworks enters, return a land you control to its owner's hand.\n{T}: Add {U}{R}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3321,7 +3322,7 @@
         :layout "normal",
         :name "Jungle Shrine",
         :oracle-text
-        "Jungle Shrine enters tapped.\n{T}: Add {R}, {G}, or {W}."}
+        "This land enters tapped.\n{T}: Add {R}, {G}, or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3332,7 +3333,7 @@
         :layout "normal",
         :name "Krosan Verge",
         :oracle-text
-        "Krosan Verge enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle."}
+        "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3343,7 +3344,7 @@
         :layout "normal",
         :name "Llanowar Wastes",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {G}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3354,7 +3355,7 @@
         :layout "normal",
         :name "Nomad Outpost",
         :oracle-text
-        "Nomad Outpost enters tapped.\n{T}: Add {R}, {W}, or {B}."}
+        "This land enters tapped.\n{T}: Add {R}, {W}, or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3365,7 +3366,7 @@
         :layout "normal",
         :name "Opulent Palace",
         :oracle-text
-        "Opulent Palace enters tapped.\n{T}: Add {B}, {G}, or {U}."}
+        "This land enters tapped.\n{T}: Add {B}, {G}, or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3397,7 +3398,7 @@
         :layout "normal",
         :name "Path of Ancestry",
         :oracle-text
-        "Path of Ancestry enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
+        "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3408,7 +3409,7 @@
         :layout "normal",
         :name "Ramunap Ruins",
         :oracle-text
-        "{T}: Add {C}.\n{T}, Pay 1 life: Add {R}.\n{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent."}
+        "{T}: Add {C}.\n{T}, Pay 1 life: Add {R}.\n{2}{R}{R}, {T}, Sacrifice a Desert: This land deals 2 damage to each opponent."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3451,7 +3452,7 @@
         :layout "normal",
         :name "Scattered Groves",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nScattered Groves enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otc",
@@ -3494,7 +3495,7 @@
         :layout "normal",
         :name "Sheltered Thicket",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nSheltered Thicket enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3505,7 +3506,7 @@
         :layout "normal",
         :name "Shivan Reef",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land — Swamp Mountain",
         :layout-category :normal,
         :code "otc",
@@ -3516,7 +3517,7 @@
         :layout "normal",
         :name "Smoldering Marsh",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nSmoldering Marsh enters tapped unless you control two or more basic lands."}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3527,7 +3528,7 @@
         :layout "normal",
         :name "Sulfur Falls",
         :oracle-text
-        "Sulfur Falls enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}."}
+        "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3538,7 +3539,7 @@
         :layout "normal",
         :name "Sulfurous Springs",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3560,7 +3561,7 @@
         :layout "normal",
         :name "Sunken Hollow",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nSunken Hollow enters tapped unless you control two or more basic lands."}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3592,7 +3593,7 @@
         :layout "normal",
         :name "Temple of Deceit",
         :oracle-text
-        "Temple of Deceit enters tapped.\nWhen Temple of Deceit enters, scry 1.\n{T}: Add {U} or {B}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3603,7 +3604,7 @@
         :layout "normal",
         :name "Temple of Epiphany",
         :oracle-text
-        "Temple of Epiphany enters tapped.\nWhen Temple of Epiphany enters, scry 1.\n{T}: Add {U} or {R}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3614,7 +3615,7 @@
         :layout "normal",
         :name "Temple of Malady",
         :oracle-text
-        "Temple of Malady enters tapped.\nWhen Temple of Malady enters, scry 1.\n{T}: Add {B} or {G}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3625,7 +3626,7 @@
         :layout "normal",
         :name "Temple of Malice",
         :oracle-text
-        "Temple of Malice enters tapped.\nWhen Temple of Malice enters, scry 1.\n{T}: Add {B} or {R}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3636,7 +3637,7 @@
         :layout "normal",
         :name "Temple of Mystery",
         :oracle-text
-        "Temple of Mystery enters tapped.\nWhen Temple of Mystery enters, scry 1.\n{T}: Add {G} or {U}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3647,7 +3648,7 @@
         :layout "normal",
         :name "Temple of Silence",
         :oracle-text
-        "Temple of Silence enters tapped.\nWhen Temple of Silence enters, scry 1.\n{T}: Add {W} or {B}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3669,7 +3670,7 @@
         :layout "normal",
         :name "Temple of Triumph",
         :oracle-text
-        "Temple of Triumph enters tapped.\nWhen Temple of Triumph enters, scry 1.\n{T}: Add {R} or {W}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3680,7 +3681,7 @@
         :layout "normal",
         :name "Terramorphic Expanse",
         :oracle-text
-        "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
+        "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3702,7 +3703,7 @@
         :layout "normal",
         :name "Underground River",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {U} or {B}. Underground River deals 1 damage to you."}
+        "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3734,7 +3735,7 @@
         :layout "normal",
         :name "Woodland Cemetery",
         :oracle-text
-        "Woodland Cemetery enters tapped unless you control a Swamp or a Forest.\n{T}: Add {B} or {G}."}
+        "This land enters tapped unless you control a Swamp or a Forest.\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otc",
@@ -3745,4 +3746,4 @@
         :layout "normal",
         :name "Yavimaya Coast",
         :oracle-text
-        "{T}: Add {C}.\n{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you."})
+        "{T}: Add {C}.\n{T}: Add {G} or {U}. This land deals 1 damage to you."})

@@ -20,7 +20,7 @@
         :name "Henzie \"Toolbox\" Torre",
         :oracle-text
         "Each creature spell you cast with mana value 4 or greater has blitz. The blitz cost is equal to its mana cost. (You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nBlitz costs you pay cost {1} less for each time you've cast your commander from the command zone this game."}
- #:card{:type-line "Legendary Creature — Cephalid Rogue",
+ #:card{:type-line "Legendary Creature — Octopus Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Kitt Kanto, Mayhem Diva",
         :oracle-text
-        "When Kitt Kanto enters the battlefield, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
+        "When Kitt Kanto enters, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
  #:card{:type-line "Legendary Creature — Rhino Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Perrie, the Pulverizer",
         :oracle-text
-        "When Perrie enters the battlefield, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
+        "When Perrie enters, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
  #:card{:type-line "Legendary Creature — Ogre Devil Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -107,7 +107,7 @@
         :layout "normal",
         :name "Tivit, Seller of Secrets",
         :oracle-text
-        "Flying, ward {3}\nCouncil's dilemma — Whenever Tivit enters the battlefield or deals combat damage to a player, starting with you, each player votes for evidence or bribery. For each evidence vote, investigate. For each bribery vote, create a Treasure token.\nWhile voting, you may vote an additional time. (The votes can be for different choices or for the same choice.)"}
+        "Flying, ward {3}\nCouncil's dilemma — Whenever Tivit enters or deals combat damage to a player, starting with you, each player votes for evidence or bribery. For each evidence vote, investigate. For each bribery vote, create a Treasure token.\nWhile voting, you may vote an additional time. (The votes can be for different choices or for the same choice.)"}
  #:card{:type-line "Creature — Bird Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -118,7 +118,7 @@
         :layout "normal",
         :name "Aerial Extortionist",
         :oracle-text
-        "Flying\nWhenever Aerial Extortionist enters the battlefield or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
+        "Flying\nWhenever this creature enters or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
  #:card{:type-line "Creature — Angel Advisor",
         :layout-category :normal,
         :code "ncc",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Angelic Sleuth",
         :oracle-text
-        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Elf Citizen",
         :layout-category :normal,
         :code "ncc",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Boss's Chauffeur",
         :oracle-text
-        "Boss's Chauffeur enters the battlefield with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Boss's Chauffeur.\nWhen Boss's Chauffeur dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
+        "This creature enters with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature you control enters, put a +1/+1 counter on this creature.\nWhen this creature dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -183,7 +183,7 @@
         :layout "normal",
         :name "Jailbreak",
         :oracle-text
-        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters the battlefield, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
+        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Rhino Druid",
         :layout-category :normal,
         :code "ncc",
@@ -216,7 +216,7 @@
         :layout "normal",
         :name "Skyboon Evangelist",
         :oracle-text
-        "Flying\nWhen Skyboon Evangelist enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
+        "Flying\nWhen this creature enters, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -238,8 +238,8 @@
         :layout "normal",
         :name "Aven Courier",
         :oracle-text
-        "Flying\nWhenever Aven Courier attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
- #:card{:type-line "Creature — Cephalid Rogue",
+        "Flying\nWhenever this creature attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
+ #:card{:type-line "Creature — Octopus Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -249,7 +249,7 @@
         :layout "normal",
         :name "Cephalid Facetaker",
         :oracle-text
-        "Cephalid Facetaker can't be blocked.\nAt the beginning of combat on your turn, you may have Cephalid Facetaker become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
+        "This creature can't be blocked.\nAt the beginning of combat on your turn, you may have this creature become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -305,7 +305,7 @@
         :name "Mask of the Schemer",
         :oracle-text
         "Whenever equipped creature deals combat damage to a player, it connives X, where X is the amount of damage it dealt to that player. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)\nEquip {2}"}
- #:card{:type-line "Creature — Cephalid Advisor",
+ #:card{:type-line "Creature — Octopus Advisor",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -315,7 +315,7 @@
         :layout "normal",
         :name "Shield Broker",
         :oracle-text
-        "When Shield Broker enters the battlefield, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
+        "When this creature enters, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
@@ -326,7 +326,7 @@
         :layout "normal",
         :name "Sinister Concierge",
         :oracle-text
-        "When Sinister Concierge dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they cast it without paying its mana cost. Those creature spells have haste.)"}
+        "When this creature dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they may cast it without paying its mana cost. Those creature spells have haste.)"}
  #:card{:type-line "Creature — Bird Rogue",
         :layout-category :normal,
         :code "ncc",
@@ -337,7 +337,7 @@
         :layout "normal",
         :name "Skyway Robber",
         :oracle-text
-        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nSkyway Robber escapes with \"Whenever Skyway Robber deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with Skyway Robber without paying its mana cost.\""}
+        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with \"Whenever this creature deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with this creature without paying its mana cost.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -359,7 +359,7 @@
         :layout "normal",
         :name "Bellowing Mauler",
         :oracle-text
-        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature."}
+        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature of their choice."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -381,7 +381,7 @@
         :layout "normal",
         :name "Dogged Detective",
         :oracle-text
-        "When Dogged Detective enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return Dogged Detective from your graveyard to your hand."}
+        "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -414,7 +414,7 @@
         :layout "normal",
         :name "Misfortune Teller",
         :oracle-text
-        "Deathtouch\nWhenever Misfortune Teller enters the battlefield or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
+        "Deathtouch\nWhenever this creature enters or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -447,7 +447,7 @@
         :layout "normal",
         :name "Wave of Rats",
         :oracle-text
-        "Trample\nWhen Wave of Rats dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Trample\nWhen this creature dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -499,7 +499,7 @@
         :highres? true,
         :layout-category :split,
         :png
-        "https://cards.scryfall.io/png/front/d/6/d653b755-1e09-45c4-8d44-8a950151ca51.png?1675491814",
+        "https://cards.scryfall.io/png/front/d/6/d653b755-1e09-45c4-8d44-8a950151ca51.png?1681394433",
         :faces
         [{:type-line "Sorcery",
           :oracle-text
@@ -528,8 +528,8 @@
         :layout "normal",
         :name "Life of the Party",
         :oracle-text
-        "First strike, trample, haste\nWhenever Life of the Party attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen Life of the Party enters the battlefield, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
- #:card{:type-line "Creature — Viashino Rogue",
+        "First strike, trample, haste\nWhenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen this creature enters, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
+ #:card{:type-line "Creature — Lizard Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -539,7 +539,7 @@
         :layout "normal",
         :name "Mezzio Mugger",
         :oracle-text
-        "Whenever Mezzio Mugger attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -550,7 +550,7 @@
         :layout "normal",
         :name "Rain of Riches",
         :oracle-text
-        "When Rain of Riches enters the battlefield, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
+        "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
  #:card{:type-line "Creature — Ogre Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -561,7 +561,7 @@
         :layout "normal",
         :name "Rose Room Treasurer",
         :oracle-text
-        "Alliance — Whenever another creature enters the battlefield under your control, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, Rose Room Treasurer deals X damage to any target."}
+        "Alliance — Whenever another creature you control enters, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, this creature deals X damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -583,7 +583,7 @@
         :layout "normal",
         :name "Spellbinding Soprano",
         :oracle-text
-        "Whenever Spellbinding Soprano attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "Whenever this creature attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -594,7 +594,7 @@
         :layout "normal",
         :name "Turf War",
         :oracle-text
-        "When Turf War enters the battlefield, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
+        "When this enchantment enters, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
  #:card{:type-line "Creature — Rhino Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -605,7 +605,7 @@
         :layout "normal",
         :name "Bribe Taker",
         :oracle-text
-        "Trample\nWhen Bribe Taker enters the battlefield, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on Bribe Taker."}
+        "Trample\nWhen this creature enters, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on this creature."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -616,7 +616,7 @@
         :layout "normal",
         :name "Caldaia Guardian",
         :oracle-text
-        "Whenever Caldaia Guardian or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -660,7 +660,7 @@
         :layout "normal",
         :name "First Responder",
         :oracle-text
-        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on First Responder."}
+        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on this creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -671,7 +671,7 @@
         :layout "normal",
         :name "Killer Service",
         :oracle-text
-        "When Killer Service enters the battlefield, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
+        "When this enchantment enters, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "ncc",
@@ -682,7 +682,7 @@
         :layout "normal",
         :name "Next of Kin",
         :oracle-text
-        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return Next of Kin to the battlefield attached to that creature at the beginning of the next end step."}
+        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return this card to the battlefield attached to that creature at the beginning of the next end step."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -693,13 +693,13 @@
         :layout "normal",
         :name "Park Heights Maverick",
         :oracle-text
-        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nPark Heights Maverick can't be blocked by creatures with power 2 or less.\nWhenever Park Heights Maverick deals combat damage to a player or dies, proliferate."}
+        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nThis creature can't be blocked by creatures with power 2 or less.\nWhenever this creature deals combat damage to a player or dies, proliferate."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/0/404b786c-b64c-4935-b0d3-4dd7a2d14c37.png?1673482281",
+        "https://cards.scryfall.io/png/front/4/0/404b786c-b64c-4935-b0d3-4dd7a2d14c37.png?1683892081",
         :collector-number "64",
         :layout "normal",
         :name "Scepter of Celebration",
@@ -726,7 +726,7 @@
         :layout "normal",
         :name "Agent's Toolkit",
         :oracle-text
-        "Agent's Toolkit enters the battlefield with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature enters the battlefield under your control, you may move a counter from Agent's Toolkit onto that creature.\n{2}, Sacrifice Agent's Toolkit: Draw a card."}
+        "This artifact enters with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature you control enters, you may move a counter from this artifact onto that creature.\n{2}, Sacrifice this artifact: Draw a card."}
  #:card{:type-line "Legendary Creature — Human Citizen",
         :layout-category :normal,
         :code "ncc",
@@ -737,7 +737,7 @@
         :layout "normal",
         :name "Bess, Soul Nourisher",
         :oracle-text
-        "Whenever one or more other creatures with base power and toughness 1/1 enter the battlefield under your control, put a +1/+1 counter on Bess, Soul Nourisher.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
+        "Whenever one or more other creatures you control with base power and toughness 1/1 enter, put a +1/+1 counter on Bess.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -781,7 +781,7 @@
         :layout "normal",
         :name "Denry Klin, Editor in Chief",
         :oracle-text
-        "Denry Klin, Editor in Chief enters the battlefield with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature enters the battlefield under your control, if Denry has counters on it, put the same number of each kind of counter on that creature."}
+        "Denry Klin enters with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature you control enters, if Denry Klin has counters on it, put the same number of each kind of counter on that creature."}
  #:card{:type-line "Creature — Horror",
         :layout-category :normal,
         :code "ncc",
@@ -792,7 +792,7 @@
         :layout "normal",
         :name "Grime Gorger",
         :oracle-text
-        "Menace\nWhenever Grime Gorger attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on Grime Gorger for each card exiled this way."}
+        "Menace\nWhenever this creature attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on this creature for each card exiled this way."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -858,7 +858,7 @@
         :layout "normal",
         :name "Prosperous Partnership",
         :oracle-text
-        "When Prosperous Partnership enters the battlefield, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
+        "When this enchantment enters, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -880,7 +880,7 @@
         :layout "normal",
         :name "Syrix, Carrier of the Flame",
         :oracle-text
-        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast Syrix, Carrier of the Flame from your graveyard."}
+        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast this card from your graveyard."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -891,7 +891,7 @@
         :layout "normal",
         :name "Currency Converter",
         :oracle-text
-        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with Currency Converter into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
+        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with this artifact into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -902,7 +902,7 @@
         :layout "normal",
         :name "False Floor",
         :oracle-text
-        "False Floor enters the battlefield tapped.\nCreatures enter the battlefield tapped.\n{2}, {T}, Exile False Floor: Exile all untapped creatures. Activate only as a sorcery."}
+        "This artifact enters tapped.\nCreatures enter tapped.\n{2}, {T}, Exile this artifact: Exile all untapped creatures. Activate only as a sorcery."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ncc",
@@ -913,7 +913,7 @@
         :layout "normal",
         :name "Gavel of the Righteous",
         :oracle-text
-        "At the beginning of combat on your turn, put a charge counter on Gavel of the Righteous.\nEquipped creature gets +1/+1 for each counter on Gavel of the Righteous.\nAs long as Gavel of the Righteous has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from Gavel of the Righteous."}
+        "At the beginning of combat on your turn, put a charge counter on this Equipment.\nEquipped creature gets +1/+1 for each counter on this Equipment.\nAs long as this Equipment has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from this Equipment."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "ncc",
@@ -924,7 +924,7 @@
         :layout "normal",
         :name "Smuggler's Buggy",
         :oracle-text
-        "Hideaway 4 (When this artifact enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever Smuggler's Buggy deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return Smuggler's Buggy to its owner's hand.\nCrew 2"}
+        "Hideaway 4 (When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever this Vehicle deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return this Vehicle to its owner's hand.\nCrew 2"}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "ncc",
@@ -935,7 +935,7 @@
         :layout "normal",
         :name "Weathered Sentinels",
         :oracle-text
-        "Defender, vigilance, reach, trample\nWeathered Sentinels can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever Weathered Sentinels attacks, it gets +3/+3 and gains indestructible until end of turn."}
+        "Defender, vigilance, reach, trample\nThis creature can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever this creature attacks, it gets +3/+3 and gains indestructible until end of turn."}
  #:card{:type-line "Legendary Creature — Elf Druid",
         :layout-category :normal,
         :code "ncc",
@@ -957,7 +957,7 @@
         :layout "normal",
         :name "Tenuous Truce",
         :oracle-text
-        "Enchant opponent\nAt the beginning of enchanted opponent's end step, you and that player each draw a card.\nWhen you attack enchanted opponent or a planeswalker they control or when they attack you or a planeswalker you control, sacrifice Tenuous Truce."}
+        "Enchant opponent\nAt the beginning of enchanted opponent's end step, you and that player each draw a card.\nWhen you attack enchanted opponent or a planeswalker they control or when they attack you or a planeswalker you control, sacrifice this Aura."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1001,7 +1001,7 @@
         :layout "normal",
         :name "Boxing Ring",
         :oracle-text
-        "Whenever a creature enters the battlefield under your control, it fights up to one target creature you don't control with the same mana value.\n{T}: Create a Treasure token. Activate only if you control a creature that fought this turn."}
+        "Whenever a creature you control enters, it fights up to one target creature you don't control with the same mana value.\n{T}: Create a Treasure token. Activate only if you control a creature that fought this turn."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "ncc",
@@ -1023,7 +1023,7 @@
         :layout "normal",
         :name "Threefold Signal",
         :oracle-text
-        "When Threefold Signal enters the battlefield, scry 3.\nEach spell you cast that's exactly three colors has replicate {3}. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.)"}
+        "When this artifact enters, scry 3.\nEach spell you cast that's exactly three colors has replicate {3}. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.)"}
  #:card{:type-line "Legendary Creature — Elf Druid",
         :layout-category :normal,
         :code "ncc",
@@ -1045,7 +1045,7 @@
         :layout "normal",
         :name "Tenuous Truce",
         :oracle-text
-        "Enchant opponent\nAt the beginning of enchanted opponent's end step, you and that player each draw a card.\nWhen you attack enchanted opponent or a planeswalker they control or when they attack you or a planeswalker you control, sacrifice Tenuous Truce."}
+        "Enchant opponent\nAt the beginning of enchanted opponent's end step, you and that player each draw a card.\nWhen you attack enchanted opponent or a planeswalker they control or when they attack you or a planeswalker you control, sacrifice this Aura."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1089,7 +1089,7 @@
         :layout "normal",
         :name "Boxing Ring",
         :oracle-text
-        "Whenever a creature enters the battlefield under your control, it fights up to one target creature you don't control with the same mana value.\n{T}: Create a Treasure token. Activate only if you control a creature that fought this turn."}
+        "Whenever a creature you control enters, it fights up to one target creature you don't control with the same mana value.\n{T}: Create a Treasure token. Activate only if you control a creature that fought this turn."}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "ncc",
@@ -1123,7 +1123,7 @@
         :name "Henzie \"Toolbox\" Torre",
         :oracle-text
         "Each creature spell you cast with mana value 4 or greater has blitz. The blitz cost is equal to its mana cost. (You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nBlitz costs you pay cost {1} less for each time you've cast your commander from the command zone this game."}
- #:card{:type-line "Legendary Creature — Cephalid Rogue",
+ #:card{:type-line "Legendary Creature — Octopus Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -1144,7 +1144,7 @@
         :layout "normal",
         :name "Kitt Kanto, Mayhem Diva",
         :oracle-text
-        "When Kitt Kanto enters the battlefield, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
+        "When Kitt Kanto enters, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
  #:card{:type-line "Legendary Creature — Cat Advisor",
         :layout-category :normal,
         :code "ncc",
@@ -1177,13 +1177,13 @@
         :layout "normal",
         :name "Perrie, the Pulverizer",
         :oracle-text
-        "When Perrie enters the battlefield, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
+        "When Perrie enters, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
  #:card{:type-line "Legendary Creature — Cat Advisor",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/d/3d879f6d-feb4-48c5-997b-0841e9fa558a.png?1673482750",
+        "https://cards.scryfall.io/png/front/3/d/3d879f6d-feb4-48c5-997b-0841e9fa558a.png?1728436417",
         :collector-number "108",
         :layout "normal",
         :name "Phabine, Boss's Confidant",
@@ -1199,7 +1199,7 @@
         :layout "normal",
         :name "Tivit, Seller of Secrets",
         :oracle-text
-        "Flying, ward {3}\nCouncil's dilemma — Whenever Tivit enters the battlefield or deals combat damage to a player, starting with you, each player votes for evidence or bribery. For each evidence vote, investigate. For each bribery vote, create a Treasure token.\nWhile voting, you may vote an additional time. (The votes can be for different choices or for the same choice.)"}
+        "Flying, ward {3}\nCouncil's dilemma — Whenever Tivit enters or deals combat damage to a player, starting with you, each player votes for evidence or bribery. For each evidence vote, investigate. For each bribery vote, create a Treasure token.\nWhile voting, you may vote an additional time. (The votes can be for different choices or for the same choice.)"}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "ncc",
@@ -1221,7 +1221,7 @@
         :layout "normal",
         :name "Threefold Signal",
         :oracle-text
-        "When Threefold Signal enters the battlefield, scry 3.\nEach spell you cast that's exactly three colors has replicate {3}. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.)"}
+        "When this artifact enters, scry 3.\nEach spell you cast that's exactly three colors has replicate {3}. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.)"}
  #:card{:type-line "Creature — Bird Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -1232,7 +1232,7 @@
         :layout "normal",
         :name "Aerial Extortionist",
         :oracle-text
-        "Flying\nWhenever Aerial Extortionist enters the battlefield or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
+        "Flying\nWhenever this creature enters or deals combat damage to a player, exile up to one target nonland permanent. For as long as that card remains exiled, its owner may cast it.\nWhenever another player casts a spell from anywhere other than their hand, draw a card."}
  #:card{:type-line "Creature — Angel Advisor",
         :layout-category :normal,
         :code "ncc",
@@ -1243,18 +1243,18 @@
         :layout "normal",
         :name "Angelic Sleuth",
         :oracle-text
-        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying\nWhenever another permanent you control leaves the battlefield, if it had counters on it, investigate. (Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Creature — Elf Citizen",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/3/e388935b-fc98-476b-8fe4-234fb4d7f105.png?1673482819",
+        "https://cards.scryfall.io/png/front/e/3/e388935b-fc98-476b-8fe4-234fb4d7f105.png?1717016016",
         :collector-number "114",
         :layout "normal",
         :name "Boss's Chauffeur",
         :oracle-text
-        "Boss's Chauffeur enters the battlefield with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Boss's Chauffeur.\nWhen Boss's Chauffeur dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
+        "This creature enters with a number of +1/+1 counters on it equal to one plus the number of other creatures you control.\nAlliance — Whenever another creature you control enters, put a +1/+1 counter on this creature.\nWhen this creature dies, create a 1/1 green and white Citizen creature token for each +1/+1 counter on it."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1297,7 +1297,7 @@
         :layout "normal",
         :name "Jailbreak",
         :oracle-text
-        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters the battlefield, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
+        "Return target permanent card in an opponent's graveyard to the battlefield under their control. When that permanent enters, return up to one target permanent card with equal or lesser mana value from your graveyard to the battlefield."}
  #:card{:type-line "Creature — Rhino Druid",
         :layout-category :normal,
         :code "ncc",
@@ -1330,7 +1330,7 @@
         :layout "normal",
         :name "Skyboon Evangelist",
         :oracle-text
-        "Flying\nWhen Skyboon Evangelist enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
+        "Flying\nWhen this creature enters, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)\nWhenever a creature with a counter on it attacks one of your opponents, that creature gains flying until end of turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1352,8 +1352,8 @@
         :layout "normal",
         :name "Aven Courier",
         :oracle-text
-        "Flying\nWhenever Aven Courier attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
- #:card{:type-line "Creature — Cephalid Rogue",
+        "Flying\nWhenever this creature attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it."}
+ #:card{:type-line "Creature — Octopus Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -1363,13 +1363,13 @@
         :layout "normal",
         :name "Cephalid Facetaker",
         :oracle-text
-        "Cephalid Facetaker can't be blocked.\nAt the beginning of combat on your turn, you may have Cephalid Facetaker become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
+        "This creature can't be blocked.\nAt the beginning of combat on your turn, you may have this creature become a copy of another target creature until end of turn, except it's 1/4 and has \"This creature can't be blocked.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/8/e87ff81e-2ca9-43fa-8d13-86a1a7602942.png?1673482946",
+        "https://cards.scryfall.io/png/front/e/8/e87ff81e-2ca9-43fa-8d13-86a1a7602942.png?1717016031",
         :collector-number "125",
         :layout "normal",
         :name "Change of Plans",
@@ -1391,7 +1391,7 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/3/0/30f461ff-6367-4a04-bffc-4e3df6e1ea79.png?1673482964",
+        "https://cards.scryfall.io/png/front/3/0/30f461ff-6367-4a04-bffc-4e3df6e1ea79.png?1728436383",
         :collector-number "127",
         :layout "normal",
         :name "Flawless Forgery",
@@ -1419,7 +1419,7 @@
         :name "Mask of the Schemer",
         :oracle-text
         "Whenever equipped creature deals combat damage to a player, it connives X, where X is the amount of damage it dealt to that player. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)\nEquip {2}"}
- #:card{:type-line "Creature — Cephalid Advisor",
+ #:card{:type-line "Creature — Octopus Advisor",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -1429,7 +1429,7 @@
         :layout "normal",
         :name "Shield Broker",
         :oracle-text
-        "When Shield Broker enters the battlefield, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
+        "When this creature enters, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
@@ -1440,7 +1440,7 @@
         :layout "normal",
         :name "Sinister Concierge",
         :oracle-text
-        "When Sinister Concierge dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they cast it without paying its mana cost. Those creature spells have haste.)"}
+        "When this creature dies, you may exile it and put three time counters on it. If you do, exile up to one target creature and put three time counters on it. Each card exiled this way that doesn't have suspend gains suspend. (For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they may cast it without paying its mana cost. Those creature spells have haste.)"}
  #:card{:type-line "Creature — Bird Rogue",
         :layout-category :normal,
         :code "ncc",
@@ -1451,7 +1451,7 @@
         :layout "normal",
         :name "Skyway Robber",
         :oracle-text
-        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nSkyway Robber escapes with \"Whenever Skyway Robber deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with Skyway Robber without paying its mana cost.\""}
+        "Flying\nEscape—{3}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with \"Whenever this creature deals combat damage to a player, you may cast an artifact, instant, or sorcery spell from among cards exiled with this creature without paying its mana cost.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1473,7 +1473,7 @@
         :layout "normal",
         :name "Bellowing Mauler",
         :oracle-text
-        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature."}
+        "At the beginning of your end step, each player loses 4 life unless they sacrifice a nontoken creature of their choice."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1495,7 +1495,7 @@
         :layout "normal",
         :name "Dogged Detective",
         :oracle-text
-        "When Dogged Detective enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return Dogged Detective from your graveyard to your hand."}
+        "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever an opponent draws their second card each turn, you may return this card from your graveyard to your hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1528,7 +1528,7 @@
         :layout "normal",
         :name "Misfortune Teller",
         :oracle-text
-        "Deathtouch\nWhenever Misfortune Teller enters the battlefield or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
+        "Deathtouch\nWhenever this creature enters or deals combat damage to a player, exile target card from a graveyard. If it was a creature card, create a 2/2 black Rogue creature token. If it was a land card, create a Treasure token. Otherwise, you gain 3 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1561,7 +1561,7 @@
         :layout "normal",
         :name "Wave of Rats",
         :oracle-text
-        "Trample\nWhen Wave of Rats dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Trample\nWhen this creature dies, if it dealt combat damage to a player this turn, return it to the battlefield under its owner's control.\nBlitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -1589,7 +1589,7 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/b/db2d0be9-ba0d-4d6e-a7dc-79201eb05175.png?1673483141",
+        "https://cards.scryfall.io/png/front/d/b/db2d0be9-ba0d-4d6e-a7dc-79201eb05175.png?1717015980",
         :collector-number "145",
         :layout "normal",
         :name "Audacious Swap",
@@ -1627,18 +1627,18 @@
         :layout "normal",
         :name "Life of the Party",
         :oracle-text
-        "First strike, trample, haste\nWhenever Life of the Party attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen Life of the Party enters the battlefield, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
- #:card{:type-line "Creature — Viashino Rogue",
+        "First strike, trample, haste\nWhenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of creatures you control.\nWhen this creature enters, if it's not a token, each opponent creates a token that's a copy of it. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)"}
+ #:card{:type-line "Creature — Lizard Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/5/a/5aaa4be7-32d2-4e17-95c0-78344b09c889.png?1673483183",
+        "https://cards.scryfall.io/png/front/5/a/5aaa4be7-32d2-4e17-95c0-78344b09c889.png?1717016045",
         :collector-number "149",
         :layout "normal",
         :name "Mezzio Mugger",
         :oracle-text
-        "Whenever Mezzio Mugger attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature attacks, exile the top card of each player's library. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nBlitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1649,18 +1649,18 @@
         :layout "normal",
         :name "Rain of Riches",
         :oracle-text
-        "When Rain of Riches enters the battlefield, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)"}
+        "When this enchantment enters, create two Treasure tokens.\nThe first spell you cast each turn that mana from a Treasure was spent to cast has cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)"}
  #:card{:type-line "Creature — Ogre Warrior",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/a/5/a5f6f869-0960-4b3a-9798-49056b964e8a.png?1673483204",
+        "https://cards.scryfall.io/png/front/a/5/a5f6f869-0960-4b3a-9798-49056b964e8a.png?1717016104",
         :collector-number "151",
         :layout "normal",
         :name "Rose Room Treasurer",
         :oracle-text
-        "Alliance — Whenever another creature enters the battlefield under your control, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, Rose Room Treasurer deals X damage to any target."}
+        "Alliance — Whenever another creature you control enters, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, this creature deals X damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -1682,7 +1682,7 @@
         :layout "normal",
         :name "Spellbinding Soprano",
         :oracle-text
-        "Whenever Spellbinding Soprano attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
+        "Whenever this creature attacks, instant and sorcery spells you cast this turn cost {1} less to cast.\nEncore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1693,7 +1693,7 @@
         :layout "normal",
         :name "Turf War",
         :oracle-text
-        "When Turf War enters the battlefield, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
+        "When this enchantment enters, for each player, put a contested counter on target land that player controls.\nWhenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it."}
  #:card{:type-line "Creature — Rhino Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -1704,7 +1704,7 @@
         :layout "normal",
         :name "Bribe Taker",
         :oracle-text
-        "Trample\nWhen Bribe Taker enters the battlefield, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on Bribe Taker."}
+        "Trample\nWhen this creature enters, for each kind of counter on permanents you control, you may put your choice of a +1/+1 counter or a counter of that kind on this creature."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -1715,7 +1715,7 @@
         :layout "normal",
         :name "Caldaia Guardian",
         :oracle-text
-        "Whenever Caldaia Guardian or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
+        "Whenever this creature or another creature you control with mana value 4 or greater dies, create two 1/1 green and white Citizen creature tokens.\nBlitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1743,7 +1743,7 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/6/26f752cb-6be7-45a7-9096-8ebf82395be6.png?1673483274",
+        "https://cards.scryfall.io/png/front/2/6/26f752cb-6be7-45a7-9096-8ebf82395be6.png?1717016118",
         :collector-number "159",
         :layout "normal",
         :name "Family's Favor",
@@ -1759,7 +1759,7 @@
         :layout "normal",
         :name "First Responder",
         :oracle-text
-        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on First Responder."}
+        "Vigilance\nAt the beginning of your end step, you may return another creature you control to its owner's hand, then put a number of +1/+1 counters equal to that creature's power on this creature."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -1770,7 +1770,7 @@
         :layout "normal",
         :name "Killer Service",
         :oracle-text
-        "When Killer Service enters the battlefield, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
+        "When this enchantment enters, create a number of Food tokens equal to the number of opponents you have. (They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nAt the beginning of your end step, you may pay {2} and sacrifice a token. If you do, create a 4/4 green Rhino Warrior creature token."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "ncc",
@@ -1781,7 +1781,7 @@
         :layout "normal",
         :name "Next of Kin",
         :oracle-text
-        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return Next of Kin to the battlefield attached to that creature at the beginning of the next end step."}
+        "Enchant creature\nWhen enchanted creature dies, you may put a creature card you own with lesser mana value from your hand or from the command zone onto the battlefield. If you do, return this card to the battlefield attached to that creature at the beginning of the next end step."}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "ncc",
@@ -1792,7 +1792,7 @@
         :layout "normal",
         :name "Park Heights Maverick",
         :oracle-text
-        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nPark Heights Maverick can't be blocked by creatures with power 2 or less.\nWhenever Park Heights Maverick deals combat damage to a player or dies, proliferate."}
+        "Dethrone (Whenever this creature attacks the player with the most life or tied for the most life, put a +1/+1 counter on it.)\nThis creature can't be blocked by creatures with power 2 or less.\nWhenever this creature deals combat damage to a player or dies, proliferate."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ncc",
@@ -1825,7 +1825,7 @@
         :layout "normal",
         :name "Agent's Toolkit",
         :oracle-text
-        "Agent's Toolkit enters the battlefield with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature enters the battlefield under your control, you may move a counter from Agent's Toolkit onto that creature.\n{2}, Sacrifice Agent's Toolkit: Draw a card."}
+        "This artifact enters with a +1/+1 counter, a flying counter, a deathtouch counter, and a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever a creature you control enters, you may move a counter from this artifact onto that creature.\n{2}, Sacrifice this artifact: Draw a card."}
  #:card{:type-line "Legendary Creature — Human Citizen",
         :layout-category :normal,
         :code "ncc",
@@ -1836,7 +1836,7 @@
         :layout "normal",
         :name "Bess, Soul Nourisher",
         :oracle-text
-        "Whenever one or more other creatures with base power and toughness 1/1 enter the battlefield under your control, put a +1/+1 counter on Bess, Soul Nourisher.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
+        "Whenever one or more other creatures you control with base power and toughness 1/1 enter, put a +1/+1 counter on Bess.\nWhenever Bess attacks, each other creature you control with base power and toughness 1/1 gets +X/+X until end of turn, where X is the number of +1/+1 counters on Bess."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -1853,7 +1853,7 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/d/8d3eaace-2813-480d-9d4e-d095c2bba528.png?1673483370",
+        "https://cards.scryfall.io/png/front/8/d/8d3eaace-2813-480d-9d4e-d095c2bba528.png?1717015995",
         :collector-number "169",
         :layout "normal",
         :name "Cabaretti Confluence",
@@ -1880,7 +1880,7 @@
         :layout "normal",
         :name "Denry Klin, Editor in Chief",
         :oracle-text
-        "Denry Klin, Editor in Chief enters the battlefield with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature enters the battlefield under your control, if Denry has counters on it, put the same number of each kind of counter on that creature."}
+        "Denry Klin enters with your choice of a +1/+1, first strike, or vigilance counter on it.\nWhenever a nontoken creature you control enters, if Denry Klin has counters on it, put the same number of each kind of counter on that creature."}
  #:card{:type-line "Creature — Horror",
         :layout-category :normal,
         :code "ncc",
@@ -1891,7 +1891,7 @@
         :layout "normal",
         :name "Grime Gorger",
         :oracle-text
-        "Menace\nWhenever Grime Gorger attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on Grime Gorger for each card exiled this way."}
+        "Menace\nWhenever this creature attacks, exile up to one card of each card type from defending player's graveyard. Put a +1/+1 counter on this creature for each card exiled this way."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -1957,7 +1957,7 @@
         :layout "normal",
         :name "Prosperous Partnership",
         :oracle-text
-        "When Prosperous Partnership enters the battlefield, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
+        "When this enchantment enters, create two 1/1 green and white Citizen creature tokens.\nTap three untapped creatures you control: Create a Treasure token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -1979,7 +1979,7 @@
         :layout "normal",
         :name "Syrix, Carrier of the Flame",
         :oracle-text
-        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast Syrix, Carrier of the Flame from your graveyard."}
+        "Flying, haste\nAt the beginning of each end step, if a creature card left your graveyard this turn, target Phoenix you control deals damage equal to its power to any target.\nWhenever another Phoenix you control dies, you may cast this card from your graveyard."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -1990,7 +1990,7 @@
         :layout "normal",
         :name "Currency Converter",
         :oracle-text
-        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with Currency Converter into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
+        "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with this artifact into your graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -2001,7 +2001,7 @@
         :layout "normal",
         :name "False Floor",
         :oracle-text
-        "False Floor enters the battlefield tapped.\nCreatures enter the battlefield tapped.\n{2}, {T}, Exile False Floor: Exile all untapped creatures. Activate only as a sorcery."}
+        "This artifact enters tapped.\nCreatures enter tapped.\n{2}, {T}, Exile this artifact: Exile all untapped creatures. Activate only as a sorcery."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "ncc",
@@ -2012,7 +2012,7 @@
         :layout "normal",
         :name "Gavel of the Righteous",
         :oracle-text
-        "At the beginning of combat on your turn, put a charge counter on Gavel of the Righteous.\nEquipped creature gets +1/+1 for each counter on Gavel of the Righteous.\nAs long as Gavel of the Righteous has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from Gavel of the Righteous."}
+        "At the beginning of combat on your turn, put a charge counter on this Equipment.\nEquipped creature gets +1/+1 for each counter on this Equipment.\nAs long as this Equipment has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from this Equipment."}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "ncc",
@@ -2023,7 +2023,7 @@
         :layout "normal",
         :name "Smuggler's Buggy",
         :oracle-text
-        "Hideaway 4 (When this artifact enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever Smuggler's Buggy deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return Smuggler's Buggy to its owner's hand.\nCrew 2"}
+        "Hideaway 4 (When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever this Vehicle deals combat damage to a player, you may cast the exiled card without paying its mana cost. If you do, return this Vehicle to its owner's hand.\nCrew 2"}
  #:card{:type-line "Artifact Creature — Wall",
         :layout-category :normal,
         :code "ncc",
@@ -2034,13 +2034,13 @@
         :layout "normal",
         :name "Weathered Sentinels",
         :oracle-text
-        "Defender, vigilance, reach, trample\nWeathered Sentinels can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever Weathered Sentinels attacks, it gets +3/+3 and gains indestructible until end of turn."}
+        "Defender, vigilance, reach, trample\nThis creature can attack players who attacked you during their last turn as though it didn't have defender.\nWhenever this creature attacks, it gets +3/+3 and gains indestructible until end of turn."}
  #:card{:type-line "Legendary Creature — Vampire Assassin",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/0/5/0543510b-c28b-4b3c-b1c7-ae6f944556f5.png?1673647801",
+        "https://cards.scryfall.io/png/front/0/5/0543510b-c28b-4b3c-b1c7-ae6f944556f5.png?1683835484",
         :collector-number "186",
         :layout "normal",
         :name "Anhelo, the Painter",
@@ -2051,18 +2051,18 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/6/86cf1196-cf25-49cf-9fed-98f7dcd56c06.png?1673483566",
+        "https://cards.scryfall.io/png/front/8/6/86cf1196-cf25-49cf-9fed-98f7dcd56c06.png?1683835488",
         :collector-number "187",
         :layout "normal",
         :name "Henzie \"Toolbox\" Torre",
         :oracle-text
         "Each creature spell you cast with mana value 4 or greater has blitz. The blitz cost is equal to its mana cost. (You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nBlitz costs you pay cost {1} less for each time you've cast your commander from the command zone this game."}
- #:card{:type-line "Legendary Creature — Cephalid Rogue",
+ #:card{:type-line "Legendary Creature — Octopus Rogue",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/1/9/19fe0961-b3bc-4a2e-b403-85a3f9202fdc.png?1673483573",
+        "https://cards.scryfall.io/png/front/1/9/19fe0961-b3bc-4a2e-b403-85a3f9202fdc.png?1683835491",
         :collector-number "188",
         :layout "normal",
         :name "Kamiz, Obscura Oculus",
@@ -2073,23 +2073,23 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/1/d1ef51f4-3d9b-49b7-8538-cbfd8087bcbc.png?1673483581",
+        "https://cards.scryfall.io/png/front/d/1/d1ef51f4-3d9b-49b7-8538-cbfd8087bcbc.png?1683835495",
         :collector-number "189",
         :layout "normal",
         :name "Kitt Kanto, Mayhem Diva",
         :oracle-text
-        "When Kitt Kanto enters the battlefield, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
+        "When Kitt Kanto enters, create a 1/1 green and white Citizen creature token.\nAt the beginning of combat on each player's turn, you may tap two untapped creatures you control. When you do, target creature that player controls gets +2/+2 and gains trample until end of turn. Goad that creature."}
  #:card{:type-line "Legendary Creature — Rhino Soldier",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/2/c/2c91da53-4233-4802-8a72-240b0b46d459.png?1673483592",
+        "https://cards.scryfall.io/png/front/2/c/2c91da53-4233-4802-8a72-240b0b46d459.png?1683835472",
         :collector-number "190",
         :layout "normal",
         :name "Perrie, the Pulverizer",
         :oracle-text
-        "When Perrie enters the battlefield, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
+        "When Perrie enters, put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nWhenever Perrie attacks, target creature you control gains trample and gets +X/+X until end of turn, where X is the number of different kinds of counters among permanents you control."}
  #:card{:type-line "Creature — Eldrazi",
         :layout-category :normal,
         :code "ncc",
@@ -2100,7 +2100,7 @@
         :layout "normal",
         :name "Artisan of Kozilek",
         :oracle-text
-        "When you cast this spell, you may return target creature card from your graveyard to the battlefield.\nAnnihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)"}
+        "When you cast this spell, you may return target creature card from your graveyard to the battlefield.\nAnnihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)"}
  #:card{:type-line "Creature — Archon",
         :layout-category :normal,
         :code "ncc",
@@ -2111,7 +2111,7 @@
         :layout "normal",
         :name "Archon of Coronation",
         :oracle-text
-        "Flying\nWhen Archon of Coronation enters the battlefield, you become the monarch.\nAs long as you're the monarch, damage doesn't cause you to lose life. (When a creature deals combat damage to you, its controller still becomes the monarch.)"}
+        "Flying\nWhen this creature enters, you become the monarch.\nAs long as you're the monarch, damage doesn't cause you to lose life. (When a creature deals combat damage to you, its controller still becomes the monarch.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2133,7 +2133,7 @@
         :layout "normal",
         :name "Avenging Huntbonder",
         :oracle-text
-        "Double strike\nWhenever Avenging Huntbonder attacks, put a double strike counter on another target attacking creature."}
+        "Double strike\nWhenever this creature attacks, put a double strike counter on another target attacking creature."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -2150,7 +2150,7 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/f/6f5513a2-e63d-44df-b8a5-37c298e38e3c.png?1673483643",
+        "https://cards.scryfall.io/png/front/6/f/6f5513a2-e63d-44df-b8a5-37c298e38e3c.png?1697357006",
         :collector-number "196",
         :layout "normal",
         :name "Declaration in Stone",
@@ -2192,7 +2192,7 @@
         :layout "normal",
         :name "Felidar Retreat",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control, choose one —\n• Create a 2/2 white Cat Beast creature token.\n• Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn."}
+        "Landfall — Whenever a land you control enters, choose one —\n• Create a 2/2 white Cat Beast creature token.\n• Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2225,8 +2225,8 @@
         :layout "normal",
         :name "Grateful Apparition",
         :oracle-text
-        "Flying\nWhenever Grateful Apparition deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
- #:card{:type-line "Tribal Enchantment — Elemental",
+        "Flying\nWhenever this creature deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
+ #:card{:type-line "Kindred Enchantment — Elemental",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -2236,7 +2236,7 @@
         :layout "normal",
         :name "Hoofprints of the Stag",
         :oracle-text
-        "Whenever you draw a card, you may put a hoofprint counter on Hoofprints of the Stag.\n{2}{W}, Remove four hoofprint counters from Hoofprints of the Stag: Create a 4/4 white Elemental creature token with flying. Activate only during your turn."}
+        "Whenever you draw a card, you may put a hoofprint counter on this enchantment.\n{2}{W}, Remove four hoofprint counters from this enchantment: Create a 4/4 white Elemental creature token with flying. Activate only during your turn."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -2313,7 +2313,7 @@
         :layout "normal",
         :name "Sun Titan",
         :oracle-text
-        "Vigilance\nWhenever Sun Titan enters the battlefield or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
+        "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -2335,8 +2335,8 @@
         :layout "normal",
         :name "Together Forever",
         :oracle-text
-        "When Together Forever enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two target creatures.)\n{1}: Choose target creature with a counter on it. When that creature dies this turn, return that card to its owner's hand."}
- #:card{:type-line "Creature — Naga Wizard",
+        "When this enchantment enters, support 2. (Put a +1/+1 counter on each of up to two target creatures.)\n{1}: Choose target creature with a counter on it. When that creature dies this turn, return that card to its owner's hand."}
+ #:card{:type-line "Creature — Snake Wizard",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
@@ -2346,7 +2346,7 @@
         :layout "normal",
         :name "Champion of Wits",
         :oracle-text
-        "When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.\nEternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)"}
+        "When this creature enters, you may draw cards equal to its power. If you do, discard two cards.\nEternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Snake Wizard with no mana cost. Eternalize only as a sorcery.)"}
  #:card{:type-line "Creature — Squid Horror",
         :layout-category :normal,
         :code "ncc",
@@ -2357,7 +2357,7 @@
         :layout "normal",
         :name "Chasm Skulker",
         :oracle-text
-        "Whenever you draw a card, put a +1/+1 counter on Chasm Skulker.\nWhen Chasm Skulker dies, create X 1/1 blue Squid creature tokens with islandwalk, where X is the number of +1/+1 counters on Chasm Skulker. (They can't be blocked as long as defending player controls an Island.)"}
+        "Whenever you draw a card, put a +1/+1 counter on this creature.\nWhen this creature dies, create X 1/1 blue Squid creature tokens with islandwalk, where X is the number of +1/+1 counters on this creature. (They can't be blocked as long as defending player controls an Island.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2394,7 +2394,7 @@
         :layout "normal",
         :name "Daring Saboteur",
         :oracle-text
-        "{2}{U}: Daring Saboteur can't be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card."}
+        "{2}{U}: This creature can't be blocked this turn.\nWhenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2460,7 +2460,7 @@
         :layout "normal",
         :name "Ghostly Pilferer",
         :oracle-text
-        "Whenever Ghostly Pilferer becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: Ghostly Pilferer can't be blocked this turn."}
+        "Whenever this creature becomes untapped, you may pay {2}. If you do, draw a card.\nWhenever an opponent casts a spell from anywhere other than their hand, draw a card.\nDiscard a card: This creature can't be blocked this turn."}
  #:card{:type-line "Creature — Shapeshifter",
         :layout-category :normal,
         :code "ncc",
@@ -2471,7 +2471,7 @@
         :layout "normal",
         :name "Identity Thief",
         :oracle-text
-        "Whenever Identity Thief attacks, you may exile another target nontoken creature. If you do, Identity Thief becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step."}
+        "Whenever this creature attacks, you may exile another target nontoken creature. If you do, this creature becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step."}
  #:card{:type-line "Creature — Kor Rogue",
         :layout-category :normal,
         :code "ncc",
@@ -2482,7 +2482,7 @@
         :layout "normal",
         :name "Looter il-Kor",
         :oracle-text
-        "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever Looter il-Kor deals damage to an opponent, draw a card, then discard a card."}
+        "Shadow (This creature can block or be blocked by only creatures with shadow.)\nWhenever this creature deals damage to an opponent, draw a card, then discard a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -2493,7 +2493,7 @@
         :layout "normal",
         :name "Midnight Clock",
         :oracle-text
-        "{T}: Add {U}.\n{2}{U}: Put an hour counter on Midnight Clock.\nAt the beginning of each upkeep, put an hour counter on Midnight Clock.\nWhen the twelfth hour counter is put on Midnight Clock, shuffle your hand and graveyard into your library, then draw seven cards. Exile Midnight Clock."}
+        "{T}: Add {U}.\n{2}{U}: Put an hour counter on this artifact.\nAt the beginning of each upkeep, put an hour counter on this artifact.\nWhen the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -2515,13 +2515,13 @@
         :layout "normal",
         :name "Nadir Kraken",
         :oracle-text
-        "Whenever you draw a card, you may pay {1}. If you do, put a +1/+1 counter on Nadir Kraken and create a 1/1 blue Tentacle creature token."}
+        "Whenever you draw a card, you may pay {1}. If you do, put a +1/+1 counter on this creature and create a 1/1 blue Tentacle creature token."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/4/44dcfc0c-b23d-48be-bf3a-a6fc6806c5e1.png?1673483971",
+        "https://cards.scryfall.io/png/front/4/4/44dcfc0c-b23d-48be-bf3a-a6fc6806c5e1.png?1710160906",
         :collector-number "229",
         :layout "normal",
         :name "Ponder",
@@ -2532,12 +2532,12 @@
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/d/1/d10b9be3-d4ff-4e3c-b0d5-5ab2c4e6d684.png?1673483979",
+        "https://cards.scryfall.io/png/front/d/1/d10b9be3-d4ff-4e3c-b0d5-5ab2c4e6d684.png?1691417733",
         :collector-number "230",
         :layout "normal",
         :name "Preordain",
         :oracle-text
-        "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"}
+        "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2559,7 +2559,7 @@
         :layout "normal",
         :name "Skyship Plunderer",
         :oracle-text
-        "Flying\nWhenever Skyship Plunderer deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind."}
+        "Flying\nWhenever this creature deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2603,7 +2603,7 @@
         :layout "normal",
         :name "Thrummingbird",
         :oracle-text
-        "Flying\nWhenever Thrummingbird deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
+        "Flying\nWhenever this creature deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2625,7 +2625,7 @@
         :layout "normal",
         :name "Whirler Rogue",
         :oracle-text
-        "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
+        "When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
@@ -2636,7 +2636,7 @@
         :layout "normal",
         :name "Wingspan Mentor",
         :oracle-text
-        "When Wingspan Mentor enters the battlefield, put a flying counter on target non-Human creature you control.\n{2}{U}, {T}: Put a +1/+1 counter on each creature you control with flying."}
+        "When this creature enters, put a flying counter on target non-Human creature you control.\n{2}{U}, {T}: Put a +1/+1 counter on each creature you control with flying."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2680,7 +2680,7 @@
         :layout "normal",
         :name "Bloodsoaked Champion",
         :oracle-text
-        "Bloodsoaked Champion can't block.\nRaid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn."}
+        "This creature can't block.\nRaid — {1}{B}: Return this card from your graveyard to the battlefield. Activate only if you attacked this turn."}
  #:card{:type-line "Creature — Zombie Cleric",
         :layout-category :normal,
         :code "ncc",
@@ -2691,7 +2691,7 @@
         :layout "normal",
         :name "Custodi Lich",
         :oracle-text
-        "When Custodi Lich enters the battlefield, you become the monarch.\nWhenever you become the monarch, target player sacrifices a creature."}
+        "When this creature enters, you become the monarch.\nWhenever you become the monarch, target player sacrifices a creature of their choice."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2712,18 +2712,18 @@
         :layout "normal",
         :name "Deathbringer Regent",
         :oracle-text
-        "Flying\nWhen Deathbringer Regent enters the battlefield, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures."}
+        "Flying\nWhen this creature enters, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/c/0/c0801fd0-1f6c-45ea-94aa-80cf0c017f57.png?1673484148",
+        "https://cards.scryfall.io/png/front/c/0/c0801fd0-1f6c-45ea-94aa-80cf0c017f57.png?1735359943",
         :collector-number "247",
         :layout "normal",
         :name "Disciple of Bolas",
         :oracle-text
-        "When Disciple of Bolas enters the battlefield, sacrifice another creature. You gain X life and draw X cards, where X is that creature's power."}
+        "When this creature enters, sacrifice another creature. You gain X life and draw X cards, where X is that creature's power."}
  #:card{:type-line "Legendary Creature — Vampire Ally",
         :layout-category :normal,
         :code "ncc",
@@ -2734,7 +2734,7 @@
         :layout "normal",
         :name "Drana, Liberator of Malakir",
         :oracle-text
-        "Flying, first strike\nWhenever Drana, Liberator of Malakir deals combat damage to a player, put a +1/+1 counter on each attacking creature you control."}
+        "Flying, first strike\nWhenever Drana deals combat damage to a player, put a +1/+1 counter on each attacking creature you control."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2745,7 +2745,7 @@
         :layout "normal",
         :name "Dread Summons",
         :oracle-text
-        "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token."}
+        "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token. (To mill a card, a player puts the top card of their library into their graveyard.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2767,7 +2767,7 @@
         :layout "normal",
         :name "Graveblade Marauder",
         :oracle-text
-        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever Graveblade Marauder deals combat damage to a player, that player loses life equal to the number of creature cards in your graveyard."}
+        "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever this creature deals combat damage to a player, that player loses life equal to the number of creature cards in your graveyard."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2799,7 +2799,7 @@
         :layout "normal",
         :name "Noxious Gearhulk",
         :oracle-text
-        "Menace\nWhen Noxious Gearhulk enters the battlefield, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness."}
+        "Menace\nWhen this creature enters, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2832,7 +2832,7 @@
         :layout "normal",
         :name "Puppeteer Clique",
         :oracle-text
-        "Flying\nWhen Puppeteer Clique enters the battlefield, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"}
+        "Flying\nWhen this creature enters, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2843,7 +2843,7 @@
         :layout "normal",
         :name "Reign of the Pit",
         :oracle-text
-        "Each player sacrifices a creature. Create an X/X black Demon creature token with flying, where X is the total power of the creatures sacrificed this way."}
+        "Each player sacrifices a creature of their choice. Create an X/X black Demon creature token with flying, where X is the total power of the creatures sacrificed this way."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2865,7 +2865,7 @@
         :layout "normal",
         :name "Skyclave Shade",
         :oracle-text
-        "Kicker {2}{B}\nSkyclave Shade can't block.\nIf Skyclave Shade was kicked, it enters the battlefield with two +1/+1 counters on it.\nLandfall — Whenever a land enters the battlefield under your control, if Skyclave Shade is in your graveyard and it's your turn, you may cast it from your graveyard this turn."}
+        "Kicker {2}{B}\nThis creature can't block.\nIf this creature was kicked, it enters with two +1/+1 counters on it.\nLandfall — Whenever a land you control enters, if this card is in your graveyard and it's your turn, you may cast it from your graveyard this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -2887,7 +2887,7 @@
         :layout "normal",
         :name "Woe Strider",
         :oracle-text
-        "When Woe Strider enters the battlefield, create a 0/1 white Goat creature token.\nSacrifice another creature: Scry 1.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nWoe Strider escapes with two +1/+1 counters on it."}
+        "When this creature enters, create a 0/1 white Goat creature token.\nSacrifice another creature: Scry 1.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with two +1/+1 counters on it."}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "ncc",
@@ -2953,7 +2953,7 @@
         :layout "normal",
         :name "Etali, Primal Storm",
         :oracle-text
-        "Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs."}
+        "Whenever Etali attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs."}
  #:card{:type-line "Creature — Giant",
         :layout-category :normal,
         :code "ncc",
@@ -2964,7 +2964,7 @@
         :layout "normal",
         :name "Inferno Titan",
         :oracle-text
-        "{R}: Inferno Titan gets +1/+0 until end of turn.\nWhenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three targets."}
+        "{R}: This creature gets +1/+0 until end of turn.\nWhenever this creature enters or attacks, it deals 3 damage divided as you choose among one, two, or three targets."}
  #:card{:type-line "Legendary Creature — Ogre Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -2986,7 +2986,7 @@
         :layout "normal",
         :name "Magus of the Wheel",
         :oracle-text
-        "{1}{R}, {T}, Sacrifice Magus of the Wheel: Each player discards their hand, then draws seven cards."}
+        "{1}{R}, {T}, Sacrifice this creature: Each player discards their hand, then draws seven cards."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -2997,7 +2997,7 @@
         :layout "normal",
         :name "Outpost Siege",
         :oracle-text
-        "As Outpost Siege enters the battlefield, choose Khans or Dragons.\n• Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card.\n• Dragons — Whenever a creature you control leaves the battlefield, Outpost Siege deals 1 damage to any target."}
+        "As this enchantment enters, choose Khans or Dragons.\n• Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card.\n• Dragons — Whenever a creature you control leaves the battlefield, this enchantment deals 1 damage to any target."}
  #:card{:type-line "Creature — Phoenix",
         :layout-category :normal,
         :code "ncc",
@@ -3008,7 +3008,7 @@
         :layout "normal",
         :name "Rekindling Phoenix",
         :oracle-text
-        "Flying\nWhen Rekindling Phoenix dies, create a 0/1 red Elemental creature token with \"At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.\""}
+        "Flying\nWhen this creature dies, create a 0/1 red Elemental creature token with \"At the beginning of your upkeep, sacrifice this token and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.\""}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -3019,7 +3019,7 @@
         :layout "normal",
         :name "Rite of the Raging Storm",
         :oracle-text
-        "Creatures named Lightning Rager can't attack you or planeswalkers you control.\nAt the beginning of each player's upkeep, that player creates a 5/1 red Elemental creature token named Lightning Rager. It has trample, haste, and \"At the beginning of the end step, sacrifice this creature.\""}
+        "Creatures named Lightning Rager can't attack you or planeswalkers you control.\nAt the beginning of each player's upkeep, that player creates a 5/1 red Elemental creature token named Lightning Rager. It has trample, haste, and \"At the beginning of the end step, sacrifice this token.\""}
  #:card{:type-line "Legendary Creature — Goblin",
         :layout-category :normal,
         :code "ncc",
@@ -3030,7 +3030,7 @@
         :layout "normal",
         :name "Squee, the Immortal",
         :oracle-text
-        "You may cast Squee, the Immortal from your graveyard or from exile."}
+        "You may cast this card from your graveyard or from exile."}
  #:card{:type-line "Creature — Avatar",
         :layout-category :normal,
         :code "ncc",
@@ -3052,7 +3052,7 @@
         :layout "normal",
         :name "Warstorm Surge",
         :oracle-text
-        "Whenever a creature enters the battlefield under your control, it deals damage equal to its power to any target."}
+        "Whenever a creature you control enters, it deals damage equal to its power to any target."}
  #:card{:type-line "Legendary Creature — Devil",
         :layout-category :normal,
         :code "ncc",
@@ -3063,13 +3063,13 @@
         :layout "normal",
         :name "Zurzoth, Chaos Rider",
         :oracle-text
-        "Whenever an opponent draws their first card each turn, if it's not their turn, you create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"\nWhenever one or more Devils you control attack one or more players, you and those players each draw a card, then discard a card at random."}
+        "Whenever an opponent draws their first card each turn, if it's not their turn, you create a 1/1 red Devil creature token with \"When this token dies, it deals 1 damage to any target.\"\nWhenever one or more Devils you control attack one or more players, you and those players each draw a card, then discard a card at random."}
  #:card{:type-line "Legendary Enchantment Creature — Spider",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/e/9/e905a310-02d5-4a86-bb58-2bb3502edba2.png?1673484451",
+        "https://cards.scryfall.io/png/front/e/9/e905a310-02d5-4a86-bb58-2bb3502edba2.png?1681728820",
         :collector-number "279",
         :layout "normal",
         :name "Arasta of the Endless Web",
@@ -3085,7 +3085,7 @@
         :layout "normal",
         :name "Avenger of Zendikar",
         :oracle-text
-        "When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control."}
+        "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -3096,7 +3096,7 @@
         :layout "normal",
         :name "Awakening Zone",
         :oracle-text
-        "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\""}
+        "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this token: Add {C}.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -3118,7 +3118,7 @@
         :layout "normal",
         :name "Beastmaster Ascension",
         :oracle-text
-        "Whenever a creature you control attacks, you may put a quest counter on Beastmaster Ascension.\nAs long as Beastmaster Ascension has seven or more quest counters on it, creatures you control get +5/+5."}
+        "Whenever a creature you control attacks, you may put a quest counter on this enchantment.\nAs long as this enchantment has seven or more quest counters on it, creatures you control get +5/+5."}
  #:card{:type-line "Creature — Human Warrior",
         :layout-category :normal,
         :code "ncc",
@@ -3129,7 +3129,7 @@
         :layout "normal",
         :name "Champion of Lambholt",
         :oracle-text
-        "Creatures with power less than Champion of Lambholt's power can't block creatures you control.\nWhenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt."}
+        "Creatures with power less than this creature's power can't block creatures you control.\nWhenever another creature you control enters, put a +1/+1 counter on this creature."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -3151,7 +3151,7 @@
         :layout "normal",
         :name "Devoted Druid",
         :oracle-text
-        "{T}: Add {G}.\nPut a -1/-1 counter on Devoted Druid: Untap Devoted Druid."}
+        "{T}: Add {G}.\nPut a -1/-1 counter on this creature: Untap this creature."}
  #:card{:type-line "Creature — Elf Druid",
         :layout-category :normal,
         :code "ncc",
@@ -3162,13 +3162,13 @@
         :layout "normal",
         :name "Evolution Sage",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
+        "Landfall — Whenever a land you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/4/d/4d007d3c-3356-4394-9bcd-2b2c1031c20b.png?1673484550",
+        "https://cards.scryfall.io/png/front/4/d/4d007d3c-3356-4394-9bcd-2b2c1031c20b.png?1707764755",
         :collector-number "288",
         :layout "normal",
         :name "Evolutionary Leap",
@@ -3206,7 +3206,7 @@
         :layout "normal",
         :name "Forgotten Ancient",
         :oracle-text
-        "Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.\nAt the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures."}
+        "Whenever a player casts a spell, you may put a +1/+1 counter on this creature.\nAt the beginning of your upkeep, you may move any number of +1/+1 counters from this creature onto other creatures."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -3217,18 +3217,18 @@
         :layout "normal",
         :name "Garruk's Uprising",
         :oracle-text
-        "When Garruk's Uprising enters the battlefield, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (They can deal excess combat damage to the player or planeswalker they're attacking.)\nWhenever a creature with power 4 or greater enters the battlefield under your control, draw a card."}
+        "When this enchantment enters, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever a creature you control with power 4 or greater enters, draw a card."}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/8/b8705797-6d1f-4cec-b748-74ba402e606c.png?1673484598",
+        "https://cards.scryfall.io/png/front/b/8/b8705797-6d1f-4cec-b748-74ba402e606c.png?1675985473",
         :collector-number "293",
         :layout "normal",
         :name "Giant Adephage",
         :oracle-text
-        "Trample\nWhenever Giant Adephage deals combat damage to a player, create a token that's a copy of Giant Adephage."}
+        "Trample\nWhenever this creature deals combat damage to a player, create a token that's a copy of this creature."}
  #:card{:type-line "Creature — Elemental",
         :layout-category :normal,
         :code "ncc",
@@ -3239,7 +3239,7 @@
         :layout "normal",
         :name "Greenwarden of Murasa",
         :oracle-text
-        "When Greenwarden of Murasa enters the battlefield, you may return target card from your graveyard to your hand.\nWhen Greenwarden of Murasa dies, you may exile it. If you do, return target card from your graveyard to your hand."}
+        "When this creature enters, you may return target card from your graveyard to your hand.\nWhen this creature dies, you may exile it. If you do, return target card from your graveyard to your hand."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -3260,7 +3260,7 @@
         :layout "normal",
         :name "Incubation Druid",
         :oracle-text
-        "{T}: Add one mana of any type that a land you control could produce. If Incubation Druid has a +1/+1 counter on it, add three mana of that type instead.\n{3}{G}{G}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)"}
+        "{T}: Add one mana of any type that a land you control could produce. If this creature has a +1/+1 counter on it, add three mana of that type instead.\n{3}{G}{G}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)"}
  #:card{:type-line "Creature — Beast",
         :layout-category :normal,
         :code "ncc",
@@ -3271,7 +3271,7 @@
         :layout "normal",
         :name "Indrik Stomphowler",
         :oracle-text
-        "When Indrik Stomphowler enters the battlefield, destroy target artifact or enchantment."}
+        "When this creature enters, destroy target artifact or enchantment."}
  #:card{:type-line "Sorcery — Arcane",
         :layout-category :normal,
         :code "ncc",
@@ -3326,7 +3326,7 @@
         :layout "normal",
         :name "Mitotic Slime",
         :oracle-text
-        "When Mitotic Slime dies, create two 2/2 green Ooze creature tokens. They have \"When this creature dies, create two 1/1 green Ooze creature tokens.\""}
+        "When this creature dies, create two 2/2 green Ooze creature tokens. They have \"When this token dies, create two 1/1 green Ooze creature tokens.\""}
  #:card{:type-line "Creature — Wall",
         :layout-category :normal,
         :code "ncc",
@@ -3359,7 +3359,7 @@
         :layout "normal",
         :name "Rishkar, Peema Renegade",
         :oracle-text
-        "When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a counter on it has \"{T}: Add {G}.\""}
+        "When Rishkar enters, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a counter on it has \"{T}: Add {G}.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -3381,7 +3381,7 @@
         :layout "normal",
         :name "Sakura-Tribe Elder",
         :oracle-text
-        "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+        "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -3403,7 +3403,7 @@
         :layout "normal",
         :name "Scavenging Ooze",
         :oracle-text
-        "{G}: Exile target card from a graveyard. If it was a creature card, put a +1/+1 counter on Scavenging Ooze and you gain 1 life."}
+        "{G}: Exile target card from a graveyard. If it was a creature card, put a +1/+1 counter on this creature and you gain 1 life."}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "ncc",
@@ -3414,7 +3414,7 @@
         :layout "normal",
         :name "Scute Swarm",
         :oracle-text
-        "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of Scute Swarm instead."}
+        "Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of this creature instead."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -3436,7 +3436,7 @@
         :layout "normal",
         :name "Slippery Bogbonder",
         :oracle-text
-        "Flash\nHexproof\nWhen Slippery Bogbonder enters the battlefield, put a hexproof counter on target creature. Then move any number of counters from among creatures you control onto that creature."}
+        "Flash\nHexproof\nWhen this creature enters, put a hexproof counter on target creature. Then move any number of counters from among creatures you control onto that creature."}
  #:card{:type-line "Creature — Turtle Hydra",
         :layout-category :normal,
         :code "ncc",
@@ -3447,7 +3447,7 @@
         :layout "normal",
         :name "Steelbane Hydra",
         :oracle-text
-        "Steelbane Hydra enters the battlefield with X +1/+1 counters on it.\n{2}{G}, Remove a +1/+1 counter from Steelbane Hydra: Destroy target artifact or enchantment."}
+        "This creature enters with X +1/+1 counters on it.\n{2}{G}, Remove a +1/+1 counter from this creature: Destroy target artifact or enchantment."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
@@ -3469,7 +3469,7 @@
         :layout "normal",
         :name "Temur Sabertooth",
         :oracle-text
-        "{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn."}
+        "{1}{G}: You may return another creature you control to its owner's hand. If you do, this creature gains indestructible until end of turn."}
  #:card{:type-line "Creature — Beast",
         :layout-category :normal,
         :code "ncc",
@@ -3480,7 +3480,7 @@
         :layout "normal",
         :name "Thragtusk",
         :oracle-text
-        "When Thragtusk enters the battlefield, you gain 5 life.\nWhen Thragtusk leaves the battlefield, create a 3/3 green Beast creature token."}
+        "When this creature enters, you gain 5 life.\nWhen this creature leaves the battlefield, create a 3/3 green Beast creature token."}
  #:card{:type-line "Creature — Beast",
         :layout-category :normal,
         :code "ncc",
@@ -3491,7 +3491,7 @@
         :layout "normal",
         :name "Thunderfoot Baloth",
         :oracle-text
-        "Trample\nLieutenant — As long as you control your commander, Thunderfoot Baloth gets +2/+2 and other creatures you control get +2/+2 and have trample."}
+        "Trample\nLieutenant — As long as you control your commander, this creature gets +2/+2 and other creatures you control get +2/+2 and have trample."}
  #:card{:type-line "Creature — Chimera",
         :layout-category :normal,
         :code "ncc",
@@ -3502,7 +3502,7 @@
         :layout "normal",
         :name "Treeshaker Chimera",
         :oracle-text
-        "All creatures able to block Treeshaker Chimera do so.\nWhen Treeshaker Chimera dies, draw three cards."}
+        "All creatures able to block this creature do so.\nWhen this creature dies, draw three cards."}
  #:card{:type-line "Creature — Plant Wall",
         :layout-category :normal,
         :code "ncc",
@@ -3513,7 +3513,7 @@
         :layout "normal",
         :name "Wall of Roots",
         :oracle-text
-        "Defender\nPut a -0/-1 counter on Wall of Roots: Add {G}. Activate only once each turn."}
+        "Defender\nPut a -0/-1 counter on this creature: Add {G}. Activate only once each turn."}
  #:card{:type-line "Creature — Treefolk Shaman",
         :layout-category :normal,
         :code "ncc",
@@ -3524,7 +3524,7 @@
         :layout "normal",
         :name "Wickerbough Elder",
         :oracle-text
-        "Wickerbough Elder enters the battlefield with a -1/-1 counter on it.\n{G}, Remove a -1/-1 counter from Wickerbough Elder: Destroy target artifact or enchantment."}
+        "This creature enters with a -1/-1 counter on it.\n{G}, Remove a -1/-1 counter from this creature: Destroy target artifact or enchantment."}
  #:card{:type-line "Creature — Elf Scout",
         :layout-category :normal,
         :code "ncc",
@@ -3535,7 +3535,7 @@
         :layout "normal",
         :name "Wood Elves",
         :oracle-text
-        "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle."}
+        "When this creature enters, search your library for a Forest card, put that card onto the battlefield, then shuffle."}
  #:card{:type-line "Creature — Treefolk Shaman",
         :layout-category :normal,
         :code "ncc",
@@ -3546,7 +3546,7 @@
         :layout "normal",
         :name "Woodfall Primus",
         :oracle-text
-        "Trample\nWhen Woodfall Primus enters the battlefield, destroy target noncreature permanent.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"}
+        "Trample\nWhen this creature enters, destroy target noncreature permanent.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"}
  #:card{:type-line "Creature — Merfolk Shaman",
         :layout-category :normal,
         :code "ncc",
@@ -3557,7 +3557,7 @@
         :layout "normal",
         :name "World Shaper",
         :oracle-text
-        "Whenever World Shaper attacks, you may mill three cards.\nWhen World Shaper dies, return all land cards from your graveyard to the battlefield tapped."}
+        "Whenever this creature attacks, you may mill three cards.\nWhen this creature dies, return all land cards from your graveyard to the battlefield tapped."}
  #:card{:type-line "Legendary Planeswalker — Ajani",
         :layout-category :normal,
         :code "ncc",
@@ -3601,7 +3601,7 @@
         :layout "normal",
         :name "Assemble the Legion",
         :oracle-text
-        "At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then create a 1/1 red and white Soldier creature token with haste for each muster counter on Assemble the Legion."}
+        "At the beginning of your upkeep, put a muster counter on this enchantment. Then create a 1/1 red and white Soldier creature token with haste for each muster counter on this enchantment."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -3689,7 +3689,7 @@
         :layout "normal",
         :name "Daxos of Meletis",
         :oracle-text
-        "Daxos of Meletis can't be blocked by creatures with power 3 or greater.\nWhenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's mana value. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."}
+        "Daxos can't be blocked by creatures with power 3 or greater.\nWhenever Daxos deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's mana value. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "ncc",
@@ -3722,7 +3722,7 @@
         :layout "normal",
         :name "Fallen Shinobi",
         :oracle-text
-        "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Fallen Shinobi deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs."}
+        "Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, that player exiles the top two cards of their library. Until end of turn, you may play those cards without paying their mana costs."}
  #:card{:type-line "Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
@@ -3733,7 +3733,7 @@
         :layout "normal",
         :name "Fathom Mage",
         :oracle-text
-        "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)\nWhenever a +1/+1 counter is put on Fathom Mage, you may draw a card."}
+        "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)\nWhenever a +1/+1 counter is put on this creature, you may draw a card."}
  #:card{:type-line "Legendary Creature — Beast",
         :layout-category :normal,
         :code "ncc",
@@ -3776,8 +3776,7 @@
         :collector-number "343",
         :layout "normal",
         :name "Jenara, Asura of War",
-        :oracle-text
-        "Flying\n{1}{W}: Put a +1/+1 counter on Jenara, Asura of War."}
+        :oracle-text "Flying\n{1}{W}: Put a +1/+1 counter on Jenara."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "ncc",
@@ -3799,7 +3798,7 @@
         :layout "normal",
         :name "Kresh the Bloodbraided",
         :oracle-text
-        "Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power."}
+        "Whenever another creature dies, you may put X +1/+1 counters on Kresh, where X is that creature's power."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -3843,7 +3842,7 @@
         :layout "normal",
         :name "Roalesk, Apex Hybrid",
         :oracle-text
-        "Flying, trample\nWhen Roalesk, Apex Hybrid enters the battlefield, put two +1/+1 counters on another target creature you control.\nWhen Roalesk dies, proliferate, then proliferate again. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
+        "Flying, trample\nWhen Roalesk enters, put two +1/+1 counters on another target creature you control.\nWhen Roalesk dies, proliferate, then proliferate again. (Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.)"}
  #:card{:type-line "Legendary Creature — Elf Scout",
         :layout-category :normal,
         :code "ncc",
@@ -3865,7 +3864,7 @@
         :layout "normal",
         :name "Shadowmage Infiltrator",
         :oracle-text
-        "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card."}
+        "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever this creature deals combat damage to a player, you may draw a card."}
  #:card{:type-line "Creature — Demon Ninja",
         :layout-category :normal,
         :code "ncc",
@@ -3876,7 +3875,7 @@
         :layout "normal",
         :name "Silent-Blade Oni",
         :oracle-text
-        "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost."}
+        "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "ncc",
@@ -3898,13 +3897,13 @@
         :layout "normal",
         :name "Thief of Sanity",
         :oracle-text
-        "Flying\nWhenever Thief of Sanity deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell."}
+        "Flying\nWhenever this creature deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/8/5/85df7b1b-7cd6-499d-aa9d-5599a79a3512.png?1673485215",
+        "https://cards.scryfall.io/png/front/8/5/85df7b1b-7cd6-499d-aa9d-5599a79a3512.png?1733502700",
         :collector-number "355",
         :layout "normal",
         :name "Urban Evolution",
@@ -3952,7 +3951,7 @@
         :layout "normal",
         :name "Wrexial, the Risen Deep",
         :oracle-text
-        "Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)\nWhenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
+        "Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)\nWhenever Wrexial deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -3984,7 +3983,7 @@
         :layout "normal",
         :name "Bloodthirsty Blade",
         :oracle-text
-        "Equipped creature gets +2/+0 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\n{1}: Attach Bloodthirsty Blade to target creature an opponent controls. Activate only as a sorcery."}
+        "Equipped creature gets +2/+0 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\n{1}: Attach this Equipment to target creature an opponent controls. Activate only as a sorcery."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -3995,7 +3994,7 @@
         :layout "normal",
         :name "Commander's Sphere",
         :oracle-text
-        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice Commander's Sphere: Draw a card."}
+        "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card."}
  #:card{:type-line "Artifact Creature — Giant",
         :layout-category :normal,
         :code "ncc",
@@ -4006,7 +4005,7 @@
         :layout "normal",
         :name "Crystalline Giant",
         :oracle-text
-        "At the beginning of combat on your turn, choose a kind of counter at random that Crystalline Giant doesn't have on it from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance, and +1/+1. Put a counter of that kind on Crystalline Giant."}
+        "At the beginning of combat on your turn, choose a kind of counter at random that this creature doesn't have on it from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance, and +1/+1. Put a counter of that kind on this creature."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4027,7 +4026,7 @@
         :layout "normal",
         :name "Everflowing Chalice",
         :oracle-text
-        "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nEverflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on Everflowing Chalice."}
+        "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis artifact enters with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4049,7 +4048,7 @@
         :layout "normal",
         :name "Idol of Oblivion",
         :oracle-text
-        "{T}: Draw a card. Activate only if you created a token this turn.\n{8}, {T}, Sacrifice Idol of Oblivion: Create a 10/10 colorless Eldrazi creature token."}
+        "{T}: Draw a card. Activate only if you created a token this turn.\n{8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4092,7 +4091,7 @@
         :layout "normal",
         :name "Mimic Vat",
         :oracle-text
-        "Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard.\n{3}, {T}: Create a token that's a copy of a card exiled with Mimic Vat. It gains haste. Exile it at the beginning of the next end step."}
+        "Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with this artifact to its owner's graveyard.\n{3}, {T}: Create a token that's a copy of a card exiled with this artifact. It gains haste. Exile it at the beginning of the next end step."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4103,7 +4102,7 @@
         :layout "normal",
         :name "Oblivion Stone",
         :oracle-text
-        "{4}, {T}: Put a fate counter on target permanent.\n{5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents."}
+        "{4}, {T}: Put a fate counter on target permanent.\n{5}, {T}, Sacrifice this artifact: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4114,7 +4113,7 @@
         :layout "normal",
         :name "Oracle's Vault",
         :oracle-text
-        "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on Oracle's Vault.\n{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate only if there are three or more brick counters on Oracle's Vault."}
+        "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on this artifact.\n{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate only if there are three or more brick counters on this artifact."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4177,7 +4176,7 @@
         :layout "normal",
         :name "Solemn Simulacrum",
         :oracle-text
-        "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen Solemn Simulacrum dies, you may draw a card."}
+        "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4199,7 +4198,7 @@
         :layout "normal",
         :name "Swiftfoot Boots",
         :oracle-text
-        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"}
+        "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "ncc",
@@ -4221,7 +4220,7 @@
         :layout "normal",
         :name "Wayfarer's Bauble",
         :oracle-text
-        "{2}, {T}, Sacrifice Wayfarer's Bauble: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
+        "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4232,7 +4231,7 @@
         :layout "normal",
         :name "Arcane Sanctum",
         :oracle-text
-        "Arcane Sanctum enters the battlefield tapped.\n{T}: Add {W}, {U}, or {B}."}
+        "This land enters tapped.\n{T}: Add {W}, {U}, or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4254,7 +4253,7 @@
         :layout "normal",
         :name "Bant Panorama",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4265,7 +4264,7 @@
         :layout "normal",
         :name "Blighted Woodland",
         :oracle-text
-        "{T}: Add {C}.\n{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land — Forest Plains",
         :layout-category :normal,
         :code "ncc",
@@ -4276,7 +4275,7 @@
         :layout "normal",
         :name "Canopy Vista",
         :oracle-text
-        "({T}: Add {G} or {W}.)\nCanopy Vista enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {G} or {W}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4298,7 +4297,7 @@
         :layout "normal",
         :name "Castle Ardenvale",
         :oracle-text
-        "Castle Ardenvale enters the battlefield tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token."}
+        "This land enters tapped unless you control a Plains.\n{T}: Add {W}.\n{2}{W}{W}, {T}: Create a 1/1 white Human creature token."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4309,7 +4308,7 @@
         :layout "normal",
         :name "Castle Embereth",
         :oracle-text
-        "Castle Embereth enters the battlefield tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn."}
+        "This land enters tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4320,7 +4319,7 @@
         :layout "normal",
         :name "Choked Estuary",
         :oracle-text
-        "As Choked Estuary enters the battlefield, you may reveal an Island or Swamp card from your hand. If you don't, Choked Estuary enters the battlefield tapped.\n{T}: Add {U} or {B}."}
+        "As this land enters, you may reveal an Island or Swamp card from your hand. If you don't, this land enters tapped.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land — Mountain Forest",
         :layout-category :normal,
         :code "ncc",
@@ -4331,7 +4330,7 @@
         :layout "normal",
         :name "Cinder Glade",
         :oracle-text
-        "({T}: Add {R} or {G}.)\nCinder Glade enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {R} or {G}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4353,7 +4352,7 @@
         :layout "normal",
         :name "Creeping Tar Pit",
         :oracle-text
-        "Creeping Tar Pit enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land."}
+        "This land enters tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: This land becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4364,7 +4363,7 @@
         :layout "normal",
         :name "Crumbling Necropolis",
         :oracle-text
-        "Crumbling Necropolis enters the battlefield tapped.\n{T}: Add {U}, {B}, or {R}."}
+        "This land enters tapped.\n{T}: Add {U}, {B}, or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4385,7 +4384,7 @@
         :layout "normal",
         :name "Esper Panorama",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}, Sacrifice Esper Panorama: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4429,7 +4428,7 @@
         :layout "normal",
         :name "Foreboding Ruins",
         :oracle-text
-        "As Foreboding Ruins enters the battlefield, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters the battlefield tapped.\n{T}: Add {B} or {R}."}
+        "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4440,7 +4439,7 @@
         :layout "normal",
         :name "Fortified Village",
         :oracle-text
-        "As Fortified Village enters the battlefield, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters the battlefield tapped.\n{T}: Add {G} or {W}."}
+        "As this land enters, you may reveal a Forest or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {G} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4451,7 +4450,7 @@
         :layout "normal",
         :name "Game Trail",
         :oracle-text
-        "As Game Trail enters the battlefield, you may reveal a Mountain or Forest card from your hand. If you don't, Game Trail enters the battlefield tapped.\n{T}: Add {R} or {G}."}
+        "As this land enters, you may reveal a Mountain or Forest card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4473,7 +4472,7 @@
         :layout "normal",
         :name "Grixis Panorama",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4484,7 +4483,7 @@
         :layout "normal",
         :name "Jund Panorama",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}, Sacrifice Jund Panorama: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4495,7 +4494,7 @@
         :layout "normal",
         :name "Jungle Shrine",
         :oracle-text
-        "Jungle Shrine enters the battlefield tapped.\n{T}: Add {R}, {G}, or {W}."}
+        "This land enters tapped.\n{T}: Add {R}, {G}, or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4528,7 +4527,7 @@
         :layout "normal",
         :name "Littjara Mirrorlake",
         :oracle-text
-        "Littjara Mirrorlake enters the battlefield tapped.\n{T}: Add {U}.\n{2}{G}{G}{U}, {T}, Sacrifice Littjara Mirrorlake: Create a token that's a copy of target creature you control, except it enters the battlefield with an additional +1/+1 counter on it. Activate only as a sorcery."}
+        "This land enters tapped.\n{T}: Add {U}.\n{2}{G}{G}{U}, {T}, Sacrifice this land: Create a token that's a copy of target creature you control, except it enters with an additional +1/+1 counter on it. Activate only as a sorcery."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4539,7 +4538,7 @@
         :layout "normal",
         :name "Llanowar Reborn",
         :oracle-text
-        "Llanowar Reborn enters the battlefield tapped.\n{T}: Add {G}.\nGraft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)"}
+        "This land enters tapped.\n{T}: Add {G}.\nGraft 1 (This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4560,7 +4559,7 @@
         :layout "normal",
         :name "Mosswort Bridge",
         :oracle-text
-        "Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nMosswort Bridge enters the battlefield tapped.\n{T}: Add {G}.\n{G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater."}
+        "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {G}.\n{G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4571,7 +4570,7 @@
         :layout "normal",
         :name "Myriad Landscape",
         :oracle-text
-        "Myriad Landscape enters the battlefield tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle."}
+        "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4582,7 +4581,7 @@
         :layout "normal",
         :name "Naya Panorama",
         :oracle-text
-        "{T}: Add {C}.\n{1}, {T}, Sacrifice Naya Panorama: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle."}
+        "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4604,7 +4603,7 @@
         :layout "normal",
         :name "Path of Ancestry",
         :oracle-text
-        "Path of Ancestry enters the battlefield tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"}
+        "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4615,7 +4614,7 @@
         :layout "normal",
         :name "Port Town",
         :oracle-text
-        "As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.\n{T}: Add {W} or {U}."}
+        "As this land enters, you may reveal a Plains or Island card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land — Plains Island",
         :layout-category :normal,
         :code "ncc",
@@ -4626,7 +4625,7 @@
         :layout "normal",
         :name "Prairie Stream",
         :oracle-text
-        "({T}: Add {W} or {U}.)\nPrairie Stream enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4659,7 +4658,7 @@
         :layout "normal",
         :name "Savage Lands",
         :oracle-text
-        "Savage Lands enters the battlefield tapped.\n{T}: Add {B}, {R}, or {G}."}
+        "This land enters tapped.\n{T}: Add {B}, {R}, or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4670,7 +4669,7 @@
         :layout "normal",
         :name "Seaside Citadel",
         :oracle-text
-        "Seaside Citadel enters the battlefield tapped.\n{T}: Add {G}, {W}, or {U}."}
+        "This land enters tapped.\n{T}: Add {G}, {W}, or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4701,7 +4700,7 @@
         :layout "normal",
         :name "Smoldering Marsh",
         :oracle-text
-        "({T}: Add {B} or {R}.)\nSmoldering Marsh enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4712,13 +4711,13 @@
         :layout "normal",
         :name "Spinerock Knoll",
         :oracle-text
-        "Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nSpinerock Knoll enters the battlefield tapped.\n{T}: Add {R}.\n{R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn."}
+        "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {R}.\n{R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/6/9/69f8f64c-2a4d-4df0-8356-cb15a60b54a6.png?1673486059",
+        "https://cards.scryfall.io/png/front/6/9/69f8f64c-2a4d-4df0-8356-cb15a60b54a6.png?1687648736",
         :collector-number "430",
         :layout "normal",
         :name "Sungrass Prairie",
@@ -4733,7 +4732,7 @@
         :layout "normal",
         :name "Sunken Hollow",
         :oracle-text
-        "({T}: Add {U} or {B}.)\nSunken Hollow enters the battlefield tapped unless you control two or more basic lands."}
+        "({T}: Add {U} or {B}.)\nThis land enters tapped unless you control two or more basic lands."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4744,7 +4743,7 @@
         :layout "normal",
         :name "Temple of Epiphany",
         :oracle-text
-        "Temple of Epiphany enters the battlefield tapped.\nWhen Temple of Epiphany enters the battlefield, scry 1.\n{T}: Add {U} or {R}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4755,7 +4754,7 @@
         :layout "normal",
         :name "Temple of Malady",
         :oracle-text
-        "Temple of Malady enters the battlefield tapped.\nWhen Temple of Malady enters the battlefield, scry 1.\n{T}: Add {B} or {G}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4766,7 +4765,7 @@
         :layout "normal",
         :name "Temple of Mystery",
         :oracle-text
-        "Temple of Mystery enters the battlefield tapped.\nWhen Temple of Mystery enters the battlefield, scry 1.\n{T}: Add {G} or {U}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4777,7 +4776,7 @@
         :layout "normal",
         :name "Temple of Silence",
         :oracle-text
-        "Temple of Silence enters the battlefield tapped.\nWhen Temple of Silence enters the battlefield, scry 1.\n{T}: Add {W} or {B}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4799,7 +4798,7 @@
         :layout "normal",
         :name "Temple of Triumph",
         :oracle-text
-        "Temple of Triumph enters the battlefield tapped.\nWhen Temple of Triumph enters the battlefield, scry 1.\n{T}: Add {R} or {W}."}
+        "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4810,7 +4809,7 @@
         :layout "normal",
         :name "Thriving Bluff",
         :oracle-text
-        "Thriving Bluff enters the battlefield tapped.\nAs Thriving Bluff enters the battlefield, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4821,7 +4820,7 @@
         :layout "normal",
         :name "Thriving Grove",
         :oracle-text
-        "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4832,7 +4831,7 @@
         :layout "normal",
         :name "Thriving Heath",
         :oracle-text
-        "Thriving Heath enters the battlefield tapped.\nAs Thriving Heath enters the battlefield, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4843,7 +4842,7 @@
         :layout "normal",
         :name "Thriving Isle",
         :oracle-text
-        "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4854,7 +4853,7 @@
         :layout "normal",
         :name "Thriving Moor",
         :oracle-text
-        "Thriving Moor enters the battlefield tapped.\nAs Thriving Moor enters the battlefield, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4876,7 +4875,7 @@
         :layout "normal",
         :name "Vivid Creek",
         :oracle-text
-        "Vivid Creek enters the battlefield tapped with two charge counters on it.\n{T}: Add {U}.\n{T}, Remove a charge counter from Vivid Creek: Add one mana of any color."}
+        "This land enters tapped with two charge counters on it.\n{T}: Add {U}.\n{T}, Remove a charge counter from this land: Add one mana of any color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4887,7 +4886,7 @@
         :layout "normal",
         :name "Vivid Grove",
         :oracle-text
-        "Vivid Grove enters the battlefield tapped with two charge counters on it.\n{T}: Add {G}.\n{T}, Remove a charge counter from Vivid Grove: Add one mana of any color."}
+        "This land enters tapped with two charge counters on it.\n{T}: Add {G}.\n{T}, Remove a charge counter from this land: Add one mana of any color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4898,7 +4897,7 @@
         :layout "normal",
         :name "Vivid Meadow",
         :oracle-text
-        "Vivid Meadow enters the battlefield tapped with two charge counters on it.\n{T}: Add {W}.\n{T}, Remove a charge counter from Vivid Meadow: Add one mana of any color."}
+        "This land enters tapped with two charge counters on it.\n{T}: Add {W}.\n{T}, Remove a charge counter from this land: Add one mana of any color."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "ncc",
@@ -4909,4 +4908,4 @@
         :layout "normal",
         :name "Windbrisk Heights",
         :oracle-text
-        "Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWindbrisk Heights enters the battlefield tapped.\n{T}: Add {W}.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn."})
+        "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {W}.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn."})

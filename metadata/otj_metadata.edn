@@ -19,7 +19,7 @@
         :layout "normal",
         :name "Archangel of Tithes",
         :oracle-text
-        "Flying\nAs long as Archangel of Tithes is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as Archangel of Tithes is attacking, creatures can't block unless their controller pays {1} for each of those creatures."}
+        "Flying\nAs long as this creature is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures."}
  #:card{:type-line "Creature — Armadillo",
         :layout-category :normal,
         :code "otj",
@@ -30,7 +30,7 @@
         :layout "normal",
         :name "Armored Armadillo",
         :oracle-text
-        "Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\n{3}{W}: Armored Armadillo gets +X/+0 until end of turn, where X is its toughness."}
+        "Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\n{3}{W}: This creature gets +X/+0 until end of turn, where X is its toughness."}
  #:card{:type-line "Creature — Bird Rogue",
         :layout-category :normal,
         :code "otj",
@@ -41,7 +41,7 @@
         :layout "normal",
         :name "Aven Interrupter",
         :oracle-text
-        "Flash\nFlying\nWhen Aven Interrupter enters, exile target spell. It becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)\nSpells your opponents cast from graveyards or from exile cost {2} more to cast."}
+        "Flash\nFlying\nWhen this creature enters, exile target spell. It becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)\nSpells your opponents cast from graveyards or from exile cost {2} more to cast."}
  #:card{:type-line "Creature — Cat Beast Mount",
         :layout-category :normal,
         :code "otj",
@@ -52,7 +52,7 @@
         :layout "normal",
         :name "Bounding Felidar",
         :oracle-text
-        "Whenever Bounding Felidar attacks while saddled, put a +1/+1 counter on each other creature you control. You gain 1 life for each of those creatures.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, put a +1/+1 counter on each other creature you control. You gain 1 life for each of those creatures.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -74,7 +74,7 @@
         :layout "normal",
         :name "Bridled Bighorn",
         :oracle-text
-        "Vigilance\nWhenever Bridled Bighorn attacks while saddled, create a 1/1 white Sheep creature token.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Vigilance\nWhenever this creature attacks while saddled, create a 1/1 white Sheep creature token.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Rabbit Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -85,7 +85,7 @@
         :layout "normal",
         :name "Claim Jumper",
         :oracle-text
-        "Vigilance\nWhen Claim Jumper enters, if an opponent controls more lands than you, you may search your library for a Plains card and put it onto the battlefield tapped. Then if an opponent controls more lands than you, repeat this process once. If you search your library this way, shuffle."}
+        "Vigilance\nWhen this creature enters, if an opponent controls more lands than you, you may search your library for a Plains card and put it onto the battlefield tapped. Then if an opponent controls more lands than you, repeat this process once. If you search your library this way, shuffle."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "otj",
@@ -96,7 +96,7 @@
         :layout "normal",
         :name "Dust Animus",
         :oracle-text
-        "Flying\nIf you control five or more untapped lands, Dust Animus enters with two +1/+1 counters and a lifelink counter on it.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying\nIf you control five or more untapped lands, this creature enters with two +1/+1 counters and a lifelink counter on it.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -129,7 +129,7 @@
         :layout "normal",
         :name "Fortune, Loyal Steed",
         :oracle-text
-        "When Fortune, Loyal Steed enters, scry 2.\nWhenever Fortune attacks while saddled, at end of combat, exile it and up to one creature that saddled it this turn, then return those cards to the battlefield under their owner's control.\nSaddle 1"}
+        "When Fortune enters, scry 2.\nWhenever Fortune attacks while saddled, at end of combat, exile it and up to one creature that saddled it this turn, then return those cards to the battlefield under their owner's control.\nSaddle 1"}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otj",
@@ -140,7 +140,7 @@
         :layout "normal",
         :name "Frontier Seeker",
         :oracle-text
-        "When Frontier Seeker enters, look at the top five cards of your library. You may reveal a Mount creature card or a Plains card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "When this creature enters, look at the top five cards of your library. You may reveal a Mount creature card or a Plains card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -162,7 +162,7 @@
         :layout "normal",
         :name "High Noon",
         :oracle-text
-        "Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice High Noon: It deals 5 damage to any target."}
+        "Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice this enchantment: It deals 5 damage to any target."}
  #:card{:type-line "Creature — Ox Angel",
         :layout-category :normal,
         :code "otj",
@@ -173,7 +173,7 @@
         :layout "normal",
         :name "Holy Cow",
         :oracle-text
-        "Flash\nFlying\nWhen Holy Cow enters, you gain 2 life and scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
+        "Flash\nFlying\nWhen this creature enters, you gain 2 life and scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Dwarf Artificer",
         :layout-category :normal,
         :code "otj",
@@ -184,7 +184,7 @@
         :layout "normal",
         :name "Inventive Wingsmith",
         :oracle-text
-        "At the beginning of your end step, if you haven't cast a spell from your hand this turn and Inventive Wingsmith doesn't have a flying counter on it, put a flying counter on it."}
+        "At the beginning of your end step, if you haven't cast a spell from your hand this turn and this creature doesn't have a flying counter on it, put a flying counter on it."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -195,7 +195,7 @@
         :layout "normal",
         :name "Lassoed by the Law",
         :oracle-text
-        "When Lassoed by the Law enters, exile target nonland permanent an opponent controls until Lassoed by the Law leaves the battlefield.\nWhen Lassoed by the Law enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nWhen this enchantment enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -206,7 +206,7 @@
         :layout "normal",
         :name "Mystical Tether",
         :oracle-text
-        "You may cast Mystical Tether as though it had flash if you pay {2} more to cast it.\nWhen Mystical Tether enters, exile target artifact or creature an opponent controls until Mystical Tether leaves the battlefield."}
+        "You may cast this spell as though it had flash if you pay {2} more to cast it.\nWhen this enchantment enters, exile target artifact or creature an opponent controls until this enchantment leaves the battlefield."}
  #:card{:type-line "Creature — Faerie Rogue",
         :layout-category :normal,
         :code "otj",
@@ -217,7 +217,7 @@
         :layout "normal",
         :name "Nurturing Pixie",
         :oracle-text
-        "Flying\nWhen Nurturing Pixie enters, return up to one target non-Faerie, nonland permanent you control to its owner's hand. If a permanent was returned this way, put a +1/+1 counter on Nurturing Pixie."}
+        "Flying\nWhen this creature enters, return up to one target non-Faerie, nonland permanent you control to its owner's hand. If a permanent was returned this way, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Human Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -228,7 +228,7 @@
         :layout "normal",
         :name "Omenport Vigilante",
         :oracle-text
-        "Omenport Vigilante has double strike as long as you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "This creature has double strike as long as you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -249,7 +249,7 @@
         :collector-number "23",
         :layout "normal",
         :name "Outlaw Medic",
-        :oracle-text "Lifelink\nWhen Outlaw Medic dies, draw a card."}
+        :oracle-text "Lifelink\nWhen this creature dies, draw a card."}
  #:card{:type-line "Creature — Squirrel",
         :layout-category :normal,
         :code "otj",
@@ -260,7 +260,7 @@
         :layout "normal",
         :name "Prairie Dog",
         :oracle-text
-        "Lifelink\nAt the beginning of your end step, if you haven't cast a spell from your hand this turn, put a +1/+1 counter on Prairie Dog.\n{4}{W}: Until end of turn, if you would put one or more +1/+1 counters on a creature you control, put that many plus one +1/+1 counters on it instead."}
+        "Lifelink\nAt the beginning of your end step, if you haven't cast a spell from your hand this turn, put a +1/+1 counter on this creature.\n{4}{W}: Until end of turn, if you would put one or more +1/+1 counters on a creature you control, put that many plus one +1/+1 counters on it instead."}
  #:card{:type-line "Creature — Human Noble",
         :layout-category :normal,
         :code "otj",
@@ -271,7 +271,7 @@
         :layout "normal",
         :name "Prosperity Tycoon",
         :oracle-text
-        "When Prosperity Tycoon enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\n{2}, Sacrifice a token: Prosperity Tycoon gains indestructible until end of turn. Tap it. (Damage and effects that say \"destroy\" don't destroy it.)"}
+        "When this creature enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\n{2}, Sacrifice a token: This creature gains indestructible until end of turn. Tap it. (Damage and effects that say \"destroy\" don't destroy it.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -304,7 +304,7 @@
         :layout "normal",
         :name "Shepherd of the Clouds",
         :oracle-text
-        "Flying, vigilance\nWhen Shepherd of the Clouds enters, return target permanent card with mana value 3 or less from your graveyard to your hand. Return that card to the battlefield instead if you control a Mount."}
+        "Flying, vigilance\nWhen this creature enters, return target permanent card with mana value 3 or less from your graveyard to your hand. Return that card to the battlefield instead if you control a Mount."}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "otj",
@@ -315,7 +315,7 @@
         :layout "normal",
         :name "Sheriff of Safe Passage",
         :oracle-text
-        "Sheriff of Safe Passage enters with a +1/+1 counter on it plus an additional +1/+1 counter on it for each other creature you control.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "This creature enters with a +1/+1 counter on it plus an additional +1/+1 counter on it for each other creature you control.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Soldier",
         :layout-category :normal,
         :code "otj",
@@ -326,7 +326,7 @@
         :layout "normal",
         :name "Stagecoach Security",
         :oracle-text
-        "When Stagecoach Security enters, creatures you control get +1/+1 and gain vigilance until end of turn.\nPlot {3}{W} (You may pay {3}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, creatures you control get +1/+1 and gain vigilance until end of turn.\nPlot {3}{W} (You may pay {3}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -358,7 +358,7 @@
         :layout "normal",
         :name "Sterling Supplier",
         :oracle-text
-        "Flying\nWhen Sterling Supplier enters, put a +1/+1 counter on another target creature you control."}
+        "Flying\nWhen this creature enters, put a +1/+1 counter on another target creature you control."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -380,7 +380,7 @@
         :layout "normal",
         :name "Thunder Lasso",
         :oracle-text
-        "When Thunder Lasso enters, attach it to target creature you control.\nEquipped creature gets +1/+1.\nWhenever equipped creature attacks, tap target creature defending player controls.\nEquip {2}"}
+        "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +1/+1.\nWhenever equipped creature attacks, tap target creature defending player controls.\nEquip {2}"}
  #:card{:type-line "Creature — Cat Beast Mount",
         :layout-category :normal,
         :code "otj",
@@ -391,7 +391,7 @@
         :layout "normal",
         :name "Trained Arynx",
         :oracle-text
-        "Whenever Trained Arynx attacks while saddled, it gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, it gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Human Citizen",
         :layout-category :normal,
         :code "otj",
@@ -402,7 +402,7 @@
         :layout "normal",
         :name "Vengeful Townsfolk",
         :oracle-text
-        "Whenever one or more other creatures you control die, put a +1/+1 counter on Vengeful Townsfolk."}
+        "Whenever one or more other creatures you control die, put a +1/+1 counter on this creature."}
  #:card{:type-line "Creature — Griffin",
         :layout-category :normal,
         :code "otj",
@@ -413,7 +413,7 @@
         :layout "normal",
         :name "Wanted Griffin",
         :oracle-text
-        "Flying\nWhen Wanted Griffin dies, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "Flying\nWhen this creature dies, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Creature — Salamander Mount",
         :layout-category :normal,
         :code "otj",
@@ -424,7 +424,7 @@
         :layout "normal",
         :name "Archmage's Newt",
         :oracle-text
-        "Whenever Archmage's Newt deals combat damage to a player, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. That card gains flashback {0} until end of turn instead if Archmage's Newt is saddled. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nSaddle 3"}
+        "Whenever this creature deals combat damage to a player, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. That card gains flashback {0} until end of turn instead if this creature is saddled. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nSaddle 3"}
  #:card{:type-line "Creature — Crab",
         :layout-category :normal,
         :code "otj",
@@ -435,7 +435,7 @@
         :layout "normal",
         :name "Canyon Crab",
         :oracle-text
-        "{1}{U}: Canyon Crab gets +2/-2 until end of turn.\nAt the beginning of your end step, if you haven't cast a spell from your hand this turn, draw a card, then discard a card."}
+        "{1}{U}: This creature gets +2/-2 until end of turn.\nAt the beginning of your end step, if you haven't cast a spell from your hand this turn, draw a card, then discard a card."}
  #:card{:type-line "Creature — Turtle Rogue",
         :layout-category :normal,
         :code "otj",
@@ -445,7 +445,7 @@
         :collector-number "41",
         :layout "normal",
         :name "Daring Thunder-Thief",
-        :oracle-text "Flash\nDaring Thunder-Thief enters tapped."}
+        :oracle-text "Flash\nThis creature enters tapped."}
  #:card{:type-line "Creature — Homarid Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -500,7 +500,7 @@
         :layout "normal",
         :name "Emergent Haunting",
         :oracle-text
-        "At the beginning of your end step, if you haven't cast a spell from your hand this turn and Emergent Haunting isn't a creature, it becomes a 3/3 Spirit creature with flying in addition to its other types.\n{2}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
+        "At the beginning of your end step, if you haven't cast a spell from your hand this turn and this enchantment isn't a creature, it becomes a 3/3 Spirit creature with flying in addition to its other types.\n{2}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -566,7 +566,7 @@
         :layout "normal",
         :name "Harrier Strix",
         :oracle-text
-        "Flying\nWhen Harrier Strix enters, tap target permanent.\n{2}{U}: Draw a card, then discard a card."}
+        "Flying\nWhen this creature enters, tap target permanent.\n{2}{U}: Draw a card, then discard a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -577,7 +577,7 @@
         :layout "normal",
         :name "Jailbreak Scheme",
         :oracle-text
-        "Spree (Choose one or more additional costs.)\n+ {3} — Put a +1/+1 counter on target creature. It can't be blocked this turn.\n+ {2} — Target artifact or creature's owner puts it on the top or bottom of their library."}
+        "Spree (Choose one or more additional costs.)\n+ {3} — Put a +1/+1 counter on target creature. It can't be blocked this turn.\n+ {2} — Target artifact or creature's owner puts it on their choice of the top or bottom of their library."}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "otj",
@@ -599,7 +599,7 @@
         :layout "normal",
         :name "Loan Shark",
         :oracle-text
-        "When Loan Shark enters, if you've cast two or more spells this turn, draw a card.\nPlot {3}{U} (You may pay {3}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, if you've cast two or more spells this turn, draw a card.\nPlot {3}{U} (You may pay {3}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Sphinx Rogue",
         :layout-category :normal,
         :code "otj",
@@ -632,7 +632,7 @@
         :layout "normal",
         :name "Nimble Brigand",
         :oracle-text
-        "Nimble Brigand can't be blocked if you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nWhenever Nimble Brigand deals combat damage to a player, draw a card."}
+        "This creature can't be blocked if you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nWhenever this creature deals combat damage to a player, draw a card."}
  #:card{:type-line "Creature — Human Warlock",
         :layout-category :normal,
         :code "otj",
@@ -643,7 +643,7 @@
         :layout "normal",
         :name "Outlaw Stitcher",
         :oracle-text
-        "When Outlaw Stitcher enters, create a 2/2 blue and black Zombie Rogue creature token, then put two +1/+1 counters on that token for each spell you've cast this turn other than the first.\nPlot {4}{U} (You may pay {4}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, create a 2/2 blue and black Zombie Rogue creature token, then put two +1/+1 counters on that token for each spell you've cast this turn other than the first.\nPlot {4}{U} (You may pay {4}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -654,7 +654,7 @@
         :layout "normal",
         :name "Peerless Ropemaster",
         :oracle-text
-        "When Peerless Ropemaster enters, return up to one target tapped creature to its owner's hand."}
+        "When this creature enters, return up to one target tapped creature to its owner's hand."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -687,7 +687,7 @@
         :layout "normal",
         :name "Razzle-Dazzler",
         :oracle-text
-        "Whenever you cast your second spell each turn, put a +1/+1 counter on Razzle-Dazzler. It can't be blocked this turn."}
+        "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature. It can't be blocked this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -731,7 +731,7 @@
         :layout "normal",
         :name "Slickshot Lockpicker",
         :oracle-text
-        "When Slickshot Lockpicker enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nPlot {2}{U} (You may pay {2}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nPlot {2}{U} (You may pay {2}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -742,7 +742,7 @@
         :layout "normal",
         :name "Slickshot Vault-Buster",
         :oracle-text
-        "Vigilance\nSlickshot Vault-Buster gets +2/+0 as long as you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "Vigilance\nThis creature gets +2/+0 as long as you've committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Creature — Frog Beast",
         :layout-category :normal,
         :code "otj",
@@ -753,7 +753,7 @@
         :layout "normal",
         :name "Spring Splasher",
         :oracle-text
-        "Whenever Spring Splasher attacks, target creature defending player controls gets -3/-0 until end of turn."}
+        "Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -775,7 +775,7 @@
         :layout "normal",
         :name "Stoic Sphinx",
         :oracle-text
-        "Flash\nFlying\nStoic Sphinx has hexproof as long as you haven't cast a spell this turn."}
+        "Flash\nFlying\nThis creature has hexproof as long as you haven't cast a spell this turn."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "otj",
@@ -786,7 +786,7 @@
         :layout "normal",
         :name "Stop Cold",
         :oracle-text
-        "Flash\nEnchant artifact or creature\nWhen Stop Cold enters, tap enchanted permanent.\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step."}
+        "Flash\nEnchant artifact or creature\nWhen this Aura enters, tap enchanted permanent.\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -830,7 +830,7 @@
         :layout "normal",
         :name "Visage Bandit",
         :oracle-text
-        "You may have Visage Bandit enter as a copy of a creature you control, except it's a Shapeshifter Rogue in addition to its other types.\nPlot {2}{U} (You may pay {2}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "You may have this creature enter as a copy of a creature you control, except it's a Shapeshifter Rogue in addition to its other types.\nPlot {2}{U} (You may pay {2}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Insect",
         :layout-category :normal,
         :code "otj",
@@ -841,7 +841,7 @@
         :layout "normal",
         :name "Ambush Gigapede",
         :oracle-text
-        "Flash\nWhen Ambush Gigapede enters, target creature an opponent controls gets -2/-2 until end of turn."}
+        "Flash\nWhen this creature enters, target creature an opponent controls gets -2/-2 until end of turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -863,7 +863,7 @@
         :layout "normal",
         :name "Blacksnag Buzzard",
         :oracle-text
-        "Flying\nBlacksnag Buzzard enters with a +1/+1 counter on it if a creature died this turn.\nPlot {1}{B} (You may pay {1}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying\nThis creature enters with a +1/+1 counter on it if a creature died this turn.\nPlot {1}{B} (You may pay {1}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Vampire Rogue",
         :layout-category :normal,
         :code "otj",
@@ -874,7 +874,7 @@
         :layout "normal",
         :name "Blood Hustler",
         :oracle-text
-        "Whenever you commit a crime, put a +1/+1 counter on Blood Hustler. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\n{3}{B}: Target opponent loses 1 life and you gain 1 life."}
+        "Whenever you commit a crime, put a +1/+1 counter on this creature. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\n{3}{B}: Target opponent loses 1 life and you gain 1 life."}
  #:card{:type-line "Creature — Zombie Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -885,7 +885,7 @@
         :layout "normal",
         :name "Boneyard Desecrator",
         :oracle-text
-        "Menace\n{1}{B}, Sacrifice another creature: Put a +1/+1 counter on Boneyard Desecrator. If an outlaw was sacrificed this way, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
+        "Menace\n{1}{B}, Sacrifice another creature: Put a +1/+1 counter on this creature. If an outlaw was sacrificed this way, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
  #:card{:type-line "Creature — Snake Horse Mount",
         :layout-category :normal,
         :code "otj",
@@ -896,7 +896,7 @@
         :layout "normal",
         :name "Caustic Bronco",
         :oracle-text
-        "Whenever Caustic Bronco attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card's mana value if Caustic Bronco isn't saddled. Otherwise, each opponent loses that much life.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card's mana value if this creature isn't saddled. Otherwise, each opponent loses that much life.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -940,7 +940,7 @@
         :layout "normal",
         :name "Desperate Bloodseeker",
         :oracle-text
-        "Lifelink\nWhen Desperate Bloodseeker enters, target player mills two cards. (They put the top two cards of their library into their graveyard.)"}
+        "Lifelink\nWhen this creature enters, target player mills two cards. (They put the top two cards of their library into their graveyard.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -951,7 +951,7 @@
         :layout "normal",
         :name "Fake Your Own Death",
         :oracle-text
-        "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Skeleton Rogue",
         :layout-category :normal,
         :code "otj",
@@ -962,7 +962,7 @@
         :layout "normal",
         :name "Forsaken Miner",
         :oracle-text
-        "Forsaken Miner can't block.\nWhenever you commit a crime, you may pay {B}. If you do, return Forsaken Miner from your graveyard to the battlefield. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "This creature can't block.\nWhenever you commit a crime, you may pay {B}. If you do, return this card from your graveyard to the battlefield. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "otj",
@@ -984,7 +984,7 @@
         :layout "normal",
         :name "Hollow Marauder",
         :oracle-text
-        "This spell costs {1} less to cast for each creature card in your graveyard.\nFlying\nWhen Hollow Marauder enters, any number of target opponents each discard a card. For each of those opponents who didn't discard a card with mana value 4 or greater, draw a card."}
+        "This spell costs {1} less to cast for each creature card in your graveyard.\nFlying\nWhen this creature enters, any number of target opponents each discard a card. For each of those opponents who didn't discard a card with mana value 4 or greater, draw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1050,7 +1050,7 @@
         :layout "normal",
         :name "Nezumi Linkbreaker",
         :oracle-text
-        "When Nezumi Linkbreaker dies, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "When this creature dies, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Creature — Ogre Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -1061,7 +1061,7 @@
         :layout "normal",
         :name "Overzealous Muscle",
         :oracle-text
-        "Whenever you commit a crime during your turn, Overzealous Muscle gains indestructible until end of turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible.)"}
+        "Whenever you commit a crime during your turn, this creature gains indestructible until end of turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1083,7 +1083,7 @@
         :layout "normal",
         :name "Rakish Crew",
         :oracle-text
-        "When Rakish Crew enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever an outlaw you control dies, each opponent loses 1 life and you gain 1 life. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
+        "When this enchantment enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever an outlaw you control dies, each opponent loses 1 life and you gain 1 life. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
  #:card{:type-line "Creature — Gorgon Warlock",
         :layout-category :normal,
         :code "otj",
@@ -1116,7 +1116,7 @@
         :layout "normal",
         :name "Rictus Robber",
         :oracle-text
-        "When Rictus Robber enters, if a creature died this turn, create a 2/2 blue and black Zombie Rogue creature token.\nPlot {2}{B} (You may pay {2}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, if a creature died this turn, create a 2/2 blue and black Zombie Rogue creature token.\nPlot {2}{B} (You may pay {2}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Vampire Assassin",
         :layout-category :normal,
         :code "otj",
@@ -1127,7 +1127,7 @@
         :layout "normal",
         :name "Rooftop Assassin",
         :oracle-text
-        "Flash\nFlying, lifelink\nWhen Rooftop Assassin enters, destroy target creature an opponent controls that was dealt damage this turn."}
+        "Flash\nFlying, lifelink\nWhen this creature enters, destroy target creature an opponent controls that was dealt damage this turn."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1138,7 +1138,7 @@
         :layout "normal",
         :name "Rush of Dread",
         :oracle-text
-        "Spree (Choose one or more additional costs.)\n+ {1} — Target opponent sacrifices half the creatures they control, rounded up.\n+ {2} — Target opponent discards half the cards in their hand, rounded up.\n+ {2} — Target opponent loses half their life, rounded up."}
+        "Spree (Choose one or more additional costs.)\n+ {1} — Target opponent sacrifices half the creatures they control of their choice, rounded up.\n+ {2} — Target opponent discards half the cards in their hand, rounded up.\n+ {2} — Target opponent loses half their life, rounded up."}
  #:card{:type-line "Creature — Human Warlock",
         :layout-category :normal,
         :code "otj",
@@ -1149,7 +1149,7 @@
         :layout "normal",
         :name "Servant of the Stinger",
         :oracle-text
-        "Deathtouch\nWhenever Servant of the Stinger deals combat damage to a player, if you've committed a crime this turn, you may sacrifice Servant of the Stinger. If you do, search your library for a card, put it into your hand, then shuffle. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "Deathtouch\nWhenever this creature deals combat damage to a player, if you've committed a crime this turn, you may sacrifice this creature. If you do, search your library for a card, put it into your hand, then shuffle. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1193,7 +1193,7 @@
         :layout "normal",
         :name "Tinybones, the Pickpocket",
         :oracle-text
-        "Deathtouch\nWhenever Tinybones, the Pickpocket deals combat damage to a player, you may cast target nonland permanent card from that player's graveyard, and mana of any type can be spent to cast that spell."}
+        "Deathtouch\nWhenever Tinybones deals combat damage to a player, you may cast target nonland permanent card from that player's graveyard, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1204,7 +1204,7 @@
         :layout "normal",
         :name "Treasure Dredger",
         :oracle-text
-        "{1}, {T}, Pay 1 life: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "{1}, {T}, Pay 1 life: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1226,7 +1226,7 @@
         :layout "normal",
         :name "Unscrupulous Contractor",
         :oracle-text
-        "When Unscrupulous Contractor enters, you may sacrifice a creature. When you do, target player draws two cards and loses 2 life.\nPlot {2}{B} (You may pay {2}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, you may sacrifice a creature. When you do, target player draws two cards and loses 2 life.\nPlot {2}{B} (You may pay {2}{B} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Vampire Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1237,7 +1237,7 @@
         :layout "normal",
         :name "Vadmir, New Blood",
         :oracle-text
-        "Whenever you commit a crime, put a +1/+1 counter on Vadmir, New Blood. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nAs long as Vadmir has four or more +1/+1 counters on it, it has menace and lifelink."}
+        "Whenever you commit a crime, put a +1/+1 counter on Vadmir. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nAs long as Vadmir has four or more +1/+1 counters on it, it has menace and lifelink."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1248,7 +1248,7 @@
         :layout "normal",
         :name "Vault Plunderer",
         :oracle-text
-        "When Vault Plunderer enters, target player draws a card and loses 1 life."}
+        "When this creature enters, target player draws a card and loses 1 life."}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -1270,7 +1270,7 @@
         :layout "normal",
         :name "Calamity, Galloping Inferno",
         :oracle-text
-        "Haste\nWhenever Calamity, Galloping Inferno attacks while saddled, choose a nonlegendary creature that saddled it this turn and create a tapped and attacking token that's a copy of it. Sacrifice that token at the beginning of the next end step. Repeat this process once.\nSaddle 1"}
+        "Haste\nWhenever Calamity attacks while saddled, choose a nonlegendary creature that saddled it this turn and create a tapped and attacking token that's a copy of it. Sacrifice that token at the beginning of the next end step. Repeat this process once.\nSaddle 1"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1292,7 +1292,7 @@
         :layout "normal",
         :name "Cunning Coyote",
         :oracle-text
-        "Haste\nWhen Cunning Coyote enters, another target creature you control gets +1/+1 and gains haste until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Haste\nWhen this creature enters, another target creature you control gets +1/+1 and gains haste until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Assassin",
         :layout-category :normal,
         :code "otj",
@@ -1303,7 +1303,7 @@
         :layout "normal",
         :name "Deadeye Duelist",
         :oracle-text
-        "Reach\n{1}, {T}: Deadeye Duelist deals 1 damage to target opponent."}
+        "Reach\n{1}, {T}: This creature deals 1 damage to target opponent."}
  #:card{:type-line "Enchantment — Aura",
         :layout-category :normal,
         :code "otj",
@@ -1314,7 +1314,7 @@
         :layout "normal",
         :name "Demonic Ruckus",
         :oracle-text
-        "Enchant creature\nEnchanted creature gets +1/+1 and has menace and trample.\nWhen Demonic Ruckus is put into a graveyard from the battlefield, draw a card.\nPlot {R} (You may pay {R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Enchant creature\nEnchanted creature gets +1/+1 and has menace and trample.\nWhen this Aura is put into a graveyard from the battlefield, draw a card.\nPlot {R} (You may pay {R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1325,7 +1325,7 @@
         :layout "normal",
         :name "Discerning Peddler",
         :oracle-text
-        "When Discerning Peddler enters, you may discard a card. If you do, draw a card."}
+        "When this creature enters, you may discard a card. If you do, draw a card."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1358,7 +1358,7 @@
         :layout "normal",
         :name "Gila Courser",
         :oracle-text
-        "Whenever Gila Courser attacks while saddled, exile the top card of your library. Until the end of your next turn, you may play that card.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, exile the top card of your library. Until the end of your next turn, you may play that card.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1402,7 +1402,7 @@
         :layout "normal",
         :name "Hellspur Posse Boss",
         :oracle-text
-        "Other outlaws you control have haste. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nWhen Hellspur Posse Boss enters, create two 1/1 red Mercenary creature tokens with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "Other outlaws you control have haste. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nWhen this creature enters, create two 1/1 red Mercenary creature tokens with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1424,7 +1424,7 @@
         :layout "normal",
         :name "Irascible Wolverine",
         :oracle-text
-        "When Irascible Wolverine enters, exile the top card of your library. Until end of turn, you may play that card.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, exile the top card of your library. Until end of turn, you may play that card.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Giant Warrior",
         :layout-category :normal,
         :code "otj",
@@ -1435,7 +1435,7 @@
         :layout "normal",
         :name "Iron-Fist Pulverizer",
         :oracle-text
-        "Reach\nWhenever you cast your second spell each turn, Iron-Fist Pulverizer deals 2 damage to target opponent. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
+        "Reach\nWhenever you cast your second spell each turn, this creature deals 2 damage to target opponent. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)"}
  #:card{:type-line "Creature — Minotaur Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1446,7 +1446,7 @@
         :layout "normal",
         :name "Longhorn Sharpshooter",
         :oracle-text
-        "Reach\nWhen Longhorn Sharpshooter becomes plotted, it deals 2 damage to any target.\nPlot {3}{R} (You may pay {3}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Reach\nWhen this card becomes plotted, it deals 2 damage to any target.\nPlot {3}{R} (You may pay {3}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Dwarf Berserker",
         :layout-category :normal,
         :code "otj",
@@ -1468,7 +1468,7 @@
         :layout "normal",
         :name "Magebane Lizard",
         :oracle-text
-        "Whenever a player casts a noncreature spell, Magebane Lizard deals damage to that player equal to the number of noncreature spells they've cast this turn."}
+        "Whenever a player casts a noncreature spell, this creature deals damage to that player equal to the number of noncreature spells they've cast this turn."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1479,7 +1479,7 @@
         :layout "normal",
         :name "Mine Raider",
         :oracle-text
-        "Trample\nWhen Mine Raider enters, if you control another outlaw, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Trample\nWhen this creature enters, if you control another outlaw, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1501,7 +1501,7 @@
         :layout "normal",
         :name "Prickly Pair",
         :oracle-text
-        "When Prickly Pair enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "When this creature enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1523,7 +1523,7 @@
         :layout "normal",
         :name "Quilled Charger",
         :oracle-text
-        "Whenever Quilled Charger attacks while saddled, it gets +1/+2 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, it gets +1/+2 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Goblin Pirate",
         :layout-category :normal,
         :code "otj",
@@ -1534,7 +1534,7 @@
         :layout "normal",
         :name "Reckless Lackey",
         :oracle-text
-        "First strike, haste\n{2}{R}, Sacrifice Reckless Lackey: Draw a card and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "First strike, haste\n{2}{R}, Sacrifice this creature: Draw a card and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Creature — Bird",
         :layout-category :normal,
         :code "otj",
@@ -1545,7 +1545,7 @@
         :layout "normal",
         :name "Resilient Roadrunner",
         :oracle-text
-        "Haste, protection from Coyotes\n{3}: Resilient Roadrunner can't be blocked this turn except by creatures with haste."}
+        "Haste, protection from Coyotes\n{3}: This creature can't be blocked this turn except by creatures with haste."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1578,7 +1578,7 @@
         :layout "normal",
         :name "Scalestorm Summoner",
         :oracle-text
-        "Whenever Scalestorm Summoner attacks, create a 3/1 red Dinosaur creature token if you control a creature with power 4 or greater."}
+        "Whenever this creature attacks, create a 3/1 red Dinosaur creature token if you control a creature with power 4 or greater."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1600,7 +1600,7 @@
         :layout "normal",
         :name "Slickshot Show-Off",
         :oracle-text
-        "Flying, haste\nWhenever you cast a noncreature spell, Slickshot Show-Off gets +2/+0 until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying, haste\nWhenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Scorpion Dragon",
         :layout-category :normal,
         :code "otj",
@@ -1611,7 +1611,7 @@
         :layout "normal",
         :name "Stingerback Terror",
         :oracle-text
-        "Flying, trample\nStingerback Terror gets -1/-1 for each card in your hand.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying, trample\nThis creature gets -1/-1 for each card in your hand.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1633,7 +1633,7 @@
         :layout "normal",
         :name "Terror of the Peaks",
         :oracle-text
-        "Flying\nSpells your opponents cast that target Terror of the Peaks cost an additional 3 life to cast.\nWhenever another creature you control enters, Terror of the Peaks deals damage equal to that creature's power to any target."}
+        "Flying\nSpells your opponents cast that target this creature cost an additional 3 life to cast.\nWhenever another creature you control enters, this creature deals damage equal to that creature's power to any target."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1666,7 +1666,7 @@
         :layout "normal",
         :name "Aloe Alchemist",
         :oracle-text
-        "Trample\nWhen Aloe Alchemist becomes plotted, target creature gets +3/+2 and gains trample until end of turn.\nPlot {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Trample\nWhen this card becomes plotted, target creature gets +3/+2 and gains trample until end of turn.\nPlot {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Snake",
         :layout-category :normal,
         :code "otj",
@@ -1687,7 +1687,7 @@
         :layout "normal",
         :name "Beastbond Outcaster",
         :oracle-text
-        "When Beastbond Outcaster enters, if you control a creature with power 4 or greater, draw a card.\nPlot {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, if you control a creature with power 4 or greater, draw a card.\nPlot {1}{G} (You may pay {1}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1709,7 +1709,7 @@
         :layout "normal",
         :name "Bristlepack Sentry",
         :oracle-text
-        "Defender\nAs long as you control a creature with power 4 or greater, Bristlepack Sentry can attack as though it didn't have defender."}
+        "Defender\nAs long as you control a creature with power 4 or greater, this creature can attack as though it didn't have defender."}
  #:card{:type-line "Legendary Creature — Plant Druid",
         :layout-category :normal,
         :code "otj",
@@ -1731,7 +1731,7 @@
         :layout "normal",
         :name "Cactarantula",
         :oracle-text
-        "This spell costs {1} less to cast if you control a Desert.\nReach\nWhenever Cactarantula becomes the target of a spell or ability an opponent controls, you may draw a card."}
+        "This spell costs {1} less to cast if you control a Desert.\nReach\nWhenever this creature becomes the target of a spell or ability an opponent controls, you may draw a card."}
  #:card{:type-line "Creature — Wurm",
         :layout-category :normal,
         :code "otj",
@@ -1742,7 +1742,7 @@
         :layout "normal",
         :name "Colossal Rattlewurm",
         :oracle-text
-        "Colossal Rattlewurm has flash as long as you control a Desert.\nTrample\n{1}{G}, Exile Colossal Rattlewurm from your graveyard: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle."}
+        "Colossal Rattlewurm has flash as long as you control a Desert.\nTrample\n{1}{G}, Exile this card from your graveyard: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1764,7 +1764,7 @@
         :layout "normal",
         :name "Drover Grizzly",
         :oracle-text
-        "Whenever Drover Grizzly attacks while saddled, creatures you control gain trample until end of turn.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, creatures you control gain trample until end of turn.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Centaur Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -1775,7 +1775,7 @@
         :layout "normal",
         :name "Freestrider Commando",
         :oracle-text
-        "Freestrider Commando enters with two +1/+1 counters on it if it wasn't cast or no mana was spent to cast it.\nPlot {3}{G} (You may pay {3}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "This creature enters with two +1/+1 counters on it if it wasn't cast or no mana was spent to cast it.\nPlot {3}{G} (You may pay {3}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1808,7 +1808,7 @@
         :layout "normal",
         :name "Giant Beaver",
         :oracle-text
-        "Vigilance\nWhenever Giant Beaver attacks while saddled, put a +1/+1 counter on target creature that saddled it this turn.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Vigilance\nWhenever this creature attacks while saddled, put a +1/+1 counter on target creature that saddled it this turn.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -1830,7 +1830,7 @@
         :layout "normal",
         :name "Goldvein Hydra",
         :oracle-text
-        "Vigilance, trample, haste\nGoldvein Hydra enters with X +1/+1 counters on it.\nWhen Goldvein Hydra dies, create a number of tapped Treasure tokens equal to its power."}
+        "Vigilance, trample, haste\nThis creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a number of tapped Treasure tokens equal to its power."}
  #:card{:type-line "Creature — Plant Rogue",
         :layout-category :normal,
         :code "otj",
@@ -1841,7 +1841,7 @@
         :layout "normal",
         :name "Hardbristle Bandit",
         :oracle-text
-        "{T}: Add one mana of any color.\nWhenever you commit a crime, untap Hardbristle Bandit. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "{T}: Add one mana of any color.\nWhenever you commit a crime, untap this creature. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otj",
@@ -1874,7 +1874,7 @@
         :layout "normal",
         :name "Ornery Tumblewagg",
         :oracle-text
-        "At the beginning of combat on your turn, put a +1/+1 counter on target creature.\nWhenever Ornery Tumblewagg attacks while saddled, double the number of +1/+1 counters on target creature.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "At the beginning of combat on your turn, put a +1/+1 counter on target creature.\nWhenever this creature attacks while saddled, double the number of +1/+1 counters on target creature.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Human Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -1885,7 +1885,7 @@
         :layout "normal",
         :name "Outcaster Greenblade",
         :oracle-text
-        "When Outcaster Greenblade enters, search your library for a basic land card or a Desert card, reveal it, put it into your hand, then shuffle.\nOutcaster Greenblade gets +1/+1 for each Desert you control."}
+        "When this creature enters, search your library for a basic land card or a Desert card, reveal it, put it into your hand, then shuffle.\nThis creature gets +1/+1 for each Desert you control."}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "otj",
@@ -1896,7 +1896,7 @@
         :layout "normal",
         :name "Outcaster Trailblazer",
         :oracle-text
-        "When Outcaster Trailblazer enters, add one mana of any color.\nWhenever another creature you control with power 4 or greater enters, draw a card.\nPlot {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, add one mana of any color.\nWhenever another creature you control with power 4 or greater enters, draw a card.\nPlot {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otj",
@@ -1907,7 +1907,7 @@
         :layout "normal",
         :name "Patient Naturalist",
         :oracle-text
-        "When Patient Naturalist enters, mill three cards. Put a land card from among the milled cards into your hand. If you can't, create a Treasure token. (To mill three cards, put the top three cards of your library into your graveyard.)"}
+        "When this creature enters, mill three cards. Put a land card from among the milled cards into your hand. If you can't, create a Treasure token. (To mill three cards, put the top three cards of your library into your graveyard.)"}
  #:card{:type-line "Creature — Rhino Warrior",
         :layout-category :normal,
         :code "otj",
@@ -1929,7 +1929,7 @@
         :layout "normal",
         :name "Rambling Possum",
         :oracle-text
-        "Whenever Rambling Possum attacks while saddled, it gets +1/+2 until end of turn. Then you may return any number of creatures that saddled it this turn to their owner's hand.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks while saddled, it gets +1/+2 until end of turn. Then you may return any number of creatures that saddled it this turn to their owner's hand.\nSaddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Plant Bard",
         :layout-category :normal,
         :code "otj",
@@ -1951,7 +1951,7 @@
         :layout "normal",
         :name "Reach for the Sky",
         :oracle-text
-        "Flash\nEnchant creature\nEnchanted creature gets +3/+2 and has reach.\nWhen Reach for the Sky is put into a graveyard from the battlefield, draw a card."}
+        "Flash\nEnchant creature\nEnchanted creature gets +3/+2 and has reach.\nWhen this Aura is put into a graveyard from the battlefield, draw a card."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -1995,7 +1995,7 @@
         :layout "normal",
         :name "Spinewoods Armadillo",
         :oracle-text
-        "Reach\nWard {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)\n{1}{G}, Discard Spinewoods Armadillo: Search your library for a basic land card or a Desert card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
+        "Reach\nWard {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)\n{1}{G}, Discard this card: Search your library for a basic land card or a Desert card, reveal it, put it into your hand, then shuffle. You gain 3 life."}
  #:card{:type-line "Creature — Human Knight",
         :layout-category :normal,
         :code "otj",
@@ -2006,7 +2006,7 @@
         :layout "normal",
         :name "Spinewoods Paladin",
         :oracle-text
-        "Trample\nWhen Spinewoods Paladin enters, you gain 3 life.\nPlot {3}{G} (You may pay {3}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Trample\nWhen this creature enters, you gain 3 life.\nPlot {3}{G} (You may pay {3}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Badger Beast Mount",
         :layout-category :normal,
         :code "otj",
@@ -2017,7 +2017,7 @@
         :layout "normal",
         :name "Stubborn Burrowfiend",
         :oracle-text
-        "Whenever Stubborn Burrowfiend becomes saddled for the first time each turn, mill two cards, then Stubborn Burrowfiend gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature becomes saddled for the first time each turn, mill two cards, then this creature gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -2061,7 +2061,7 @@
         :layout "normal",
         :name "Voracious Varmint",
         :oracle-text
-        "Vigilance\n{1}, Sacrifice Voracious Varmint: Destroy target artifact or enchantment."}
+        "Vigilance\n{1}, Sacrifice this creature: Destroy target artifact or enchantment."}
  #:card{:type-line "Legendary Creature — Scorpion Dragon Rogue",
         :layout-category :normal,
         :code "otj",
@@ -2083,7 +2083,7 @@
         :layout "normal",
         :name "Annie Flash, the Veteran",
         :oracle-text
-        "Flash\nWhen Annie Flash, the Veteran enters, if you cast it, return target permanent card with mana value 3 or less from your graveyard to the battlefield tapped.\nWhenever Annie Flash becomes tapped, exile the top two cards of your library. You may play those cards this turn."}
+        "Flash\nWhen Annie Flash enters, if you cast it, return target permanent card with mana value 3 or less from your graveyard to the battlefield tapped.\nWhenever Annie Flash becomes tapped, exile the top two cards of your library. You may play those cards this turn."}
  #:card{:type-line "Legendary Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -2105,7 +2105,7 @@
         :layout "normal",
         :name "Assimilation Aegis",
         :oracle-text
-        "When Assimilation Aegis enters, exile up to one target creature until Assimilation Aegis leaves the battlefield.\nWhenever Assimilation Aegis becomes attached to a creature, for as long as Assimilation Aegis remains attached to it, that creature becomes a copy of a creature card exiled with Assimilation Aegis.\nEquip {2}"}
+        "When this Equipment enters, exile up to one target creature until this Equipment leaves the battlefield.\nWhenever this Equipment becomes attached to a creature, for as long as this Equipment remains attached to it, that creature becomes a copy of a creature card exiled with this Equipment.\nEquip {2}"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -2149,7 +2149,7 @@
         :layout "normal",
         :name "Bonny Pall, Clearcutter",
         :oracle-text
-        "Reach\nWhen Bonny Pall, Clearcutter enters, create Beau, a legendary blue Ox creature token with \"This creature's power and toughness are each equal to the number of lands you control.\"\nWhenever you attack, draw a card, then you may put a land card from your hand or graveyard onto the battlefield."}
+        "Reach\nWhen Bonny Pall enters, create Beau, a legendary blue Ox creature token with \"Beau's power and toughness are each equal to the number of lands you control.\"\nWhenever you attack, draw a card, then you may put a land card from your hand or graveyard onto the battlefield."}
  #:card{:type-line "Legendary Creature — Goblin Pirate",
         :layout-category :normal,
         :code "otj",
@@ -2160,7 +2160,7 @@
         :layout "normal",
         :name "Breeches, the Blastmaker",
         :oracle-text
-        "Menace\nWhenever you cast your second spell each turn, you may sacrifice an artifact. If you do, flip a coin. When you win the flip, copy that spell. You may choose new targets for the copy. When you lose the flip, Breeches, the Blastmaker deals damage equal to that spell's mana value to any target."}
+        "Menace\nWhenever you cast your second spell each turn, you may sacrifice an artifact. If you do, flip a coin. When you win the flip, copy that spell. You may choose new targets for the copy. When you lose the flip, Breeches deals damage equal to that spell's mana value to any target."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "otj",
@@ -2171,7 +2171,7 @@
         :layout "normal",
         :name "Bruse Tarl, Roving Rancher",
         :oracle-text
-        "Oxen you control have double strike.\nWhenever Bruse Tarl, Roving Rancher enters or attacks, exile the top card of your library. If it's a land card, create a 2/2 white Ox creature token. Otherwise, you may cast it until the end of your next turn."}
+        "Oxen you control have double strike.\nWhenever Bruse Tarl enters or attacks, exile the top card of your library. If it's a land card, create a 2/2 white Ox creature token. Otherwise, you may cast it until the end of your next turn."}
  #:card{:type-line "Creature — Plant Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -2193,7 +2193,7 @@
         :layout "normal",
         :name "Congregation Gryff",
         :oracle-text
-        "Flying, lifelink\nWhenever Congregation Gryff attacks while saddled, it gets +X/+X until end of turn, where X is the number of Mounts you control.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Flying, lifelink\nWhenever this creature attacks while saddled, it gets +X/+X until end of turn, where X is the number of Mounts you control.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Bear Druid",
         :layout-category :normal,
         :code "otj",
@@ -2226,7 +2226,7 @@
         :layout "normal",
         :name "Ertha Jo, Frontier Mentor",
         :oracle-text
-        "When Ertha Jo, Frontier Mentor enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever you activate an ability that targets a creature or player, copy that ability. You may choose new targets for the copy."}
+        "When Ertha Jo enters, create a 1/1 red Mercenary creature token with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\"\nWhenever you activate an ability that targets a creature or player, copy that ability. You may choose new targets for the copy."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -2259,7 +2259,7 @@
         :layout "normal",
         :name "The Gitrog, Ravenous Ride",
         :oracle-text
-        "Trample, haste\nWhenever The Gitrog, Ravenous Ride deals combat damage to a player, you may sacrifice a creature that saddled it this turn. If you do, draw X cards, then put up to X land cards from your hand onto the battlefield tapped, where X is the sacrificed creature's power.\nSaddle 1"}
+        "Trample, haste\nWhenever The Gitrog deals combat damage to a player, you may sacrifice a creature that saddled it this turn. If you do, draw X cards, then put up to X land cards from your hand onto the battlefield tapped, where X is the sacrificed creature's power.\nSaddle 1"}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "otj",
@@ -2281,7 +2281,7 @@
         :layout "normal",
         :name "Intimidation Campaign",
         :oracle-text
-        "When Intimidation Campaign enters, each opponent loses 1 life, you gain 1 life, and you draw a card.\nWhenever you commit a crime, you may return Intimidation Campaign to its owner's hand. (It returns only from the battlefield. Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "When this enchantment enters, each opponent loses 1 life, you gain 1 life, and you draw a card.\nWhenever you commit a crime, you may return this enchantment to its owner's hand. (It returns only from the battlefield. Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Legendary Creature — Human Scout",
         :layout-category :normal,
         :code "otj",
@@ -2303,7 +2303,7 @@
         :layout "normal",
         :name "Jolene, Plundering Pugilist",
         :oracle-text
-        "Whenever you attack with one or more creatures with power 4 or greater, create a Treasure token.\n{1}{R}, Sacrifice a Treasure: Jolene, Plundering Pugilist deals 1 damage to any target."}
+        "Whenever you attack with one or more creatures with power 4 or greater, create a Treasure token.\n{1}{R}, Sacrifice a Treasure: Jolene deals 1 damage to any target."}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "otj",
@@ -2347,7 +2347,7 @@
         :layout "normal",
         :name "Kraum, Violent Cacophony",
         :oracle-text
-        "Flying\nWhenever you cast your second spell each turn, put a +1/+1 counter on Kraum, Violent Cacophony and draw a card."}
+        "Flying\nWhenever you cast your second spell each turn, put a +1/+1 counter on Kraum and draw a card."}
  #:card{:type-line "Legendary Creature — Lizard Rogue",
         :layout-category :normal,
         :code "otj",
@@ -2369,7 +2369,7 @@
         :layout "normal",
         :name "Lazav, Familiar Stranger",
         :oracle-text
-        "Whenever you commit a crime, put a +1/+1 counter on Lazav, Familiar Stranger. Then you may exile a card from a graveyard. If a creature card was exiled this way, you may have Lazav become a copy of that card until end of turn. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
+        "Whenever you commit a crime, put a +1/+1 counter on Lazav. Then you may exile a card from a graveyard. If a creature card was exiled this way, you may have Lazav become a copy of that card until end of turn. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)"}
  #:card{:type-line "Legendary Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -2402,7 +2402,7 @@
         :layout "normal",
         :name "Malcolm, the Eyes",
         :oracle-text
-        "Flying, haste\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying, haste\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -2435,7 +2435,7 @@
         :layout "normal",
         :name "Obeka, Splitter of Seconds",
         :oracle-text
-        "Menace\nWhenever Obeka, Splitter of Seconds deals combat damage to a player, you get that many additional upkeep steps after this phase."}
+        "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase."}
  #:card{:type-line "Legendary Planeswalker — Oko",
         :layout-category :normal,
         :code "otj",
@@ -2446,7 +2446,7 @@
         :layout "normal",
         :name "Oko, the Ringleader",
         :oracle-text
-        "At the beginning of combat on your turn, Oko, the Ringleader becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
+        "At the beginning of combat on your turn, Oko becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -2479,7 +2479,7 @@
         :layout "normal",
         :name "Rakdos, the Muscle",
         :oracle-text
-        "Flying, trample\nWhenever you sacrifice another creature, exile cards equal to its mana value from the top of target player's library. Until your next end step, you may play those cards, and mana of any type can be spent to cast those spells.\nSacrifice another creature: Rakdos, the Muscle gains indestructible until end of turn. Tap it. Activate only once each turn."}
+        "Flying, trample\nWhenever you sacrifice another creature, exile cards equal to its mana value from the top of target player's library. Until your next end step, you may play those cards, and mana of any type can be spent to cast those spells.\nSacrifice another creature: Rakdos gains indestructible until end of turn. Tap it. Activate only once each turn."}
  #:card{:type-line "Legendary Creature — Human Wizard",
         :layout-category :normal,
         :code "otj",
@@ -2490,7 +2490,7 @@
         :layout "normal",
         :name "Riku of Many Paths",
         :oracle-text
-        "Whenever you cast a modal spell, choose up to X, where X is the number of times you chose a mode for that spell —\n• Exile the top card of your library. Until the end of your next turn, you may play it.\n• Put a +1/+1 counter on Riku of Many Paths. It gains trample until end of turn.\n• Create a 1/1 blue Bird creature token with flying."}
+        "Whenever you cast a modal spell, choose up to X, where X is the number of times you chose a mode for that spell —\n• Exile the top card of your library. Until the end of your next turn, you may play it.\n• Put a +1/+1 counter on Riku. It gains trample until end of turn.\n• Create a 1/1 blue Bird creature token with flying."}
  #:card{:type-line "Legendary Creature — Cat Druid",
         :layout-category :normal,
         :code "otj",
@@ -2501,7 +2501,7 @@
         :layout "normal",
         :name "Roxanne, Starfall Savant",
         :oracle-text
-        "Whenever Roxanne, Starfall Savant enters or attacks, create a tapped colorless artifact token named Meteorite with \"When Meteorite enters, it deals 2 damage to any target\" and \"{T}: Add one mana of any color.\"\nWhenever you tap an artifact token for mana, add one mana of any type that artifact token produced."}
+        "Whenever Roxanne enters or attacks, create a tapped colorless artifact token named Meteorite with \"When this token enters, it deals 2 damage to any target\" and \"{T}: Add one mana of any color.\"\nWhenever you tap an artifact token for mana, add one mana of any type that artifact token produced."}
  #:card{:type-line "Creature — Vampire Assassin",
         :layout-category :normal,
         :code "otj",
@@ -2512,7 +2512,7 @@
         :layout "normal",
         :name "Ruthless Lawbringer",
         :oracle-text
-        "When Ruthless Lawbringer enters, you may sacrifice another creature. When you do, destroy target nonland permanent."}
+        "When this creature enters, you may sacrifice another creature. When you do, destroy target nonland permanent."}
  #:card{:type-line "Legendary Creature — Human Ninja Rogue",
         :layout-category :normal,
         :code "otj",
@@ -2523,7 +2523,7 @@
         :layout "normal",
         :name "Satoru, the Infiltrator",
         :oracle-text
-        "Menace\nWhenever Satoru, the Infiltrator and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card."}
+        "Menace\nWhenever Satoru and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card."}
  #:card{:type-line "Legendary Creature — Elf Scout",
         :layout-category :normal,
         :code "otj",
@@ -2545,7 +2545,7 @@
         :layout "normal",
         :name "Seraphic Steed",
         :oracle-text
-        "First strike, lifelink\nWhenever Seraphic Steed attacks while saddled, create a 3/3 white Angel creature token with flying.\nSaddle 4 (Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "First strike, lifelink\nWhenever this creature attacks while saddled, create a 3/3 white Angel creature token with flying.\nSaddle 4 (Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -2578,7 +2578,7 @@
         :layout "normal",
         :name "Vial Smasher, Gleeful Grenadier",
         :oracle-text
-        "Whenever another outlaw you control enters, Vial Smasher, Gleeful Grenadier deals 1 damage to target opponent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
+        "Whenever another outlaw you control enters, Vial Smasher deals 1 damage to target opponent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)"}
  #:card{:type-line "Legendary Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -2622,7 +2622,7 @@
         :layout "normal",
         :name "Wylie Duke, Atiin Hero",
         :oracle-text
-        "Vigilance\nWhenever Wylie Duke, Atiin Hero becomes tapped, you gain 1 life and draw a card."}
+        "Vigilance\nWhenever Wylie Duke becomes tapped, you gain 1 life and draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otj",
@@ -2633,7 +2633,7 @@
         :layout "normal",
         :name "Bandit's Haul",
         :oracle-text
-        "Whenever you commit a crime, put a loot counter on Bandit's Haul. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\n{T}: Add one mana of any color.\n{2}, {T}, Remove two loot counters from Bandit's Haul: Draw a card."}
+        "Whenever you commit a crime, put a loot counter on this artifact. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\n{T}: Add one mana of any color.\n{2}, {T}, Remove two loot counters from this artifact: Draw a card."}
  #:card{:type-line "Artifact",
         :layout-category :normal,
         :code "otj",
@@ -2644,7 +2644,7 @@
         :layout "normal",
         :name "Boom Box",
         :oracle-text
-        "{6}, {T}, Sacrifice Boom Box: Destroy up to one target artifact, up to one target creature, and up to one target land."}
+        "{6}, {T}, Sacrifice this artifact: Destroy up to one target artifact, up to one target creature, and up to one target land."}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "otj",
@@ -2655,7 +2655,7 @@
         :layout "normal",
         :name "Gold Pan",
         :oracle-text
-        "When Gold Pan enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nEquipped creature gets +1/+1.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
+        "When this Equipment enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nEquipped creature gets +1/+1.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"}
  #:card{:type-line "Artifact — Equipment",
         :layout-category :normal,
         :code "otj",
@@ -2677,7 +2677,7 @@
         :layout "normal",
         :name "Luxurious Locomotive",
         :oracle-text
-        "Whenever Luxurious Locomotive attacks, create a Treasure token for each creature that crewed it this turn. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nCrew 1. Activate only once each turn. (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "Whenever this Vehicle attacks, create a Treasure token for each creature that crewed it this turn. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")\nCrew 1. Activate only once each turn. (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact — Vehicle",
         :layout-category :normal,
         :code "otj",
@@ -2688,7 +2688,7 @@
         :layout "normal",
         :name "Mobile Homestead",
         :oracle-text
-        "Mobile Homestead has haste as long as you control a Mount.\nWhenever Mobile Homestead attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
+        "This Vehicle has haste as long as you control a Mount.\nWhenever this Vehicle attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"}
  #:card{:type-line "Artifact Creature — Scarecrow",
         :layout-category :normal,
         :code "otj",
@@ -2699,7 +2699,7 @@
         :layout "normal",
         :name "Oasis Gardener",
         :oracle-text
-        "When Oasis Gardener enters, you gain 2 life.\n{T}: Add one mana of any color."}
+        "When this creature enters, you gain 2 life.\n{T}: Add one mana of any color."}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "otj",
@@ -2710,7 +2710,7 @@
         :layout "normal",
         :name "Redrock Sentinel",
         :oracle-text
-        "Defender\n{2}, {T}, Sacrifice a land: Draw a card and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"}
+        "Defender\n{2}, {T}, Sacrifice a land: Draw a card and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"}
  #:card{:type-line "Artifact Creature — Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -2721,7 +2721,7 @@
         :layout "normal",
         :name "Silver Deputy",
         :oracle-text
-        "When Silver Deputy enters, you may search your library for a basic land card or a Desert card, reveal it, then shuffle and put it on top.\n{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery."}
+        "When this creature enters, you may search your library for a basic land card or a Desert card, reveal it, then shuffle and put it on top.\n{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery."}
  #:card{:type-line "Artifact Creature — Dog",
         :layout-category :normal,
         :code "otj",
@@ -2732,7 +2732,7 @@
         :layout "normal",
         :name "Sterling Hound",
         :oracle-text
-        "When Sterling Hound enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
+        "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"}
  #:card{:type-line "Artifact Creature — Golem",
         :layout-category :normal,
         :code "otj",
@@ -2754,7 +2754,7 @@
         :layout "normal",
         :name "Abraded Bluffs",
         :oracle-text
-        "Abraded Bluffs enters tapped.\nWhen Abraded Bluffs enters, it deals 1 damage to target opponent.\n{T}: Add {R} or {W}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2765,7 +2765,7 @@
         :layout "normal",
         :name "Arid Archway",
         :oracle-text
-        "Arid Archway enters tapped.\nWhen Arid Archway enters, return a land you control to its owner's hand. If another Desert was returned this way, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {C}{C}."}
+        "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand. If another Desert was returned this way, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {C}{C}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2776,7 +2776,7 @@
         :layout "normal",
         :name "Bristling Backwoods",
         :oracle-text
-        "Bristling Backwoods enters tapped.\nWhen Bristling Backwoods enters, it deals 1 damage to target opponent.\n{T}: Add {R} or {G}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {R} or {G}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2787,7 +2787,7 @@
         :layout "normal",
         :name "Conduit Pylons",
         :oracle-text
-        "When Conduit Pylons enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color."}
+        "When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2798,7 +2798,7 @@
         :layout "normal",
         :name "Creosote Heath",
         :oracle-text
-        "Creosote Heath enters tapped.\nWhen Creosote Heath enters, it deals 1 damage to target opponent.\n{T}: Add {G} or {W}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {G} or {W}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2809,7 +2809,7 @@
         :layout "normal",
         :name "Eroded Canyon",
         :oracle-text
-        "Eroded Canyon enters tapped.\nWhen Eroded Canyon enters, it deals 1 damage to target opponent.\n{T}: Add {U} or {R}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2820,7 +2820,7 @@
         :layout "normal",
         :name "Festering Gulch",
         :oracle-text
-        "Festering Gulch enters tapped.\nWhen Festering Gulch enters, it deals 1 damage to target opponent.\n{T}: Add {B} or {G}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2831,7 +2831,7 @@
         :layout "normal",
         :name "Forlorn Flats",
         :oracle-text
-        "Forlorn Flats enters tapped.\nWhen Forlorn Flats enters, it deals 1 damage to target opponent.\n{T}: Add {W} or {B}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2842,7 +2842,7 @@
         :layout "normal",
         :name "Jagged Barrens",
         :oracle-text
-        "Jagged Barrens enters tapped.\nWhen Jagged Barrens enters, it deals 1 damage to target opponent.\n{T}: Add {B} or {R}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {B} or {R}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2853,7 +2853,7 @@
         :layout "normal",
         :name "Lonely Arroyo",
         :oracle-text
-        "Lonely Arroyo enters tapped.\nWhen Lonely Arroyo enters, it deals 1 damage to target opponent.\n{T}: Add {W} or {U}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {W} or {U}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2864,7 +2864,7 @@
         :layout "normal",
         :name "Lush Oasis",
         :oracle-text
-        "Lush Oasis enters tapped.\nWhen Lush Oasis enters, it deals 1 damage to target opponent.\n{T}: Add {G} or {U}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2875,7 +2875,7 @@
         :layout "normal",
         :name "Mirage Mesa",
         :oracle-text
-        "Mirage Mesa enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color."}
+        "This land enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2897,7 +2897,7 @@
         :layout "normal",
         :name "Soured Springs",
         :oracle-text
-        "Soured Springs enters tapped.\nWhen Soured Springs enters, it deals 1 damage to target opponent.\n{T}: Add {U} or {B}."}
+        "This land enters tapped.\nWhen this land enters, it deals 1 damage to target opponent.\n{T}: Add {U} or {B}."}
  #:card{:type-line "Land — Desert",
         :layout-category :normal,
         :code "otj",
@@ -2919,7 +2919,7 @@
         :layout "normal",
         :name "Blooming Marsh",
         :oracle-text
-        "Blooming Marsh enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {G}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -2930,7 +2930,7 @@
         :layout "normal",
         :name "Botanical Sanctum",
         :oracle-text
-        "Botanical Sanctum enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -2941,7 +2941,7 @@
         :layout "normal",
         :name "Concealed Courtyard",
         :oracle-text
-        "Concealed Courtyard enters tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -2952,7 +2952,7 @@
         :layout "normal",
         :name "Inspiring Vantage",
         :oracle-text
-        "Inspiring Vantage enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -2963,7 +2963,7 @@
         :layout "normal",
         :name "Spirebluff Canal",
         :oracle-text
-        "Spirebluff Canal enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Legendary Planeswalker — Jace",
         :layout-category :normal,
         :code "otj",
@@ -2974,7 +2974,7 @@
         :layout "normal",
         :name "Jace Reawakened",
         :oracle-text
-        "You can't cast this spell during your first, second, or third turns of the game.\n+1: Draw a card, then discard a card.\n+1: You may exile a nonland card with mana value 3 or less from your hand. If you do, it becomes plotted.\n−6: Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copy."}
+        "You can't cast Jace Reawakened during your first, second, or third turns of the game.\n+1: Draw a card, then discard a card.\n+1: You may exile a nonland card with mana value 3 or less from your hand. If you do, it becomes plotted.\n−6: Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copy."}
  #:card{:type-line "Basic Land — Plains",
         :layout-category :normal,
         :code "otj",
@@ -3168,7 +3168,7 @@
         :layout "normal",
         :name "Tinybones, the Pickpocket",
         :oracle-text
-        "Deathtouch\nWhenever Tinybones, the Pickpocket deals combat damage to a player, you may cast target nonland permanent card from that player's graveyard, and mana of any type can be spent to cast that spell."}
+        "Deathtouch\nWhenever Tinybones deals combat damage to a player, you may cast target nonland permanent card from that player's graveyard, and mana of any type can be spent to cast that spell."}
  #:card{:type-line "Legendary Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -3179,7 +3179,7 @@
         :layout "normal",
         :name "Annie Flash, the Veteran",
         :oracle-text
-        "Flash\nWhen Annie Flash, the Veteran enters, if you cast it, return target permanent card with mana value 3 or less from your graveyard to the battlefield tapped.\nWhenever Annie Flash becomes tapped, exile the top two cards of your library. You may play those cards this turn."}
+        "Flash\nWhen Annie Flash enters, if you cast it, return target permanent card with mana value 3 or less from your graveyard to the battlefield tapped.\nWhenever Annie Flash becomes tapped, exile the top two cards of your library. You may play those cards this turn."}
  #:card{:type-line "Legendary Creature — Goblin Pirate",
         :layout-category :normal,
         :code "otj",
@@ -3190,7 +3190,7 @@
         :layout "normal",
         :name "Breeches, the Blastmaker",
         :oracle-text
-        "Menace\nWhenever you cast your second spell each turn, you may sacrifice an artifact. If you do, flip a coin. When you win the flip, copy that spell. You may choose new targets for the copy. When you lose the flip, Breeches, the Blastmaker deals damage equal to that spell's mana value to any target."}
+        "Menace\nWhenever you cast your second spell each turn, you may sacrifice an artifact. If you do, flip a coin. When you win the flip, copy that spell. You may choose new targets for the copy. When you lose the flip, Breeches deals damage equal to that spell's mana value to any target."}
  #:card{:type-line "Legendary Creature — Human Warlock",
         :layout-category :normal,
         :code "otj",
@@ -3223,7 +3223,7 @@
         :layout "normal",
         :name "Malcolm, the Eyes",
         :oracle-text
-        "Flying, haste\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")"}
+        "Flying, haste\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")"}
  #:card{:type-line "Legendary Planeswalker — Oko",
         :layout-category :normal,
         :code "otj",
@@ -3234,18 +3234,18 @@
         :layout "normal",
         :name "Oko, the Ringleader",
         :oracle-text
-        "At the beginning of combat on your turn, Oko, the Ringleader becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
+        "At the beginning of combat on your turn, Oko becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
  #:card{:type-line "Legendary Creature — Demon Mercenary",
         :layout-category :normal,
         :code "otj",
         :highres? true,
         :png
-        "https://cards.scryfall.io/png/front/b/8/b85635e0-fb5b-42ea-8a30-d67922cbca95.png?1712356501",
+        "https://cards.scryfall.io/png/front/b/8/b85635e0-fb5b-42ea-8a30-d67922cbca95.png?1738102591",
         :collector-number "297",
         :layout "normal",
         :name "Rakdos, the Muscle",
         :oracle-text
-        "Flying, trample\nWhenever you sacrifice another creature, exile cards equal to its mana value from the top of target player's library. Until your next end step, you may play those cards, and mana of any type can be spent to cast those spells.\nSacrifice another creature: Rakdos, the Muscle gains indestructible until end of turn. Tap it. Activate only once each turn."}
+        "Flying, trample\nWhenever you sacrifice another creature, exile cards equal to its mana value from the top of target player's library. Until your next end step, you may play those cards, and mana of any type can be spent to cast those spells.\nSacrifice another creature: Rakdos gains indestructible until end of turn. Tap it. Activate only once each turn."}
  #:card{:type-line "Legendary Creature — Human Ninja Rogue",
         :layout-category :normal,
         :code "otj",
@@ -3256,7 +3256,7 @@
         :layout "normal",
         :name "Satoru, the Infiltrator",
         :oracle-text
-        "Menace\nWhenever Satoru, the Infiltrator and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card."}
+        "Menace\nWhenever Satoru and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card."}
  #:card{:type-line "Legendary Creature — Gorgon Assassin",
         :layout-category :normal,
         :code "otj",
@@ -3278,7 +3278,7 @@
         :layout "normal",
         :name "Blooming Marsh",
         :oracle-text
-        "Blooming Marsh enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {G}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {G}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -3289,7 +3289,7 @@
         :layout "normal",
         :name "Botanical Sanctum",
         :oracle-text
-        "Botanical Sanctum enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -3300,7 +3300,7 @@
         :layout "normal",
         :name "Concealed Courtyard",
         :oracle-text
-        "Concealed Courtyard enters tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -3311,7 +3311,7 @@
         :layout "normal",
         :name "Inspiring Vantage",
         :oracle-text
-        "Inspiring Vantage enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}."}
  #:card{:type-line "Land",
         :layout-category :normal,
         :code "otj",
@@ -3322,7 +3322,7 @@
         :layout "normal",
         :name "Spirebluff Canal",
         :oracle-text
-        "Spirebluff Canal enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}."}
+        "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}."}
  #:card{:type-line "Legendary Planeswalker — Oko",
         :layout-category :normal,
         :code "otj",
@@ -3333,7 +3333,7 @@
         :layout "normal",
         :name "Oko, the Ringleader",
         :oracle-text
-        "At the beginning of combat on your turn, Oko, the Ringleader becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
+        "At the beginning of combat on your turn, Oko becomes a copy of up to one target creature you control until end of turn, except he has hexproof.\n+1: Draw two cards. If you've committed a crime this turn, discard a card. Otherwise, discard two cards.\n−1: Create a 3/3 green Elk creature token.\n−5: For each other nonland permanent you control, create a token that's a copy of that permanent."}
  #:card{:type-line "Legendary Planeswalker — Jace",
         :layout-category :normal,
         :code "otj",
@@ -3344,7 +3344,7 @@
         :layout "normal",
         :name "Jace Reawakened",
         :oracle-text
-        "You can't cast this spell during your first, second, or third turns of the game.\n+1: Draw a card, then discard a card.\n+1: You may exile a nonland card with mana value 3 or less from your hand. If you do, it becomes plotted.\n−6: Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copy."}
+        "You can't cast Jace Reawakened during your first, second, or third turns of the game.\n+1: Draw a card, then discard a card.\n+1: You may exile a nonland card with mana value 3 or less from your hand. If you do, it becomes plotted.\n−6: Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copy."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -3366,7 +3366,7 @@
         :layout "normal",
         :name "Archangel of Tithes",
         :oracle-text
-        "Flying\nAs long as Archangel of Tithes is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as Archangel of Tithes is attacking, creatures can't block unless their controller pays {1} for each of those creatures."}
+        "Flying\nAs long as this creature is untapped, creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\nAs long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures."}
  #:card{:type-line "Creature — Bird Rogue",
         :layout-category :normal,
         :code "otj",
@@ -3377,7 +3377,7 @@
         :layout "normal",
         :name "Aven Interrupter",
         :oracle-text
-        "Flash\nFlying\nWhen Aven Interrupter enters, exile target spell. It becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)\nSpells your opponents cast from graveyards or from exile cost {2} more to cast."}
+        "Flash\nFlying\nWhen this creature enters, exile target spell. It becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)\nSpells your opponents cast from graveyards or from exile cost {2} more to cast."}
  #:card{:type-line "Creature — Rabbit Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -3388,7 +3388,7 @@
         :layout "normal",
         :name "Claim Jumper",
         :oracle-text
-        "Vigilance\nWhen Claim Jumper enters, if an opponent controls more lands than you, you may search your library for a Plains card and put it onto the battlefield tapped. Then if an opponent controls more lands than you, repeat this process once. If you search your library this way, shuffle."}
+        "Vigilance\nWhen this creature enters, if an opponent controls more lands than you, you may search your library for a Plains card and put it onto the battlefield tapped. Then if an opponent controls more lands than you, repeat this process once. If you search your library this way, shuffle."}
  #:card{:type-line "Creature — Spirit",
         :layout-category :normal,
         :code "otj",
@@ -3399,7 +3399,7 @@
         :layout "normal",
         :name "Dust Animus",
         :oracle-text
-        "Flying\nIf you control five or more untapped lands, Dust Animus enters with two +1/+1 counters and a lifelink counter on it.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying\nIf you control five or more untapped lands, this creature enters with two +1/+1 counters and a lifelink counter on it.\nPlot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -3421,7 +3421,7 @@
         :layout "normal",
         :name "Fortune, Loyal Steed",
         :oracle-text
-        "When Fortune, Loyal Steed enters, scry 2.\nWhenever Fortune attacks while saddled, at end of combat, exile it and up to one creature that saddled it this turn, then return those cards to the battlefield under their owner's control.\nSaddle 1"}
+        "When Fortune enters, scry 2.\nWhenever Fortune attacks while saddled, at end of combat, exile it and up to one creature that saddled it this turn, then return those cards to the battlefield under their owner's control.\nSaddle 1"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -3432,7 +3432,7 @@
         :layout "normal",
         :name "High Noon",
         :oracle-text
-        "Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice High Noon: It deals 5 damage to any target."}
+        "Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice this enchantment: It deals 5 damage to any target."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -3454,7 +3454,7 @@
         :layout "normal",
         :name "Archmage's Newt",
         :oracle-text
-        "Whenever Archmage's Newt deals combat damage to a player, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. That card gains flashback {0} until end of turn instead if Archmage's Newt is saddled. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nSaddle 3"}
+        "Whenever this creature deals combat damage to a player, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. That card gains flashback {0} until end of turn instead if this creature is saddled. (You may cast that card from your graveyard for its flashback cost. Then exile it.)\nSaddle 3"}
  #:card{:type-line "Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -3520,7 +3520,7 @@
         :layout "normal",
         :name "Stoic Sphinx",
         :oracle-text
-        "Flash\nFlying\nStoic Sphinx has hexproof as long as you haven't cast a spell this turn."}
+        "Flash\nFlying\nThis creature has hexproof as long as you haven't cast a spell this turn."}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -3542,7 +3542,7 @@
         :layout "normal",
         :name "Caustic Bronco",
         :oracle-text
-        "Whenever Caustic Bronco attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card's mana value if Caustic Bronco isn't saddled. Otherwise, each opponent loses that much life.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "Whenever this creature attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card's mana value if this creature isn't saddled. Otherwise, each opponent loses that much life.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -3575,7 +3575,7 @@
         :layout "normal",
         :name "Rush of Dread",
         :oracle-text
-        "Spree (Choose one or more additional costs.)\n+ {1} — Target opponent sacrifices half the creatures they control, rounded up.\n+ {2} — Target opponent discards half the cards in their hand, rounded up.\n+ {2} — Target opponent loses half their life, rounded up."}
+        "Spree (Choose one or more additional costs.)\n+ {1} — Target opponent sacrifices half the creatures they control of their choice, rounded up.\n+ {2} — Target opponent discards half the cards in their hand, rounded up.\n+ {2} — Target opponent loses half their life, rounded up."}
  #:card{:type-line "Legendary Enchantment",
         :layout-category :normal,
         :code "otj",
@@ -3597,7 +3597,7 @@
         :layout "normal",
         :name "Vadmir, New Blood",
         :oracle-text
-        "Whenever you commit a crime, put a +1/+1 counter on Vadmir, New Blood. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nAs long as Vadmir has four or more +1/+1 counters on it, it has menace and lifelink."}
+        "Whenever you commit a crime, put a +1/+1 counter on Vadmir. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)\nAs long as Vadmir has four or more +1/+1 counters on it, it has menace and lifelink."}
  #:card{:type-line "Legendary Creature — Horse Mount",
         :layout-category :normal,
         :code "otj",
@@ -3608,7 +3608,7 @@
         :layout "normal",
         :name "Calamity, Galloping Inferno",
         :oracle-text
-        "Haste\nWhenever Calamity, Galloping Inferno attacks while saddled, choose a nonlegendary creature that saddled it this turn and create a tapped and attacking token that's a copy of it. Sacrifice that token at the beginning of the next end step. Repeat this process once.\nSaddle 1"}
+        "Haste\nWhenever Calamity attacks while saddled, choose a nonlegendary creature that saddled it this turn and create a tapped and attacking token that's a copy of it. Sacrifice that token at the beginning of the next end step. Repeat this process once.\nSaddle 1"}
  #:card{:type-line "Instant",
         :layout-category :normal,
         :code "otj",
@@ -3641,7 +3641,7 @@
         :layout "normal",
         :name "Hellspur Posse Boss",
         :oracle-text
-        "Other outlaws you control have haste. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nWhen Hellspur Posse Boss enters, create two 1/1 red Mercenary creature tokens with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
+        "Other outlaws you control have haste. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)\nWhen this creature enters, create two 1/1 red Mercenary creature tokens with \"{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery.\""}
  #:card{:type-line "Legendary Creature — Dwarf Berserker",
         :layout-category :normal,
         :code "otj",
@@ -3663,7 +3663,7 @@
         :layout "normal",
         :name "Slickshot Show-Off",
         :oracle-text
-        "Flying, haste\nWhenever you cast a noncreature spell, Slickshot Show-Off gets +2/+0 until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying, haste\nWhenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.\nPlot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Scorpion Dragon",
         :layout-category :normal,
         :code "otj",
@@ -3674,7 +3674,7 @@
         :layout "normal",
         :name "Stingerback Terror",
         :oracle-text
-        "Flying, trample\nStingerback Terror gets -1/-1 for each card in your hand.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "Flying, trample\nThis creature gets -1/-1 for each card in your hand.\nPlot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Dragon",
         :layout-category :normal,
         :code "otj",
@@ -3685,7 +3685,7 @@
         :layout "normal",
         :name "Terror of the Peaks",
         :oracle-text
-        "Flying\nSpells your opponents cast that target Terror of the Peaks cost an additional 3 life to cast.\nWhenever another creature you control enters, Terror of the Peaks deals damage equal to that creature's power to any target."}
+        "Flying\nSpells your opponents cast that target this creature cost an additional 3 life to cast.\nWhenever another creature you control enters, this creature deals damage equal to that creature's power to any target."}
  #:card{:type-line "Legendary Creature — Plant Druid",
         :layout-category :normal,
         :code "otj",
@@ -3707,7 +3707,7 @@
         :layout "normal",
         :name "Colossal Rattlewurm",
         :oracle-text
-        "Colossal Rattlewurm has flash as long as you control a Desert.\nTrample\n{1}{G}, Exile Colossal Rattlewurm from your graveyard: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle."}
+        "Colossal Rattlewurm has flash as long as you control a Desert.\nTrample\n{1}{G}, Exile this card from your graveyard: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle."}
  #:card{:type-line "Creature — Human Rogue",
         :layout-category :normal,
         :code "otj",
@@ -3729,7 +3729,7 @@
         :layout "normal",
         :name "Goldvein Hydra",
         :oracle-text
-        "Vigilance, trample, haste\nGoldvein Hydra enters with X +1/+1 counters on it.\nWhen Goldvein Hydra dies, create a number of tapped Treasure tokens equal to its power."}
+        "Vigilance, trample, haste\nThis creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a number of tapped Treasure tokens equal to its power."}
  #:card{:type-line "Creature — Brushwagg Mount",
         :layout-category :normal,
         :code "otj",
@@ -3740,7 +3740,7 @@
         :layout "normal",
         :name "Ornery Tumblewagg",
         :oracle-text
-        "At the beginning of combat on your turn, put a +1/+1 counter on target creature.\nWhenever Ornery Tumblewagg attacks while saddled, double the number of +1/+1 counters on target creature.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "At the beginning of combat on your turn, put a +1/+1 counter on target creature.\nWhenever this creature attacks while saddled, double the number of +1/+1 counters on target creature.\nSaddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Creature — Human Druid",
         :layout-category :normal,
         :code "otj",
@@ -3751,7 +3751,7 @@
         :layout "normal",
         :name "Outcaster Trailblazer",
         :oracle-text
-        "When Outcaster Trailblazer enters, add one mana of any color.\nWhenever another creature you control with power 4 or greater enters, draw a card.\nPlot {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
+        "When this creature enters, add one mana of any color.\nWhenever another creature you control with power 4 or greater enters, draw a card.\nPlot {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)"}
  #:card{:type-line "Creature — Rhino Warrior",
         :layout-category :normal,
         :code "otj",
@@ -3806,7 +3806,7 @@
         :layout "normal",
         :name "Assimilation Aegis",
         :oracle-text
-        "When Assimilation Aegis enters, exile up to one target creature until Assimilation Aegis leaves the battlefield.\nWhenever Assimilation Aegis becomes attached to a creature, for as long as Assimilation Aegis remains attached to it, that creature becomes a copy of a creature card exiled with Assimilation Aegis.\nEquip {2}"}
+        "When this Equipment enters, exile up to one target creature until this Equipment leaves the battlefield.\nWhenever this Equipment becomes attached to a creature, for as long as this Equipment remains attached to it, that creature becomes a copy of a creature card exiled with this Equipment.\nEquip {2}"}
  #:card{:type-line "Legendary Creature — Giant Scout",
         :layout-category :normal,
         :code "otj",
@@ -3817,7 +3817,7 @@
         :layout "normal",
         :name "Bonny Pall, Clearcutter",
         :oracle-text
-        "Reach\nWhen Bonny Pall, Clearcutter enters, create Beau, a legendary blue Ox creature token with \"This creature's power and toughness are each equal to the number of lands you control.\"\nWhenever you attack, draw a card, then you may put a land card from your hand or graveyard onto the battlefield."}
+        "Reach\nWhen Bonny Pall enters, create Beau, a legendary blue Ox creature token with \"Beau's power and toughness are each equal to the number of lands you control.\"\nWhenever you attack, draw a card, then you may put a land card from your hand or graveyard onto the battlefield."}
  #:card{:type-line "Legendary Creature — Human Warrior",
         :layout-category :normal,
         :code "otj",
@@ -3828,7 +3828,7 @@
         :layout "normal",
         :name "Bruse Tarl, Roving Rancher",
         :oracle-text
-        "Oxen you control have double strike.\nWhenever Bruse Tarl, Roving Rancher enters or attacks, exile the top card of your library. If it's a land card, create a 2/2 white Ox creature token. Otherwise, you may cast it until the end of your next turn."}
+        "Oxen you control have double strike.\nWhenever Bruse Tarl enters or attacks, exile the top card of your library. If it's a land card, create a 2/2 white Ox creature token. Otherwise, you may cast it until the end of your next turn."}
  #:card{:type-line "Legendary Creature — Human Shaman",
         :layout-category :normal,
         :code "otj",
@@ -3850,7 +3850,7 @@
         :layout "normal",
         :name "The Gitrog, Ravenous Ride",
         :oracle-text
-        "Trample, haste\nWhenever The Gitrog, Ravenous Ride deals combat damage to a player, you may sacrifice a creature that saddled it this turn. If you do, draw X cards, then put up to X land cards from your hand onto the battlefield tapped, where X is the sacrificed creature's power.\nSaddle 1"}
+        "Trample, haste\nWhenever The Gitrog deals combat damage to a player, you may sacrifice a creature that saddled it this turn. If you do, draw X cards, then put up to X land cards from your hand onto the battlefield tapped, where X is the sacrificed creature's power.\nSaddle 1"}
  #:card{:type-line "Legendary Creature — Human Advisor",
         :layout-category :normal,
         :code "otj",
@@ -3916,7 +3916,7 @@
         :layout "normal",
         :name "Obeka, Splitter of Seconds",
         :oracle-text
-        "Menace\nWhenever Obeka, Splitter of Seconds deals combat damage to a player, you get that many additional upkeep steps after this phase."}
+        "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -3949,7 +3949,7 @@
         :layout "normal",
         :name "Riku of Many Paths",
         :oracle-text
-        "Whenever you cast a modal spell, choose up to X, where X is the number of times you chose a mode for that spell —\n• Exile the top card of your library. Until the end of your next turn, you may play it.\n• Put a +1/+1 counter on Riku of Many Paths. It gains trample until end of turn.\n• Create a 1/1 blue Bird creature token with flying."}
+        "Whenever you cast a modal spell, choose up to X, where X is the number of times you chose a mode for that spell —\n• Exile the top card of your library. Until the end of your next turn, you may play it.\n• Put a +1/+1 counter on Riku. It gains trample until end of turn.\n• Create a 1/1 blue Bird creature token with flying."}
  #:card{:type-line "Legendary Creature — Cat Druid",
         :layout-category :normal,
         :code "otj",
@@ -3960,7 +3960,7 @@
         :layout "normal",
         :name "Roxanne, Starfall Savant",
         :oracle-text
-        "Whenever Roxanne, Starfall Savant enters or attacks, create a tapped colorless artifact token named Meteorite with \"When Meteorite enters, it deals 2 damage to any target\" and \"{T}: Add one mana of any color.\"\nWhenever you tap an artifact token for mana, add one mana of any type that artifact token produced."}
+        "Whenever Roxanne enters or attacks, create a tapped colorless artifact token named Meteorite with \"When this token enters, it deals 2 damage to any target\" and \"{T}: Add one mana of any color.\"\nWhenever you tap an artifact token for mana, add one mana of any type that artifact token produced."}
  #:card{:type-line "Legendary Creature — Elf Scout",
         :layout-category :normal,
         :code "otj",
@@ -3982,7 +3982,7 @@
         :layout "normal",
         :name "Seraphic Steed",
         :oracle-text
-        "First strike, lifelink\nWhenever Seraphic Steed attacks while saddled, create a 3/3 white Angel creature token with flying.\nSaddle 4 (Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
+        "First strike, lifelink\nWhenever this creature attacks while saddled, create a 3/3 white Angel creature token with flying.\nSaddle 4 (Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)"}
  #:card{:type-line "Legendary Creature — Human Mercenary",
         :layout-category :normal,
         :code "otj",
@@ -4015,7 +4015,7 @@
         :layout "normal",
         :name "Wylie Duke, Atiin Hero",
         :oracle-text
-        "Vigilance\nWhenever Wylie Duke, Atiin Hero becomes tapped, you gain 1 life and draw a card."}
+        "Vigilance\nWhenever Wylie Duke becomes tapped, you gain 1 life and draw a card."}
  #:card{:type-line "Creature — Human Scout",
         :layout-category :normal,
         :code "otj",
@@ -4026,7 +4026,7 @@
         :layout "normal",
         :name "Frontier Seeker",
         :oracle-text
-        "When Frontier Seeker enters, look at the top five cards of your library. You may reveal a Mount creature card or a Plains card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
+        "When this creature enters, look at the top five cards of your library. You may reveal a Mount creature card or a Plains card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."}
  #:card{:type-line "Sorcery",
         :layout-category :normal,
         :code "otj",
@@ -4070,7 +4070,7 @@
         :layout "normal",
         :name "Ruthless Lawbringer",
         :oracle-text
-        "When Ruthless Lawbringer enters, you may sacrifice another creature. When you do, destroy target nonland permanent."}
+        "When this creature enters, you may sacrifice another creature. When you do, destroy target nonland permanent."}
  #:card{:type-line "Legendary Artifact — Equipment",
         :layout-category :normal,
         :code "otj",
